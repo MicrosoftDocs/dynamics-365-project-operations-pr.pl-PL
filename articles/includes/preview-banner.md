@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Opisane w tym artykule funkcje są dostępne dla użytkowników docelowych w ramach wersji zapoznawczej. Zawartość i funkcjonalność mogą ulec zmianie. Aby uzyskać więcej informacji na temat wersji zapoznawczej, zapoznaj się z [często zadawanymi pytaniami na temat aktualizacji usług jednej wersji](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
