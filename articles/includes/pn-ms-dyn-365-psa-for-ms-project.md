@@ -1,0 +1,1 @@
+<span data-ttu-id="85fdf-101">Dodatek Dynamics 365 Project Service Automation dla programu Microsoft Project</span><span class="sxs-lookup"><span data-stu-id="85fdf-101">Dynamics 365 Project Service Automation Add-in for Microsoft Project</span></span>
