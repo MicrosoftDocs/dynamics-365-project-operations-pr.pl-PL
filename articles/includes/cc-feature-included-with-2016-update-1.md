@@ -1,1 +1,1 @@
-Ta funkcja jest obsługiwana w usłudze Dynamics CRM Online 2016 Update 1. Interesuje Cię możliwość korzystania z tej funkcji? [Znajdź administratora usługi Dynamics 365 lub przedstawiciela pomocy technicznej](../basics/find-administrator-support.md).
+Ta funkcja jest obsługiwana w usłudze Dynamics CRM Online 2016 Update 1. Interesuje Cię możliwość korzystania z tej funkcji? [Znajdź administratora usługi Dynamics 365 lub przedstawiciela pomocy technicznej](../basics/find-administrator-support.md)
