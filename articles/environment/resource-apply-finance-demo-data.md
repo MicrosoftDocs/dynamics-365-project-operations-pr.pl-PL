@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949015"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096635"
 ---
 # <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Stosowanie danych demonstracyjnych Project Operations do środowiska hostowanego w chmurze rozwiązania Finance
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
->[Uwaga] Ten temat ma zastosowanie tylko do Microsoft Dynamics 365 Finance w wersji 10.0.13 i dotyczy tylko środowiska hostowanego w chmurze. Wykonaj czynności opisane w tym temacie **PRZED** zastosowaniem aktualizacji dotyczących jakości w środowisku.
+> [!IMPORTANT]
+> Ten temat ma zastosowanie tylko do Microsoft Dynamics 365 Finance w wersji 10.0.13 i dotyczy tylko środowiska hostowanego w chmurze. Wykonaj czynności opisane w tym temacie **PRZED** zastosowaniem aktualizacji dotyczących jakości w środowisku.
 
 1. W projekcie LCS otwórz stronę **Szczegóły środowiska**. Należy zwrócić uwagę, że informacje wymagane do łączenia się ze środowiskiem za pomocą protokołu RDP (Remote Desktop Protocol) są także zawarte.
 
@@ -45,7 +46,7 @@ Pierwszy zestaw podświetlonych poświadczeń to lokalne poświadczenia konta, k
 
 6. W przypadku korzystania z Eksploratora obiektów, **Bazy danych** i zlokalizuj **AXDB**. Baza danych zostanie zamieniona na nową, która znajduje się w [Centrum pobierania](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Skopiuj plik zip na maszynę wirtualną, która jest zdalnie przydzielone do programu, a następnie wyodrębnij zawartość zip.
-8. W programie SQL Server Management Studio kliknij prawym przyciskiem myszy opcję **AxDB**, a następnie wybierz kolejno pozycje **Zadania** > **Przywracanie** > **Bazy danych**.
+8. W programie SQL Server Management Studio kliknij prawym przyciskiem myszy opcję **AxDB** , a następnie wybierz kolejno pozycje **Zadania** > **Przywracanie** > **Bazy danych**.
 
 ![Przywróć bazę danych](./media/5RestoreDatabase.png)
 
@@ -53,7 +54,7 @@ Pierwszy zestaw podświetlonych poświadczeń to lokalne poświadczenia konta, k
 
 ![Urządzenia źródłowe](./media/6SourceDevice.png)
 
-10. Wybierz **Opcje**, a następnie wybierz opcję **Zastąp istniejącą bazę danych** i **Zamknij istniejące połączenia z docelową bazą danych**. 
+10. Wybierz **Opcje** , a następnie wybierz opcję **Zastąp istniejącą bazę danych** i **Zamknij istniejące połączenia z docelową bazą danych**. 
 11. Wybierz pozycję **OK**.
 
 ![Przywracanie ustawień](./media/7RestoreSetting.png)
