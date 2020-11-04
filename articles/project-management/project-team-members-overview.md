@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908449"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081903"
 ---
 # <a name="project-team-members"></a>Członkowie zespołu projektu
 
@@ -47,16 +47,16 @@ W poniższej tabeli przedstawiono kluczowe atrybuty dla członka zespołu projek
 
 Z poziomu siatki członków zespołu można wykonać następujące czynności:
 
-- **Rezerwacja**: dla organizacji, które korzystają z hybrydowej metody rezerwacji, akcja rezerwacji pozwoli użytkownikom na zaksięgowanie nazwanego zasobu na podstawie wymagań wygenerowanych przez ogólnego członka zespołu
-- **Generowanie wymagania**: Ta akcja powoduje wygenerowanie wymagania.
-- **Określ wzorzec**: zezwala menedżerom projektu na dostosowywanie przypisań wymagań zasobów na poziomie szczegółowym. Menedżerowie projektów mogą korygować konkretne potrzeby projektu w sytuacjach, w których przydział domyślny nie pasuje.
-- **Wyślij prośbę**: dla organizacji korzystających z centralnej metody rezerwowania.
-- **Edycja**: atrybuty członków zespołu mogą być edytowane wraz z jednostką organizacyjną, rolą i nazwą pozycji.
-- **Utrzymywanie rezerwacji**: Kiedy rezerwacje zasobów muszą zostać zaktualizowane, można zachować rezerwacje, dzięki czemu menedżer projektu może dostosować:
+- **Rezerwacja** : dla organizacji, które korzystają z hybrydowej metody rezerwacji, akcja rezerwacji pozwoli użytkownikom na zaksięgowanie nazwanego zasobu na podstawie wymagań wygenerowanych przez ogólnego członka zespołu
+- **Generowanie wymagania** : Ta akcja powoduje wygenerowanie wymagania.
+- **Określ wzorzec** : zezwala menedżerom projektu na dostosowywanie przypisań wymagań zasobów na poziomie szczegółowym. Menedżerowie projektów mogą korygować konkretne potrzeby projektu w sytuacjach, w których przydział domyślny nie pasuje.
+- **Wyślij prośbę** : dla organizacji korzystających z centralnej metody rezerwowania.
+- **Edycja** : atrybuty członków zespołu mogą być edytowane wraz z jednostką organizacyjną, rolą i nazwą pozycji.
+- **Utrzymywanie rezerwacji** : Kiedy rezerwacje zasobów muszą zostać zaktualizowane, można zachować rezerwacje, dzięki czemu menedżer projektu może dostosować:
 
     - Rozpoczęcie
     - Zakończenie
     - Całkowite przydziały nakładów
 
-- **Nowe**: oprócz dodawania zasobów bezpośrednio z poziomu harmonogramu menedżerowie projektów mogą dodawać nowych nazwanych lub ogólnych członków zespołu z siatki członków zespołu.
-- **Usuń**: wybranie jednego lub wielu członków zespołu powoduje, że menedżer projektu może usunąć zasoby, które już nie biorą udziału w projekcie. Usunięcie członka zespołu spowoduje również usunięcie wszystkich skojarzonych przypisań zasobów i anulowanie wszystkich istniejących rezerwacji.
+- **Nowe** : oprócz dodawania zasobów bezpośrednio z poziomu harmonogramu menedżerowie projektów mogą dodawać nowych nazwanych lub ogólnych członków zespołu z siatki członków zespołu.
+- **Usuń** : wybranie jednego lub wielu członków zespołu powoduje, że menedżer projektu może usunąć zasoby, które już nie biorą udziału w projekcie. Usunięcie członka zespołu spowoduje również usunięcie wszystkich skojarzonych przypisań zasobów i anulowanie wszystkich istniejących rezerwacji.

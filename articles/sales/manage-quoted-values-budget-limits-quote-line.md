@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906283"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081879"
 ---
 # <a name="project-based-quote-lines"></a>Wiersze oferty opartej na projekcie
 
@@ -47,11 +47,11 @@ Poniższa tabela zawiera informacje o polach na karcie **Ogólne** w wierszu ofe
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Reguły sprawdzania poprawności dla pól na karcie Ogólne w wierszach oferty opartej na projektach
 
-**Reguła 1**: dana klasa transakcji w wybranym projekcie może być uwzględniona tylko w jednym wierszu oferty opartej na projekcie oferty.
+**Reguła 1** : dana klasa transakcji w wybranym projekcie może być uwzględniona tylko w jednym wierszu oferty opartej na projekcie oferty.
 
-**Reguła 2**: Jeśli szansa sprzedaży zawiera wiele ofert, między różnymi ofertami można odwoływać się do tego samego projektu i zawierać tę samą klasę transakcji.
+**Reguła 2** : Jeśli szansa sprzedaży zawiera wiele ofert, między różnymi ofertami można odwoływać się do tego samego projektu i zawierać tę samą klasę transakcji.
 
-**Zasada 3**: Jeśli oferty nie należą do tej samej szansy sprzedaży, nie mogą zawierać tej samej klasy projektów i transakcji.
+**Zasada 3** : Jeśli oferty nie należą do tej samej szansy sprzedaży, nie mogą zawierać tej samej klasy projektów i transakcji.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

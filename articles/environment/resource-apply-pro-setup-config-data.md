@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949010"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081885"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Konfiguracja i stosowanie danych konfiguracyjnych w usłudze Common Data Service do aplikacji Project Operations
 
@@ -23,18 +23,18 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 1. Pobierz, odblokuj i rozpakuj [pakiet danych instalacyjnych i konfiguracyjnych](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
 2. Przejdź do wyodrębnionego folderu, a następnie uruchom plik wykonywalny *DataMigrationUtility*.
-3. Na stronie 1 Kreatora migracji konfiguracji Common Data Service (CMT) wybierz pozycję **Importuj dane**, a następnie wybierz pozycję **Kontynuuj**.
+3. Na stronie 1 Kreatora migracji konfiguracji Common Data Service (CMT) wybierz pozycję **Importuj dane** , a następnie wybierz pozycję **Kontynuuj**.
 
 ![Migracja konfiguracji](./media/1ConfigurationMigration.png)
 
-4. Na stronie 2 kreatora CMT wybierz **Office 365** jako **Typ wdrożenia**.
+4. Na stronie 2 kreatora CMT wybierz **Microsoft 365** jako **Typ wdrożenia**.
 5. Wybierz pola wyboru **Wyświetl listę dostępnych organizacji** i **Wyświetl zaawansowane**.
 6. Wybierz region dzierżawy, wprowadź swoje poświadczenia, a następnie wybierz pozycję **Zaloguj**.
 
 ![Konfiguracja logowania](./media/2ConfigurationSignin.png)
 
 7. Na stronie 3 z poziomu listy organizacji w dzierżawie wybierz nazwę organizacji, do której chcesz zaimportować dane demonstracyjne, a następnie wybierz pozycję **Zaloguj**.
-8. Na stronie 4 wybierz plik zip *SampleSetupAndConfigData*, który znajduje się w rozpakowanym folderze.
+8. Na stronie 4 wybierz plik zip *SampleSetupAndConfigData* , który znajduje się w rozpakowanym folderze.
 
 ![Wybieranie pliku zip](./media/3ZipFile.png)
 
@@ -75,7 +75,7 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 ![Otwórz środowisko](./media/7OpenEnvironment.png)
 
-2. Przejdź do obszaru **Projekty** > **Zasoby** i wybierz opcję **Nowy**, aby utworzyć zasób zaksięgowany dla użytkownika.
+2. Przejdź do obszaru **Projekty** > **Zasoby** i wybierz opcję **Nowy** , aby utworzyć zasób zaksięgowany dla użytkownika.
 
 ![Zasoby, które można zarezerwować](./media/8BookableResources.png)
 
@@ -83,7 +83,7 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 ![Nowy zasób, który można zarezerwować](./media/9NewBookableResource.png)
 
-4. Na karcie **Planowanie**, w polu **Firma** wybierz firmę **USPM**, a następnie wybierz pozycję **Zapisz**. 
+4. Na karcie **Planowanie** , w polu **Firma** wybierz firmę **USPM** , a następnie wybierz pozycję **Zapisz**. 
 
 ![Karta planowania](./media/10SchedulingTab.png)
 
@@ -114,10 +114,10 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
  
 12. Zaktualizuj następujące pola:
 
- - **Domyślna firma**: USPM
- - **Domyślna jednostka organizacyjna**: Contoso Robotics Global
- - **Częstotliwość fakturowania**: siódmy i ostatni dzień
- - **Szablon godzin pracy**: Zmień na utworzony szablon.
+ - **Domyślna firma** : USPM
+ - **Domyślna jednostka organizacyjna** : Contoso Robotics Global
+ - **Częstotliwość fakturowania** : siódmy i ostatni dzień
+ - **Szablon godzin pracy** : Zmień na utworzony szablon.
 
 13. Wybierz pozycję **Zapisz**. 
 

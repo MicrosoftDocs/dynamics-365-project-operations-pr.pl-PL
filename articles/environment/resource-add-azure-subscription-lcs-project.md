@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949011"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081883"
 ---
 # <a name="add-an-azure-subscription-to-lcs-project"></a>Dodawanie subskrypcji Azure do projektu LCS
 
@@ -31,7 +31,7 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 ![Łączniki Azure](./media/2AzureConnectors.png)
 
-3. Wybierz **Autoryzuj**, aby wydać zgodę administratora.
+3. Wybierz **Autoryzuj** , aby wydać zgodę administratora.
 
 ![Wyrażanie zgody administratora](./media/3GrantAdminConsent.png)
 
@@ -50,18 +50,18 @@ Autoryzacja jest teraz ukończona.
 ![Szczegóły subskrypcji Azure](./media/6AzureSubscription.png)
 
 2. Wybierz pozycję **Kontrola dostępu (IAM)** w okienku nawigacji, a następnie wybierz pozycję **Dodaj przypisanie roli**.
-3. Korzystając z suwaka po prawej stronie wybierz opcję **Rola współautora**, a następnie na liście znajdź i wybierz pozycję **Dynamics Deployment Services**. 
+3. Korzystając z suwaka po prawej stronie wybierz opcję **Rola współautora** , a następnie na liście znajdź i wybierz pozycję **Dynamics Deployment Services**. 
 4. Wybierz pozycję **Zapisz**.
 
 ![Dostęp do subskrypcji](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Dodawanie łącznika subskrypcji Azure do projektu LCS
 
-1. W projekcie LCS na stronie **Ustawień Microsoft Azure** wybierz pozycję **Dodaj**, aby dodać nowy łącznik.
+1. W projekcie LCS na stronie **Ustawień Microsoft Azure** wybierz pozycję **Dodaj** , aby dodać nowy łącznik.
 2. Wprowadź identyfikator subskrypcji platformy Azure. Identyfikator subskrypcji platformy Azure można znaleźć w [portalu Azure](https://ms.portal.azure.com/), w obszarze **Ustawienia** w lewej dolnej części ekranu.
 3. W polu **Konfiguruj, aby korzystać z Azure Resource Manager** wybierz opcję **Tak**.
 4. Upewnij się, że domena dzierżawy subskrypcji Azure usługi AAD pasuje do używanej przez użytkownika domeny subskrypcji platformy Azure i wybierz opcję **Dalej**.
-5. Na ekranie **Konfiguracji Microsoft Azure** wybierz pozycję **Dalej**, aby potwierdzić. Jeśli na tym ekranie zostanie wyświetlony komunikat o błędzie, powróć do sekcji [Umożliw dostęp Dynamics Deployment Services do Twojej subskrypcji Azure](#provide) w tym temacie i upewnij się, że zostały zakończone wszystkie opisane czynności.
+5. Na ekranie **Konfiguracji Microsoft Azure** wybierz pozycję **Dalej** , aby potwierdzić. Jeśli na tym ekranie zostanie wyświetlony komunikat o błędzie, powróć do sekcji [Umożliw dostęp Dynamics Deployment Services do Twojej subskrypcji Azure](#provide) w tym temacie i upewnij się, że zostały zakończone wszystkie opisane czynności.
 6. Pobierz certyfikat usługi Azure Management Certificate na lokalny komputer, a następnie prześlij go do portalu zarządzania Azure, przechodząc do sekcji **Ustawienia** > **Zarządzanie certyfikatami**. Ten certyfikat umożliwi LCS komunikację z platformą Azure w imieniu użytkownika. Jeśli użytkownik ma dostęp do subskrypcji, można pominąć ten krok.
 7. Wybierz **Dalej**.
 8. Wybierz obszar Azure, którego wdrożenie ma zostać wdrożone, i wybierz centrum danych, które znajduje się w pobliżu miejsca, w którym zamierzasz używać tego systemu.

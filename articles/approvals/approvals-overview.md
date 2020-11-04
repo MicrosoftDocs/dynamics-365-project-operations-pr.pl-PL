@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961179"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081872"
 ---
 # <a name="approvals-overview"></a>Omówienie zatwierdzeń
 
@@ -27,9 +27,9 @@ Podczas tworzenia i przesyłania wpisu godziny lub wydatku zostaje utworzony wpi
 ## <a name="approve-an-entry"></a>Zatwierdzanie wpisu
 Formularz **Zatwierdzania** umożliwia przełączanie między różnymi widokami, dzięki czemu można wyświetlać różne typy zatwierdzeń.
   
-1. Przejdź do formularza **Zatwierdzenia** i wybierz **Koszty**, **Czas** lub **Odwołania**.
+1. Przejdź do formularza **Zatwierdzenia** i wybierz **Koszty** , **Czas** lub **Odwołania**.
 2. Przejrzyj każde zatwierdzenie i wybierz te, które chcesz zatwierdzić.
-3. Wybierz przycisk **Zatwierdź**, aby zatwierdzić wybrane wpisy.
+3. Wybierz przycisk **Zatwierdź** , aby zatwierdzić wybrane wpisy.
 System będzie przetwarzać te wpisy i tworzyć wartości rzeczywiste lub rezerwację.
 
 ## <a name="reject-an-entry"></a>Odrzucanie wpisu
@@ -37,7 +37,7 @@ Jako osoba zatwierdzająca, być może będziesz musiał przesłać wpis z powro
   
 1. Przejdź do formularza **Zatwierdzanie** i wybierz wpis do odrzucenia. 
 2. Wybierz pozycję **Odrzuć**.
-3. Opcjonalne — dodaj komentarz w oknie dialogowym **Powód odrzucenia**, aby użytkownik wiedział, dlaczego dane wpis został odrzucony.
+3. Opcjonalne — dodaj komentarz w oknie dialogowym **Powód odrzucenia** , aby użytkownik wiedział, dlaczego dane wpis został odrzucony.
 4. Wybierz pozycję **OK**. Wpis zostanie zwrócony użytkownikowi.
   
 ## <a name="recall-entries"></a>Odwołanie wpisów

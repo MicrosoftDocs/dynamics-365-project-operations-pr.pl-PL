@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966836"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081935"
 ---
 # <a name="manage-project-price-lists-on-project-quotes-sales"></a>Zarządzanie cennikami projektu w ofertach projektu (sprzedaż)
 
@@ -30,7 +30,7 @@ W przypadku braku cenników projektu dla oferty zostanie wyświetlony komunikat 
 W celu utworzenia lub wybrania określonego cennika służącego do oszacowania pracy i kosztów na podstawie projektu należy wykonać następujące kroki.
 
 1. Z poziomu oferty wybierz kartę **Cena projektu** i w podsiatce wybierz pozycję **+ Dodaj nowy cennik projektu**.
-2. Na stronie szybkiego tworzenia wybierz Cennik. Lista rozwijana zawiera wszystkie cenniki, dla których ustawiono wartość **Sprzedaż**, a waluta jest zgodna z walutą z oferty.
+2. Na stronie szybkiego tworzenia wybierz Cennik. Lista rozwijana zawiera wszystkie cenniki, dla których ustawiono wartość **Sprzedaż** , a waluta jest zgodna z walutą z oferty.
 4. Wprowadź opis skojarzenia z cennikiem projektu i wybierz pozycję **Zapisz i zamknij**.
 
 Utworzenie skojarzenia cennika projektu.

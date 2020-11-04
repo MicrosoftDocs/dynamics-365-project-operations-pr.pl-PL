@@ -1,6 +1,6 @@
 ---
 title: Omówienie procesów sprzedaży
-description: Ta temat zawiera informacje o podstawowych procesach sprzedaży.
+description: Ten temat zawiera informacje o podstawowych procesach sprzedaży.
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -9,7 +9,6 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: ''
-ms.technology: ''
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 - customizer
 - enduser
 search.app: ''
-ms.openlocfilehash: e66d96a940f3b22d5d1f3372d2b6767a4482d925
-ms.sourcegitcommit: 7750485f8685a2ca5e1b3c165ead24a3b583c447
+ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3891948"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082211"
 ---
 # <a name="sales-processes-overview"></a>Omówienie procesów sprzedaży
 
@@ -57,16 +56,16 @@ Na przykład firma może w procesie sprzedaży mieć następujące sześć etap�
  
 Organizacja może używać innych obiektów do reprezentowania tej samej transakcji. Na początku procesu sprzedaży transakcja jest reprezentowana przez obiekt szansa sprzedaży. W miarę upływu czasu i przybywania szczegółów można użyć oszacowań wysokiego poziomu w celu utworzenia jednej lub większej liczby ofert. Jeśli jedna z tych ofert jest analizowana przez udziałowców wewnętrznych i klienta, encja Oferta reprezentuje transakcję. Po zaakceptowaniu oferty przez klienta kontrakt lub jego zestawienie pracy stanowią informację o transakcji. Aby obsłużyć to zachowanie, BPF ma strukturę, dzięki czemu każdy etap procesu jest połączony z inną tabelą bazy danych.
 
-Encja Szansa sprzedaży może tworzyć kopię zapasową etapu **kwalifikowania** w procesie sprzedaży. Encja Oferta może robić kopie zapasowe etapów **Szacunku** i **Oceny wewnętrznej**. Encja Kontrakt dotyczący projektu może robić kopie zapasowe etapów **Kontrakt**, **Dostarczenie**i **Zamknięcie**.
+Encja Szansa sprzedaży może tworzyć kopię zapasową etapu **kwalifikowania** w procesie sprzedaży. Encja Oferta może robić kopie zapasowe etapów **Szacunku** i **Oceny wewnętrznej**. Encja Kontrakt dotyczący projektu może robić kopie zapasowe etapów **Kontrakt** , **Dostarczenie** i **Zamknięcie**.
 
 W miarę przechodzenia kolejnych etapów w umowach będą wyświetlane monity o utworzenie odpowiedniego rekordu encji w celu ułatwienia pomocy i przeprowadzenia procesu. Te etapy mogą być warunkowe. Na przykład jeśli jest wymagane wewnętrzne sprawdzenie oferty tylko wtedy, gdy oferta korzysta z niestandardowych cenników, można skonfigurować ten warunek w odpowiednim etapie procesu biznesowego. Etap **wewnętrznego przeglądu** jest widoczny tylko w przypadku ofert, w których jest używany niestandardowy cennik. W przypadku wszystkich pozostałych transakcji i ofert po etapie **Oszacowanie** następuje etap **Kontrakt**.
 
 > [!NOTE]
-> Project Operations mają konkretne strony rekordów szansy sprzedaży, oferty, zamówienia i faktury. Te rekordy muszą zostać utworzone przy użyciu stron informacji o projekcie dla tych encji. W przeciwnym razie nie będzie możliwe otwieranie rekordów na stronie z **informacjami o projekcie**. Aby otworzyć rekord z poziomu strony z **informacjami o projekcie** należy usunąć rekord i utworzyć go ponownie, korzystając ze strony z **informacjami o projekcie**, gdzie logika biznesowa dla każdego z tych typów encji gwarantuje, że pole **Typ** rekordu będzie poprawnie ustawione, a wszystkie obowiązkowe pojęcia poprawnie zainicjowane.
+> Project Operations mają konkretne strony rekordów szansy sprzedaży, oferty, zamówienia i faktury. Te rekordy muszą zostać utworzone przy użyciu stron informacji o projekcie dla tych encji. W przeciwnym razie nie będzie możliwe otwieranie rekordów na stronie z **informacjami o projekcie**. Aby otworzyć rekord z poziomu strony z **informacjami o projekcie** należy usunąć rekord i utworzyć go ponownie, korzystając ze strony z **informacjami o projekcie** , gdzie logika biznesowa dla każdego z tych typów encji gwarantuje, że pole **Typ** rekordu będzie poprawnie ustawione, a wszystkie obowiązkowe pojęcia poprawnie zainicjowane.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Śledź korekty ofert i planów projektów w cyklu sprzedaży
-W Project Operations nie można śledzić poprawek wprowadzanych do oferty. Zamiast tego konieczne jest oznaczenie istniejącej oferty **zamkniętej jako utraconej**, a następnie utworzenie nowej oferty. Oferty oparte na projektach można skopiować lub sklonować.
+W Project Operations nie można śledzić poprawek wprowadzanych do oferty. Zamiast tego konieczne jest oznaczenie istniejącej oferty **zamkniętej jako utraconej** , a następnie utworzenie nowej oferty. Oferty oparte na projektach można skopiować lub sklonować.
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Śledź komentarze i zatwierdzenia ofert i kontraktów projektów
 Użytkownik może zarządzać przeglądaniem i zatwierdzaniem ofert i kontraktów projektów przy użyciu tablicy rekordów i wpisów. Organizacja może tworzyć niestandardowe przepływy pracy i dodatki plug-in, aby przypisywać, przekierowywać, eskalować i zarządzać powiadomieniami o elementach pracy przeglądanie i zatwierdzenie.

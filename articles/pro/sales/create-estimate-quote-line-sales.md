@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966839"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081916"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Szacowanie wiersza oferty opartej na projekcie
 
@@ -30,7 +30,7 @@ Aby oszacować wiersz oferty opartej na projekcie, w wierszu oferty opartej na p
 
 Aby utworzyć oszacowanie w wierszu oferty opartej na projekcie, wybierz kartę **Szczegóły wiersza oferty**. Utworzony w ten sposób wiersz będzie sumować wartość cytowaną dla danego wiersza oferty. 
 
-Aby utworzyć szczegóły wiersza oferty, wybierz z podsiatki **Szczegóły wierszy oferty** opcję **+ Dodaj nowy szczegół wiersza oferty**. Zostanie otwarty suwak szybkiego tworzenia. Poniższe pola w formularzu **Wiersza oferty**:
+Aby utworzyć szczegóły wiersza oferty, wybierz z podsiatki **Szczegóły wierszy oferty** opcję **+ Dodaj nowy szczegół wiersza oferty**. Zostanie otwarty suwak szybkiego tworzenia. Poniższe pola w formularzu **Wiersza oferty** :
 
 | **Pole** | **Lokalizacja** | **Stopień zgodności, cel i wskazówki** | **Wpływ zmian w dalszych etapach** |
 | --- | --- | --- | --- |
@@ -50,11 +50,11 @@ Aby utworzyć szczegóły wiersza oferty, wybierz z podsiatki **Szczegóły wier
 
 ## <a name="update-prices-on-quote-line-details"></a>Aktualizowanie cen w wierszach oferty
 
-W przypadku zmodyfikowania cen z cennika projektu dołączonego do oferty lub na liście kosztów własnych jednostki kontraktującej można wybrać opcję **Ponowne obliczenie** znajdującą się na stronie **Oferta**, aby odświeżyć ceny w poszczególnych wierszach oferty w celu odzwierciedlenia tej zmiany. Po wybraniu opcji **Oblicz ponownie** zostanie wyświetlone ostrzeżenie, które informuje tym, że ceny w wierszach oferty zostaną zresetowane. Wybierz opcję **Tak**, aby odświeżyć ceny zarówno dla sprzedaży, jak i dla szczegółów wiersza oferty kosztów.
+W przypadku zmodyfikowania cen z cennika projektu dołączonego do oferty lub na liście kosztów własnych jednostki kontraktującej można wybrać opcję **Ponowne obliczenie** znajdującą się na stronie **Oferta** , aby odświeżyć ceny w poszczególnych wierszach oferty w celu odzwierciedlenia tej zmiany. Po wybraniu opcji **Oblicz ponownie** zostanie wyświetlone ostrzeżenie, które informuje tym, że ceny w wierszach oferty zostaną zresetowane. Wybierz opcję **Tak** , aby odświeżyć ceny zarówno dla sprzedaży, jak i dla szczegółów wiersza oferty kosztów.
 
 ## <a name="access-quote-line-details-for-cost"></a>Dostęp do wierszy oferty w celu uzyskania dostępu do kosztów
 
-Z poziomu karty **Szczegóły wiersza oferty** wybierz wiersz w siatce, aby włączyć niektóre akcje na pasku narzędzi w podsiatce. Pierwsza akcja na pasku narzędzi podsiatki po wybraniu szczegółów wiersza oferty powoduje **Wyświetlenie szczegółów kosztów**. Wybierz opcję **Wyświetl szczegóły kosztów**, aby wyświetlić powiązaną stawkę kosztów i kwotę dla danego wiersza oferty.
+Z poziomu karty **Szczegóły wiersza oferty** wybierz wiersz w siatce, aby włączyć niektóre akcje na pasku narzędzi w podsiatce. Pierwsza akcja na pasku narzędzi podsiatki po wybraniu szczegółów wiersza oferty powoduje **Wyświetlenie szczegółów kosztów**. Wybierz opcję **Wyświetl szczegóły kosztów** , aby wyświetlić powiązaną stawkę kosztów i kwotę dla danego wiersza oferty.
 
 > [!NOTE]
 > Zmiana jednostki zasobów, ilości, dat, roli lub kategorii w wierszu szczegółów oferty dotyczących kosztu spowoduje zmianę odpowiednich wartości w szczegółach wiersza oferty dotyczącej sprzedaży.

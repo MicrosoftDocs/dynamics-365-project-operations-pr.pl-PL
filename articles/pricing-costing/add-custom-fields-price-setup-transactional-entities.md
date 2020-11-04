@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a27bfe881fdb6431941fa860d279e3e7b526f623
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898319"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082052"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Dodawanie wymaganych pól niestandardowych do ustawień cen i encji transakcyjnych
 
@@ -42,32 +41,32 @@ Kiedy niestandardowy wymiar kalkulacji cen jest oparty na zestawie opcji, należ
 1. W przypadku operacji projektowych wybierz **Ustawienia** > **Rozwiązania** i kliknij dwukrotnie opcję **Wymiary kalkulacji cen \<your organization name>**. 
 2. W Eksploratorze rozwiązań w lewym okienku nawigacji kliknij pozycję **Encje > Cena roli**.
 3. Rozwiń encję **Cena roli** i wybierz **Pola**.
-4. Wybierz **Nowe**, aby utworzyć nowe pole o nazwie **Lokalizacja pracy zasobu** i wybierz **Zestaw opcji** jako typ pola. 
-5. Wybierz opcję **Użyj istniejącego zestaw opcji**, wybierz zostaw opcji **Lokalizacja pracy zasobu** i wybierz **Zapisz**.
+4. Wybierz **Nowe** , aby utworzyć nowe pole o nazwie **Lokalizacja pracy zasobu** i wybierz **Zestaw opcji** jako typ pola. 
+5. Wybierz opcję **Użyj istniejącego zestaw opcji** , wybierz zostaw opcji **Lokalizacja pracy zasobu** i wybierz **Zapisz**.
 6. Powtórz kroki 1-5, aby dodać to pole do encji **Narzut na cenę dla roli**. 
 7. Powtórz kroki 1-5 dla zestaw opcji **Godziny pracy zasobu**.
 
 > [!IMPORTANT]
 > W przypadku dodawania pola do więcej niż jednej encji należy użyć tej samej nazwy pola we wszystkich encjach. 
 
-W fazach sprzedaży i szacunkowej projektu prognozy nakładu pracy wymagane do ukończenia pracy **lokalnej** i **na miejscu** w **zwykłych godzinach** i **nadgodzinach** są używane w celu oszacowania wartość oferty/projektu. Pola **Lokalizacje pracy zasobu** i **Godziny pracy zasobu** zostaną dodane do encji oszacowania, **Szczegóły wiersza oferty**, **Szczegóły wiersza umowy**, **Członek zespołu projektu** oraz **Wiersz szacowania**.
+W fazach sprzedaży i szacunkowej projektu prognozy nakładu pracy wymagane do ukończenia pracy **lokalnej** i **na miejscu** w **zwykłych godzinach** i **nadgodzinach** są używane w celu oszacowania wartość oferty/projektu. Pola **Lokalizacje pracy zasobu** i **Godziny pracy zasobu** zostaną dodane do encji oszacowania, **Szczegóły wiersza oferty** , **Szczegóły wiersza umowy** , **Członek zespołu projektu** oraz **Wiersz szacowania**.
 
-1. W przypadku operacji projektowych wybierz **Ustawienia** > **Rozwiązania**, a następnie kliknij dwukrotnie opcję **Wymiary kalkulacji cen \<your organization name>**. 
+1. W przypadku operacji projektowych wybierz **Ustawienia** > **Rozwiązania** , a następnie kliknij dwukrotnie opcję **Wymiary kalkulacji cen \<your organization name>**. 
 2. W Eksploratorze rozwiązań w lewym okienku nawigacji kliknij pozycję **Encje > Szczegóły wiersza oferty**.
 3. Rozwiń encję **Szczegóły wiersza oferty** i wybierz **Pola**.
-4. Wybierz **Nowe**, aby utworzyć nowe pole o nazwie **Lokalizacja pracy zasobu** i wybierz typ pól **Zestaw opcji**. 
-5. Wybierz opcję **Użyj istniejącego zestaw opcji**, wybierz **Lokalizacja pracy zasobu** i wybierz **Zapisz**.
-6. Powtórz kroki 1-5, aby dodać to pole do encji **Szczegóły pozycji kontraktu projektu**, **Członek zespołu projektu** i **Wiersz szacowania**.
+4. Wybierz **Nowe** , aby utworzyć nowe pole o nazwie **Lokalizacja pracy zasobu** i wybierz typ pól **Zestaw opcji**. 
+5. Wybierz opcję **Użyj istniejącego zestaw opcji** , wybierz **Lokalizacja pracy zasobu** i wybierz **Zapisz**.
+6. Powtórz kroki 1-5, aby dodać to pole do encji **Szczegóły pozycji kontraktu projektu** , **Członek zespołu projektu** i **Wiersz szacowania**.
 7. Powtórz kroki 1-6 dla zestaw opcji **Godziny pracy zasobu**. 
 
-W celu dostarczenia i fakturowania ukończona praca powinna być dokładnie wyceniona, aby wybrać czy została wykonana **Lokalnie** lub **Na miejscu**i czy została ukończona w **godzinach pracy** czy w **nadgodzinach** w wartościach rzeczywistych projektu. Pola **Lokalizacja pracy zasobu** i **Godziny pracy zasobu** zostaną dodane do encji **Wpis czasu**, **Rzeczywiste**, **Szczegóły wiersza faktury** oraz **Wiersz dziennika**.
+W celu dostarczenia i fakturowania ukończona praca powinna być dokładnie wyceniona, aby wybrać czy została wykonana **Lokalnie** lub **Na miejscu** i czy została ukończona w **godzinach pracy** czy w **nadgodzinach** w wartościach rzeczywistych projektu. Pola **Lokalizacja pracy zasobu** i **Godziny pracy zasobu** zostaną dodane do encji **Wpis czasu** , **Rzeczywiste** , **Szczegóły wiersza faktury** oraz **Wiersz dziennika**.
 
-1. Wybierz **Ustawienia** > **Rozwiązania**, a następnie kliknij dwukrotnie opcję **Wymiary kalkulacji cen \<your organization name>**.
+1. Wybierz **Ustawienia** > **Rozwiązania** , a następnie kliknij dwukrotnie opcję **Wymiary kalkulacji cen \<your organization name>**.
 2. W Eksploratorze rozwiązań w lewym okienku nawigacji kliknij pozycję **Encje > Wpisz czasu**.
-3. Rozwiń encję **Szczegóły wiersza oferty**, a następnie wybierz **Pola**.
-4. Wybierz **Nowe**, aby utworzyć nowe pole o nazwie **Lokalizacja pracy zasobu** i wybierz **Zestaw opcji** jako typ pola. 
-5. Wybierz opcję **Użyj istniejącego zestaw opcji**, wybierz zostaw opcji **Lokalizacja pracy zasobu** i wybierz **Zapisz**.
-6. Powtórz kroki 1-5 w celu dodania tego pola do encji **Rzeczywiste**, **Szczegóły wiersza faktury** i **Wiersz dziennika**.
+3. Rozwiń encję **Szczegóły wiersza oferty** , a następnie wybierz **Pola**.
+4. Wybierz **Nowe** , aby utworzyć nowe pole o nazwie **Lokalizacja pracy zasobu** i wybierz **Zestaw opcji** jako typ pola. 
+5. Wybierz opcję **Użyj istniejącego zestaw opcji** , wybierz zostaw opcji **Lokalizacja pracy zasobu** i wybierz **Zapisz**.
+6. Powtórz kroki 1-5 w celu dodania tego pola do encji **Rzeczywiste** , **Szczegóły wiersza faktury** i **Wiersz dziennika**.
 7. Powtórz kroki 1-6 dla zestaw opcji **Godziny pracy zasobu**. 
 
 Spowoduje to ukończenie zmian schematu wymaganych dla niestandardowych wymiarów opartych na zestawie opcji.
@@ -76,17 +75,17 @@ Spowoduje to ukończenie zmian schematu wymaganych dla niestandardowych wymiaró
 
 Kiedy niestandardowym wymiarem kalkulacji cen jest encja, dodasz relację 1:N między encją wymiarową i kluczowymi encjami. Kiedy użyjemy przykładu Standardowe stanowisko z góry, należy oczekiwać, że każdy pracownik będzie miał przypisany standardowe stanowisko. To będzie wymagało relacji 1:N między standardowym stanowiskiem a zasobem, który można zaksięgować albo relacji N:1, jeśli utworzono z zasobu, który można zaksięgować do standardowego stanowiska.
 
-1. W przypadku operacji projektowych wybierz **Ustawienia** > **Rozwiązania**, a następnie kliknij dwukrotnie opcję **Wymiary kalkulacji cen \<your organization name>**. 
+1. W przypadku operacji projektowych wybierz **Ustawienia** > **Rozwiązania** , a następnie kliknij dwukrotnie opcję **Wymiary kalkulacji cen \<your organization name>**. 
 2. W Eksploratorze rozwiązań w lewym okienku nawigacji kliknij pozycję **Encje > Standardowe stanowisko**.
 3. Rozwiń encję **Standardowe stanowisko** i wybierz **Relacje 1:N**.
-4. Wybierz **Nowa**, aby utworzyć nową relację 1:N o nazwie **Standardowe stanowisko do Zasobu, który można zaksięgować**. Wprowadź wymagane informacje, a następnie wybierz **Zapisz**.
+4. Wybierz **Nowa** , aby utworzyć nową relację 1:N o nazwie **Standardowe stanowisko do Zasobu, który można zaksięgować**. Wprowadź wymagane informacje, a następnie wybierz **Zapisz**.
 
 Standardowe stanowisko musi również zostać dodane do encji kalkulacji cen **Cena roli** oraz **Narzut na cenę dla roli**. Te dane są również uzupełniane przy użyciu relacji 1:N między encjami **Standardowe stanowisko** a **Cena roli** i encjami **Standardowe stanowisko** i **Narzut na cenę dla roli**.
 
 1. W Eksploratorze rozwiązań w lewym okienku nawigacji kliknij pozycję **Encje > Standardowe stanowisko**.
 2. Rozwiń encję **Standardowe stanowisko** i wybierz **Relacje 1:N**.
-3. Wybierz **Nowa**, aby utworzyć nową relację 1:N o nazwie **Standardowe stanowisko do Ceny roli**. Wprowadź wymagane informacje, a następnie wybierz **Zapisz**.
-4. Powtórz kroki 1–4, aby utworzyć relacje 1:N między encjami **Standardowe stanowisko** i **Narzut na cenę dla roli**,
+3. Wybierz **Nowa** , aby utworzyć nową relację 1:N o nazwie **Standardowe stanowisko do Ceny roli**. Wprowadź wymagane informacje, a następnie wybierz **Zapisz**.
+4. Powtórz kroki 1–4, aby utworzyć relacje 1:N między encjami **Standardowe stanowisko** i **Narzut na cenę dla roli** ,
 
 W fazach sprzedaży i oszacowania projektu, do kalkulacji cen oferty/projektu konieczne są szacowania nakładu pracy dotyczące poszczególnych standardowych stanowisk. Oznacza to, że potrzebne są relacje 1:N ze Standardowego stanowiska do poszczególnych encji szacowania w: 
 
@@ -95,19 +94,19 @@ W fazach sprzedaży i oszacowania projektu, do kalkulacji cen oferty/projektu ko
 - **Członek zespołu projektu**
 - **Wiersz szacowania**
 
-5. Powtórz kroki 1-5, aby utworzyć relacje 1:N z encji **Standardowe stanowisko** do encji **Szczegóły wiersza oferty**, **Szczegóły pozycji kontraktu projektu**, **Członek zespołu projektu** oraz **Wiersz szacowania**.
+5. Powtórz kroki 1-5, aby utworzyć relacje 1:N z encji **Standardowe stanowisko** do encji **Szczegóły wiersza oferty** , **Szczegóły pozycji kontraktu projektu** , **Członek zespołu projektu** oraz **Wiersz szacowania**.
 
-  W fazach dostarczania i fakturowania praca wykonana przez każde standardowe stanowisko musi być dokładnie wyceniona w wartościach rzeczywistych projektu. To oznacza, że musi być relacja 1:N z encji **Standardowe stanowisko** do encji **Wpis czasu**, **Rzeczywiste**, **Szczegóły wiersza faktury** oraz **Wiersz arkusza**.
+  W fazach dostarczania i fakturowania praca wykonana przez każde standardowe stanowisko musi być dokładnie wyceniona w wartościach rzeczywistych projektu. To oznacza, że musi być relacja 1:N z encji **Standardowe stanowisko** do encji **Wpis czasu** , **Rzeczywiste** , **Szczegóły wiersza faktury** oraz **Wiersz arkusza**.
 
-6. Powtórz kroki 1-6, aby utworzyć relacje 1:N z encji **Standardowe stanowisko** do encji **Wpis czasu**, **Rzeczywiste**, **Szczegóły wiersza faktury** oraz **Wiersz arkusza**.
+6. Powtórz kroki 1-6, aby utworzyć relacje 1:N z encji **Standardowe stanowisko** do encji **Wpis czasu** , **Rzeczywiste** , **Szczegóły wiersza faktury** oraz **Wiersz arkusza**.
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Konfigurowanie ustawiania domyślnych wartości wymiaru przy użyciu funkcji mapowania platformy
-W przypadku encji Wpis czasu pomocne jest, kiedy system domyślnie ustawia ustawienie standardowe stanowisko na Wpis czas z Zasobu, który można zarezerwować, który rejestruje wpis czasu. Wykonaj poniższe kroki, aby dodać mapowania do relacji 1:N z encji **Zasób, który można zarezerwować**do encji **Wpis czasu**.
+W przypadku encji Wpis czasu pomocne jest, kiedy system domyślnie ustawia ustawienie standardowe stanowisko na Wpis czas z Zasobu, który można zarezerwować, który rejestruje wpis czasu. Wykonaj poniższe kroki, aby dodać mapowania do relacji 1:N z encji **Zasób, który można zarezerwować** do encji **Wpis czasu**.
 
 1. W Eksploratorze rozwiązań w lewym okienku nawigacji kliknij pozycję **Encje > Standardowe stanowisko**.
 2. Rozwiń encję **Standardowe stanowisko** i wybierz **Relacje 1:N**.
 3. Kliknij dwukrotnie pozycję **zasób z możliwością rezerwacji do wpisu czasu**. Na stronie **Relacja** wybierz **Użyj mapowań pól**. 
-4. Wybierz **Nowy**, aby utworzyć nowe mapowanie między polem **Standardowe stanowisko** w encji **Zasób, który można zarezerwować** a polem odwołania **Standardowe stanowisko** w encji **Wpis czasu**. 
+4. Wybierz **Nowy** , aby utworzyć nowe mapowanie między polem **Standardowe stanowisko** w encji **Zasób, który można zarezerwować** a polem odwołania **Standardowe stanowisko** w encji **Wpis czasu**. 
 
 Spowoduje to ukończenie zmian schematu wymaganych dla niestandardowych wymiarów opartych na encji.
 
@@ -116,7 +115,7 @@ Spowoduje to ukończenie zmian schematu wymaganych dla niestandardowych wymiaró
 Po wprowadzeniu wszystkich wymaganych zmian schematu kolejne kroki polegają na ustawieniu, aby pola były widoczne w interfejsie użytkownika przez dodanie pól do formularzy i widoków.
 
 1. Otwórz formularz lub widok. W prawym okienku nawigacji zaznacz pole i przeciągnij je na kanwę formularza. 
-2. W przypadku edytowania widoku użyj prawego okienka nawigacji, wybierz **Dodaj pola**, a następnie w oknie dialogowym **Lista pól** wybierz wymagane pola i wybierz **OK**.
+2. W przypadku edytowania widoku użyj prawego okienka nawigacji, wybierz **Dodaj pola** , a następnie w oknie dialogowym **Lista pól** wybierz wymagane pola i wybierz **OK**.
 
 Poniższa tabela zawiera wyczerpującą listę gotowych formularzy i widoków, wyszczególnionych według encji, które należy zaktualizować o te pola. Jeśli którekolwiek dodatkowe widoki lub formularze w dostosowaniach korzystają z tych encji, należy dodać nowe pola również do nich.
 

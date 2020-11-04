@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907376"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081863"
 ---
 # <a name="project-tracking-overview"></a>Omówienie śledzenia projektu
 
@@ -25,10 +25,10 @@ Konieczność śledzenia postępu w harmonogramie zależy od branży. Niektóre 
 
 W widoku **Śledzenia nakładów** są śledzone postępy zadań w harmonogramie. Polega to na porównaniu rzeczywistych nakładów pracy na zadanie z planowanymi godziny nakładu pracy danego zadania. Dynamics 365 Project Operations korzysta z poniższych formuł do obliczania metryk śledzenia:
 
-- **Procent postępu**: rzeczywisty nakład pracy do dnia dzisiejszego ÷ szacowane przy zakończeniu (SPZ) 
-- **Szacowane do zakończenia (ETC)**: planowany nakład pracy — rzeczywisty nakład pracy do dnia dzisiejszego 
-- **SPZ**: pozostały nakład pracy + rzeczywisty nakład pracy do dnia dzisiejszego 
-- **Przewidywane odchylenie nakładu pracy**: planowany nakład pracy — SPZ
+- **Procent postępu** : rzeczywisty nakład pracy do dnia dzisiejszego ÷ szacowane przy zakończeniu (SPZ) 
+- **Szacowane do zakończenia (ETC)** : planowany nakład pracy — rzeczywisty nakład pracy do dnia dzisiejszego 
+- **SPZ** : pozostały nakład pracy + rzeczywisty nakład pracy do dnia dzisiejszego 
+- **Przewidywane odchylenie nakładu pracy** : planowany nakład pracy — SPZ
 
 W programie Project Operations jest wyświetlona projekcja odchylenia danego zadania. Jeśli wartość SPZ przekracza planowany nakład pracy, zadanie jest rzutowane na czas dłuższy niż planowano i jest opóźnienie. Jeśli wartość SPZ jest mniejsza niż planowany nakład pracy, zadanie jest rzutowane na czas krótszy niż planowano i praca posuwa się do przodu szybciej niż zaplanowano.
 
@@ -60,10 +60,10 @@ W widoku **śledzenia kosztów** jest porównywany koszt rzeczywisty, który zos
 > [!NOTE]
 > W tym widoku są wyświetlane tylko koszty robocizny i nie są uwzględniane koszty szacunków kosztów. Project Operations korzysta z poniższych formuł do obliczania metryk śledzenia:
 
-- **Procent zużytego kosztu**: koszt rzeczywisty poniesiony do dnia ÷ szacowany koszt przy zakończeniu
-- **Koszt do zakończenia (CTC)**: planowany koszt — rzeczywisty koszt poniesiony do dnia
-- **EAC**: pozostały koszt + rzeczywisty koszt poniesiony do tej pory
-- **Prognozowane odchylenie kosztu**: koszt planowany – SPZ
+- **Procent zużytego kosztu** : koszt rzeczywisty poniesiony do dnia ÷ szacowany koszt przy zakończeniu
+- **Koszt do zakończenia (CTC)** : planowany koszt — rzeczywisty koszt poniesiony do dnia
+- **EAC** : pozostały koszt + rzeczywisty koszt poniesiony do tej pory
+- **Prognozowane odchylenie kosztu** : koszt planowany – SPZ
 
 Prognoza odchylenia kosztu jest widoczna w zadaniu. Jeśli wartość SPZ przekracza planowany koszt, zadaniu jest przypisywany koszt wyższy niż planowano na początku. Z tego powodu ma ono tendencję do przekroczenia budżetu. Jeśli wartość SPZ jest mniejsza od planowanego kosztu, zadaniu jest przypisywany koszt niższy niż planowano na początku. Z tego powodu ma ono tendencję do niewykorzystania budżetu.
 
@@ -79,4 +79,4 @@ W przypadku ponownie prognozowanego nakładu pracy CTC, SPZ, procent zużytego k
 
 Pole **stan całkowitego projektu** jest polem edytowalnym, które zawiera ogólny stan projektu. Używa kodowania kolorów, takiego jak kolor zielony, żółty i czerwony, aby wskazywać większe ryzyko. Pole **Komentarze** umożliwia menedżerowi projektu wprowadzenie określonych komentarzy dotyczących stanu. Pole **Stan zaktualizowany w dniu** nie jest edytowalne, a wartość jest sygnaturą czasową wskazującą datę ostatniej aktualizacji stanu.
 
-Pola **wydajność planowania** i **wydajność kosztów** są ustawiane na podstawie daty śledzenia. Jeśli odchylenie względem harmonogramu i kosztu dla węzła głównego w widoku **śledzenia nakładu** pracy jest dodatnie, można ustawić te pola na**mieści się**. Kiedy Odchylenie względem harmonogramu i kosztu dla węzła głównego są ujemne, można ustawić je na wartość **nie mieści się**.
+Pola **wydajność planowania** i **wydajność kosztów** są ustawiane na podstawie daty śledzenia. Jeśli odchylenie względem harmonogramu i kosztu dla węzła głównego w widoku **śledzenia nakładu** pracy jest dodatnie, można ustawić te pola na **mieści się**. Kiedy Odchylenie względem harmonogramu i kosztu dla węzła głównego są ujemne, można ustawić je na wartość **nie mieści się**.

@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966838"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081912"
 ---
 # <a name="managing-multiple-customers-on-project-quotes-sales"></a>Zarządzanie wieloma klientami w ofertach projektu (Sprzedaż)
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-Oferty projektów obsługują scenariusz polegający na tym, że dana oferta obejmuje wielu klientów, którzy będą finansować transakcję. Na karcie **Podsumowanie** oferty znajduje się pole **Potencjalni klienci**, który identyfikuje podstawowego klienta transakcji. Innych klientów w ramach transakcji można skonfigurować na karcie **Klienci** w ofercie projektu.
+Oferty projektów obsługują scenariusz polegający na tym, że dana oferta obejmuje wielu klientów, którzy będą finansować transakcję. Na karcie **Podsumowanie** oferty znajduje się pole **Potencjalni klienci** , który identyfikuje podstawowego klienta transakcji. Innych klientów w ramach transakcji można skonfigurować na karcie **Klienci** w ofercie projektu.
 
 Wszyscy klienci oferty na karcie **Klienci** w ofercie projektu domyślnie stają się klientami wiersza oferty dla wszystkich **nowych** wierszy oferty opartej na projekcie tworzonych dla oferty projektu. Żadne istniejące wiersze oferty opartej na projekcie nie odziedziczą nowych rekordów klientów oferty utworzonych po ich utworzeniu.
 
@@ -39,13 +39,13 @@ Klienta oferty można utworzyć, aktualizować i usuwać z poziomu karty **Klien
 
 | **Pole** | **Lokalizacja** | **Stopień zgodności, cel i wskazówki** | **Wpływ zmian w dalszych etapach** |
 | --- | --- | --- | --- |
-| Konto | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Lista wszystkich aktywnych kont. To pole jest zablokowane po utworzeniu rekordu. Jeśli chcesz przeprowadzić aktualizację, usuń rekord i utwórz go ponownie. Jeśli rekord został zarejestrowany z wartościami rzeczywistymi lub rekord klienta oferty to klient podstawowy, użytkownik będzie mógł usunąć rekord. | Po wykorzystaniu oferty klienci wiersza oferty są kopiowani jako klienci w pozycji kontraktu projektu. Po wykorzystaniu oferty klienci wiersza oferty są także kopiowani jako klienci w pozycji kontraktu projektu. |
-| Procent podziału rozliczeń | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Reprezentuje procent każdej niezafakturowanej transakcji sprzedaży, która będzie przypisywana do tego klienta oferty. | Po wygraniu oferty ta wartość jest kopiowana do klienta kontraktu oraz nowych wierszy oferty. |
-| Nazwa kontaktu u płatnika | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Jest to pole tekstowe, które ma służyć do identyfikowania osoby kontaktowej dla faktury u danego klienta. Te elementy są domyślnie pobierane z rekordu pokrewnego konta | Skopiowane do klienta kontraktu dotyczącego projektu podczas potwierdzenia oferty i do pola Nazwa płatnika kontraktu na fakturze wygenerowanej dla danego klienta. |
-| Nazwa płatnika | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | To pole tekstowe ma służyć do identyfikowania osoby kontaktowej dla faktury u danego klienta. | Skopiowane do klienta kontraktu dotyczącego projektu podczas potwierdzenia oferty i do pola **Nazwa płatnika kontraktu** na fakturze wygenerowanej dla danego klienta. |
-| Warunki płatności | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Jest to zestaw opcji z wartościami domyślnymi dla rekordu konta pokrewnego. | Skopiowane do klienta kontraktu dotyczącego projektu podczas potwierdzenia oferty i do pola **Nazwa płatnika kontraktu** na fakturze wygenerowanej dla danego klienta. |
-| Zaokrągla | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Wskazuje, czy ten klient jest domyślnym klientem do zaokrąglania dla danej transakcji. | Po wygraniu oferty ta wartość jest kopiowana do klienta oferty. |
-| Nieprzekraczalny limit | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Wskazuje, czy istnieje limit negocjacyjny lub blokada ogólnej kwoty, która będzie zafakturowana dla tego klienta w tej interakcji | Po wygraniu oferty ta wartość jest kopiowana do klienta oferty. |
+| Konto | Edytowalna siatka na karcie **Klienci oferty** , formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Lista wszystkich aktywnych kont. To pole jest zablokowane po utworzeniu rekordu. Jeśli chcesz przeprowadzić aktualizację, usuń rekord i utwórz go ponownie. Jeśli rekord został zarejestrowany z wartościami rzeczywistymi lub rekord klienta oferty to klient podstawowy, użytkownik będzie mógł usunąć rekord. | Po wykorzystaniu oferty klienci wiersza oferty są kopiowani jako klienci w pozycji kontraktu projektu. Po wykorzystaniu oferty klienci wiersza oferty są także kopiowani jako klienci w pozycji kontraktu projektu. |
+| Procent podziału rozliczeń | Edytowalna siatka na karcie **Klienci oferty** , formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Reprezentuje procent każdej niezafakturowanej transakcji sprzedaży, która będzie przypisywana do tego klienta oferty. | Po wygraniu oferty ta wartość jest kopiowana do klienta kontraktu oraz nowych wierszy oferty. |
+| Nazwa kontaktu u płatnika | Edytowalna siatka na karcie **Klienci oferty** , formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Jest to pole tekstowe, które ma służyć do identyfikowania osoby kontaktowej dla faktury u danego klienta. Te elementy są domyślnie pobierane z rekordu pokrewnego konta | Skopiowane do klienta kontraktu dotyczącego projektu podczas potwierdzenia oferty i do pola Nazwa płatnika kontraktu na fakturze wygenerowanej dla danego klienta. |
+| Nazwa płatnika | Edytowalna siatka na karcie **Klienci oferty** , formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | To pole tekstowe ma służyć do identyfikowania osoby kontaktowej dla faktury u danego klienta. | Skopiowane do klienta kontraktu dotyczącego projektu podczas potwierdzenia oferty i do pola **Nazwa płatnika kontraktu** na fakturze wygenerowanej dla danego klienta. |
+| Warunki płatności | Edytowalna siatka na karcie **Klienci oferty** , formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Jest to zestaw opcji z wartościami domyślnymi dla rekordu konta pokrewnego. | Skopiowane do klienta kontraktu dotyczącego projektu podczas potwierdzenia oferty i do pola **Nazwa płatnika kontraktu** na fakturze wygenerowanej dla danego klienta. |
+| Zaokrągla | Edytowalna siatka na karcie **Klienci oferty** , formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Wskazuje, czy ten klient jest domyślnym klientem do zaokrąglania dla danej transakcji. | Po wygraniu oferty ta wartość jest kopiowana do klienta oferty. |
+| Nieprzekraczalny limit | Edytowalna siatka na karcie **Klienci oferty** , formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Wskazuje, czy istnieje limit negocjacyjny lub blokada ogólnej kwoty, która będzie zafakturowana dla tego klienta w tej interakcji | Po wygraniu oferty ta wartość jest kopiowana do klienta oferty. |
 
 ## <a name="editing-billing-split-percentages"></a>Edytowanie procentu podziału rozliczeń
 

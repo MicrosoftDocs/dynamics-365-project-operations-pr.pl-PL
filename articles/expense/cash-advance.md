@@ -11,11 +11,11 @@ ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
 ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908444"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081895"
 ---
 # <a name="cash-advance"></a>Zaliczka gotówkowa
 
@@ -25,7 +25,7 @@ Zaliczka gotówkowa umożliwia pracownikom pożyczanie pieniędzy z firmy przed 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Tworzenie i złożenie prośby o zaliczkę gotówkową
 
-1. W sekcji **Moje wydatki** wybierz opcję **Zaliczki gotówkowe** > **Nowa**, aby utworzyć nową zaliczkę gotówkową. 
+1. W sekcji **Moje wydatki** wybierz opcję **Zaliczki gotówkowe** > **Nowa** , aby utworzyć nową zaliczkę gotówkową. 
 2. Na **Nowy wniosek o zaliczkę gotówkową** wprowadź cel wydatku i wybierz lokalizację, w której koszty będą ponoszone.
 3. Wprowadź wnioskowaną kwotę i walutę, a następnie wybierz pozycję **Zapisz**. 
 4. Kiedy przygotowana prośba o zaliczkę gotówkową będzie gotowa, na stronie **Wniosek o zaliczkę gotówkową** wybierz pozycję **Przepływ pracy** > **Prześlij**.
@@ -52,7 +52,7 @@ Menedżerowie lub użytkownicy skonfigurowani jako osoby akceptujące w przepły
 ## <a name="pay-cash-advances"></a>Wypłata zaliczek gotówkowych 
 Poniższa procedura jest zwykle wykonywana przez księgowego lub osobę z uprawnieniami do księgowania.
 
-1. W celu zaksięgowania zatwierdzonych zaliczek gotówkowych wybierz opcję **Zaakceptowane zaliczki gotówkowe**, a następnie wybierz pozycję **Wypłata i transfer**.  
+1. W celu zaksięgowania zatwierdzonych zaliczek gotówkowych wybierz opcję **Zaakceptowane zaliczki gotówkowe** , a następnie wybierz pozycję **Wypłata i transfer**.  
 2. Wprowadź szczegóły dziennika dotyczące zaliczek gotówkowych, a następnie kliknij przycisk **OK**. 
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Wysyłanie raportu wydatków względem płatnej zaliczki gotówkowej 

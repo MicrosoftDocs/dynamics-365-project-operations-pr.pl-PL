@@ -3,17 +3,17 @@ title: Ustanowienie nowego środowiska
 description: W tym temacie zamieszczono informacje dotyczące tworzenia nowego środowiska w Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949375"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081899"
 ---
 # <a name="provision-a-new-environment"></a>Ustanowienie nowego środowiska
 
@@ -26,21 +26,21 @@ W tym temacie zamieszczono informacje dotyczące sposobu ustanawiania nowego śr
 Wykonaj poniższe kroki, aby włączyć zautomatyzowany przepływ ustanawiania Project Operations w ramach LCS.
 
 1. Przejdź do [LCS](https://lcs.dynamics.com/v2) i wybierz kafelek **Zarządzanie podglądem funkcji**.
-2. Na liście **Wersji zapoznawczej funkcji** wybierz **Project Operations** i wybierz **Włącz wersje zapoznawcze funkcji**, aby włączyć Project Operations.
+2. Na liście **Wersji zapoznawczej funkcji** wybierz **Funkcja Project Operations** i wybierz **Włącz wersje zapoznawcze funkcji** , aby włączyć Project Operations.
 
 > [!NOTE]
 > Ten krok jest wykonywany tylko raz dla każdego projektu LCS.
 
 ## <a name="provision-a-project-operations-environment"></a>Obsługiwanie środowiska Project Operations
 
-1. Otwórz nowe [środowisko pokazowe](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) Dynamics 365 Finance lub [piaskownicę/wdrożenie środowiska produkcyjnego](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Otwórz nowe [środowisko pokazowe](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) Dynamics 365 Finance lub [piaskownicę/wdrożenie środowiska produkcyjnego](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Wykonaj kroki kreatora **Inicjowania obsługi środowiska**. 
 
 > [!IMPORTANT]
 > Upewnij się, że wybrana wersja aplikacji to 10.0.13 lub wyższa.
 
 3. Aby zainicjować obsługę Project Operations, w obszarze **Ustawienia zaawansowane** wybierz opcję **Common Data Service**. 
-4. Aby włączyć to **Ustawienie Common Data Service**, należy wybrać opcję **Tak** i wprowadzić informacje w wymaganych polach:
+4. Aby włączyć to **Ustawienie Common Data Service** , należy wybrać opcję **Tak** i wprowadzić informacje w wymaganych polach:
 
   - Nazwa/nazwisko
   - Region
@@ -54,7 +54,7 @@ Wykonaj poniższe kroki, aby włączyć zautomatyzowany przepływ ustanawiania P
 ![Ustawienia wdrażania](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
-> Wybierz opcję **Zgoda**, aby wyrazić zgodę na potwierdzenie warunków świadczenia usługi, a następnie wybierz opcję **Gotowy**, aby powrócić do ustawień wdrażania.
+> Wybierz opcję **Zgoda** , aby wyrazić zgodę na potwierdzenie warunków świadczenia usługi, a następnie wybierz opcję **Gotowy** , aby powrócić do ustawień wdrażania.
 
 ![Zgoda na wdrożenia](./media/2DeploymentConsent.png)
 
@@ -84,7 +84,7 @@ W celu uzyskania tej wersji może być konieczne zastosowanie aktualizacji dotyc
 
 ![Zapisz pakiet](./media/6SavePackage.png)
 
-3. Wybierz pozycje **Wybierz wszystko**, a następnie wybierz **Zapisz pakiet**.
+3. Wybierz pozycje **Wybierz wszystko** , a następnie wybierz **Zapisz pakiet**.
 
 ![Przeglądanie i zapisywanie aktualizacji](./media/7ReviewAndSaveUpdates.png)
 
@@ -116,11 +116,11 @@ Obsługa środowiska zajmie trochę czasu. Po zakończeniu środowisko powróci 
 
 ![Link do systemu CDS](./media/12LinktoCDS.png)
 
-4. Wybierz opcję **Zastosuj rozwiązanie**, aby uzyskać dostęp do encji, które zostaną zamapowane na integrację.
+4. Wybierz opcję **Zastosuj rozwiązanie** , aby uzyskać dostęp do encji, które zostaną zamapowane na integrację.
 
 ![Zastosuj rozwiązania](./media/13ApplySolutions.png)
 
-5. Zaznacz oba rozwiązania, **Mapowanie encji z podwójnym zapisem Dynamics 365 Finance and Operations** i **Mapowanie encji z podwójnym zapisem Dynamics 365 Project Operations**, a następnie kliknij przycisk **Zastosuj**.
+5. Zaznacz oba rozwiązania, **Mapowanie encji z podwójnym zapisem Dynamics 365 Finance and Operations** i **Mapowanie encji z podwójnym zapisem Dynamics 365 Project Operations** , a następnie kliknij przycisk **Zastosuj**.
 
 ![Potwierdzanie rozwiązań](./media/14ConfirmSolutions.png)
 
@@ -165,16 +165,17 @@ Odświeżenie zajmie około 20 minut. Po jego zakończeniu otrzymasz alert.
 | **Encja integrująca dla transakcji projektu relacje (msdyn\_transactionconnections)** | No | No | nie dotyczy | No | nie dotyczy |
 | **Punkty kontrolne pozycji kontraktu w integracji Project Operations (msdyn\_contractlinesscheduleofvalues)** | No | No | nie dotyczy | No | nie dotyczy |
 | **Encja integracji Project Operations na potrzeby oszacowania kosztów (msdyn\_estimateslines)** | No | No | nie dotyczy | No | nie dotyczy |
-| **Encja integracji Project Operations na potrzeby oszacowania godzinowego (msdyn\_resourceassignments)** | No | No | nie dotyczy | No | nie dotyczy |
+| **Encja integracji kategorii wydatków projektowych Project Operations (msdyn\_expensecategories)** | No | No | nie dotyczy | No | nie dotyczy |
 | **Encja integracji wydatków projektowych Project Operations (msdyn\_expenses)** | Tak | No | nie dotyczy | No | nie dotyczy |
 | **Encja integracji Project Operations na potrzeby oszacowania godzinowego (msdyn\_resourceassignments)** | Tak | No | nie dotyczy | No | nie dotyczy |
 
+
 4. Aby odświeżyć encję, wybierz nazwę mapowania, a następnie wybierz opcję **Odśwież encje**. 
-5. Wykonaj czynności, aby uruchomić mapowanie po zakończeniu odświeżania.
+
 
 ![Odśwież mapowanie](./media/20RefreshMapping.png)
 
-Przed włączeniem następnego mapowania należy sprawdzić, czy mapowanie w tabeli jest w stanie **Działającym**. Uruchamianie mapowania z większą liczbą wstępnie wymaganych programów może zająć dużo czasu.
+5. Po odświeżeniu uruchom mapowanie. Przed włączeniem następnego mapowania należy sprawdzić, czy mapowanie w tabeli jest w stanie **Działającym**. Uruchamianie mapowania z większą liczbą wstępnie wymaganych programów może zająć dużo czasu.
 
 Aby uruchomić mapowanie z wymaganiami wstępnymi, włącz przełącznik **Pokaż mapowania encji pokrewnych**. Jeśli tabela wskazuje , że **Wymagana wstępna synchronizacja** ma stan **Nie** sprawdź, czy flaga **Wstępna synchronizacja** jest **wyłączona** we wszystkich mapowaniach wymagań wstępnych, zanim zostanie ono uruchomione.
 

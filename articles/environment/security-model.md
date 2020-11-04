@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896744"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081897"
 ---
 # <a name="security-model"></a>Model zabezpieczeń
 
@@ -36,10 +36,11 @@ Funkcje front-end w Project Operations są następujące:
 
 
 Program Microsoft Project dla sieci Web zawiera następujące role:
-| Rola                          | Opis                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Użytkownik projektu | Użytkownik będący częścią zespołu projektu, który może tworzyć własne projekty i wyświetlać wszystkie udostępnione mu projekty.| Użytkownik|
-| System projektów | Rola używana w kontekście aplikacji. Klienci nie powinni używać tej roli systemowej. | Globalne|
+
+| Rola           | Opis                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Użytkownik projektu   | Użytkownik będący częścią zespołu projektu, który może tworzyć własne projekty i wyświetlać wszystkie udostępnione mu projekty. | Użytkownik   |
+| System projektów | Rola używana w kontekście aplikacji. Klienci nie powinni używać tej roli systemowej.                                    | Globalne |
 
 ## <a name="security-enforcement"></a>Egzekwowanie zabezpieczeń
 Akcje wykonywane na poziomie projektu są wykonywane w kontekście zalogowanego użytkownika. Oznacza to, że w celu tworzenia, otwierania i usuwania projektu użytkownik musi mieć dostęp do programu, który jest dostępny w CDS. Dostęp w CDS może być przyznany za pośrednictwem dowolnego z możliwych mechanizmów zawartych w platformie. Na przykład użytkownik z większym zakresem może mieć dostęp do projektu lub też została wykonana jawna akcja udzielenia projektu, która daje użytkownikowi dostęp do programu.
@@ -56,6 +57,8 @@ Grupy umożliwiają wspólną pracę nad uprawieniami w ramach projektu i artefa
 Project Operations nie tworzy grupy niejawną operacją i działa wyłącznie w ramach wyraźnego działania w grupach.
 
 Wyszukiwanie członka grupy w oknie dialogowym **Zarządzanie grupami** jest ograniczone do użytkowników, którzy są ustawiani jako część grupy zabezpieczeń środowiska. Aby uzyskać więcej informacji, zobacz [Kontrolowanie dostępu użytkowników do środowisk: grupy zabezpieczeń i licencje](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Tryb Grupowy](./media/groupsmode.png)
 
 1. Właścicielem projektu jest użytkownik tworzący i należący do niego.
 2. Właściciel projektu zostanie przypisany do zespołu.

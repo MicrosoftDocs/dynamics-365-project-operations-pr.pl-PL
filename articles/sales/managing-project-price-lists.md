@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d09a0dd8234641ca106c37a38d1d721dfb07236c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898679"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082238"
 ---
 # <a name="project-price-lists"></a>Cenniki projektu
 
@@ -35,16 +34,16 @@ Dynamics 365 Project Operations rozszerzają encję lista cen w Dynamics 365 Sal
 
 Cennik zawiera informacje dostarczane przez cztery encje:
 
-- **Cennik**: w tej encji są przechowywane informacje o kontekście, walucie, dacie i godzinie dla czasu cennika. Kontekst wskazuje, czy cennik zawiera stawki kosztów ekspresowych i stawki sprzedaży. 
-- **Waluta**: ta encja zawiera walutę cen z cennika. 
-- **Data**: ta encja jest używana, gdy system próbuje wprowadzić domyślną cenę transakcji. Wybrany jest cennik, który zawiera datę obowiązywania uwzględniającą datę transakcji. Jeśli zostanie znaleziony więcej niż jeden cennik z datą obowiązywania w dniu transakcji dołączony do powiązanej oferty, umowy lub jednostki organizacyjnej, wtedy żadna cena nie będzie domyślna. 
-- **Czas**: ta encja służy do przechowywania jednostki czasu, dla której są wyrażane ceny, na przykład stawki dziennej lub godzinowej. 
+- **Cennik** : w tej encji są przechowywane informacje o kontekście, walucie, dacie i godzinie dla czasu cennika. Kontekst wskazuje, czy cennik zawiera stawki kosztów ekspresowych i stawki sprzedaży. 
+- **Waluta** : ta encja zawiera walutę cen z cennika. 
+- **Data** : ta encja jest używana, gdy system próbuje wprowadzić domyślną cenę transakcji. Wybrany jest cennik, który zawiera datę obowiązywania uwzględniającą datę transakcji. Jeśli zostanie znaleziony więcej niż jeden cennik z datą obowiązywania w dniu transakcji dołączony do powiązanej oferty, umowy lub jednostki organizacyjnej, wtedy żadna cena nie będzie domyślna. 
+- **Czas** : ta encja służy do przechowywania jednostki czasu, dla której są wyrażane ceny, na przykład stawki dziennej lub godzinowej. 
 
 Encja cennika składa się z trzech tabel pokrewnych przechowujących ceny:
 
-  - **Cena według roli**: w tej tabeli jest przechowywana stawka dla kombinacji wartości ról i jednostek organizacyjnych oraz jest używana do konfigurowania cen opartych na rolach dla zasobów ludzkich.
-  - **Cena kategorii transakcji**: w tej tabeli są przechowywane ceny według kategorii transakcji i są używane do konfigurowania cen kategorii wydatków.
-  - **Pozycje cennika**: w tej tabeli są przechowywane ceny na produkty z katalogu.
+  - **Cena według roli** : w tej tabeli jest przechowywana stawka dla kombinacji wartości ról i jednostek organizacyjnych oraz jest używana do konfigurowania cen opartych na rolach dla zasobów ludzkich.
+  - **Cena kategorii transakcji** : w tej tabeli są przechowywane ceny według kategorii transakcji i są używane do konfigurowania cen kategorii wydatków.
+  - **Pozycje cennika** : w tej tabeli są przechowywane ceny na produkty z katalogu.
  
 Cennik jest kartą stawki. Stawka jest kombinacją encji cennika i pokrewnych wierszy w tabelach cena roli, Cena kategorii transakcji i pozycje cennika.
 
@@ -54,15 +53,15 @@ Termin *rola zasobu* odnosi się do zestawu umiejętności, kompetencji i certyf
 
 Czas zasobów ludzkich jest podawany na podstawie roli, którą dany zasób pełni w określonym projekcie. W przypadku czasu zasobu ludzkiego obsługiwana jest wycena i rozliczanie oparte na roli zasobu. Czas może być określany jako cena w dowolnej jednostce w grupie jednostek **czasu**.
 
-Grupa jednostek **Czas** jest tworzona podczas instalowania Project Operations. Jego domyślna jednostka **Godzina**. Nie można usuwać, zmieniać nazw ani edytować atrybutów grupy jednostek **Czas** lub jednostki **Godzina**. Do grupy jednostek **Czas** można jednak dodać inne jednostki. Jeśli użytkownik próbuje usunąć grupę jednostek **czasu** lub jednostkę **godzinową**, może wystąpić awaria logiki biznesowej.
+Grupa jednostek **Czas** jest tworzona podczas instalowania Project Operations. Jego domyślna jednostka **Godzina**. Nie można usuwać, zmieniać nazw ani edytować atrybutów grupy jednostek **Czas** lub jednostki **Godzina**. Do grupy jednostek **Czas** można jednak dodać inne jednostki. Jeśli użytkownik próbuje usunąć grupę jednostek **czasu** lub jednostkę **godzinową** , może wystąpić awaria logiki biznesowej.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategorie transakcji i kategorie wydatków
 
 Koszty podróży i inne wydatki, które ponosi konsultant projektu, są rozliczane w fakturach dla klientów. Program tworzy cenniki dotyczące kategorii wydatków, korzystając z cenników. Bilet lotniczy, hotel i wynajem samochodu są przykładami kategorii wydatków. Każdy wiersz cennika dla wydatków określa ceny w konkretnej kategorii wydatku. Do wyceny kategorii wydatków są używane trzy następujące metody:
 
-- **Po kosztach**: koszt wydatku jest naliczany klientowi i nie są stosowane żadne marże.
-- **Procent narzutu**: procent ponad rzeczywisty koszt jest naliczany klientowi. 
-- **Cena jednostkowa**: cena na fakturze jest ustalana dla każdej jednostki w kategorii wydatków. Kwota, która jest naliczana klientowi, jest obliczana na podstawie liczby jednostek wydatku zgłoszonych przez konsultanta. W przebiegu stosowana jest metoda kalkulacji cen na jednostkę. Na przykład kategoria wydatków przebiegu może być skonfigurowana jako 30 USD na dobę lub na 2 USD za jeden kilometr. Kiedy konsultant raportuje mile w projekcie, kwota do rozliczenia jest obliczana na podstawie liczby mil zgłoszonych przez konsultanta.
+- **Po kosztach** : koszt wydatku jest naliczany klientowi i nie są stosowane żadne marże.
+- **Procent narzutu** : procent ponad rzeczywisty koszt jest naliczany klientowi. 
+- **Cena jednostkowa** : cena na fakturze jest ustalana dla każdej jednostki w kategorii wydatków. Kwota, która jest naliczana klientowi, jest obliczana na podstawie liczby jednostek wydatku zgłoszonych przez konsultanta. W przebiegu stosowana jest metoda kalkulacji cen na jednostkę. Na przykład kategoria wydatków przebiegu może być skonfigurowana jako 30 USD na dobę lub na 2 USD za jeden kilometr. Kiedy konsultant raportuje mile w projekcie, kwota do rozliczenia jest obliczana na podstawie liczby mil zgłoszonych przez konsultanta.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Ceny sprzedaży i zastąpienia projektu
 

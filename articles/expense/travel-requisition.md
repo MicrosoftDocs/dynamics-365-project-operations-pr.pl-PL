@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906280"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081881"
 ---
 # <a name="travel-requisitions"></a>Wnioski wyjazdowe
 
@@ -52,7 +52,7 @@ Wybierz wniosek wyjazdowy, który chcesz zatwierdzić, a następnie wybierz pozy
 
 1. Utwórz nowy raport wydatków i w nagłówku raportu i na liście zatwierdzonych wniosków wyjazdowych wybierz pozycję **Zamapuj do wniosku wyjazdowego**.
 2. Pole **Kwoty wniosku wyjazdowego** jest automatycznie aktualizowane w nagłówku raportu o wydatkach.
-3. Dodaj koszty poniesione podczas podróży. Jeśli zaznaczone jest pole **Wstępnie autoryzowane**, zostanie zaktualizowana kwota uzgodniona i kwota zatwierdzona dla określonej kategorii wydatków.
+3. Dodaj koszty poniesione podczas podróży. Jeśli zaznaczone jest pole **Wstępnie autoryzowane** , zostanie zaktualizowana kwota uzgodniona i kwota zatwierdzona dla określonej kategorii wydatków.
 
 > [!NOTE]
 > W przypadku zamapowania raportu z wydatków do zatwierdzonego wniosku wyjazdowego, kwota transakcji nie może być większa od kwoty dozwolonej. 

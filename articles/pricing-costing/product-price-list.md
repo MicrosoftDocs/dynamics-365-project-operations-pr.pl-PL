@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3570aeb78804e9b267caa55a27e02d6c8df9a5c6
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 504aa90bfb478207059b5e2894a3990f9a4a5e9e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898184"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082080"
 ---
 # <a name="product-price-lists"></a>Cenniki produktu
 
@@ -47,7 +46,7 @@ Podczas tworzenia nowego cennika niestandardowego dla oferty poprzez wybranie op
 
  
 ## <a name="default-product-price-list"></a>Domyślny cennik produktów
-Każdy rekord odbiorcy zawiera pole **Cennik domyślny**, w którym można określić cennik odpowiadający walucie klienta. Wartość domyślna nie jest automatycznie wprowadzana w tym polu. Jeśli istnieje umowa z konkretnym odbiorcą określająca niestandardową kalkulację cen, można użyć tego pola w celu skojarzenia cennika z tym odbiorcą.
+Każdy rekord odbiorcy zawiera pole **Cennik domyślny** , w którym można określić cennik odpowiadający walucie klienta. Wartość domyślna nie jest automatycznie wprowadzana w tym polu. Jeśli istnieje umowa z konkretnym odbiorcą określająca niestandardową kalkulację cen, można użyć tego pola w celu skojarzenia cennika z tym odbiorcą.
 
 Encje Szansa sprzedaży, Oferta i Kontrakt projektu używają następującej kolejności wprowadzania domyślnych cenników produktów. Ta sama kolejność jest stosowana w cennikach projektów.
 

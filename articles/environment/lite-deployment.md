@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: e938876d459b3f6dfedd90e57e3042cda96bffb7
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949006"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081876"
 ---
 # <a name="deploy-project-operations-lite-deployment--deal-to-proforma-invoicing"></a>Wdrażanie usługi Project Operations Lite — od oferty do faktury pro forma
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965859"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081913"
 ---
 # <a name="managing-multiple-customers-on-project-based-quote-lines"></a>Zarządzanie wieloma klientami w wierszach oferty opartej na projekcie
 
@@ -33,10 +33,10 @@ W poniższej tabeli przedstawiono pola rekordu nabywcy w wierszu oferty opartej 
 
 | Pole | Lokalizacja | Opisy i wskazówki | Wpływ zmian w dalszych etapach |
 | --- | --- | --- | --- |
-| **Klient** | Edytowalna siatka na karcie **Kontrahenci wiersza oferty**, formularz główny i formularze szybkiego tworzenia dla klienta wiersza oferty. | Lista wszystkich aktywnych kont. To pole jest zablokowane po utworzeniu rekordu. Jeśli zachodzi konieczność zaktualizowania pola, należy usunąć rekord i utworzyć go ponownie. W przypadku zapisania jakichkolwiek wartości rzeczywistych rekord nie jest usuwany. | W przypadku wybrania do dodania konta z głównej listy klientów, klient z wiersza oferty jest dodawany również jako klient oferty po zapisaniu. Po wykorzystaniu oferty klienci wiersza oferty są kopiowani jako klienci w pozycji kontraktu projektu. |
-| **Procent podziału rozliczeń** | Edytowalna siatka na karcie **Kontrahenci wiersza oferty**, formularz główny i formularze szybkiego tworzenia dla klienta wiersza oferty. | Reprezentuje procent każdej niezafakturowanej transakcji sprzedaży, która będzie przypisywana do tego klienta. | Kopiowane do klientów pozycji kontraktu projektu. |
-| **Nieprzekraczalny limit** | Edytowalna siatka na karcie **Kontrahenci wiersza oferty**, formularz główny i formularze szybkiego tworzenia dla klienta wiersza oferty. | Wskazuje, czy istnieje limit negocjacyjny lub blokada ogólnej kwoty, która będzie zafakturowana dla tego klienta w tym wierszu oferty. | Po wygraniu oferty ta wartość jest kopiowana do klienta wiersza oferty. |
-| **Zaokrągla** | Edytowalna siatka na karcie **Kontrahenci wiersza oferty**, formularz główny i formularze szybkiego tworzenia dla klienta wiersza oferty. | Wskazuje, czy ten klient jest domyślnym klientem zaokrąglającym w ramach danego wiersza oferty opartej na projekcie. | Po wygraniu oferty ta wartość jest kopiowana do klienta oferty. |
+| **Klient** | Edytowalna siatka na karcie **Kontrahenci wiersza oferty** , formularz główny i formularze szybkiego tworzenia dla klienta wiersza oferty. | Lista wszystkich aktywnych kont. To pole jest zablokowane po utworzeniu rekordu. Jeśli zachodzi konieczność zaktualizowania pola, należy usunąć rekord i utworzyć go ponownie. W przypadku zapisania jakichkolwiek wartości rzeczywistych rekord nie jest usuwany. | W przypadku wybrania do dodania konta z głównej listy klientów, klient z wiersza oferty jest dodawany również jako klient oferty po zapisaniu. Po wykorzystaniu oferty klienci wiersza oferty są kopiowani jako klienci w pozycji kontraktu projektu. |
+| **Procent podziału rozliczeń** | Edytowalna siatka na karcie **Kontrahenci wiersza oferty** , formularz główny i formularze szybkiego tworzenia dla klienta wiersza oferty. | Reprezentuje procent każdej niezafakturowanej transakcji sprzedaży, która będzie przypisywana do tego klienta. | Kopiowane do klientów pozycji kontraktu projektu. |
+| **Nieprzekraczalny limit** | Edytowalna siatka na karcie **Kontrahenci wiersza oferty** , formularz główny i formularze szybkiego tworzenia dla klienta wiersza oferty. | Wskazuje, czy istnieje limit negocjacyjny lub blokada ogólnej kwoty, która będzie zafakturowana dla tego klienta w tym wierszu oferty. | Po wygraniu oferty ta wartość jest kopiowana do klienta wiersza oferty. |
+| **Zaokrągla** | Edytowalna siatka na karcie **Kontrahenci wiersza oferty** , formularz główny i formularze szybkiego tworzenia dla klienta wiersza oferty. | Wskazuje, czy ten klient jest domyślnym klientem zaokrąglającym w ramach danego wiersza oferty opartej na projekcie. | Po wygraniu oferty ta wartość jest kopiowana do klienta oferty. |
 
 ## <a name="edit-billing-split-percentages"></a>Edytowanie procentu podziału rozliczeń
 

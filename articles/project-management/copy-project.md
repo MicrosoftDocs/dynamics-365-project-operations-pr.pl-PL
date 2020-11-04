@@ -3,23 +3,23 @@ title: Kopiowanie projektu
 description: W tym temacie zamieszczono informacje o kopiowaniu projektu w Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908451"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081953"
 ---
 # <a name="copy-a-project"></a>Kopiowanie projektu
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Korzystając z Dynamics 365 Project Operations można szybko budować nowe projekty, dzięki działaniu o nazwie **Kopiowanie projektów**, dostępnej w formularzu **Projekty**. Aby skopiować projekt, wybierz go, a następnie wybierz pozycję **Kopiuj**. Zostaną skopiowane następujące elementy:
+Korzystając z Dynamics 365 Project Operations można szybko budować nowe projekty, wybierając opcję **Kopiowanie projektów** w formularzu **Projekty**. Aby skopiować projekt, otwórz go, a następnie wybierz opcję **Kopiuj projekt**. Zostaną skopiowane następujące elementy:
 
 - Właściwości projektu
 - Struktura podziału pracy
@@ -58,4 +58,6 @@ W przypadku kopiowania zespołu projektu z projektu źródłowego, zasoby ogóln
 
 ## <a name="estimates"></a>Szacunki
 
-Po skopiowaniu projektu wiersze szacowania zasobu i wydatku są kopiowane z projektu źródłowego.
+Po skopiowaniu projektu wiersze szacowania zasobu i wydatku są kopiowane z projektu źródłowego. 
+
+Informacje na temat sposobu programowego uzyskiwania dostępu do kopiowania projektów można znaleźć w artykule [projektowanie szablonów projektów przy użyciu narzędzia do kopiowania projektów](dev-copy-project.md).

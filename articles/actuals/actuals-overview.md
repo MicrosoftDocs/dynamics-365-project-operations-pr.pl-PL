@@ -1,5 +1,5 @@
 ---
-title: Strona główna wartości rzeczywistych
+title: Wartości rzeczywiste
 description: Ten temat zawiera informacje na temat pracy z wartościami rzeczywistymi w Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +16,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 75ad336a995aba3505325466433a5c5e2bb3e776
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907331"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082002"
 ---
-# <a name="actuals"></a>Wartości rzeczywiste
+# <a name="actuals"></a>Wartości rzeczywiste 
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
@@ -46,7 +45,7 @@ Podczas przesyłania wpisu czasu dla projektu, który jest połączony z projekt
 
 Logika tworzenia cen domyślnych jest przechowywana w wierszu arkusza. Wartości pól z wpisu czasu są kopiowane do wiersza arkusza. Te wartości zawierają datę transakcji, pozycję kontraktu, do której jest mapowany projekt, oraz wynik obliczania waluty z odpowiedniego cennika.
 
-Pola wpływające na domyślne ceny, takie jak **Rola** i **Jednostka organizacyjna**, są wykorzystywane do domyślnego wprowadzenia właściwej ceny w wierszu arkusza. We wpisie czasu można dodać pole niestandardowe. Chcąc przetworzyć wartość do wartości rzeczywistych, należy utworzyć pole w encji Wartości rzeczywiste, a następnie za pomocą mapowań pól skopiować pole z wpisu czasu do wartości rzeczywistej.
+Pola wpływające na domyślne ceny, takie jak **Rola** i **Jednostka organizacyjna** , są wykorzystywane do domyślnego wprowadzenia właściwej ceny w wierszu arkusza. We wpisie czasu można dodać pole niestandardowe. Chcąc przetworzyć wartość do wartości rzeczywistych, należy utworzyć pole w encji Wartości rzeczywiste, a następnie za pomocą mapowań pól skopiować pole z wpisu czasu do wartości rzeczywistej.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Wiersze arkusza i przesyłanie podstawowych kosztów
 

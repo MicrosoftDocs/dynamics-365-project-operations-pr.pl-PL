@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908457"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081945"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Harmonogramy fakturowania w wierszach oferty opartej na projekcie
 
@@ -32,7 +32,7 @@ Kiedy metoda fakturowania w wierszu oferty opartej na projekcie to czas i materi
 3. Otwórz wiersz oferty typu czas i materiały, dla którego chcesz utworzyć harmonogram fakturowania opartego na datach. 
 4. Na karcie **Harmonogram fakturowania** wybierz wartości w polach **Rozpoczęcie fakturowania** i **Częstotliwość fakturowania**. 
 5. W podsiatce wybierz pozycję **Utwórz harmonogram fakturowania**.
-6. Aplikacja generuje harmonogram faktur dla pól **Data przebiegu fakturowania**, **Ostateczny termin transakcji** oraz **Stan przebiegu** w następujący sposób:
+6. Aplikacja generuje harmonogram faktur dla pól **Data przebiegu fakturowania** , **Ostateczny termin transakcji** oraz **Stan przebiegu** w następujący sposób:
 
     - **Data przebiegu fakturowania** jest ustawiana na datę określoną na bazie częstotliwości faktur.
     - **Ostateczny termin transakcji** jest ustawiany na dzień wcześniej niż **Data przebiegu fakturowania**.

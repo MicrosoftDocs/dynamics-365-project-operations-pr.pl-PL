@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: f255b2cbf290973ce62fe2c1c121bd1df15a7392
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3928595"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081889"
 ---
 # <a name="copy-project-based-quotes"></a>Kopiowanie ofert opartych na projekcie
 
@@ -33,7 +33,7 @@ Spowoduje to otwarcie strony dialogu, na której można wprowadzić parametry ko
 Po otwarciu okna dialogowego system wyświetli jednostkę zamawiającą z oferty źródłowej. | Jednostka zamawiająca to wydział firmy, który wykona projekt po zamknięciu transakcji. Każda jednostka zamawiająca ma walutę. Waluta jest używana do raportowania szacowanych i rzeczywistych kosztów poniesionych podczas wykonywania projektu. |
 | Waluta | Jest to waluta, w jakiej obliczana jest kwota oferty. Po otwarciu okna dialogowego system wyświetli walutę z oferty źródłowej. Tę wartość można zmodyfikować, a jeśli jest ona zmieniona, pole **Kopiuj kalkulację cen** jest zawsze ustawione na **nie**. Wynika to z faktu, że cenniki w ofercie źródłowej nie mają już zastosowania. | Waluta jest używana to wybrania domyślnego cennika, aby utworzyć szacowaną wartość finansową oferty i ewentualnie zafakturować klienta, kiedy oferta przejdzie w fazę realizacji. |
 | Żądana data dostawy | Jest to data dostarczenia zlecona przez klienta. | Ta wartość jest używana jako data zakończenia podczas tworzenia faktur w ramach odpowiedniego interwału. |
-| Kopiuj kalkulację cen | Wartość Tak/Nie wskazuje, czy wycena z oferty powinna zostać skopiowana z oferty źródłowej. | Jeśli zostanie wybrana opcja **Tak**, lista produktów i odwołań do cennika projektu jest kopiowana z oferty źródłowej do oferty docelowej. Jeśli wybrana jest opcja **Nie**, cenniki są ponownie domyślnie ustawiane na podstawie najnowszych cenników ustawionych dla parametrów klienta lub projektu. |
+| Kopiuj kalkulację cen | Wartość Tak/Nie wskazuje, czy wycena z oferty powinna zostać skopiowana z oferty źródłowej. | Jeśli zostanie wybrana opcja **Tak** , lista produktów i odwołań do cennika projektu jest kopiowana z oferty źródłowej do oferty docelowej. Jeśli wybrana jest opcja **Nie** , cenniki są ponownie domyślnie ustawiane na podstawie najnowszych cenników ustawionych dla parametrów klienta lub projektu. |
 
 Po wybraniu opcji **OK** na stronie dialogu system tworzy kopię oferty projektu na podstawie parametrów wybranych w oknie dialogowym. Zostanie otwarta nowa oferta projektu. 
 

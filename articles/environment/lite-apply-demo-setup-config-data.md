@@ -8,31 +8,31 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949007"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081877"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Zastosowanie konfiguracji demonstracyjnej i danych konfiguracyjnych do wdrożenia uproszczonej wersji Project Operations — oferta do fakturowania proforma
 
 _**Wdrażanie uproszczone — od oferty do faktury pro forma_
 
 1. Pobierz [pakiet Master Data Package](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
-2. Przejdź do folderu *ProjOpsDemoDataSetupAndMaster - Integrated CMT*, a następnie uruchom plik wykonywalny *DataMigrationUtility*.
-3. Na stronie 1 Kreatora migracji konfiguracji Common Data Service (CMT) wybierz pozycję **Importuj dane**, a następnie wybierz pozycję **Kontynuuj**.
+2. Przejdź do folderu *ProjOpsDemoDataSetupAndMaster - Integrated CMT* , a następnie uruchom plik wykonywalny *DataMigrationUtility*.
+3. Na stronie 1 Kreatora migracji konfiguracji Common Data Service (CMT) wybierz pozycję **Importuj dane** , a następnie wybierz pozycję **Kontynuuj**.
 
 ![Migracja konfiguracji](./media/1ConfigurationMigration.png)
 
-4. Na stronie 2 kreatora CMT wybierz **Office 365** jako **Typ wdrożenia**.
+4. Na stronie 2 kreatora CMT wybierz **Microsoft 365** jako **Typ wdrożenia**.
 5. Wybierz pola wyboru **Wyświetl listę dostępnych organizacji** i **Wyświetl zaawansowane**.
 6. Wybierz region dzierżawy, wprowadź swoje poświadczenia, a następnie wybierz pozycję **Zaloguj**.
 
 ![Konfiguracja logowania](./media/2ConfigurationSignin.png)
 
 7. Na stronie 3 z poziomu listy organizacji w dzierżawie wybierz nazwę organizacji, do której chcesz zaimportować dane demonstracyjne, a następnie wybierz pozycję **Zaloguj**.
-8. Na stronie 4 wybierz plik zip *MasterAndSetupData*, który znajduje się w rozpakowanym folderze *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.
+8. Na stronie 4 wybierz plik zip *MasterAndSetupData* , który znajduje się w rozpakowanym folderze *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.
 
 ![Plik ZIP](./media/3ZipFile.png)
 
