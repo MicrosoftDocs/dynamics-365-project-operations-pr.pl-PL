@@ -1,0 +1,48 @@
+---
+title: Zarządzanie złożonymi jednostkami dla pozycji kontraktu opartej na produkcie - wersja uproszczona
+description: W tym temat zamieszczono informacje dotyczące sprzedaży produktów opartych na subskrypcji.
+author: rumant
+manager: Annbe
+ms.date: 10/28/2020
+ms.topic: article
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.translationtype: HT
+ms.contentlocale: pl-PL
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177389"
+---
+# <a name="manage-complex-units-for-product-based-contract-lines---lite"></a><span data-ttu-id="3bdce-103">Zarządzanie złożonymi jednostkami dla pozycji kontraktu opartej na produkcie - wersja uproszczona</span><span class="sxs-lookup"><span data-stu-id="3bdce-103">Manage complex units for product-based contract lines - lite</span></span>
+
+<span data-ttu-id="3bdce-104">_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_</span><span class="sxs-lookup"><span data-stu-id="3bdce-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+
+<span data-ttu-id="3bdce-105">Do obsługi sprzedaży produktów opartych na subskrypcji program Dynamics 365 Project Operations używa współczynników ilościowych.</span><span class="sxs-lookup"><span data-stu-id="3bdce-105">Dynamics 365 Project Operations uses quantity factors to support the sale of subscription-based products.</span></span> <span data-ttu-id="3bdce-106">W przypadku produktów opartych na subskrypcji liczba w kontrakcie lub pozycji kontraktu projektu jest wyrażona liczbą użytkowników w miesiącu.</span><span class="sxs-lookup"><span data-stu-id="3bdce-106">For subscription-based products, the quantity on the contract or project contract line is expressed as the number of user-months.</span></span>
+
+<span data-ttu-id="3bdce-107">Cena subskrybowanego oprogramowania jest przechowywana w katalogu jako cena za jednego użytkownika za jeden miesiąc.</span><span class="sxs-lookup"><span data-stu-id="3bdce-107">The price of subscription software is stored in the catalog as the price per-user, per-month.</span></span> <span data-ttu-id="3bdce-108">W trakcie procesu sprzedaży cena w wierszu kontraktu to zazwyczaj cena na użytkownika na miesiąc, która została wynegocjowana i uzupełniona o rabat przez przedstawiciela handlowego.</span><span class="sxs-lookup"><span data-stu-id="3bdce-108">During the sales process, the price on the contract line is usually the per-user, per-month price that was negotiated and discounted by the sales agent.</span></span> <span data-ttu-id="3bdce-109">Każda transakcja ma inną liczbę użytkowników i inną liczbę miesięcy subskrypcji.</span><span class="sxs-lookup"><span data-stu-id="3bdce-109">Each deal has a different number of users and a different number of subscription months.</span></span> <span data-ttu-id="3bdce-110">Ilość użyta do obliczenia kwoty pozycji umowy to iloczyn liczby użytkowników i liczby miesięcy abonamentowych.</span><span class="sxs-lookup"><span data-stu-id="3bdce-110">The quantity used to calculate the amount of the contract line is a product of the number of users and the number of subscription months.</span></span>
+
+<span data-ttu-id="3bdce-111">W celu zapewnienia obsługi tego typu sprzedaży w rozwiązaniu Project Operations wprowadzono koncepcję *współczynników ilościowych*.</span><span class="sxs-lookup"><span data-stu-id="3bdce-111">To support this type of sale, Project Operations supports the concept of *quantity factors*.</span></span> <span data-ttu-id="3bdce-112">Współczynniki ilościowe opierają się na atrybutach produktów.</span><span class="sxs-lookup"><span data-stu-id="3bdce-112">Quantity factors rely on product attributes.</span></span> <span data-ttu-id="3bdce-113">Podczas konfigurowania konkretnych właściwości produktu można oznaczyć podzbiór tych właściwości albo wszystkich właściwości jako współczynników ilościowych.</span><span class="sxs-lookup"><span data-stu-id="3bdce-113">When you configure specific properties for a product, you can flag a subset of those properties, or all the properties, as quantity factors.</span></span>
+
+<span data-ttu-id="3bdce-114">Project Operations weryfikuje, czy tylko właściwości liczbowe lub właściwości produktu mające liczbowy typ danych są flagowane jako współczynniki ilościowe.</span><span class="sxs-lookup"><span data-stu-id="3bdce-114">Project Operations validates that only numeric properties or product properties that have a numeric data type are flagged as quantity factors.</span></span> <span data-ttu-id="3bdce-115">Kiedy produkt z skonfigurowanymi współczynnikami ilościowymi jest dodawany do pozycji kontraktu, pole **Ilość** jest dostępne jako tylko do odczytu.</span><span class="sxs-lookup"><span data-stu-id="3bdce-115">When a product with configured quantity factors is added to a contract line, the **Quantity** field  becomes read-only.</span></span> <span data-ttu-id="3bdce-116">Po wprowadzeniu wartości właściwości produktu będących współczynnikami ilościowymi rozwiązanie Project Operations obliczy ilość w pozycji kontraktu.</span><span class="sxs-lookup"><span data-stu-id="3bdce-116">After you enter values for product properties that are quantity factors, Project Operations calculates the quantity of the contract line.</span></span>
+
+<span data-ttu-id="3bdce-117">Na przykład system Dynamics 365 Sales może mieć następujące właściwości:</span><span class="sxs-lookup"><span data-stu-id="3bdce-117">For example, Dynamics 365 Sales might have the following properties:</span></span>
+
+- <span data-ttu-id="3bdce-118">**Liczba użytkowników**: liczba użytkowników.</span><span class="sxs-lookup"><span data-stu-id="3bdce-118">**No of users**: The number of users.</span></span>
+- <span data-ttu-id="3bdce-119">**Liczba miesięcy**: liczba miesięcy subskrypcji.</span><span class="sxs-lookup"><span data-stu-id="3bdce-119">**No of Months**: The number of subscription months.</span></span>
+- <span data-ttu-id="3bdce-120">**SKU produktu**: jednostka magazynowa (SKU) danego produktu.</span><span class="sxs-lookup"><span data-stu-id="3bdce-120">**Product SKU**: The stock keeping unit (SKU) for the product.</span></span>
+
+<span data-ttu-id="3bdce-121">Właściwości **Liczba użytkowników** i **Liczba miesięcy** można oflagować jako współczynniki ilościowe, odpowiednio modyfikując właściwości wiersza produktu.</span><span class="sxs-lookup"><span data-stu-id="3bdce-121">The **No of Users** and **No of Months** properties can be flagged as quantity factors by editing the properties of the product line.</span></span>
+
+<span data-ttu-id="3bdce-122">Aby utworzyć współczynnik ilościowy z poziomu właściwości produktu, należy wykonać następujące kroki.</span><span class="sxs-lookup"><span data-stu-id="3bdce-122">To create quantity factors from product properties, complete the following steps.</span></span>
+
+1. <span data-ttu-id="3bdce-123">W przypadku **Project Operations** wybierz **Sprzedaż-Produkty**.</span><span class="sxs-lookup"><span data-stu-id="3bdce-123">On the **Project Operations**, select **Sales-Products**.</span></span>
+2. <span data-ttu-id="3bdce-124">Otwórz produkt, dla którego chcesz skonfigurować wskaźniki ilościowe.</span><span class="sxs-lookup"><span data-stu-id="3bdce-124">Open the product for which you need to set up quantity factors.</span></span> <span data-ttu-id="3bdce-125">Upewnij się, że w produkcie zdefiniowano już właściwości.</span><span class="sxs-lookup"><span data-stu-id="3bdce-125">Make sure that the product has properties already set up.</span></span>
+3. <span data-ttu-id="3bdce-126">Na stronie **Informacje o projekcie** wybierz kartę **Współczynnik ilościowy**.</span><span class="sxs-lookup"><span data-stu-id="3bdce-126">On the **Project Information** page, select the **Quantity Factors** tab.</span></span>
+4. <span data-ttu-id="3bdce-127">W podsiatce wybierz **+ Nowe obliczanie pola**.</span><span class="sxs-lookup"><span data-stu-id="3bdce-127">In the subgrid, select **+ New field computation**.</span></span>
+5. <span data-ttu-id="3bdce-128">Wprowadź nazwę **Współczynnika ilościowego** i wybierz wartość właściwości, która ma być mapowana na obliczenia pola.</span><span class="sxs-lookup"><span data-stu-id="3bdce-128">Enter the name of the **Quantity Factor** and select the property value that maps to the field computation.</span></span>
+6. <span data-ttu-id="3bdce-129">Zapisz i zamknij formularz.</span><span class="sxs-lookup"><span data-stu-id="3bdce-129">Save and close the form.</span></span>
+7. <span data-ttu-id="3bdce-130">Powtórz kroki 2-6 dla wszystkich właściwości, które będą składają się na ilość w wierszu kontraktu opartego na produkcie.</span><span class="sxs-lookup"><span data-stu-id="3bdce-130">Repeat steps 2-6 for all the properties that together will make up the quantity for the product-based contract line.</span></span>
+
+<span data-ttu-id="3bdce-131">W przypadku, gdy użytkownik tworzy wiersz kontraktu dla tego produktu, ilość pozycji kontraktu jest zablokowana.</span><span class="sxs-lookup"><span data-stu-id="3bdce-131">With quantity factors set up, when the user creates a contract line for this product, the quantity of the contract line is locked.</span></span> <span data-ttu-id="3bdce-132">Ilość jest następnie obliczana jako iloczyn wartości właściwości dla danej pozycji kontraktu.</span><span class="sxs-lookup"><span data-stu-id="3bdce-132">The quantity is then calculated as a product of the property values for that contract line.</span></span>
