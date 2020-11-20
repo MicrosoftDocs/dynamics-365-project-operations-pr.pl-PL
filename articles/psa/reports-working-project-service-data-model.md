@@ -3,7 +3,7 @@ title: Praca z modelem danych rozwiązania Project Service Automation
 description: W tym temacie zamieszczono informacje dotyczące pracy z modelem danych.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082197"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120286"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Praca z modelem danych rozwiązania Project Service Automation
 
@@ -33,13 +33,13 @@ Dynamics 365 Project Service Automation rozszerza inne encje aplikacji i wprowad
 
 ## <a name="reporting-on-opportunities"></a>Raportowanie szans sprzedaży
 
-Project Service Automation rozszerza encję Dynamics 365 Sales **Opportunity** , dodając pola umożliwiające scenariusze oparte na projektach. Te pola są identyfikowane na podstawie nazwy schematu poprzedzonej prefiksem **msdyn\_**. Jednym nowym polem ważnym przy raportowaniu szans sprzedaży PSA jest **Typ zamówienia**. Wartość **Na podstawie pracy** dla tego pola oznacza, że szansa sprzedaży jest szansą sprzedaży PSA. Inne pola, które zostały dodane do encji, to **organizacja kontraktująca** (zawiera organizację przechowującą szansę sprzedaży) oraz **Menedżer klienta** (zawiera nazwę menedżera klienta odpowiedzialnego za szansę sprzedaży).
+Project Service Automation rozszerza encję Dynamics 365 Sales **Opportunity**, dodając pola umożliwiające scenariusze oparte na projektach. Te pola są identyfikowane na podstawie nazwy schematu poprzedzonej prefiksem **msdyn\_**. Jednym nowym polem ważnym przy raportowaniu szans sprzedaży PSA jest **Typ zamówienia**. Wartość **Na podstawie pracy** dla tego pola oznacza, że szansa sprzedaży jest szansą sprzedaży PSA. Inne pola, które zostały dodane do encji, to **organizacja kontraktująca** (zawiera organizację przechowującą szansę sprzedaży) oraz **Menedżer klienta** (zawiera nazwę menedżera klienta odpowiedzialnego za szansę sprzedaży).
 
 Encja **Wiersz szansy sprzedaży** zawiera także pola dotyczące Project Service. **Metoda rozliczania** wskazuje, czy wiersz szansy sprzedaży ma być rozliczany według czasu i materiałów, czy ceny stałej, natomiast **Projekt** przechwytuje nazwę projektu, stojącego za szansą sprzedaży. Inne pola, które mogą podlegać raportom, dotyczą kwot kosztów pozyskania i budżetu klienta dla pozycji wiersza.
 
 ## <a name="reporting-on-quotes"></a>Raportowanie ofert
 
-PSA rozszerza encję **Oferta sprzedaży** , dodając pola związane z projektem. **Typ zamówienia** odróżnia oferty PSA od ofert nie-PSA. Wartość **Na podstawie pracy** dla tego pola oznacza, że oferta jest ofertą PSA. Inne pola, które mogą mieć znaczenie przy raportowaniu ofert PSA obejmują pola kwoty, takie jak **Koszty odpłatne** , **koszty nieodpłatne** , **Marża brutto** , **Szacowania** i **Budżet**. Inne przydatne pola pokazują, czy oferta jest opłacalna, czy zostanie zrealizowana w terminie oraz czy spełnia oczekiwaniami budżetowe klienta.
+PSA rozszerza encję **Oferta sprzedaży**, dodając pola związane z projektem. **Typ zamówienia** odróżnia oferty PSA od ofert nie-PSA. Wartość **Na podstawie pracy** dla tego pola oznacza, że oferta jest ofertą PSA. Inne pola, które mogą mieć znaczenie przy raportowaniu ofert PSA obejmują pola kwoty, takie jak **Koszty odpłatne**, **koszty nieodpłatne**, **Marża brutto**, **Szacowania** i **Budżet**. Inne przydatne pola pokazują, czy oferta jest opłacalna, czy zostanie zrealizowana w terminie oraz czy spełnia oczekiwaniami budżetowe klienta.
 
 PSA rozszerza również encję **Wiersz oferty sprzedaży**. Jednym z pól, które dodaje PSA, jest **Metoda rozliczeniowa**. Wskazuje ono, jak wiersz oferty będzie rozliczany (czas i materiały czy stała cena). Inne pola, które zostały dodane do encji, przechwytują pokrewny projekt będący podstawą wiersza oferty, fakturowania, kosztu i budżetu.
 
@@ -50,13 +50,13 @@ PSA dodaje również nowe encje powiązane z ofertą do modelu danych Dynamics 3
 - **Punkt kontrolny wiersza oferty** – ta encja zawiera punkty kontrolne fakturowania dla wierszy oferty o stałej cenie.
 - **Podział analizy wierszy oferty** – ta encja zawiera szczegóły finansowe dla wiersza oferty. Te szczegóły mogą być używane do raportowania kwot sprzedaż ofertowej i szacowanego kosztu według różnych wymiarów.
 
-Inne encje, które PSA dodaje do ofert to **Cennik projektu wiersza oferty** , **Kategoria zasobów wiersza oferty** oraz **Kategoria transakcji wiersza oferty**.
+Inne encje, które PSA dodaje do ofert to **Cennik projektu wiersza oferty**, **Kategoria zasobów wiersza oferty** oraz **Kategoria transakcji wiersza oferty**.
 
 ![Diagram przedstawiający oferty, wiersz oferty i relacje projektu](media/PS-Reporting-image2.png "Diagram przedstawiający oferty, wiersz oferty i relacje projektu")
 
 ## <a name="reporting-on-project-contracts"></a>Raportowanie dotyczące kontraktów projektów
 
-PSA rozszerza encję **Zamówienie** sprzedaży używaną podczas rejestrowania kontraktów projektów. Dodaj ważne nowe pole **Typ zamówienia** , które identyfikuje kontrakt jako kontrakt projektu PSA a nie zamówienie sprzedaży. Wartość **Na podstawie pracy** dla tego pola oznacza, że zamówienie jest kontraktem projektu PSA. Inne nowe pola dodane do encji **Zamówienie** zawierają szczegółowe informacje na temat kosztów, stanu kontraktu PSA oraz organizacji, która jest właścicielem kontraktu.
+PSA rozszerza encję **Zamówienie** sprzedaży używaną podczas rejestrowania kontraktów projektów. Dodaj ważne nowe pole **Typ zamówienia**, które identyfikuje kontrakt jako kontrakt projektu PSA a nie zamówienie sprzedaży. Wartość **Na podstawie pracy** dla tego pola oznacza, że zamówienie jest kontraktem projektu PSA. Inne nowe pola dodane do encji **Zamówienie** zawierają szczegółowe informacje na temat kosztów, stanu kontraktu PSA oraz organizacji, która jest właścicielem kontraktu.
 
 PSA rozszerza również encję **Wiersz zamówienia sprzedaży**. Wśród dodawanych pól znajdują się pola, w których jest śledzona metoda rozliczeniowa (czas i materiały lub cena ustalona), kwoty budżetu klienta praz projekt podstawowy.
 
@@ -66,7 +66,7 @@ PSA dodaje również nowe encje zaprojektowane z myślą o kontraktach projektó
 - **Harmonogram fakturowania pozycji kontraktu** – ta encja zawiera harmonogram rozliczeniowy generowany na podstawie częstotliwości fakturowania przypisanej do wiersza kontraktu.
 - **Punkt kontrolny kontraktu** – ta encja zawiera punkty kontrolne pozycji kontraktu, które są rozliczane na podstawie ustalonej ceny.
 
-Inne encje, które PSA dodaje do kontraktu to **Cennik projektu pozycji kontraktu projektu** , **Kategoria zasobów pozycji kontraktu projektu** oraz **Kategoria transakcji pozycji kontraktu projektu**.
+Inne encje, które PSA dodaje do kontraktu to **Cennik projektu pozycji kontraktu projektu**, **Kategoria zasobów pozycji kontraktu projektu** oraz **Kategoria transakcji pozycji kontraktu projektu**.
 
 ![Diagram przedstawiający zamówienie, wiersz zamówienia i relacje projektu](media/PS-Reporting-image3.png "Diagram przedstawiający zamówienie, wiersz zamówienia i relacje projektu")
 
@@ -97,7 +97,7 @@ Zasoby projektu używają encji **Zasób, który można zarezerwować** z Univer
 
 Po zatwierdzeniu grafiku lub wydatku albo zafakturowaniu kontraktu w PSA transakcja biznesowa jest rejestrowana w encji **Rzeczywiste**. Ta encja może służyć jako podstawa do niemal wszystkich raportów związanych z finansami w PSA. Encja **Rzeczywiste** zawiera koszty i transakcje sprzedaży dotyczące danego zdarzenia biznesowego. Zawiera również wiele przydatnych atrybutów.
 
-Pracując z encją **Rzeczywiste** , ważne jest, aby rozumieć, jakie transakcje są zarejestrowane w encji i kiedy są one rejestrowane. Oto typowy przepływ pracy z wpisami czasu (przepływ encji wydatków jest podobny):
+Pracując z encją **Rzeczywiste**, ważne jest, aby rozumieć, jakie transakcje są zarejestrowane w encji i kiedy są one rejestrowane. Oto typowy przepływ pracy z wpisami czasu (przepływ encji wydatków jest podobny):
 
 1. Po zapisaniu wpisu czasu w encji **Rzeczywiste** nie są tworzone żadne rekordy.
 2. Po przesłaniu wpisu czasu w encji **Rzeczywiste** nie są tworzone żadne rekordy.
@@ -117,6 +117,6 @@ Pracując z encją **Rzeczywiste** , ważne jest, aby rozumieć, jakie transakcj
     | 2/4/18        | Nierozliczona sprzedaż   | Time              | Alpine ski house | Alpine CRM | Bogumiła Kowalczyk | Menedżer projektu   | Odpłatne   | - 8,0    | 100.00     | - 800,00 |
     | 2/4/18        | Rozliczona sprzedaż     | Time              | Alpine ski house | Alpine CRM | Bogumiła Kowalczyk | Menedżer projektu   | Odpłatne   | 8.0      | 100.00     | 800.00   |
 
-Encja **Początkowy rekord transakcji** rejestruje źródło rekordu **Rzeczywiste** , a encja **Połączenie transakcji** rejestruje pokrewne rekordy dla rekordu **Rzeczywiste**. Ponadto rekord **Rzeczywiste** zawiera odwołania do projektu, kontraktu projektu (zamówienia), zasobu, który można zarezerwować oraz klienta.
+Encja **Początkowy rekord transakcji** rejestruje źródło rekordu **Rzeczywiste**, a encja **Połączenie transakcji** rejestruje pokrewne rekordy dla rekordu **Rzeczywiste**. Ponadto rekord **Rzeczywiste** zawiera odwołania do projektu, kontraktu projektu (zamówienia), zasobu, który można zarezerwować oraz klienta.
 
 ![Diagram przedstawiający połączenie transakcji, źródło i rzeczywistą relacje](media/PS-Reporting-image6.png "Diagram przedstawiający połączenie transakcji, źródło i rzeczywistą relacje")

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 39ce52d5da4c7027ee2f2fa44579c0d4bf74925e
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088046"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118486"
 ---
 # <a name="manage-project-based-opportunities"></a>Zarządzanie szansami sprzedaży opartymi na projektach
 
@@ -28,7 +28,7 @@ Szanse sprzedaży w programie Dynamics 365 Project Operations są utworzone wraz
 Listę wszystkich szans sprzedaży opartych na projektach można zobaczyć na stronie listy **Szansy sprzedaży**. 
 
 1. Wybierz kolejno pozycje **Sprzedaż** > **Szanse sprzedaży**.
-2. Użyj **Przełączników widoku** , aby wybrać inne filtrowane widoki szans sprzedaży. Aby skonfigurować te widoki i opcje nawigacji, można utworzyć własne widoki z kryteriami filtrowania niestandardowego.
+2. Użyj **Przełączników widoku**, aby wybrać inne filtrowane widoki szans sprzedaży. Aby skonfigurować te widoki i opcje nawigacji, można utworzyć własne widoki z kryteriami filtrowania niestandardowego.
 
 Szanse sprzedaży projektu mogą być tworzone lub usuwane na stronie listy lub na stronie szczegółów.
 

@@ -2,7 +2,7 @@
 title: Zagadnienia dotyczące uaktualniania struktury podziału pracy
 description: W tym temacie zamieszczono informacje dotyczące uaktualniania struktury podziału pracy w programie Project Service Automation z wersji 2.x do 3.x.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 169dc24f0d1ae151ea5927123fb738221de88250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082094"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121816"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Zagadnienia dotyczące uaktualniania struktury podziału pracy
 W tym temacie zamieszczono informacje dotyczące uaktualniania struktury podziału pracy w programie Project Service Automation z wersji 2.x do 3.x. Ten temat określa dobrą kondycję projektu w rozwiązaniu Project Service Automation (PSA), która jest niezbędna do pomyślnego uaktualnienia. Są tu również informacje o typowych sytuacjach blokowania, które spowodują niepowodzenie uaktualnienia. Aby uzyskać więcej informacji na temat definiowania zadań w projektach i ich funkcjach w harmonogramie projektu, zobacz [Harmonogramy projektów](project-creating.md).

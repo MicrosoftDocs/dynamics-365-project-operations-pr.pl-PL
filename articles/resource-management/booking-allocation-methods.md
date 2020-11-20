@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c2a964c18c7eae61c5a0239da3b18da31b6ad574
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc539a376088627aa8d3e9678b2aec4bd5d0edc3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081962"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121501"
 ---
 # <a name="booking-allocation-methods"></a>Metody rezerwowania alokacji
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Niezależnie, czy dodajesz członka zespołu bezpośrednio do projektu na karcie **Zespół** , czy rezerwujesz zasób dla projektu lub wymaganie z tablicy harmonogramu, istnieje kilka metod rezerwacji przydziału, które mogą zostać użyte. W tym temacie wyjaśniono, jak działa każda z tych metod, i które z tych metod mogą spowodować nałożenie się rezerwacji zasobów.
+Niezależnie, czy dodajesz członka zespołu bezpośrednio do projektu na karcie **Zespół**, czy rezerwujesz zasób dla projektu lub wymaganie z tablicy harmonogramu, istnieje kilka metod rezerwacji przydziału, które mogą zostać użyte. W tym temacie wyjaśniono, jak działa każda z tych metod, i które z tych metod mogą spowodować nałożenie się rezerwacji zasobów.
 
 ## <a name="booking-allocation-methods"></a>Metody rezerwowania alokacji
 
@@ -71,7 +71,7 @@ Metoda Najwięcej na początku bierze pod uwagę istniejące rezerwacje i dostę
 Ponieważ dostępna dyspozycyjność jest brana pod uwagę, możesz otrzymać komunikat o błędzie, jeśli zasób nie ma już dyspozycyjności, która może zostać pobrana przez rezerwację. W przypadku tej metody nie można doprowadzić do nakładania się rezerwacji.
 
 ### <a name="none"></a><a name="none"></a>Brak
-Metoda Brak jest dostępna tylko w przypadku, gdy rezerwację przeprowadzasz z karty **Zespół** w ramach projektu. Ta metoda dodaje zasób jako członka zespołu projektu, ale nie tworzy żadnych rezerwacji, które absorbują dyspozycyjność zasobu. Ta metoda jest używana gdy domyślny członek zespołu Menedżer projektu jest dodawany podczas tworzenia projektu. Użytkownik Menedżer projektu, który utworzył projekt jest domyślnie dodawany do projektu, tak aby rekordu encji projektu miał właściciela i istnieje jedna osoba zatwierdzająca projekt. Ponieważ ten użytkownik nie ma żadnych rezerwacji, jeśli chcesz zarezerwować zasób, możesz albo usunąć i ponownie je dodać przy użyciu innej metody alokacji, albo dodać zasób do zadań, a następnie użyć **Rozszerz rezerwacje** na karcie **Uzgadnianie** , aby utworzyć rezerwacje dla przypisań.
+Metoda Brak jest dostępna tylko w przypadku, gdy rezerwację przeprowadzasz z karty **Zespół** w ramach projektu. Ta metoda dodaje zasób jako członka zespołu projektu, ale nie tworzy żadnych rezerwacji, które absorbują dyspozycyjność zasobu. Ta metoda jest używana gdy domyślny członek zespołu Menedżer projektu jest dodawany podczas tworzenia projektu. Użytkownik Menedżer projektu, który utworzył projekt jest domyślnie dodawany do projektu, tak aby rekordu encji projektu miał właściciela i istnieje jedna osoba zatwierdzająca projekt. Ponieważ ten użytkownik nie ma żadnych rezerwacji, jeśli chcesz zarezerwować zasób, możesz albo usunąć i ponownie je dodać przy użyciu innej metody alokacji, albo dodać zasób do zadań, a następnie użyć **Rozszerz rezerwacje** na karcie **Uzgadnianie**, aby utworzyć rezerwacje dla przypisań.
 
 ## <a name="allocation-methods-that-lead-to-overbooking"></a>Metody alokacji prowadzące do nakładania się rezerwacji
 Podsumowując, poniższe metody alokacji prowadzą do nakładania się rezerwacji, jeśli zasób zajmuje się już innymi projektami (lub innymi zleceniami pracy lub encjami, które można objąć harmonogramem):

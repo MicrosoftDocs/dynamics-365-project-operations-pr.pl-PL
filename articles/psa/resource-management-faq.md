@@ -3,7 +3,7 @@ title: Zarządzanie zasobami — często zadawane pytania
 description: Ta temat zawiera odpowiedzi na często zadawane pytania dotyczące zarządzania zasobami.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38d9509768323a5a1d78683a2e65ade241adc65f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082223"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120151"
 ---
 # <a name="resource-management-faq"></a>Zarządzanie zasobami — często zadawane pytania
 
@@ -43,11 +43,11 @@ Wstępnej rezerwacji można dokonać podczas rezerwowania wymagania zasobu. Zaso
 
 ## <a name="how-do-i-change-the-required-hours-and-the-start-and-end-dates-for-a-resource-generic-or-named-that-i-booked"></a>Jak zmienić wymagane godziny oraz daty rozpoczęcia i zakończenia dla zasobu (ogólnego lub nazwanego) zarezerwowanego przeze mnie?
 
-Po zarezerwowaniu zasobów wybierz opcję **Obsługa rezerwacji** , aby wprowadzić wszelkie wymagane zmiany.
+Po zarezerwowaniu zasobów wybierz opcję **Obsługa rezerwacji**, aby wprowadzić wszelkie wymagane zmiany.
 
 ## <a name="what-resources-types-does-project-service-automation-support"></a>Jakie typy zasobów obsługuje program Project Service Automation?
 
-**Użytkownik** i **Kontakt** są jedynymi typami zasobów obsługiwanymi w programie Dynamics 365 Project Service Automation. Mimo iż można tworzyć inne typy zasobów (np. **Sprzęt** i **Grupa** ), nie są dla nich obsługiwane żadne kompleksowe przypadki użycia.
+**Użytkownik** i **Kontakt** są jedynymi typami zasobów obsługiwanymi w programie Dynamics 365 Project Service Automation. Mimo iż można tworzyć inne typy zasobów (np. **Sprzęt** i **Grupa**), nie są dla nich obsługiwane żadne kompleksowe przypadki użycia.
 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Jaka jest różnica między przypisaniem a rezerwacją?
 

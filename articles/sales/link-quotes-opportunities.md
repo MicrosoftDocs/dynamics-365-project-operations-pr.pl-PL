@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 606098473db479d0015e3a7a3c01a3d3b6de9db1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081924"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118126"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Tworzenie ofert projektu na podstawie szans sprzedaży
 
@@ -30,7 +30,7 @@ Oferty mogą być tworzone na podstawie szans sprzedaży projektów w następuj�
 Aby utworzyć ofertę projektu z szansy sprzedaży, należy wykonać następujące kroki.
 
 1. Otworzyć stronę **Szansa sprzedaży** na karcie **Oferty**. 
-2. W podsiatce **Oferty** wybrać opcję **+** w celu utworzenia nowej oferty projektu na podstawie szansy sprzedaży. Wszystkie wiersze szans sprzedaży i powiązane z nimi cenniki projektu są kopiowane do nowej oferty z szansy sprzedaży.
+2. W podsiatce **Oferty** wybierz opcję **+** w celu utworzenia nowej oferty projektu na podstawie szansy sprzedaży. Wszystkie wiersze szans sprzedaży i powiązane z nimi cenniki projektu są kopiowane do nowej oferty z szansy sprzedaży.
 
 ## <a name="from-the-opportunity-sales-process-flow"></a>Z poziomu procesu przepływu szansy sprzedaży
 
@@ -38,7 +38,7 @@ Aby utworzyć ofertę projektu z procesu przepływu szansy sprzedaży, należy w
 
 1. Otwórz szansę sprzedaży z poziomu przepływu procesu.
 2. Wybierz etap **Kwalifikacja**. 
-3. Wybierz opcję **Dalej** , a następnie wybierz pozycję **+ Utwórz** , aby utworzyć nową ofertę. Większość informacji znajdujących się na karcie **Podsumowanie** tej nowej oferty będzie domyślnie wybierana na podstawie szansy sprzedaży. 
+3. Wybierz opcję **Dalej**, a następnie wybierz pozycję **+ Utwórz**, aby utworzyć nową ofertę. Większość informacji znajdujących się na karcie **Podsumowanie** tej nowej oferty będzie domyślnie wybierana na podstawie szansy sprzedaży. 
 4. Wprowadź wymagane brakujące informacje lub zaktualizuj wartości domyślne zgodnie z wymaganiami na **karcie Podsumowanie**.
 5. Wybierz pozycję **Zapisz**. Nowa oferta zostanie utworzona i skojarzona z szansą sprzedaży. Można teraz wyświetlić informacje o ofercie na karcie **Oferty** na stronie **Szansa sprzedaży**. 
 

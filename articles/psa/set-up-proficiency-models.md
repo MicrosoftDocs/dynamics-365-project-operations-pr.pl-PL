@@ -3,7 +3,7 @@ title: Skonfiguruj modele biegłości
 description: Konfigurowanie modeli biegłości w Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 653b7eef12c57203fbc6853e97d3be43bdb85b9d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2d13d5bbfd43ef88ec2f285357ee26a2a87db870
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082229"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122988"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>Skonfiguruj modele biegłości (Project Service)
 
@@ -35,7 +35,7 @@ Teraz, gdy dodałeś umiejętności dla projektów swoich klientów, potrzebujes
   
 2.  Aby wyświetlić lub edytować domyślny model biegłości, kliknij **Domyślny model klasyfikacji** na liście lub aby utworzyć nowy model biegłości, kliknij **Nowy**.  
   
-3.  Jeśli tworzysz nowy model biegłości, wypełnij pola w obszarze **Ogólne** , a następnie kliknij **Zapisz** , aby utworzyć rekord i kontynuować jego edycję. Podczas tworzenia własnego modelu biegłości, należy pamiętać, że wyższe numery są lepsze.  
+3.  Jeśli tworzysz nowy model biegłości, wypełnij pola w obszarze **Ogólne**, a następnie kliknij **Zapisz**, aby utworzyć rekord i kontynuować jego edycję. Podczas tworzenia własnego modelu biegłości, należy pamiętać, że wyższe numery są lepsze.  
   
      Na przykład, podczas przeglądania lub edytowania domyślnego modelu klasyfikacji zobaczysz poziomy biegłości w **Wartości oceny**.  
   

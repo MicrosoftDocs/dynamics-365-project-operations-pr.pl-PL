@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081892"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122850"
 ---
 # <a name="expense-home-page"></a>Strona główna wydatku
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations obsługuje możliwość przetwarzania wydatków.
 
 W Project Operations istnieją dwa modele wdrożeń obsługiwanych na potrzeby wydatkowania: 
 
-- **Pełne** : pełne wdrażanie jest dostępne dla **Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu** lub **Project Operations dla scenariuszy opartych na zamówieniach produkcyjnych**.
-- **Podstawowe** : wdrażanie podstawowe jest dostępne dla **Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu** oraz **Wdrożenia uproszczonego — od oferty do faktury pro forma**.
+- **Pełne**: pełne wdrażanie jest dostępne dla **Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu** lub **Project Operations dla scenariuszy opartych na zamówieniach produkcyjnych**.
+- **Podstawowe**: wdrażanie podstawowe jest dostępne dla **Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu** oraz **Wdrożenia uproszczonego — od oferty do faktury pro forma**.
 
 ## <a name="full"></a>Pełny 
 W pełnym wdrożeniu kosztów program dostarcza kompleksowego egzekwowania zasad, który zawiera możliwość tworzenia zasad, takich jak:

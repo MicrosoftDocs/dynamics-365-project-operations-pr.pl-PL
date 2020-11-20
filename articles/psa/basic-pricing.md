@@ -3,7 +3,7 @@ title: Cennik projektu
 description: Ten temat zawiera informacje o funkcjonowaniu cennika w Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082209"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120781"
 ---
 # <a name="project-pricing"></a>Cennik projektu 
 
@@ -56,7 +56,7 @@ Termin *rola zasobu* odnosi się do zestawu umiejętności, kompetencji i certyf
 
 Czas zasobów ludzkich jest zwykle podawany na podstawie roli, którą dany zasób pełni w określonym projekcie. W przypadku czasu zasobu ludzkiego PSA obsługuje wycenę i rozliczanie oparte na roli zasobu. Czas może być określany jako cena w dowolnej jednostce w grupie jednostek **czasu**.
 
-Grupa jednostek **czasu** jest tworzona po zainstalowaniu PSA. Jego domyślna jednostka **Godzina**. Nie można usuwać, zmieniać nazw ani edytować atrybutów grupy jednostek **Czas** lub jednostki **Godzina**. Do grupy jednostek **Czas** można jednak dodać inne jednostki. Jeśli użytkownik próbuje usunąć grupę jednostek **czasu** lub jednostkę **godzinową** , może wystąpić awaria logiki biznesowej PSA.
+Grupa jednostek **czasu** jest tworzona po zainstalowaniu PSA. Jego domyślna jednostka **Godzina**. Nie można usuwać, zmieniać nazw ani edytować atrybutów grupy jednostek **Czas** lub jednostki **Godzina**. Do grupy jednostek **Czas** można jednak dodać inne jednostki. Jeśli użytkownik próbuje usunąć grupę jednostek **czasu** lub jednostkę **godzinową**, może wystąpić awaria logiki biznesowej PSA.
 
 > ![Konfigurowanie cen według ról](media/basic-guide-13.png)
  

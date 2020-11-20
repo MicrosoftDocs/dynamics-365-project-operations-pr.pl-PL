@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 51da574143b91df636d99f91d37470905a9b0529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082014"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120916"
 ---
 # <a name="expense-using-mobile"></a>Wydatki na urządzeniu mobilnym
 
@@ -108,7 +108,7 @@ Pobierz i zainstaluj aplikację mobilną Dynamics 365 Unified Ops:
    - W przypadku wybrania **Zrób zdjęcie** należy:
 
       1. Otworzy się aparat urządzenia, aby można było zrobić zdjęcie paragonu. 
-      2. Po zakończeniu robienia zdjęcia kliknij przycisk **OK** , aby zaakceptować zdjęcie.
+      2. Po zakończeniu robienia zdjęcia kliknij przycisk **OK**, aby zaakceptować zdjęcie.
       3. Opcjonalnie: Wprowadź nazwę zdjęcia i wprowadź wszelkie notatki.
 
     - W przypadku wybrania **Wybierz zdjęcie** należy:
@@ -122,15 +122,15 @@ Pobierz i zainstaluj aplikację mobilną Dynamics 365 Unified Ops:
 
 1. Otwórz obszar roboczy **Zarządzanie wydatkami** na swoim urządzeniu przenośnym.
 2. Wybierz pozycję **Szybki zapis wydatków**.
-3. Wybierz kategorię identyfikatora wydatku. Zobaczysz kategorie wydatków, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jeśli kategoria nie znajduje się na liście, wybierz pozycję **Wyszukaj** , aby dokonać wyszukiwania online. Wyszukaj według kategorii wydatków lub przejdź do wyszukiwania według typu wydatków.
+3. Wybierz kategorię identyfikatora wydatku. Zobaczysz kategorie wydatków, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jeśli kategoria nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według kategorii wydatków lub przejdź do wyszukiwania według typu wydatków.
 4. Wprowadź datę transakcji wydatkowej.
 5. Opcjonalnie: Wprowadź nazwę handlową dla wydatku.
 6. Wprowadź pieniężną wartość wydatku.
-7. Wybierz walutę i wydatek. Zobaczysz kody walut, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 400 walut, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jeśli waluta nie znajduje się na liście, wybierz pozycję **Wyszukaj** , aby dokonać wyszukiwania online. Wyszukaj według waluty lub przejdź do wyszukiwania według nazwy.
+7. Wybierz walutę i wydatek. Zobaczysz kody walut, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 400 walut, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jeśli waluta nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według waluty lub przejdź do wyszukiwania według nazwy.
 8. Wybierz opcję **Zrób zdjęcie** lub **Wybierz obraz**.
 9. Wykonaj jedną z następujących czynności:
 
-    - Jeśli wybrano opcję **Zrób zdjęcie** otworzy się aparat urządzenia, aby można było zrobić zdjęcie paragonu. Po zakończeniu robienia zdjęcia kliknij przycisk **OK** , aby zaakceptować zdjęcie.
+    - Jeśli wybrano opcję **Zrób zdjęcie** otworzy się aparat urządzenia, aby można było zrobić zdjęcie paragonu. Po zakończeniu robienia zdjęcia kliknij przycisk **OK**, aby zaakceptować zdjęcie.
     - W przypadku wybrania **Wybierz obraz** wybierz odpowiedni obraz na liście.
 
 10. Wybierz **Gotowe**.
@@ -159,14 +159,14 @@ Pobierz i zainstaluj aplikację mobilną Dynamics 365 Unified Ops:
 7. Z listy wybierz jeden lub więcej wydatków.
 8. Wybierz **Gotowe**.
 9. W celu dodania nowego wydatku do raportu z wydatków wybierz opcję **Nowy wydatek**.
-10. Wybierz kategorię wydatku. Zobaczysz kategorie wydatków, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jeśli kategoria nie znajduje się na liście, wybierz pozycję **Wyszukaj** , aby dokonać wyszukiwania online. Wyszukaj według kategorii wydatków lub przejdź do wyszukiwania według typu wydatków.
+10. Wybierz kategorię wydatku. Zobaczysz kategorie wydatków, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jeśli kategoria nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według kategorii wydatków lub przejdź do wyszukiwania według typu wydatków.
 11. Opcjonalnie: Wprowadź nazwę handlową dla wydatku.
 12. Wprowadź datę transakcji wydatkowej.
 13. Wprowadź pieniężną wartość wydatku.
-14. Wybierz walutę i wydatek. Zobaczysz kody walut, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 400 walut, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jeśli waluta nie znajduje się na liście, wybierz pozycję **Wyszukaj** , aby dokonać wyszukiwania online. Wyszukaj według waluty lub przejdź do wyszukiwania według nazwy.
+14. Wybierz walutę i wydatek. Zobaczysz kody walut, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 400 walut, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jeśli waluta nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według waluty lub przejdź do wyszukiwania według nazwy.
 15. Wybierz **Gotowe**.
 16. Aby dodać więcej szczegółów do wydatku, wybierz pozycję **Dodaj więcej szczegółów**. Dostępne pola zależą od konfiguracji zarządzania wydatkami w firmie użytkownika.
-17. Jeśli zasady firmy wymagają otrzymania paragonu na wydatek, wybierz pozycję **Paragony** , a następnie wykonaj następujące kroki:
+17. Jeśli zasady firmy wymagają otrzymania paragonu na wydatek, wybierz pozycję **Paragony**, a następnie wykonaj następujące kroki:
 
     1. Wybierz polecenie **Zapisz paragon** lub **Dołącz paragon**.
     2. Wykonaj jedną z następujących czynności:
@@ -178,7 +178,7 @@ Pobierz i zainstaluj aplikację mobilną Dynamics 365 Unified Ops:
 
                 - W przypadku wybrania **Zrób zdjęcie** należy:
 
-                    1. Otworzy się aparat urządzenia, aby można było zrobić zdjęcie paragonu. Po zakończeniu robienia zdjęcia kliknij przycisk **OK** , aby zaakceptować zdjęcie.
+                    1. Otworzy się aparat urządzenia, aby można było zrobić zdjęcie paragonu. Po zakończeniu robienia zdjęcia kliknij przycisk **OK**, aby zaakceptować zdjęcie.
                     2. Opcjonalnie: Wprowadź nazwę zdjęcia i wprowadź wszelkie notatki.
 
                 - W przypadku wybrania **Wybierz zdjęcie** należy:
@@ -193,11 +193,11 @@ Pobierz i zainstaluj aplikację mobilną Dynamics 365 Unified Ops:
             1.  Z listy wybrać jeden lub więcej obrazów.
             2.  Wybierz **Gotowe**.
 
-    3. Wybierz przycisk **Wstecz** , aby powrócić do szczegółów wydatku.
+    3. Wybierz przycisk **Wstecz**, aby powrócić do szczegółów wydatku.
 
-18. Jeśli zasady firmy wymagają zaproszenia gościa w celu przetworzenia wydatku, wybierz pozycję **Goście** , a następnie wykonaj następujące kroki:
+18. Jeśli zasady firmy wymagają zaproszenia gościa w celu przetworzenia wydatku, wybierz pozycję **Goście**, a następnie wykonaj następujące kroki:
 
-    1. Wybierz opcję **Gość** , **Poprzedni gość** lub **Współpracownik**.
+    1. Wybierz opcję **Gość**, **Poprzedni gość** lub **Współpracownik**.
     2. Wykonaj jedną z następujących czynności:
 
         - W przypadku wybrania **Gość** należy:
@@ -209,29 +209,29 @@ Pobierz i zainstaluj aplikację mobilną Dynamics 365 Unified Ops:
 
         - W przypadku wybrania **Poprzedni gość** należy:
 
-            1. Z listy wybierz jednego lub więcej poprzednich gości. Zostanie wyświetlona lista poprzednich gości, których dodano do poprzednich raportów z wydatków załadowanych do aplikacji w celu korzystania z nich w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jeśli poprzedni gość nie znajduje się na liście, wybierz pozycję **Wyszukaj** , aby dokonać wyszukiwania online. Wyszukaj według nazwy lub przejdź do wyszukiwania według organizacji, kraju lub tytułu.
+            1. Z listy wybierz jednego lub więcej poprzednich gości. Zostanie wyświetlona lista poprzednich gości, których dodano do poprzednich raportów z wydatków załadowanych do aplikacji w celu korzystania z nich w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jeśli poprzedni gość nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według nazwy lub przejdź do wyszukiwania według organizacji, kraju lub tytułu.
             2. Wybierz **Gotowe**.
 
         - W przypadku wybrania **Współpracownicy** należy:
 
-            1. Z listy wybierz jednego lub większą liczbę współpracowników. Zobaczysz kategorie współpracowników, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jeśli współpracownik nie znajduje się na liście, wybierz pozycję **Wyszukaj** , aby dokonać wyszukiwania online. Wyszukaj według nazwy lub przejdź do wyszukiwania według firmy lub tytułu.
+            1. Z listy wybierz jednego lub większą liczbę współpracowników. Zobaczysz kategorie współpracowników, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jeśli współpracownik nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według nazwy lub przejdź do wyszukiwania według firmy lub tytułu.
             2. Wybierz **Gotowe**.
 
-    3. Wybierz przycisk **Wstecz** , aby powrócić do szczegółów wydatku.
+    3. Wybierz przycisk **Wstecz**, aby powrócić do szczegółów wydatku.
 
-19. Jeśli zasady firmy wymagają utworzenia podzielonej listy wydatków, wybierz pozycję **Rozbij** , a następnie wykonaj następujące kroki:
+19. Jeśli zasady firmy wymagają utworzenia podzielonej listy wydatków, wybierz pozycję **Rozbij**, a następnie wykonaj następujące kroki:
 
     1. Wybierz pierwszą datę do podziału na pozycje.
     2. Wybierz pozycję **Dodaj podział na pozycje**.
-    3. Wybierz podkategorię podziału na pozycje. Zobaczysz podkategorie wydatków, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jeśli podkategoria nie znajduje się na liście, wybierz pozycję **Wyszukaj** , aby dokonać wyszukiwania online. Wyszukaj według nazwy podkategorii wydatku.
+    3. Wybierz podkategorię podziału na pozycje. Zobaczysz podkategorie wydatków, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jeśli podkategoria nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według nazwy podkategorii wydatku.
     4. Wprowadź kwotę transakcji do podziału na pozycje.
     5. Jeśli trzeba, zmień datę transakcji.
     6. Wybierz **Gotowe**.
     7. Powtarzaj powyższe kroki do momentu ukończenia dodawania wszystkich pozycji dla wybranej daty.
     8. W przypadku dodatkowych dni można wybrać **Skopiuj na następny dzień** w celu skopiowania podziału na elementy następnego dnia. Można też wybrać datę w polu rozbicia na elementy, a następnie dodać podział, tak jak miało to miejsce dla pierwszej daty.
-    9. Po zakończeniu rozbijania elementów wydatków wybierz przycisk **Wstecz** , aby powrócić do szczegółów wydatku.
+    9. Po zakończeniu rozbijania elementów wydatków wybierz przycisk **Wstecz**, aby powrócić do szczegółów wydatku.
 
-20. Wybierz przycisk **Wstecz** , aby powrócić do strony **Raportu z wydatków**.
+20. Wybierz przycisk **Wstecz**, aby powrócić do strony **Raportu z wydatków**.
 21. Powtarzaj powyższe kroki do momentu ukończenia dodawania wszystkich kosztów.
 22. Wybierz **Prześlij**.
 23. Wprowadź komentarze dla osoby zatwierdzającej.

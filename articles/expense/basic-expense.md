@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 746d5d9ff56222e7d6b9b6e264db75d5814365c7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081896"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121096"
 ---
 # <a name="expense-entry-lite"></a>Wpis wydatków (lekkich)
 
@@ -41,7 +41,7 @@ Po zakończeniu przechwytywania wszystkich kosztów i przygotowaniu ich do zatwi
 
 Jeśli wydatek został przesłany przez pomyłkę, można go wycofać. Czas wymagany do wycofania wpisu wydatku zależy od etapu zatwierdzania, na którym się znajduje.  Jeśli osoba zatwierdzająca jeszcze nie zatwierdziła wpisu, odwołanie może nastąpić natychmiast. Jeśli jednak wpis został już zatwierdzony, należy poprosić osobę zatwierdzającą o zatwierdzenie wycofania i odwrócenie transakcji.
 
-1. Przejdź do obszaru **Koszty** , a następnie na liście wydatków wybierz koszty, które chcesz wycofać.
+1. Przejdź do obszaru **Koszty**, a następnie na liście wydatków wybierz koszty, które chcesz wycofać.
 2. Wybierz pozycję **Odwołaj**. Jeśli pozycja wydatku nie została jeszcze zatwierdzona, system natychmiast ją wycofa. Jeśli zapis wydatków został już zatwierdzony, jest tworzone żądanie wycofania umożliwiające powiadomienie osoby zatwierdzającej o chęci odwrócenia wydatku. Osoba zatwierdzająca potwierdzi również, że można dokonać odwrócenia, a wpis zostanie cofnięty.
 
 ## <a name="delete-a-basic-expense"></a>Usunięcie podstawowego wydatku

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082040"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122941"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Tworzenie szacowań w wierszu oferty
 
@@ -83,8 +83,8 @@ Jeśli w szczegółach wiersza oferty dodano pole niestandardowe, a chcesz, aby 
 2. Wybierz opcję **Wyszukaj** i poszukaj dodatku plug-in, który ma zostać zaktualizowany.
 3. Zaznacz dodatek plug-in, a następnie na stronie głównej kliknij opcję **Wybierz**.
 4. Zaznacz krok dodatku plug-in, który chcesz zaktualizować, kliknij prawym przyciskiem myszy, a następnie wybierz opcję **Aktualizuj**.
-5. W oknie dialogowym **Aktualizowanie istniejącego kroku** w polu **Atrybuty filtrowania** kliknij przycisk wielokropka ( **...** ):
+5. W oknie dialogowym **Aktualizowanie istniejącego kroku** w polu **Atrybuty filtrowania** kliknij przycisk wielokropka (**...**):
 6. W oknie dialogowym **Wybieranie atrybutów** zaznacz pola wyboru atrybutów niestandardowych.
-7. Kliknij przycisk **OK** , aby zamknąć okno dialogowe, a następnie wybierz pozycję **Aktualizuj krok**.
+7. Kliknij przycisk **OK**, aby zamknąć okno dialogowe, a następnie wybierz pozycję **Aktualizuj krok**.
 8. Powtórz kroki od 1 do 7 dla drugiego dodatku plug-in.
 9. Zamknij narzędzie PluginRegistrationTool.

@@ -3,7 +3,7 @@ title: Anulowanie zatwierdzonych wcześniej wpisów czasu i wydatku
 description: Ten temat zawiera informacje o sposobie anulowania zatwierdzonej transakcji rozliczanej według czasu i wydatku.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 84fc057599dd98162320d6104ed4a7612e894ecb
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082187"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123346"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Anulowanie zatwierdzonych wcześniej wpisów czasu lub wydatku
 
@@ -38,7 +38,7 @@ Wykonaj te kroki, aby anulować wpis czasu lub wydatku, który wcześniej zosta�
 1. Wybierz kolejno opcje **Projekty** \> **Moja praca** \> **Zatwierdzenia**.
 2. Na stronie listy **Zatwierdzenia** zmień widok na **Moje przeszłe zatwierdzenia**. Zostanie wyświetlona lista wpisów czasu i wydatku uprzednio zatwierdzonych przez Ciebie.
 3. Zaznacz jeden lub więcej wpisów, a następnie kliknij przycisk **Anuluj zatwierdzenie**. Zostanie wyświetlony komunikat ostrzegawczy.
-4. Kliknij przycisk **OK** , aby anulować zatwierdzenie.
+4. Kliknij przycisk **OK**, aby anulować zatwierdzenie.
 
 ## <a name="understand-the-impact-of-canceling-a-time-or-expense-entry-approval"></a>Informacje o skutkach anulowania zatwierdzania wpisu czasu lub wydatku
 
@@ -46,7 +46,7 @@ Anulowanie zatwierdzonego wpisu ma wpływ na stronę operacyjną i finansową.
 
 ### <a name="operational-impact"></a>Wpływ operacyjny
 
-Pod względem operacyjnym po anulowaniu zatwierdzenia stan rekordu jest resetowany do wartości **Wersja robocza** , a zatwierdzenie nie jest już wyświetlane w widoku **Moje przeszłe zatwierdzenia**. Zamiast tego anulowane zatwierdzenie jest wyświetlane w widoku **Wpisy czasu do zatwierdzenia** lub widoku **Wpisy wydatków do zatwierdzenia** , w zależności od tego, czy był to wpis czasu, czy wydatku. Ponadto stan pokrewnego wpisu czasu lub wydatku zmienia się na **Przesłano** , tak aby ów wpis był spójny z zatwierdzeniami mającymi stan **Wersja robocza**.
+Pod względem operacyjnym po anulowaniu zatwierdzenia stan rekordu jest resetowany do wartości **Wersja robocza**, a zatwierdzenie nie jest już wyświetlane w widoku **Moje przeszłe zatwierdzenia**. Zamiast tego anulowane zatwierdzenie jest wyświetlane w widoku **Wpisy czasu do zatwierdzenia** lub widoku **Wpisy wydatków do zatwierdzenia**, w zależności od tego, czy był to wpis czasu, czy wydatku. Ponadto stan pokrewnego wpisu czasu lub wydatku zmienia się na **Przesłano**, tak aby ów wpis był spójny z zatwierdzeniami mającymi stan **Wersja robocza**.
 
 Jako osoba zatwierdzająca, możesz edytować niektóre pola zatwierdzania mającego stan **Wersja robocza**. Są to pola **Typ rozliczania** oraz **Godziny podlegające rozliczeniu dla wpisów czasu**. Po dokonaniu zmian możesz ponownie zatwierdzić rekord. Alternatywnie możesz odrzucić wpis. Odrzucenie zatwierdzenia wpisu czasu spowoduje zmianę stanu wpisu na **Zwrócono**. Odrzucenie zatwierdzenia wpisu wydatku spowoduje zmianę stanu wpisu na **Odrzucono**. Pod względem funkcjonalnym wpisy zwrócone i odrzucone zachowują się tak samo, jak wpisy o stanie **Wersja robocza**. Członek zespołu projektu może wprowadzić wszelkie wymagane zmiany we wpisie i ponownie go przesłać do zatwierdzenia albo całkowicie usunąć wpis.
 
@@ -57,6 +57,6 @@ Anulowanie zatwierdzenia wpływa również finansowo na projekt. Najpierw odnoś
 - Stan korekty jest ustawiany jako **Skorygowano**.
 - Stan rozliczania jest ustawiany jako **Anulowano**.
 
-Następnie w tabeli Wartości rzeczywiste są tworzone wpisy wycofania. Aby utworzyć wpisy wycofania, system kopiuje wartości pól z pierwotnych wartości rzeczywistych. Jedyne wartości, które nie są kopiowane, to wartości ilości. Zamiast tego te wartości są wycofywane. Wycofane wartości rzeczywiste są tworzone dla wartości rzeczywistych **Koszt** i **Nierozliczona sprzedaż**. Pole **Stan korekty** w wycofanych wartościach rzeczywistych otrzymuje wartość **Nie można skorygować** , a stan rozliczania otrzymuje wartość **Anulowano**.
+Następnie w tabeli Wartości rzeczywiste są tworzone wpisy wycofania. Aby utworzyć wpisy wycofania, system kopiuje wartości pól z pierwotnych wartości rzeczywistych. Jedyne wartości, które nie są kopiowane, to wartości ilości. Zamiast tego te wartości są wycofywane. Wycofane wartości rzeczywiste są tworzone dla wartości rzeczywistych **Koszt** i **Nierozliczona sprzedaż**. Pole **Stan korekty** w wycofanych wartościach rzeczywistych otrzymuje wartość **Nie można skorygować**, a stan rozliczania otrzymuje wartość **Anulowano**.
 
 Po wprowadzeniu tych zmian kwota zarejestrowana jako wydana w projekcie oraz zaległości przychodów w projekcie nie będą już uwzględniały kwot reprezentowanych przez te wartości rzeczywiste.

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55f63c8c092942b73a55c9d86d867bca600f42e5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081977"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124336"
 ---
 # <a name="match-a-receipt-to-an-expense-using-ocr"></a>Dopasowywanie paragonu do wydatku przy użyciu OCR
 
@@ -49,7 +49,7 @@ W celu utworzenia wydatku lub dopasowania go do paragonu należy wykonać nastę
   1. W raporcie z wydatków na karcie **Paragony** dołącz paragon, zaznaczając pole wyboru **Dodaj paragony**.
   2. W obszarze przekazanego obrazu paragonu zwróć uwagę na opcję **Utwórz** i **Dopasuj**.
 
-      - Wybierz opcję **Utwórz** , aby utworzyć ręcznie wprowadzoną transakcję wydatkową i wypełnij wartości wyodrębnione z paragonu.
+      - Wybierz opcję **Utwórz**, aby utworzyć ręcznie wprowadzoną transakcję wydatkową i wypełnij wartości wyodrębnione z paragonu.
       - W przypadku wybrania opcji **Dopasuj** system podejmie próbę dopasowania istniejących kosztów do paragonu.
 
 ## <a name="installation"></a>Instalacja
@@ -73,7 +73,7 @@ Po włączeniu tych funkcji zostaną wykonane następujące akcje:
 
 - Istniejący obszar roboczy **Zarządzanie wydatkami** zostanie zastąpiony nowym obszarem roboczym.
 - Dodawany jest nowy element menu z widocznością pola wydatku.
-- W dalszym ciągu można otworzyć stronę **Raportów wydatków** , przechodząc do **Zarządzania wydatkami > Moje wydatki > Raporty dotyczące wydatków**.
+- W dalszym ciągu można otworzyć stronę **Raportów wydatków**, przechodząc do **Zarządzania wydatkami > Moje wydatki > Raporty dotyczące wydatków**.
 - Przepływy pracy i wszelkie zatwierdzenia wciąż przenoszą użytkownika na stronę istniejących raportów z wydatków.
 - Paragony będą przetwarzane za pośrednictwem Microsoft Azure Cognitive Services, a metadane zostaną wyodrębnione i dodane.
 - Dodana jest opcja umożliwiająca utworzenie raportu z wydatków, który zawiera dopasowanie do niedołączonych paragonów.

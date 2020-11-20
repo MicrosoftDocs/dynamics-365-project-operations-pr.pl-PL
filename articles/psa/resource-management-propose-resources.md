@@ -3,7 +3,7 @@ title: Proponowanie zasobów projektu
 description: W tym temacie zamieszczono informacje dotyczące proponowania zasobów do projektu.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082231"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120196"
 ---
 # <a name="propose-project-resources"></a>Proponowanie zasobów projektu
 

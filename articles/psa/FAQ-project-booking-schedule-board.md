@@ -3,7 +3,7 @@ title: Tworzenie rezerwacji projektu z tablicy harmonogramu
 description: W tym temacie zamieszczono informacje dotyczące sposobu tworzenia rezerwacji w projekcie z tablicy harmonogramu.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082029"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122311"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Tworzenie rezerwacji projektu z tablicy harmonogramu
 
@@ -66,7 +66,7 @@ Tworzenie projektu w Project Service powoduje automatyczne tworzenie wymagania z
 
 2. Wybierz wymaganie, które ma tylko nazwę projektu jako nazwę i czas trwania równy zero (0).
 
-3. Wybierz kartę **Znajdź dostępność** , która pojawia się w wierszu. To przenosi tablicę harmonogramu w tryb Asystent planowania i pokazuje dostępne zasoby, które mogą zostać zarezerwowane dla projektu.
+3. Wybierz kartę **Znajdź dostępność**, która pojawia się w wierszu. To przenosi tablicę harmonogramu w tryb Asystent planowania i pokazuje dostępne zasoby, które mogą zostać zarezerwowane dla projektu.
 
 4. Ponieważ **Wymaganie podstawowe** jest wymaganiem pustym o czasie trwania zero (0), trzeba będzie ustawić czas trwania na panelu **Utwórz rezerwację zasobu** podczas wybierania i rezerwacji zasobu.
 
@@ -79,11 +79,11 @@ Tworzenie projektu w Project Service powoduje automatyczne tworzenie wymagania z
 ## <a name="book-from-a-new-resource-requirement"></a>Przeprowadź rezerwację z nowego wymagania zasobu
 Wykonaj poniższe kroki, aby zarezerwować z nowego wymagania zasobu. 
 
-1. Przejdź do **Wymagania zasobów** i wybierz **Nowy** , aby utworzyć nowe wymaganie zasobu.
+1. Przejdź do **Wymagania zasobów** i wybierz **Nowy**, aby utworzyć nowe wymaganie zasobu.
 
 2. Na karcie **Projekt** wybierz projekt, aby skojarzyć wymaganie z projektem.
  
-    W tablicy harmonogramu to nowe wymaganie jest wyświetlane jako **Wymaganie otwarte** , które możesz zrealizować.
+    W tablicy harmonogramu to nowe wymaganie jest wyświetlane jako **Wymaganie otwarte**, które możesz zrealizować.
 
 3. Zarezerwuj zasób, aby go dodać do zespołu projektu.
 

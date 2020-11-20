@@ -3,7 +3,7 @@ title: Wiersze ofert oparte na produktach
 description: Ta temat zawiera informacje o wierszach ofert opartych na produktach.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082192"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123220"
 ---
 # <a name="product-based-quote-lines"></a>Wiersze ofert oparte na produktach
 
@@ -41,7 +41,7 @@ Na przykład firma sprzedaje licencje subskrypcyjne na różne oprogramowanie. K
 - Liczba użytkowników 
 - Czas trwania subskrypcji (w miesiącach)
 
-Dobrym sposobem na prowadzenie tego typu katalogu jest utworzenie rodziny produktów o nazwie **Subskrypcja oprogramowania** , która ma atrybuty **Liczba użytkowników** i **Czas trwania subskrypcji**. Następnie można dodać poszczególne produkty, takie jak **Dynamics 365 Sales** lub **Dynamics 365 Field Service** , do rodziny produktów **Subskrypcja oprogramowania**.
+Dobrym sposobem na prowadzenie tego typu katalogu jest utworzenie rodziny produktów o nazwie **Subskrypcja oprogramowania**, która ma atrybuty **Liczba użytkowników** i **Czas trwania subskrypcji**. Następnie można dodać poszczególne produkty, takie jak **Dynamics 365 Sales** lub **Dynamics 365 Field Service**, do rodziny produktów **Subskrypcja oprogramowania**.
 
 ## <a name="adding-product-catalog-items-to-a-project-quote"></a>Dodawanie elementów katalogu produktów do oferty projektu
 
@@ -54,9 +54,9 @@ Jeśli wiersz oferty jest oparty na katalogu produktów, można zastąpić cenę
 - Zastąp kalkulację ceny  
 - Użyj domyślnego
 
-Jeśli w tym polu zostanie ustawiona wartość **Zastąp kalkulację ceny** , w usłudze Dynamics 365 nie jest ustawiana cena domyślna. Należy wprowadzić cenę produktu w wierszu oferty. Jeśli w tym polu zostanie ustawiona wartość **Użyj domyślnego** , w usłudze Dynamics 365 zostanie użyta domyślna cena sprzedaży, a pole zostanie zablokowane, aby zapobiec edytowaniu.
+Jeśli w tym polu zostanie ustawiona wartość **Zastąp kalkulację ceny**, w usłudze Dynamics 365 nie jest ustawiana cena domyślna. Należy wprowadzić cenę produktu w wierszu oferty. Jeśli w tym polu zostanie ustawiona wartość **Użyj domyślnego**, w usłudze Dynamics 365 zostanie użyta domyślna cena sprzedaży, a pole zostanie zablokowane, aby zapobiec edytowaniu.
 
-Po zainstalowaniu rozwiązania PSA domyślne ceny sprzedaży są wprowadzana w wierszach opartych na produktach w ofercie. Następnie w polu **Kalkulacja cen** jest ustawiana wartość **Zastąp kalkulację ceny** , tak aby można było edytować domyślną cenę w wierszach oferty.
+Po zainstalowaniu rozwiązania PSA domyślne ceny sprzedaży są wprowadzana w wierszach opartych na produktach w ofercie. Następnie w polu **Kalkulacja cen** jest ustawiana wartość **Zastąp kalkulację ceny**, tak aby można było edytować domyślną cenę w wierszach oferty.
 
 > ![Konfigurowanie zastępowania kalkulacji ceny](media/basic-guide-10.png)
  

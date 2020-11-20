@@ -3,7 +3,7 @@ title: Typy etapów projektu
 description: Ten temat zawiera informacje o etapach projektów.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 521bf4b3090473a603626a99fded53906b644a7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa423979a794b07a8bd27440f47a29480b74b518
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082063"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123075"
 ---
 # <a name="project-stage-types"></a>Typy etapów projektu 
 
@@ -46,19 +46,19 @@ Podczas tworzenia projektu jego etap jest ustawiany jako **Nowy**. Jeśli projek
 
 ## <a name="quote"></a>Oferta
 
-Podczas kojarzenia projektu z ofertą lub tworzenia projektu z oferty etap projektu jest ustawiany jako **Oferta** , a szacunkowe daty rozpoczęcia i zakończenia są aktualizowane. Gdy projekt jest na etapie **Oferta** , na karcie **Sprzedaż** na stronie **Encja projektu** widać szczegóły oferty.
+Podczas kojarzenia projektu z ofertą lub tworzenia projektu z oferty etap projektu jest ustawiany jako **Oferta**, a szacunkowe daty rozpoczęcia i zakończenia są aktualizowane. Gdy projekt jest na etapie **Oferta**, na karcie **Sprzedaż** na stronie **Encja projektu** widać szczegóły oferty.
 
 ## <a name="plan"></a>Planowanie
 
-Gdy wygrywasz ofertą związaną z projektem i kiedy projekt przechodzi do fazy **Kontrakt** , etap projektu zostaje aktualizowany do **Planowanie**. Gdy projekt jest na etapie **Planowanie** , na stronie **Encja projektu** są wyświetlane szczegóły kontraktu.
+Gdy wygrywasz ofertą związaną z projektem i kiedy projekt przechodzi do fazy **Kontrakt**, etap projektu zostaje aktualizowany do **Planowanie**. Gdy projekt jest na etapie **Planowanie**, na stronie **Encja projektu** są wyświetlane szczegóły kontraktu.
 
 ## <a name="deliver"></a>Dostarczenie
 
-Po zakończeniu planowania projektu, gdy wszystko jest gotowe do rozpoczęcia projektu, menedżer projektu powinien zaktualizować etap projektu na **Dostarczenie** , aby pokazać, że projekt się rozpoczął.
+Po zakończeniu planowania projektu, gdy wszystko jest gotowe do rozpoczęcia projektu, menedżer projektu powinien zaktualizować etap projektu na **Dostarczenie**, aby pokazać, że projekt się rozpoczął.
 
 ## <a name="complete"></a>Ukończono 
 
-Po zakończeniu prac w projekcie menedżer projektu może zaktualizować etap na **Ukończono**. Aktualizując etap projektu na **Ukończono** , menedżer projektu wskazuje, że praca została w całości wykonana, ale projekt nadal pozostaje otwarty, tak aby można w nim było zarejestrować wszystkie zaległe wpisy czasu lub wydatków.
+Po zakończeniu prac w projekcie menedżer projektu może zaktualizować etap na **Ukończono**. Aktualizując etap projektu na **Ukończono**, menedżer projektu wskazuje, że praca została w całości wykonana, ale projekt nadal pozostaje otwarty, tak aby można w nim było zarejestrować wszystkie zaległe wpisy czasu lub wydatków.
 
 ## <a name="close"></a>Zamknij
 

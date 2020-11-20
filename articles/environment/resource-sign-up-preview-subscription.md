@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081898"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121141"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Rejestracja w przeglądzie subskrypcji Project Operations w ramach scenariuszy zasobów / zasobów niemagazynowanych
 
@@ -42,7 +42,7 @@ Po zatwierdzeniu [żądania wersji zapoznawczej](https://forms.office.com/FormsP
 
 Przed rozpoczęciem pracy należy się upewnić, że użytkownik jest zalogowany w przeglądarce i ma konto pracy użytkownika w dzierżawie, w której ma zostać wyświetlona wersja zapoznawcza Project Operations.
 
-1. Zrealizuj pierwszy kod oferty **Dynamics 365 Project Operations (CRM) — próbna wersja zapoznawcza** , wklejając go do adresu URL przeglądarki.
+1. Zrealizuj pierwszy kod oferty **Dynamics 365 Project Operations (CRM) — próbna wersja zapoznawcza**, wklejając go do adresu URL przeglądarki.
 
 ![Realizacja oferty](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +75,7 @@ Powtórz te same kroki dla ostatniej oferty z powitalnej wiadomości e-mail.
 
 ![Przypisywanie licencji](./media/15AssignLicenses.png)
 
-3. Sprawdź, czy wybrano licencje **Dynamics 365 Project Operations (CRM) — próbna wersja zapoznawcza** i **Office 365 Project Operations — wersja zapoznawcza** , a następnie wybierz **Zapisz zmiany**.
+3. Sprawdź, czy wybrano licencje **Dynamics 365 Project Operations (CRM) — próbna wersja zapoznawcza** i **Office 365 Project Operations — wersja zapoznawcza**, a następnie wybierz **Zapisz zmiany**.
 
 > [!NOTE]
 > Oferta wersji próbnej Finance nie musi być przypisana do użytkownika.

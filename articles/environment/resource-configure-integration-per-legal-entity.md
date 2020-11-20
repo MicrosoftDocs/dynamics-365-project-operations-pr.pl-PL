@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096765"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122896"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurowanie integracji aplikacji Project Operations według firm 
 
@@ -32,7 +32,7 @@ Wykonaj poniższe kroki w celu włączenia wymaganych funkcji.
     - **Włączanie Project Operations w Dynamics 365 Customer Engagement**
 
 > [!NOTE]
-> Jeśli nie są widoczne **Klawisze funkcji** , należy sprawdzić, czy wersja Finance spełnia minimalne wymagania dotyczące wersji (wersja aplikacji 10.0.13 wraz ze wszystkimi zastosowanymi aktualizacjami lub wyższa). Wybierz opcję **Wyszukaj aktualizacje** aby odświeżyć listę funkcji.
+> Jeśli nie są widoczne **Klawisze funkcji**, należy sprawdzić, czy wersja Finance spełnia minimalne wymagania dotyczące wersji (wersja aplikacji 10.0.13 wraz ze wszystkimi zastosowanymi aktualizacjami lub wyższa). Wybierz opcję **Wyszukaj aktualizacje** aby odświeżyć listę funkcji.
 
 ## <a name="define-the-project-operations-deployment-scenario-for-a-legal-entity"></a>Definiowanie scenariusza wdrażania Project Operations dla podmiotu prawnego
 
@@ -48,6 +48,6 @@ Project Operations można włączyć na poziomie podmiotu prawnego w Dynamics 36
 
 Każdy podmiot prawny korzystający z Project Operations w Dynamics 365 Customer Engagement musi mieć zestaw parametrów domyślnych. Te parametry są konfigurowane na karcie **Project Operations** na stronie **Zarządzanie projektami i parametry księgowania**. Te parametry to:
 
-  - **Domyślne ustawienia typu fakturowania** : Project Operations korzysta ze stałego zestawu wartości domyślnych typu fakturowania, które muszą być mapowane na właściwości wierszy Finance. Utwórz rekord dla każdego typu fakturowania: **nieokreślony** , **odpłatny** , **nieodpłatny** , **bezpłatny** i **niedostępny**.
-  - **Wartości domyślne kategorii projektów** : należy wybrać domyślne kategorie projektów, które mają być używane dla poszczególnych typów transakcji. Te wartości domyślne będą używane w **Arkuszu integracji Project Operations** i w oszacowaniach, w których kategoria transakcji nie jest określona dla wartości rzeczywistej projektu.
-  - **Prognozy** : należy wybrać model prognozy, który ma być używana na potrzeby oszacowań czasu i wydatków.
+  - **Domyślne ustawienia typu fakturowania**: Project Operations korzysta ze stałego zestawu wartości domyślnych typu fakturowania, które muszą być mapowane na właściwości wierszy Finance. Utwórz rekord dla każdego typu fakturowania: **nieokreślony**, **odpłatny**, **nieodpłatny**, **bezpłatny** i **niedostępny**.
+  - **Wartości domyślne kategorii projektów**: należy wybrać domyślne kategorie projektów, które mają być używane dla poszczególnych typów transakcji. Te wartości domyślne będą używane w **Arkuszu integracji Project Operations** i w oszacowaniach, w których kategoria transakcji nie jest określona dla wartości rzeczywistej projektu.
+  - **Prognozy**: należy wybrać model prognozy, który ma być używana na potrzeby oszacowań czasu i wydatków.

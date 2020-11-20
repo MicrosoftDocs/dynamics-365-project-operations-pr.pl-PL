@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bfc141c6f1072314bdfaef835d730c6ca82bae1a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082013"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122716"
 ---
 # <a name="manage-delegation"></a>Zarządzanie delegacją
 Pełnomocnik ds. wydatków może tworzyć raporty o wydatkach dla innego pracownika i zarządzać nimi.
@@ -29,7 +29,7 @@ Pełnomocnik ds. wydatków może tworzyć raporty o wydatkach dla innego pracown
 
 Aby skonfigurować użytkownika jako pełnomocnika wydatków, należy wykonać następujące kroki. 
 1. Wybierz **Zarządzanie wydatkami** > **Konfiguracja** > **Ogólne** > **Pełnomocnicy**. 
-2. Na stronie **Pełnomocnicy** wybierz opcję **Nowy** , a następnie wybierz pracownika, dla którego ma zostać zdefiniowana pełnomocnik. 
+2. Na stronie **Pełnomocnicy** wybierz opcję **Nowy**, a następnie wybierz pracownika, dla którego ma zostać zdefiniowana pełnomocnik. 
 3. Wprowadź alias użytkownika pełnomocnika oraz datę rozpoczęcia i zakończenia okresu delegowania.
 
 ## <a name="manage-expenses-on-behalf-of-another-employee"></a>Zarządzanie wydatkami w imieniu innego pracownika

@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082095"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121861"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Aktualizowanie atrybutów dodatków plug-in w celu dołączenia nowych wymiarów kalkulacji cen
 
@@ -50,7 +50,7 @@ W poniższych krokach przedstawiono proces rejestrowania dodatków plug-in.
 
  ![Zrzut ekranu z dodatkiem plug-in, który ma zostać zaktualizowany](media/PRT-2.png)
  
-5. W oknie aktualizowania w atrybutach filtrowania kliknij wielokropek ( **...** ).
+5. W oknie aktualizowania w atrybutach filtrowania kliknij wielokropek (**...**).
 
  ![Zrzut ekranu z informacjami konfiguracyjnymi w oknie Aktualizowanie istniejącego kroku](media/PRT-3.png)
  
@@ -58,7 +58,7 @@ W poniższych krokach przedstawiono proces rejestrowania dodatków plug-in.
 
  ![Zrzut ekranu pokazujący zaznaczenia pól wyboru atrybutów kalkulacji cen](media/PRT-4.png)
 
-7. Kliknij przycisk **OK** , aby zamknąć stronę, a następnie wybierz pozycję **Aktualizuj krok**.
+7. Kliknij przycisk **OK**, aby zamknąć stronę, a następnie wybierz pozycję **Aktualizuj krok**.
 
  ![Zrzut ekranu z widocznym przyciskiem „Aktualizuj krok”](media/PRT-5.png)
  

@@ -3,7 +3,7 @@ title: Uzgadnianie rezerwacji i przypisań
 description: Ten temat zawiera informacje o wartościach rzeczywistych.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082058"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120466"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Uzgadnianie rezerwacji i przypisań
 
@@ -35,7 +35,7 @@ Ze względu na luźne powiązanie między rezerwacjami w projektach i przypisani
 
 Dla każdego nazwanego członka zespołu na karcie **Uzgadnianie** są wyświetlane rezerwacje i przypisania na wszystkich poziomach szczegółowości, aż do poszczególnych zadań. W komórkach widać godziny, które mogą reprezentować okresy od miesięcy aż po dni.
 
-W polu **Skala czasu** można wybrać wartość **Miesiąc** , **Tydzień** lub **Dzień**. Domyślnie jest zaznaczony okres **Tydzień**. Można jednak zmienić tę wartość domyślną, naciskając przycisk **Ustawienia**. Po otwarciu karty **Uzgadnianie** jest na niej wyświetlana bieżąca data, ale za pomocą kontrolki kalendarza można przejść do przodu lub do tyłu w czasie. Kiedy projekt ma datę rozpoczęcia przypadającą w przyszłości, po otwarciu karty będzie na niej wyświetlana ta data. Kontrolka kalendarza zawiera też opcje umożliwiające przechodzenie do dat rozpoczęcia i zakończenia projektu.
+W polu **Skala czasu** można wybrać wartość **Miesiąc**, **Tydzień** lub **Dzień**. Domyślnie jest zaznaczony okres **Tydzień**. Można jednak zmienić tę wartość domyślną, naciskając przycisk **Ustawienia**. Po otwarciu karty **Uzgadnianie** jest na niej wyświetlana bieżąca data, ale za pomocą kontrolki kalendarza można przejść do przodu lub do tyłu w czasie. Kiedy projekt ma datę rozpoczęcia przypadającą w przyszłości, po otwarciu karty będzie na niej wyświetlana ta data. Kontrolka kalendarza zawiera też opcje umożliwiające przechodzenie do dat rozpoczęcia i zakończenia projektu.
 
 Za pomocą kontrolek rozwinięcia przy każdym zasobie można wyświetlić szczegółowe informacje o rezerwacjach danego zasobu. Można również rozwinąć przypisania każdego zasobu aż do poziomu szczegółowości konkretnych zadań.
 
@@ -47,9 +47,9 @@ U dołu karty **Uzgadnianie** jest wyświetlana łączna suma netto projektu, a 
 > [!NOTE]
 > Legenda tych sytuacji może być ukryta, aby zostawić więcej miejsca na siatkę. Jeżeli tak jest, w celu wyświetlenia legendy należy kliknąć przycisk **Ustawienia**.
 
-W niektórych przypadkach gdy w polu **Skala czasu** jest ustawiony poziom wyższy niż **Dzień** , różnice mogą być obliczane jako 0 (zero). Na przykład na poziomie **Miesiąc** różnica netto zasobu może wynosić 0 (zero) w celu wskazania, że rezerwacje są równe przypisaniom. Natomiast w poziomie **Tydzień** można zauważyć, że istnieją przypisania równe 0 (zero) godzin i rezerwacje 40 godzin w pierwszym tygodniu miesiąca oraz przypisania 40 godzin i rezerwacje równe 0 (zero) godzin w drugim tygodniu miesiąca. Mimo że łączne rezerwacje i przypisania w miesiącu są równe, różnią się w zależności od tygodnia.
+W niektórych przypadkach gdy w polu **Skala czasu** jest ustawiony poziom wyższy niż **Dzień**, różnice mogą być obliczane jako 0 (zero). Na przykład na poziomie **Miesiąc** różnica netto zasobu może wynosić 0 (zero) w celu wskazania, że rezerwacje są równe przypisaniom. Natomiast w poziomie **Tydzień** można zauważyć, że istnieją przypisania równe 0 (zero) godzin i rezerwacje 40 godzin w pierwszym tygodniu miesiąca oraz przypisania 40 godzin i rezerwacje równe 0 (zero) godzin w drugim tygodniu miesiąca. Mimo że łączne rezerwacje i przypisania w miesiącu są równe, różnią się w zależności od tygodnia.
 
-Po wyświetleniu wyższych poziomów czasu na karcie **Uzgadnianie** widać wskaźnik komórki informujący o różnicach na niższych poziomach czasu. Na przykład na ilustracji poniżej w komórce jest wyświetlany wskaźnik dla miesiąca Październik 2018 dla zasobu o nazwie Kaja Lewandowska. Dlatego mimo iż rezerwacje i przypisania zasobu są równe po zagregowaniu na poziomie **Miesiąc** , nie pasują do siebie na niższych poziomach.
+Po wyświetleniu wyższych poziomów czasu na karcie **Uzgadnianie** widać wskaźnik komórki informujący o różnicach na niższych poziomach czasu. Na przykład na ilustracji poniżej w komórce jest wyświetlany wskaźnik dla miesiąca Październik 2018 dla zasobu o nazwie Kaja Lewandowska. Dlatego mimo iż rezerwacje i przypisania zasobu są równe po zagregowaniu na poziomie **Miesiąc**, nie pasują do siebie na niższych poziomach.
 
 ![Niedopasowania zaksięgowań i przydziałów na poziomie miesięcznym](media/reconcile-assignments-01.JPG)
 
@@ -59,9 +59,9 @@ Kliknij dwukrotnie komórkę, aby przybliżyć następny niższy poziom i zobacz
 
 Można kliknąć komórkę prawym przyciskiem myszy, aby oddalić widok do następnego wyższego poziomu. Można również wyłączyć wskaźnik komórki, klikając przycisk **Ustawienia**. 
 
-Za pomocą przycisków **Wstecz** i **Dalej** umieszczonych nad siatką można przechodzić między wszelkimi różnicami w projekcie. Aby użyć tych przycisków, należy najpierw zaznaczyć zasób. Kliknij przycisk **Dalej** , aby przejść do następnej różnicy między rezerwacjami a przypisaniami dla wybranego zasobu. Kliknij przycisk **Wstecz** , aby przejść do poprzedniej różnicy.
+Za pomocą przycisków **Wstecz** i **Dalej** umieszczonych nad siatką można przechodzić między wszelkimi różnicami w projekcie. Aby użyć tych przycisków, należy najpierw zaznaczyć zasób. Kliknij przycisk **Dalej**, aby przejść do następnej różnicy między rezerwacjami a przypisaniami dla wybranego zasobu. Kliknij przycisk **Wstecz**, aby przejść do poprzedniej różnicy.
 
-W sytuacjach, gdy istnieją przypisania zadań dla zasobu, ale nie ma rezerwacji, można wybrać niedobór rezerwacji, a następnie kliknąć przycisk **Rozszerz rezerwację**. Zostanie wtedy wyświetlona rezerwacja, której trzeba dokonać w celu rozwiązania problemu z niedoborem zasobu. Można również wyświetlać rezerwacje zasobów w bieżącym projekcie i innych projektach. Kliknij przycisk **OK** , aby utworzyć rezerwację zasobu bez względu na jego aktualną dostępność. Następnie menedżer projektu lub menedżer zasobów może za pomocą tablicy harmonogramu rozwiązać sytuację, w której zasób został zarezerwowany ponad jego dyspozycyjność wskutek rozszerzenia rezerwacji.
+W sytuacjach, gdy istnieją przypisania zadań dla zasobu, ale nie ma rezerwacji, można wybrać niedobór rezerwacji, a następnie kliknąć przycisk **Rozszerz rezerwację**. Zostanie wtedy wyświetlona rezerwacja, której trzeba dokonać w celu rozwiązania problemu z niedoborem zasobu. Można również wyświetlać rezerwacje zasobów w bieżącym projekcie i innych projektach. Kliknij przycisk **OK**, aby utworzyć rezerwację zasobu bez względu na jego aktualną dostępność. Następnie menedżer projektu lub menedżer zasobów może za pomocą tablicy harmonogramu rozwiązać sytuację, w której zasób został zarezerwowany ponad jego dyspozycyjność wskutek rozszerzenia rezerwacji.
 
 ## <a name="managing-with-time-zones"></a>Zarządzanie ze strefami czasowymi
 Aby zapewnić dokładne i przewidywalne wyniki podczas stosowania opcji Rozszerz rezerwację, należy spełnić dwa podstawowe wymagania wstępne:  

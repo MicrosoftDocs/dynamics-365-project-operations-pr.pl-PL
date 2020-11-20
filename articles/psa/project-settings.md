@@ -3,7 +3,7 @@ title: Ustawienia projektu
 description: Ten temat zawiera informacje o ustawieniach zarządzania projektami.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9b8659f3b7ee81d2e21ef52743debd521fa9bb9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b2cda6bfd7f152ee948cf49fab91aed475968a09
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082175"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123121"
 ---
 # <a name="project-settings"></a>Ustawienia projektu
 
@@ -49,8 +49,8 @@ Aby utworzyć harmonogram projektu, należy utworzyć szablon kalendarza projekt
 
 > ![Opcje konfigurowania](media/project-13.png)
 
-4. Zaznacz opcję **Nowy harmonogram tygodniowy** , a następnie ustaw opcje dla tego harmonogramu zasobów. Można określić cykliczny harmonogram tygodniowy, dzienne parametry godzinowe, dni wolne od pracy itd.
-5. Ustaw zakres dat, kliknij przycisk **Zapisz** , a następnie kliknij przycisk **Zamknij**. 
+4. Zaznacz opcję **Nowy harmonogram tygodniowy**, a następnie ustaw opcje dla tego harmonogramu zasobów. Można określić cykliczny harmonogram tygodniowy, dzienne parametry godzinowe, dni wolne od pracy itd.
+5. Ustaw zakres dat, kliknij przycisk **Zapisz**, a następnie kliknij przycisk **Zamknij**. 
 6. Wróć do strony listy **Zasoby** i wybierz zasób, dla którego ustawiono godziny pracy. 
 7. W ustawieniu **Ustaw kalendarz jako** określ szablon pracy. 
 8. W oknie dialogowym **Szablon pracy** nadaj nazwę szablonowi pracy, a następnie kliknij przycisk **Zastosuj**. 

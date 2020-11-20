@@ -3,7 +3,7 @@ title: Wstępne rezerwowanie wymagań
 description: W tym temacie zamieszczono informacje dotyczące wstępnego rezerwowania wymagań.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082222"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124111"
 ---
 # <a name="soft-book-requirements"></a>Wstępne rezerwowanie wymagań
 
@@ -31,7 +31,7 @@ Wymaganie zasobu może być zarezerwowane ostatecznie. Rezerwacja ostateczna pow
 
 ![Stan rezerwacji ustawiony na Wstępna](media/Resource-Management-image77.png)
 
-Gdy karta **Zespół** jest wyświetlana w widoku **Nazwani członkowie zespołu** , zasób jest tam widoczny. Wstępnie zarezerwowane godziny są raportowane w kolumnie **Wstępnie zarezerwowane godziny**.
+Gdy karta **Zespół** jest wyświetlana w widoku **Nazwani członkowie zespołu**, zasób jest tam widoczny. Wstępnie zarezerwowane godziny są raportowane w kolumnie **Wstępnie zarezerwowane godziny**.
 
 ![Wstępnie zarezerwowane godziny w widoku Nazwani członkowie zespołu](media/Resource-Management-image78.png)
 
@@ -54,7 +54,7 @@ Aby przekonwertować rezerwację wstępną na rezerwację ostateczną, na tablic
 
 ![Zmiana stanu rezerwacji na Ostateczna](media/Resource-Management-image82.png)
 
-Rezerwacja zostanie zmieniona, a stan zmieni się w tablicy harmonogramu. Ze względu na fakt, że stanem rezerwacji jest teraz **Ostateczna** , zasób jest pokazany jako zarezerwowany, a jego dyspozycyjność i dostępność są skorygowane.
+Rezerwacja zostanie zmieniona, a stan zmieni się w tablicy harmonogramu. Ze względu na fakt, że stanem rezerwacji jest teraz **Ostateczna**, zasób jest pokazany jako zarezerwowany, a jego dyspozycyjność i dostępność są skorygowane.
 
 Korzystając z tej samej metody, można anulować rezerwację ostateczną lub wstępną z tablicy harmonogramu.
 

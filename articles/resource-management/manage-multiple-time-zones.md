@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081950"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119836"
 ---
 # <a name="manage-time-zones"></a>Zarządzanie strefami czasowymi
 
@@ -30,7 +30,7 @@ Podczas tworzenia zadania godzina rozpoczęcia, godzina zakończenia i liczba go
 
 ## <a name="manage-resources-with-time-zones"></a>Zarządzanie zasobami za pomocą stref czasowych
 
-Aby uzyskać dokładne i przewidywalne wyniki podczas korzystania z **Przedłużenia rezerwacja** , należy spełnić dwa podstawowe kluczowe wymagania:  
+Aby uzyskać dokładne i przewidywalne wyniki podczas korzystania z **Przedłużenia rezerwacja**, należy spełnić dwa podstawowe kluczowe wymagania:  
 
 - Użytkownik musi skonfigurować strefę czasową swoich urządzeń, aby odpowiadała strefom czasowym zdefiniowanym w **ustawieniach personalizacji** systemu.
  

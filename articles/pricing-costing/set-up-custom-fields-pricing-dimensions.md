@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 087950c9639a95868a20d71286dfad4437555108
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082007"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119431"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen
 
@@ -36,14 +36,14 @@ Ten temat zawiera informacje na temat konfigurowania niestandardowych wymiarów 
 - **msdyn_OrganizationalUnit** (Jednostka organizacyjna)
 
 > [!IMPORTANT]
-> Nie usuwaj tych wierszy. Jeśli jednak nie są potrzebne, można je określić jako niemające zastosowania w konkretnym kontekście. W tym celu w ustawieniach **Ma zastosowanie do kosztu** , **Ma zastosowanie do sprzedaży** i **Ma zastosowanie do zakupu** należy zaznaczyć wartość **Nie**. Ustawienie w tych atrybutach wartości **Nie** ma taki sam skutek, jak wyłączenie tym polom funkcjonalności wymiarów kalkulacji cen.
+> Nie usuwaj tych wierszy. Jeśli jednak nie są potrzebne, można je określić jako niemające zastosowania w konkretnym kontekście. W tym celu w ustawieniach **Ma zastosowanie do kosztu**, **Ma zastosowanie do sprzedaży** i **Ma zastosowanie do zakupu** należy zaznaczyć wartość **Nie**. Ustawienie w tych atrybutach wartości **Nie** ma taki sam skutek, jak wyłączenie tym polom funkcjonalności wymiarów kalkulacji cen.
 
 Aby pole było wymiarem kalkulacji cen, musi być:
 
 - Utworzone jako pole w encjach **Cena roli** i **Narzut na cenę dla roli**. Aby uzyskać więcej informacji na ten temat, zobacz [Dodawanie niestandardowych pól do konfiguracji cen i encji transakcyjnych](add-custom-fields-price-setup-transactional-entities.md).
 - Utworzone jako wiersz w tabeli **Wymiar kalkulacji cen**. Na przykład dodaj wiersze wymiarów kalkulacji cen jak pokazano na poniższym rysunku. 
 
-Godziny pracy zasobu ( **msdyn_resourceworkhours** ) została dodana jako wymiar oparty na narzucie oraz dodana do siatki na karcie **Wymiar kalkulacji cen oparty na narzucie**.
+Godziny pracy zasobu (**msdyn_resourceworkhours**) została dodana jako wymiar oparty na narzucie oraz dodana do siatki na karcie **Wymiar kalkulacji cen oparty na narzucie**.
 
 > [!IMPORTANT]
 > Każda zmiana lub dodanie danych wymiaru kalkulacji cen w tej tabeli jest rozpowszechniana do logiki biznesowej kalkulacji cen w usłudze dopiero po odświeżeniu pamięci podręcznej. Czas odświeżania pamięci podręcznej może wynosić do 10 minut. Poczekaj ten czas, aby zobaczyć zmiany w logice ustawiania domyślnych cen, które muszą wyniknąć ze zmiany danych wymiaru kalkulacji cen.
@@ -53,13 +53,13 @@ Godziny pracy zasobu ( **msdyn_resourceworkhours** ) została dodana jako wymiar
 W poniższych sekcjach przedstawiono informacje o różnych atrybutach istniejących w tabeli **Wymiary kalkulacji cen**.
 
 ### <a name="pricing-dimension-name"></a>Nazwa wymiaru kalkulacji cen
-Ta wartość powinna być identyczna, jak nazwa schematu pola dodawanego do tabeli **Cena roli** dla niestandardowych wymiarów kalkulacji cen. Aby uzyskać więcej informacji o dodawaniu pól do tabeli **Cena roli** , zobacz [Dodawanie niestandardowych pól do konfiguracji cen i encji transakcyjnych](add-custom-fields-price-setup-transactional-entities.md).
+Ta wartość powinna być identyczna, jak nazwa schematu pola dodawanego do tabeli **Cena roli** dla niestandardowych wymiarów kalkulacji cen. Aby uzyskać więcej informacji o dodawaniu pól do tabeli **Cena roli**, zobacz [Dodawanie niestandardowych pól do konfiguracji cen i encji transakcyjnych](add-custom-fields-price-setup-transactional-entities.md).
 
 ### <a name="type-of-dimension"></a>Typ wymiaru
 Istnieją dwa typy wymiarów kalkulacji cen:
   
-  - **Wymiary oparte na kwotach** : wartości wymiarów z kontekstu wejściowego są dopasowywane do wartości wymiarów w wierszu **Cena roli** , a domyślna wartość ceny/kosztu jest pobierana bezpośrednio z tabeli **Cena roli**.
-  - **Wymiary oparte na narzutach** : są to wymiary, w których zastosowany jest następujący 3-etapowy proces pozyskiwania wartości ceny/kosztu:
+  - **Wymiary oparte na kwotach**: wartości wymiarów z kontekstu wejściowego są dopasowywane do wartości wymiarów w wierszu **Cena roli**, a domyślna wartość ceny/kosztu jest pobierana bezpośrednio z tabeli **Cena roli**.
+  - **Wymiary oparte na narzutach**: są to wymiary, w których zastosowany jest następujący 3-etapowy proces pozyskiwania wartości ceny/kosztu:
  
     1. Dopasowanie wartości wymiarów nieopartych na narzutach z kontekstu wejściowego do wiersza Cena roli w celu wyznaczenia stawki podstawowej.
     2. Dopasowanie wszystkich wartości wymiarów z kontekstu wejściowego do wiersza **Narzut na cenę dla roli** w celu wyznaczenia procenta narzutu.
@@ -88,5 +88,5 @@ Zaznaczenie wartości **Tak** oznacza, że wartość wymiaru z kontekstu wejści
 ### <a name="priority"></a>Priorytet
 Ustawienie priorytetu wymiaru ułatwia aparatowi kalkulacji cen wygenerowanie ceny nawet wtedy, gdy nie może znaleźć dokładnego dopasowania między wartościami wymiarów wejściowych a wartościami z tabel **Cena roli** lub **Narzut na cenę dla roli**. W tym scenariuszu usługa będzie używać wartości null dla niedopasowanych wartości wymiarów poprzez nadanie wymiarom wag w kolejności ich priorytetu.
 
-- **Priorytet kosztu** : wartość priorytetu kosztu w wymiarze wskazuje wagę tego wymiaru podczas dopasowywania do konfiguracji kosztów własnych. Wartość pola **Priorytet kosztu** musi być unikatowa wśród wymiarów z ustawionym atrybutem **Ma zastosowanie do kosztu**.
-- **Priorytet sprzedaży** : wartość priorytetu sprzedaży w wymiarze wskazuje wagę tego wymiaru podczas dopasowywania do konfiguracji cen sprzedaży lub stawek rozliczania. Wartość pola **Priorytet sprzedaży** musi być unikatowa wśród wymiarów z ustawionym atrybutem **Ma zastosowanie do sprzedaży**.
+- **Priorytet kosztu**: wartość priorytetu kosztu w wymiarze wskazuje wagę tego wymiaru podczas dopasowywania do konfiguracji kosztów własnych. Wartość pola **Priorytet kosztu** musi być unikatowa wśród wymiarów z ustawionym atrybutem **Ma zastosowanie do kosztu**.
+- **Priorytet sprzedaży**: wartość priorytetu sprzedaży w wymiarze wskazuje wagę tego wymiaru podczas dopasowywania do konfiguracji cen sprzedaży lub stawek rozliczania. Wartość pola **Priorytet sprzedaży** musi być unikatowa wśród wymiarów z ustawionym atrybutem **Ma zastosowanie do sprzedaży**.

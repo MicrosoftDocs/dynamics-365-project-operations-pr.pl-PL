@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082109"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121276"
 ---
 # <a name="products"></a>Produkty
 
@@ -33,27 +33,27 @@ Produkty są podstawą Twojej firmy. Katalog produktów w Dynamics 365 Sales Pro
 ## <a name="add-a-product"></a>Dodawanie produktu
 
 1.  Upewnij się, że przypisano Cię do roli zabezpieczeń Menedżer Sales Professional lub Administrator systemu, aby móc dodawać produkty w Dynamics 365 Sales Professional.
-2.  Na mapie witryny w obszarze **Konfiguruj** , wybierz **Produkty**.
+2.  Na mapie witryny w obszarze **Konfiguruj**, wybierz **Produkty**.
 3.  Wybierz pozycję **Dodaj produkt** i wypełnij następujące informacje:
 
     -  **Nazwa/nazwisko**
     -  **Identyfikator produktu**
-    -  **Nadrzędny** : Wybierz nadrzędną rodzinę produktów dla produktu. Jeśli tworzysz produkt podrzędny w rodzinie produktów, nazwa nadrzędnej rodziny produktów zostaną wypełniona w tym miejscu. Nie można tego zmienić po zapisaniu rekordu.
-    -  **Ważne od**/**Ważne do** : Określ okres ważności pakietu produktu wybierając daty **Ważne od** i **Ważne do**.
-    -  **Grupa jednostek** : Wybierz grupę jednostek. Grupa jednostek jest zbiorem różnych jednostek, w jakich produkt jest sprzedawany, i definiuje, jak poszczególne elementy są grupowane w większe ilości. Na przykład podczas dodawania nasion jako produktu mogłeś utworzyć grupę jednostek o nazwie „Nasiona” i zdefiniować jej jednostkę podstawową jako „paczka”.
-    -  **Jednostka domyślna** : Wybierz najpopularniejszą jednostkę, w jakiej będzie sprzedawany produkt. Jednostki to ilości lub wielkości, w jakich sprzedajesz swoje produkty. Na przykład jeśli dodajesz nasiona jako produkt, możesz je sprzedawać w paczkach, pudłach oraz paletach. Każda z tych jednostek staje się jednostką produktu. Jeśli nasiona są najczęściej sprzedawane w paczkach, wybierz to jako jednostkę.
-    -  **Domyślny cennik** : Jeśli produkt jest nowy, to pole jest polem tylko do odczytu. Przed wybraniem cennika domyślnego należy wypełnić wszystkie wymagane pola, a następnie zapisać rekord. Chociaż cennik domyślny nie jest wymagany, po zapisaniu rekordu produktu warto ustawić cennik domyślny dla każdego produktu. Jeśli rekord klienta nie zawiera cennika, aplikacja Sales może użyć cennika domyślnego do generowania ofert, zamówień i faktur.
-    -  **Obsługiwane miejsca dziesiętne** : Musisz wprowadzić liczbę całkowitą z zakresu od 0 do 5. Jeśli produktu nie można dzielić na części ułamkowe, wpisz wartość 0. Dokładność pola **Ilość** w rekordzie oferty, zamówienia lub zafakturowanego produktu jest sprawdzana dla wartości w tym polu, jeśli produkt nie posiada skojarzonego cennika.
-    -  **Temat** : Powiąż produkt z tematem. Tematów można używać do podziału produktów na kategorie oraz do filtrowania raportów.
+    -  **Nadrzędny**: Wybierz nadrzędną rodzinę produktów dla produktu. Jeśli tworzysz produkt podrzędny w rodzinie produktów, nazwa nadrzędnej rodziny produktów zostaną wypełniona w tym miejscu. Nie można tego zmienić po zapisaniu rekordu.
+    -  **Ważne od**/**Ważne do**: Określ okres ważności pakietu produktu wybierając daty **Ważne od** i **Ważne do**.
+    -  **Grupa jednostek**: Wybierz grupę jednostek. Grupa jednostek jest zbiorem różnych jednostek, w jakich produkt jest sprzedawany, i definiuje, jak poszczególne elementy są grupowane w większe ilości. Na przykład podczas dodawania nasion jako produktu mogłeś utworzyć grupę jednostek o nazwie „Nasiona” i zdefiniować jej jednostkę podstawową jako „paczka”.
+    -  **Jednostka domyślna**: Wybierz najpopularniejszą jednostkę, w jakiej będzie sprzedawany produkt. Jednostki to ilości lub wielkości, w jakich sprzedajesz swoje produkty. Na przykład jeśli dodajesz nasiona jako produkt, możesz je sprzedawać w paczkach, pudłach oraz paletach. Każda z tych jednostek staje się jednostką produktu. Jeśli nasiona są najczęściej sprzedawane w paczkach, wybierz to jako jednostkę.
+    -  **Domyślny cennik**: Jeśli produkt jest nowy, to pole jest polem tylko do odczytu. Przed wybraniem cennika domyślnego należy wypełnić wszystkie wymagane pola, a następnie zapisać rekord. Chociaż cennik domyślny nie jest wymagany, po zapisaniu rekordu produktu warto ustawić cennik domyślny dla każdego produktu. Jeśli rekord klienta nie zawiera cennika, aplikacja Sales może użyć cennika domyślnego do generowania ofert, zamówień i faktur.
+    -  **Obsługiwane miejsca dziesiętne**: Musisz wprowadzić liczbę całkowitą z zakresu od 0 do 5. Jeśli produktu nie można dzielić na części ułamkowe, wpisz wartość 0. Dokładność pola **Ilość** w rekordzie oferty, zamówienia lub zafakturowanego produktu jest sprawdzana dla wartości w tym polu, jeśli produkt nie posiada skojarzonego cennika.
+    -  **Temat**: Powiąż produkt z tematem. Tematów można używać do podziału produktów na kategorie oraz do filtrowania raportów.
 
 4.  Wybierz pozycję **Zapisz**.
-5.  Przejdź do karty **Dodatkowe informacje**. W sekcji **Pozycja cennika** wybierz ikonę **Więcej poleceń** , a następnie wybierz **Dodaj nową pozycję cennika**.
-7.  Na karcie **Dodatkowe informacje** , w sekcji **Relacje produktów** wybierz ikonę **Więcej poleceń** , a następnie wybierz **Dodaj nową relację produktu**.
-8.  W formularzu **Nowa relacja produktu** , wpisz następujące informacje szczegółowe, a na pasku poleceń wybierz **Zapisz i Zamknij** :
+5.  Przejdź do karty **Dodatkowe informacje**. W sekcji **Pozycja cennika** wybierz ikonę **Więcej poleceń**, a następnie wybierz **Dodaj nową pozycję cennika**.
+7.  Na karcie **Dodatkowe informacje**, w sekcji **Relacje produktów** wybierz ikonę **Więcej poleceń**, a następnie wybierz **Dodaj nową relację produktu**.
+8.  W formularzu **Nowa relacja produktu**, wpisz następujące informacje szczegółowe, a na pasku poleceń wybierz **Zapisz i Zamknij**:
 
-    -   **Powiązany produkt** : Wybierz produkt, który chcesz dodać jako produkt pokrewny do istniejącego rekordu produktu, nad którym pracujesz.
-    -   **Typ relacji sprzedaży** : Wybierz, czy chcesz dodać produkt jako produkt droższy, produkt powiązany, akcesorium lub zamiennik.
-    -   **Kierunek** : Określ, czy relacja między produktami będzie jednokierunkowa czy dwukierunkowa. Po wybraniu opcji Jednokierunkowa, produkt wybrany w **Produkt porewny** pojawi się jako zalecenie dla istniejącego produktu, ale nie odwrotnie.
+    -   **Powiązany produkt**: Wybierz produkt, który chcesz dodać jako produkt pokrewny do istniejącego rekordu produktu, nad którym pracujesz.
+    -   **Typ relacji sprzedaży**: Wybierz, czy chcesz dodać produkt jako produkt droższy, produkt powiązany, akcesorium lub zamiennik.
+    -   **Kierunek**: Określ, czy relacja między produktami będzie jednokierunkowa czy dwukierunkowa. Po wybraniu opcji Jednokierunkowa, produkt wybrany w **Produkt porewny** pojawi się jako zalecenie dla istniejącego produktu, ale nie odwrotnie.
 
 9.  W formularzu produktu wybierz **Zapisz**.
 
@@ -119,8 +119,8 @@ System weryfikuje, czy tylko właściwości liczbowe lub właściwości produktu
 
 Jeśli na przykład istnieją następujące właściwości: 
 
-- **Liczba użytkowników** : liczba użytkowników 
-- **Liczba miesięcy** : liczba miesięcy subskrypcji
+- **Liczba użytkowników**: liczba użytkowników 
+- **Liczba miesięcy**: liczba miesięcy subskrypcji
 - **Kod SKU produktu** 
 
 Właściwości **Liczba użytkowników** i **Liczba miesięcy** można oflagować jako współczynniki ilościowe, odpowiednio modyfikując właściwości wiersza produktu. 

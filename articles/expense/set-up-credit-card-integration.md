@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 12c7971204b485ee7cb222cd9cffdfdfde93dcf4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e0004f9096ea8a03745dbfce35fe0d32d3d707f6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081975"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120871"
 ---
 # <a name="set-up-credit-card-integration"></a>Konfigurowanie integracji z kartą kredytową
 
@@ -33,7 +33,7 @@ Transakcje związane z kartą kredytową związane z wydatkami można skonfiguro
 1. Na stronie **Transakcje kartą kredytową** wybierz opcję **Import transakcji**. W przypadku korzystania z zarządzania danymi po raz pierwszy, przed kontynuowaniem system musi zaktualizować listę encji danych.
 2. W polu **Nazwa** wprowadź unikatowy opis zadania importu.
 3. W polu **Format danych źródłowych** wybierz format pliku zawierającego transakcje kartą kredytową do zaimportowania.
-4. Wybierz opcję **Prześlij** , a następnie znajdź i wybierz plik do zaimportowania.
+4. Wybierz opcję **Prześlij**, a następnie znajdź i wybierz plik do zaimportowania.
 5. Po przekazaniu pliku należy sprawdzić poprawność mapowania pliku transakcji kartą kredytową i kolumnę obiektu dane transakcji kartą kredytową, wybierając łącze **Mapa widoku** na kafelku. Jeśli występują błędy mapowania lub konieczne będzie jego zmodyfikowanie, można to zrobić na karcie **Wizualizacja** lub **Szczegóły mapowania**.
 6. W celu zautomatyzowania transakcji kartą kredytową wybierz opcję **Utwórz cykliczne zadanie danych**. Następnie można ustawić cykliczność definiującą częstotliwość importowania transakcji kartą kredytową. Kiedy skończysz, wybierz **OK**.
 7. Aby zaimportować wybrany plik teraz, wybierz pozycję **Importuj**.

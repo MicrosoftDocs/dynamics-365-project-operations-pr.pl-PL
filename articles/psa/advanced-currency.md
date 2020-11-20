@@ -3,7 +3,7 @@ title: Scenariusze obsługi wielu walut (wersja 3.x)
 description: Ten temat zawiera informacje na temat scenariuszy wielowalutowych.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7be029eeca3129d30f4bec1bf9b180a0a5122a86
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 61ca37db59b7d25478434c2376e3a987afd4972d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082122"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123391"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenariusze obsługi wielu walut
 
@@ -69,8 +69,8 @@ Rozwiązanie PSA poszerza koncepcję waluty transakcji w koszcie i sprzedaży w 
 W tej sekcji opisano przykład projektu, który firma Contoso UK realizuje dla klienta o nazwie Fabrikam – Japonia. Oto opis konfiguracji scenariusza:
 
 1. W oknie **Ustawienia** \> **Zarządzanie podmiotem gospodarczym** \> **Waluty** konfiguruje się waluty GBP i japońskiego jena (JPY). 
-2. Jest konfigurowane konto klienta o nazwie **Fabrikam – Japonia** , a JPY wybiera się jako walutę dla konta.
-3. Jest konfigurowana jednostka organizacyjna o nazwie **Contoso UK** , a GBP wybiera się jako walutę.
+2. Jest konfigurowane konto klienta o nazwie **Fabrikam – Japonia**, a JPY wybiera się jako walutę dla konta.
+3. Jest konfigurowana jednostka organizacyjna o nazwie **Contoso UK**, a GBP wybiera się jako walutę.
 4. Jest tworzony kontrakt na projekt, w którym firma **Contoso UK** jest określana jako kontraktująca, a firma **Fabrikam – Japonia** jest określana jako odbiorca.
 5. Są tworzone pozycje kontraktu na projekt na podstawie uzgodnień dotyczących fakturowania dla poszczególnych klas transakcji w projekcie, takich jak rozliczanie według czasu czy rozliczania według kosztów.
 6. Jest tworzony projekt, w którym firma **Contoso UK** jest określana jako jednostka kontraktująca. Ten projekt jest tworzony i mapowany na pozycje kontraktu projektu.

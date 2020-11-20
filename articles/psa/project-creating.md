@@ -3,7 +3,7 @@ title: Harmonogramy projektów
 description: W tym temacie zamieszczono informacje dotyczące tworzenia harmonogramu.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082047"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123255"
 ---
 # <a name="project-schedules"></a>Harmonogramy projektów 
 
@@ -83,12 +83,12 @@ Przyciski **Przenieś w górę** i **Przenieś w dół** zmieniają pozycję zad
 
 Siatka **harmonogramu** jest w pełni dostępna i może być używana z czytnikami ekranu, takimi jak Narrator, JAWS lub NVDA. Aby przechodzić między obszarem siatki za pomocą klawiszy strzałek (jak w Microsoft Excel), można użyć klawisza Tab w celu przechodzenia między elementami interaktywnego interfejsu użytkownika i można użyć klawisza strzałki w dół, klawisza Enter lub klawisza spacji w celu wybrania i przywołania menu rozwijanego. Nagłówki kolumn są również interaktywne. Istnieje możliwość ukrycia i wyświetlenia kolumn, użycia kluczy tabulacji i klawiszy strzałek w celu poruszania się po nagłówkach kolumn oraz używania przycisków akcji na pasku narzędzi. Oprócz tego można używać następujących skrótów klawiaturowych:
 
-- **Odśwież** : Alt + Shift + F5
-- **Dodaj** : Alt + Shift + Insert
-- **Usuń** : Alt + Shift + Delete
-- **Przenieś w górę/dół** : Alt + Shift + strzałki w górę i w dół
-- **Wcięcie/wysunięcie** : ALT_SHIFT + strzałki w lewo i w prawo
-- **Rozwiń/Zwiń hierarchie** : Alt + Shift + klawisze plus/minus
+- **Odśwież**: Alt + Shift + F5
+- **Dodaj**: Alt + Shift + Insert
+- **Usuń**: Alt + Shift + Delete
+- **Przenieś w górę/dół**: Alt + Shift + strzałki w górę i w dół
+- **Wcięcie/wysunięcie**: ALT_SHIFT + strzałki w lewo i w prawo
+- **Rozwiń/Zwiń hierarchie**: Alt + Shift + klawisze plus/minus
 
 ## <a name="task-attributes"></a>Atrybuty zadania
 
@@ -98,19 +98,19 @@ Nazwa zadania opisuje czynności, które należy wykonać. W usłudze PSA atrybu
  
 ### <a name="schedule-attributes"></a>Zaplanuj atrybuty
 
-Atrybuty **nakład pracy** , **Data rozpoczęcia** , **Data zakończenia** i **czas trwania** określają harmonogram zadania.
+Atrybuty **nakład pracy**, **Data rozpoczęcia**, **Data zakończenia** i **czas trwania** określają harmonogram zadania.
 
 Dodatkowe atrybuty harmonogramu są następujące:
 
-- **Godziny pracy** : należy wprowadzić wartość szacunkową godzin wymaganych do wykonania zadania. 
-- **Czas trwania** : Określ liczbę dni pracy wymaganych do wykonania zadania.
-- **Identyfikator harmonogramu** : ten automatycznie generowany identyfikator jest używany do porządkowania zadań w hierarchii. Współzależności między zadaniami zarządzają rzeczywistą kolejnością pracy nad zadaniami.
+- **Godziny pracy**: należy wprowadzić wartość szacunkową godzin wymaganych do wykonania zadania. 
+- **Czas trwania**: Określ liczbę dni pracy wymaganych do wykonania zadania.
+- **Identyfikator harmonogramu**: ten automatycznie generowany identyfikator jest używany do porządkowania zadań w hierarchii. Współzależności między zadaniami zarządzają rzeczywistą kolejnością pracy nad zadaniami.
  
 ### <a name="staffing-attributes"></a>Atrybuty personelu
 
-Dostęp do atrybutów obsługi personelu jest możliwy za pośrednictwem pola **zasoby** w harmonogramie. Użytkownik może wyszukać istniejący zasób lub kliknąć pozycję **Utwórz** , a następnie w okienku **szybkie tworzenie** dodać członka zespołu projektu jako nowy zasób.
+Dostęp do atrybutów obsługi personelu jest możliwy za pośrednictwem pola **zasoby** w harmonogramie. Użytkownik może wyszukać istniejący zasób lub kliknąć pozycję **Utwórz**, a następnie w okienku **szybkie tworzenie** dodać członka zespołu projektu jako nowy zasób.
 
-Pola **rola** , **jednostka zasobów** i **nazwa stanowiska** są używane do opisywania wymagań dotyczących personelu dla zadania. Te atrybuty personelu wraz z harmonogramem zadań są używane do znajdowania dostępnych zasobów w celu wykonania tego zadania.
+Pola **rola**, **jednostka zasobów** i **nazwa stanowiska** są używane do opisywania wymagań dotyczących personelu dla zadania. Te atrybuty personelu wraz z harmonogramem zadań są używane do znajdowania dostępnych zasobów w celu wykonania tego zadania.
 
 **Role** — określa typ zasobu wymagany do wykonania zadania.
 

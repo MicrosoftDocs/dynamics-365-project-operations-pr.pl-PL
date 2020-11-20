@@ -3,17 +3,17 @@ title: Ustanowienie nowego środowiska
 description: W tym temacie zamieszczono informacje dotyczące tworzenia nowego środowiska w Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081899"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121186"
 ---
 # <a name="provision-a-new-environment"></a>Ustanowienie nowego środowiska
 
@@ -26,7 +26,7 @@ W tym temacie zamieszczono informacje dotyczące sposobu ustanawiania nowego śr
 Wykonaj poniższe kroki, aby włączyć zautomatyzowany przepływ ustanawiania Project Operations w ramach LCS.
 
 1. Przejdź do [LCS](https://lcs.dynamics.com/v2) i wybierz kafelek **Zarządzanie podglądem funkcji**.
-2. Na liście **Wersji zapoznawczej funkcji** wybierz **Funkcja Project Operations** i wybierz **Włącz wersje zapoznawcze funkcji** , aby włączyć Project Operations.
+2. Na liście **Wersji zapoznawczej funkcji** wybierz **Funkcja Project Operations** i wybierz **Włącz wersje zapoznawcze funkcji**, aby włączyć Project Operations.
 
 > [!NOTE]
 > Ten krok jest wykonywany tylko raz dla każdego projektu LCS.
@@ -40,7 +40,7 @@ Wykonaj poniższe kroki, aby włączyć zautomatyzowany przepływ ustanawiania P
 > Upewnij się, że wybrana wersja aplikacji to 10.0.13 lub wyższa.
 
 3. Aby zainicjować obsługę Project Operations, w obszarze **Ustawienia zaawansowane** wybierz opcję **Common Data Service**. 
-4. Aby włączyć to **Ustawienie Common Data Service** , należy wybrać opcję **Tak** i wprowadzić informacje w wymaganych polach:
+4. Aby włączyć to **Ustawienie Common Data Service**, należy wybrać opcję **Tak** i wprowadzić informacje w wymaganych polach:
 
   - Nazwa/nazwisko
   - Region
@@ -54,7 +54,7 @@ Wykonaj poniższe kroki, aby włączyć zautomatyzowany przepływ ustanawiania P
 ![Ustawienia wdrażania](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
-> Wybierz opcję **Zgoda** , aby wyrazić zgodę na potwierdzenie warunków świadczenia usługi, a następnie wybierz opcję **Gotowy** , aby powrócić do ustawień wdrażania.
+> Wybierz opcję **Zgoda**, aby wyrazić zgodę na potwierdzenie warunków świadczenia usługi, a następnie wybierz opcję **Gotowy**, aby powrócić do ustawień wdrażania.
 
 ![Zgoda na wdrożenia](./media/2DeploymentConsent.png)
 
@@ -84,7 +84,7 @@ W celu uzyskania tej wersji może być konieczne zastosowanie aktualizacji dotyc
 
 ![Zapisz pakiet](./media/6SavePackage.png)
 
-3. Wybierz pozycje **Wybierz wszystko** , a następnie wybierz **Zapisz pakiet**.
+3. Wybierz pozycje **Wybierz wszystko**, a następnie wybierz **Zapisz pakiet**.
 
 ![Przeglądanie i zapisywanie aktualizacji](./media/7ReviewAndSaveUpdates.png)
 
@@ -116,11 +116,11 @@ Obsługa środowiska zajmie trochę czasu. Po zakończeniu środowisko powróci 
 
 ![Link do systemu CDS](./media/12LinktoCDS.png)
 
-4. Wybierz opcję **Zastosuj rozwiązanie** , aby uzyskać dostęp do encji, które zostaną zamapowane na integrację.
+4. Wybierz opcję **Zastosuj rozwiązanie**, aby uzyskać dostęp do encji, które zostaną zamapowane na integrację.
 
 ![Zastosuj rozwiązania](./media/13ApplySolutions.png)
 
-5. Zaznacz oba rozwiązania, **Mapowanie encji z podwójnym zapisem Dynamics 365 Finance and Operations** i **Mapowanie encji z podwójnym zapisem Dynamics 365 Project Operations** , a następnie kliknij przycisk **Zastosuj**.
+5. Zaznacz oba rozwiązania, **Mapowanie encji z podwójnym zapisem Dynamics 365 Finance and Operations** i **Mapowanie encji z podwójnym zapisem Dynamics 365 Project Operations**, a następnie kliknij przycisk **Zastosuj**.
 
 ![Potwierdzanie rozwiązań](./media/14ConfirmSolutions.png)
 
@@ -185,4 +185,10 @@ Aby uruchomić mapowanie z wymaganiami wstępnymi, włącz przełącznik **Poka�
 
 ![Wszystkie mapowania uruchomione](./media/22AllMapsRunning.png)
 
-Środowisko Project Operations jest teraz obsługiwane i konfigurowane.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Stosowanie danych konfiguracyjnych w usłudze CDS do aplikacji Project Operations (opcjonalne)
+
+Jeśli dane demonstracyjne zostały zastosowane do środowiska Finance, zobacz [Konfigurowanie i stosowanie danych konfiguracyjnych w Common Data Service dla Project Operations](resource-apply-pro-setup-config-data.md) w celu zastosowania danych demonstracyjnych w środowisku CDS.
+
+
+Środowisko Project Operations jest teraz obsługiwane i konfigurowane. 

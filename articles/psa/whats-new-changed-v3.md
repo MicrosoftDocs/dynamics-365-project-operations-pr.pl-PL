@@ -2,7 +2,7 @@
 title: Nowości i zmiany w programie Project Service Automation w wersji 3
 description: Niniejszy temat zawiera informacje dotyczące nowości i zmian w programie Project Service Automation w wersji 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081974"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120016"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Nowości i zmiany w programie Project Service Automation w wersji 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -94,7 +94,7 @@ Szacunki zostały podzielone na dwie karty **Przypisania zasobów** i **oszacowa
 
 ![Karta przypisań zasobów pokazuje szacowane nakłady pracy i przypisania zasobów do zadań](media/resource-assignments-tab-02.png)
 
-Na karcie **oszacowania** przedstawiono wyceny i kwoty sprzedaży dla przydziałów zasobów. Kwoty są tylko do odczytu. Wycena i cena sprzedaży są obecnie określane na podstawie przypisań członków zespołu w harmonogramie. Oznacza to, że jeśli użytkownik ma zadanie bez przypisania, będzie ono widoczne w nieprzypisanym zasobniku. Oznacza to również, że bez **roli** , która jest domyślnym wymiarem kalkulacji cen, koszt i sprzedaż nie będą szacowane, jeśli użytkownik ma klienta lub kontrakt/ofertę skojarzoną z danym projektem. 
+Na karcie **oszacowania** przedstawiono wyceny i kwoty sprzedaży dla przydziałów zasobów. Kwoty są tylko do odczytu. Wycena i cena sprzedaży są obecnie określane na podstawie przypisań członków zespołu w harmonogramie. Oznacza to, że jeśli użytkownik ma zadanie bez przypisania, będzie ono widoczne w nieprzypisanym zasobniku. Oznacza to również, że bez **roli**, która jest domyślnym wymiarem kalkulacji cen, koszt i sprzedaż nie będą szacowane, jeśli użytkownik ma klienta lub kontrakt/ofertę skojarzoną z danym projektem. 
 
 ![Karta oszacowania pokazuje koszty i kwoty sprzedaży](media/estimates-tab-03.png)
   
@@ -105,14 +105,14 @@ Oszacowania wydatków są wprowadzane w siatce na karcie **oszacowań kosztów**
 ![Karta oszacowania wydatków z siatką oszacowań wydatków](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Zarządzanie zasobami
-W programie Project Service Automation w wersji 3, z nowym ujednoliconym interfejsem klienta i zmianami w relacjach między rezerwacjami a przypisaniami, w porównaniu z wersjami 1 i 2 znaczącym zmianom uległ proces obsadzania zespołu projektu zasobami ogólnymi lub rzeczywistymi. Natomiast pojęcia dotyczące zasobów, które można zarezerwować, zarówno **rzeczywistych** , jak i **ogólnych** , pozostają takie same, co w przypadku członków zespołu, wymagań, przypisań i rezerwacji.   
+W programie Project Service Automation w wersji 3, z nowym ujednoliconym interfejsem klienta i zmianami w relacjach między rezerwacjami a przypisaniami, w porównaniu z wersjami 1 i 2 znaczącym zmianom uległ proces obsadzania zespołu projektu zasobami ogólnymi lub rzeczywistymi. Natomiast pojęcia dotyczące zasobów, które można zarezerwować, zarówno **rzeczywistych**, jak i **ogólnych**, pozostają takie same, co w przypadku członków zespołu, wymagań, przypisań i rezerwacji.   
 
 ![Korzystanie z selektora zasobów](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Przypisywanie rzeczywistego zasobu, który można zarezerwować 
 W programie Project Service Automation w wersji 3 rezerwacje i przydziały zadań nie są tak ściśle powiązane jak w poprzednich wersjach programu Project Service Automation. Można użyć siatki zespołu do rezerwowania **rzeczywistego** członka zespołu, podobnie jak w przypadku środowiska na rynku.
 
-Korzystając z selektora zasobów w harmonogramie, można wybrać członka zespołu utworzonego w widoku zespołu, a następnie przypisać go do zadań. Można w dalszym ciągu przypisywać zadania do członków zespołu, nawet po ich zarezerwowaniu. Użyj karty **uzgodnienie** , aby uzgodnić członków zespołu z różnicami w rezerwacjach i przypisaniach.
+Korzystając z selektora zasobów w harmonogramie, można wybrać członka zespołu utworzonego w widoku zespołu, a następnie przypisać go do zadań. Można w dalszym ciągu przypisywać zadania do członków zespołu, nawet po ich zarezerwowaniu. Użyj karty **uzgodnienie**, aby uzgodnić członków zespołu z różnicami w rezerwacjach i przypisaniach.
 
 W selektorze zasobów będą pokazywani członkowie zespołu projektu. Można również użyć selektora zasobów w celu wyszukania i wyświetlenia innych zasobów, które nie są częścią zespołu projektu. Użytkownik może przypisywać je do zadania, włączając w skład zespołu projektu. Konieczne będzie ich zarezerwowanie przy użyciu **tablicy harmonogramu** lub karty **uzgadnianie**.
 
@@ -131,7 +131,7 @@ Proponowane zasoby dotyczące wymagań są teraz przechowywane na karcie, a nie 
 Jeśli wymagane jest realizowane przez wiele zasobów, zasób ogólny pozostaje w zespole i jest przypisany do zadania. Członkowie zespołu z nazwami, którzy są zarezerwowani, nie są przypisywani jako część stanowiska. Menedżer projektu może przypisywać pracę do rzeczywistych zasobów w zależności od potrzeb.  W widoku **uzgodnienia** jest podział rezerwacji między wiele zasobów do wielu przypisań zadań. Nie jest to wykonywane automatycznie, ponieważ w bardziej skomplikowanych scenariuszach, na przykład w przypadku, gdy użytkownik ma pakiet zadań składających się na wymaganie, należy przyjąć zamierzenia, w jaki sposób Menedżer projektu chce dokonywać przypisań. Ponieważ system nie jest w stanie zrozumieć zamierzeń, założenia mogą być inne niż zamierzone i może wystąpić nieprawidłowy lub nieprzewidywalny rezultat. Przewidywany wynik polega na tym, że zasób ogólny pozostaje przypisany do momentu celowego przypisania zasobów w widoku **uzgadniania**.
 
 ### <a name="reconciliation"></a>Uzgadnianie
-Karta **Uzgadnianie** , w której są pokazywane wszystkie rezerwacje i przypisania dla każdego członka zespołu projektu. W komórkach widać godziny, które reprezentują okresy od miesięcy aż po dni. W tym widoku menedżerowie projektów mogą uzgadniać rezerwacje członków zespołu oraz ich przypisania do zespołu projektu. Jest to pomocne, ponieważ rezerwacje i przypisania zadań nie są ściśle sprzężone, co pozwala na większą elastyczność podczas planowania projektu. 
+Karta **Uzgadnianie**, w której są pokazywane wszystkie rezerwacje i przypisania dla każdego członka zespołu projektu. W komórkach widać godziny, które reprezentują okresy od miesięcy aż po dni. W tym widoku menedżerowie projektów mogą uzgadniać rezerwacje członków zespołu oraz ich przypisania do zespołu projektu. Jest to pomocne, ponieważ rezerwacje i przypisania zadań nie są ściśle sprzężone, co pozwala na większą elastyczność podczas planowania projektu. 
 
 ![Karta Uzgadnianie, w której są pokazywane rezerwacje i przypisania dla każdego członka zespołu.](media/resource-reconciliation-tab-06.png)
 
@@ -158,7 +158,7 @@ Kliknij **Nowy** na wstążce, aby otworzyć stronę szybkiego tworzenia w celu 
 Pola wyszukiwania są obsługiwane w widokach systemowych. Na przykład po wprowadzeniu informacji o projekcie pole **zadanie projektu** będzie domyślnie ustawione na wartość **Moje otwarte zadania projektu**. Aby utworzyć wpisy czasu dla zadań, które nie są przypisane do użytkownika, kliknij **Zmień widok** w obszarze wyszukiwania i wybierz pozycję **wszystkie aktywne zadania projektu**. Po utworzeniu i wyświetleniu danego wpisu czasu w siatce można edytować wartości wierszy bezpośrednio w siatce.  
 
 ### <a name="bulk-createcopy"></a>Zbiorcze tworzenie/kopiowanie 
-Po utworzeniu kilku wpisów czasu można je kopiować i w ten sposób tworzyć dodatkowe wpisy czasu zbiorczo. Kliknij **Kopiuj** , aby otworzyć okno dialogowe **Kopiuj**. W polu **od okresu: Data rozpoczęcia** ustaw zakres dat, z którego okresy muszą zostać skopiowane. W polu **Do okresu: Data rozpoczęcia** określ datę utworzenia wpisów godzin. Kliknij przycisk **Kopiuj** , aby skopiować wpisy godzin do odpowiedniego dnia tygodnia wskazanego w polu **Do okresu**. Na przykład wpis czasu poniedziałek z ubiegłego tygodnia zostanie skopiowany na poniedziałek w tygodniu wskazanym w polu **do okresu**. 
+Po utworzeniu kilku wpisów czasu można je kopiować i w ten sposób tworzyć dodatkowe wpisy czasu zbiorczo. Kliknij **Kopiuj**, aby otworzyć okno dialogowe **Kopiuj**. W polu **od okresu: Data rozpoczęcia** ustaw zakres dat, z którego okresy muszą zostać skopiowane. W polu **Do okresu: Data rozpoczęcia** określ datę utworzenia wpisów godzin. Kliknij przycisk **Kopiuj**, aby skopiować wpisy godzin do odpowiedniego dnia tygodnia wskazanego w polu **Do okresu**. Na przykład wpis czasu poniedziałek z ubiegłego tygodnia zostanie skopiowany na poniedziałek w tygodniu wskazanym w polu **do okresu**. 
 
 ![Zbiorcze kopiowanie wpisów czasu](media/bulk-copy-time-entry-09.png)
  
@@ -192,11 +192,11 @@ Platforma Common Data Service nie obsługuje jednego użytkownika, który uosabi
 Dostosowanie umożliwia dodanie **Zasobu, który można rezerwować** w celu tworzenia i edytowania doświadczeń, co pozwala użytkownikowi pełnić rolę delegata, zmieniając pole **Rezerwacja zasobu** na innego użytkownika, dla którego wpisy czasu i wydatku muszą zostać zarejestrowane. Poniższe kroki obejmują delegację wpisu czasu. Te same informacje stosuje się do delegowania wpisów wydatków. 
  
 1.  Upewnij się, że delegowany użytkownik ma globalny dostęp do projektów i zadań projektu. 
-1.  Ponieważ **zasób z możliwością rezerwacji** , który jest polem w encji **Wpis czasu** nie jest widoczny na stronie **Szybkie tworzenie** , trzeba go dodać.
+1.  Ponieważ **zasób z możliwością rezerwacji**, który jest polem w encji **Wpis czasu** nie jest widoczny na stronie **Szybkie tworzenie**, trzeba go dodać.
 
     -lub-
 
-    Utwórz widok niestandardowy, który zawiera kolumnę **Zasób, który można zarezerwować** , by wyświetlić tylko wpisy czasu tworzone dla zasobu. Opublikuj dostosowania w programie App module Designer, które będą wyświetlane w obszarze **Selektor widoków** na stronie **Wpisy czasu**. Istnieją dwa dodatki plug-in, które obsługują konfigurowanie menedżera dla wpisów czasu spoza projektu:
+    Utwórz widok niestandardowy, który zawiera kolumnę **Zasób, który można zarezerwować**, by wyświetlić tylko wpisy czasu tworzone dla zasobu. Opublikuj dostosowania w programie App module Designer, które będą wyświetlane w obszarze **Selektor widoków** na stronie **Wpisy czasu**. Istnieją dwa dodatki plug-in, które obsługują konfigurowanie menedżera dla wpisów czasu spoza projektu:
 
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate
@@ -204,7 +204,7 @@ Dostosowanie umożliwia dodanie **Zasobu, który można rezerwować** w celu two
 1. Utwórz nowy dodatek plug-in, aby zastąpić pole **Menedżer** menedżerem przypisanego użytkownika w polu **zasobu, który można zarezerwować**. Użyj tego samego **etapu wykonania** co plug-in OOB (walidacja wstępna) i użyj **Kolejności wykonania** wyższej niż plug-iny OOB (większej niż 1). Pozwoli to zagwarantować, że dodatek plug-in jest wykonywany po zastosowaniu dodatków plug-in typu OOB.  
  
 ### <a name="end-user-experience"></a>Środowisko użytkownika
-1.  Po utworzeniu wpisu czasu na stronie szybkie tworzenie wprowadź szczegóły zadania projektu i projektu, a następnie wybierz użytkownika w polu **zasobu, który można zarezerwować** , dla którego mają zostać zarejestrowane wpisy czasu. 
+1.  Po utworzeniu wpisu czasu na stronie szybkie tworzenie wprowadź szczegóły zadania projektu i projektu, a następnie wybierz użytkownika w polu **zasobu, który można zarezerwować**, dla którego mają zostać zarejestrowane wpisy czasu. 
 2.  Domyślnie w tym polu jest domyślnie zalogowany użytkownik, ale biorąc pod uwagę, że użytkownik zastąpił to pole, wpis czasu jest teraz tworzony dla wybranego **zasobu możliwego do zarezerwowania**.
 3.  Po przesłaniu przez użytkownika czasu utworzonych dla tych rekordów wpisy zostaną umieszczone w kolejce dla osoby zatwierdzającej w projekcie w oczekiwany sposób. 
 4.  Po odwołaniu wpisów czasu utworzonych dla innego użytkownika wpisy czasu będą powracały do stanu **wersji roboczej** z polem **zasobu, który można zarezerwować** ustawionym dla innego użytkownika. 
@@ -229,7 +229,7 @@ W przypadku klientów korzystających z Project Service Automation, którzy chc�
 W wersji 3 Project Service Automation wprowadzono zmiany w aspektach konfiguracji i zarządzania ofertami i kontraktami. W poniższych sekcjach przedstawiono więcej szczegółowych informacji.
 
 ### <a name="set-up-chargeability-options"></a>Konfigurowanie opcji naliczania opłat
-W wersjach 1 i 2, konfiguracja odpłatności dla ról i kategorii w określonych ofertach i kontraktach była wykonywana przy użyciu widoku **Odpłatność** , który był umieszczony w górnej części funkcji nawigacji wiersza oferty lub pozycji kontraktu. W tym miejscu można było również skonfigurować ceny dla tych ról i kategorii wydatków.
+W wersjach 1 i 2, konfiguracja odpłatności dla ról i kategorii w określonych ofertach i kontraktach była wykonywana przy użyciu widoku **Odpłatność**, który był umieszczony w górnej części funkcji nawigacji wiersza oferty lub pozycji kontraktu. W tym miejscu można było również skonfigurować ceny dla tych ról i kategorii wydatków.
 
 Od wersji 3 konfiguracja opcji odpłatności według roli i kategorii kosztów będzie możliwa na poziomie oferty lub pozycji kontraktu. Ustawienia kalkulacji cen są zależne od konfiguracji odpłatności. Użytkownik będzie miał do dyspozycji **płatne role** i **płatne kategorie** jako karty **w wierszu oferty** i **w pozycji kontraktu** bez konieczności korzystania z nawigacji u góry.
 

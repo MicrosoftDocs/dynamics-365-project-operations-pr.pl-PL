@@ -3,7 +3,7 @@ title: Tworzenie cennika
 description: Tworzenie cennika w Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082048"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122041"
 ---
 # <a name="create-a-price-list-project-service"></a>Utwórz cennik (Project Service)
 
@@ -39,17 +39,17 @@ Cenniki opierają się na kategoriach wydatków i ról, więc przed utworzeniem 
   
 2.  Kliknij pozycję **Nowy**.  
   
-3.  W **Kontekst** , wybierz, czy jest to cennik dla **Koszty** , **Zakupy** , czy **Sprzedaż**.  
+3.  W **Kontekst**, wybierz, czy jest to cennik dla **Koszty**, **Zakupy**, czy **Sprzedaż**.  
   
-4.  W **Nazwa** , wprowadź nazwę cennika.  
+4.  W **Nazwa**, wprowadź nazwę cennika.  
   
-5.  W **Waluta** , wybierz walutę, której masz zamiar użyć podczas fakturowania lub wyceny.  
+5.  W **Waluta**, wybierz walutę, której masz zamiar użyć podczas fakturowania lub wyceny.  
   
-6.  W **Jednostka czasu** , podaj okres czasu, którego dotyczy cena, taki jak dzień lub godzina.  
+6.  W **Jednostka czasu**, podaj okres czasu, którego dotyczy cena, taki jak dzień lub godzina.  
   
-7.  W zależności od potrzeb wypełnij **Data rozpoczęcia** , **Data zakończenia** , i **Opis**.  
+7.  W zależności od potrzeb wypełnij **Data rozpoczęcia**, **Data zakończenia**, i **Opis**.  
   
-8.  Kliknij **Zapisz** , aby utworzyć rekord i móc kontynuować jego edycję.  
+8.  Kliknij **Zapisz**, aby utworzyć rekord i móc kontynuować jego edycję.  
   
 9. Aby dodać cenę roli do cennika, kliknij **+** w **Ceny ról**.  
   

@@ -2,7 +2,7 @@
 title: Zagadnienia dotyczące uaktualniania — Microsoft Dynamics 365 Project Service Automation z wersji 2.x lub 1.x do wersji 3
 description: W tym temat zamieszczono informacje na temat zagadnień, które należy wziąć pod uwagę podczas uaktualniania programu Project Service Automation w wersji 2.x lub 1.x do wersji 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082092"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121726"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Zagadnienia dotyczące uaktualniania — PSA z wersji 2.x lub 1.x do wersji 3.x
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -56,7 +56,7 @@ Po uaktualnieniu do wersji 3 zadania wierszy są zastępowane przydziałami zaso
 
 ![Przypisania zasobów](media/resource-assignment-v2-05.png)
 
-Ponieważ oszacowania są oparte na domyślnej roli zasobu, oszacowania dotyczące sprzedaży i kosztów mogą ulec zmianie. Należy zauważyć, że na poniższym rysunku nie jest już widoczna rola **dewelopera** , ponieważ jest ona obecnie pobierana z roli domyślnej zasobu możliwego do zarezerwowania.
+Ponieważ oszacowania są oparte na domyślnej roli zasobu, oszacowania dotyczące sprzedaży i kosztów mogą ulec zmianie. Należy zauważyć, że na poniższym rysunku nie jest już widoczna rola **dewelopera**, ponieważ jest ona obecnie pobierana z roli domyślnej zasobu możliwego do zarezerwowania.
 
 ![Szacowana wartość sprzedaży dla ról domyślnych](media/resource-assignment-cost-estimate-06.png)
 ![Szacowana wartość sprzedaży dla ról domyślnych](media/resource-assignment-sales-estimate-07.png)

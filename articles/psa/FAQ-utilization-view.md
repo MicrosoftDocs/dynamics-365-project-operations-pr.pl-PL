@@ -3,7 +3,7 @@ title: Wyświetlanie odpłatnego wykorzystania zasobów
 description: W tym temacie zamieszczono informacje dotyczące widoku wykorzystania zasobów.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082034"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122176"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Wyświetlanie odpłatnego wykorzystania zasobów
  
