@@ -3,7 +3,7 @@ title: Szacunki
 description: Ten temat zawiera informacje o szacunkach w programie Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082214"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132792"
 ---
 # <a name="estimates"></a>Szacunki
 
@@ -90,7 +90,7 @@ Jeśli w szczegółach wiersza oferty dodano pole niestandardowe, a chcesz, aby 
 
     ![Wybieranie kroku w dodatku plug-in](media/basic-guide-20.png)
 
-5. W oknie dialogowym **Aktualizowanie istniejącego kroku** w polu **Atrybuty filtrowania** kliknij przycisk wielokropka ( **...** ):
+5. W oknie dialogowym **Aktualizowanie istniejącego kroku** w polu **Atrybuty filtrowania** kliknij przycisk wielokropka (**...**):
  
     ![Okno dialogowe Aktualizowanie istniejącego kroku](media/basic-guide-21.png)
 
@@ -98,7 +98,7 @@ Jeśli w szczegółach wiersza oferty dodano pole niestandardowe, a chcesz, aby 
 
     ![Okno dialogowe Wybieranie atrybutów](media/basic-guide-22.png)
 
-7. Kliknij przycisk **OK** , aby zamknąć okno dialogowe, a następnie wybierz pozycję **Aktualizuj krok**.
+7. Kliknij przycisk **OK**, aby zamknąć okno dialogowe, a następnie wybierz pozycję **Aktualizuj krok**.
  
     ![Przycisk Aktualizuj krok](media/basic-guide-23.png)
 

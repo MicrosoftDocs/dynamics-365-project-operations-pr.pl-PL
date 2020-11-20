@@ -3,7 +3,7 @@ title: Jednostki organizacyjne
 description: Ten temat zawiera informacje o jednostkach organizacyjnych w programie Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082124"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130636"
 ---
 # <a name="organizational-units"></a>Jednostki organizacyjne 
 
@@ -50,7 +50,7 @@ Ponadto w encji zasobu znajduje się atrybut jednostki organizacyjnej. Każdy za
 
 Jednostka organizacyjna pełni dwie role w PSA:
 
-- **Jednostka zamawiająca** — jednostka organizacyjna reprezentująca grupę lub oddział firmy, która jest głównie odpowiedzialna za sprzedaż i zarządzanie dostawą pracy i usług do klienta. Jednostka zamawiająca jest identyfikowana za pomocą pola **Jednostka zamawiająca** w sekcji nagłówka na stronach **Szansa sprzedaży** , **Oferta** , **Umowa na projekt** i **Projekt**.
+- **Jednostka zamawiająca** — jednostka organizacyjna reprezentująca grupę lub oddział firmy, która jest głównie odpowiedzialna za sprzedaż i zarządzanie dostawą pracy i usług do klienta. Jednostka zamawiająca jest identyfikowana za pomocą pola **Jednostka zamawiająca** w sekcji nagłówka na stronach **Szansa sprzedaży**, **Oferta**, **Umowa na projekt** i **Projekt**.
 - **Jednostka zasobów** jednostka organizacyjna, do której należy zasób lub która jest przypisana do danego zasobu. Dana jednostka organizacyjna może dostarczać swoich zasobów rolom w instrukcjach akcji pracy (SOW) i projektach, których właścicielem jest jednostka zamawiająca.
 
 > ![Jednostki zamawiające i jednostki zasobów](media/advanced-1.png)

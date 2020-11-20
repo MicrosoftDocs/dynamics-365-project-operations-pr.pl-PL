@@ -3,7 +3,7 @@ title: Kalkulacja cen w katalogu produktów
 description: W tym temacie przedstawiono informacje na temat sposobu funkcjonowania aparatu kalkulacji cen w katalogu produktów w programie Dynamics 365 Project Service Automation (PSA).
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082043"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132301"
 ---
 # <a name="product-catalog-pricing"></a>Kalkulacja cen w katalogu produktów 
 
@@ -50,7 +50,7 @@ Podczas tworzenia nowego cennika niestandardowego dla oferty poprzez wybranie op
 
  
 ## <a name="default-product-price-list"></a>Domyślny cennik produktów
-Każdy rekord odbiorcy zawiera pole **Cennik domyślny** , w którym można określić cennik odpowiadający walucie klienta. W usłudze PSA wartość domyślna nie jest automatycznie wprowadzana w tym polu. Jeśli istnieje umowa z konkretnym odbiorcą określająca niestandardową kalkulację cen, można użyć tego pola w celu skojarzenia cennika z tym odbiorcą.
+Każdy rekord odbiorcy zawiera pole **Cennik domyślny**, w którym można określić cennik odpowiadający walucie klienta. W usłudze PSA wartość domyślna nie jest automatycznie wprowadzana w tym polu. Jeśli istnieje umowa z konkretnym odbiorcą określająca niestandardową kalkulację cen, można użyć tego pola w celu skojarzenia cennika z tym odbiorcą.
 
 Encje Szansa sprzedaży, Oferta i Kontrakt projektu używają następującej kolejności wprowadzania domyślnych cenników produktów. Ta sama kolejność jest stosowana w cennikach projektów.
 

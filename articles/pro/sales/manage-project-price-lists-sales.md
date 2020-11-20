@@ -1,21 +1,21 @@
 ---
-title: Zarządzanie cennikami projektu w ofertach projektu
+title: Zarządzanie cennikami projektu w ofertach projektu - wersja uproszczona
 description: Ta temat zawiera informacje na temat pracy z cennikami projektowymi w ofertach. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081935"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175994"
 ---
-# <a name="manage-project-price-lists-on-project-quotes-sales"></a>Zarządzanie cennikami projektu w ofertach projektu (sprzedaż)
+# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Zarządzanie cennikami projektu w ofertach projektu - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
@@ -30,7 +30,7 @@ W przypadku braku cenników projektu dla oferty zostanie wyświetlony komunikat 
 W celu utworzenia lub wybrania określonego cennika służącego do oszacowania pracy i kosztów na podstawie projektu należy wykonać następujące kroki.
 
 1. Z poziomu oferty wybierz kartę **Cena projektu** i w podsiatce wybierz pozycję **+ Dodaj nowy cennik projektu**.
-2. Na stronie szybkiego tworzenia wybierz Cennik. Lista rozwijana zawiera wszystkie cenniki, dla których ustawiono wartość **Sprzedaż** , a waluta jest zgodna z walutą z oferty.
+2. Na stronie szybkiego tworzenia wybierz Cennik. Lista rozwijana zawiera wszystkie cenniki, dla których ustawiono wartość **Sprzedaż**, a waluta jest zgodna z walutą z oferty.
 4. Wprowadź opis skojarzenia z cennikiem projektu i wybierz pozycję **Zapisz i zamknij**.
 
 Utworzenie skojarzenia cennika projektu.

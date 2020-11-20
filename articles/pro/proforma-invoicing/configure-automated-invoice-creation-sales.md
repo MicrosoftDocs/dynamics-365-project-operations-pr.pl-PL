@@ -1,22 +1,22 @@
 ---
-title: Konfigurowanie zautomatyzowanego tworzenia faktury proforma
+title: Konfigurowanie automatycznego tworzenia faktury - wersja uproszczona
 description: Ten temat zawiera informacje na temat konfigurowania automatycznego tworzenia faktur proforma.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e146dd510b3795d52d164fc6acf8e5400ba11310
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081921"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176579"
 ---
-# <a name="configure-automated-proforma-invoice-creation"></a>Konfigurowanie zautomatyzowanego tworzenia faktury proforma
-
+# <a name="configure-automatic-invoice-creation---lite"></a>Konfigurowanie automatycznego tworzenia faktury - wersja uproszczona
+ 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
 Można skonfigurować automatyczne tworzenie faktur w ramach Dynamics 365 Project Operations. System utworzy roboczą fakturę pro forma na podstawie harmonogramu fakturowania dla każdej umowy dotyczącej projektu i pozycji kontraktu. Harmonogramy faktur są konfigurowane na poziomie pozycji kontraktu. Każdy wiersz kontraktu może zawierać odrębny harmonogram fakturowania lub ten sam harmonogram fakturowania może być uwzględniany w każdym wierszu kontraktu.
@@ -48,21 +48,21 @@ Harmonogramy faktur zdefiniowane dla każdego z tych dwóch wierszy wyglądają 
 
 W tym przykładzie, gdy jest wykonywane automatyczne fakturowanie:
 
-- **4 października lub dowolna wcześniejsza data** : dla niniejszego kontraktu nie jest generowana żadna faktura, ponieważ **Harmonogram fakturowania** dla każdej z tych pozycji kontraktu nie zawiera wartości niedziela, 4 października jako datę przebiegu faktury.
-- **5 października, poniedziałek** : Jedna faktura jest generowana dla:
+- **4 października lub dowolna wcześniejsza data**: dla niniejszego kontraktu nie jest generowana żadna faktura, ponieważ **Harmonogram fakturowania** dla każdej z tych pozycji kontraktu nie zawiera wartości niedziela, 4 października jako datę przebiegu faktury.
+- **5 października, poniedziałek**: Jedna faktura jest generowana dla:
 
     - Prototypowej pracy obejmującej punkt kontrolny, jeśli jest on oznaczony jako **Gotowy do zafakturowania**.
     - Praca nad implementacją obejmująca wszystkie transakcje Czasu utworzone przed terminem końcowym w dniu 4 października, w niedzielę, które są oznaczone jako **Gotowe do zafakturowania**.
     - Poniesiony wydatek obejmujący wszystkie transakcje wydatków utworzone przed terminem końcowym w dniu 4 października, w niedzielę, które są oznaczone jako **Gotowe do zafakturowania**.
   
-- **6 października lub dowolna wcześniejsza data przed 19 października** : dla niniejszego kontraktu nie jest generowana żadna faktura, ponieważ **Harmonogram fakturowania** dla każdej z tych pozycji kontraktu nie zawiera wartości 6 października lub daty przed 19 października jako daty przebiegu faktury.
-- **19 października, poniedziałek** : Praca nad implementacją obejmująca wszystkie transakcje Czasu utworzone przed terminem końcowym w dniu 18 października, w niedzielę, które są oznaczone jako **Gotowe do zafakturowania**.
-- **2 listopada, poniedziałek** : Jedna faktura jest generowana dla:
+- **6 października lub dowolna wcześniejsza data przed 19 października**: dla niniejszego kontraktu nie jest generowana żadna faktura, ponieważ **Harmonogram fakturowania** dla każdej z tych pozycji kontraktu nie zawiera wartości 6 października lub daty przed 19 października jako daty przebiegu faktury.
+- **19 października, poniedziałek**: Praca nad implementacją obejmująca wszystkie transakcje Czasu utworzone przed terminem końcowym w dniu 18 października, w niedzielę, które są oznaczone jako **Gotowe do zafakturowania**.
+- **2 listopada, poniedziałek**: Jedna faktura jest generowana dla:
 
     - Praca nad implementacją obejmująca wszystkie transakcje Czasu utworzone przed terminem końcowym w dniu 1 listopada, w niedzielę, które są oznaczone jako **Gotowe do zafakturowania**.
     - Poniesiony wydatek obejmujący wszystkie transakcje wydatków utworzone przed terminem końcowym w dniu 1 listopada, w niedzielę, które są oznaczone jako **Gotowe do zafakturowania**.
 
-- **3 listopada, wtorek** : jedna faktura jest generowana na potrzeby zadania prototypowego zawierającego punkt kontrolny 12 000 USD, jeśli jest on oznaczony jako **Gotowy do zafakturowania**.
+- **3 listopada, wtorek**: jedna faktura jest generowana na potrzeby zadania prototypowego zawierającego punkt kontrolny 12 000 USD, jeśli jest on oznaczony jako **Gotowy do zafakturowania**.
 
 ## <a name="configure-automatic-invoicing"></a>Konfiguruj automatyczne fakturowanie
 
@@ -77,7 +77,7 @@ Wykonaj poniższe kroki, aby skonfigurować zautomatyzowany przebieg fakturowani
 - ProcessRunner
 - UpdateRoleUtilization
 
-5. Wybierz **ProcessRunCaller** , a następnie wybierz opcję **Dodaj**.
+5. Wybierz **ProcessRunCaller**, a następnie wybierz opcję **Dodaj**.
 6. W następnym oknie dialogowym wybierz **OK**. Po wykonaniu przepływu pracy **Uśpienie** następuje przepływ pracy **Proces**. 
 
 > [!NOTE]
@@ -85,7 +85,7 @@ Wykonaj poniższe kroki, aby skonfigurować zautomatyzowany przebieg fakturowani
 
 Przepływy pracy **ProcessRunCaller** i **ProcessRunner** tworzą faktury. **ProcessRunCaller** wywołuje **ProcessRunner**. **ProcessRunner** to przepływ pracy, który w rzeczywistości tworzy faktury. Przepływ pracy przechodzi między wszystkimi pozycjami kontraktu, dla których muszą zostać utworzone faktury i tworzy faktury dla tych pozycji. W celu określenia pozycji kontraktu, dla których mają zostać utworzone faktury, zadanie będzie znajdzie daty rozpoczęcia fakturowania w pozycjach kontraktu. Jeśli pozycje kontraktu należące do jednego kontraktu mają taką samą datę rozpoczęcia fakturowania, transakcje zostaną połączone na jedną fakturę zawierającą dwa wiersze faktury. W przypadku braku transakcji do utworzenia faktur dla zadania program pominie tworzenie faktury.
 
-Kiedy **ProcessRunner** zakończy działanie, wywołuje **ProcessRunCaller** , dostarcza godzinę zakończenia i następuje zamknięcie. **ProcessRunCaller** następnie uruchamia zegar, który trwa 24 godziny od określonego czasu końcowego. Po upływie tego czasu program **ProcessRunCaller** jest zamknięty.
+Kiedy **ProcessRunner** zakończy działanie, wywołuje **ProcessRunCaller**, dostarcza godzinę zakończenia i następuje zamknięcie. **ProcessRunCaller** następnie uruchamia zegar, który trwa 24 godziny od określonego czasu końcowego. Po upływie tego czasu program **ProcessRunCaller** jest zamknięty.
 
 Zadanie przetwarzania wsadowego umożliwiającego tworzenie faktur jest zadaniem powtarzanym. Jeśli ten proces wsadowy jest wykonywany wiele razy, system tworzy wiele wystąpień zadania i powoduje to wystąpienie błędów. Z tego powodu proces przetwarzania wsadowego powinien być uruchamiany i zrestartowany tylko raz, gdy zakończy się jego działanie.
 

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 871d323136cd982bd48ed9aa2b9c34017951d2d8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081904"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130726"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapowanie projektów i zadań do wiersza oferty opartej na projekcie
 
@@ -50,14 +50,14 @@ Na stronie **Projekt** można korzystać z optymalnego sposobu kojarzenia zadań
 7. Na wyświetlonej stronie dialogowej wybierz wiersz oferty, w którym są wyświetlane wiersze oferty oparte na projekcie w danej ofercie.
 8. W polu **Typ rozliczenia** wybierz, czy te zadania są płatne, czy niepłatne.
 9. Zaznacz pole wyboru, aby określić, czy skojarzenie powinno zawierać zadania podrzędne zaznaczonych zadań. Zaznaczenie pola spowoduje skojarzenie zadań podrzędnych zaznaczonych zadań z wierszem oferty.
-10. Wybierz **OK** , aby zamknąć okno dialogowe.
+10. Wybierz **OK**, aby zamknąć okno dialogowe.
 
 ### <a name="from-the-quote-line-page"></a>Ze strony wiersz oferty
 
 Zadania projektu można kojarzyć z wierszami oferty na karcie **Opłatne zadania** na stronie **Wiersz oferty**.
 
 >[!NOTE]
->Optymalne miejsce do kojarzenia zadań projektu z wierszami oferty znajduje się na karcie **Rozliczanie zadań** na stronie **Projekt**. Jeśli zadania zostaną skojarzone z kartą **Odpłatne zadania** na stronie **Wiersz oferty** , należy ręcznie skojarzyć poszczególne projekty.
+>Optymalne miejsce do kojarzenia zadań projektu z wierszami oferty znajduje się na karcie **Rozliczanie zadań** na stronie **Projekt**. Jeśli zadania zostaną skojarzone z kartą **Odpłatne zadania** na stronie **Wiersz oferty**, należy ręcznie skojarzyć poszczególne projekty.
 
 1. Na karcie **Ogólne** wiersza oferty opartej na projekcie sprawdź, czy w polu **Projekt** jest wybrany projekt.
 2. W polu **Uwzględnione zadania** wybierz opcję **Tylko zaznaczone zadania**.
@@ -78,7 +78,7 @@ Ta metoda pozwala w optymalny sposób anulować powiązania zadań z wierszami o
 4. Na wyświetlonej stronie dialogowej wybierz wiersz oferty.
 5. Zaznacz pole wyboru, aby określić, czy skojarzenie powinno być usunięte z zadań podrzędnych dla zaznaczonych zadań. Zaznaczenie pola spowoduje anulowanie skojarzenia zadań podrzędnych zaznaczonych zadań z wierszem oferty.
 6. Wybierz pozycję **OK**. Komunikat ostrzegawczy informuje, że jeśli to skojarzenie zostanie usunięte, wszystkie wartości rzeczywiste zarejestrowane wcześniej w tym zadaniu mogą też zostać cofnięte. 
-7. Wybierz przycisk **OK** , aby kontynuować, i usuń skojarzenie między zadaniem a wierszem oferty opartej na projekcie.
+7. Wybierz przycisk **OK**, aby kontynuować, i usuń skojarzenie między zadaniem a wierszem oferty opartej na projekcie.
 
 ### <a name="from-the-quote-line-page"></a>Ze strony wiersz oferty
 
@@ -86,7 +86,7 @@ Skojarzenia zadań projektu można także anulować odnośnie do wierszy oferty 
 
 1. Na karcie **Odpłatne zadania** wybierz pozycję **Usuń zadanie wiersza oferty**.
 2. Wybierz pozycję **OK**. Komunikat ostrzegawczy informuje, że jeśli to skojarzenie zostanie usunięte, wszystkie wartości rzeczywiste zarejestrowane wcześniej w tym zadaniu mogą też zostać cofnięte. 
-3. Wybierz przycisk **OK** , aby kontynuować, i usuń skojarzenie między zadaniem a wierszem oferty opartej na projekcie.
+3. Wybierz przycisk **OK**, aby kontynuować, i usuń skojarzenie między zadaniem a wierszem oferty opartej na projekcie.
 
 >[!NOTE]
 > Ta procedura nie powoduje usunięcia zadania z projektu. Usuwane jest tylko powiązanie zadania z wiersza oferty opartej na projekcie.

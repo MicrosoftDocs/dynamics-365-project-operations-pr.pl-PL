@@ -3,7 +3,7 @@ title: Planowanie czasu wolnego
 description: Planowanie czasu wolnego w Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12ec70eca468fc17a1a85cfedc67adfecd80b007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eed6103734773e90701853391584c55c1d1704e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082237"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132211"
 ---
 # <a name="schedule-time-off-project-service"></a>Zaplanuj czas wolny (Project Service)
 
@@ -35,13 +35,13 @@ Zaplanuj swój urlop lub zwolnienie w taki sam sposób, jak podczas wprowadzania
   
 1.  Przejdź do **Project Service > Wpisy czasu**. Pojawi się kalendarz.  
   
-2.  Aby zobaczyć harmonogram dla poprzedniego lub następnego tygodnia, kliknij **Poprzedni** lub **Następny** , . Kliknij **Dziś** , aby wrócić do bieżącego tygodnia.  
+2.  Aby zobaczyć harmonogram dla poprzedniego lub następnego tygodnia, kliknij **Poprzedni** lub **Następny**, . Kliknij **Dziś**, aby wrócić do bieżącego tygodnia.  
   
 3.  Aby wprowadzić czas, kliknij **Nowy** lub kliknij dwukrotnie w kalendarzu dzień, dla którego chcesz wprowadzić czas.  
   
 4.  Wypełnij pola w formularzu **Wpis czasu**.  
   
-5.  W **Typ** , wybierz **Urlop** lub **Nieobecność**.  
+5.  W **Typ**, wybierz **Urlop** lub **Nieobecność**.  
   
 6.  Kliknij przycisk **Zapisz**.  
   

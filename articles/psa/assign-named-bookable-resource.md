@@ -3,7 +3,7 @@ title: Rezerwowanie nazwanych zasobów możliwych do zarezerwowania dla zespołu
 description: Ten temat zawiera informacje na temat rezerwowania nazwanych zasobów dla zespołów projektów oraz o przypisywaniu ich do zadań.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082131"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130186"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Rezerwowanie nazwanych zasobów możliwych do zarezerwowania dla zespołu projektu i przypisywanie zadań 
 
@@ -44,7 +44,7 @@ Nazwany zasób można dodać do zespołu projektu, rezerwując go bezpośrednio 
 ![Dodawanie członka zespołu w formularzu szybkiego tworzenia](media/RM-how-to-2.png)
 
 
-Teraz zarezerwowany zasób można przypisywać do zadań w projekcie. Na stronie **Projekt** kliknij kartę **Harmonogram** , aby przypisać zadania nowemu zasobowi. Selektor zasobów, który zostanie uruchomiony z pola **Zasoby** w siatce zadań, będzie przedstawiał członków zespołu, których można wybrać.
+Teraz zarezerwowany zasób można przypisywać do zadań w projekcie. Na stronie **Projekt** kliknij kartę **Harmonogram**, aby przypisać zadania nowemu zasobowi. Selektor zasobów, który zostanie uruchomiony z pola **Zasoby** w siatce zadań, będzie przedstawiał członków zespołu, których można wybrać.
 
 ![Przypisywanie członka zespołu do zadania na karcie Harmonogram](media/RM-how-to-3.png)
 

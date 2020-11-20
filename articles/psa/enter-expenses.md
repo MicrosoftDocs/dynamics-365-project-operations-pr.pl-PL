@@ -3,7 +3,7 @@ title: Wprowadź koszty
 description: Wprowadzanie wydatków w Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 360e2c6b103f3d441fd89995751ba038036563c4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34510b38773031795d3877c2736275fe67dbdd7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082216"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132931"
 ---
 # <a name="enter-expenses-project-service"></a>Wprowadź wydatki (Project Service)
 
@@ -35,11 +35,11 @@ Wprowadzaj swoje wydatki co najmniej raz w tygodniu — lub z częstotliwością
   
 1. Przejdź do **Project Service > Wydatki**. Pojawi się kalendarz.  
   
-2. Aby zobaczyć harmonogram dla poprzedniego lub następnego tygodnia, kliknij **Poprzedni** lub **Następny** , . Kliknij **Dziś** , aby wrócić do bieżącego tygodnia.  
+2. Aby zobaczyć harmonogram dla poprzedniego lub następnego tygodnia, kliknij **Poprzedni** lub **Następny**, . Kliknij **Dziś**, aby wrócić do bieżącego tygodnia.  
   
 3. Aby wprowadzić wydatki, kliknij **Nowy** lub kliknij dwukrotnie w kalendarzu dzień, dla którego chcesz wprowadzić czas.  
   
-4. Wypełnij pola w formularzu **Nowy wydatek** , a następnie kliknij **Zapisz**.  
+4. Wypełnij pola w formularzu **Nowy wydatek**, a następnie kliknij **Zapisz**.  
   
 5. Kontynuuj wprowadzanie wydatków dla danego tygodnia. Gdy skończysz i wszystko wygląda poprawnie, kliknij **Prześlij**. Menedżer przejrzy i zatwierdzi Twoje wydatki.  
   
@@ -49,7 +49,7 @@ Wprowadzaj swoje wydatki co najmniej raz w tygodniu — lub z częstotliwością
   
    Jeśli używasz aplikacji mobilnej:  
   
-8. Z menu, przejdź do **Wydatki**.     Możesz przełączyć się na widok **Dzień** , **Tydzień** , lub **Miesiąc** , albo przejść do następnego lub poprzedniego okresu.  
+8. Z menu, przejdź do **Wydatki**.     Możesz przełączyć się na widok **Dzień**, **Tydzień**, lub **Miesiąc**, albo przejść do następnego lub poprzedniego okresu.  
   
 9. Naciśnij **…** i naciśnij **Nowy**.  
   

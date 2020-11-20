@@ -1,21 +1,21 @@
 ---
-title: Tworzenie ręcznej faktury proforma
+title: Tworzenie ręcznej faktury proforma - wersja uproszczona
 description: Ta temat zawiera informacje na temat tworzenia ręcznej faktury proforma w Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5e93206737507bf6698a9746815c790d3dfc904
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 87ef090454b2a7ab997e7c21d8d10badc31c8235
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4082241"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176399"
 ---
-# <a name="creating-a-manual-proforma-invoice"></a>Tworzenie ręcznej faktury proforma
+# <a name="create-a-manual-proforma-invoice---lite"></a>Tworzenie ręcznej faktury proforma - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
@@ -31,6 +31,6 @@ Wszystkie utworzone faktury projektu są dostępne na stronie **Faktura** w sekc
 
 ## <a name="project-contract-details-page"></a>Strona szczegółów Kontraktu projektu
 
-Fakturę proforma można również utworzyć z poziomu strony szczegółów **Kontraktu projektu** , co utworzy fakturę dla tego konkretnego kontraktu dotyczącego projektu. System weryfikuje, że wybrany kontrakt projektu ma zaległości typu **Gotowe do fakturowania** datowane przed dzisiejszą datą. Na bazie tychże kontraktów system tworzy faktury proforma w wersji roboczej na podstawie liczby klientów w każdej pozycji kontraktu.
+Fakturę proforma można również utworzyć z poziomu strony szczegółów **Kontraktu projektu**, co utworzy fakturę dla tego konkretnego kontraktu dotyczącego projektu. System weryfikuje, że wybrany kontrakt projektu ma zaległości typu **Gotowe do fakturowania** datowane przed dzisiejszą datą. Na bazie tychże kontraktów system tworzy faktury proforma w wersji roboczej na podstawie liczby klientów w każdej pozycji kontraktu.
 
-W przypadku utworzenia jednej faktury proforma zostanie otwarta strona **Faktura**. Jeśli dla danego kontraktu projektu utworzono wiele faktur, zostanie wyświetlona strona z listą **Faktur** , która wyświetli wszystkie utworzone faktury.
+W przypadku utworzenia jednej faktury proforma zostanie otwarta strona **Faktura**. Jeśli dla danego kontraktu projektu utworzono wiele faktur, zostanie wyświetlona strona z listą **Faktur**, która wyświetli wszystkie utworzone faktury.

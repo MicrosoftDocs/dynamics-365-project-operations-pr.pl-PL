@@ -3,7 +3,7 @@ title: Ustaw częstotliwość sporządzania faktur
 description: Ustawianie częstotliwości sporządzania faktur w Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18fb4e6968612adb1c946650c829174286c5f3cd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2739db966b332db35e383589e06e023ff156ed45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082228"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132056"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>Ustaw częstotliwość sporządzania faktur (Project Service)
 
@@ -37,13 +37,13 @@ Częstotliwość sporządzania faktur [!INCLUDE[pn_project_service_auto](../incl
   
 3.  W obszarze **Ogólne** wprowadź nazwę dla częstotliwości faktur w **Nazwa**.  
   
-4.  W **Okres** , wybierz **Co miesiąc** , **Co dwa tygodnie** , lub **Co tydzień**.  
+4.  W **Okres**, wybierz **Co miesiąc**, **Co dwa tygodnie**, lub **Co tydzień**.  
   
-5.  Jeśli określisz okres jako co miesiąc lub co dwa tygodnie, w **Dni przebiegu** , wybierz **Dzień okresu** , aby sporządzać fakturę w wyznaczonym dniu okresu (dzień tygodnia lub weekend), lub wybierz **Dzień tygodnia okresu** , aby sporządzać fakturę w określonym dniu tygodnia okresu.  
+5.  Jeśli określisz okres jako co miesiąc lub co dwa tygodnie, w **Dni przebiegu**, wybierz **Dzień okresu**, aby sporządzać fakturę w wyznaczonym dniu okresu (dzień tygodnia lub weekend), lub wybierz **Dzień tygodnia okresu**, aby sporządzać fakturę w określonym dniu tygodnia okresu.  
   
-6.  Jeśli określisz okres jako co miesiąc, w **Przebiegi na miesiąc** , wybierz ile razy w miesiącu ma być sporządzana faktura.  
+6.  Jeśli określisz okres jako co miesiąc, w **Przebiegi na miesiąc**, wybierz ile razy w miesiącu ma być sporządzana faktura.  
   
-7.  W obszarze **Szczegóły częstotliwości faktur** , zmień w zależności od potrzeb szczegóły dotyczące dnia lub dnia w tygodniu, aby upewnić się, że faktura będzie sporządzana we właściwy dzień lub dzień w tygodniu określonego okresu czasu.  
+7.  W obszarze **Szczegóły częstotliwości faktur**, zmień w zależności od potrzeb szczegóły dotyczące dnia lub dnia w tygodniu, aby upewnić się, że faktura będzie sporządzana we właściwy dzień lub dzień w tygodniu określonego okresu czasu.  
   
 8.  Po skończeniu kliknij **Zapisz** w prawym dolnym rogu ekranu.  
   

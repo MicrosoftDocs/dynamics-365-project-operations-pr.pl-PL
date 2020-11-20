@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 19128264ed3db7efeeba948155f0ddbdc806c2a0
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081864"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131086"
 ---
 # <a name="book-to-a-project"></a>Rezerwacja do projektu
 
@@ -47,7 +47,7 @@ Jeśli organizacja działa w trybie hybrydowego przydziału zasobów, menedżer 
 Gdy menedżer zasobów musi zarezerwować zasób bezpośrednio do projektu, może użyć tablicy harmonogramu i wymagania projektu. Wymaganie projektu to zapotrzebowanie na zasoby, które jest zawsze dostępne do rezerwacji w programie. Wykonaj poniższe kroki, aby zarezerwować zasób z tablicy harmonogramu do projektu.
 
 1. Przejdź do tablicy harmonogramu i na lewej stronie odfiltruj zasoby uwzględniane w zależności od wymagania.
-2. W dolnym okienku wybierz kartę **Projekt** , aby wyświetlić listę zapotrzebowań na projekt.
+2. W dolnym okienku wybierz kartę **Projekt**, aby wyświetlić listę zapotrzebowań na projekt.
 3. Przeciągnij zapotrzebowanie na dany zasób i określ następujące informacje:
 
     - Data rozpoczęcia
@@ -60,7 +60,7 @@ Gdy menedżer zasobów musi zarezerwować zasób bezpośrednio do projektu, moż
 
 Jako menedżer projektu być może będziesz musiał zarezerwować zasób do projektu, ale znać będziesz tylko kryteria a nie nazwę zasobu. Wykonaj poniższe kroki, aby za pomocą asystenta planowania znaleźć zasób na podstawie różnych dostępnych atrybutów zasobu. 
 
-1. Przejdź do projektu i wybierz pozycję **Rezerwuj** , aby otworzyć Asystenta planowania.
+1. Przejdź do projektu i wybierz pozycję **Rezerwuj**, aby otworzyć Asystenta planowania.
 2. Korzystając z filtrów po lewej stronie Asystenta planowania, zawęź kryteria i wybierz opcję **Wyszukaj.**
 3. W ramach zasobów zwracanych w wyniku można przeprowadzić rezerwację.
 

@@ -1,21 +1,21 @@
 ---
-title: Konfigurowanie odpłatnych składników pozycji kontraktu opartego na projekcie
+title: Konfigurowanie odpłatnych składników pozycji kontraktu opartego na projekcie - wersja uproszczona
 description: W tym temacie zamieszczono informacje dotyczące sposobu dodawania odpłatnych składników do pozycji kontraktu w Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d665a6351d2315d185e64e4eb6b0b8859f7bbc4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081919"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177164"
 ---
-# <a name="configuring-chargeable-components-of-a-project-based-contract-line"></a>Konfigurowanie odpłatnych składników pozycji kontraktu opartego na projekcie
+# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Konfigurowanie odpłatnych składników pozycji kontraktu opartego na projekcie - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
@@ -34,19 +34,19 @@ Podzbiór dołączonych składników można oznaczyć jako odpłatny przy użyci
 
 Składniki odpłatne mogą być definiowane w zadaniach, rolach i kategoriach transakcji.
 
-Opłata jest definiowana w zadaniach dla pozycji kontraktu projektu i stosowana do wszystkich klas transakcji zawartych w wierszu. Jeśli pole **Dołącz zadania** w wierszu kontraktu jest puste lub ustawione na wartość * *Cały projekt* *, karta **Zadania odpłatne** nie będzie dostępna.
+Opłata jest definiowana w zadaniach dla pozycji kontraktu projektu i stosowana do wszystkich klas transakcji zawartych w wierszu. Jeśli pole **Dołącz zadania** w wierszu kontraktu jest puste lub ustawione na wartość **Cały projekt**, karta **Zadania odpłatne** nie będzie dostępna.
 
-Opłata zdefiniowana w rolach pozycji kontraktu projektu ma zastosowanie tylko do klasy transakcji **Czas**. Jeśli pole **Dołącz czas** w wierszu kontraktu jest puste lub ustawione na wartość **Nie** , karta **Role odpłatne** nie będzie dostępna.
+Opłata zdefiniowana w rolach pozycji kontraktu projektu ma zastosowanie tylko do klasy transakcji **Czas**. Jeśli pole **Dołącz czas** w wierszu kontraktu jest puste lub ustawione na wartość **Nie**, karta **Role odpłatne** nie będzie dostępna.
 
-Opłata zdefiniowana w kategoriach transakcji pozycji kontraktu projektu ma zastosowanie tylko do klasy transakcji **Wydatek**. Jeśli pole **Wydatek** w wierszu kontraktu jest puste lub ustawione na wartość **Nie** , karta **Kategorie odpłatne** nie będzie dostępna.
+Opłata zdefiniowana w kategoriach transakcji pozycji kontraktu projektu ma zastosowanie tylko do klasy transakcji **Wydatek**. Jeśli pole **Wydatek** w wierszu kontraktu jest puste lub ustawione na wartość **Nie**, karta **Kategorie odpłatne** nie będzie dostępna.
 
 ### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a>Aktualizowanie zadania projektu jako odpłatnego lub niepłatnego
 
 Zadanie projektu może być odpłatne lub niepłatne w ramach określonej pozycji kontraktu, co powoduje, że dostępne są następujące ustawienia:
 
-Jeśli pozycja kontraktu oparta na projekcie zawiera **Czas** i określone zadanie, **T1** jest z nim skojarzone jako odpłatne. Jeśli istnieje drugi wiersz kontraktu zawierający **Wydatki** , można skojarzyć zadanie T1 w pozycji kontraktu z jako nieodpłatne. W efekcie cały czas zanotowany dla zadania jest odpłatny, a wydatki nie.
+Jeśli pozycja kontraktu oparta na projekcie zawiera **Czas** i określone zadanie, **T1** jest z nim skojarzone jako odpłatne. Jeśli istnieje drugi wiersz kontraktu zawierający **Wydatki**, można skojarzyć zadanie T1 w pozycji kontraktu z jako nieodpłatne. W efekcie cały czas zanotowany dla zadania jest odpłatny, a wydatki nie.
 
-Typ fakturowania zadania można skonfigurować na karcie **Zadania płatne** w pozycji kontraktu, poprzez zaktualizowanie pola **Typ fakturowania** w podsiatce zadania związanego z pozycjami kontraktu. Można również zaktualizować pole **Typ fakturowania** w podsiatce ustawienia fakturowania zadań projektu, która zawiera pozycje kontraktu przypisane do zadania.
+Typ fakturowania zadania można skonfigurować na karcie **Odpłatne zadania** w pozycji kontraktu przez zaktualizowanie pola **Typ fakturowania** w podsiatce zadania związane z pozycjami kontraktu. Można również zaktualizować pole **Typ fakturowania** w podsiatce ustawień fakturowania zadań projektu, który zawiera pozycje kontraktu skojarzone z zadaniem.
 
 ### <a name="update-a-role-as-chargeable-or-non-chargeable"></a>Aktualizowanie ról projektu jako odpłatnego lub niepłatnego
 

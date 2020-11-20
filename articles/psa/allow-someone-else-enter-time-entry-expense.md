@@ -3,7 +3,7 @@ title: Zezwalaj innej osobie na wprowadzanie godzin lub wydatków
 description: Pozwalanie, aby ktoś inny wprowadzał czas usługi lub wydatki w Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081985"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130394"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Pozwól, aby ktoś inny wprowadzał czas usługi lub wydatki (Project Service)
 
@@ -37,13 +37,13 @@ Wyznacz użytkownika delegowanego, aby pozwolić komuś innemu wprowadzać wpisy
   
 2.  Na pasku poleceń kliknij **Nowy**.  
   
-3. **Nazwa** : Wprowadź nazwę rekordu.  
+3. **Nazwa**: Wprowadź nazwę rekordu.  
   
-4. **Typ** : Wybierz, czy użytkownik delegowany może wprowadzać wpisy dotyczące czasu i kosztów w Twoim imieniu.  
+4. **Typ**: Wybierz, czy użytkownik delegowany może wprowadzać wpisy dotyczące czasu i kosztów w Twoim imieniu.  
   
-5. **Delegowanie** : Wybierz nazwę osoby, której ma zostać użytkownikiem delegowanym.  
+5. **Delegowanie**: Wybierz nazwę osoby, której ma zostać użytkownikiem delegowanym.  
   
-6. **Daty rozpoczęcia i zakończenia** : Wybierz daty rozpoczęcia i zakończenia delegacji.  
+6. **Daty rozpoczęcia i zakończenia**: Wybierz daty rozpoczęcia i zakończenia delegacji.  
   
 7.  Kiedy skończysz, kliknij **Zapisz i zamknij**.  
   
@@ -65,11 +65,11 @@ Wyznacz użytkownika delegowanego, aby pozwolić komuś innemu wprowadzać wpisy
   
 3.  Kliknij przycisk **OK**.  
   
-4.  Pojawi się kalendarz. Aby zobaczyć kalendarz dla poprzedniego lub następnego tygodnia, kliknij **Poprzedni** lub **Następny** , . Kliknij **Dziś** , aby wrócić do bieżącego tygodnia.  
+4.  Pojawi się kalendarz. Aby zobaczyć kalendarz dla poprzedniego lub następnego tygodnia, kliknij **Poprzedni** lub **Następny**, . Kliknij **Dziś**, aby wrócić do bieżącego tygodnia.  
   
 5.  Aby wprowadzić czas, kliknij **Nowy** lub kliknij dwukrotnie w kalendarzu dzień, dla którego chcesz wprowadzić czas.  
   
-6.  Wypełnij pola w formularzu **Wpis czasu** , i kliknij **Zapisz**.  
+6.  Wypełnij pola w formularzu **Wpis czasu**, i kliknij **Zapisz**.  
   
 7.  Kontynuuj wprowadzanie czasu dla danego tygodnia. Gdy skończysz i wszystko wygląda poprawnie, kliknij **Prześlij**.  
   
@@ -81,7 +81,7 @@ Wyznacz użytkownika delegowanego, aby pozwolić komuś innemu wprowadzać wpisy
   
 3.  Kliknij przycisk **OK**.  
   
-4.  Aby zobaczyć kalendarz dla poprzedniego lub następnego tygodnia, kliknij **Poprzedni** lub **Następny** , . Kliknij **Dziś** , aby wrócić do bieżącego tygodnia.  
+4.  Aby zobaczyć kalendarz dla poprzedniego lub następnego tygodnia, kliknij **Poprzedni** lub **Następny**, . Kliknij **Dziś**, aby wrócić do bieżącego tygodnia.  
   
 5.  Aby wprowadzić koszty, kliknij **Nowe**  
   

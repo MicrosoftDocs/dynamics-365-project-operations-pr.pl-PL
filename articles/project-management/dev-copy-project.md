@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: cb49109e8c199bc4569702ae844a19985534294d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0100c29873be6346614e958ef6ea0c77da2c9590
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081952"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131626"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Projektowanie szablonów projektów przy użyciu narzędzia kopiowania projektów
 
@@ -39,10 +39,10 @@ Istnieją 3 parametry wejściowe:
 | Język docelowy             | Odwołanie do encji | Projekt docelowy |
 
 
-- **{"clearTeamsAndAssignments":true}** : domyślne zachowanie projektu sieciowego, usunie wszystkie przypisania i członków zespołu.
+- **{"clearTeamsAndAssignments":true}**: domyślne zachowanie projektu sieciowego, usunie wszystkie przypisania i członków zespołu.
 - **{"removeNamedResources":true}** domyślne zachowanie Project Operations powoduje przywrócenie przydziałów do zasobów ogólnych.
 
 Aby uzyskać więcej informacji na temat Akcji, zobacz [Korzystanie z akcji Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>Określ pola do skopiowania 
-Po wywołaniu akcji **Kopiowanie projektu** zostanie wyświetlony widok projektu **Kopiuj kolumny projektu** , Aby określić, które pola zostaną skopiowane podczas kopiowania projektu.
+Po wywołaniu akcji **Kopiowanie projektu** zostanie wyświetlony widok projektu **Kopiuj kolumny projektu**, Aby określić, które pola zostaną skopiowane podczas kopiowania projektu.

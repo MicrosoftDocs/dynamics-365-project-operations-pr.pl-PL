@@ -3,7 +3,7 @@ title: Tworzenie szansy sprzedaży projektu
 description: Tworzenie szansy sprzedaży projektu w Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d822f37b5bb13f9f55355e65be591e7861a64a1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082204"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133246"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Utwórz szansę sprzedaży projektu (Project Service)
 
@@ -35,7 +35,7 @@ Szansy sprzedaży to zainteresowanie ze strony klientów, którzy są zaintereso
   
 2.  Kliknij pozycję **Nowy**.  
   
-3.  W obszarze **Podsumowanie** , wprowadź nazwę firmy oraz inne informacje dotyczące szansy sprzedaży.  
+3.  W obszarze **Podsumowanie**, wprowadź nazwę firmy oraz inne informacje dotyczące szansy sprzedaży.  
   
 4.  Dodaj wszelkie notatki i działania (na przykład rozmowy telefoniczne lub wiadomości e-mail) związane z tym potencjalnym klientem. Aby dowiedzieć się więcej na temat dodawania uwag i działań, zobacz [Śledzenie notatek, zadań, połączeń lub wiadomości e-mail wraz z działaniami](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
@@ -45,7 +45,7 @@ Szansy sprzedaży to zainteresowanie ze strony klientów, którzy są zaintereso
   
 7.  Aby dodać konkurentów, w obszarze **Konkurenci** kliknij **+**.  
   
-8.  Aby dodać produkt do szansy sprzedaży, kliknij **Nowy** w **Wiersze oparte na produktach** w obszarze **Wiersze szansy sprzedaży**. Wybierz element w **Nazwa produktu** , a następnie określ ilość, cenę sprzedaży i budżet klienta.  
+8.  Aby dodać produkt do szansy sprzedaży, kliknij **Nowy** w **Wiersze oparte na produktach** w obszarze **Wiersze szansy sprzedaży**. Wybierz element w **Nazwa produktu**, a następnie określ ilość, cenę sprzedaży i budżet klienta.  
   
 9. Aby dodać oszacowanie projektu do szansy sprzedaży, kliknij **+** w **Wiersze oparte na projekcie** w obszarze **Wiersze szansy sprzedaży**. Wprowadź nazwę, kwotę budżetu i projekt, jeśli są dostępne. Jeśli musisz utworzyć projekt ze strukturą podziału pracy, aby przygotować oszacowanie, zobacz [Utwórz projekt](../psa/create-project.md).  
   

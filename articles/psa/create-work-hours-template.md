@@ -3,7 +3,7 @@ title: Utwórz szablon godzin pracy
 description: Tworzenie szablonu godzin pracy w Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c34634817fc8e4c993261024a8b19d45052bf5e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a0fce327587940e557e0214c8c0897116ac91901
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082022"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133066"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Twórz szablon godzin pracy (Project Service)
 
@@ -45,7 +45,7 @@ Zanim będziesz mógł utworzyć harmonogramy projektów musisz skonfigurować k
   
 2.  Wybierz zasób, dla którego chcesz wyznaczyć godziny pracy.  
   
-3.  Kliknij **Zapisz kalendarz jako** , wprowadź nazwę szablonu godzin pracy, a następnie kliknij **Zapisz**.  
+3.  Kliknij **Zapisz kalendarz jako**, wprowadź nazwę szablonu godzin pracy, a następnie kliknij **Zapisz**.  
   
 4.  Po zakończeniu edycji opcji kliknij **Zapisz i zamknij**.  
   

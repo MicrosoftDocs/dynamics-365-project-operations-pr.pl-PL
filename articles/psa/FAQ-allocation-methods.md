@@ -3,7 +3,7 @@ title: Metody alokacji zarezerwowania w Project Service Automation
 description: Ten temat zawiera informacje na temat różnych sposobów rezerwowania alokacji.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,16 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 295da428ce15e7775450dfa94e96047f200bdede
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082006"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131382"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Metody alokacji zarezerwowania w Project Service Automation
 
-Niezależnie, czy dodajesz członka zespołu bezpośrednio do projektu na karcie **Zespół** , czy rezerwujesz zasób dla projektu lub wymaganie z tablicy harmonogramu, istnieje kilka metod rezerwacji przydziału, które mogą zostać użyte. W tym temacie wyjaśniono, jak działa każda z tych metod, i które z tych metod mogą spowodować nałożenie się rezerwacji zasobów.
+Niezależnie, czy dodajesz członka zespołu bezpośrednio do projektu na karcie **Zespół**, czy rezerwujesz zasób dla projektu lub wymaganie z tablicy harmonogramu, istnieje kilka metod rezerwacji przydziału, które mogą zostać użyte. W tym temacie wyjaśniono, jak działa każda z tych metod, i które z tych metod mogą spowodować nałożenie się rezerwacji zasobów.
 
 ## <a name="full-capacity"></a>Pełna dyspozycyjność 
 Metoda Pełna dyspozycyjność rezerwuje pełną dyspozycyjność zasobu dla określonych dat Od/Do. Na przykład jeśli zasób ma kalendarz skonfigurowany dla pracy osiem godzin dziennie, pięć dni w tygodniu, ustawienie dat rozpoczęcia i zakończenia, które obejmują pięć dni roboczych, zarezerwuje zasób na 40 godzin. Rezerwacja odbywa się bez wzięcia pod uwagę pozostałej dyspozycyjności zasobu. Jeśli zasób jest już zarezerwowany w tym samym okresie dla innych projektów, 40 godzin zostanie zarezerwowane jako dodatkowe godziny, potencjalnie prowadząc do nakładania się rezerwacji.
@@ -59,7 +59,7 @@ Metoda Najwięcej na początku bierze pod uwagę istniejące rezerwacje i dostę
 Ponieważ dostępna dyspozycyjność jest brana pod uwagę, możesz otrzymać komunikat o błędzie, jeśli zasób nie ma już dyspozycyjności, która może zostać pobrana przez rezerwację. W przypadku tej metody nie można doprowadzić do nakładania się rezerwacji.
 
 ## <a name="none"></a>Brak
-Metoda Brak jest dostępna tylko w przypadku, gdy rezerwację przeprowadzasz z karty **Zespół** w ramach projektu. Ta metoda dodaje zasób jako członka zespołu projektu, ale nie tworzy żadnych rezerwacji, które absorbują dyspozycyjność zasobu. Ta metoda jest używana gdy domyślny członek zespołu Menedżer projektu jest dodawany podczas tworzenia projektu. Użytkownik Menedżer projektu, który utworzył projekt jest domyślnie dodawany do projektu, tak aby rekordu encji projektu miał właściciela i istnieje jedna osoba zatwierdzająca projekt. Ponieważ ten użytkownik nie ma żadnych rezerwacji, jeśli chcesz zarezerwować zasób, możesz albo usunąć i ponownie je dodać przy użyciu innej metody alokacji, albo dodać zasób do zadań, a następnie użyć **Rozszerz rezerwacje** na karcie **Uzgadnianie** , aby utworzyć rezerwacje dla przypisań.
+Metoda Brak jest dostępna tylko w przypadku, gdy rezerwację przeprowadzasz z karty **Zespół** w ramach projektu. Ta metoda dodaje zasób jako członka zespołu projektu, ale nie tworzy żadnych rezerwacji, które absorbują dyspozycyjność zasobu. Ta metoda jest używana gdy domyślny członek zespołu Menedżer projektu jest dodawany podczas tworzenia projektu. Użytkownik Menedżer projektu, który utworzył projekt jest domyślnie dodawany do projektu, tak aby rekordu encji projektu miał właściciela i istnieje jedna osoba zatwierdzająca projekt. Ponieważ ten użytkownik nie ma żadnych rezerwacji, jeśli chcesz zarezerwować zasób, możesz albo usunąć i ponownie je dodać przy użyciu innej metody alokacji, albo dodać zasób do zadań, a następnie użyć **Rozszerz rezerwacje** na karcie **Uzgadnianie**, aby utworzyć rezerwacje dla przypisań.
 
 ## <a name="allocation-methods-that-lead-to-overbooking"></a>Metody alokacji prowadzące do nakładania się rezerwacji
 Podsumowując, poniższe metody alokacji prowadzą do nakładania się rezerwacji, jeśli zasób zajmuje się już innymi projektami (lub innymi zleceniami pracy lub encjami, które można objąć harmonogramem):

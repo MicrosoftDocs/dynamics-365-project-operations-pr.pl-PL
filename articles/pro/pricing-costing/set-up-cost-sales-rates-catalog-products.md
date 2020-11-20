@@ -1,21 +1,21 @@
 ---
-title: Konfigurowanie kosztów i stawek sprzedaży dla katalogu produktów
+title: Konfigurowanie kosztów i stawek sprzedaży dla katalogu produktów — wersja uproszczona
 description: Ten temat zawiera informacje na temat konfigurowania kosztów i stawek sprzedaży dla towarów w katalogu produktów.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5178a9143536bf4b2573403125325017861cdd5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 135b182af73bdab7a3520589431332ad059ec497
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082079"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176714"
 ---
-# <a name="set-up-cost-and-sales-rates-for-catalog-products"></a>Konfigurowanie kosztów i stawek sprzedaży dla katalogu produktów
+# <a name="set-up-cost-and-sales-rates-for-catalog-products---lite"></a>Konfigurowanie kosztów i stawek sprzedaży dla katalogu produktów — wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 

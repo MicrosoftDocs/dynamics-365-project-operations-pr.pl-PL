@@ -3,7 +3,7 @@ title: Przewodnik po podstawach sporządzania ofert, kalkulacji cen i fakturowan
 description: Ten temat zawiera łącza do informacji o podstawowych funkcjach sporządzania ofert, kalkulacji cen i rozliczania w programie Project Service Automation.
 author: kfend
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 986b073e7ee13b88f8516f92220b1e313a083bc0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eb90c1ac2880dc07414276618a8259d17932b4a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082115"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132571"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Przewodnik po podstawach sporządzania ofert, kalkulacji cen i fakturowania
 

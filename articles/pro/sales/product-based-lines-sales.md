@@ -1,21 +1,21 @@
 ---
-title: Wiersze szansy sprzedaży oparte na produkcie
+title: Wiesze szansy sprzedaży oparte na produkcie - wersja uproszczona
 description: W tym temat zamieszczono informacje dotyczące wierszy szansy sprzedaży opartych na produkcie w Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fd32bedb94cf36f706c112a845f342d9dde19805
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081938"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176352"
 ---
-# <a name="product-based-opportunity-lines"></a>Wiersze szansy sprzedaży oparte na produkcie
+# <a name="product-based-opportunity-lines---lite"></a>Wiesze szansy sprzedaży oparte na produkcie - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
@@ -25,4 +25,4 @@ Wiersze oparte na produkcie mogą mieć pozycje katalogowe i produkty dopisane. 
 
 Jedną z koncepcji dotyczących szans sprzedaży opartych na produkcie, które są specyficzne dla szans sprzedaży opartych na projektach, jest **budżet klienta**. To pole służy do śledzenia kwoty, która może być zapłacona za dany wiersz przez klienta.
 
-Jeśli dla metody przychodu z podsumowania szansy sprzedaży ustawiono wartość **Obliczone przez system** , wartości budżetu klienta pomiędzy wierszami opartymi na projekcie i produkcie są sumowane w celu obliczenia szacowanego przychodu.
+Jeśli dla metody przychodu z podsumowania szansy sprzedaży ustawiono wartość **Obliczone przez system**, wartości budżetu klienta pomiędzy wierszami opartymi na projekcie i produkcie są sumowane w celu obliczenia szacowanego przychodu.

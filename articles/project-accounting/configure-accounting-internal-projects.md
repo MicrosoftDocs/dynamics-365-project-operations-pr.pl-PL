@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 504e7481cb2aee6310cb4ace2d0791d1c7fe360d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea04178d4327ccd701ab431f172463a13a55154e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081946"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132391"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>Konfigurowanie księgowania projektów wewnętrznych
 
@@ -26,8 +26,8 @@ Projekty wewnętrzne umożliwiają firmom śledzenie kosztów związanych z dzia
 
 Każdy projekt nieskojarzony z kontraktem w Dynamics 365 Project Operations jest traktowany jako wewnętrzny. Reguły kosztów projektu i profili przychodów nie określają reguły księgowania transakcji dla tego projektu. Koszt projektu wewnętrznego jest zawsze księgowany przy użyciu reguł zysków i strat. Konta księgowe na potrzeby księgowania są definiowane na stronie **Konfiguracja księgowania w rejestrze**.
 
-- Transakcje czasowe są księgowane: obciążenia na koncie **Kosztów** , a uznania na koncie **Alokacja płac**.
-- Transakcje wydatkowe są księgowane: obciążenia na koncie **Kosztów** , a uznania na koncie **rozliczeniowym dla wydatku**.
+- Transakcje czasowe są księgowane: obciążenia na koncie **Kosztów**, a uznania na koncie **Alokacja płac**.
+- Transakcje wydatkowe są księgowane: obciążenia na koncie **Kosztów**, a uznania na koncie **rozliczeniowym dla wydatku**.
 
 Jeśli projekt jest skojarzony z kontraktem projektu po zaksięgowaniu transakcji, system cofnie wszystkie transakcje skumulowane i tworzy nowe transakcje fakturowania. Transakcje podlegające rozliczaniu podążają za regułami księgowania zdefiniowanymi w odpowiednim profilu kosztów projektów i przychodów.
 

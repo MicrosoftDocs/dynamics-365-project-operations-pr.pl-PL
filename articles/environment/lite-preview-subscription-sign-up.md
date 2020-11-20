@@ -1,21 +1,21 @@
 ---
-title: Tworzenie konta dla subskrypcji w wersji zapoznawczej
+title: Tworzenie konta dla subskrypcji w wersji zapoznawczej — wersja uproszczona
 description: W tym temacie zamieszczono informacje dotyczące sposobu subskrypcji programu Project Operations w wersji okrojonej— od oferty do faktury pro forma.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081875"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175904"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Tworzenie konta subskrypcji w wersji zapoznawczej wdrożenia uproszczonego — od oferty do faktury pro forma
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Tworzenie konta dla subskrypcji w wersji zapoznawczej — wersja uproszczona 
 
 W tym temacie zamieszczono informacje wyjaśniające wykorzystanie oferty partnerskiej i wdrożenie programu Dynamics 365 Project Operations w wersji okrojonej— od oferty do faktury pro forma.
 
@@ -42,7 +42,7 @@ Po zatwierdzeniu żądania [dostępu do wersji zapoznawczej](https://forms.offic
 
 Przed rozpoczęciem pracy należy się upewnić, że użytkownik jest zalogowany w przeglądarce i ma konto pracy użytkownika w dzierżawie, w której ma zostać wyświetlona wersja zapoznawcza Project Operations.
 
-1. Zrealizuj pierwszy kod oferty **Dynamics 365 Project Operations (CRM) — próbna wersja zapoznawcza** , wklejając go do adresu URL przeglądarki.
+1. Zrealizuj pierwszy kod oferty **Dynamics 365 Project Operations (CRM) — próbna wersja zapoznawcza**, wklejając go do adresu URL przeglądarki.
 
 ![Realizacja oferty](./media/16RedeemFirstOfferNew.png)
 
@@ -80,7 +80,7 @@ Powtórz te kroki, tak jak w przypadku pierwszego kodu oferty. Należy pamięta�
 ![Nowe środowisko](./media/19CreateEnvironment.png)
 
 2. Zaznacz ustawienie **Włącz aplikacje Dynamics 365** i pozostaw pole **Automatycznie wdrażaj te aplikacje** pustym.  
-3. Wybierz **Zapisz** , aby utworzyć nowe środowisko.
+3. Wybierz **Zapisz**, aby utworzyć nowe środowisko.
 
 ![Dodaj bazę danych](./media/20CreateEnvironment1.png)
 

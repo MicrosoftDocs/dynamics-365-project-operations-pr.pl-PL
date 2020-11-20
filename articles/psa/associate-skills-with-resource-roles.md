@@ -3,7 +3,7 @@ title: Skojarz umiejętności z rolami zasobów
 description: Kojarzenie umiejętności z rolami zasobów w Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b4d5fe145fc39afc1a909e0ff274c19e9a36d7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70c4b5cfca1495cb887ad6034542c46fd4cb079c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082129"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130276"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>Skojarz umiejętności z rolami zasobów (Project Service)
 
@@ -35,9 +35,9 @@ Podczas dodawania ról zasobów, prawdopodobnie skojarzyłeś z nimi pewne umiej
   
 2.  Kliknij rolę zasobu, do której chcesz dodać umiejętności.  
   
-3.  W obszarze **Umiejętności** kliknij **+** , aby dodać umiejętność.  
+3.  W obszarze **Umiejętności** kliknij **+**, aby dodać umiejętność.  
   
-4.  W okienku Wymaganie kompetencji roli kliknij pole **Umiejętność** , kliknij przycisk **Szukaj** , a następnie wybierz umiejętność.  
+4.  W okienku Wymaganie kompetencji roli kliknij pole **Umiejętność**, kliknij przycisk **Szukaj**, a następnie wybierz umiejętność.  
   
 5.  Zaznacz poziom biegłości dla tej umiejętności, a następnie kliknij **Zapisz**.  
   

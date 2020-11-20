@@ -1,26 +1,26 @@
 ---
-title: Wycena pozycji kontraktu opartej na produkcie
+title: Wycena pozycji kontraktu opartego na produkcie - wersja uproszczona
 description: Ten temat zawiera informacje o tworzeniu
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7dfb9425174dddee52f9ee64f7a963e48a6bca70
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 0e961bcf32a5dd662b7cd27a23eb5f664c45c292
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4082243"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177254"
 ---
-# <a name="costing-product-based-contract-lines"></a>Wycena pozycji kontraktu opartej na produkcie
+# <a name="cost-product-based-contract-lines---lite"></a>Wycena pozycji kontraktu opartego na produkcie - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
 
-Pozycje kontraktu oparte na produktach dostępne w Dynamics 365 Project Operations to pole **Koszt własny** , w którym są przechowywane koszty własne produktu w celu realizacji obliczeń opłacalności podrzędnej.
+Pozycje kontraktu oparte na produktach dostępne w Dynamics 365 Project Operations to pole **Koszt własny**, w którym są przechowywane koszty własne produktu w celu realizacji obliczeń opłacalności podrzędnej.
 
 W przypadku tworzenia wiersza kontraktu opartego na produkcie dotyczącego produktu z katalogu, cena w wierszu kontraktu opartym na produkcie jest domyślnie określana na podstawie pola **Koszt normatywny** w katalogu produktów. Pole **Koszt normatywny** w katalogu produktów jest podawane w walucie podstawowej organizacji. Kiedy koszt jednostkowy jest domyślnie związany z pozycją kontraktu, jest konwertowany na walutę sprzedaży dotyczącą kontraktu.
 

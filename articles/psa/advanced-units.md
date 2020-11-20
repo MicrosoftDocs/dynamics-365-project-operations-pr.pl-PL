@@ -3,7 +3,7 @@ title: Grupy jednostek i jednostki
 description: Ten temat zawiera informacje o grupach jednostek i jednostkach.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082028"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130591"
 ---
 # <a name="unit-groups-and-units"></a>Grupy jednostek i jednostki
 
@@ -33,16 +33,16 @@ Grupy jednostek i jednostki są encjami podstawowymi w systemie Microsoft Dynami
 
 Oto kilka przykładów jednostek i grup jednostek:
  
-- **Grupa jednostek** : Odległość 
-    - **Jednostki** : Mila, Kilometr itd.
-- **Grupa jednostek** : Czas
-    - **Jednostki** : Godzina, Dzień, Tydzień itd. 
+- **Grupa jednostek**: Odległość 
+    - **Jednostki**: Mila, Kilometr itd.
+- **Grupa jednostek**: Czas
+    - **Jednostki**: Godzina, Dzień, Tydzień itd. 
 
 Podczas konfigurowania wielu jednostek w grupie jednostek należy też zdefiniować współczynnik konwersji między nimi, wyznaczając pierwszą konfigurowaną jednostkę jako domyślną lub podstawową w grupie jednostek. 
 
-Jeśli na przykład w grupie jednostek **Czas** jednostka **Godzina** zostanie ustawiona jako pierwsza, system wyznacza jednostkę **Godzina** jako domyślną. Jeśli następną konfigurowaną jednostką jest **Dzień** , należy skonfigurować współczynnik konwersji z **Dzień** na **Godzina**. Jeśli następnie dodasz **Tydzień** jako trzecią jednostkę, należy skonfigurować współczynnik konwersji jednostki **Tydzień** na jednostkę **Dzień** lub **Godzina**. 
+Jeśli na przykład w grupie jednostek **Czas** jednostka **Godzina** zostanie ustawiona jako pierwsza, system wyznacza jednostkę **Godzina** jako domyślną. Jeśli następną konfigurowaną jednostką jest **Dzień**, należy skonfigurować współczynnik konwersji z **Dzień** na **Godzina**. Jeśli następnie dodasz **Tydzień** jako trzecią jednostkę, należy skonfigurować współczynnik konwersji jednostki **Tydzień** na jednostkę **Dzień** lub **Godzina**. 
 
-Na poniższej ilustracji przedstawiono przykładową konfigurację jednostki **Dzień** , gdzie w polu **Ilość** jest wyświetlana liczba dni istniejących w dniu, oraz jednostki **Tydzień** , gdzie pole **Ilość** zawiera liczbę dni w tygodniu.
+Na poniższej ilustracji przedstawiono przykładową konfigurację jednostki **Dzień**, gdzie w polu **Ilość** jest wyświetlana liczba dni istniejących w dniu, oraz jednostki **Tydzień**, gdzie pole **Ilość** zawiera liczbę dni w tygodniu.
 
 > ![Grupa jednostek: strona Informacje](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Program Dynamics 365 Project Service Automation używa jednostek i grup jednoste
 
 W przypadku kosztów każda kategoria wydatku ma domyślną grupę jednostek i jednostkę. Te wartości są wprowadzane jako wartości domyślne w pozycjach cennika dla kategorii wydatków. 
 
-Na przykład masz kategorię wydatków o nazwie **Przebieg**. Ma ona grupę jednostek o nazwie **Odległość** oraz jednostkę domyślną o nazwie **Mila**. Jeśli skonfigurujesz grupę jednostek **Odległość** tak, aby zawierała dwie jednostki ( **Mila** i **Kilometr** ), można w jednym cenniku ustawić dwie ceny dla kategorii **Przebieg** : cenę za milę i cenę za kilometr.
+Na przykład masz kategorię wydatków o nazwie **Przebieg**. Ma ona grupę jednostek o nazwie **Odległość** oraz jednostkę domyślną o nazwie **Mila**. Jeśli skonfigurujesz grupę jednostek **Odległość** tak, aby zawierała dwie jednostki (**Mila** i **Kilometr**), można w jednym cenniku ustawić dwie ceny dla kategorii **Przebieg**: cenę za milę i cenę za kilometr.
 
 | Kategoria wydatków  | Grupa jednostek  | Jednostka      | Metoda kalkulacji cen  | Cena jednostkowa  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Wiersze szacowania dla pola **Czas w ofercie** mogą być wyrażone w dowolnej j
 W poniższym przykładzie pokazano, jak system PSA używa grupy jednostek, jednostek i współczynników konwersji.
 - Units
 
-   - **Grupa jednostek** : Czas 
-   - **Jednostki** : Godzina 
+   - **Grupa jednostek**: Czas 
+   - **Jednostki**: Godzina 
     
     - **Dzień** — Współczynnik konwersji: 8 godzin       
     - **Tydzień** — Współczynnik konwersji: 40 godzin  
         
 - Konfiguracja cennika w projekcie A:
 
-    - **Nazwa** : Ceny sprzedaży na rynek brytyjski 2016 
-    - **Domyślna jednostka czasu** : Dzień 
-    - **Waluta** : GBP
+    - **Nazwa**: Ceny sprzedaży na rynek brytyjski 2016 
+    - **Domyślna jednostka czasu**: Dzień 
+    - **Waluta**: GBP
 
 | Rola      | Grupa jednostek | Jednostka | Jednostka organizacyjna | Cena   |
 |-----------|------------|------|---------------------|---------|

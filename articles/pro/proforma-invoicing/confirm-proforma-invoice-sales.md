@@ -1,21 +1,21 @@
 ---
-title: Potwierdzenie faktury proforma
+title: Potwierdzenie faktury proforma - wersja uproszczona
 description: Ten temat zawiera informacje na temat potwierdzania faktur proforma w Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4b67ee6848efdcb85cf732c1eaa3e40cdc51a2e2
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081920"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176534"
 ---
-# <a name="confirming-a-proforma-invoice"></a>Potwierdzenie faktury proforma
+# <a name="confirm-a-proforma-invoice---lite"></a>Potwierdzenie faktury proforma - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
