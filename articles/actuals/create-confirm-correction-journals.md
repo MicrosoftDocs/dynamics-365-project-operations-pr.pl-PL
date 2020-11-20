@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082009"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127777"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Tworzenie i potwierdzanie arkuszy korekcyjnych
 
@@ -36,7 +36,7 @@ Do wykonania procedur opisanych w tym temacie są wymagane uprawnienia Administr
 
 Wykonaj poniższe kroki, aby skorygować pojedynczy lub wiele wpisów czasu projektu.
 
-1. W obszarze **Sprzedaż** wybierz opcję **Transakcje** , a następnie wybierz opcję **Zatwierdzony czas**. 
+1. W obszarze **Sprzedaż** wybierz opcję **Transakcje**, a następnie wybierz opcję **Zatwierdzony czas**. 
 
 2. Na liście **Zatwierdzony czas** znajdź i wybierz jeden lub więcej zatwierdzonych wpisów czasu, które mają zostać poprawione. Do wyszukania pokrewnych wpisów można użyć funkcji filtru. Można na przykład filtrować identyfikatory projektów i wybrać wszystkie zatwierdzone wpisy czasu z danym Identyfikatorem projektu.
 
@@ -53,7 +53,7 @@ Wykonaj poniższe kroki, aby skorygować pojedynczy lub wiele wpisów czasu proj
 
 7. Jeśli poprawki zostaną wyświetlone w sposób oczekiwany, wybierz opcję **Potwierdź**. W oknie dialogowym wybierz **OK**.
 
-8. Wróć do obszaru **Sprzedaż** , wybierz pozycję **Projekty** , a następnie otwórz projekt, dla którego zaktualizowano już te wpisy godzin. 
+8. Wróć do obszaru **Sprzedaż**, wybierz pozycję **Projekty**, a następnie otwórz projekt, dla którego zaktualizowano już te wpisy godzin. 
 
 9. Na stronie **Projekty** na karcie **Wartości rzeczywiste** wyświetl wprowadzone zmiany. 
 
@@ -73,13 +73,13 @@ Wykonaj poniższe kroki, aby skorygować jeden lub więcej wpisów wydatków.
 
 2. Z listy **Zatwierdzone wydatki** wybierz projekt, który ma zostać poprawiony, a następnie wybierz pozycję **Koryguj wpisy**. Zostanie automatycznie utworzony nowy arkusz korekt z przypisanym typem **Korekta wydatku**. 
 
-3. Na stronie **Nowy arkusz** wprowadź **Opis** poprawki i na karcie **Korekta wydatku** w sekcji **Nowe wartości dla wydatków** wybierz pola danych, które mają zostać poprawione dla wybranych wierszy wydatku. Można na przykład przypisać koszty do innego **Projektu** lub skorygować **Kategoria wydatków** , **Data wydatku** lub **Zasób, który można zarezerwować**.
+3. Na stronie **Nowy arkusz** wprowadź **Opis** poprawki i na karcie **Korekta wydatku** w sekcji **Nowe wartości dla wydatków** wybierz pola danych, które mają zostać poprawione dla wybranych wierszy wydatku. Można na przykład przypisać koszty do innego **Projektu** lub skorygować **Kategoria wydatków**, **Data wydatku** lub **Zasób, który można zarezerwować**.
 
 4. Wybierz **Podgląd**. W oknie dialogowym wybierz **OK**. 
 
 5. Sprawdź poprawki na karcie **Wiersze arkusza**. Można wyświetlić listę oryginalnych wartości rzeczywistych związanych z wybranymi wpisami wydatków, które zostały odwrócone, i poprawione odpowiadające utworzone wiersze.
 
-6. Jeśli poprawione wartości zostaną wyświetlone w sposób oczekiwany, wybierz opcję **Potwierdź**. W oknie dialogowym wybierz **OK.** Jeśli wartości nie są wyświetlane zgodnie z oczekiwaniami, wybierz pozycję **Anuluj** , aby powrócić do listy **Zatwierdzonych wydatków**. Powtórz kroki od 2 do 5. 
+6. Jeśli poprawione wartości zostaną wyświetlone w sposób oczekiwany, wybierz opcję **Potwierdź**. W oknie dialogowym wybierz **OK.** Jeśli wartości nie są wyświetlane zgodnie z oczekiwaniami, wybierz pozycję **Anuluj**, aby powrócić do listy **Zatwierdzonych wydatków**. Powtórz kroki od 2 do 5. 
 
 > [!NOTE]
 > Wszystkie poprawione wartości rzeczywiste będą miały te same wartości, jak wybrane w sekcji **Nowe wartości dla wpisów wydatków**.

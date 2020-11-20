@@ -2,7 +2,7 @@
 title: Akceptowanie lub odrzucanie proponowanego zasobu projektu
 description: W tym temacie zamieszczono informacje dotyczące sposobu zatwierdzania lub odrzucania zasobu proponowanego do projektu.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c10c55961c74c2dc53fabd1d041a935ca9a4870
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6e244ad48b4d6b50aea528d4ea378c28b8e42f2b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082176"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129871"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Akceptowanie lub odrzucanie proponowanego zasobu projektu
 

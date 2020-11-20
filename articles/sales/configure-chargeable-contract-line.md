@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081949"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128707"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfigurowanie odpłatnych składników pozycji kontraktu opartego na projekcie
 
@@ -27,21 +27,21 @@ Podzbiór dołączonych składników można oznaczyć jako odpłatny korzystają
 
 Składniki odpłatne mogą być definiowane w rolach i kategoriach transakcji.
 
-Opłata zdefiniowana w rolach w ramach pozycji kontraktu projektu ma zastosowanie tylko do klasy transakcji **Czas**. Jeśli pole **Dołącz czas** w wierszu kontraktu jest puste lub ustawione na wartość **Nie** , karta **Role odpłatne** nie będzie dostępna.
+Opłata zdefiniowana w rolach w ramach pozycji kontraktu projektu ma zastosowanie tylko do klasy transakcji **Czas**. Jeśli pole **Dołącz czas** w wierszu kontraktu jest puste lub ustawione na wartość **Nie**, karta **Role odpłatne** nie będzie dostępna.
 
-Opłata zdefiniowana w kategoriach transakcji pozycji kontraktu projektu ma zastosowanie tylko do klasy transakcji **Wydatek**. Jeśli pole **Dołącz wydatki** w wierszu kontraktu jest puste lub ustawione na wartość **Nie** , karta **Kategorie odpłatne** nie będzie dostępna.
+Opłata zdefiniowana w kategoriach transakcji pozycji kontraktu projektu ma zastosowanie tylko do klasy transakcji **Wydatek**. Jeśli pole **Dołącz wydatki** w wierszu kontraktu jest puste lub ustawione na wartość **Nie**, karta **Kategorie odpłatne** nie będzie dostępna.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Aktualizowanie ról projektu jako odpłatnego lub niepłatnego
 
 Rola w danej pozycji kontraktu opartego na projekcie może być płatna lub nieodpłatna.
 
-Typ fakturowania w ramach danej roli można skonfigurować na karcie **Role płatne** w pozycji oferty opartej na projekcie, poprzez zaktualizowanie pola **Typ fakturowania** w podsiatce **Role odpłatne**.
+Na karcie **Role odpłatne** w pozycji kontraktu opartego na projekcie w podsiatce **Kategorie odpłatne** w polu **Typ fakturowania** zaktualizuj typ fakturowania dla danej roli.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Aktualizowanie kategorii transakcji jako odpłatnej lub nie
 
 Kategoria transakcji w danej pozycji kontraktu opartej na projekcie może być płatna lub nieodpłatna.
 
-Typ fakturowania w ramach danej transakcji można skonfigurować na karcie **Role płatne** w pozycji kontraktu opartej na projekcie, poprzez zaktualizowanie pola **Typ fakturowania** w podsiatce **Role odpłatne**.
+Na karcie **Kategorie odpłatne** w pozycji kontraktu opartej na projekcie w podsiatce **Kategorie odpłatne** w polu **Typ fakturowania** zaktualizuj typ fakturowania dla transakcji.
 
 ### <a name="resolve-chargeability"></a>Rozwiązywanie odpłatności
 

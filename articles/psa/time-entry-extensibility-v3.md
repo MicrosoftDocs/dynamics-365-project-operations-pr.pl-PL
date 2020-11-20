@@ -3,7 +3,7 @@ title: Dostosowywanie wpisu czasu tygodniowego
 description: Ten temat zawiera informacje na temat implementowania niestandardowych reguł biznesowych, które wspierają praktyki stosowane w organizacjach.
 author: stsporen
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cc395e77e987dac062251ef87fcf8295305178e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4a508f2a67f87302f8b81640d2031fd5d2627b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082099"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127936"
 ---
 # <a name="customize-weekly-time-entry"></a>Dostosowywanie wpisu czasu tygodniowego 
 
@@ -51,15 +51,15 @@ W sekcji **Wymiary** niedozwolona jest edycja w tekście. Ta sekcja jest oparta 
 Sekcja Czas trwania pokazuje dni tygodnia jako nagłówki kolumn. Ta sekcja zezwala na edycję w tekście. Po utworzeniu wiersza wpisu o odpowiednich wymiarach użytkownicy mogą szybko wprowadzić i edytować w tekście czas spędzony na tych wymiarach.
 
 ## <a name="create-a-new-time-entry"></a>Tworzenie nowego wpisu czasu
-Aby utworzyć nowy wpis czasu na siatce wpisów czasu, wybierz **Nowy**. Pojawi się okno dialogowe **Szybkie tworzenie wpisu czasu**. W tym oknie dialogowym użytkownicy mogą wybrać datę wpisu czasu, a następnie wpisać datę wymiarów **Projekt** , **Zadanie projektu** , **Rola** oraz **Czas trwania** w minutach, godzinach lub dniach, wpisując **h** , **m** lub **d** wraz z liczbą. Użytkownicy mogą również wprowadzić opis i komentarze, które mogą być udostępniane zewnętrznie dla danego wpisu czasu. W chwili zapisywania zmian wartości, które zostały wpisane w wymiarach zostaną wyświetlone w sekcji **Wymiary**. Informacje o czasie trwania wprowadzone w polu **Czas trwania** są wyświetlane w dniu, w którym utworzono wpis czasu.
+Aby utworzyć nowy wpis czasu na siatce wpisów czasu, wybierz **Nowy**. Pojawi się okno dialogowe **Szybkie tworzenie wpisu czasu**. W tym oknie dialogowym użytkownicy mogą wybrać datę wpisu czasu, a następnie wpisać datę wymiarów **Projekt**, **Zadanie projektu**, **Rola** oraz **Czas trwania** w minutach, godzinach lub dniach, wpisując **h**, **m** lub **d** wraz z liczbą. Użytkownicy mogą również wprowadzić opis i komentarze, które mogą być udostępniane zewnętrznie dla danego wpisu czasu. W chwili zapisywania zmian wartości, które zostały wpisane w wymiarach zostaną wyświetlone w sekcji **Wymiary**. Informacje o czasie trwania wprowadzone w polu **Czas trwania** są wyświetlane w dniu, w którym utworzono wpis czasu.
 
 Pola wyszukiwania są obsługiwane w widokach systemowych. Na przykład po wejściu do projektu, pole **Zadanie projektu** jest domyślnie ustawione na widok **Kopia**. Aby utworzyć wpisy czasu dla zadań, które nie są przypisane do użytkownika, wybierz **Zmień widok** w oknie dialogowym wyszukiwania i wybierz widok **Wszystkie aktywne zadania projektu**.
 
 ## <a name="edit-a-time-entry"></a>Edycja wpisu czasu
-Szczegóły z niektórych pól na stronie wprowadzania godzin, takie jak **Opis** i **Komentarze zewnętrzne** , nie są wyświetlane w siatce zapisu czasu tygodniowego. Zamiast tego w komórkach czasu trwania jest wyświetlany niewielki trójkątny wskaźnik, który zawiera te dodatkowe informacje. Zaznacz komórkę, a następnie wybierz **Edytuj szczegóły** , aby wyświetlić dane w okienku **Szybka edycja**. Aby edytować lub zaktualizować szczegóły dotyczące konkretnego wpisu czasu, który nie jest częścią siatki wpisu czasu tygodniowego, należy otworzyć okienko **Szybka edycja**.
+Szczegóły z niektórych pól na stronie wprowadzania godzin, takie jak **Opis** i **Komentarze zewnętrzne**, nie są wyświetlane w siatce zapisu czasu tygodniowego. Zamiast tego w komórkach czasu trwania jest wyświetlany niewielki trójkątny wskaźnik, który zawiera te dodatkowe informacje. Zaznacz komórkę, a następnie wybierz **Edytuj szczegóły**, aby wyświetlić dane w okienku **Szybka edycja**. Aby edytować lub zaktualizować szczegóły dotyczące konkretnego wpisu czasu, który nie jest częścią siatki wpisu czasu tygodniowego, należy otworzyć okienko **Szybka edycja**.
 
 ## <a name="copy-a-time-entry-row"></a>Kopiowanie wiersza wpisu czasu
-Po utworzeniu wiersza pierwszego wpisu można wybrać opcję **Kopiuj wiersz** , aby skopiować cały wiersz do nowego wiersza. Po skopiowaniu wiersza w ten sposób, wymiary i czas trwania również są kopiowane. Użytkownicy mogą również wybrać opcję **Edytuj wiersz** , w celu zaktualizowania wartości wymiarów i czasów trwania w sekcji **Czas trwania**.
+Po utworzeniu wiersza pierwszego wpisu można wybrać opcję **Kopiuj wiersz**, aby skopiować cały wiersz do nowego wiersza. Po skopiowaniu wiersza w ten sposób, wymiary i czas trwania również są kopiowane. Użytkownicy mogą również wybrać opcję **Edytuj wiersz**, w celu zaktualizowania wartości wymiarów i czasów trwania w sekcji **Czas trwania**.
 
 ## <a name="open-a-time-entry"></a>Otwieranie wpisu czasu
 Aby zapewnić optymalne i szybkie wpisywanie w najbardziej widocznych polach, siatka tygodniowego wpis czasu pokazuje podzbiór wybranych wymiarów i czasów trwania. Aby wyświetlić wszystkie szczegółowe informacje dotyczące pojedynczego wpisu czasu, w obszarze **Edytuj wpis** wybierz polecenie **Otwórz.**
@@ -71,13 +71,13 @@ Użytkownicy mogą przesyłać pojedyncze wpisy czasu lub jako grupy wpisów cza
 Przesłane wpisy czasu można odwoływać. Możesz odwołać pojedynczy wpis czasu, blok wpisów czasu lub cały wiersz wpisów czasu. Odwołane wpisy czasu są dostępne dla zasobów do edycji.
 
 ## <a name="time-entry-status"></a>Stan wpisu czasu
-Nowe wpisy czasu automatycznie otrzymują status **Wersja robocza**. Po przesłaniu wpisu czasu status jest aktualizowany na **Przesłany**. Po zatwierdzeniu przesłanego wpisu czasu status jest aktualizowany na **Zatwierdzony**. W przypadku odrzucenia wpisu czasu stan zostanie zaktualizowany na **Zwrócony** , a wpis będzie dostępny do poprawiania i ponownego wysyłania. Usunąć można tylko wpisy czasu ze stanem **Wersja robocza**.
+Nowe wpisy czasu automatycznie otrzymują status **Wersja robocza**. Po przesłaniu wpisu czasu status jest aktualizowany na **Przesłany**. Po zatwierdzeniu przesłanego wpisu czasu status jest aktualizowany na **Zatwierdzony**. W przypadku odrzucenia wpisu czasu stan zostanie zaktualizowany na **Zwrócony**, a wpis będzie dostępny do poprawiania i ponownego wysyłania. Usunąć można tylko wpisy czasu ze stanem **Wersja robocza**.
 
 ## <a name="view-rejection-comments"></a>Wyświetlanie komentarzy dotyczących odrzucenia
 Po odrzuceniu przez osobę zatwierdzającą wpisu czasu osoba zatwierdzająca może dodać komentarze dotyczące odrzucenia, aby ułatwić zasobowi zrozumienie przyczyny odrzucenia. Aby wyświetlić komentarze dotyczące odrzucenia dla wpisu czasu, wybierz **Otwórz wpis**. Komentarze dotyczące odrzucenia będą widoczne na osi czasu. Na osi czasu zasób może odpowiedzieć na komentarze dotyczące odrzucenia, zanim ponownie prześle wpis.
 
 ## <a name="copy-week"></a>Kopiowanie tygodnia
-Po utworzeniu kilku wpisów czasu można wybrać opcję **Skopiuj tydzień** , aby zbiorczo sposób tworzyć dodatkowe wpisy czasu. Zostanie otwarte okno dialogowe **Kopia**. W sekcji **Z okresu** użyj pól **Data rozpoczęcia** i **Data zakończenia** , aby zdefiniować zakres dat, z którego mają zostać skopiowane wpisy czasu. W sekcji **Do okresu** w polu **Data rozpoczęcia** określ dzień, dla którego mają zostać utworzone wpisy czasu. Następnie wybierz opcję **Kopiuj**. Dla określonej daty w okresie „do” tworzona jest kopia wpisów czasu dla odpowiadającego dnia tygodnia w okresie „od”. Na przykład wpis czasu dla poniedziałku z poprzedniego tygodnia jest kopiowany do poniedziałku tygodnia określonego w grupie pól okresu „do”.
+Po utworzeniu kilku wpisów czasu można wybrać opcję **Skopiuj tydzień**, aby zbiorczo sposób tworzyć dodatkowe wpisy czasu. Zostanie otwarte okno dialogowe **Kopia**. W sekcji **Z okresu** użyj pól **Data rozpoczęcia** i **Data zakończenia**, aby zdefiniować zakres dat, z którego mają zostać skopiowane wpisy czasu. W sekcji **Do okresu** w polu **Data rozpoczęcia** określ dzień, dla którego mają zostać utworzone wpisy czasu. Następnie wybierz opcję **Kopiuj**. Dla określonej daty w okresie „do” tworzona jest kopia wpisów czasu dla odpowiadającego dnia tygodnia w okresie „od”. Na przykład wpis czasu dla poniedziałku z poprzedniego tygodnia jest kopiowany do poniedziałku tygodnia określonego w grupie pól okresu „do”.
 
 ## <a name="import"></a>Import
 Ten sam podstawowy proces jest przeznaczony do importowania z rezerwacji, przypisań i wymian. Użytkownicy mogą określać zakres dat, z którego są importowane rezerwacje. Następnie muszą wyraźnie wybrać rezerwacje, które mają zostać skopiowane do wersji roboczych wpisów czasu. W poprzedniej wersji sugerowane wpisy czasu pojawiały się w siatce i kalendarzu, a następnie były tracone po odświeżeniu sesji.
@@ -98,22 +98,22 @@ Pole niestandardowe należy dodać do okna dialogowego szybkiego tworzenia wpisu
 #### <a name="configure-the-grid-to-show-the-custom-field"></a>Skonfiguruj siatkę, tak aby pokazywała pole niestandardowe
 Istnieją dwa sposoby, aby dodać pole niestandardowe do siatki jednotygodniowego zapisu czasu. Pierwszą opcją jest dostosowanie widoku **Moje tygodniowe wpisy czasu** i dodanie do niego pola niestandardowego. Można wybrać pozycję i rozmiar pola niestandardowego w siatce, edytując te właściwości w widoku.
 
-Druga opcja polega na utworzeniu nowego widoku niestandardowego wpisu czasu i skonfigurowaniu go jako widoku domyślnego. Ten widok powinien zawierać pola **opis** i **Komentarze zewnętrzne** oprócz kolumn, które mają być zawarte w siatce. Można wybrać pozycję, rozmiar i domyślną kolejność sortowania w siatce, edytując te właściwości w widoku. Następnie skonfiguruj formant niestandardowy dla tego widoku tak, aby był formantem **siatki wpisu czasu**. Dodaj ten formant do widoku i wybierz go dla sieci Web, telefonu i tabletu. Następnie skonfiguruj parametry siatki jednotygodniowego wpisu czasu. W polu **Data rozpoczęcia** wybierz wartość **msdyn_date** , ustaw pole **Czas trwania** jako **msdyn_duration** , a następnie w polu **Stan** ustaw wartość **msdyn_entrystatus**. W przypadku widoku domyślnego pole **listy stanu tylko do odczytu** ma wartość **192350002, 192350003, 192350004** , pole **przepływu zadań edycji wierszy** ma wartość **msdyn_timeentryrowedit** , a pole **przepływu zadań edycji komórki** ma ustawioną wartość **msdyn_timeentryedit**. Te pola można dostosować w taki sposób, aby dodać lub usunąć stan tylko do odczytu albo użyć innego sposobu opartego na zadaniu (TBX) podczas edycji wierszy lub komórek. Te pola powinny być ograniczone wartością statyczną.
+Druga opcja polega na utworzeniu nowego widoku niestandardowego wpisu czasu i skonfigurowaniu go jako widoku domyślnego. Ten widok powinien zawierać pola **opis** i **Komentarze zewnętrzne** oprócz kolumn, które mają być zawarte w siatce. Można wybrać pozycję, rozmiar i domyślną kolejność sortowania w siatce, edytując te właściwości w widoku. Następnie skonfiguruj formant niestandardowy dla tego widoku tak, aby był formantem **siatki wpisu czasu**. Dodaj ten formant do widoku i wybierz go dla sieci Web, telefonu i tabletu. Następnie skonfiguruj parametry siatki jednotygodniowego wpisu czasu. W polu **Data rozpoczęcia** wybierz wartość **msdyn_date**, ustaw pole **Czas trwania** jako **msdyn_duration**, a następnie w polu **Stan** ustaw wartość **msdyn_entrystatus**. W przypadku widoku domyślnego pole **listy stanu tylko do odczytu** ma wartość **192350002, 192350003, 192350004**, pole **przepływu zadań edycji wierszy** ma wartość **msdyn_timeentryrowedit**, a pole **przepływu zadań edycji komórki** ma ustawioną wartość **msdyn_timeentryedit**. Te pola można dostosować w taki sposób, aby dodać lub usunąć stan tylko do odczytu albo użyć innego sposobu opartego na zadaniu (TBX) podczas edycji wierszy lub komórek. Te pola powinny być ograniczone wartością statyczną.
 
 #### <a name="add-the-custom-field-to-the-appropriate-edit-task-flow"></a>Dodawanie pola niestandardowego do odpowiedniego przepływu zadań edycji
 Strony TBX, które są używane do edycji, można znaleźć w sekcji **procesy**. Stronami domyślnymi są **Project Service — Edycja wiersza wpisu czasu** i **Usługa projektów — Edycja wpisu czasu** Użytkownik może edytować te strony domyślne lub tworzyć nowe, niestandardowe strony TBX.
 
 > [!NOTE] 
-> Obie opcje spowodują usunięcie gotowego filtrowania w encjach **Projekt** i **Zadania projektu** , dzięki czemu będą dostępne wszystkie widoki wyszukiwania encji. W gotowym rozwiązaniu są dostępne tylko odpowiednie widoki wyszukiwania.
+> Obie opcje spowodują usunięcie gotowego filtrowania w encjach **Projekt** i **Zadania projektu**, dzięki czemu będą dostępne wszystkie widoki wyszukiwania encji. W gotowym rozwiązaniu są dostępne tylko odpowiednie widoki wyszukiwania.
 
-Konieczne jest ustalenie odpowiedniego przepływu zadań dla pola niestandardowego. Najprawdopodobniej po dodaniu pola do siatki, powinno zostać uwzględnione w przepływie zadań edycji wiersza używanym dla pól dotyczących całego wiersza wpisów czasu. Jeśli w polu niestandardowym każdy dzień ma unikatową wartość, na przykład pole niestandardowe **Godzina zakończenia** , powinno zostać uwzględnione w przepływie zadań edycji komórki.
+Konieczne jest ustalenie odpowiedniego przepływu zadań dla pola niestandardowego. Najprawdopodobniej po dodaniu pola do siatki, powinno zostać uwzględnione w przepływie zadań edycji wiersza używanym dla pól dotyczących całego wiersza wpisów czasu. Jeśli w polu niestandardowym każdy dzień ma unikatową wartość, na przykład pole niestandardowe **Godzina zakończenia**, powinno zostać uwzględnione w przepływie zadań edycji komórki.
 
-Aby dodać pole niestandardowe do przepływu zadań, przeciągnij element **pola** na odpowiednie miejsce na stronie, a następnie ustaw jego właściwości. Ustaw właściwość **Źródło** jako **wpis czasu** i ustaw właściwość **pole danych** jako pole niestandardowe. Właściwość **Pole** określa wyświetlana nazwa na stronie TBX. Wybierz pozycję **Zastosuj** , aby zapisać zmiany wprowadzone w polu. Wybierz pozycję **Zaktualizuj** , aby zapisać zmiany wprowadzone na stronie.
+Aby dodać pole niestandardowe do przepływu zadań, przeciągnij element **pola** na odpowiednie miejsce na stronie, a następnie ustaw jego właściwości. Ustaw właściwość **Źródło** jako **wpis czasu** i ustaw właściwość **pole danych** jako pole niestandardowe. Właściwość **Pole** określa wyświetlana nazwa na stronie TBX. Wybierz pozycję **Zastosuj**, aby zapisać zmiany wprowadzone w polu. Wybierz pozycję **Zaktualizuj**, aby zapisać zmiany wprowadzone na stronie.
 
-Aby zamiast tego skorzystać z nowej niestandardowej strony TBX, należy utworzyć nowy proces. Ustaw kategorię na **przepływ procesów biznesowych** , ustaw encję jako **wpis czasu** i ustaw typ procesu biznesowego jako **uruchom proces jako przepływ zadań**. W obszarze **właściwości** właściwość **nazwa strony** powinna być ustawiona jak wyświetlana nazwa strony. Dodaj wszystkie odpowiednie pola na stronie TBX. Zapisz i aktywuj proces, a następnie zaktualizuj właściwość niestandardowego formantu dla odpowiedniego przepływu zadań jako wartość **nazwy** w procesie.
+Aby zamiast tego skorzystać z nowej niestandardowej strony TBX, należy utworzyć nowy proces. Ustaw kategorię na **przepływ procesów biznesowych**, ustaw encję jako **wpis czasu** i ustaw typ procesu biznesowego jako **uruchom proces jako przepływ zadań**. W obszarze **właściwości** właściwość **nazwa strony** powinna być ustawiona jak wyświetlana nazwa strony. Dodaj wszystkie odpowiednie pola na stronie TBX. Zapisz i aktywuj proces, a następnie zaktualizuj właściwość niestandardowego formantu dla odpowiedniego przepływu zadań jako wartość **nazwy** w procesie.
 
 ### <a name="add-new-option-set-values"></a>Dodawanie wartości nowego zestawu opcji
-Aby dodać wartości zestawu opcji do gotowego pola, otwórz stronę edycji pola, a następnie w obszarze **typ** wybierz opcję **edycja** obok zestawu opcji. Następnie dodaj nową opcję o niestandardowej etykiecie i kolorze. Jeśli chcesz dodać nowy stan wpisu czasu, gotowe pole jest nazwane **Stan wpisu** , a nie **Stan**.
+Aby dodać wartości zestawu opcji do gotowego pola, otwórz stronę edycji pola, a następnie w obszarze **typ** wybierz opcję **edycja** obok zestawu opcji. Następnie dodaj nową opcję o niestandardowej etykiecie i kolorze. Jeśli chcesz dodać nowy stan wpisu czasu, gotowe pole jest nazwane **Stan wpisu**, a nie **Stan**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Oznaczanie nowego stanu wpisu czasu jako tylko do odczytu
 Aby wyznaczyć nowy stan wpisu czasu jako tylko do odczytu, należy dodać nową wartość wpisu czasu (liczba, a nie etykieta) do właściwości **lista tylko do odczytu**. Edytowalna część siatki wpisu czasu zostanie zablokowana w przypadku wierszy mających nowy stan.

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082002"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126326"
 ---
 # <a name="actuals"></a>Wartości rzeczywiste 
 
@@ -45,7 +45,7 @@ Podczas przesyłania wpisu czasu dla projektu, który jest połączony z projekt
 
 Logika tworzenia cen domyślnych jest przechowywana w wierszu arkusza. Wartości pól z wpisu czasu są kopiowane do wiersza arkusza. Te wartości zawierają datę transakcji, pozycję kontraktu, do której jest mapowany projekt, oraz wynik obliczania waluty z odpowiedniego cennika.
 
-Pola wpływające na domyślne ceny, takie jak **Rola** i **Jednostka organizacyjna** , są wykorzystywane do domyślnego wprowadzenia właściwej ceny w wierszu arkusza. We wpisie czasu można dodać pole niestandardowe. Chcąc przetworzyć wartość do wartości rzeczywistych, należy utworzyć pole w encji Wartości rzeczywiste, a następnie za pomocą mapowań pól skopiować pole z wpisu czasu do wartości rzeczywistej.
+Pola wpływające na domyślne ceny, takie jak **Rola** i **Jednostka organizacyjna**, są wykorzystywane do domyślnego wprowadzenia właściwej ceny w wierszu arkusza. We wpisie czasu można dodać pole niestandardowe. Chcąc przetworzyć wartość do wartości rzeczywistych, należy utworzyć pole w encji Wartości rzeczywiste, a następnie za pomocą mapowań pól skopiować pole z wpisu czasu do wartości rzeczywistej.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Wiersze arkusza i przesyłanie podstawowych kosztów
 

@@ -3,7 +3,7 @@ title: Nowości i zmiany w aplikacji Project Service Automation, wydanie 19, wer
 description: W tym temacie przedstawiono funkcje i poprawki, które są dostępne w programie Project Service Automation, aktualizacja 19, wer. 3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ecc923cccfad21985025ab9d8006aaff16afc25f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e116bcbb8e9d184b7b894709c893aaf1dadefc2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081965"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126855"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation, wydanie 19, wer. 3
 
@@ -62,5 +62,5 @@ Rozwiązano następujące problemy:
 - Klienci doświadczają spadku wydajności podczas niepotrzebnego pobierania w PreValidateProjectTeamMemberUpdate.cs
 - Role skonfigurowane jako niepłatne na liście **Kategorie zasobów** powinny zostać dodane do karty **Role płatne** jako **Niepłatne** w pozycji kontraktu projektu.
 - Podczas tworzenia projektu klienci mogą doświadczyć spadku wydajności, ponieważ **GetBookableResourceIdFromUser** pobiera wszystkie kolumny zasobów możliwych do zarezerwowania, a nie tylko podstawowy identyfikator.
-- W encji **TransactionType** brak dodatku wstępnej weryfikacji aktualizacji, aby zapobiec wprowadzaniu przez użytkowników **jednostek** i **UnitGroups** , które są nieprawidłowe dla typów transakcji.
+- W encji **TransactionType** brak dodatku wstępnej weryfikacji aktualizacji, aby zapobiec wprowadzaniu przez użytkowników **jednostek** i **UnitGroups**, które są nieprawidłowe dla typów transakcji.
 - Krok **Usuń** nie działa w przypadku importowania wpisów czasu.

@@ -2,7 +2,7 @@
 title: Jak dostosować przepływ procesów biznesowych etapów projektu?
 description: Omówienie dostosowywania przepływu procesów biznesowych Etapy projektu.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082198"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125056"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Jak dostosować przepływ procesów biznesowych etapów projektu?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Jest znane ograniczenie we wcześniejszych wersjach aplikacji Project Service, przez które nazwy etapów w przepływie procesów biznesowych etapów projektu muszą dokładnie odpowiadać oczekiwanym nazwom w języku angielskim ( **Quote** , **Plan** , **Close** ). W przeciwnym razie logika biznesowa, która bazuje na nazwach etapów w języku angielskim nie będzie działała zgodnie z oczekiwaniami. Dlatego nie widzisz znanych akcji, takich jak **Przełącz proces** lub **Edytuj proces** dostępnych w formularzu projektu, i dostosowywanie przepływu procesów biznesowych nie jest zalecane. 
+Jest znane ograniczenie we wcześniejszych wersjach aplikacji Project Service, przez które nazwy etapów w przepływie procesów biznesowych etapów projektu muszą dokładnie odpowiadać oczekiwanym nazwom w języku angielskim (**Quote**, **Plan**, **Close**). W przeciwnym razie logika biznesowa, która bazuje na nazwach etapów w języku angielskim nie będzie działała zgodnie z oczekiwaniami. Dlatego nie widzisz znanych akcji, takich jak **Przełącz proces** lub **Edytuj proces** dostępnych w formularzu projektu, i dostosowywanie przepływu procesów biznesowych nie jest zalecane. 
 
 Tym ograniczeniem zajęto się w wersji 2.4.5.48 lub nowszej. Ten artykuł zawiera sugerowane obejścia tego problemu, jeśli musisz dostosować domyślny przepływ procesów biznesowych dla wcześniejszych wersji.  
 
@@ -38,7 +38,7 @@ Tym ograniczeniem zajęto się w wersji 2.4.5.48 lub nowszej. Ten artykuł zawie
 Przepływ procesów biznesowych etapów projektu zawiera logikę biznesową, która kieruje następującymi zachowaniami w aplikacji:
 - Gdy projekt jest skojarzony z ofertą, kod ustawia przepływ procesów biznesowych na etap **Quote**.
 - Gdy projekt jest skojarzony z kontraktem, kod ustawia przepływ procesów biznesowych na etap **Plan**.
-- Gdy przepływ procesów biznesowych zostanie przeniesiony do etapu **Close** , rekord projektu jest dezaktywowany. Po zdezaktywowaniu projektu, formularz projektu i struktura podziału pracy (SPP) są ustawiane na Tylko do odczytu, wypuszczane są rezerwacje nazwanego zasobu, a wszelkie skojarzone cenniki zostają wyłączone.
+- Gdy przepływ procesów biznesowych zostanie przeniesiony do etapu **Close**, rekord projektu jest dezaktywowany. Po zdezaktywowaniu projektu, formularz projektu i struktura podziału pracy (SPP) są ustawiane na Tylko do odczytu, wypuszczane są rezerwacje nazwanego zasobu, a wszelkie skojarzone cenniki zostają wyłączone.
 
 Ta logika biznesowe bazuje na nazwach w języku angielskim dla etapów projektu. Ta zależność od nazw etapów wyrażonych w języku angielskim jest główną przyczyną, dlaczego nie jest zalecane dostosowywanie przepływu procesów biznesowych etapów projektu, oraz dlaczego nie widzisz typowych działań przepływu procesów biznesowych, takich jak **Przełącz proces** lub **Edytuj proces** na encji projektu.
 
@@ -48,7 +48,7 @@ W aplikacji Project Service 1.x na platformie 8.2 jeśli nazwy etapów przepływ
 
 W aplikacji Project Service 2.4.4.30 lub wcześniej na platformie 9.0 wystąpiła znacząca zmiana architektury przepływu procesów biznesowych, która wymagała ponownego zapisania logiki biznesowej przepływu procesów biznesowych. W wyniku tego nazwy etapów projektu nie są zgodne z oczekiwanymi nazwami w języku angielski i otrzymujesz komunikat o błędzie. 
 
-W związku z tym, jeśli chcesz dostosować przepływ procesów biznesowych etapów projektu dla encji projekt, możesz dodać tylko zupełnie nowe etapy do domyślnego przepływu procesów biznesowych dla encji projekt, przy zachowaniu **Quote** , **Plan** , i **Close** bez żadnych zmian. To ograniczenie pozwala zagwarantować, że nie wystąpią błędy z logiki biznesowej, która spodziewa się nazw etapów w języku angielskim w przepływie procesów biznesowych.
+W związku z tym, jeśli chcesz dostosować przepływ procesów biznesowych etapów projektu dla encji projekt, możesz dodać tylko zupełnie nowe etapy do domyślnego przepływu procesów biznesowych dla encji projekt, przy zachowaniu **Quote**, **Plan**, i **Close** bez żadnych zmian. To ograniczenie pozwala zagwarantować, że nie wystąpią błędy z logiki biznesowej, która spodziewa się nazw etapów w języku angielskim w przepływie procesów biznesowych.
 
 W wersji 2.4.5.48 lub nowszej opisana w tym artykule logika biznesowa została usunięta z domyślnego przepływu procesów biznesowych dla encji projektu. Uaktualnianie do tej wersji lub nowszej umożliwi dostosowywanie lub zastępowanie domyślnego przepływu procesów biznesowych jakimś własnym. 
 
@@ -56,12 +56,12 @@ W wersji 2.4.5.48 lub nowszej opisana w tym artykule logika biznesowa została u
 
 Jeśli uaktualnienie nie jest możliwe, można dostosować przepływu procesów biznesowych etapów projektu dla encji projektu na jeden z tych dwóch sposobów:
 
-1. Dodaj dodatkowe etapy do konfiguracji domyślnej, zachowując nazwy w języku angielskim dla **Quote** , **Plan** , i **Close**.
+1. Dodaj dodatkowe etapy do konfiguracji domyślnej, zachowując nazwy w języku angielskim dla **Quote**, **Plan**, i **Close**.
 
 
 ![Zrzut ekranu przedstawiający dodawanie etapów do konfiguracji domyślnej](media/FAQ-Customize-BPF-1.png)
  
-2. Utwórz własny przepływ procesów biznesowych i uczyń z niego główny przepływ procesów biznesowych dla encji projektu, co pozwoli na dowolne nazwy etapów. Jednak, jeśli chcesz użyć tych samych standardowych etapów projektu **Quote** , **Plan** , i **Close** , musisz wykonać kilka dostosowań, które wywodzą się od niestandardowych nazw etapów. Bardziej skomplikowana logika jest na zamknięciu projektu, co możesz nadal uruchomić po prostu wyłączając rekord projektu.
+2. Utwórz własny przepływ procesów biznesowych i uczyń z niego główny przepływ procesów biznesowych dla encji projektu, co pozwoli na dowolne nazwy etapów. Jednak, jeśli chcesz użyć tych samych standardowych etapów projektu **Quote**, **Plan**, i **Close**, musisz wykonać kilka dostosowań, które wywodzą się od niestandardowych nazw etapów. Bardziej skomplikowana logika jest na zamknięciu projektu, co możesz nadal uruchomić po prostu wyłączając rekord projektu.
 
 ![Dostosowanie BPF](media/FAQ-Customize-BPF-2.png)
 
@@ -81,11 +81,11 @@ Aby utworzyć własny przepływ procesów biznesowych dla encji projektu przepro
 
   ![Utwórz proces](media/FAQ-Customize-BPF-3.png)
 
-2. Użyj Projektanta procesów, aby utworzyć nazwy etapu, który chcesz utworzyć. Jeśli chcesz, aby były dostępne takie same funkcje, jak na etapach domyślnych dla **Quote** , **Plan** , i **Close** , będziesz musiał to utworzyć w oparciu o swoje niestandardowe nazw etapów przepływu procesów biznesowych.
+2. Użyj Projektanta procesów, aby utworzyć nazwy etapu, który chcesz utworzyć. Jeśli chcesz, aby były dostępne takie same funkcje, jak na etapach domyślnych dla **Quote**, **Plan**, i **Close**, będziesz musiał to utworzyć w oparciu o swoje niestandardowe nazw etapów przepływu procesów biznesowych.
 
    ![Zrzut ekranu przedstawiający okno Projektant procesów używane w celu dostosowania przepływu procesów biznesowych](media/FAQ-Customize-BPF-4.png) 
 
-3. W Projektancie procesów kliknij **Określanie kolejności przepływu procesów** , aby sprawić, że niestandardowy przepływ procesów biznesowych stanie się podstawowym przepływem procesów biznesowych przenosząc go ponad przepływ procesów biznesowych etapy projektu do górnej części listy.
+3. W Projektancie procesów kliknij **Określanie kolejności przepływu procesów**, aby sprawić, że niestandardowy przepływ procesów biznesowych stanie się podstawowym przepływem procesów biznesowych przenosząc go ponad przepływ procesów biznesowych etapy projektu do górnej części listy.
 
 
    [Zrzut ekranu przedstawiający korzystanie z Określanie kolejności przepływu procesów](media/FAQ-Customize-BPF-5-720.png)
@@ -96,7 +96,7 @@ Aby utworzyć własny przepływ procesów biznesowych dla encji projektu przepro
 
    ![Zrzut ekranu przedstawiający dostosowywanie encji projektu](media/FAQ-Customize-BPF-6-720.png)
 
-5. Zmodyfikuj wykres **Projekt według etapu** , aby użyć nowego pola niestandardowego dla etapów.
+5. Zmodyfikuj wykres **Projekt według etapu**, aby użyć nowego pola niestandardowego dla etapów.
 
    ![Zrzut ekranu przedstawiający użycie wykresu Projekt według etapu](media/FAQ-Customize-BPF-7-720.png)
 

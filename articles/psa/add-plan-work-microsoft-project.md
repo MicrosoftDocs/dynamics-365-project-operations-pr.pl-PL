@@ -3,7 +3,7 @@ title: Użyj dodatku Project Service, aby zaplanować pracę w programie Microso
 description: W tym temacie zamieszczono informacje dotyczące sposobu dodawania, konfigurowania i używania dodatku programu Microsoft Project dla programu Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082142"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129691"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Użyj dodatku Project Service Automation do planowania pracy w programie Microsoft Project
 
@@ -44,7 +44,7 @@ ms.locfileid: "4082142"
 
 2.  Kliknij łącze pobierania.  
 
-3.  Po zakończeniu pobierania kliknij **Tak** , aby zainstalować dodatek.  
+3.  Po zakończeniu pobierania kliknij **Tak**, aby zainstalować dodatek.  
 
 ## <a name="configure-the-add-in"></a>Skonfiguruj dodatek  
 
@@ -70,7 +70,7 @@ ms.locfileid: "4082142"
 
 1.  Otwórz projekt, a następnie kliknij wstążkę **Zadanie**.  
 
-2.  Kliknij menu **Wykres Gantta** , a następnie wybierz **Arkusz zasobów**.  
+2.  Kliknij menu **Wykres Gantta**, a następnie wybierz **Arkusz zasobów**.  
 
 3.  Na karcie Arkusz zasobów kliknij menu rozwijane **Rola usługi Project Service Automation** i wybierz rolę usługi Project Service Automation.  
 
@@ -80,7 +80,7 @@ ms.locfileid: "4082142"
 
 2.  Na ekranie **Zarezerwuj zasoby** wybierz zasób, którego chcesz użyć dla projektu.  
 
-3.  Kliknij **Zarezerwuj** , a następnie kliknij **OK**.  
+3.  Kliknij **Zarezerwuj**, a następnie kliknij **OK**.  
 
 ## <a name="publish-your-project"></a>Opublikuj projekt  
 Po zakończeniu planowania projektu, następnym krokiem jest importowanie i publikowanie projektu w [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
@@ -99,7 +99,7 @@ Projektu zostanie zaimportowany do [!INCLUDE[pn_project_service_auto](../include
 
 2. W oknie dialogowym **Publikuj w nowym projekcie w Project Service** wprowadź **Nazwa projektu** i wybierz **Klient**.  
 
-3. Opcjonalnie zaznacz **Połącz plan projektu z usługą Project Service Automation** , aby połączyć plik projektu z usługą Project Service Automation.  
+3. Opcjonalnie zaznacz **Połącz plan projektu z usługą Project Service Automation**, aby połączyć plik projektu z usługą Project Service Automation.  
 
 4. Kliknij przycisk **Publikuj**.  
 
@@ -139,7 +139,7 @@ Projektu zostanie zaimportowany do [!INCLUDE[pn_project_service_auto](../include
 
 2. Wybierz **Do dokumentów projektu usługi Project Service Automation**.  
 
-3. W oknie dialogowym **Włącz Otwórz w [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , wybierz **Tak** lub **Nie**.  
+3. W oknie dialogowym **Włącz Otwórz w [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, wybierz **Tak** lub **Nie**.  
 
    - Po kliknięciu **Tak** będziesz w stanie wybrać przycisk **Otwórz w [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** w Project Service Automation, uruchomić [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] oraz załadować plik programu Project z biblioteki dokumentów SharePoint.  
 
@@ -153,7 +153,7 @@ Projektu zostanie zaimportowany do [!INCLUDE[pn_project_service_auto](../include
 
 2. Wybierz **Do dokumentów projektu usługi Project Service Automation**.  
 
-3. W oknie dialogowym **Włącz Otwórz w [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , wybierz **Tak** lub **Nie**.  
+3. W oknie dialogowym **Włącz Otwórz w [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, wybierz **Tak** lub **Nie**.  
 
    - Po kliknięciu **Tak** będziesz w stanie wybrać przycisk **Otwórz w [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** w Project Service Automation, uruchomić [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] oraz załadować plik programu Project z biblioteki dokumentów SharePoint.  
 
@@ -168,7 +168,7 @@ Projektu zostanie zaimportowany do [!INCLUDE[pn_project_service_auto](../include
 
 2. W oknie dialogowym **Publikuj w nowym projekcie w szablonie Project Service** wprowadź **Nazwa szablonu projektu**.  
 
-3. Opcjonalnie zaznacz **Połącz plan projektu z usługą Project Service Automation** , aby połączyć plik programu Project z [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+3. Opcjonalnie zaznacz **Połącz plan projektu z usługą Project Service Automation**, aby połączyć plik programu Project z [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 4. Kliknij przycisk **Publikuj**.  
 

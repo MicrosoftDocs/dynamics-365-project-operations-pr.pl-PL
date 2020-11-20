@@ -3,7 +3,7 @@ title: Dlaczego ceny domyślnie wynoszą zero w wartościach rzeczywistych czas 
 description: Rozwiązywanie problemu, dlaczego ceny domyślnie wynoszą 0 w wartościach rzeczywistych czas sprzedaż.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c886c4a53b4ba47e381b891fe22a565ad8fd1ac6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5106e8c1a059bbb0efbeb73dc63e03e8bc9e4b7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082136"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125956"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>Dlaczego ceny domyślnie wynoszą zero w wartościach rzeczywistych czas sprzedaż?
 

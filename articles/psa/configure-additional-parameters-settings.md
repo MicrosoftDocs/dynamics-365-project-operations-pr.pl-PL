@@ -3,7 +3,7 @@ title: Konfigurowanie ustawień dodatkowych parametrów
 description: Konfigurowanie ustawień dodatkowych parametrów w Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082012"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129376"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Konfiguruj ustawienia dodatkowych parametrów (Project Service)
 
@@ -52,11 +52,11 @@ Aby określić parametry projektu:
   
 1. Przejdź do **Project Service > Parametry**.  
   
-2. Kliknij ustawienia parametrów, które chcesz skonfigurować (to utworzone podczas pierwszej instalacji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), lub kliknij **Nowe** , aby utworzyć nowe ustawienie.  
+2. Kliknij ustawienia parametrów, które chcesz skonfigurować (to utworzone podczas pierwszej instalacji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), lub kliknij **Nowe**, aby utworzyć nowe ustawienie.  
   
-3. W obszarze **Ogólne** , ustaw wszystkie opcje dla parametrów Twojego projektu.  
+3. W obszarze **Ogólne**, ustaw wszystkie opcje dla parametrów Twojego projektu.  
   
-4. W obszarze **Cennik** kliknij **+** , aby dodać cennik, wybierz cennik z listy rozwijanej **Cennik parametrów projektu** a następnie kliknij **Zapisz**.  
+4. W obszarze **Cennik** kliknij **+**, aby dodać cennik, wybierz cennik z listy rozwijanej **Cennik parametrów projektu** a następnie kliknij **Zapisz**.  
   
 5. Kliknij przycisk **Zapisz** w prawym dolnym rogu ekranu.  
 

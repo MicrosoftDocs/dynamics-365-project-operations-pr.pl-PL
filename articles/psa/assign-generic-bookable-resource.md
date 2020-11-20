@@ -3,7 +3,7 @@ title: Przypisywanie ogólnego zasobu możliwego do zarezerwowania do zadania i 
 description: Ten temat zawiera informacje o rezerwowaniu ogólnych zasobów dla zadań i zespołów projektów.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca0999ae5413d824dd1384fe2262e5226695a5f8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19761b3e570ad664522e832069a8ac50fffead64
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082027"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127081"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Przypisywanie ogólnego zasobu możliwego do zarezerwowania do zadania i generowanie wymagań zasobów 
 
@@ -31,7 +31,7 @@ ms.locfileid: "4082027"
 
 Oprócz rezerwowania i przypisywania nazwanych lub rzeczywistych zasobów do projektu można również przypisywać zasoby ogólne do zadań projektu. Te zasoby mogą służyć jako zastępcze dla zasobów nazwanych, dopóki użytkownik nie będzie gotowy do obsadzenia projektu nazwanymi zasobami. 
 
-1. W usłudze Project Service Automation (PSA) otwórz stronę **Projekt** na karcie **Harmonogram** wprowadź nazwę stanowiska ogólnego zasobu w komórce **Zasób** w harmonogramie. Alternatywnie w komórce kliknij ikonę **Zasób** , aby otworzyć selektora zasobów, a następnie wpisz nazwę zasobu ogólnego, który ma zostać utworzony.
+1. W usłudze Project Service Automation (PSA) otwórz stronę **Projekt** na karcie **Harmonogram** wprowadź nazwę stanowiska ogólnego zasobu w komórce **Zasób** w harmonogramie. Alternatywnie w komórce kliknij ikonę **Zasób**, aby otworzyć selektora zasobów, a następnie wpisz nazwę zasobu ogólnego, który ma zostać utworzony.
 
 ![Tworzenie i przypisywanie ogólnego członka zespołu](media/RM-how-to-9.png)
 
@@ -51,7 +51,7 @@ Spowoduje to otwarcie panelu **Szybkie tworzenie: Członek zespołu projektu**.
 
 W siatce członków zespołu można nie tylko używać selektora zasobów, jak wspomniano powyżej, ale również dodawać zasoby ogólne bezpośrednio. Zasoby zostaną dodane z wymaganiami zasobów opartymi na datach początkowych i końcowych oraz metodzie alokacji określonej w panelu **Szybkie tworzenie: Członek zespołu projektu**.
 
-Widać różnicę, jeśli dodasz ogólnego członka zespołu bezpośrednio, a następnie przypiszesz mu więcej zadań, niż ma on wymaganych godzin do pokrycia. Kliknij opcję **Generuj wymaganie** , aby ponownie wygenerować wymaganie w celu zrównoważenia wymaganych godzin z przypisaniem.
+Widać różnicę, jeśli dodasz ogólnego członka zespołu bezpośrednio, a następnie przypiszesz mu więcej zadań, niż ma on wymaganych godzin do pokrycia. Kliknij opcję **Generuj wymaganie**, aby ponownie wygenerować wymaganie w celu zrównoważenia wymaganych godzin z przypisaniem.
 
 Możesz także kliknąć łącze **Wymaganie zasobów** w siatce zespołu, aby otworzyć wymaganie i dodać umiejętności, preferowane zasoby itd.
 

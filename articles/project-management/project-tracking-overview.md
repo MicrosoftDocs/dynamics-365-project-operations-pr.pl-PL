@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081863"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127375"
 ---
 # <a name="project-tracking-overview"></a>Omówienie śledzenia projektu
 
@@ -25,10 +25,10 @@ Konieczność śledzenia postępu w harmonogramie zależy od branży. Niektóre 
 
 W widoku **Śledzenia nakładów** są śledzone postępy zadań w harmonogramie. Polega to na porównaniu rzeczywistych nakładów pracy na zadanie z planowanymi godziny nakładu pracy danego zadania. Dynamics 365 Project Operations korzysta z poniższych formuł do obliczania metryk śledzenia:
 
-- **Procent postępu** : rzeczywisty nakład pracy do dnia dzisiejszego ÷ szacowane przy zakończeniu (SPZ) 
-- **Szacowane do zakończenia (ETC)** : planowany nakład pracy — rzeczywisty nakład pracy do dnia dzisiejszego 
-- **SPZ** : pozostały nakład pracy + rzeczywisty nakład pracy do dnia dzisiejszego 
-- **Przewidywane odchylenie nakładu pracy** : planowany nakład pracy — SPZ
+- **Procent postępu**: rzeczywisty nakład pracy do dnia dzisiejszego ÷ szacowane przy zakończeniu (SPZ) 
+- **Szacowane do zakończenia (ETC)**: planowany nakład pracy — rzeczywisty nakład pracy do dnia dzisiejszego 
+- **SPZ**: pozostały nakład pracy + rzeczywisty nakład pracy do dnia dzisiejszego 
+- **Przewidywane odchylenie nakładu pracy**: planowany nakład pracy — SPZ
 
 W programie Project Operations jest wyświetlona projekcja odchylenia danego zadania. Jeśli wartość SPZ przekracza planowany nakład pracy, zadanie jest rzutowane na czas dłuższy niż planowano i jest opóźnienie. Jeśli wartość SPZ jest mniejsza niż planowany nakład pracy, zadanie jest rzutowane na czas krótszy niż planowano i praca posuwa się do przodu szybciej niż zaplanowano.
 
@@ -60,10 +60,10 @@ W widoku **śledzenia kosztów** jest porównywany koszt rzeczywisty, który zos
 > [!NOTE]
 > W tym widoku są wyświetlane tylko koszty robocizny i nie są uwzględniane koszty szacunków kosztów. Project Operations korzysta z poniższych formuł do obliczania metryk śledzenia:
 
-- **Procent zużytego kosztu** : koszt rzeczywisty poniesiony do dnia ÷ szacowany koszt przy zakończeniu
-- **Koszt do zakończenia (CTC)** : planowany koszt — rzeczywisty koszt poniesiony do dnia
-- **EAC** : pozostały koszt + rzeczywisty koszt poniesiony do tej pory
-- **Prognozowane odchylenie kosztu** : koszt planowany – SPZ
+- **Procent zużytego kosztu**: koszt rzeczywisty poniesiony do dnia ÷ szacowany koszt przy zakończeniu
+- **Koszt do zakończenia (CTC)**: planowany koszt — rzeczywisty koszt poniesiony do dnia
+- **EAC**: pozostały koszt + rzeczywisty koszt poniesiony do tej pory
+- **Prognozowane odchylenie kosztu**: koszt planowany – SPZ
 
 Prognoza odchylenia kosztu jest widoczna w zadaniu. Jeśli wartość SPZ przekracza planowany koszt, zadaniu jest przypisywany koszt wyższy niż planowano na początku. Z tego powodu ma ono tendencję do przekroczenia budżetu. Jeśli wartość SPZ jest mniejsza od planowanego kosztu, zadaniu jest przypisywany koszt niższy niż planowano na początku. Z tego powodu ma ono tendencję do niewykorzystania budżetu.
 

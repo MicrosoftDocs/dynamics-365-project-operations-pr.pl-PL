@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4c814754e68b3a1a8bf8784434d45010bf8d0123
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081929"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128881"
 ---
 # <a name="skills-and-certifications"></a>Kwalifikacje i certyfikacje
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
@@ -24,8 +24,8 @@ Dodanie charakterystyk do wymagań zasobów pozwala na udokumentowanie umiejętn
 
 ## <a name="add-characteristics"></a>Dodaj właściwości
 
-1. W menu głównym otwórz **Zasoby** , a następnie wybierz sekcję **Zasoby**. Tam wybierz **Umiejętności**.
-2. Wybierz **Nowa** , aby dodać właściwość.
+1. W menu głównym otwórz **Zasoby**, a następnie wybierz sekcję **Zasoby**. Tam wybierz **Umiejętności**.
+2. Wybierz **Nowa**, aby dodać właściwość.
 3. Wypełnij wymagane pola, a następnie kliknij **Typ charakterystyki**.
 
 ## <a name="assign-characteristics-to-resources"></a>Przypisz właściwości do zasobów

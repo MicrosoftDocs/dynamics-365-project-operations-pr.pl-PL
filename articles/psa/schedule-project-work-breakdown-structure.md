@@ -3,7 +3,7 @@ title: Zaplanuj projekt ze strukturą podziału pracy
 description: Planowanie projektu ze strukturą podziału pracy w Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082194"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127891"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Zaplanuj projekt ze strukturą podziału pracy (Project Service)
 
@@ -86,14 +86,14 @@ Tworząc swoje struktury podziału pracy, będziesz używać następujących typ
   
 ### <a name="schedule-attributes"></a>Zaplanuj atrybuty
 
- - Przypisz wartości do **Nakład pracy w godzinach** , **Liczba zasobów** , **Data rozpoczęcia** , **Data zakończenia** , i **Czas trwania** , aby ustalić harmonogram dla zadania. 
+ - Przypisz wartości do **Nakład pracy w godzinach**, **Liczba zasobów**, **Data rozpoczęcia**, **Data zakończenia**, i **Czas trwania**, aby ustalić harmonogram dla zadania. 
  - **Nakład pracy** to przybliżona liczba godzin potrzebnych do wykonania zadania.
  - **Liczba zasobów** to oszacowanie, które menedżer projektu umieszcza w zadaniu, aby pomóc opracować najlepszy możliwy harmonogram. 
  - **Czas trwania** (w dniach) wskazuje liczbę dni pracy niezbędnych do ukończenia zadania.  
   
 ### <a name="staffing-attributes"></a>Atrybuty personelu
 
- - **Rola** , **Jednostka organizacyjna zasobu** , **Liczba zasobów** , i **Zasoby** opisują wymagania dotyczące personelu dla zadania. 
+ - **Rola**, **Jednostka organizacyjna zasobu**, **Liczba zasobów**, i **Zasoby** opisują wymagania dotyczące personelu dla zadania. 
  - **Rola** opisuje typ zasobu potrzebnego do wykonania zadania. 
  - **Jednostka organizacyjna zasobu** wskazuje jednostkę organizacyjną, z której ma pochodzić zasób dla tego zadania; wpływa to również na koszt i prognozy sprzedaży dla zadania, ponieważ jest uwzględniane przy określaniu jednostkowej ceny sprzedaży dla zasobu. 
  - **Zasoby** to zasób rodzajowy lub zasób posiadający nazwę, jeśli taki zostanie znaleziony.  
@@ -136,11 +136,11 @@ Tworząc swoje struktury podziału pracy, będziesz używać następujących typ
   
 5.  Kontynuuj dodawanie zadań do momentu ukończenia struktury podziału pracy. Podczas tworzenia struktury podziału pracy, możesz wykonać następujące czynności w celu uporządkowania zadań:  
   
-    -   Zaznacz zadanie, a następnie kliknij **Wcięcie** , aby przesunąć je pod inne zadanie lub kliknij Zmniejsz wcięcie, aby wyprowadzić je spod innego zadania.  
+    -   Zaznacz zadanie, a następnie kliknij **Wcięcie**, aby przesunąć je pod inne zadanie lub kliknij Zmniejsz wcięcie, aby wyprowadzić je spod innego zadania.  
   
-    -   Zaznacz zadanie, a następnie kliknij **Przenieś w górę** lub **Przenieś w dół** , aby przenieść je w górę lub w dół na liście.  
+    -   Zaznacz zadanie, a następnie kliknij **Przenieś w górę** lub **Przenieś w dół**, aby przenieść je w górę lub w dół na liście.  
   
-    -   Kliknij **Ukryj wykres Gantta** , aby ukryć wykres Gantta, a następnie kliknij **Pokaż wykres Gantta** , aby wyświetlić go ponownie.  
+    -   Kliknij **Ukryj wykres Gantta**, aby ukryć wykres Gantta, a następnie kliknij **Pokaż wykres Gantta**, aby wyświetlić go ponownie.  
   
     -   Wybierz inny okres czasu dla wykresu Gantta w **Skala czasu**.  
   

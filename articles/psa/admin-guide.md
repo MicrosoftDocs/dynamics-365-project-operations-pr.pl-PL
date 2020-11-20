@@ -3,7 +3,7 @@ title: Przewodnik administratora
 description: Instrukcje krok po kroku dla administracji Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7462a57ad750f255cfb48dbbeda7f899f51ecfa7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7bce13430f56b4c72453c90a259e3ffb3a63d8a3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082049"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129555"
 ---
 # <a name="administrator-guide-project-service"></a>Przewodnik administratora (Project Service)
 
@@ -36,7 +36,7 @@ Ten przewodnik prowadzi użytkownika przez proces instalacji i konfiguracji:
 - [Skonfiguruj Project Service Automation](configure.md)
 - [Skonfiguruj jednostki czasu](set-up-time-units.md)
 - [Ustaw waluty i kursy wymiany](set-up-currencies-exchange-rates.md)
-- [Utwórz jednostki organizacyjne](create-organizational-units.md)
+- [Tworzenie jednostek organizacyjnych](create-organizational-units.md)
 - [Ustawianie częstotliwości sporządzania faktur](set-up-invoice-frequencies.md)
 - [Konfiguracja kategorii transakcji](configure-transaction-categories.md)
 - [Konfiguracja kategorii wydatków](configure-expense-categories.md)

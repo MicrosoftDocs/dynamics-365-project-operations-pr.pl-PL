@@ -3,7 +3,7 @@ title: Oferty i wiersze ofert
 description: Ta temat zawiera informacje o ofertach i wierszach oferty.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082127"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129466"
 ---
 # <a name="quotes-and-quote-lines"></a>Oferty i wiersze ofert
 
@@ -35,7 +35,7 @@ W Dynamics 365 Project Service Automation istnieją dwa typy ofert: oferty proje
 - Oferta sprzedaży obsługuje aktywację i poprawki. Oferta projektu nie obsługuje tych procesów.
 - Istnieje możliwość dołączenia wielu zamówień do oferty sprzedaży. Do oferty projektu można dołączyć tylko jeden kontrakt dotyczący projektu.
 - Istnieje możliwość wygrania oferty sprzedaży i zachowania pokrewnej szansy sprzedaży. Po wygraniu oferty projektu pokrewna szansa sprzedaży jest zamykana.
-- Oferta sprzedaży nie zawiera żadnych pól i koncepcji zawartych w ofercie projektu. Pola obejmują **jednostkę kontraktującą** , **menedżera klienta** oraz **Imię i nazwisko kontaktu u płatnika**.  
+- Oferta sprzedaży nie zawiera żadnych pól i koncepcji zawartych w ofercie projektu. Pola obejmują **jednostkę kontraktującą**, **menedżera klienta** oraz **Imię i nazwisko kontaktu u płatnika**.  
 - Oferty sprzedaży i oferty projektu są również identyfikowane za pośrednictwem pola opartego na zestawie opcji pod nazwą **Typ**. W przypadku oferty sprzedaży w tym polu jest określana wartość **na podstawie towaru**. W przypadku oferty projektu jest to wartość **na podstawie pracy**.
 
 Temat ten będzie ukierunkowany na szczegółowe informacje o ofertach projektów.
@@ -76,7 +76,7 @@ PSA obsługuje wszystkie trzy typy harmonogramów fakturowania dla wierszy ofert
 Profesjonalne organizacje obsługi klienta zazwyczaj składają oferty i wystawiają faktury swoim klientom według klasyfikacji kosztów. W przypadku PSA koszty są reprezentowane przez następujące klasyfikacje transakcji:
 
 - **Czas** — ta klasyfikacja odzwierciedla koszt robocizny lub czasu zasobu ludzkiego w projekcie.
-- **Wydatek** : — Ta klasyfikacja odzwierciedla wszystkie pozostałe rodzaje wydatków w projekcie. Ponieważ koszty mogą być szeroko zaklasyfikowane, większość organizacji tworzy podkategorie, takie jak podróże, wynajem samochodów, hotele lub materiały biurowe.
+- **Wydatek**: — Ta klasyfikacja odzwierciedla wszystkie pozostałe rodzaje wydatków w projekcie. Ponieważ koszty mogą być szeroko zaklasyfikowane, większość organizacji tworzy podkategorie, takie jak podróże, wynajem samochodów, hotele lub materiały biurowe.
 - **Opłata** — ta klasyfikacja reprezentuje narzuty dodatkowe, kary i inne pozycje obciążające klienta. 
 - **Podatek** — ta klasyfikacja reprezentuje kwoty podatku dodawane przez użytkowników w czasie, gdy wprowadzają koszty.
 - **Transakcja materiałowa** — ta klasyfikacja reprezentuje wartości rzeczywiste z wierszy produktów na potwierdzonej fakturze projektu.
@@ -91,7 +91,7 @@ Na przykład oferta może zawierać następujące dwa wiersze:
 - Pokrewne koszty podróży, które korzystają z metody fakturowania o stałej cenie. Na przykład wszystkie koszty podróży dla przykładowego projektu **implementacji Dynamics AX** są zafakturowane ze stałą wartością pieniężną.
 
 > [!NOTE]
-> Kombinacja projektów i klasyfikacji transakcji **czasu** , **wydatku** i **opłaty** skojarzonych z wierszem oferty lub pozycją kontraktu musi być unikatowa. Jeśli ta sama kombinacja klas projektów i transakcji jest skojarzona z więcej niż jedną pozycją kontraktu lub wierszem oferty, PSA nie będzie działać poprawnie.
+> Kombinacja projektów i klasyfikacji transakcji **czasu**, **wydatku** i **opłaty** skojarzonych z wierszem oferty lub pozycją kontraktu musi być unikatowa. Jeśli ta sama kombinacja klas projektów i transakcji jest skojarzona z więcej niż jedną pozycją kontraktu lub wierszem oferty, PSA nie będzie działać poprawnie.
 
 ## <a name="billing-types"></a>Typy rozliczania
 

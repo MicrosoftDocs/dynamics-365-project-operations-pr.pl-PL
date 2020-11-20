@@ -3,7 +3,7 @@ title: Nowości i zmiany w Project Service Automation, wydanie 21, wer. 3
 description: W tym temacie przedstawiono funkcje i poprawki, które są dostepne w Project Service Automation, aktualizacja 21, wer. 3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081963"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126721"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation, wydanie 21, wer. 3
 
@@ -54,7 +54,7 @@ Rozwiązano następujące problemy:
 
 Rozwiązano następujące problemy:
 
-- Siatki formularzy **Projektu** ( **Przydział zasobów** , **Zadanie** , widok **Uzgodnienie** , **Oszacowania kosztów** ) można edytować nawet wtedy, gdy projekt nie jest aktywny.
+- Siatki formularzy **Projektu** (**Przydział zasobów**, **Zadanie**, widok **Uzgodnienie**, **Oszacowania kosztów**) można edytować nawet wtedy, gdy projekt nie jest aktywny.
 - Nie można łączyć duplikatów klientów z klientami, którzy są połączeni z potwierdzonymi kontraktami projektu.
 - Gdy dodawany jest zasób niezawierający prawidłowego kalendarza, system nie zwraca przyjaznego użytkownika komunikatu o błędzie.
 - Przycisk **Dodaj zadanie** w siatce zadań jest włączony, jeśli projekt jest połączony z **dodatkiem Microsoft Project**.
@@ -68,10 +68,10 @@ Wprowadzono następujące ulepszenia:
 
 Rozwiązano następujące problemy:
 
-- **Łączna cena sprzedaży** wynosi zero (0) dla **Kategorii** , mimo że dana **Rola** ma całkowitą cenę sprzedaży nie równą zero.
-- Klienci nie mogą zmieniać wartości pola **Status faktury** w celu **Gotowe do fakturowania** , kiedy inny dostosowany proces aktualizuje pole dodatkowe.
+- **Łączna cena sprzedaży** wynosi zero (0) dla **Kategorii**, mimo że dana **Rola** ma całkowitą cenę sprzedaży nie równą zero.
+- Klienci nie mogą zmieniać wartości pola **Status faktury** w celu **Gotowe do fakturowania**, kiedy inny dostosowany proces aktualizuje pole dodatkowe.
 - Przycisk **Odśwież wiersze faktury** może spowodować utworzenie wielu zduplikowanych wierszy, jeśli jest ciągle zaznaczonych.
-- Przycisk **Aktualizuj ceny** nie działa w przypadku podsiatki **Ceny ról** w formularzu **Szybkiego widoku**.
+- Przycisk **Aktualizuj ceny** nie działa w przypadku podsiatki **Ceny ról** w formularzu **Szybki podgląd**.
 - Logika **Rozpoznawania cennika sprzedaży** nieprawidłowo obsługuje strefy czasowe, co powoduje nieprawidłowe wybór cenników.
 - **Łączny koszt rzeczywisty** projektu może być wyłączony o kwotę ułamkową po zaakceptowaniu jednego wpisu czasowego.
 - Logika **Rozwiązywania cen** nie zawiera przyjaznych dla użytkownika komunikatów o błędach, jeśli **Pobieranie Ceny Ról** nie ma wartości w polach **„Jednostka podstawowa”** i **„Cena w jednostce podstawowej”**.

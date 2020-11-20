@@ -3,7 +3,7 @@ title: Jak przypisać zasób, który można zarezerwować, do zadania w aplikacj
 description: Przegląd sposobów przypisywania zasobów możliwych do zarezerwowania.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082200"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125191"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Jak przypisać zasób, który można zarezerwować do zadania w aplikacji sieci Web (aplikacja Project Service, v2.x)?
 
@@ -51,7 +51,7 @@ Dzięki tej metodzie dodajesz zasób do zespołu projektu, a następnie przypisu
     - **Według godzin — rozłóż równomiernie** rezerwuje zasób na określoną liczbą godzin, rozkładając je równomiernie w ciągu dnia dla określonych dat Od/Do.
     - **Według godzin — Najwięcej na początku** rezerwuje zasób na określoną liczbą godzin, kładąc nacisk na godziny początkowe w ciągu dnia dla określonych dat Od/Do.
 
-    Nie wybieraj **Brak** , ponieważ ta metoda dodaje zasób do zespołu, ale nie tworzy żadnych rezerwacji, które absorbują dyspozycyjność zasobu.
+    Nie wybieraj **Brak**, ponieważ ta metoda dodaje zasób do zespołu, ale nie tworzy żadnych rezerwacji, które absorbują dyspozycyjność zasobu.
 5.  Wybierz pozycję **Zapisz**.
 
     Należy zauważyć, że godziny rezerwacji muszą pokrywać nakład pracy i zakres dat zadań, które można przypisać do tego zasobu. Jeśli nie są one zgodne, nie możesz przypisać zasobu do zadania.

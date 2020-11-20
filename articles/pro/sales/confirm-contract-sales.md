@@ -5,21 +5,21 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: babce9c64098a9c87072786d914d2340251a8986
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082132"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128296"
 ---
 # <a name="confirm-a-project-contract"></a>Potwierdzenie kontraktu projektu
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Kontrakt projektu w Dynamics 365 Project Operations może być aktywny i mieć powód **Potwierdzony** lub zamknięty z powodem **Utracony**. Podczas potwierdzania kontraktu projektu, jego stan zmienia się z **Wersji roboczej** na **Aktywna** , a przyczyna stanu to **Potwierdzony**. Nie można edytować ani ponownie otworzyć aktywnego lub zamkniętego kontraktu. 
+Kontrakt projektu w Dynamics 365 Project Operations może być aktywny i mieć powód **Potwierdzony** lub zamknięty z powodem **Utracony**. Podczas potwierdzania kontraktu projektu, jego stan zmienia się z **Wersji roboczej** na **Aktywna**, a przyczyna stanu to **Potwierdzony**. Nie można edytować ani ponownie otworzyć aktywnego lub zamkniętego kontraktu. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Finansowy wpływ potwierdzenia kontraktu dotyczącego projektu
 

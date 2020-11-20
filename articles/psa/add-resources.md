@@ -3,7 +3,7 @@ title: Dodawanie zasobów
 description: Dodawanie zasobów w Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c882ade53eb207d5c85fd769437cff65fef7ca1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e7b088ce2718901ab5af953f5fa1094188a4c954
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082004"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129512"
 ---
 # <a name="add-resources-project-service"></a>Dodaj zasoby (Project Service)
 
@@ -37,9 +37,9 @@ Jeśli musisz mieć różne koszty i ceny dla zasobów dla różnych działów w
   
 2.  Kliknij pozycję **Nowy**.  
   
-3.  Wybierz **Typ zasobu** , a następnie wybierz żądane ustawienia dla każdego pola.  
+3.  Wybierz **Typ zasobu**, a następnie wybierz żądane ustawienia dla każdego pola.  
   
-4.  Kliknij **Zapisz** , aby zapisać rekord i móc kontynuować jego edycję.  
+4.  Kliknij **Zapisz**, aby zapisać rekord i móc kontynuować jego edycję.  
   
 5.  Aby dodać umiejętność do zasobu, kliknij **+** w **Umiejętności zasobu**.  
   

@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081911"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124651"
 ---
 # <a name="extending-time-entries"></a>Rozszerzanie wpisów czasu
 
@@ -33,7 +33,7 @@ Rozszerzanie wpisów czasu jest możliwe w dwóch obszarach:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Dodawanie niestandardowych wpisów czasu do użytku własnego
 
-Wpisy czasu są obiektami podstawowymi używanymi w wielu scenariuszach. W 1. wydaniu kwietniowym 2020 wprowadzono rozwiązanie podstawowe TESA. TESA udostępnia encję **Ustawienia** oraz nową rolę zabezpieczeń **Użytkownika wpisu czasu**. Zawarte są także nowe pola **msdyn_start** oraz **msdyn_end** , które mają bezpośrednią relację z **msdyn_duration**. Nowa encja, rola zabezpieczeń i pola umożliwiają bardziej zunifikowany sposób podejścia do czasu w ramach różnych produktów.
+Wpisy czasu są obiektami podstawowymi używanymi w wielu scenariuszach. W 1. wydaniu kwietniowym 2020 wprowadzono rozwiązanie podstawowe TESA. TESA udostępnia encję **Ustawienia** oraz nową rolę zabezpieczeń **Użytkownika wpisu czasu**. Zawarte są także nowe pola **msdyn_start** oraz **msdyn_end**, które mają bezpośrednią relację z **msdyn_duration**. Nowa encja, rola zabezpieczeń i pola umożliwiają bardziej zunifikowany sposób podejścia do czasu w ramach różnych produktów.
 
 
 ### <a name="time-source-entity"></a>Encja źródła czasu
@@ -109,22 +109,22 @@ Ten widok powinien zawierać pola **opis** i **Komentarze zewnętrzne** oprócz 
 2. Skonfiguruj formant niestandardowy dla tego widoku tak, aby był formantem **siatki wpisu czasu**. 
 3. Dodaj ten formant do widoku i wybierz go dla sieci Web, telefonu i tabletu. 
 4. Skonfiguruj parametry siatki jednotygodniowego wpisu czasu. 
-5. W polu **Data rozpoczęcia** wybierz wartość **msdyn_date** , ustaw pole **Czas trwania** jako **msdyn_duration** , a następnie w polu **Stan** ustaw wartość **msdyn_entrystatus**. 
+5. W polu **Data rozpoczęcia** wybierz wartość **msdyn_date**, ustaw pole **Czas trwania** jako **msdyn_duration**, a następnie w polu **Stan** ustaw wartość **msdyn_entrystatus**. 
 6. W przypadku widoku domyślnego pole **Tylko do odczytu** ma ustawioną wartość **192350002,192350003,192350004**. Pole **Edycji przepływu zadań w wierszu** ma ustawioną wartość **msdyn_timeentryrowedit**. Pole **Edycji przepływu zadań w komórce** ma ustawioną wartość **msdyn_timeentryedit**. 
 7. Te pola można dostosować w taki sposób, aby dodać lub usunąć stan tylko do odczytu albo użyć innego sposobu opartego na zadaniu (TBX) podczas edycji wierszy lub komórek. Te pola są teraz ograniczone wartością statyczną.
 
 
 > [!NOTE] 
-> Obie opcje spowodują usunięcie gotowego filtrowania w encjach **Projekt** i **Zadania projektu** , dzięki czemu będą dostępne wszystkie widoki wyszukiwania encji. W gotowym rozwiązaniu są dostępne tylko odpowiednie widoki wyszukiwania.
+> Obie opcje spowodują usunięcie gotowego filtrowania w encjach **Projekt** i **Zadania projektu**, dzięki czemu będą dostępne wszystkie widoki wyszukiwania encji. W gotowym rozwiązaniu są dostępne tylko odpowiednie widoki wyszukiwania.
 
-Ustal odpowiedni przepływ zadań dla pola niestandardowego. Po dodaniu pola do siatki, powinno zostać uwzględnione w przepływie zadań edycji wiersza używanym dla pól dotyczących całego wiersza wpisów czasu. Jeśli w polu niestandardowym każdy dzień ma unikatową wartość, na przykład pole niestandardowe **Godzina zakończenia** , powinno zostać uwzględnione w przepływie zadań edycji komórki.
+Ustal odpowiedni przepływ zadań dla pola niestandardowego. Po dodaniu pola do siatki, powinno zostać uwzględnione w przepływie zadań edycji wiersza używanym dla pól dotyczących całego wiersza wpisów czasu. Jeśli w polu niestandardowym każdy dzień ma unikatową wartość, na przykład pole niestandardowe **Godzina zakończenia**, powinno zostać uwzględnione w przepływie zadań edycji komórki.
 
-Aby dodać pole niestandardowe do przepływu zadań, przeciągnij element **pola** na odpowiednie miejsce na stronie, a następnie ustaw właściwości pola. Ustaw właściwość **Źródło** jako **wpis czasu** i ustaw właściwość **pole danych** jako pole niestandardowe. Właściwość **Pole** określa wyświetlana nazwa na stronie TBX. Wybierz opcję **Zastosuj** , aby zapisać zmiany w polu, a następnie wybierz pozycję **Aktualizuj** , aby zapisać zmiany na stronie.
+Aby dodać pole niestandardowe do przepływu zadań, przeciągnij element **pola** na odpowiednie miejsce na stronie, a następnie ustaw właściwości pola. Ustaw właściwość **Źródło** jako **wpis czasu** i ustaw właściwość **pole danych** jako pole niestandardowe. Właściwość **Pole** określa wyświetlana nazwa na stronie TBX. Wybierz opcję **Zastosuj**, aby zapisać zmiany w polu, a następnie wybierz pozycję **Aktualizuj**, aby zapisać zmiany na stronie.
 
-Aby zamiast tego skorzystać z nowej niestandardowej strony TBX, należy utworzyć nowy proces. Ustaw kategorię na **przepływ procesów biznesowych** , ustaw encję jako **wpis czasu** i ustaw typ procesu biznesowego jako **uruchom proces jako przepływ zadań**. W obszarze **właściwości** właściwość **nazwa strony** powinna być ustawiona jak wyświetlana nazwa strony. Dodaj wszystkie odpowiednie pola na stronie TBX. Zapisz i aktywuj proces. Zaktualizuj właściwość niestandardowego formantu dla odpowiedniego przepływu zadań jako wartość **nazwy** w procesie.
+Aby zamiast tego skorzystać z nowej niestandardowej strony TBX, należy utworzyć nowy proces. Ustaw kategorię na **przepływ procesów biznesowych**, ustaw encję jako **wpis czasu** i ustaw typ procesu biznesowego jako **uruchom proces jako przepływ zadań**. W obszarze **właściwości** właściwość **nazwa strony** powinna być ustawiona jak wyświetlana nazwa strony. Dodaj wszystkie odpowiednie pola na stronie TBX. Zapisz i aktywuj proces. Zaktualizuj właściwość niestandardowego formantu dla odpowiedniego przepływu zadań jako wartość **nazwy** w procesie.
 
 ### <a name="add-new-option-set-values"></a>Dodawanie wartości nowego zestawu opcji
-Aby dodać wartości zestawu opcji do gotowego pola, otwórz stronę edycji pola, a następnie w obszarze **typ** wybierz opcję **edycja** obok zestawu opcji. Dodaj nową opcję o niestandardowej etykiecie i kolorze. Jeśli chcesz dodać nowy stan wpisu czasu, gotowe pole jest nazwane **Stan wpisu** , a nie **Stan**.
+Aby dodać wartości zestawu opcji do gotowego pola, otwórz stronę edycji pola, a następnie w obszarze **typ** wybierz opcję **edycja** obok zestawu opcji. Dodaj nową opcję o niestandardowej etykiecie i kolorze. Jeśli chcesz dodać nowy stan wpisu czasu, gotowe pole jest nazwane **Stan wpisu**, a nie **Stan**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Oznaczanie nowego stanu wpisu czasu jako tylko do odczytu
 Aby wyznaczyć nowy stan wpisu czasu jako tylko do odczytu, należy dodać nową wartość wpisu czasu do właściwości **lista tylko do odczytu**. Edytowalna część siatki wpisu czasu zostanie zablokowana w przypadku wierszy mających nowy stan.

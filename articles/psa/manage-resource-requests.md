@@ -3,7 +3,7 @@ title: Zarządzaj żądaniami zasobów
 description: Zarządzanie żądaniami zasobów w Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082011"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129016"
 ---
 # <a name="manage-resource-requests-project-service"></a>Zarządzaj żądaniami zasobów (Project Service)
 
@@ -37,15 +37,15 @@ Menedżerowie projektów i menedżerowie kont regularnie składają wnioski z ż
   
     Wykonaj dowolną z następujących czynności, aby zoptymalizować wyszukiwanie:  
   
-   -   Wybierz widok lub ustaw kolejność przy górnej krawędzi ekranu. Możesz również wybrać opcję ukazywania dostępności dla jednostek czasu takich jak **Dzień** , **Tydzień** , lub **Miesiąc** i użyć strzałek, aby wyświetlić poprzedni lub następny okres czasu. Użyj pola wyszukiwania, aby znaleźć określony zasób.  
+   -   Wybierz widok lub ustaw kolejność przy górnej krawędzi ekranu. Możesz również wybrać opcję ukazywania dostępności dla jednostek czasu takich jak **Dzień**, **Tydzień**, lub **Miesiąc** i użyć strzałek, aby wyświetlić poprzedni lub następny okres czasu. Użyj pola wyszukiwania, aby znaleźć określony zasób.  
   
-   -   Kliknij **Opcje** , aby zmienić, co jest wyświetlane. Na przykład możesz pokazać legendę, która pokazuje schemat kolorów dla różnych typów rezerwacji, lub możesz wybrać, aby wyświetlany był tylko określony rodzaj rezerwacji (na przykład rezerwacja ostateczna lub rezerwacja elastyczna).  
+   -   Kliknij **Opcje**, aby zmienić, co jest wyświetlane. Na przykład możesz pokazać legendę, która pokazuje schemat kolorów dla różnych typów rezerwacji, lub możesz wybrać, aby wyświetlany był tylko określony rodzaj rezerwacji (na przykład rezerwacja ostateczna lub rezerwacja elastyczna).  
   
-   -   Kliknij **Filtruj** , aby wyświetlić okienko **Filtr** , które pozwala na filtrowanie wyników dla jednostki organizacyjnej, roli, umiejętności lub innych atrybutów.  
+   -   Kliknij **Filtruj**, aby wyświetlić okienko **Filtr**, które pozwala na filtrowanie wyników dla jednostki organizacyjnej, roli, umiejętności lub innych atrybutów.  
   
        ![Ekran żądania zasobów programu Project Service](../psa/media/project-service-resource-request-screen.png "Ekran żądania zasobów programu Project Service")  
   
-3. W kalendarzu dla zasobu, który chcesz zarezerwować, wybierz okres czasu, aby zarezerwować zasób, a następnie kliknij **Zarezerwuj** , aby zarezerwować zasób, lub **Zaproponuj rezerwację** , aby zaproponować rezerwację i poczekać na zatwierdzenie przez osobę żądającą. Rezerwacja zasobu może być rezerwacją wstępną lub rezerwacją ostateczną.  
+3. W kalendarzu dla zasobu, który chcesz zarezerwować, wybierz okres czasu, aby zarezerwować zasób, a następnie kliknij **Zarezerwuj**, aby zarezerwować zasób, lub **Zaproponuj rezerwację**, aby zaproponować rezerwację i poczekać na zatwierdzenie przez osobę żądającą. Rezerwacja zasobu może być rezerwacją wstępną lub rezerwacją ostateczną.  
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera zasobów](../psa/resource-manager-guide.md)

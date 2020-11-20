@@ -3,7 +3,7 @@ title: Omówienie wartości rzeczywistych
 description: Ten temat zawiera informacje o wartościach rzeczywistych w projektach.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082210"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129781"
 ---
 # <a name="actuals-overview"></a>Omówienie wartości rzeczywistych
 
@@ -39,7 +39,7 @@ W rozwiązaniu PSA podczas przesyłania wpisu czasu dla projektu, który jest za
 
 Logika wprowadzania cen domyślnych jest przechowywana w wierszu arkusza. Wszystkie wartości pól z wpisu czasu są kopiowane do wiersza arkusza. Te pola zawierają datę transakcji, pozycję kontraktu, do której jest mapowany projekt, oraz wynik obliczania waluty z odpowiedniego cennika. 
 
-Pola wpływające na domyślne ceny, takie jak **Rola** i **Jednostka organizacyjna** , powodują domyślne wprowadzenie właściwej ceny w wierszu arkusza. Chcąc dodać do wpisu niestandardowe pole, którego wartość ma zostać rozpowszechniona do wartości rzeczywistych, należy utworzyć pole w encji Wartości rzeczywiste, a następnie za pomocą mapowań pól skopiować pole z wpisu czasu do wartości rzeczywistej.
+Pola wpływające na domyślne ceny, takie jak **Rola** i **Jednostka organizacyjna**, powodują domyślne wprowadzenie właściwej ceny w wierszu arkusza. Chcąc dodać do wpisu niestandardowe pole, którego wartość ma zostać rozpowszechniona do wartości rzeczywistych, należy utworzyć pole w encji Wartości rzeczywiste, a następnie za pomocą mapowań pól skopiować pole z wpisu czasu do wartości rzeczywistej.
 
 ## <a name="submitting-an-expense-entry"></a>Przesyłanie wpisu wydatku
 

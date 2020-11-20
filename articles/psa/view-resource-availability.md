@@ -3,7 +3,7 @@ title: Wyświetl dostępność zasobów
 description: Wyświetlanie dostępności zasobów w Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18f2287eeba5df9dae150c213e2a7c88de8c7276
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65798e1b0d675b86a73fcd6a0426407d6fe86d0b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082086"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124966"
 ---
 # <a name="view-resource-availability-project-service"></a>Wyświetl dostępność zasobów (Project Service)
 
@@ -38,11 +38,11 @@ Możesz sprawdzić dostępność zasobów, aby uzyskać ogólny pogląd stopnia 
 
 1. Przejdź do **Project Service > Dostępność zasobów**.  
 
-    Zobaczysz widok kalendarza ukazujący wszystkie zasoby i ich dostępność. Wybierz widok lub ustaw kolejność przy górnej krawędzi ekranu. Możesz również wybrać opcję ukazywania dostępności dla jednostek czasu takich jak **Dzień** , **Tydzień** , lub **Miesiąc** i użyć strzałek, aby wyświetlić poprzedni lub następny okres czasu. Użyj pola wyszukiwania, aby znaleźć określony zasób.  
+    Zobaczysz widok kalendarza ukazujący wszystkie zasoby i ich dostępność. Wybierz widok lub ustaw kolejność przy górnej krawędzi ekranu. Możesz również wybrać opcję ukazywania dostępności dla jednostek czasu takich jak **Dzień**, **Tydzień**, lub **Miesiąc** i użyć strzałek, aby wyświetlić poprzedni lub następny okres czasu. Użyj pola wyszukiwania, aby znaleźć określony zasób.  
 
-2. Kliknij **Opcje** , aby zmienić, co jest wyświetlane. Na przykład możesz pokazać legendę, która pokazuje schemat kolorów dla różnych typów rezerwacji, lub możesz wybrać, aby wyświetlany był tylko określony rodzaj rezerwacji (na przykład rezerwacja ostateczna lub rezerwacja elastyczna).  
+2. Kliknij **Opcje**, aby zmienić, co jest wyświetlane. Na przykład możesz pokazać legendę, która pokazuje schemat kolorów dla różnych typów rezerwacji, lub możesz wybrać, aby wyświetlany był tylko określony rodzaj rezerwacji (na przykład rezerwacja ostateczna lub rezerwacja elastyczna).  
 
-3. Kliknij **Filtruj** , aby wyświetlić okienko **Filtr** , które pozwala na filtrowanie wyników dla jednostki organizacyjnej, roli, umiejętności lub innych atrybutów.  
+3. Kliknij **Filtruj**, aby wyświetlić okienko **Filtr**, które pozwala na filtrowanie wyników dla jednostki organizacyjnej, roli, umiejętności lub innych atrybutów.  
 
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera zasobów](../psa/resource-manager-guide.md)

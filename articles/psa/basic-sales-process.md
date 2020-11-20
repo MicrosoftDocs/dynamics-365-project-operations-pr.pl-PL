@@ -3,7 +3,7 @@ title: Procesy sprzedaży
 description: Ta temat zawiera informacje o podstawowych procesach sprzedaży.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082126"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129331"
 ---
 # <a name="sales-processes"></a>Procesy sprzedaży
 
@@ -70,12 +70,12 @@ Te sześć etapów są reprezentowane przez cudzysłów ostrokątny (\>), który
  
 Organizacja może używać innych obiektów do reprezentowania tej samej transakcji. Na początku procesu sprzedaży transakcja jest reprezentowana przez obiekt szansa sprzedaży. W miarę upływu czasu i przybywania szczegółów można użyć oszacowań wysokiego poziomu w celu utworzenia jednej lub większej liczby ofert. Jeśli jedna z tych ofert jest analizowana przez udziałowców wewnętrznych i klienta, encja Oferta reprezentuje transakcję. Po zaakceptowaniu oferty przez klienta kontrakt lub jego zestawienie pracy stanowią informację o transakcji. Aby obsłużyć to zachowanie, BPF ma strukturę, dzięki czemu każdy etap procesu jest połączony z inną tabelą bazy danych.
 
-Encja Szansa sprzedaży może tworzyć kopię zapasową etapu **kwalifikowania** w procesie sprzedaży. Encja Oferta może robić kopie zapasowe etapów **Szacunku** i **Oceny wewnętrznej**. Encja Kontrakt dotyczący projektu może robić kopie zapasowe etapów **Kontrakt** , **Dostarczenie** i **Zamknięcie**.
+Encja Szansa sprzedaży może tworzyć kopię zapasową etapu **kwalifikowania** w procesie sprzedaży. Encja Oferta może robić kopie zapasowe etapów **Szacunku** i **Oceny wewnętrznej**. Encja Kontrakt dotyczący projektu może robić kopie zapasowe etapów **Kontrakt**, **Dostarczenie** i **Zamknięcie**.
 
 W miarę przechodzenia kolejnych etapów w umowach będą wyświetlane monity o utworzenie odpowiedniego rekordu encji w celu ułatwienia pomocy i przeprowadzenia procesu. Te etapy mogą być warunkowe. Na przykład jeśli jest wymagane wewnętrzne sprawdzenie oferty tylko wtedy, gdy oferta korzysta z niestandardowych cenników, można skonfigurować ten warunek w odpowiednim etapie procesu biznesowego. Etap **wewnętrznego przeglądu** jest widoczny tylko w przypadku ofert, w których jest używany niestandardowy cennik. W przypadku wszystkich pozostałych transakcji i ofert po etapie **Oszacowanie** następuje etap **Kontrakt**.
 
 > [!NOTE]
-> PSA zawiera konkretne strony encji szansy sprzedaży, oferty, zamówienia i faktury. Szanse sprzedaży, oferty, zamówienia i faktury dla usługi projektów należy utworzyć na podstawie tych encji na stronach z informacjami o projekcie. Jeśli do utworzenia rekordu jest używana inna strona, nie będzie można otworzyć rekordu na stronie z **informacjami o projekcie**. Aby otworzyć rekord z poziomu strony **informacji o projekcie** , należy usunąć rekord i utworzyć go ponownie na stronie **informacji o projekcie**. Na stronie **informacje o projekcie** logika biznesowa dla każdego z tych typów encji daje gwarancję, że pole **typu** rekordu będzie poprawnie ustawione, a wszystkie obowiązkowe pojęcia są poprawnie zainicjowane.
+> PSA zawiera konkretne strony encji szansy sprzedaży, oferty, zamówienia i faktury. Szanse sprzedaży, oferty, zamówienia i faktury dla usługi projektów należy utworzyć na podstawie tych encji na stronach z informacjami o projekcie. Jeśli do utworzenia rekordu jest używana inna strona, nie będzie można otworzyć rekordu na stronie z **informacjami o projekcie**. Aby otworzyć rekord z poziomu strony **informacji o projekcie**, należy usunąć rekord i utworzyć go ponownie na stronie **informacji o projekcie**. Na stronie **informacje o projekcie** logika biznesowa dla każdego z tych typów encji daje gwarancję, że pole **typu** rekordu będzie poprawnie ustawione, a wszystkie obowiązkowe pojęcia są poprawnie zainicjowane.
 
 > ![Informacje o projekcie dla nowego zamówienia](media/basic-guide-4.png)
  
@@ -87,7 +87,7 @@ Mimo że proces sprzedaży w usłudze PSA korzysta z podstawowych funkcji proces
 - **Zamknięcie ofert jako utraconych lub wygranych** — w usłudze PSA, kiedy oferta projektu jest zamykana jako wygrana lub utracona, szansa sprzedaży pozostaje otwarta. Wszystkie pozostałe oferty z szansy sprzedaży zostają zamknięte jako utracone. W przypadku sprzedaży, gdy oferta jest zamykana jako wygrana lub utracona, użytkownikowi jest wyświetlany monit o wykonanie akcji na szansie sprzedaży. W zależności od wartości wprowadzonej przez użytkownika szansa sprzedaży może być ZAMKNIĘTA lub pozostawiona otwarta.
 
 ## <a name="tracking-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Śledzenie korekt ofert i planów projektów w cyklu sprzedaży
-W PSA nie można śledzić poprawek wprowadzanych do oferty. Zamiast tego konieczne jest oznaczenie istniejącej oferty **zamkniętej jako utraconej** , a następnie utworzenie nowej oferty. Oferty oparte na projektach można skopiować lub sklonować, używając PSA.
+W PSA nie można śledzić poprawek wprowadzanych do oferty. Zamiast tego konieczne jest oznaczenie istniejącej oferty **zamkniętej jako utraconej**, a następnie utworzenie nowej oferty. Oferty oparte na projektach można skopiować lub sklonować, używając PSA.
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Śledzenie komentarzy i zatwierdzania ofert i kontraktów projektów
 Użytkownik może zarządzać przeglądaniem i zatwierdzaniem ofert i kontraktów projektów przy użyciu tablicy rekordów i wpisów. Organizacja może tworzyć niestandardowe przepływy pracy i dodatki plug-in, aby przypisywać, przekierowywać, eskalować i zarządzać powiadomieniami o elementach pracy przeglądanie i zatwierdzenie.

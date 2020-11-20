@@ -3,7 +3,7 @@ title: Przypisywanie zasobu do zadania
 description: W tym temacie zamieszczono informacje dotyczące sposobu przypisywania zasobów do zadań.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082201"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125146"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Przypisywanie zasobu do zadania
 
@@ -35,7 +35,7 @@ Możesz dodać zasób do zespołu projektu, a następnie przypisać zasób do za
 
 1. Na karcie **Członek zespołu** dodaj nowego członka zespołu, wybierając **Nowy**. 
 
-2. Otworzy się panel **Szybkie tworzenie członków zespołu** , gdzie można wybrać nazwę zasobu, który można zarezerwować, i ustawić rolę. 
+2. Otworzy się panel **Szybkie tworzenie członków zespołu**, gdzie można wybrać nazwę zasobu, który można zarezerwować, i ustawić rolę. 
 
     Wybierz jedną z następujących metod alokacji, aby zarezerwować zasób:
 
@@ -58,11 +58,11 @@ Podczas tworzenia ogólnego członka zespołu poprzez przypisanie zadania tworzy
 
 2. Wpisz nazwę, jaka ma stać się nazwą zasobu zastępczego. Na przykład Menedżer programu.
 
-3. Kliknij przycisk **Utwórz** , a następnie w polu **Szybkie tworzenie członka zespołu projektu** ustaw rolę zasobu ogólnego.
+3. Kliknij przycisk **Utwórz**, a następnie w polu **Szybkie tworzenie członka zespołu projektu** ustaw rolę zasobu ogólnego.
 
 4. Możesz nadal przypisywać zadania do tego zasobu zastępczego, wybierając zasób w oknie **Selektor zasobów** dla zadania. Są one wyświetlane w obszarze **Członkowie zespołu**.
 
-5. Po zakończeniu przypisywania zasobu ogólnego wybierz zasób ogólny na karcie **Zespół** , a następnie wybierz opcję **Generuj wymaganie** , aby utworzyć wymaganie zasobu dla zasobu ogólnego.
+5. Po zakończeniu przypisywania zasobu ogólnego wybierz zasób ogólny na karcie **Zespół**, a następnie wybierz opcję **Generuj wymaganie**, aby utworzyć wymaganie zasobu dla zasobu ogólnego.
 
 6. Wybierz **Zarezerwuj** dla zasobu ogólnego. Następnie możesz użyć tablicy harmonogramu, aby wyszukać i zarezerwować zasób. Można również przesłać wymagań do spełnienia przez Menedżera zasobów.
 
@@ -70,7 +70,7 @@ Podczas tworzenia ogólnego członka zespołu poprzez przypisanie zadania tworzy
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Przypisywanie nazwanego zasobu z listy wszystkich zasobów, które można zarezerwować
 
-Możesz użyć pola wyszukiwania w oknie **Selektor zasobów** , aby wyszukać wszystkie zasoby możliwe do zarezerwowania i przypisać je do zadania.
+Możesz użyć pola wyszukiwania w oknie **Selektor zasobów**, aby wyszukać wszystkie zasoby możliwe do zarezerwowania i przypisać je do zadania.
 
 Zasoby przypisane w ten sposób zostaną dodane do zespołu bez żadnych rezerwacji. Jest to sposób podobny do dodawania członka zespołu i wybierania opcji Brak jako metody alokacji. Zasoby będą wyświetlane na kartach **Zespół** i **Uzgadnianie** jako zasoby z przydziałami i deficytem rezerwacji. Zarezerwuj je, jeśli chcesz użyć ich dostępności.
 

@@ -3,7 +3,7 @@ title: Zatwierdzaniu czasu i wydatków
 description: Zatwierdzanie czasu i wydatków w Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082190"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127126"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Zatwierdź czas i wydatki (Project Service)
 
@@ -35,7 +35,7 @@ Po wprowadzeniu przez konsultantów czasu i wydatków związanych z projektem, n
   
 2.  Kliknij element, aby zatwierdzić.  
   
-3.  W kartach **Wpisy czasu** , **Wpisy wydatków** , i **Nieobecność/urlop** przejrzyj wszystkie elementy i wprowadź niezbędne zmiany.  
+3.  W kartach **Wpisy czasu**, **Wpisy wydatków**, i **Nieobecność/urlop** przejrzyj wszystkie elementy i wprowadź niezbędne zmiany.  
   
 4.  Aby zatwierdzić element, zaznacz go i kliknij **Zatwierdź**. Możesz zaznaczyć i zatwierdzić wiele elementów jednocześnie.  
   

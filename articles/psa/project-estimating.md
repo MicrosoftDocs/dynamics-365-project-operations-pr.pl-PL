@@ -3,7 +3,7 @@ title: Koszty i przychody w projekcie
 description: Ten temat zawiera informacje o szacowaniu kosztów i przychodów w projekcie.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082042"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127981"
 ---
 # <a name="project-costs-and-revenue"></a>Koszty i przychody w projekcie
 
@@ -80,7 +80,7 @@ W widoku faz czasowych całkowity nakład pracy szacowany dla zadania jest rozk�
 
 ### <a name="work-hours-based-allocation"></a>Alokacja w oparciu o godziny pracy
  
-W trybie zadania planowanego automatycznie domyślne dzienne godziny pracy dla zasobów wykonujących zadania są ustawiane na pełne obciążenie godzinowe pracą. To zachowanie jest stosowane podczas przydzielania nakładu pracy poprzez rozłożenie go na czas trwania zadania w widoku faz czasowych. Na przykład jeśli szacujesz, że zadanie zostanie wykonane przez jeden zasób w granicach skali czasu **Dzień** , nakład pracy przydzielony na dzień nie przekroczy godzin pracy na dzień określonych w kalendarzu projektu. W związku z tym przydział nakładu pracy zawsze gwarantuje, że zasoby zostaną wykorzystane w ciągu pełnego dnia.
+W trybie zadania planowanego automatycznie domyślne dzienne godziny pracy dla zasobów wykonujących zadania są ustawiane na pełne obciążenie godzinowe pracą. To zachowanie jest stosowane podczas przydzielania nakładu pracy poprzez rozłożenie go na czas trwania zadania w widoku faz czasowych. Na przykład jeśli szacujesz, że zadanie zostanie wykonane przez jeden zasób w granicach skali czasu **Dzień**, nakład pracy przydzielony na dzień nie przekroczy godzin pracy na dzień określonych w kalendarzu projektu. W związku z tym przydział nakładu pracy zawsze gwarantuje, że zasoby zostaną wykorzystane w ciągu pełnego dnia.
 
 ### <a name="even-allocation"></a>Alokacja równomierna
 
@@ -88,7 +88,7 @@ W trybie zadania planowanego ręczne nie są używane godziny pracy z kalendarza
 
 ## <a name="grouping-and-time-phasing-options"></a>Opcje grupowania i faz czasowych
 
-Ten widok faz czasowych pokazuje rozkład szacunków nakładu pracy, kosztów i sprzedaży dla dnia, tygodnia, miesiąca lub roku. Domyślnie dane szacunkowe są prezentowane względem wymiaru **Rola**. Można jednak użyć opcji **Grupuj według** , aby pokazać widok według dwóch innych wymiarów: **Kategoria** i **Zasób**.
+Ten widok faz czasowych pokazuje rozkład szacunków nakładu pracy, kosztów i sprzedaży dla dnia, tygodnia, miesiąca lub roku. Domyślnie dane szacunkowe są prezentowane względem wymiaru **Rola**. Można jednak użyć opcji **Grupuj według**, aby pokazać widok według dwóch innych wymiarów: **Kategoria** i **Zasób**.
 
 W obu rodzajach widoków — siatki i faz czasowych — można wybrać pola, które będą wyświetlane. Sumy każdego bloku czasu są widoczne u dołu projektu. Pokazują one łączny szacowany nakład pracy, koszt i sprzedaż w dniu, tygodniu, miesiącu lub roku. Domyślny koszt własny i cena sprzedaży mają daty obowiązywania. Innymi słowy zmieniają się dla każdego zasobu w zależności od wybranego widoku faz czasowych.
 
