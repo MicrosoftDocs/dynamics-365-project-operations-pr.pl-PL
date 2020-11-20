@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081909"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180610"
 ---
 # <a name="set-up-labor-cost-rates"></a>Konfigurowanie stawek kosztów wykonanej pracy
 
@@ -22,13 +22,13 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 Każdy cennik ma zestaw stawek pracy (ceny ról), który jest wyrównany do treści i daty obowiązywania danego cennika.
 
-1. Utwórz cennik i na karcie **Ceny ról** , w podsiatce wybierz pozycję **+ Nowa cena roli**.
+1. Utwórz Cennik i na karcie **Cena ról** w podsiatce wybierz opcję **Nowa rola**.
 2. Na stronie **Szybkie tworzenie** wybierz rolę i jednostkę organizacyjną.
 3. Wprowadź inne informacje w wymaganych polach.
 
 Poniższa tabela zawiera pola, które są istotne podczas tworzenia stawek pracy w cenniku kosztów.
 
-| Pole | Lokalizacja | Stopień zgodności, cel i wskazówki | Wpływ zmian w dalszych etapach |
+| Pole | Lokalizacja | Opis | Wpływ zmian w dalszych etapach |
 | --- | --- | --- | --- |
 | Rola | Karta **Ogólne** i strony **Szybkie tworzenie** | Wybierz rolę, której dotyczy stawka kosztu. | Rola na oszacowaniu przychodzącym lub wartości rzeczywistej, dopasowana do tego wiersza domyślnej stawki kosztu za rolę. |
 | Firma zasobów | Karta **Ogólne** i strony **Szybkie tworzenie** | Wybierz firmę lub podmiot prawny, do którego rola jest przypisana. Na przykład deweloper z firmy Fabrikam India lub deweloper z firmy Fabrikam USA. | Firma zasobów na oszacowaniu przychodzącym lub wartości rzeczywistej, dopasowana do tego wiersza domyślnej stawki kosztu za rolę. |
@@ -40,7 +40,7 @@ Poniższa tabela zawiera pola, które są istotne podczas tworzenia stawek pracy
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Przenieś ceny i koszty zasobów poza dział lub podmiot prawny
 
-Przedsiębiorstwa oparte na projektach często używają pracowników z różnych działów firmy lub różnych podmiotów prawnych w pracy nad projektami. Projekty mogą być wykonywane w ramach określonego podmiotu prawnego, podczas gdy pracownicy lub konsultanci pracujący nad projektem mogą pochodzić z tego samego lub innego podmiotu bądź działu. Może też istnieć połączenie tych możliwości. W Dynamics 365 Project Operations podmiot prawny, który jest właścicielem usługi dostarczania projektu, jest nazywany **Firmą będącą właścicielem** , natomiast dział, któremu należy dostarczyć usługi to **Jednostka zamawiająca**. Każdy inny podmiot prawny, który zawiera zasoby, jest zwany **Firmami zasobów** , a wydziały, które zawierają zasoby, to **Jednostki zasobów**. W większości krajów firma jest zobowiązana zapewnić, że osoba lub oddział prawny, który chce skorzystać z tej osoby, obciążą firmę będącą właścicielem oraz jednostkę zamawiającą do korzystania z zasobów.
+Przedsiębiorstwa oparte na projektach często używają pracowników z różnych działów firmy lub różnych podmiotów prawnych w pracy nad projektami. Projekty mogą być wykonywane w ramach określonego podmiotu prawnego, podczas gdy pracownicy lub konsultanci pracujący nad projektem mogą pochodzić z tego samego lub innego podmiotu bądź działu. Może też istnieć połączenie tych możliwości. W Dynamics 365 Project Operations podmiot prawny, który jest właścicielem usługi dostarczania projektu, jest nazywany **Firmą będącą właścicielem**, natomiast dział, któremu należy dostarczyć usługi to **Jednostka zamawiająca**. Każdy inny podmiot prawny, który zawiera zasoby, jest zwany **Firmami zasobów**, a wydziały, które zawierają zasoby, to **Jednostki zasobów**. W większości krajów firma jest zobowiązana zapewnić, że osoba lub oddział prawny, który chce skorzystać z tej osoby, obciążą firmę będącą właścicielem oraz jednostkę zamawiającą do korzystania z zasobów.
 
 Na przykład firma Fabrikam Corporation musi zagwarantować, że firma Fabrikam India-Robotics wynegocjowała stawkę kosztów z Fabrikam US-Robotics lub Fabrikam UK-Robotics.
 
@@ -48,7 +48,7 @@ Deweloper z Fabrikam India pobiera 100 USD, gdy jest wypożyczony do Fabrikam US
 
 ### <a name="set-up-costs-for-outside-resources"></a>Konfigurowanie kosztów zasobów zewnętrznych
 
-1. Utwórz cennik o nazwie, *stawki kosztów US Fabrikam-Robotics* , a następnie ustaw obowiązujące daty.
+1. Utwórz cennik o nazwie, *stawki kosztów US Fabrikam-Robotics*, a następnie ustaw obowiązujące daty.
 2. Korzystając z informacji zawartych w tabeli można ustawić stawki na liście kosztów. 
 
 | Rola | Firma zasobów | Jednostka zasobów | Stawka kosztów |

@@ -1,21 +1,21 @@
 ---
-title: Konfigurowanie stawek rozliczania wykonanej pracy
+title: Konfigurowanie stawek weksli robocizny — wersja uproszczona
 description: W tym temacie zamieszczono informacje dotyczące sposobu konfigurowania stawek rozliczania wykonanej pracy w Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082074"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181195"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Definiowanie stawek rozliczania wykonanej pracy na potrzeby rozliczania pracy 
+# <a name="set-up-labor-bill-rates---lite"></a>Konfigurowanie stawek weksli robocizny — wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
@@ -27,7 +27,7 @@ Każdy cennik ma zestaw stawek pracy, inaczej cen ról, które obowiązują w ra
 
   W poniższej tabeli podano pola na karcie **Ogólne** oraz w okienku **Szybkie tworzenie** z wiersza cen z rolami, o których trzeba pamiętać, podczas tworzenia cen ról w cenniku sprzedaży:
 
-  | Pole | Lokalizacja | Stopień zgodności, cel i wskazówki | Wpływ zmian w dalszych etapach |
+  | Pole | Lokalizacja | Opis | Wpływ zmian w dalszych etapach |
   | --- | --- | --- | --- |
   | Rola | Karta **Ogólne** i okienko **Szybkie tworzenie** | Wybierz rolę, dla której chcesz ustawić stawkę rozliczenia. | Rola na oszacowaniu przychodzącym lub wartości rzeczywistej, dopasowana do tego wiersza domyślnej stawki rozliczeń za rolę. |
   | Jednostka zasobów | Karta **Ogólne** i okienko **Szybkie tworzenie** | Wybierz jednostkę organizacyjną lub wydział firmy, do której należy rola. Na przykład deweloper z działu robotyki w Fabrikam India lub deweloper z działu oprogramowania w Fabrikam USA. | Jednostka zasobów na oszacowaniu przychodzącym lub wartości rzeczywistej, dopasowana do tego wiersza domyślnej stawki rozliczeń za rolę. |

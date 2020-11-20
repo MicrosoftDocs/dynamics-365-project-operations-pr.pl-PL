@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e5a2402a2c1059ff11dbe1a331a028da77958235
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081931"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180295"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Konfigurowanie kosztów i stawek sprzedaży na potrzeby wydatku
 
@@ -24,17 +24,17 @@ W ramach Dynamics 365 Project Operations można skonfigurować koszty i ceny spr
 W celu skonfigurowania kosztów i stawek sprzedaży dla kategorii transakcji wykonaj poniższe kroki. 
 
 1. Utwórz cennik na podstawie nagłówka cennika. 
-2. W **Cenach kategorii** , w menu podsiatki wybierz pozycję **+ Nowa cena kategorii**. 
+2. Na **Ceny kategorii** w menu podsiatce wybierz pozycję **+ Nowa cena kategorii**. 
 3. Na stronie **Szybkie tworzenie** wprowadź kategorię transakcji i jednostkę, dla której jest tworzona nowa cena.
 
 W poniższej tabeli podano pola na karcie **Ogólne** oraz na stronie **Szybkie tworzenie** z wiersza cen z kategoriami, o których trzeba pamiętać, podczas tworzenia cen kategorii w cenniku sprzedaży lub kosztów:
 
-| Pole | Lokalizacja | Stopień zgodności, cel i wskazówki | Wpływ zmian w dalszych etapach |
+| Pole | Lokalizacja | Opis | Wpływ zmian w dalszych etapach |
 | --- | --- | --- | --- |
 | Kategoria transakcji | Karta **Ogólne** i strony **Szybkie tworzenie** | Wybierz kategorię transakcji, dla której tworzysz cenę sprzedaży lub kosztu własnego. | Kategoria transakcji na oszacowaniu przychodzącym lub wartości rzeczywistej wydatku będzie dopasowana do tego wiersza domyślnej stawki kosztu lub sprzedaży za kategorię transakcji. |
 | Harmonogram jednostek | Karta **Ogólne** i strony **Szybkie tworzenie** | Harmonogram jednostki jest pobierany domyślnie z harmonogramu w kategorii transakcji. | To pole nie ma wpływu na dalsze etapy. |
 | Jednostka | Karta **Ogólne** i strony **Szybkie tworzenie** | Wybierz jednostkę, dla której są ustawiane stawki. | Jednostka w szacowaniu przychodzącej lub wartość rzeczywista jest dopasowana do jednostki w tym wierszu w celu ustawienia domyślnej stawki w szacowaniu wydatku lub wartości rzeczywistej. |
-| Metoda kalkulacji cen | Karta **Ogólne** i strony **Szybkie tworzenie** | Dopuszczalne wartości pola **Metoda kalkulacji ceny** to **Cena jednostkowa** , **Po kosztach** i **Narzut po koszcie**. | Podczas konfigurowania cen wybranie opcji **Cena na jednostkę** zablokuje cenę w polu **Procent** w wierszu kategorii. W przypadku wyboru **Po kosztach** , pola **Cena** i **Procent** są blokowane w cenniku sprzedaży. Wybór opcji **Narzut po kosztach** powoduje zablokowanie pola **Cena** na liście cen sprzedaży. W przypadku przychodzącej linii kosztów rzeczywistych wydatku, metoda kalkulacji **Po kosztach** lub **Narzut po kosztach** skutkuje przypisaniem nierozliczonych wierszy sprzedaży do ceny, która jest równa cenie z rzeczywistego kosztu lub obliczonej jako narzut po kosztach. |
+| Metoda kalkulacji cen | Karta **Ogólne** i strony **Szybkie tworzenie** | Dopuszczalne wartości pola **Metoda kalkulacji ceny** to **Cena jednostkowa**, **Po kosztach** i **Narzut po koszcie**. | Podczas konfigurowania cen wybranie opcji **Cena na jednostkę** zablokuje cenę w polu **Procent** w wierszu kategorii. W przypadku wyboru **Po kosztach**, pola **Cena** i **Procent** są blokowane w cenniku sprzedaży. Wybór opcji **Narzut po kosztach** powoduje zablokowanie pola **Cena** na liście cen sprzedaży. W przypadku przychodzącej linii kosztów rzeczywistych wydatku, metoda kalkulacji **Po kosztach** lub **Narzut po kosztach** skutkuje przypisaniem nierozliczonych wierszy sprzedaży do ceny, która jest równa cenie z rzeczywistego kosztu lub obliczonej jako narzut po kosztach. |
 | Cena | Karta **Ogólne** i strony **Szybkie tworzenie** | W tym celu należy skonfigurować stawkę jednostkową dla każdej kategorii transakcji i jednostek. Na przykład stawka na odległość to 10 USD za milę i 8 USD za kilometr. | Stawka za przejechaną trasę jest stawką kosztową domyślną dla każdego kosztu jednostkowego lub ceny w szacowaniu przychodzącym lub wartości rzeczywistej dla klasy transakcji wydatek.|
 | Procent | Karta **Ogólne** i strony **Szybkie tworzenie** | W tym celu należy skonfigurować wartość procentową ponad koszt dla każdej kategorii transakcji i jednostek. Na przykład współczynnik związany ze sprzedażą lotniczą być oznaczony 10 procentowym narzutem z powodu poniesionych kosztów transportu. | Procent narzutu na koszt ma zastosowanie tylko do cennika sprzedaży jeśli wybrana metoda kalkulacji ceny to **Narzut na koszt**. |
 | Waluta | Karta **Ogólne** i strony **Szybkie tworzenie** | Domyślnie ta wartość pochodzi z waluty w nagłówku cennika. W przypadku cennika kategorii transakcji nie można zastąpić waluty. | Ta waluta to domyślna waluta każdego kosztu jednostkowego w transakcji wydatków dla kosztów i sprzedaży. |

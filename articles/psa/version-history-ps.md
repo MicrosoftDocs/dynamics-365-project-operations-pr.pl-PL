@@ -2,9 +2,9 @@
 title: Harmonogram wydań aktualizacji dla rozwiązania Project Service 3.x
 description: W tym temat zamieszczono informacje o dostępnych i przyszłych wydaniach programu Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 10/17/2020
+ms.date: 11/01/2020
 ms.reviewer: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -23,12 +23,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c56da47b5084ffdae8cc5af66d2f2dba395a7a7c
-ms.sourcegitcommit: 57e223bf6e211e4afc748b75dcbf06a25b752155
+ms.openlocfilehash: bf1203884cb4e49e0982bffb3092730122b2be9c
+ms.sourcegitcommit: 2848a8a654df601911593da8e2f9b6ffd6adc702
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4082240"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "4404828"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Harmonogram wydań aktualizacji dla rozwiązania Project Service 3.x
 
@@ -36,7 +36,7 @@ ms.locfileid: "4082240"
 
 | Rozwiązanie  | Najnowsza wersja |
 |-------|----|
-| Automatyzacja usługi projektów    |  3.10.42.43  |
+| Automatyzacja usługi projektów    | 3.10.43.76 |
 | Dodatek rozwiązania Project Service Automation na komputery                | 3.15          |
 
 Aby uzyskać informacje na temat aktualizacji usługi Project Service, odwiedź [Plany wydań Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/). 
@@ -44,27 +44,27 @@ Aby uzyskać informacje na temat aktualizacji usługi Project Service, odwiedź 
 | Stacja  | Region | Bieżąca wersja | Następna wersja |  Zaplanowana data
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stacja 1</strong> | |  |  | |
-| | <i>Pierwsze wydanie</i> | [3.10.42.43](whats-new-ur-24.md) | Do ustalenia | 23 października 2020
+| | <i>Pierwsze wydanie</i> | [3.10.43.76](whats-new-ur-25.md) | Do ustalenia | 20 listopada, 2020 roku
 |<strong>Stacja 2</strong> | |  |  | |
-| | <i>Ameryka Południowa</i> | [3.10.42.43](whats-new-ur-24.md) | Do ustalenia | 30 października 2020
-| | <i>Kanada</i> | [3.10.42.43](whats-new-ur-24.md) | Do ustalenia | 30 października 2020 
-| | <i>Indie</i> | [3.10.42.43](whats-new-ur-24.md) | Do ustalenia | 30 października 2020
-| | <i>Francja</i> | [3.10.42.43](whats-new-ur-24.md) | Do ustalenia | 30 października 2020
-| | <i>Zjednoczone Emiraty Arabskie</i> | [3.10.42.43](whats-new-ur-24.md) | Do ustalenia | 30 października 2020
-| | <i>Republika Południowej Afryki</i> | [3.10.42.43](whats-new-ur-24.md) | Do ustalenia | 30 października 2020
-| | <i>Niemcy</i> | [3.10.42.43](whats-new-ur-24.md) | Do ustalenia | 30 października 2020
+| | <i>Ameryka Południowa</i> | [3.10.43.76](whats-new-ur-25.md) | Do ustalenia | 27 listopada, 2020 roku
+| | <i>Kanada</i> | [3.10.43.76](whats-new-ur-25.md) | Do ustalenia | 27 listopada, 2020 roku 
+| | <i>Indie</i> | [3.10.43.76](whats-new-ur-25.md) | Do ustalenia | 27 listopada, 2020 roku
+| | <i>Francja</i> | [3.10.43.76](whats-new-ur-25.md) | Do ustalenia | 27 listopada, 2020 roku
+| | <i>Zjednoczone Emiraty Arabskie</i> | [3.10.43.76](whats-new-ur-25.md) | Do ustalenia | 27 listopada, 2020 roku
+| | <i>Republika Południowej Afryki</i> | [3.10.43.76](whats-new-ur-25.md) | Do ustalenia | 27 listopada, 2020 roku
+| | <i>Niemcy</i> | [3.10.43.76](whats-new-ur-25.md) | Do ustalenia | 27 listopada, 2020 roku
 |<strong>Stacja 3</strong> | |  |  | |
-| | <i>Japonia</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | 9 października 2020 
-| | <i>Azja/Pacyfik</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | 9 października 2020
-| | <i>Wielka Brytania</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | 9 października 2020
-| | <i>Oceana</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | 9 października 2020
+| | <i>Japonia</i> | [3.10.43.76](whats-new-ur-25.md) | Do ustalenia | 11 grudnia 2020
+| | <i>Azja/Pacyfik</i> | [3.10.43.76](whats-new-ur-25.md) | Do ustalenia | 11 grudnia 2020
+| | <i>Wielka Brytania</i> | [3.10.43.76](whats-new-ur-25.md) | Do ustalenia | 11 grudnia 2020
+| | <i>Oceana</i> | [3.10.43.76](whats-new-ur-25.md) | Do ustalenia | 11 grudnia 2020
 |<strong>Stacja 4</strong> | |  |  | |
-| | <i>Europa</i> |[3.10.42.43](whats-new-ur-24.md) | Do ustalenia | 13 listopada, 2020 roku
+| | <i>Europa</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 13 listopada, 2020 roku
 |<strong>Stacja 5</strong> | |  |  | |
-| | <i>Ameryka Północna</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | 23 października 2020
+| | <i>Ameryka Północna</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 20 listopada, 2020 roku
 |<strong>Stacja 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | 30 października 2020
-| | <i>Dedykowane grupy skalowania</i> |[3.10.34.30](whats-new-ur-23.md) | [3.10.42.43](whats-new-ur-24.md) | 30 października 2020
+| | <i>Government Community Cloud</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 20 listopada, 2020 roku
+| | <i>Dedykowane grupy skalowania</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 27 listopada, 2020 roku
 
 >[!Note]
 > - Daty we wszystkich regionach poza chmurą Government Community Cloud (GCC) wskazują chronometraż następnej aktualizacji automatycznej. Daty w GCC wskazują dostępność wersji; w tej chwili nie ma automatycznej aktualizacji dla tych regionów.

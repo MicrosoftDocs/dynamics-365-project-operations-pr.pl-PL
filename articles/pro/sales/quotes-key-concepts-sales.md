@@ -1,21 +1,21 @@
 ---
-title: Kluczowe pojęcia dotyczące oferty projektu
+title: Oferty - Kluczowe pojęcia - wersja uproszczona
 description: Ta temat zawiera informacje na temat używania ofert w Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081936"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4178019"
 ---
-# <a name="project-quote-key-concepts"></a>Kluczowe pojęcia dotyczące oferty projektu
+# <a name="quotes---key-concepts---lite"></a>Oferty - Kluczowe pojęcia - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
@@ -78,7 +78,7 @@ Transakcje dotyczące wielu klientów mają miejsce, gdy na fakturze znajduje si
 
 ## <a name="invoice-schedules"></a>Harmonogram fakturowania
 
-Harmonogramy fakturowania są specyficzne dla każdego wiersza oferty i są również opcjonalne. Harmonogramy fakturowania są tworzone na podstawie określonych dat rozpoczęcia i zakończenia oraz częstotliwości faktur. Harmonogramy fakturowania są używane na etapie kontraktu podczas konfigurowania automatycznej operacji tworzenia faktur. Na etapie oferty harmonogramy są opcjonalne. Kiedy harmonogramy faktur są tworzone na etapie **Oferty** , są one kopiowane do kontraktu projektu tworzonego przy wykorzystaniu oferty projektu.
+Harmonogramy fakturowania są specyficzne dla każdego wiersza oferty i są również opcjonalne. Harmonogramy fakturowania są tworzone na podstawie określonych dat rozpoczęcia i zakończenia oraz częstotliwości faktur. Harmonogramy fakturowania są używane na etapie kontraktu podczas konfigurowania automatycznej operacji tworzenia faktur. Na etapie oferty harmonogramy są opcjonalne. Kiedy harmonogramy faktur są tworzone na etapie **Oferty**, są one kopiowane do kontraktu projektu tworzonego przy wykorzystaniu oferty projektu.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Zmiany z oferty Dynamics 365 Sales:
 

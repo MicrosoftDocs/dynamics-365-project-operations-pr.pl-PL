@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081945"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180835"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Harmonogramy fakturowania w wierszach oferty opartej na projekcie
 
@@ -32,7 +32,7 @@ Kiedy metoda fakturowania w wierszu oferty opartej na projekcie to czas i materi
 3. Otwórz wiersz oferty typu czas i materiały, dla którego chcesz utworzyć harmonogram fakturowania opartego na datach. 
 4. Na karcie **Harmonogram fakturowania** wybierz wartości w polach **Rozpoczęcie fakturowania** i **Częstotliwość fakturowania**. 
 5. W podsiatce wybierz pozycję **Utwórz harmonogram fakturowania**.
-6. Aplikacja generuje harmonogram faktur dla pól **Data przebiegu fakturowania** , **Ostateczny termin transakcji** oraz **Stan przebiegu** w następujący sposób:
+6. Aplikacja generuje harmonogram faktur dla pól **Data przebiegu fakturowania**, **Ostateczny termin transakcji** oraz **Stan przebiegu** w następujący sposób:
 
     - **Data przebiegu fakturowania** jest ustawiana na datę określoną na bazie częstotliwości faktur.
     - **Ostateczny termin transakcji** jest ustawiany na dzień wcześniej niż **Data przebiegu fakturowania**.
@@ -58,9 +58,9 @@ Kiedy wiersz oferty opartej na projekcie ma **Stałą** metodę fakturowania, sy
 
 Punkty kontrolne ze stałymi cenami mogą również zostać wygenerowane ręcznie, kiedy nie są okresowo dzielone. Aby ręcznie utworzyć okresowy punkt kontrolny:
 
-Otwórz wiersz oferty o stałej cenie, dla którego chcesz utworzyć punkt kontrolny. Na karcie **Harmonogram faktur** wybierz w podsiatce pozycję **+ Utwórz nowy punkt kontrolny wiersza oferty** i wprowadź wymagane informacje na podstawie poniższej tabeli.
+Otwórz wiersz oferty o stałej cenie, dla którego chcesz utworzyć punkt kontrolny. Na karcie **Harmonogram faktur** w podsiatce wybierz pozycję **+ Utwórz nowy punkt kontrolny wiersza oferty** i wprowadź wymagane informacje na podstawie poniższej tabeli.
 
-| **Pole** | **Lokalizacja** | **Stopień zgodności, cel i wskazówki** | **Wpływ zmian w dalszych etapach** |
+| **Pole** | **Lokalizacja** | **Opis** | **Wpływ zmian w dalszych etapach** |
 | --- | --- | --- | --- |
 | Nazwa punktu kontrolnego | Szybkie tworzenie | Nazwa punktu kontrolnego. | Następuje skopiowanie punktów kontrolnych do pozycji kontraktu projektu i do faktury |
 | Zadanie projektu | Szybkie tworzenie | Jeśli punkt kontrolny jest związany z zadaniem projektu, można użyć tego odwołania w celu dodania logiki niestandardowej, a stan punktów kontrolnych zostanie ustawiony na podstawie stanu zadania. | W takim przypadku aplikacja nie ma wpływu na to odwołanie do zadania. |

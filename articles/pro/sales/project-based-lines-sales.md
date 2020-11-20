@@ -1,21 +1,21 @@
 ---
-title: Wiesze szansy sprzedaży oparte na projekcie (pro)
+title: Wiesze szansy sprzedaży opartej na projekcie - wersja uproszczona
 description: Ten temat zawiera informacje na temat wierszy szans sprzedaży opartych na projekcie. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081937"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181025"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Wiesze szansy sprzedaży oparte na projekcie (pro)
+# <a name="project-based-opportunity-lines---lite"></a>Wiesze szansy sprzedaży opartej na projekcie - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
@@ -25,7 +25,7 @@ Wiersze szans sprzedaży opartych na projektach są wierszami pozycji, które b�
 
 Poniżej wymieniono pola w wierszu szansy sprzedaży opartej na projekcie:
 
-| **Pole** | **Lokalizacja** | **Stopień zgodności, cel i wskazówki** | **Wpływ zmian w dalszych etapach** |
+| **Pole** | **Lokalizacja** | **Opis** | **Wpływ zmian w dalszych etapach** |
 | --- | --- | --- | --- |
 | Typ produktu | Karta Ogólne (ukryta) | W obszarze możesz wybrać jedną z następujących opcji:</br>- Usługa oparta na projekcie (dostępne tylko wtedy, gdy Dynamics 365 Project Operations jest zainstalowane)</br>- Produkt (dostępne tylko wtedy, gdy jest zainstalowane Project Operations i Dynamics 365 Sales) | Wartość tego pola jest ustawiona na **Usługę opartą na projekcie** podczas tworzenia wiersza szansy sprzedaży opartej na projekcie z poziomu siatki wierszy opartych na projekcie w sekcji szansy sprzedaży. <br> Zmiana lub zastąpienie tej wartości spowoduje, że w wierszach opartych na projekcie nie zostaną włączone funkcje projektu. |
 | Szansa sprzedaży | Karta Ogólne | To pole jest w trybie do odczytu i zawiera odwołanie do rekordu szansy sprzedaży nadrzędnej, do którego należy ten element wiersza. | To pole nie ma wpływu na dalsze etapy. |

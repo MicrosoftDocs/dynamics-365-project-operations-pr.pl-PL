@@ -1,21 +1,21 @@
 ---
-title: Fakturowanie płatności opartej na zatrzymaniu lub zaliczce
+title: Fakturowanie płatności opartej na zatrzymaniu lub zaliczce - wersja uproszczona
 description: Ten temat zawiera informacje na temat fakturowania zatrzymania lub zaliczki w Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088045"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180565"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Fakturowanie płatności opartej na zatrzymaniu lub zaliczce
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Fakturowanie płatności opartej na zatrzymaniu lub zaliczce - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
@@ -32,8 +32,8 @@ Wykonaj poniższe kroki, aby skonfigurować fakturowanie zatrzymania lub zaliczk
 
 Istnieje możliwość utworzenia zatrzymania lub zaliczki bezpośrednio na fakturze.
 
-1. Na wersji roboczej faktury, w podsiatce **Zaliczki i zatrzymania** wybierz opcję **Nowe** , aby utworzyć nowe zatrzymanie lub zaliczkę. 
-2. Na stronie **Szybkie tworzenie** dodaj wymagane informacje, a następnie wybierz pozycję **Zapisz**. W kontrakcie związanym z fakturą jest tworzone zatrzymanie lub zaliczka powiązana z fakturą. Na stronie **Zatrzymania i zaliczki** zaliczka lub zatrzymanie są automatycznie oznaczane jako **Gotowe do zafakturowania** , a następnie dodawane do podsiatki strony **Faktura**.
+1. Na wersji roboczej faktury, w podsiatce **Zaliczki i zatrzymania** wybierz opcję **Nowe**, aby utworzyć nowe zatrzymanie lub zaliczkę. 
+2. Na stronie **Szybkie tworzenie** dodaj wymagane informacje, a następnie wybierz pozycję **Zapisz**. W kontrakcie związanym z fakturą jest tworzone zatrzymanie lub zaliczka powiązana z fakturą. Na stronie **Zatrzymania i zaliczki** zaliczka lub zatrzymanie są automatycznie oznaczane jako **Gotowe do zafakturowania**, a następnie dodawane do podsiatki strony **Faktura**.
 
 ## <a name="reconcile-an-invoiced-retainer-or-advance"></a>Uzgadnianie fakturowanej zaliczki lub zatrzymania
 
@@ -43,7 +43,7 @@ Na wszystkich fakturach wygenerowanych dla kontraktu dotyczącego projektu z zaf
 
 Można to zobaczyć na siatce **Zastosowane zaliczki i zatrzymania** na stronie **Faktura**. Poniższa tabela zawiera informacje na temat pól w siatce **Zastosowane zaliczki i zatrzymania** na stronie **Faktura projektu**.
 
-| Pole | Lokalizacja | Stopień zgodności, cel i wskazówki | Wpływ zmian w dalszych etapach |
+| Pole | Lokalizacja | Opis | Wpływ zmian w dalszych etapach |
 | --- | --- | --- | --- |
 | Opis | Siatka **Zastosowane zaliczki i zatrzymania** na stronie **Faktura projektu** |To pole jest tylko do odczytu i zawiera opis zatrzymania lub zaliczki użytych na tej fakturze. Nie można zmienić tej wartości na fakturze. Tę wartość można zaktualizować w podsiatce na stronie **Kontraktu projektu**. | To pole może być wyświetlane klientowi na wydrukowanej fakturze w celu wskazania, które z tych zatrzymań lub zaliczek zostało zastosowane do faktury. |
 | Data dostarczenia | Siatka **Zastosowane zaliczki i zatrzymania** na stronie **Faktura projektu**  | To pole jest tylko do odczytu i zawiera datę faktury dla zatrzymania lub zaliczki. Nie można zmienić tej wartości na fakturze. Tę wartość można zaktualizować w podsiatce na stronie **Kontraktu projektu**. | To pole może być wyświetlane klientowi na wydrukowanej fakturze w celu wskazania daty zastosowania po raz pierwszy zatrzymania lub zaliczki. |

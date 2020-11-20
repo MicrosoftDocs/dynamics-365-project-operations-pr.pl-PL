@@ -3,17 +3,17 @@ title: Określenie typu wdrażania
 description: W tym temacie zamieszczono informacje pozwalające wybrać odpowiedni typ wdrożenia Project Operations dla Twojej firmy.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082016"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401231"
 ---
 # <a name="determine-your-deployment-type"></a>Określenie typu wdrażania
 
@@ -25,11 +25,11 @@ _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i 
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Istniejący klienci systemu Dynamics — korzystając z Dynamics 365 Project Service Automation
-Project Operations obejmuje funkcje dostarczone z automatyzacją usługi Project Service Automation. W przyszłości dla tych klientów zostanie wydana ścieżka uaktualniania.
+Project Operations obejmuje funkcje dostarczone z automatyzacją usługi Project Service Automation. Ścieżka aktualizacji zostanie wydana dla tych klientów w pierwszej fazie wydania 2021.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Obecni klienci Dynamics 365 Finance korzystający z programu Project Management and Accounting 
 
-Istniejący użytkownicy Finance, którzy korzystają z Project Management and Accounting mogą dalej korzystać z programu w taki sam sposób, jak dotychczas. Zobacz [Project Operations — scenariusze obejmujące magazynowanie / zlecenia produkcyjne](#pma).
+Obecni klienci Finance, którzy używają funkcji zarządzania projektami i księgowości, mogą nadal korzystać z niej w obecnej postaci. Zobacz [Project Operations — scenariusze obejmujące magazynowanie / zlecenia produkcyjne](#pma).
 
 
 ## <a name="deployment-types"></a>Typy wdrożenia
@@ -47,12 +47,13 @@ Project Operations obsługuje scenariusze dotyczące zleceń magazynowania / zle
 
 We wdrożeniu uproszczonym dostępne są następujące możliwości:
 
+- Proces sprzedaży dla projektów, który rozszerza środowisko aplikacji Dynamics 365 Sales
 - Planowanie projektów przy użyciu programu Microsoft Project dla sieci Web
 - Wielowymiarowe ceny
 - Zunifikowane zarządzanie zasobami
 - Śledzenie czasu
 - Podstawowe wydatki
-- Propozycja faktury
+- Proforma i fakturowanie dla klientów 
 
 #### <a name="deployment-steps"></a>Kroki wdrażania
 Wyznaczanie najlepszego modelu wdrażania Project Operations przy użyciu [kwestionariusza rozmieszczenia](https://aka.ms/provisionprojectoperations).
@@ -62,7 +63,8 @@ W tym wdrożeniu zobacz [Tworzenie konta dla subskrypcji w wersji zapoznawczej](
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations — zasoby / scenariusze nieobejmujące magazynowania
 Project Operations dotyczące scenariuszy zasobów i zasobów niemagazynowanych oferują następujące możliwości:
-  
+ 
+- Proces sprzedaży dla projektów, który rozszerza aplikację Dynamics 365 Sales
 - Planowanie projektów przy użyciu programu Microsoft Project dla sieci Web
 - Wielowymiarowe ceny
 - Zunifikowane zarządzanie zasobami
@@ -70,8 +72,8 @@ Project Operations dotyczące scenariuszy zasobów i zasobów niemagazynowanych 
 - Podstawowe wydatki
 - Wydatek pełny
 - OCR paragonów
-- Pełne fakturowanie
-- Ujmowanie przychodów
+- Proforma i fakturowanie dla klientów 
+- Rozpoznawanie przychodów dla projektów
 
 #### <a name="deployment-steps"></a>Kroki wdrażania
 Wyznaczanie najlepszego modelu wdrażania Project Operations przy użyciu [kwestionariusza rozmieszczenia](https://aka.ms/provisionprojectoperations).

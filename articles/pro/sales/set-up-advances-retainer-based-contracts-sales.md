@@ -1,21 +1,21 @@
 ---
-title: Kontrakty oparte na zaliczkach i zatrzymaniach
+title: Kontrakty oparte na zaliczkach i zatrzymaniach — wersja uproszczona
 description: Ten temat zawiera informacje na temat modeli kontraktowania opartych na zatrzymaniach lub zaliczkach w Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088042"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180880"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Kontrakty oparte na zaliczkach i zatrzymaniach 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Kontrakty oparte na zaliczkach i zatrzymaniach — wersja uproszczona
 
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
@@ -33,7 +33,7 @@ Poza okresowym harmonogramem zatrzymań Project Operations mogą polegać na jed
 
 Operacja zatrzymania w Project Operations jest niedostępna do momentu zafakturowania klienta. Jest to wskazane w poniższych polach w podsiatce dla zaliczek i zatrzymań.
 
-| Pole | Stopień zgodności, cel i wskazówki | Wpływ zmian w dalszych etapach |
+| Pole | Opis | Wpływ zmian w dalszych etapach |
 | --- | --- | --- |
 | Dostępna kwota | Kwota, która jest dostępna do użycia w odniesieniu do rekordu zatrzymania lub zaliczki. | Do momentu zafakturowania zaliczki lub zatrzymania nie będzie można tego korzystać, co oznacza, że dostępna kwota będzie wynosić zero. |
 | Kwota użyta | Kwota, która jest już użyta w odniesieniu do rekordu zatrzymania lub zaliczki. | Zaliczka lub zatrzymanie na fakturze z kosztami rzeczywistymi, które będą stanowić część oznaczoną jako już wykorzystana lub zużyta, może zostać częściowo uzgodniona. Pozostała część kwoty zaliczki lub zatrzymania jest dostępna do uzgodnienia na przyszłej fakturze z kosztami rzeczywistymi. |

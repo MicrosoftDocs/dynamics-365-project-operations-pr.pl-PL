@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 578f5641659a5d05785781afe7055fe4449cf799
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088048"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180205"
 ---
 # <a name="set-up-price-lists"></a>Konfigurowanie cenników
 
@@ -23,15 +23,15 @@ Cenniki w Dynamics 365 Project Operations są odzwierciedleniem katalogu stawek.
 
 Poniższe rozszerzenia są specyficzne dla Project Operations i są stosowane do cenników z Dynamics 365 Sales.
 
-- **Kontekst** : w tym polu są obsługiwane wartości **Koszt** i **Sprzedaż**. Wartość **Zakup** jest nieobsługiwana. Ustaw kontekst na **Koszt** , co spowoduje stworzenie listy kosztów własnych lub ustaw kontekst na **Sprzedaż** , aby stworzyć cennik sprzedaży. Listy kosztów własnych służą do rozróżniania ceny według typu kosztu na rekordach szacunkowych i rzeczywistych. Cenniki sprzedaży służą do rozpoznawania ceny na oszacowanych i rzeczywistych rekordach typów sprzedaży niezafakturowanych i rozliczonych.
-- **Jednostka czasu** : jest to domyślna jednostka czasu, dla której jest ustawiana cena w pokrewnej tabeli **Cena roli** dla danego cennika.
-- **Encja cennika** : w tym ukrytym polu Project Operations dokonuje rozróżniania cenników, które są ofertami lub kontraktami, od tych, które są stosowane w sposób standardowy i globalny.
+- **Kontekst**: w tym polu są obsługiwane wartości **Koszt** i **Sprzedaż**. Wartość **Zakup** jest nieobsługiwana. Ustaw kontekst na **Koszt**, co spowoduje stworzenie listy kosztów własnych lub ustaw kontekst na **Sprzedaż**, aby stworzyć cennik sprzedaży. Listy kosztów własnych służą do rozróżniania ceny według typu kosztu na rekordach szacunkowych i rzeczywistych. Cenniki sprzedaży służą do rozpoznawania ceny na oszacowanych i rzeczywistych rekordach typów sprzedaży niezafakturowanych i rozliczonych.
+- **Jednostka czasu**: jest to domyślna jednostka czasu, dla której jest ustawiana cena w pokrewnej tabeli **Cena roli** dla danego cennika.
+- **Encja cennika**: w tym ukrytym polu Project Operations dokonuje rozróżniania cenników, które są ofertami lub kontraktami, od tych, które są stosowane w sposób standardowy i globalny.
 
 ## <a name="price-list-header"></a>Nagłówek cennika
 
 Poniższa tabela zawiera pola na karcie **Ogólne** cennika, które są unikatowe dla Project Operations lub mogą mieć znaczące zmiany w zachowaniu w stosunku do cenników z Sales.
 
-| Pole | Lokalizacja | Stopień zgodności, cel i wskazówki | Wpływ zmian w dalszych etapach |
+| Pole | Lokalizacja | Opis | Wpływ zmian w dalszych etapach |
 | --- | --- | --- | --- |
 | Nazwa/nazwisko | Karta **Ogólne** i formularze **Szybkie tworzenie** | Tożsamość cennika. | Cennik jest wyświetlany wraz z wartością na wszystkich stronach list oraz w opcjach rozwijanych.|
 | Kontekst | Karta **Ogólne** i formularze **Szybkie tworzenie** | To pole można ustawić jako **Koszt** lub **Sprzedaż**. | Cennik ustawiony na **Koszt** jest używany do wyszukiwania ceny w oszacowaniach kosztów i kosztach rzeczywistych. Cennik ustawiony na **Sprzedaż** jest używany do wyszukiwania ceny w oszacowaniach sprzedaży i wartościach rzeczywistych sprzedaży. Tylko cenniki z ustawionym kontekstem na **Sprzedaż** mogą być dołączane do cenników dla klienta, oferty lub kontraktu projektu. |

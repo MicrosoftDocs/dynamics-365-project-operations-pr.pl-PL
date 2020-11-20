@@ -1,21 +1,21 @@
 ---
-title: Podsumowanie informacji o ofercie projektu
+title: Ustawienia oferty projektu
 description: W tym temacie zamieszczono informacje na temat informacji i ustawień mających zastosowanie do ofert projektów i na nie wpływających.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081858"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180250"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Podsumowanie informacji o ofercie projektu
+# <a name="project-quote-settings"></a>Ustawienia oferty projektu
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
@@ -24,7 +24,7 @@ W tym artykule opisano informacje dotyczące oferty projektu. Obejmuje ona ustaw
 
 W poniższej tabeli zamieszczono listę pól informacji podsumowujących w ofercie projektu, które są unikatowe dla Dynamics 365 Project Operations lub istnieją istotne zmiany dotyczące zachowania ofert pomiędzy Project Operations a Dynamics 365 Sales.
 
-| **Pole** | **Lokalizacja** | **Stopień zgodności, cel i wskazówki** | **Wpływ zmian w dalszych etapach** |
+| **Pole** | **Lokalizacja** | **Opis** | **Wpływ zmian w dalszych etapach** |
 | --- | --- | --- | --- |
 | Pisz | Karta Podsumowanie (ukryte) | To pole zestawu opcji hashuje następujące opcje:</br>- Na podstawie pracy (dostępne tylko wtedy, gdy Project Operations jest zainstalowane)</br>- Na podstawie towaru (dostępne tylko wtedy, gdy jest zainstalowane Project Operations i Sales)</br>- Na podstawie wykonania usługi (dostępne po zainstalowaniu Dynamics 365 Field Service) | W przypadku korzystania z aplikacji Project Operations, wartość tego pola jest automatycznie ustawiana na **Na podstawie pracy**. To klasyfikuje tę ofertę jako ofertę opartą na projekcie. Oferta powinna być oparta na projekcie, aby można było włączyć wszystkie rozszerzenia i funkcjonalności specyficzne dla konkretnego projektu. |
 | Firma będąca właścicielem | Podsumowanie | Podmiot prawny, który będzie pokrywał koszty i przychody uzyskane z tego projektu lub projektów skojarzonych z ofertą. Gdy oferta jest tworzona z szansy sprzedaży, to pole jest kopiowane z odpowiedniego pola w szansie sprzedaży. | Firma będąca właścicielem to to samo, co koncept osoby prawnej w module **Zarządzanie projektami i księgowaniem** w Project Operations. Wszystkie koszty i przychód powstałe w wyniku tego projektu będą uwzględnione w księdze głównej firmy będącej właścicielem. |
@@ -38,7 +38,7 @@ W poniższej tabeli zamieszczono listę pól informacji podsumowujących w oferc
 
 Poniżej przedstawiono karty i wskaźniki KPI dostępne w ofercie projektu, które są unikatowe dla Project Operations, lub dla których istnieją istotne zmiany w stosunku do ofert Sales:
 
-| **Pole** | **Lokalizacja** | **Stopień zgodności, cel i wskazówki** |
+| **Pole** | **Lokalizacja** | **Opis** |
 | --- | --- | --- |
 | Analiza rentowności | Karta w ofercie | Karta ta zawiera poniższe metryki:</br>- Łączny koszt odpłatny</br></br>- Łączny koszt nieodpłatny</br>- Łączny przychód</br>- Łączny przychód (podstawowy)</br>- Marża brutto</br>- Skorygowana marża brutto|
 | Porównanie z oczekiwaniami klienta | Karta w ofercie | Ta karta ta zawiera poniższe metryki:</br>- Szacowane zakończenie</br>- Żądane zakończenie</br>- Budżet klienta</br>- Wartość oferowana |

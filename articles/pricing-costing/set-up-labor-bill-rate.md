@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082036"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180719"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>Definiowanie stawek rozliczania wykonanej pracy na potrzeby rozliczania pracy 
+# <a name="set-up-labor-bill-rates"></a>Konfigurowanie stawek weksli robocizny
 
 **Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
 
@@ -27,7 +27,7 @@ Każdy cennik ma zestaw stawek pracy, inaczej cen ról, które obowiązują w ra
 
    W poniższej tabeli podano pola na karcie **Ogólne** oraz w okienku **Szybkie tworzenie** z wiersza cen z rolami, o których trzeba pamiętać, podczas tworzenia cen ról w cenniku sprzedaży:
 
-    | Pole | Lokalizacja | Stopień zgodności, cel i wskazówki | Wpływ zmian w dalszych etapach |
+    | Pole | Lokalizacja | Opis | Wpływ zmian w dalszych etapach |
     | --- | --- | --- | --- |
     | Rola | Karta **Ogólne** i okienko **Szybkie tworzenie** | Wybierz rolę, dla której chcesz ustawić stawkę rozliczenia. | Rola na oszacowaniu przychodzącym lub wartości rzeczywistej, dopasowana do tego wiersza domyślnej stawki rozliczeń za rolę. |
     | Firma zasobów | Karta **Ogólne** i okienko **Szybkie tworzenie** | Wybierz firmę lub podmiot prawny, do którego należy rola. Na przykład deweloper z firmy Fabrikam India lub deweloper z firmy Fabrikam USA. | Firma zasobów na oszacowaniu przychodzącym lub wartości rzeczywistej, dopasowana do tego wiersza domyślnej stawki rozliczeń za rolę. |
@@ -39,7 +39,7 @@ Każdy cennik ma zestaw stawek pracy, inaczej cen ról, które obowiązują w ra
 
 ## <a name="transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions"></a>Przeniesienie kalkulacji cen lub konfigurowanie stawek naliczanych dla zasobów z innych jednostek organizacyjnych lub oddziałów 
 
-Przedsiębiorstwa oparte na projektach często korzystają z pracowników pochodzących z różnych firm i różnych działów w firmie w celu pracy nad projektami. Projekty mogą być wykonywane z poziomu określonego podmiotu prawnego i działu, podczas gdy pracownicy lub konsultanci pracujący nad projektami mogą pochodzić z tego samego lub innego podmiotu bądź działu. Projekt może również zawierać kombinacje osób z różnych oddziałów i podmiotów prawnych. W operacjach projektu podmiot prawny, który jest właścicielem usługi dostarczania projektu, jest nazywany **Firmą będącą właścicielem** , natomiast dział, któremu należy dostarczyć usługi to **Jednostka zamawiająca**. Każdy inny podmiot prawny, który zawiera zasoby, jest zwany **Firmami zasobów** , a wydziały, które zawierają zasoby, to **Jednostki zasobów**. Z uwagi na fakt, że koszty pracy na różnych rynkach na całym świecie, stawki za pracę są również różne w różnych miejscach.
+Przedsiębiorstwa oparte na projektach często korzystają z pracowników pochodzących z różnych firm i różnych działów w firmie w celu pracy nad projektami. Projekty mogą być wykonywane z poziomu określonego podmiotu prawnego i działu, podczas gdy pracownicy lub konsultanci pracujący nad projektami mogą pochodzić z tego samego lub innego podmiotu bądź działu. Projekt może również zawierać kombinacje osób z różnych oddziałów i podmiotów prawnych. W operacjach projektu podmiot prawny, który jest właścicielem usługi dostarczania projektu, jest nazywany **Firmą będącą właścicielem**, natomiast dział, któremu należy dostarczyć usługi to **Jednostka zamawiająca**. Każdy inny podmiot prawny, który zawiera zasoby, jest zwany **Firmami zasobów**, a wydziały, które zawierają zasoby, to **Jednostki zasobów**. Z uwagi na fakt, że koszty pracy na różnych rynkach na całym świecie, stawki za pracę są również różne w różnych miejscach.
 
 Na przykład deweloper z działu robotyki firmy Fabrikam Indie pracujący w ramach projektu w USA jest rozliczany według stawki 100 USD na godzinę. Deweloper z działu robotyki w Fabrikam US pracujący nad projektem w USA otrzymuje 150 USD na godzinę. 
 

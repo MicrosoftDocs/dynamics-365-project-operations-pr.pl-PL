@@ -1,21 +1,21 @@
 ---
-title: Wiersze oferty opartej na projekcie (pro)
+title: Omówienie wierszy oferty opartej na projekcie - wersja uproszczona
 description: Ten temat zawiera informacje o korzystaniu z wiersza oferty opartej na projekcie w pracy projektowej. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081942"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181105"
 ---
-# <a name="project-based-quote-lines-pro"></a>Wiersze oferty opartej na projekcie (pro)
+# <a name="project-based-quote-lines-overview---lite"></a>Omówienie wierszy oferty opartej na projekcie - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
@@ -31,7 +31,7 @@ Wiersze oferty opartej na projekcie są utworzone w celu ułatwienia oceny pracy
 
 Poniższa tabela zawiera informacje o polach na karcie **Ogólne** w wierszu oferty opartej na projekcie. Te pola pomagają skonfigurować podstawę dla konkretnego szacunkowego oszacowania pracy projektowej.
 
-| **Pole** | **Stopień zgodności, cel i wskazówki** | **Wpływ zmian w dalszych etapach** |
+| **Pole** | **Opis** | **Wpływ zmian w dalszych etapach** |
 | --- | --- | --- |
 | Nazwa/nazwisko | Nazwa wiersza oferty, która ułatwia identyfikację oddzielnego komponentu szacowanego w ramach danej oferty. | Po wykorzystaniu oferty wartość pola jest kopiowana do tworzonego kontraktu projektu. |
 | Metoda rozliczania | Gdy oferta jest tworzona z szansy sprzedaży, ta wartość jest kopiowana z odpowiedniego pola w szansie sprzedaży. To pole zawiera dwa główne projekty, które są obsługiwane przez Dynamics 365 Project Operations:</br>- Stała cena</br>- Czas i materiał.| Po wykorzystaniu oferty wartość pola jest kopiowana do tworzonego kontraktu projektu. |
@@ -49,15 +49,15 @@ Poniższa tabela zawiera informacje o polach na karcie **Ogólne** w wierszu ofe
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Reguły sprawdzania poprawności dla pól na karcie Ogólne w wierszach oferty opartej na projektach
 
-**Reguła 1** : Jeśli pole **Uwzględnione zadania** jest puste lub jeśli jest ustawione na **Wszystkie zadania projektu** , projekt jest uwzględniany w wierszu oferty.
+**Reguła 1**: Jeśli pole **Uwzględnione zadania** jest puste lub jeśli jest ustawione na **Wszystkie zadania projektu**, projekt jest uwzględniany w wierszu oferty.
 
-**Reguła 2** : Jeśli pole **Uwzględnione zadania** jest puste lub jeśli ustawiono je na **Wszystkie zadania projektu** , projekt i dana klasa transakcji mogą być uwzględnione tylko w jednym wierszu oferty opartej na projekcie w ofercie.
+**Reguła 2**: Jeśli pole **Uwzględnione zadania** jest puste lub jeśli ustawiono je na **Wszystkie zadania projektu**, projekt i dana klasa transakcji mogą być uwzględnione tylko w jednym wierszu oferty opartej na projekcie w ofercie.
 
-**Reguła 3** : Jeśli pole **Uwzględnione zadania** jest puste lub jeśli ustawiono je na **Tylko wybrane zadania projektu** , projekt i dana klasa transakcji mogą być uwzględnione w wielu wierszach oferty opartej na projekcie w ofercie.
+**Reguła 3**: Jeśli pole **Uwzględnione zadania** jest puste lub jeśli ustawiono je na **Tylko wybrane zadania projektu**, projekt i dana klasa transakcji mogą być uwzględnione w wielu wierszach oferty opartej na projekcie w ofercie.
 
-**Reguła 4** : Jeśli szansa sprzedaży zawiera wiele ofert, między różnymi ofertami można odwoływać się do tego samego projektu i zawierać tę samą klasę transakcji.
+**Reguła 4**: Jeśli szansa sprzedaży zawiera wiele ofert, między różnymi ofertami można odwoływać się do tego samego projektu i zawierać tę samą klasę transakcji.
 
-**Zasada 5** : Jeśli oferty nie należą do tej samej szansy sprzedaży, nie mogą zawierać tej samej klasy projektów i transakcji.
+**Zasada 5**: Jeśli oferty nie należą do tej samej szansy sprzedaży, nie mogą zawierać tej samej klasy projektów i transakcji.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

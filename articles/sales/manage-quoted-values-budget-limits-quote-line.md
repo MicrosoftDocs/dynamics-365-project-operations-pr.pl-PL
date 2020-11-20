@@ -1,21 +1,21 @@
 ---
-title: Wiersze oferty opartej na projekcie
+title: Omówienie wierszy oferty opartej na projekcie
 description: Ten temat zawiera informacje o korzystaniu z wiersza oferty opartej na projekcie w pracy projektowej.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081879"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181870"
 ---
-# <a name="project-based-quote-lines"></a>Wiersze oferty opartej na projekcie
+# <a name="project-based-quote-lines-overview"></a>Omówienie wierszy oferty opartej na projekcie
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
@@ -31,7 +31,7 @@ Wiersze oferty opartej na projekcie są utworzone w celu ułatwienia oceny pracy
 
 Poniższa tabela zawiera informacje o polach na karcie **Ogólne** w wierszu oferty opartej na projekcie. Te pola pomagają skonfigurować podstawę dla konkretnego szacunkowego oszacowania pracy projektowej.
 
-| **Pole** | **Stopień zgodności, cel i wskazówki** | **Wpływ zmian w dalszych etapach** |
+| **Pole** | **Opis** | **Wpływ zmian w dalszych etapach** |
 | --- | --- | --- |
 | Nazwa/nazwisko | Nazwa wiersza oferty, która ułatwia identyfikację oddzielnego komponentu szacowanego w ramach danej oferty. | Po wykorzystaniu oferty wartość pola jest kopiowana do tworzonego kontraktu projektu. |
 | Metoda rozliczania | Gdy oferta jest tworzona z szansy sprzedaży, ta wartość jest kopiowana z odpowiedniego pola w szansie sprzedaży. To pole zawiera dwa główne projekty, które są obsługiwane przez Dynamics 365 Project Operations:</br>- Stała cena</br>- Czas i materiał.| Po wykorzystaniu oferty wartość pola jest kopiowana do tworzonego kontraktu projektu. |
@@ -47,11 +47,11 @@ Poniższa tabela zawiera informacje o polach na karcie **Ogólne** w wierszu ofe
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Reguły sprawdzania poprawności dla pól na karcie Ogólne w wierszach oferty opartej na projektach
 
-**Reguła 1** : dana klasa transakcji w wybranym projekcie może być uwzględniona tylko w jednym wierszu oferty opartej na projekcie oferty.
+**Reguła 1**: dana klasa transakcji w wybranym projekcie może być uwzględniona tylko w jednym wierszu oferty opartej na projekcie oferty.
 
-**Reguła 2** : Jeśli szansa sprzedaży zawiera wiele ofert, między różnymi ofertami można odwoływać się do tego samego projektu i zawierać tę samą klasę transakcji.
+**Reguła 2**: Jeśli szansa sprzedaży zawiera wiele ofert, między różnymi ofertami można odwoływać się do tego samego projektu i zawierać tę samą klasę transakcji.
 
-**Zasada 3** : Jeśli oferty nie należą do tej samej szansy sprzedaży, nie mogą zawierać tej samej klasy projektów i transakcji.
+**Zasada 3**: Jeśli oferty nie należą do tej samej szansy sprzedaży, nie mogą zawierać tej samej klasy projektów i transakcji.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

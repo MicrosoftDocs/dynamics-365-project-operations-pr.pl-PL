@@ -1,21 +1,21 @@
 ---
-title: Zarządzaj potencjalnymi klientami (pro)
+title: Zarządzaj potencjalnymi klientami - wersja uproszczona
 description: Ten temat zawiera informacje na temat zarządzania potencjalnymi klientami (pro).
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081941"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180520"
 ---
-# <a name="manage-leads-pro"></a>Zarządzaj potencjalnymi klientami (pro)
+# <a name="manage-leads---lite"></a>Zarządzaj potencjalnymi klientami - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
@@ -23,7 +23,7 @@ Potencjalni klienci oparci na projekcie mogą być zarządzani i kwalifikowani w
 
 ## <a name="list-of-project-sales-leads"></a>Lista potencjalnych klientów projektu
 
-W sekcji **Sprzedaż** w lewym okienku nawigacji otwórz stronę listy **Potencjalni klienci** , aby wyświetlić listę wszystkich rekordów potencjalnych klientów w systemie. Lista wyświetlanych potencjalnych klientów jest oparta na pracach i innych typach potencjalnych klientów, których można utworzyć w przypadku, gdy użytkownik ma także dostęp do Dynamics 365 Sales i Dynamics 365 Field Service.
+W sekcji **Sprzedaż** w lewym okienku nawigacji otwórz stronę listy **Potencjalni klienci**, aby wyświetlić listę wszystkich rekordów potencjalnych klientów w systemie. Lista wyświetlanych potencjalnych klientów jest oparta na pracach i innych typach potencjalnych klientów, których można utworzyć w przypadku, gdy użytkownik ma także dostęp do Dynamics 365 Sales i Dynamics 365 Field Service.
 
 Można utworzyć widok filtrowany, aby wyświetlić tylko potencjalnych klientów opartych na projektach, tworząc filtr dla wartości **Typu**. Można na przykład wybrać opcję, aby byli wyświetlani tylko potencjalni klienci w danym miejscu.
 
@@ -38,7 +38,7 @@ W przypadku zakwalifikowanego potencjalnego klienta, aby automatycznie utworzyć
 
 Poniższa tabela zawiera ważne informacje dotyczące potencjalnego klienta oraz efekty podrzędne tych pól.
 
-| **Pole** | **Lokalizacja** | **Stopień zgodności, cel i wskazówki** | **Wpływ zmian w dalszych etapach** |
+| **Pole** | **Lokalizacja** | **Opis** | **Wpływ zmian w dalszych etapach** |
 | --- | --- | --- | --- |
 | Temat | Karta Ogólne | To pole tekstowe powinno zawierać krótki opis transakcji. | Temat potencjalnego klienta będzie domyślnie ustawiony jako szansa sprzedaży, nazwy oferty i kontraktu projektu. |
 | Pisz | Karta Ogólne | To pole zestawu opcji zawiera następujące opcje:</br>- Na podstawie pracy (dostępne tylko wtedy, gdy Project Operations jest zainstalowane)</br>- Na podstawie towaru (dostępne tylko wtedy, gdy jest zainstalowane Project Operations i Sales)</br>- Na podstawie wykonania usługi (dostępne po zainstalowaniu Field Service) | Jeśli wartość tego pola jest ustawiona na **Na podstawie pracy** dla potencjalnego klienta, potencjalny klient jest kwalifikowany do utworzenia szansy sprzedaży opartej na projekcie. Szansa sprzedaży oparta na projekcie jest wymagana do włączenia wszystkich rozszerzeń specyficznych dla danego projektu i funkcji w ramach procesu sprzedaży na niższym szczeblu w zakresie omawianej transakcji. |
@@ -53,7 +53,7 @@ Potencjalni klienci, dla których ustawiono wartość **Typ** na **Oparty na pra
 
 - Konto, które korzysta z pola **Firma** potencjalnego klienta.
 - Rekord kontaktu skojarzony z kontem na podstawie wartości w polach **Imię** i **Nazwisko** w potencjalnego klienta.
-- Szansa sprzedaży oparta na projekcie z polem **Typ** ustawionym na wartość &quot;**Oparte na pracy**.
+- Szansa sprzedaży oparta na projekcie z polem **Typ** ustawionym na wartość **Oparte na pracy**.
 
 Aby uzyskać bardziej szczegółowe informacje na temat kwalifikowania potencjalnych klientów, zobacz [kwalifikowanie i konwertowanie potencjalnych klientów](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

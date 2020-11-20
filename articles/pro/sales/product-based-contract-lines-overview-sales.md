@@ -1,21 +1,21 @@
 ---
-title: Omówienie pozycji kontraktu opartego na produkcie
+title: Omówienie pozycji kontraktu opartego na produkcie - wersja uproszczona
 description: Ta temat zawiera informacje o wierszach kontraktów opartych na produktach.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081939"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177884"
 ---
-# <a name="product-based-contract-lines-overview"></a>Omówienie pozycji kontraktu opartego na produkcie
+# <a name="product-based-contract-lines-overview---lite"></a>Omówienie pozycji kontraktu opartego na produkcie - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
@@ -43,6 +43,6 @@ Jeśli wiersz kontraktu jest oparty na katalogu produktów, można zastąpić ce
 - **Zastąp kalkulację ceny**
 - **Użyj domyślnego**
 
-Jeśli w polu **Kalkulacja cen** zostanie ustawiona wartość **Zastąp kalkulację ceny** , nie jest ustawiana cena domyślna. Wprowadź cenę produktu w pozycji kontraktu projektu. Jeśli pole ma **Używać wartości domyślnych** , jest używana domyślna cena sprzedaży i nie można edytować pola.
+Jeśli w polu **Kalkulacja cen** zostanie ustawiona wartość **Zastąp kalkulację ceny**, nie jest ustawiana cena domyślna. Wprowadź cenę produktu w pozycji kontraktu projektu. Jeśli pole ma **Używać wartości domyślnych**, jest używana domyślna cena sprzedaży i nie można edytować pola.
 
-Po zainstalowaniu rozwiązania Project Operations domyślne ceny sprzedaży są wprowadzane w wierszach opartych na produktach w kontrakcie. Następnie w polu **Kalkulacja cen** jest ustawiana wartość **Zastąp kalkulację ceny** , tak aby można było edytować domyślną cenę w wierszach kontraktu. Jest to opcja zastąpienia dostępna w Project Operations dla wierszy opartych na produkcie w Dynamics 365 Sales.
+Po zainstalowaniu rozwiązania Project Operations domyślne ceny sprzedaży są wprowadzane w wierszach opartych na produktach w kontrakcie. Następnie w polu **Kalkulacja cen** jest ustawiana wartość **Zastąp kalkulację ceny**, tak aby można było edytować domyślną cenę w wierszach kontraktu. Jest to opcja zastąpienia dostępna w Project Operations dla wierszy opartych na produkcie w Dynamics 365 Sales.

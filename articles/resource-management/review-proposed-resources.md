@@ -3,10 +3,10 @@ title: Przeglądanie proponowanych zasobów
 description: W tym temacie zamieszczono informacje dotyczące sposobu proponowania zasobów do projektu.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081979"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401186"
 ---
 # <a name="review-proposed-resources"></a>Przeglądanie proponowanych zasobów
 
@@ -47,35 +47,6 @@ Gdy menedżerowie zasobów przetwarzają żądania zasobów, mogą używać nast
 - Zaproponowanie mniejszej ilości zasobów niż potrzeba. W tym scenariuszu proponowana dyspozycyjność zasobów jest mniejsza niż wymagana liczba godzin określona przez wnioskodawcę. W związku z tym kiedy wnioskodawca zaakceptuje zaproponowane zasoby, jest tworzone niezrealizowane wymaganie zasobu w celu odnotowania pozostałego zapotrzebowania.
 - Zarezerwowanie wielu zasobów, aby zaspokoić zapotrzebowanie, jeśli nie jest dostępny żaden pojedynczy zasób do wykonania całej pracy.
 - Zarezerwowanie mniejszej ilości zasobów niż potrzeba. W tym scenariuszu zarezerwowana liczba godzin jest mniejsza niż wymagana liczba godzin. System poprowadzi użytkownika do zaproponowania zasobów zamiast ich rezerwowania, dzięki czemu wnioskodawca może zweryfikować i śledzić pozostałe zapotrzebowania.
-
-## <a name="billable-utilization"></a>Wykorzystanie podlegające rozliczeniu
-
-Zasoby mogą mieć docelowe wykorzystanie podlegające rozliczeniu. To docelowe wykorzystanie jest zdefiniowane jako atrybut w domyślnej roli zasobu albo ustawione w rekordzie konkretnego zasobu możliwego do zarezerwowania. Obliczenia wykorzystania bazują na rzeczywistej liczbie godzin zaraportowanej przez zasoby przy użyciu zatwierdzonych wpisów czasu.
-
-Poniższe wzory służą do obliczania wykorzystania:
-
-- Wykorzystanie podlegające rozliczeniu = odpłatne rzeczywiste godziny pracy ÷ dyspozycyjność zasobu
-- Wykorzystanie niepodlegające rozliczeniu = rzeczywisty czas o identyfikatorze typu rozliczania = nieodpłatne, uzupełniające lub niedostępne ÷ dyspozycyjność zasobu
-- Wewnętrzne = rzeczywisty czas bez kontraktu sprzedaży ÷ dyspozycyjności zasobu
-- Dyspozycyjności zasobu = godziny pracy zasobu – poza biurem — dni wolne od pracy
-
-Widok **Wykorzystanie zasobów** jest dostępny z poziomu okienka **Zasoby**.
-
-Każda komórka w siatce reprezentuje procent wykorzystania zasobu podlegający rozliczeniu w okresie, takim jak dzień, tydzień lub miesiąc. Poniższe wzory służą do kolorowania komórek:
-
-- **Zielony:** wykorzystanie podlegające rozliczeniu \>= docelowe wykorzystanie zasobu
-- **Żółty:** docelowe wykorzystanie – 20 \<= wykorzystanie podlegające rozliczeniu \< docelowe wykorzystanie
-- **Czerwony:** wykorzystanie podlegające rozliczeniu \< docelowe wykorzystanie – 20
-
-Ponieważ widok **Wykorzystanie zasobów** jest oparty na tablicy harmonogramu, można używać funkcji filtrowania dostępnych w tablicy harmonogramu do filtrowania wyników.
-
-Siatka wymaga skonfigurowania docelowego wykorzystania dla roli lub konkretnego zasobu. Aby wykonać te czynności konfiguracyjne, wybierz kolejno opcje **Zasoby** \> **Role zasobu**.
-
-Ponadto każdemu zasobowi możliwemu do zarezerwowania musi być przypisana rola domyślna. Wybierz kolejno opcje **Zasoby** \> **Zasoby**. Na karcie **Project Service** sprawdź, czy została zdefiniowana rola zasobu, a pole **Jest domyślna** ma ustawioną wartość **Tak**. Można dodać kolejne role, w których **Jest domyślna = Nie**. Rola z atrybutem **Jest domyślna = Tak** jest używana do oceny wykorzystania zasobu w stosunku do wartości docelowej dla tej roli.
-
-Na karcie **Project Service** można również skonfigurować konkretne docelowe wykorzystanie zasobu. Następnie aparat obliczania wykorzystania na podstawie docelowego wykorzystania ocenia wartość docelową dla zasobu, a nie dla jego domyślnej roli.
-
-Wykorzystanie jest pokazywane dla zasobu tylko w przypadku, gdy zasób ma zatwierdzony czas odpłatny w okresie wyświetlanym w siatce.
 
 ## <a name="resource-availability"></a>Dostępność zasobów
 

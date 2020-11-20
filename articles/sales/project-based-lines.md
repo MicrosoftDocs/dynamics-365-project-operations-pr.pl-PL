@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081873"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181960"
 ---
 # <a name="project-based-opportunity-lines"></a>Wiersze szansy sprzedaży opartej na projekcie
 
@@ -26,7 +26,7 @@ Wiersze szans sprzedaży opartych na projektach są wierszami pozycji, które b�
 
 Poniżej wymieniono pola w wierszu szansy sprzedaży opartej na projekcie:
 
-| **Pole** | **Lokalizacja** | **Stopień zgodności, cel i wskazówki** | **Wpływ zmian w dalszych etapach** |
+| **Pole** | **Lokalizacja** | **Opis** | **Wpływ zmian w dalszych etapach** |
 | --- | --- | --- | --- |
 | Typ produktu | Karta Ogólne (ukryta) | Oto pole zestawu opcji. Jeśli korzystasz z Dynamics 365 Project Operations, jedna z dostępnych opcji to **Usługa oparta na projekcie**.  | Wartość tego pola jest ustawiona na **Usługę opartą na projekcie** podczas tworzenia wiersza szansy sprzedaży opartej na projekcie z poziomu siatki wierszy opartych na projekcie w sekcji szansy sprzedaży. <br> Zmiana lub zastąpienie tej wartości spowoduje, że w wierszach opartych na projekcie nie zostaną włączone funkcje projektu. |
 | Szansa sprzedaży | Karta Ogólne | To pole jest w trybie do odczytu i zawiera odwołanie do rekordu szansy sprzedaży nadrzędnej, do którego należy ten element wiersza. | W tym polu nie ma wpływu zmian na dalsze etapy. |

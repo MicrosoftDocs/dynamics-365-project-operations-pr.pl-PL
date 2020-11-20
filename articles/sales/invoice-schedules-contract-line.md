@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 23378b51c8324a60918ad494e7f659dbbc94e2a8
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4082244"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180790"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Tworzenie harmonogramu fakturowania w pozycji kontraktu opartego na projekcie 
 
@@ -27,13 +27,13 @@ Kiedy metoda fakturowania w wierszu kontraktu opartego na projekcie to czas i ma
 
 1. Przejdź do sekcji **Ustawienia** > **Częstotliwości faktur** i ustaw częstotliwość fakturowania.
 2. Przejdź do rekordu kontraktu projektu i na karcie **Podsumowanie** wybierz **Datę dostawy** w odpowiednim polu.
-3. Otwórz wiersz oferty typu **czas i materiały** , dla którego tworzysz harmonogram fakturowania opartego na datach. 
+3. Otwórz wiersz oferty typu **czas i materiały**, dla którego tworzysz harmonogram fakturowania opartego na datach. 
 4. Na karcie **Harmonogram fakturowania** wybierz wartości w polach rozpoczęcie fakturowania i częstotliwość fakturowania.
-5. W podsiatce wybierz pozycję **Utwórz harmonogram fakturowania**. Aplikacja generuje harmonogram faktur dla pól **Data przebiegu fakturowania** , **Ostateczny termin transakcji** oraz **Stan przebiegu** w następujący sposób:
+5. W podsiatce wybierz pozycję **Utwórz harmonogram fakturowania**. Aplikacja generuje harmonogram faktur dla pól **Data przebiegu fakturowania**, **Ostateczny termin transakcji** oraz **Stan przebiegu** w następujący sposób:
 
-    - **Data przebiegu fakturowania** : ta data jest ustawiana na datę określoną na bazie częstotliwości faktur.
-    - **Ostateczny termin transakcji** : ten termin jest ustawiany na dzień wcześniej niż data przebiegu fakturowania.
-    - **Stan przebiegu** : jest automatycznie ustawiany jako **Nie uruchomiony**. Kiedy zadanie automatycznego tworzenia faktury jest uruchamiane na określoną datę rozpoczęcia fakturowania, spowoduje to zaktualizowanie tego pola na wartość **Przebieg pomyślny** albo **Przebieg nieudany**.
+    - **Data przebiegu fakturowania**: ta data jest ustawiana na datę określoną na bazie częstotliwości faktur.
+    - **Ostateczny termin transakcji**: ten termin jest ustawiany na dzień wcześniej niż data przebiegu fakturowania.
+    - **Stan przebiegu**: jest automatycznie ustawiany jako **Nie uruchomiony**. Kiedy zadanie automatycznego tworzenia faktury jest uruchamiane na określoną datę rozpoczęcia fakturowania, spowoduje to zaktualizowanie tego pola na wartość **Przebieg pomyślny** albo **Przebieg nieudany**.
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Tworzenie harmonogramu fakturowania o stałej cenie dla wiersza kontraktu opartego na projekcie
 
@@ -46,14 +46,14 @@ Wykonaj poniższe kroki, aby wygenerować harmonogram dla harmonogramu fakturowa
 
 1. Przejdź do sekcji **Ustawienia** > **Częstotliwości faktur** i ustaw częstotliwość fakturowania.
 2. Przejdź do rekordu kontraktu projektu i na karcie **Podsumowanie** wybierz **Datę dostawy** w odpowiednim polu.
-3. Otwórz wiersz **oferty o stałej cenie** , dla którego tworzysz harmonogram punktów kontrolnych. Na karcie **Punkty kontrolne rozliczania** wybierz wartości w polach rozpoczęcie fakturowania i częstotliwość fakturowania. 
-4. W podsiatce wybierz pozycję **Utwórz okresowe punkty kontrolne**. Harmonogram faktur jest generowany z polami **Nazwa punktu kontrolnego** , **Data punktu kontrolnego** i **Kwotą punktu kontrolnego** ustawionymi w następujący sposób:
+3. Otwórz wiersz **oferty o stałej cenie**, dla którego tworzysz harmonogram punktów kontrolnych. Na karcie **Punkty kontrolne rozliczania** wybierz wartości w polach rozpoczęcie fakturowania i częstotliwość fakturowania. 
+4. W podsiatce wybierz pozycję **Utwórz okresowe punkty kontrolne**. Harmonogram faktur jest generowany z polami **Nazwa punktu kontrolnego**, **Data punktu kontrolnego** i **Kwotą punktu kontrolnego** ustawionymi w następujący sposób:
 
-    - **Nazwa punktu kontrolnego** : ta data jest ustawiana na datę określoną na bazie częstotliwości faktur.
-    - **Data punktu kontrolnego** : ta data jest ustawiana na datę określoną na bazie częstotliwości faktur.
-    - **Kwota punktu kontrolnego** : jest obliczana jako iloraz kwoty kontraktu w wierszu kontraktu opartego na projekcie przez liczbę punktów kontrolnych zgodnie z częstotliwością rozpoczęcia i początkiem rozliczenia oraz wymaganych dat dostawy.
+    - **Nazwa punktu kontrolnego**: ta data jest ustawiana na datę określoną na bazie częstotliwości faktur.
+    - **Data punktu kontrolnego**: ta data jest ustawiana na datę określoną na bazie częstotliwości faktur.
+    - **Kwota punktu kontrolnego**: jest obliczana jako iloraz kwoty kontraktu w wierszu kontraktu opartego na projekcie przez liczbę punktów kontrolnych zgodnie z częstotliwością rozpoczęcia i początkiem rozliczenia oraz wymaganych dat dostawy.
 
-    Jeśli pozycja kontraktu zawiera wartość w polu **Szacowana kwota podatku** , to pole jest również przydzielone do poszczególnych punktów kontrolnych równo podczas generowania okresowych punktów kontrolnych.
+    Jeśli pozycja kontraktu zawiera wartość w polu **Szacowana kwota podatku**, to pole jest również przydzielone do poszczególnych punktów kontrolnych równo podczas generowania okresowych punktów kontrolnych.
 
 Punkty kontrolne powinny być równe wartości kontraktu z pozycji kontraktu. Jeśli tak nie będzie, na stronie **pozycja kontraktu** zostanie wyświetlony komunikat o błędzie. Aby naprawić ten błąd, należy sprawdzić, czy suma punktów kontrolnych rozliczania zakontraktowana dla danego wiersza jest równa wartości zakontraktowanej poprzez tworzenie, edycję lub usuwanie punktów kontrolnych. Po wprowadzeniu zmian odśwież stronę, aby usunąć błąd.
 
@@ -64,7 +64,7 @@ Można także tworzyć punkty kontrolne ze stałymi cenami ręcznie, kiedy nie s
 1. Otwórz wiersz kontraktu o stałej cenie, dla którego jest tworzony punkt kontrolny, i na karcie **Harmonogram fakturowania** w podsiatce wybierz pozycję **+ Utwórz nowy punkt kontrolny pozycji kontraktu**. 
 2. Na stronie **Tworzenie punktów kontrolnych** wprowadź wymagane informacje na podstawie poniższej tabeli.
 
-| Pole | Lokalizacja | Stopień zgodności, cel i wskazówki | Wpływ zmian w dalszych etapach |
+| Pole | Lokalizacja | Opis | Wpływ zmian w dalszych etapach |
 | --- | --- | --- | --- |
 | Nazwa punktu kontrolnego | Szybkie tworzenie | Pole tekstowe nazwy punktu kontrolnego. | Następuje skopiowanie punktów kontrolnych do pozycji kontraktu projektu i do faktury. |
 | Zadanie projektu | Szybkie tworzenie | Jeśli punkt kontrolny jest związany z zadaniem projektu, można użyć tego odwołania w celu dodania logiki niestandardowej, a stan punktów kontrolnych zostanie ustawiony na podstawie stanu zadania. | W takim przypadku aplikacja nie ma wpływu na to odwołanie do zadania. |

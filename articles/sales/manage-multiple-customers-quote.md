@@ -1,25 +1,25 @@
 ---
-title: Zarządzanie wieloma klientami w ofertach projektu
+title: Zarządzanie wieloma klientami w ofercie projektu
 description: W tym temacie zamieszczono informacje dotyczące ofert z wieloma klientami, którzy będą finansować dany projekt.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081866"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4182005"
 ---
-# <a name="manage-multiple-customers-on-project-quotes"></a>Zarządzanie wieloma klientami w ofertach projektu
+# <a name="manage-multiple-customers-on-a-project-quote"></a>Zarządzanie wieloma klientami w ofercie projektu
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Oferty projektów obsługują scenariusz polegający na tym, że dana oferta obejmuje wielu klientów, którzy będą finansować transakcję. Na karcie **Podsumowanie** oferty znajduje się pole **Potencjalni klienci** , które identyfikuje podstawowego klienta transakcji. Innych klientów w ramach transakcji można skonfigurować na karcie **Klienci** w ofercie projektu.
+Oferty projektów obsługują scenariusz polegający na tym, że dana oferta obejmuje wielu klientów, którzy będą finansować transakcję. Na karcie **Podsumowanie** oferty znajduje się pole **Potencjalni klienci**, które identyfikuje podstawowego klienta transakcji. Innych klientów w ramach transakcji można skonfigurować na karcie **Klienci** w ofercie projektu.
 
 Wszyscy klienci oferty na karcie **Klienci** w ofercie projektu domyślnie stają się klientami wiersza oferty dla wszystkich **nowych** wierszy oferty opartej na projekcie tworzonych dla oferty projektu. Żadne istniejące wiersze oferty opartej na projekcie nie odziedziczą nowych rekordów klientów oferty utworzonych po ich utworzeniu.
 
@@ -35,19 +35,19 @@ Podstawowy klient nie powinien być aktualizowany na liście klientów w ofercie
 
 Klienta oferty można utworzyć, aktualizować i usuwać z poziomu karty **Klienci oferty** na stronie **Oferta**. W poniższej tabeli przedstawiono pola rekordu klienta w wierszu oferty opartej na projekcie.
 
-| **Pole** | **Lokalizacja** | **Stopień zgodności, cel i wskazówki** | **Wpływ zmian w dalszych etapach** |
+| **Pole** | **Lokalizacja** | **Opis** | **Wpływ zmian w dalszych etapach** |
 | --- | --- | --- | --- |
-| Konto | Edytowalna siatka na karcie **Klienci oferty** , formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Lista wszystkich aktywnych kont. To pole jest zablokowane po utworzeniu rekordu. Jeśli chcesz przeprowadzić aktualizację, usuń rekord i utwórz go ponownie. Jeśli rekord został zarejestrowany z wartościami rzeczywistymi lub rekord klienta oferty to klient podstawowy, użytkownik będzie mógł usunąć rekord. | Po wykorzystaniu oferty klienci wiersza oferty są kopiowani jako klienci w pozycji kontraktu projektu. Po wykorzystaniu oferty klienci wiersza oferty są także kopiowani jako klienci w pozycji kontraktu projektu. |
-| Procent podziału rozliczeń | Edytowalna siatka na karcie **Klienci oferty** , formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Reprezentuje procent każdej niezafakturowanej transakcji sprzedaży, która będzie przypisywana do tego klienta oferty. | Po wygraniu oferty ta wartość jest kopiowana do utworzonego klienta kontraktu oraz nowych wierszy oferty. |
-| Nazwa kontaktu u płatnika | Edytowalna siatka na karcie **Klienci oferty** , formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Jest to pole tekstowe, które ma służyć do identyfikowania osoby kontaktowej dla faktury u danego klienta. Te elementy są domyślnie pobierane z rekordu pokrewnego konta | Skopiowane do klienta kontraktu dotyczącego projektu podczas potwierdzenia oferty i do pola Nazwa płatnika kontraktu na fakturze wygenerowanej dla danego klienta. |
-| Nazwa płatnika | Edytowalna siatka na karcie **Klienci oferty** , formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | To pole tekstowe ma służyć do identyfikowania osoby kontaktowej dla faktury u danego klienta. | Skopiowane do klienta kontraktu dotyczącego projektu podczas potwierdzenia oferty i do pola **Nazwa płatnika kontraktu** na fakturze wygenerowanej dla danego klienta. |
-| Warunki płatności | Edytowalna siatka na karcie **Klienci oferty** , formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Jest to zestaw opcji z wartościami domyślnymi dla rekordu konta pokrewnego. | Skopiowane do klienta kontraktu dotyczącego projektu podczas potwierdzenia oferty i do pola **Nazwa płatnika kontraktu** na fakturze wygenerowanej dla danego klienta. |
-| Zaokrągla | Edytowalna siatka na karcie **Klienci oferty** , formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Wskazuje, czy ten klient jest domyślnym klientem do zaokrąglania dla danej transakcji. | Po wygraniu oferty ta wartość jest kopiowana do klienta oferty. |
-| Firma będąca właścicielem | Edytowalna siatka na karcie **Klienci oferty** , formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Podmiot prawny, który został skonfigurowany przez tego klienta w module **Zarządzanie projektami i ich księgowanie**. To pole jest tylko do odczytu i jest ustawione na firmę będącą właścicielem oferty. Lista klientów do dodania w polu **Konto** jest już filtrowana na listę z tej firmy będącej właścicielem w module **Informacje o zarządzaniu projektami i ich księgowaniu** w Project Operations. | Firma będąca właścicielem to to samo, co koncept osoby prawnej w module **Zarządzanie projektami i księgowaniem** w Project Operations. Wszystkie koszty i przychód powstałe w wyniku tego projektu będą uwzględnione w księdze głównej firmy będącej właścicielem. |
-| Nieprzekraczalny limit | Edytowalna siatka na karcie **Klienci oferty** , formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Wskazuje, czy istnieje limit negocjacyjny lub blokada ogólnej kwoty, która będzie zafakturowana dla tego klienta w tej interakcji. | Po wygraniu oferty ta wartość jest kopiowana do klienta oferty. |
+| Konto | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Lista wszystkich aktywnych kont. To pole jest zablokowane po utworzeniu rekordu. Jeśli chcesz przeprowadzić aktualizację, usuń rekord i utwórz go ponownie. Jeśli rekord został zarejestrowany z wartościami rzeczywistymi lub rekord klienta oferty to klient podstawowy, użytkownik będzie mógł usunąć rekord. | Po wykorzystaniu oferty klienci wiersza oferty są kopiowani jako klienci w pozycji kontraktu projektu. Po wykorzystaniu oferty klienci wiersza oferty są także kopiowani jako klienci w pozycji kontraktu projektu. |
+| Procent podziału rozliczeń | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Reprezentuje procent każdej niezafakturowanej transakcji sprzedaży, która będzie przypisywana do tego klienta oferty. | Po wygraniu oferty ta wartość jest kopiowana do utworzonego klienta kontraktu oraz nowych wierszy oferty. |
+| Nazwa kontaktu u płatnika | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Jest to pole tekstowe, które ma służyć do identyfikowania osoby kontaktowej dla faktury u danego klienta. Te elementy są domyślnie pobierane z rekordu pokrewnego konta | Skopiowane do klienta kontraktu dotyczącego projektu podczas potwierdzenia oferty i do pola Nazwa płatnika kontraktu na fakturze wygenerowanej dla danego klienta. |
+| Nazwa płatnika | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | To pole tekstowe ma służyć do identyfikowania osoby kontaktowej dla faktury u danego klienta. | Skopiowane do klienta kontraktu dotyczącego projektu podczas potwierdzenia oferty i do pola **Nazwa płatnika kontraktu** na fakturze wygenerowanej dla danego klienta. |
+| Warunki płatności | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Jest to zestaw opcji z wartościami domyślnymi dla rekordu konta pokrewnego. | Skopiowane do klienta kontraktu dotyczącego projektu podczas potwierdzenia oferty i do pola **Nazwa płatnika kontraktu** na fakturze wygenerowanej dla danego klienta. |
+| Zaokrągla | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Wskazuje, czy ten klient jest domyślnym klientem do zaokrąglania dla danej transakcji. | Po wygraniu oferty ta wartość jest kopiowana do klienta oferty. |
+| Firma będąca właścicielem | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Podmiot prawny, który został skonfigurowany przez tego klienta w module **Zarządzanie projektami i ich księgowanie**. To pole jest tylko do odczytu i jest ustawione na firmę będącą właścicielem oferty. Lista klientów do dodania w polu **Konto** jest już filtrowana na listę z tej firmy będącej właścicielem w module **Informacje o zarządzaniu projektami i ich księgowaniu** w Project Operations. | Firma będąca właścicielem to to samo, co koncept osoby prawnej w module **Zarządzanie projektami i księgowaniem** w Project Operations. Wszystkie koszty i przychód powstałe w wyniku tego projektu będą uwzględnione w księdze głównej firmy będącej właścicielem. |
+| Nieprzekraczalny limit | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Wskazuje, czy istnieje limit negocjacyjny lub blokada ogólnej kwoty, która będzie zafakturowana dla tego klienta w tej interakcji. | Po wygraniu oferty ta wartość jest kopiowana do klienta oferty. |
 
 ## <a name="editing-billing-split-percentages"></a>Edytowanie procentu podziału rozliczeń
 
 Zawartość procentową podziału rozliczeń na fakturze można edytować przy użyciu funkcji edycji siatki w wierszu. Jeśli procent podziału rozliczenia nie sumuje się do 100%, wystąpi błąd. Po aktualizacji procentów podziału na fakturze odśwież stronę, aby usunąć błąd.
 
-Można również spróbować wykorzystać funkcję **Równy podział** w podsiatce klientów oferty. Ta akcja spowoduje alokowanie podziału procentowego na fakturze dla wszystkich klientów oferty. Jeśli istnieje współczynnik zaokrąglenia, zostanie dodany do klienta zaokrąglającego. Jeden z klientów korzystających z oferty jest zawsze oznakowany jako klient do zaokrąglenia. oznacza to, że dany rekord klienta oferty ma ustawioną flagę **Tak** w opcji **Zaokrąglanie**. Zazwyczaj jest to główny klient oferty, ale można to zmienić.
+Można również spróbować wybrać **Rozłóż równomiernie** w podsiatce klientów z ofertą. Ta akcja spowoduje alokowanie podziału procentowego na fakturze dla wszystkich klientów oferty. Jeśli istnieje współczynnik zaokrąglenia, zostanie dodany do klienta zaokrąglającego. Jeden z klientów korzystających z oferty jest zawsze oznakowany jako klient do zaokrąglenia. oznacza to, że dany rekord klienta oferty ma ustawioną flagę **Tak** w opcji **Zaokrąglanie**. Zazwyczaj jest to główny klient oferty, ale można to zmienić.

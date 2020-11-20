@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081916"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180385"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Szacowanie wiersza oferty opartej na projekcie
 
@@ -30,9 +30,9 @@ Aby oszacować wiersz oferty opartej na projekcie, w wierszu oferty opartej na p
 
 Aby utworzyć oszacowanie w wierszu oferty opartej na projekcie, wybierz kartę **Szczegóły wiersza oferty**. Utworzony w ten sposób wiersz będzie sumować wartość cytowaną dla danego wiersza oferty. 
 
-Aby utworzyć szczegóły wiersza oferty, wybierz z podsiatki **Szczegóły wierszy oferty** opcję **+ Dodaj nowy szczegół wiersza oferty**. Zostanie otwarty suwak szybkiego tworzenia. Poniższe pola w formularzu **Wiersza oferty** :
+Aby utworzyć Szczegóły wiersza oferty, można wybrać nowe **+ Szczegóły wiersza oferty** z podsiatki **Szczegóły wierszy oferty**. Zostanie otwarty suwak szybkiego tworzenia. Poniższe pola w formularzu **Wiersza oferty**:
 
-| **Pole** | **Lokalizacja** | **Stopień zgodności, cel i wskazówki** | **Wpływ zmian w dalszych etapach** |
+| **Pole** | **Lokalizacja** | **Opis** | **Wpływ zmian w dalszych etapach** |
 | --- | --- | --- | --- |
 | Opis | Szybkie tworzenie | Opis terminu konkretnego oszacowania. | W tym polu jest domyślnie wybierana wartość Szczegółowego wiersza oferty dla automatycznie tworzonego kosztu. |
 | Klasa transakcji | Szybkie tworzenie | Ta lista rozwijana zawiera klasy transakcji uwzględnione na karcie **Ogólne** w wierszu oferty opartej na projekcie.  | W tym polu jest domyślnie wybierana wartość Szczegółowego wiersza oferty dla automatycznie tworzonego kosztu. |
@@ -50,11 +50,11 @@ Aby utworzyć szczegóły wiersza oferty, wybierz z podsiatki **Szczegóły wier
 
 ## <a name="update-prices-on-quote-line-details"></a>Aktualizowanie cen w wierszach oferty
 
-W przypadku zmodyfikowania cen z cennika projektu dołączonego do oferty lub na liście kosztów własnych jednostki kontraktującej można wybrać opcję **Ponowne obliczenie** znajdującą się na stronie **Oferta** , aby odświeżyć ceny w poszczególnych wierszach oferty w celu odzwierciedlenia tej zmiany. Po wybraniu opcji **Oblicz ponownie** zostanie wyświetlone ostrzeżenie, które informuje tym, że ceny w wierszach oferty zostaną zresetowane. Wybierz opcję **Tak** , aby odświeżyć ceny zarówno dla sprzedaży, jak i dla szczegółów wiersza oferty kosztów.
+W przypadku zmodyfikowania cen z cennika projektu dołączonego do oferty lub na liście kosztów własnych jednostki kontraktującej można wybrać opcję **Ponowne obliczenie** znajdującą się na stronie **Oferta**, aby odświeżyć ceny w poszczególnych wierszach oferty w celu odzwierciedlenia tej zmiany. Po wybraniu opcji **Oblicz ponownie** zostanie wyświetlone ostrzeżenie, które informuje tym, że ceny w wierszach oferty zostaną zresetowane. Wybierz opcję **Tak**, aby odświeżyć ceny zarówno dla sprzedaży, jak i dla szczegółów wiersza oferty kosztów.
 
 ## <a name="access-quote-line-details-for-cost"></a>Dostęp do wierszy oferty w celu uzyskania dostępu do kosztów
 
-Z poziomu karty **Szczegóły wiersza oferty** wybierz wiersz w siatce, aby włączyć niektóre akcje na pasku narzędzi w podsiatce. Pierwsza akcja na pasku narzędzi podsiatki po wybraniu szczegółów wiersza oferty powoduje **Wyświetlenie szczegółów kosztów**. Wybierz opcję **Wyświetl szczegóły kosztów** , aby wyświetlić powiązaną stawkę kosztów i kwotę dla danego wiersza oferty.
+Z poziomu karty **Szczegóły wiersza oferty** wybierz wiersz w siatce, aby włączyć niektóre akcje na pasku narzędzi w podsiatce. Pierwsza akcja na pasku narzędzi w podsiatce po wybraniu szczegółów wiersza oferty powoduje **Otwórz szczegóły kosztu**. Wybierz opcję **Wyświetl szczegóły kosztów**, aby wyświetlić powiązaną stawkę kosztów i kwotę dla danego wiersza oferty.
 
 > [!NOTE]
 > Zmiana jednostki zasobów, ilości, dat, roli lub kategorii w wierszu szczegółów oferty dotyczących kosztu spowoduje zmianę odpowiednich wartości w szczegółach wiersza oferty dotyczącej sprzedaży.

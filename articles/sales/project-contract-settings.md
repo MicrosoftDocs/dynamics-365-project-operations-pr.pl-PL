@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088049"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181151"
 ---
 # <a name="project-contract-settings"></a>Ustawienia kontraktu projektu
 
@@ -23,7 +23,7 @@ Ten temat zawiera informacje o polach mających zastosowanie do całego kontrakt
 
 W poniższej tabeli zamieszczono listę pól informacji podsumowujących w kontrakcie projektu, które są unikatowe dla Dynamics 365 Project Operations lub istnieją istotne zmiany dotyczące zachowania zamówień sprzedaży pomiędzy Project Operations a Dynamics 365 Sales.
 
-| Pole | Lokalizacja | Stopień zgodności, cel i wskazówki | Wpływ zmian w dalszych etapach |
+| Pole | Lokalizacja | Opis | Wpływ zmian w dalszych etapach |
 | --- | --- | --- | --- |
 | Pisz | Karta **Podsumowanie** (ukryte) | To pole zestawu opcji zawiera następujące opcje:</br>- **Na podstawie pracy** (dostępne tylko wtedy, gdy Project Operations jest zainstalowane)</br>- **Na podstawie towaru** (dostępne tylko wtedy, gdy jest zainstalowane Project Operations i Sales)</br>- **Na podstawie wykonania usługi** (dostępne po zainstalowaniu Dynamics 365 Field Service) | W Project Operations wartość domyślna tego pola jest określana jako **Oparta na pracy** i klasyfikuje kontrakt jako oparty na projektach. Kontrakt powinna być oparty na projekcie, aby można było włączyć wszystkie rozszerzenia i funkcjonalności specyficzne dla konkretnego projektu. |
 | Firma będąca właścicielem | Karta **Podsumowanie** | Podmiot prawny, który pokrywa koszty i przychody uzyskane z tego projektu lub projektów skojarzonych z kontraktem projektu. Gdy kontrakt jest tworzony z oferty, to pole jest kopiowane z odpowiedniego pola w ofercie. | Firma będąca właścicielem to to samo, co koncept podmiotu prawnego w module **Zarządzanie projektami i księgowaniem** w Project Operations. Wszystkie koszty i przychód powstałe w wyniku tego projektu będą uwzględnione w księdze głównej firmy będącej właścicielem. |
@@ -37,7 +37,7 @@ W poniższej tabeli zamieszczono listę pól informacji podsumowujących w kontr
 
 Poniższe wskaźniki KPI są dostępne na karcie **Wydajność kontraktu** w kontrakcie projektu.
 
-| Pole | Lokalizacja | Stopień zgodności, cel i wskazówki |
+| Pole | Lokalizacja | Opis |
 | --- | --- | --- |
 | Wartość kontraktu | Kontrakt ogólny | Łączna wartość kontraktu dotyczącego projektu. |
 | Rozliczona kwota | Kontrakt ogólny | Suma kwot na wszystkich fakturach objętych tym kontraktem. |
