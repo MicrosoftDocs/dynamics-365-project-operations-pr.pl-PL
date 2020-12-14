@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Co nowego
       items:
+        - name: Grudzień 2020 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: Listopad 2020 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Proces sprzedaży projektu
@@ -87,7 +89,7 @@
                 - name: Zarządzanie wieloma klientami w wiersza oferty opartej na projekcie
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Konfigurowanie odpłatnych składników wiersza oferty projektu
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Tworzenie szacowań w wierszu oferty
                   href: sales/create-estimate-quote-line.md
                 - name: Importowanie szacowań z projektu do wiersza oferty opartej na projekcie
@@ -109,7 +111,7 @@
             - name: Zarządzanie cennikami projektu w kontraktach projektu
               href: sales/contracts-manage-project-price-lists.md
             - name: Zarządzanie wieloma klientami w kontraktach projektu
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Pozycje kontraktu opartego na projekcie
               items:
                 - name: Omówienie pozycji kontraktu opartego na projekcie
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Kopiowanie kontraktu projektu
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Zaliczki i zatrzymania
+              items:
+                - name: Kontrakty oparte na zaliczkach i zatrzymaniach — wersja uproszczona
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Konfigurowanie harmonogramu zatrzymań — wersja uproszczona
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Tworzenie przedpłaty ad hoc w kontrakcie — wersja uproszczona
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Kalkulacja cen i wycena
       items:
         - name: Ustawianie cennika
@@ -158,18 +168,28 @@
           items:
             - name: Przegląd wymiarów kalkulacji cen
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Tworzenie rozwiązania dla niestandardowych wymiarów kalkulacji cen
+              href: sales/create-solution-custompd.md
             - name: Używanie istniejących pól jako wymiarów kalkulacji cen
               items:
                 - name: Pola aplikacji Project Operations jako wymiary kalkulacji cen
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Używanie zasobu możliwego do zarezerwowania jako wymiaru kalkulacji cen
+                  href: sales/use-br-as-pd.md
+                - name: Używanie kategorii transakcji jako wymiaru kalkulacji cen
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 'Zasób, który można zarezerwować, z wieloma rolami w projekcie'
+                  href: sales/br-playing-multiple-roles.md
             - name: Pola niestandardowe jako wymiary kalkulacji cen
               items:
                 - name: Tworzenie pól niestandardowych i encji jako wymiarów kalkulacji cen
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Dodawanie pól niestandardowych do ustawień cen i encji transakcyjnych
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen
+                - name: 'Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Aktualizowanie atrybutów dodatków plug-in w celu dołączenia nowych wymiarów kalkulacji cen
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Wyłączanie wymiaru kalkulacji cen
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Zarządzanie projektem
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administrowanie zasobami
           items:
+            - name: Tworzenie zasobów
+              href: resource-management/create-resources.md
             - name: Definiowanie umiejętności i biegłości
               href: resource-management/define-skills-proficiencies.md
+            - name: Definiowanie ról
+              href: resource-management/define-roles.md
             - name: Definiowanie kalendarzy zasobów
               href: resource-management/define-resource-calendars.md
         - name: Metody rezerwowania alokacji
           href: resource-management/booking-allocation-methods.md
+        - name: Stany rezerwacji
+          href: resource-management/booking-status.md
         - name: Modele umiejętności i biegłości
           href: resource-management/skills-proficiency-models.md
         - name: Uzgadnianie zasobów
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Zarządzanie fakturą proforma projektu
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Fakturowanie płatności opartej na zatrzymaniu lub zaliczce
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Potwierdzenie faktury proforma projektu
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Konfiguracja automatyzacji fakturowania projektu
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Arkusz integracji w aplikacji Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Faktura międzyfirmowa
+          items:
+            - name: Omówienie faktury międzyfirmowej
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konfigurowanie faktury międzyfirmowej
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Tworzenie faktur międzyfirmowych dla klienta i dostawcy
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Tworzenie transakcji międzyfirmowych
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Ujmowanie przychodów
+      items:
+        - name: Omówienie ujmowania przychodów
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Konfigurowanie ujmowania przychodów
+          items:
+            - name: Konfigurowanie typów okresów
+              href: project-accounting/period-types.md
+            - name: Konfigurowanie szablonów kosztów
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Zarządzanie szacowaniami przychodów
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Szacowane projekty przychodów o stałej cenie
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Metody dotyczące kosztów wykonania
+          href: revenue-recognition/cost-complete-methods.md
 - name: Wdrażanie w wersji uproszczonej — od okazji do faktury pro forma
   items:
     - name: Rozpocznij
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Co nowego
       items:
+        - name: Co nowego w grudniu 2020 r. — Wdrażanie w wersji uproszczonej — od okazji do faktury pro forma
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: Co nowego w listopadzie 2020 r. — Wdrażanie w wersji uproszczonej — od okazji do faktury pro forma
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Proces sprzedaży projektu
@@ -538,18 +594,28 @@
           items:
             - name: Przegląd wymiarów kalkulacji cen
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Tworzenie rozwiązania dla niestandardowych wymiarów kalkulacji cen
+              href: sales/create-solution-custompd.md
             - name: Używanie istniejących pól jako wymiarów kalkulacji cen
               items:
-                - name: Używanie istniejącego pola jako wymiaru kalkulacji cen
+                - name: Pola aplikacji Project Operations jako wymiary kalkulacji cen
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Używanie zasobu możliwego do zarezerwowania jako wymiaru kalkulacji cen
+                  href: sales/use-br-as-pd.md
+                - name: Używanie kategorii transakcji jako wymiaru kalkulacji cen
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 'Zasób, który można zarezerwować, z wieloma rolami w projekcie'
+                  href: sales/br-playing-multiple-roles.md
             - name: Pola niestandardowe jako wymiary kalkulacji cen
               items:
                 - name: Tworzenie pól niestandardowych i encji jako wymiarów kalkulacji cen
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Dodawanie pól niestandardowych do ustawień cen i encji transakcyjnych
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen
+                - name: 'Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Aktualizowanie atrybutów dodatków plug-in w celu dołączenia nowych wymiarów kalkulacji cen
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Wyłączanie wymiaru kalkulacji cen
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Zarządzanie projektem
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administrowanie zasobami
           items:
+            - name: Tworzenie zasobów
+              href: resource-management/create-resources.md
             - name: Definiowanie umiejętności i biegłości
               href: resource-management/define-skills-proficiencies.md
+            - name: Definiowanie ról
+              href: resource-management/define-roles.md
             - name: Definiowanie kalendarzy zasobów
               href: resource-management/define-resource-calendars.md
         - name: Rezerwowanie metod alokacji
           href: resource-management/booking-allocation-methods.md
+        - name: Stany rezerwacji
+          href: resource-management/booking-status.md
         - name: Modele umiejętności i biegłości
           href: resource-management/skills-proficiency-models.md
         - name: Uzgadnianie zasobów
@@ -834,6 +906,8 @@
       items:
         - name: Harmonogram wydań aktualizacji dla rozwiązania Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 26, V3'
+          href: psa/whats-new-ur-26.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 25, V3'
           href: psa/whats-new-ur-25.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 24, V3'
