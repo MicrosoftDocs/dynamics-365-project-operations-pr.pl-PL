@@ -1,5 +1,5 @@
 ---
-title: Konfigurowanie harmonogramu honorariów — wersja uproszczona
+title: Konfigurowanie harmonogramu zatrzymania
 description: Ten temat zawiera informacje o tym, jak skonfigurować harmonogram honorariów w Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181285"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596385"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Konfigurowanie harmonogramu honorariów — wersja uproszczona
+# <a name="set-up-a-retainer-schedule"></a>Konfigurowanie harmonogramu zatrzymania
 
-_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
+_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Harmonogramy honorariów są ustawiane na stronie **Kontrakt projektu** w Dynamics 365 Project Operations.
+Harmonogramy zatrzymania są konfigurowane na stronie **Kontrakt projektu** w aplikacji Dynamics 365 Project Operations.
 
 1. Na stronie **Kontrakt projektu** na karcie **Zatrzymania i zaliczki** wybierz opcję **Konfigurowanie harmonogramu honorariów**.
 2. Na stronie dialogu, który zostanie otwarty, zostaną wyświetlone pola wymienione w poniższej tabeli. Tabela zawiera informacje na temat wpływu wprowadzonych wartości lub na harmonogram, który zostanie utworzony.

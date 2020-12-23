@@ -3,17 +3,17 @@ title: Wpis wydatków (lekkich)
 description: W tym temat zamieszczono informacje na temat pracy z wpisem wydatków w ramach wdrożenia w wersji uproszczonej.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121096"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590959"
 ---
 # <a name="expense-entry-lite"></a>Wpis wydatków (lekkich)
 
@@ -21,7 +21,7 @@ _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
 Podstawowe lub uproszczone zarządzanie wydatkami polega na zarejestrowaniu prostych kosztów. Istnieje możliwość rejestrowania kosztów w stosunku do projektu, a następnie analizy i zatwierdzenia ich przez osobę zatwierdzającą w projekcie.
 
-Aby uzyskać więcej informacji o możliwościach wydatkowych w Dynamics 365 Project Operations zobacz temat [Informacje o wydatkach](expense-overview.md).
+Aby uzyskać więcej informacji o możliwościach wydatków w aplikacji Dynamics 365 Project Operations, zobacz [Omówienie wydatków](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Rejestrowanie podstawowego wydatku
 
@@ -36,6 +36,10 @@ Po zakończeniu przechwytywania wszystkich kosztów i przygotowaniu ich do zatwi
 
 1. Przejdź do obszaru **Wydatki** i wybierz wydatek. Można też wybrać wszystkie wydatki, korzystając z pola wyboru w nagłówku.
 2. Wybierz **Prześlij**. System przetwarza wybrane wpisy, a następnie tworzy żądania zatwierdzeń wydatków.
+
+## <a name="add-an-attachment"></a>Dodaj załącznik
+
+Konieczne może być wprowadzenie osoby zatwierdzającej do dodatkowej dokumentacji dotyczącej wydatków. Istnieje możliwość dołączenia paragonu na osi czasu dla wpisu wydatku. Wybierz pozycję **Edytuj** i w sekcji **Oś czasu**, a następnie wybierz ikonę spinacza w celu dołączenia paragonu.
 
 ## <a name="recall-a-basic-expense"></a>Wycofanie podstawowego wydatku
 

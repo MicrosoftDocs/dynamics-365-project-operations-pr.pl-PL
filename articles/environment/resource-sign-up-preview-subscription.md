@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121141"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642984"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Rejestracja w przeglądzie subskrypcji Project Operations w ramach scenariuszy zasobów / zasobów niemagazynowanych
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 W tym temacie przedstawiono sposób subskrybowania wersji zapoznawczej / partnerskiej i wdrożenie Project Operations na potrzeby scenariuszy zasobów i zasobów niemagazynowanych.
 
@@ -42,7 +44,7 @@ Po zatwierdzeniu [żądania wersji zapoznawczej](https://forms.office.com/FormsP
 
 Przed rozpoczęciem pracy należy się upewnić, że użytkownik jest zalogowany w przeglądarce i ma konto pracy użytkownika w dzierżawie, w której ma zostać wyświetlona wersja zapoznawcza Project Operations.
 
-1. Zrealizuj pierwszy kod oferty **Dynamics 365 Project Operations (CRM) — próbna wersja zapoznawcza**, wklejając go do adresu URL przeglądarki.
+1. Zrealizuj pierwszy kod oferty, **Dynamics 365 Project Operations (CRM) — próbna wersja zapoznawcza**, wklejając go do adresu URL przeglądarki.
 
 ![Realizacja oferty](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ Powtórz te same kroki dla ostatniej oferty z powitalnej wiadomości e-mail.
 
 ![Przypisywanie licencji](./media/15AssignLicenses.png)
 
-3. Sprawdź, czy wybrano licencje **Dynamics 365 Project Operations (CRM) — próbna wersja zapoznawcza** i **Office 365 Project Operations — wersja zapoznawcza**, a następnie wybierz **Zapisz zmiany**.
+3. Sprawdź, czy wybrano licencję rozwiązań **Dynamics 365 Project Operations (CRM) — wersja zapoznawcza** i **Office 365 Project Operations — wersja zapoznawcza**, i wybierz pozycję **Zapisz zmiany**.
 
 > [!NOTE]
 > Oferta wersji próbnej Finance nie musi być przypisana do użytkownika.

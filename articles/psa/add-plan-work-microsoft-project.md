@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129691"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642781"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Użyj dodatku Project Service Automation do planowania pracy w programie Microsoft Project
 
@@ -173,6 +173,59 @@ Projektu zostanie zaimportowany do [!INCLUDE[pn_project_service_auto](../include
 4. Kliknij przycisk **Publikuj**.  
 
 Łączenie pliku Projekt z [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sprawia, że plik Projekt staje się wzorcem i ustawia strukturę podziału pracy w szablonie [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] tylko do odczytu.  Aby wprowadzić zmiany do planu projektu, należy sporządzić je w [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i opublikować jako aktualizacje do [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## <a name="read-a-resource-loaded-schedule"></a>Odczytywanie harmonogramu załadowanych zasobów
+
+Podczas odczytywania projektu z rozwiązania Project Service Automation kalendarz zasobu nie jest synchronizowany z klientem stacjonarnym. Jeśli występują różnice między czasami trwania i pracą lub zakończeniem zadań, prawdopodobnie jest to spowodowane tym, że w przypadku zasobów i klienta stacjonarnego nie ma tego samego kalendarza szablonu godzin pracy zastosowanego do projektu.
+
+
+## <a name="data-synchronization"></a>Synchronizacja danych
+
+W poniższej tabeli przedstawiono sposób synchronizowania danych między programem Project Service Automation a dodatkiem plug-in Microsoft Project dla komputerów stacjonarnych.
+
+| **Encja** | **Pole** | **Microsoft Project do Project Service Automation** | **Project Service Automation do Microsoft Project** |
+| --- | --- | --- | --- |
+| Zadanie projektu | Termin | ● | - |
+| Zadanie projektu | Szacowany nakład pracy | ● | - |
+| Zadanie projektu | Identyfikator klienta programu MS Project | ● | - |
+| Zadanie projektu | Zadanie nadrzędne | ● | - |
+| Zadanie projektu | Project | ● | - |
+| Zadanie projektu | Zadanie projektu | ● | - |
+| Zadanie projektu | Nazwa zadania projektu | ● | - |
+| Zadanie projektu | Jednostka zasobów (przestarzałe w wersji 3.0) | ● | - |
+| Zadanie projektu | Zaplanowany czas trwania | ● | - |
+| Zadanie projektu | Data rozpoczęcia | ● | - |
+| Zadanie projektu | Identyfikator SPP | ● | - |
+
+| **Encja** | **Pole** | **Microsoft Project do Project Service Automation** | **Project Service Automation do Microsoft Project** |
+| --- | --- | --- | --- |
+| Członek zespołu | Identyfikator klienta programu MS Project | ● | - |
+| Członek zespołu | Nazwa stanowiska | ● | - |
+| Członek zespołu | projekt | ● | ● |
+| Członek zespołu | Zespół projektu | ● | ● |
+| Członek zespołu | Jednostka zasobów | - | ● |
+| Członek zespołu | Rola | - | ● |
+| Członek zespołu | Godziny pracy | Nie zsynchronizowano | Nie zsynchronizowano |
+
+| **Encja** | **Pole** | **Microsoft Project do Project Service Automation** | **Project Service Automation do Microsoft Project** |
+| --- | --- | --- | --- |
+| Przypisanie zasobu | Od daty | ● | - |
+| Przypisanie zasobu | godzin(y) | ● | - |
+| Przypisanie zasobu | Identyfikator klienta programu MS Project | ● | - |
+| Przypisanie zasobu | Zaplanowana praca | ● | - |
+| Przypisanie zasobu | Project | ● | - |
+| Przypisanie zasobu | Zespół projektu | ● | - |
+| Przypisanie zasobu | Przypisanie zasobu | ● | - |
+| Przypisanie zasobu | Zadanie | ● | - |
+| Przypisanie zasobu | Do daty | ● | - |
+
+| **Encja** | **Pole** | **Microsoft Project do Project Service Automation** | **Project Service Automation do Microsoft Project** |
+| --- | --- | --- | --- |
+| Zależności zadań projektu | Zależność zadania projektu | ● | - |
+| Zależności zadań projektu | Typ łącza | ● | - |
+| Zależności zadań projektu | Zadanie poprzedzające | ● | - |
+| Zależności zadań projektu | Project | ● | - |
+| Zależności zadań projektu | Zadanie następujące | ● | - |
 
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera projektu](../psa/project-manager-guide.md)

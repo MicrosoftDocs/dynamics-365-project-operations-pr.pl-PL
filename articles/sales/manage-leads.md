@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 16f5dbb283eee12cf10ca7145ea9e17c5ef8923e
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181780"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513847"
 ---
 # <a name="manage-leads"></a>Zarządzaj potencjalnymi klientami
 
@@ -55,7 +55,7 @@ Potencjalni klienci, dla których ustawiono wartość **Typ** na **Oparty na pra
 - Rekord kontaktu skojarzony z kontem na podstawie wartości w polach **Imię** i **Nazwisko** w potencjalnego klienta.
 - Szansa sprzedaży oparta na projekcie z polem **Typ** ustawionym na wartość **Oparte na pracy**.
 
-Aby uzyskać bardziej szczegółowe informacje na temat kwalifikowania potencjalnych klientów, zobacz [kwalifikowanie i konwertowanie potencjalnych klientów](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Aby uzyskać bardziej szczegółowe informacje na temat kwalifikowania potencjalnych klientów, zobacz [Kwalifikowanie lub konwertowanie potencjalnych klientów](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Informacje związane z kwalifikowaniem potencjalnych klientów i podmiotem prawnym 
 

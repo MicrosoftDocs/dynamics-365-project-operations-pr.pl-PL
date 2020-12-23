@@ -1,5 +1,5 @@
 ---
-title: Fakturowanie płatności opartej na zatrzymaniu lub zaliczce - wersja uproszczona
+title: Fakturowanie płatności opartej na zatrzymaniu lub zaliczce
 description: Ten temat zawiera informacje na temat fakturowania zatrzymania lub zaliczki w Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180565"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596205"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Fakturowanie płatności opartej na zatrzymaniu lub zaliczce - wersja uproszczona
+# <a name="invoice-a-retainer-or-an-advance"></a>Fakturowanie płatności opartej na zatrzymaniu lub zaliczce
 
-_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
+_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Dynamics 365 Project Operations obsługuje kontrakty oparte na zatrzymaniach i jednorazowe zaliczki. W kontrakcie projektu można zarejestrować harmonogramy zatrzymań lub jednorazowe zaliczki. Jednak rejestrowanie na poziomie kontraktu projektu nie powoduje natychmiastowego udostępnienia takiego zatrzymania lub zaliczki. Aby można było skorzystać z zatrzymania lub zaliczki na fakturze, należy najpierw zafakturować zatrzymanie lub zaliczkę.
+Aplikacja Dynamics 365 Project Operations obsługuje kontrakty oparte na zatrzymaniach i zaliczkach jednorazowych. W kontrakcie projektu można zarejestrować harmonogramy zatrzymań lub jednorazowe zaliczki. Jednak rejestrowanie na poziomie kontraktu projektu nie powoduje natychmiastowego udostępnienia takiego zatrzymania lub zaliczki. Aby można było skorzystać z zatrzymania lub zaliczki na fakturze, należy najpierw zafakturować zatrzymanie lub zaliczkę.
 
 Wykonaj poniższe kroki, aby skonfigurować fakturowanie zatrzymania lub zaliczki.
 

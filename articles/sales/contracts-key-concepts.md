@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: fa00bd5b4a1179f38d5dfb63a47b39eec69c6ecf
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175544"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642151"
 ---
 # <a name="project-contracts---key-concepts"></a>Kontrakty projektu - Kluczowe pojęcia
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-W tym temacie można znaleźć podstawowe pojęcia przed rozpoczęciem korzystania z ofert projektów w ramach Dynamics 365 Project Operations.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+W tym temacie przedstawiono kluczowe pojęcia dotyczące korzystania z kontraktów projektów w aplikacji Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Firma będąca właścicielem
 

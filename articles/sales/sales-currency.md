@@ -17,16 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121231"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642286"
 ---
 # <a name="currency"></a>Waluta
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 W walutach wyrażane są ceny produktów w katalogu produktów oraz koszty transakcji, takich jak zamówienia sprzedaży. Jeśli klienci znajdują się w różnych lokalizacjach geograficznych, dodaj ich waluty, aby zarządzać transakcjami. Dodaj waluty, które są najbardziej odpowiednie dla Twoich bieżących i przyszłych potrzeb biznesowych.  
 

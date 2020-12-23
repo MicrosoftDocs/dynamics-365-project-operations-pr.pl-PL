@@ -1,6 +1,6 @@
 ---
 title: Model zabezpieczeń
-description: W tym temacie zamieszczono informacje na temat modelu bezpieczeństwa w Dynamics 365 Project Operations.
+description: Ta temat zawiera informacje o modelu zabezpieczeń w aplikacji Dynamics 365 Project Operations.
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124381"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642916"
 ---
 # <a name="security-model"></a>Model zabezpieczeń
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Microsoft Dynamics 365 Project Operations zawiera unikatowy model zabezpieczeń, który umożliwia współpracę z modelem zabezpieczeń opartym na rolach, które będą współpracować z grupami programu Microsoft Office. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Aplikacja Microsoft Dynamics 365 Project Operations zawiera unikatowy model zabezpieczeń, który umożliwia współpracę modelu zabezpieczeń opartego na rolach z grupami pakietu Microsoft Office. 
 
 
 ## <a name="security-roles"></a>Role zabezpieczeń

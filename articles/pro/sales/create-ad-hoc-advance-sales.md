@@ -1,5 +1,5 @@
 ---
-title: Tworzenie przedpłaty ad hoc w kontrakcie — wersja uproszczona
+title: Tworzenie zaliczki ad hoc w kontrakcie
 description: W tym temat zamieszczono informacje dotyczące tworzenia zaliczki na temat kontraktu w zależności od potrzeb.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181375"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596020"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Tworzenie przedpłaty ad hoc w kontrakcie — wersja uproszczona
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Tworzenie zaliczki ad hoc w kontrakcie
 
-_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
+_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Microsoft Dynamics 365 Project Operations jest obsługiwany w scenariuszach fakturowania obejmujących przede wszystkim płatności i nadpłaty. Proces korzystania z **Zaliczek** w **Project Operations** przypomina kontrakty **Zatrzymania**. 
+Aplikacja Microsoft Dynamics 365 Project Operations obsługuje scenariusze fakturowania obejmujące przedpłaty i zaliczki. Proces korzystania z **Zaliczek** w **Project Operations** przypomina kontrakty **Zatrzymania**. 
 
 Wykonaj poniższe kroki, aby zafakturować klienta z zaliczą na poczet oferty.
 

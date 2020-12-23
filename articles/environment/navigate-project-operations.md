@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 92a9c4e62165f3e26ccb03c7af61f483c6744cc5
-ms.sourcegitcommit: 627d42e2a318dfc9564a4b803ada157682d4a0db
+ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4174278"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642061"
 ---
 # <a name="navigate-project-operations"></a>Nawigacja po aplikacji Project Operations
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Dynamics 365 Project Operations dla scenariuszy związanych z zasobami/brakiem zapasów składa się z dwóch komponentów: 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Aplikacja Dynamics 365 Project Operations dla scenariuszy związanych z zasobami/brakiem zapasów składa się z dwóch komponentów: 
 
  - **Project Operations w środowisku Common Data Service (CDS)**: Ten komponent obejmuje możliwości i procesy od możliwości do fakturowania proforma. 
  - **Zarządzanie projektami i ich księgowanie w środowisku Dynamics 365 Finance**: ten składnik obejmuje funkcje zarządzania wydatkami, księgowania projektów i rozpoznawania przychodów. 

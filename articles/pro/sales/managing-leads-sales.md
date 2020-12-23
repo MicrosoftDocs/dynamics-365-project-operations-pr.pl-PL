@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180520"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513802"
 ---
 # <a name="manage-leads---lite"></a>Zarządzaj potencjalnymi klientami - wersja uproszczona
 
@@ -23,7 +23,7 @@ Potencjalni klienci oparci na projekcie mogą być zarządzani i kwalifikowani w
 
 ## <a name="list-of-project-sales-leads"></a>Lista potencjalnych klientów projektu
 
-W sekcji **Sprzedaż** w lewym okienku nawigacji otwórz stronę listy **Potencjalni klienci**, aby wyświetlić listę wszystkich rekordów potencjalnych klientów w systemie. Lista wyświetlanych potencjalnych klientów jest oparta na pracach i innych typach potencjalnych klientów, których można utworzyć w przypadku, gdy użytkownik ma także dostęp do Dynamics 365 Sales i Dynamics 365 Field Service.
+W sekcji **Sprzedaż** w lewym okienku nawigacji otwórz stronę listy **Potencjalni klienci**, aby wyświetlić listę wszystkich rekordów potencjalnych klientów w systemie. Potencjalni klienci na liście opierają się na pracy i innych typach potencjalnych klientów, które mogą być tworzone, jeśli masz również aplikacje Dynamics 365 Sales lub Dynamics 365 Field Service.
 
 Można utworzyć widok filtrowany, aby wyświetlić tylko potencjalnych klientów opartych na projektach, tworząc filtr dla wartości **Typu**. Można na przykład wybrać opcję, aby byli wyświetlani tylko potencjalni klienci w danym miejscu.
 
@@ -55,7 +55,7 @@ Potencjalni klienci, dla których ustawiono wartość **Typ** na **Oparty na pra
 - Rekord kontaktu skojarzony z kontem na podstawie wartości w polach **Imię** i **Nazwisko** w potencjalnego klienta.
 - Szansa sprzedaży oparta na projekcie z polem **Typ** ustawionym na wartość **Oparte na pracy**.
 
-Aby uzyskać bardziej szczegółowe informacje na temat kwalifikowania potencjalnych klientów, zobacz [kwalifikowanie i konwertowanie potencjalnych klientów](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Aby uzyskać bardziej szczegółowe informacje na temat kwalifikowania potencjalnych klientów, zobacz [Kwalifikowanie lub konwertowanie potencjalnych klientów](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Przepływ procesów biznesowych w transakcjach opartych na projektach
 

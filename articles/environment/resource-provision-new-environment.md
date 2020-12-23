@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121186"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642997"
 ---
 # <a name="provision-a-new-environment"></a>Ustanowienie nowego środowiska
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-W tym temacie zamieszczono informacje dotyczące sposobu ustanawiania nowego środowiska Dynamics 365 Project Operations do obsługi zasobów i niemagazynowanych scenariuszy.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Ten temat zawiera informacje o sposobach ustanawiania nowego środowiska aplikacji Dynamics 365 Project Operations dla scenariuszy opartych na zasobach/braku zapasów.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Włączanie zautomatyzowanego ustanawiania Project Operations w ramach projektu LCS
 
@@ -120,7 +122,7 @@ Obsługa środowiska zajmie trochę czasu. Po zakończeniu środowisko powróci 
 
 ![Zastosuj rozwiązania](./media/13ApplySolutions.png)
 
-5. Zaznacz oba rozwiązania, **Mapowanie encji z podwójnym zapisem Dynamics 365 Finance and Operations** i **Mapowanie encji z podwójnym zapisem Dynamics 365 Project Operations**, a następnie kliknij przycisk **Zastosuj**.
+5. Wybierz obydwa rozwiązania, **Dynamics 365 Finance and Operations — mapa encji podwójnego zapisu** i **Dynamics 365 Project Operations — mapa encji podwójnego zapisu**, a następnie wybierz przycisk **Zastosuj**.
 
 ![Potwierdzanie rozwiązań](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Odświeżenie zajmie około 20 minut. Po jego zakończeniu otrzymasz alert.
 | --- | --- | --- | --- | --- | --- |
 | **Role zasobów projektu dla wszystkich firm (bookableresourcecategories)** | No | Tak | Common Data Service | No | nie dotyczy |
 | **Firmy (cdm\_companies)** | No | Tak | Aplikacje rozwiązania Finance and Operations | No | nie dotyczy |
+| **Księga (msdyn_ledgers)** | No | Tak | Aplikacje rozwiązania Finance and Operations | Tak | Tak, aplikacje Finance and Operations |
 | **Wartości rzeczywiste integracji Project Operations (msdyn\_actuals)** | No | No | nie dotyczy | Tak | No |
 | **Pozycje kontraktu w projekcie (salesorderdetails)** | No | No | nie dotyczy | No | No |
 | **Encja integrująca dla transakcji projektu relacje (msdyn\_transactionconnections)** | No | No | nie dotyczy | No | nie dotyczy |

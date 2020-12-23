@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082146"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642646"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizuj umowy i projekty dotyczące projektów bezpośrednio z Project Service Automation do Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 W tym temacie opisano szablon i podstawowe zadania, które są używane do synchronizowania umów dotyczących projektów i projektów bezpośrednio z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 
@@ -46,7 +48,7 @@ Na poniższej ilustracji przedstawiono sposób synchronizowania danych między P
 
 ## <a name="templates-and-tasks"></a>Szablony i zadania
 
-Aby uzyskać dostęp do dostępnych szablonów, w centrum administracyjnym Microsoft Power Apps wybierz pozycję **Projekty** , a następnie w prawym górnym rogu wybierz opcję **Nowy projekt** , aby wybrać szablony publiczne.
+Aby uzyskać dostęp do dostępnych szablonów, w centrum administracyjnym Microsoft Power Apps wybierz pozycję **Projekty**, a następnie w prawym górnym rogu wybierz opcję **Nowy projekt**, aby wybrać szablony publiczne.
 
 Następujące szablony i podstawowe zadania służą do synchronizowania umów dotyczących projektów i projektów z usługi Project Service Automation do Finance:
 
@@ -95,11 +97,11 @@ Punktami kontrolnymi pozycji kontraktu projektu zarządza się w Project Service
 
 Pole **identyfikator kontraktu projektu** jest dostępne na stronie **kontrakty projektów**. To pole zostało wykonane jako klucz fizyczny i unikatowy do obsługi integracji.
 
-Po utworzeniu nowego kontraktu projektu, jeśli wartość **identyfikatora kontraktu projektu** już nie istnieje, jest generowana automatycznie za pomocą sekwencji numerów. Wartość składa się z **ORD** , po którym następuje rosnąca sekwencja liczb, a następnie sufiks składający się z sześciu znaków. Oto przykład: **ORD-01022-Z4M9Q0**.
+Po utworzeniu nowego kontraktu projektu, jeśli wartość **identyfikatora kontraktu projektu** już nie istnieje, jest generowana automatycznie za pomocą sekwencji numerów. Wartość składa się z **ORD**, po którym następuje rosnąca sekwencja liczb, a następnie sufiks składający się z sześciu znaków. Oto przykład: **ORD-01022-Z4M9Q0**.
 
 Pole **Numer projektu** jest dostępne na stronie **Projekty**. To pole zostało wykonane jako klucz fizyczny i unikatowy do obsługi integracji.
 
-Po utworzeniu nowego projektu, jeśli wartość **Numer projektu** już nie istnieje, jest generowana automatycznie za pomocą sekwencji numerów. Wartość składa się z **PRJ** , po którym następuje rosnąca sekwencja liczb, a następnie sufiks składający się z sześciu znaków. Oto przykład: **PRJ-01049-CCNID0**.
+Po utworzeniu nowego projektu, jeśli wartość **Numer projektu** już nie istnieje, jest generowana automatycznie za pomocą sekwencji numerów. Wartość składa się z **PRJ**, po którym następuje rosnąca sekwencja liczb, a następnie sufiks składający się z sześciu znaków. Oto przykład: **PRJ-01049-CCNID0**.
 
 Po zastosowaniu rozwiązania integracji Project Service Automation z Finance skrypt uaktualnienia ustawia pole **Identyfikator kontraktu** projektu dla istniejących umów dotyczących projektu oraz pole **Numer projektu** dla istniejących projektów w programie Project Service Automation.
 
@@ -133,9 +135,9 @@ Jeśli musisz użyć dodatku Power Query, postępuj zgodnie z tymi wskazówkami:
 ## <a name="template-mapping-in-data-integration"></a>Mapowanie szablonów w integracji danych
 
 > [!NOTE] 
-> Pola **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** i **AddressZipCode** nie są zawarte w domyślnym mapowaniu kontraktów dotyczących projektów. Można dodać mapowania, jeśli jest wymagane, aby te dane były synchronizowane z kontraktami dotyczącymi projektów.
+> Pola **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** i **AddressZipCode** nie są zawarte w domyślnym mapowaniu kontraktów dotyczących projektów. Można dodać mapowania, jeśli jest wymagane, aby te dane były synchronizowane z kontraktami dotyczącymi projektów.
 >
-> Pola **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** i **ProjectType** nie są uwzględnione w domyślnym mapowaniu projektów. Można dodać mapowania, jeśli jest wymagane, aby te dane były synchronizowane z projektami.
+> Pola **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** i **ProjectType** nie są uwzględnione w domyślnym mapowaniu projektów. Można dodać mapowania, jeśli jest wymagane, aby te dane były synchronizowane z projektami.
 
 Poniższe ilustracje przedstawiają przykłady odwzorowań zadań szablonu w integracji danych. Mapowanie przedstawia informacje o polach, które zostaną zsynchronizowane z Project Service Automation do Finance.
 
