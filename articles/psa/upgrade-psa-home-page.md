@@ -2,6 +2,7 @@
 title: Strona główna uaktualnienia
 description: W tym temacie przedstawiono miejsca, w których można znaleźć ważne informacje dotyczące nowych i zmienionych funkcji w programie Dynamics 365 Project Service Automation, oraz proces uaktualniania do najnowszej wersji.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121771"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150096"
 ---
 # <a name="upgrade-home-page"></a>Strona główna uaktualnienia
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ Od 17 maja 2019 r. po wybraniu programu Project Service Automation podczas inicj
 
 ### <a name="existing-instances"></a>Istnieją wystąpienia
 
-Wcześniej klienci, którzy mieli wystąpienie programu PSA w wersji 2.x i potrzebowali aktualizacji do wersji 3.x, która jest wersją programu PSA wyposażoną w ujednolicony interfejs klienta (UCI), musieli się skontaktować z działem pomocy technicznej firmy Microsoft i przekazać informacje dotyczące posiadanego wystąpienia, tak aby dział pomocy technicznej mógł przygotować uaktualnienie do wersji 3.x. Od 1 marca, 2020, klienci, którzy mają wystąpienie PSA w wersji 2.x, muszą uaktualnić je do wersji 3. x, będą mogli uaktualnić swoje wystąpienia bezpośrednio z portalu administracyjnego bez konieczności kontaktowania się z pomocą techniczną firmy Microsoft.  
+Wcześniej klienci, którzy mieli wystąpienie programu PSA w wersji 2.x i chcieli uaktualnić do wersji 3.x, która jest wersją programu PSA wyposażoną w ujednolicony interfejs klienta (UCI), musieli się skontaktować z działem pomocy technicznej i przekazać informacje dotyczące posiadanego wystąpienia, tak aby dział pomocy technicznej mógł przygotować uaktualnienie do wersji 3.x. Od 1 marca 2020 r. klienci, którzy mają wystąpienie PSA w wersji 2.xi muszą uaktualnić swoje wystąpienia do wersji 3.x, będą mogli uaktualnić swoje wystąpienia bezpośrednio z portalu administracyjnego bez konieczności kontaktowania się z pomocą techniczną firmy Microsoft.  
 
 > [!NOTE]
 > Program PSA w wersji 3.x zawiera istotne zmiany. Został oparty na strukturze ujednoliconego interfejsu w celu ułatwienia obsługi użytkownikom. Przeprojektowana aplikacja oferuje spójny, jednolity interfejs użytkownika, który jest łatwy w obsłudze i zapewnia dobrą widoczność na wszystkich ekranach bez względu na ich wielkość. W całej aplikacji wprowadzono wiele innych zmian. Zmodyfikowane obszary obejmują kalkulację cen, rezerwację i przypisywanie zasobów oraz zarządzanie okresami, wydatkami i zatwierdzeniami.
@@ -58,7 +61,7 @@ Gdy już przejrzysz tematy wspomniane wcześniej i przygotujesz wszystko do uakt
 
 Od 17 maja 2019 r. wszystkie nowe wystąpienia będą domyślnie używały klienta UCI. W celu zapewnienia zgodności z tą zmianą domyślnie będzie inicjowana obsługa administracyjna programów PSA w wersji 3.x i Field Service w wersji 8.x, ponieważ te wersje są przewidziane do współpracy z klientem UCI.
 
-Począwszy od pierwszego marce 2020, klienci aplikacji Dynamics PSA nie będą mogli tworzyć nowych środowisk z programem PSA w starszych wersjach, na przykład PSA w wersji 2.x lub starszej. Każde nowe środowisko będzie wyłącznie w wersji 3.x PSA.
+Od 1 marca 2020 r. klienci Dynamics PSA nie będą już mogli tworzyć nowego środowiska ze starszymi wersjami PSA, na przykład PSA w wersji 2.x lub niższej. Każde nowe środowisko będzie wyłącznie w wersji 3.x PSA.
 
 > [!NOTE]
 > Aby osiągnąć najlepszy efekt podczas korzystania ze starszych wersji aplikacji Field Service i PSA, przejdź do strony **Ustawienia systemu** i w polu **Używaj tylko nowego ujednoliconego interfejsu (zalecane)** zaznacz wartość **Nie**, ponieważ te wersje nie są zaprojektowane do poprawnego ładowania w interfejsie UCI. Po wyłączeniu interfejsu UCI można otwierać i uruchamiać te wersje programów Field Service i PSA przy użyciu starego klienta sieci Web. 

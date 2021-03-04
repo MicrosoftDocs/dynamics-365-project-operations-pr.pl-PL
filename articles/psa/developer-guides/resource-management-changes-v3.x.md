@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082203"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148656"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Zmiany w zarządzaniu zasobami (Project Service Automation wer. 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Sekcje tego tematu zawierają informacje o zmianach wprowadzonych w obszarze Zarządzanie zasobami w programie Dynamics 365 Project Service Automation w wersji 3.x.
 
 ## <a name="project-estimates"></a>Szacowania projektu
 
-Szacunki projektu już nie opierają się na encji **msdyn\_projecttask** ( **Zadanie projektu** ), ale na encji **msdyn\_resourceassignment** ( **Przypisanie zasobu** ). Przypisania zasobów stały się „źródłem prawdziwych informacji” dla aparatów planowania zadań i kalkulacji cen.
+Szacunki projektu już nie opierają się na encji **msdyn\_projecttask** (**Zadanie projektu**), ale na encji **msdyn\_resourceassignment** (**Przypisanie zasobu**). Przypisania zasobów stały się „źródłem prawdziwych informacji” dla aparatów planowania zadań i kalkulacji cen.
 
 ## <a name="line-tasks"></a>Zadania wierszy
 
@@ -65,7 +67,7 @@ W programie PSA 3.x nieprzydzielone przypisanie to takie, które zostało przypi
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Pola planowania w encji Zadanie projektu
 
-Pola w encji **msdyn\_projecttask** zostały wycofane lub przeniesione do encji **msdyn\_resourceassignment** albo są obecnie przywoływane przez encję **msdyn\_projectteam** ( **Członek zespołu projektu** ).
+Pola w encji **msdyn\_projecttask** zostały wycofane lub przeniesione do encji **msdyn\_resourceassignment** albo są obecnie przywoływane przez encję **msdyn\_projectteam** (**Członek zespołu projektu**).
 
 | Wycofane pole w encji msdyn\_projecttask (Zadanie projektu) | Nowe pole w encji msdyn\_resourceassignment (Przypisanie zasobu) | Komentarz |
 |---|---|---|
@@ -77,7 +79,7 @@ Pola w encji **msdyn\_projecttask** zostały wycofane lub przeniesione do encji 
 
 ## <a name="schedule-contour"></a>Rozkład harmonogramu
 
-Rozkład harmonogramu jest przechowywany w polu **Zaplanowana praca** ( **msdyn\_plannedwork** ) każdej encji **Przypisanie zasobu** ( **msdyn\_resourceassignment** ).
+Rozkład harmonogramu jest przechowywany w polu **Zaplanowana praca** (**msdyn\_plannedwork**) każdej encji **Przypisanie zasobu** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Struktura
 
@@ -139,7 +141,7 @@ W tym przykładzie zadanie zostało przypisane do dwóch zasobów i automatyczni
 
 ## <a name="pricing-dimensions"></a>Wymiary kalkulacji cen
 
-W programie PSA 3.x pola wymiaru kalkulacji cen specyficzne dla zasobów (takie jak **Rola** i **Jednostka organizacyjna** ) zostały usunięte z encji **msdyn\_projecttask**. Te pola można teraz pobrać od odpowiedniego członka zespołu projektu ( **msdyn\_projectteam** ) w przypisaniu zasobu ( **msdyn\_resourceassignment** ) podczas generowania oszacowań projektu. Do encji **msdyn\_projectteam** dodano nowe pole **msdyn\_organizationalunit**.
+W programie PSA 3.x pola wymiaru kalkulacji cen specyficzne dla zasobów (takie jak **Rola** i **Jednostka organizacyjna**) zostały usunięte z encji **msdyn\_projecttask**. Te pola można teraz pobrać od odpowiedniego członka zespołu projektu (**msdyn\_projectteam**) w przypisaniu zasobu (**msdyn\_resourceassignment**) podczas generowania oszacowań projektu. Do encji **msdyn\_projectteam** dodano nowe pole **msdyn\_organizationalunit**.
 
 | Wycofane pole w encji msdyn\_projecttask (Zadanie projektu) | Pola z encji msdyn\_projectteam (Członek zespołu projektu) używane w zamian |
 |---|---|
@@ -155,7 +157,7 @@ Pola rozkładu kalkulacji cen i szacowania zostały wycofane z encji **msdyn\_pr
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Następujące pola zostały dodane do encji **msdyn\_resourceassignment** :
+Następujące pola zostały dodane do encji **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales

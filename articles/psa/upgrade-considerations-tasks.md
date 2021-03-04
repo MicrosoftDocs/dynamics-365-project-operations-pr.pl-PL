@@ -18,14 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121816"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149556"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Zagadnienia dotyczące uaktualniania struktury podziału pracy
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 W tym temacie zamieszczono informacje dotyczące uaktualniania struktury podziału pracy w programie Project Service Automation z wersji 2.x do 3.x. Ten temat określa dobrą kondycję projektu w rozwiązaniu Project Service Automation (PSA), która jest niezbędna do pomyślnego uaktualnienia. Są tu również informacje o typowych sytuacjach blokowania, które spowodują niepowodzenie uaktualnienia. Aby uzyskać więcej informacji na temat definiowania zadań w projektach i ich funkcjach w harmonogramie projektu, zobacz [Harmonogramy projektów](project-creating.md).
 
 ## <a name="key-entities"></a>Kluczowe encje
