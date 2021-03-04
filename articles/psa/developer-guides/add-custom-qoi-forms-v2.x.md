@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082206"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144606"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Dodawanie nowych niestandardowych formularzy encji (Project Service Automation wer. 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Pole Typ 
 
-Program Dynamics 365 Project Service Automation wykorzystuje pole **Typ** ( **msdyn\_ordertype** ) w encjach Szansa sprzedaży, Oferta, Zamówienie i Faktury do rozróżniania między wersjami tych encji **opartymi na pracy** , **opartymi na towarach** i **opartymi na usługach**. Wersje tych encji oparte na pracy są zarządzane przez program PSA. Od pola **Typ** zależy wiele aspektów logiki biznesowej po stronach klienta i serwera rozwiązania. Dlatego ważne jest, aby podczas tworzenia encji pole było inicjowane z poprawną wartością. Niepoprawna wartość może spowodować nieprawidłowe zachowanie, a część logiki biznesowej może nie działać poprawnie.
+Program Dynamics 365 Project Service Automation wykorzystuje pole **Typ** (**msdyn\_ordertype**) w encjach Szansa sprzedaży, Oferta, Zamówienie i Faktury do rozróżniania między wersjami tych encji **opartymi na pracy**, **opartymi na towarach** i **opartymi na usługach**. Wersje tych encji oparte na pracy są zarządzane przez program PSA. Od pola **Typ** zależy wiele aspektów logiki biznesowej po stronach klienta i serwera rozwiązania. Dlatego ważne jest, aby podczas tworzenia encji pole było inicjowane z poprawną wartością. Niepoprawna wartość może spowodować nieprawidłowe zachowanie, a część logiki biznesowej może nie działać poprawnie.
 
 ## <a name="automatic-form-switching"></a>Automatyczne przełączanie formularzy
 
@@ -47,7 +49,7 @@ Wykonaj te kroki, aby utworzyć niestandardową wersję formularza **Informacje 
     > [!IMPORTANT]
     > Nie należy usuwać skryptów. W przeciwnym razie niektóre dane mogą być niepoprawnie inicjowane.
 
-3. Sprawdź, czy w formularzu jest obecne pole **Typ** ( **msdyn\_ordertype** ). 
+3. Sprawdź, czy w formularzu jest obecne pole **Typ** (**msdyn\_ordertype**). 
 
     > [!IMPORTANT]
     > Nie należy usuwać tego pola. W przeciwnym razie skrypty inicjalizacji nie zadziałają.
@@ -59,7 +61,7 @@ Wykonaj te kroki, aby utworzyć niestandardową wersję formularza **Informacje 
 
     ![Wartość formId nowego formularza w adresie URL](media/how-to-add-custom-forms-in-v2.0.png)
 
-5. Utwórz mapowanie pola **msdyn\_ordertype** dla wartości **formId** , odpowiednio modyfikując zasób internetowy msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Usuń kod z zasobu i zastąp go następującym kodem.
+5. Utwórz mapowanie pola **msdyn\_ordertype** dla wartości **formId**, odpowiednio modyfikując zasób internetowy msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Usuń kod z zasobu i zastąp go następującym kodem.
 
     ```javascript
     define(["require", "exports"], function (require, exports) {

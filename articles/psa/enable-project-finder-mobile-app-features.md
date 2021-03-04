@@ -3,6 +3,7 @@ title: Włącz funkcje aplikacji Project Finder Mobile
 description: Włączanie funkcji aplikacji Project Finder Mobile dla Project Service
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132976"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144561"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Włącz funkcje aplikacji Project Finder Mobile (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Twoje zasoby mogą korzystać z aplikacji Project Finder Mobile na telefonie z [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], aby znajdować nowe projekty, nad którymi mogą pracować, lub aby aktualizować posiadane umiejętności.  
   
  Aplikacja jest dostępna na telefony [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] i [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].  
-  
- Należy ustawić kilka opcji w ustawieniach parametrów dla Twojego jednostki organizacyjnej, aby zezwolić użytkownikom na wyświetlanie wymagań związanych z zasobami dla projektów oraz na aktualizowanie ich umiejętności.  
+    
+ Aby umożliwić użytkownikom przeglądanie wymagań dotyczących zasobów projektu i aktualizowanie umiejętności, w ustawieniach parametrów jednostki organizacyjnej należy wybrać opcje.
   
 > [!NOTE]
 >  Aplikacja Project Finder Mobile działa tylko z [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], nie działa na urządzeniach lokalnych.  
@@ -57,10 +60,10 @@ Twoje zasoby mogą korzystać z aplikacji Project Finder Mobile na telefonie z [
   
 |Odbiorca|Wydarzenie|  
 |---------------|-----------|  
-|Menedżer projektu|-   Kiedy zasób zgłasza się do projektu za pomocą aplikacji Project Finder Mobile.|  
-|Zasób|-   Kiedy prace związane z projektem, do którego zasób się zgłosił, zostały już zrealizowane przez inny zasób.<br />-   Kiedy żądanie zatwierdzenia umiejętności zostało zatwierdzone lub odrzucone.<br />-   Kiedy żądanie zgłoszenia się do projektu zostało zatwierdzone lub odrzucone.|  
+|Menedżer projektu|- Zasób zgłasza się do projektu za pomocą aplikacji Project Finder Mobile.|  
+|Zasób|- Prace związane z projektem, do którego zasób się zgłosił, zostały już zrealizowane przez inny zasób.<br />- Żądanie zatwierdzenia umiejętności zostało zatwierdzone lub odrzucone.<br />- Żądanie zgłoszenia się do projektu zostało zatwierdzone lub odrzucone.|  
   
-## <a name="privacy-notice"></a>Zasady zachowania poufności informacji  
+## <a name="privacy-notice"></a>Oświadczenie o ochronie prywatności  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
   
 ### <a name="see-also"></a>Zobacz także  

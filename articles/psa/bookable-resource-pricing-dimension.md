@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082111"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145011"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Używanie zasobu możliwego do zarezerwowania jako wymiaru kalkulacji cen
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Ten temat zawiera informacje na temat używania zasobu możliwego do zarezerwowania jako wymiaru kalkulacji cen. Jeśli przed rozpoczęciem pracy jeszcze nie utworzono rozwiązania do zarządzania wymiarami kalkulacji cen, trzeba je utworzyć. Jeśli istnieje już rozwiązanie do zarządzania wymiarami kalkulacji cen, można wprowadzić w nim zmiany. Jeśli w organizacji nie utworzono nowego rozwiązania do zarządzania wymiarami kalkulacji cen, należy wykonać procedury opisane w temacie [Tworzenie niestandardowych pól i encji](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Dodawanie zasobu możliwego do zarezerwowania do formularzy i widoków
@@ -52,13 +55,13 @@ Otwórz Eksploratora rozwiązań dla rozwiązania do zarządzania wymiarami kalk
 2. Do tej listy wymiarów kalkulacji cen dodaj element **Zasób, który można zarezerwować** jako **msdyn_bookableresource**. 
 3. Wskaż kontekst, w którym zasób możliwy do zarezerwowania ma działać jako wymiar kalkulacji cen, oraz ustaw wartości w polach **Ma zastosowanie do kosztu** i **Ma zastosowanie do sprzedaży**.
 4. W polu **Typ wymiaru** wybierz wartość **Oparty na kwocie**. 
-5. Wybierz priorytet kosztu i sprzedaży dla zasobu możliwego do zarezerwowania. Zazwyczaj jeśli zasób możliwy do zarezerwowania jest dołączony jako wymiar kalkulacji cen, ma najwyższy priorytet, więc ustawienie wartości **1** (lub **0** , zależnie od sposobu liczenia priorytetu) zagwarantuje to zachowanie
+5. Wybierz priorytet kosztu i sprzedaży dla zasobu możliwego do zarezerwowania. Zazwyczaj jeśli zasób możliwy do zarezerwowania jest dołączony jako wymiar kalkulacji cen, ma najwyższy priorytet, więc ustawienie wartości **1** (lub **0**, zależnie od sposobu liczenia priorytetu) zagwarantuje to zachowanie
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Konfigurowanie nazw pól wymiaru kalkulacji cen
 
 Kiedy nazwa pola wymiaru kalkulacji cen w tabeli **Cena roli** różni się od jego nazwy pola w którejkolwiek innej encji, gdzie musi działać funkcja domyślnego ustawiania cen, rekord wymiaru kalkulacji cen musi być powiadamiany o innych nazwach.    
-W zasobie możliwym do zarezerwowania encja **Członkowie zespołu projektu** ma nieco inną nazwę pola ( **msdyn_bookableresourceid** ) niż w encji **Cena roli** ( **msdyn_bookableresource** ). Rekord wymiaru kalkulacji cen dla pola **msdyn_bookableresource** musi się o tym dowiedzieć. 
-1. W tym celu kliknij dwukrotnie wiersz w siatce **Wymiary kalkulacji cen** , aby otworzyć stronę wymiarów encji **msdyn_bookableresource**.
+W zasobie możliwym do zarezerwowania encja **Członkowie zespołu projektu** ma nieco inną nazwę pola (**msdyn_bookableresourceid**) niż w encji **Cena roli** (**msdyn_bookableresource**). Rekord wymiaru kalkulacji cen dla pola **msdyn_bookableresource** musi się o tym dowiedzieć. 
+1. W tym celu kliknij dwukrotnie wiersz w siatce **Wymiary kalkulacji cen**, aby otworzyć stronę wymiarów encji **msdyn_bookableresource**.
 2. Na stronie wymiarów na karcie **Pokrewne** kliknij pozycję **Nazwy pól wymiaru kalkulacji cen**.
 
  ![Karta Nazwy pól wymiaru kalkulacji cen](media/PD-fieldname.png)
@@ -70,6 +73,6 @@ W zasobie możliwym do zarezerwowania encja **Członkowie zespołu projektu** ma
 
 Spowoduje to otwarcie strony **Nowa nazwa pola wymiaru kalkulacji cen** dla encji **msdyn_bookableresource**. 
 
-5. Dodaj encję **msdyn_projectteam** do pola **Logiczna nazwa encji** , a encję **msdyn_bookableresourceid** do pola **Nazwa pola**. Zapisz rekord.
+5. Dodaj encję **msdyn_projectteam** do pola **Logiczna nazwa encji**, a encję **msdyn_bookableresourceid** do pola **Nazwa pola**. Zapisz rekord.
 
  ![Formularz Nowa nazwa pola wymiaru kalkulacji cen](media/PD-fieldname-Added.png)
