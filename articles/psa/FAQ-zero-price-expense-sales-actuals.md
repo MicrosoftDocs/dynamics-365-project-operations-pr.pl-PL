@@ -3,6 +3,7 @@ title: Dlaczego ceny domyślnie wynoszą zero w wartościach rzeczywistych wydat
 description: Poniższe trzy kontrole ułatwią rozwiązanie problemu, dlaczego cena wynosi domyślnie 0 w wartościach rzeczywistych wydatek sprzedaż.
 author: rumant
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d4910d3727085a45036f3b438ecd69abc3e99836
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122086"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146316"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Dlaczego ceny domyślnie wynoszą zero w wartościach rzeczywistych wydatek sprzedaż?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,7 +38,7 @@ To często zadawane pytanie dotyczy wartości rzeczywistych wydatek, gdzie klasa
 
 Znajdź projekt w polu projektu wartości rzeczywistych, a następnie przejdź na stronę projektu. Następnie przejdź do karty Sprzedaż. Na siatce Pozycje kontraktu projektu kliknij łącze w polu Kontrakt projektu. Zostanie otwarta strona Kontrakt projektu. Na stronie Kontrakt projektu przejdź do karty Cenniki projektu. Sprawdź, czy istnieje co najmniej jeden cennik dołączony w tym miejscu.
 
-Jeśli żaden cennik nie został dołączony do siatki Cenniki projektu dla Kontraktu projektu wykonaj poniższe działania:
+Jeśli żaden cennik nie został dołączony do siatki Cenniki projektu dla Kontraktu projektu:
 
 - Dołącz cennik do siatki Cenniki projektu. Cenniki jakie można tu dołączyć powinny mieć pole kontekstu ustawione na Sprzedaż, a pole waluty w cenniku powinno być zgodna z polem waluty w Kontrakt projektu. Po wprowadzeniu niezbędnych poprawek ponownie utwórz wpis wydatek, zatwierdź go, i sprawdź czy wartości rzeczywiste nierozliczonej sprzedaży ukazują prawidłową cenę.
 - Jeśli istnieje jeden lub kilka cenników dołączonych w siatce Cenniki projektu dla Kontraktu projektu, przejdź do Kontroli 2.
@@ -47,7 +50,7 @@ Aby Project Service rozważył cennik dla ceny domyślnej, ten cennik powinien b
 - Zacznij od sprawdzenia, czy data rozpoczęcia i data zakończenia na karcie Ogólne dla dołączonych cenników nie są puste. Jeśli daty rozpoczęcia i zakończenia w cennikach określonych powyżej są puste, zidentyfikowałeś problem. 
 - Zanotuj pole Data rozpoczęcia na wartościach rzeczywistych wydatek sprzedaż i sprawdź, czy jakiekolwiek określone cenniki można zastosować dla tej daty. Na przykład data wartości rzeczywistej wydatek powinna mieścić się w zakresie rozpoczęcia i daty zakończenia w cenniku. 
     - Jeśli nie istnieje cennik, który obejmuje tę datę w wartościach rzeczywistych wydatek sprzedaż, zidentyfikowałeś problem. Zmodyfikuj daty rozpoczęcia i zakończenia cennika, aby upewnić się, że cennik obejmuje datę wartości rzeczywistej wydatek. 
-    - Jeśli istnieje jeden lub kilka cenników, które obejmują datę w wartościach rzeczywistych wydatek sprzedaż, zidentyfikowałeś problem. Możesz rozwiązać ten problem, edytując daty rozpoczęcia i zakończenia cenników tak, że istnieje tylko jeden cennik, który obejmuje datę wartości rzeczywistej wydatek. 
+    - Jeśli istnieje jeden lub kilka cenników, które obejmują datę w wartościach rzeczywistych wydatek sprzedaż, zidentyfikowałeś problem. Edytuj daty rozpoczęcia i zakończenia cenników tak, że istnieje tylko jeden cennik, który obejmuje datę wartości rzeczywistej wydatek. 
     - Jeśli istnieje tylko jeden cennik, który obejmuje tę datę wartości rzeczywistej wydatek, przejdź do Kontroli 3.
 Po wprowadzeniu niezbędnych poprawek ponownie utwórz wpis wydatek, zatwierdź go, i sprawdź czy wartości rzeczywiste nierozliczonej sprzedaży ukazują prawidłową cenę.
 
@@ -55,7 +58,7 @@ Po wprowadzeniu niezbędnych poprawek ponownie utwórz wpis wydatek, zatwierdź 
 
 Jeśli pomyślnie ukończyłeś Kontrolę 1 i Kontrolę 2, powinieneś posiadać już tylko jeden cennik projektu, który ma zastosowanie dla daty wartości rzeczywistej wydatek sprzedaż. Otwórz ten Cennik projektu i przejdź do karty Ceny kategorii. Upewnij się, że w siatce znajduje się wiersz przeznaczony dla określonej kategorii wydatków w wartościach rzeczywistych Wydatek.
  
-- Jeśli nie ma wiersza, właśnie zlokalizowałeś problem. Utwórz wiersz w siatce Cena kategorii dla kategorii na wartości rzeczywistej wydatek. Gdy to zrobisz, ponownie utwórz wpis wydatek, zatwierdź go, i sprawdź czy wartość rzeczywista nierozliczona sprzedaż ukazuje prawidłową cenę. 
+- Jeśli nie ma wiersza, właśnie zlokalizowałeś problem. Utwórz wiersz w siatce Cena kategorii dla kategorii na wartości rzeczywistej wydatek. Następnie ponownie utwórz wpis wydatek, zatwierdź go, i sprawdź czy wartość rzeczywista nierozliczona sprzedaż ukazuje prawidłową cenę. 
 - Jeśli istnieje wiersz dla kategorii Wydatek w siatce Ceny kategorii, sprawdź, czy zawiera prawidłową cenę.
 
 Aby zrozumieć, czym jest prawidłowa cena, skorzystaj z tych metod:

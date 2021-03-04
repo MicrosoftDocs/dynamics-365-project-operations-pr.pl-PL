@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 7032af78168c742ac64cb2a7174cabcbda579ff8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122311"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146541"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Tworzenie rezerwacji projektu z tablicy harmonogramu
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Możesz zarezerwować zasób dla projektu bezpośrednio na karcie **Zespół** dla projektu lub wygenerować zapotrzebowanie na zasób z przydziału ogólnego członka zespołu, a następnie spełniając wygenerowane wymaganie dzięki członkowi zespołu projektu.
 
