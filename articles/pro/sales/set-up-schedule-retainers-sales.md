@@ -32,3 +32,6 @@ Harmonogramy zatrzymania są konfigurowane na stronie **Kontrakt projektu** w ap
 | Liczba elementów zatrzymania do utworzenia | Kiedy wprowadzana jest liczba honorariów do utworzenia, system używa daty i częstotliwości rozpoczęcia do utworzenia numeru w tym polu. | Jeśli pole jest aktualizowane ręcznie, system zignoruje wartość w polu **Koniec harmonogramu honorarium** i utworzy określoną liczbę zatrzymań lub zaliczek. |
 | Częstotliwość faktur | Jak często aplikacja będzie tworzyć honoraria i zaliczki. | Wartość ta ma bezpośredni wpływ na liczbę honorariów i zaliczek oraz daty utworzenia. |
 | Łączna kwota | Łączna kwota to kwota, która jest podzielona na poszczególne honoraria lub zaliczki, które zostaną utworzone. | W tym polu nie ma wpływu zmian na dalsze etapy. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

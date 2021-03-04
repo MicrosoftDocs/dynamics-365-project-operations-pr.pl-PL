@@ -33,3 +33,6 @@ Istnieją dwie metody obsługi wydatków osobistych pracownika:
 - **Płacone przez firmę** — Twoja organizacja płaci pełny rachunek za firmową kartę kredytową, a następnie obciąża konto pracownika za wydatki osobiste.
 
 Użytkownik może wybrać metodę, której dana organizacja użyje na stronie **Parametrów zarządzania wydatkami**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

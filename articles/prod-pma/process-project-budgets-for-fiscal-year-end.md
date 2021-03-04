@@ -98,3 +98,6 @@ Podczas przetwarzania pozostałych kwot budżetu można utworzyć transakcje w k
 5. Dla każdego projektu, który ma zostać przetworzony, wybierz opcję na początku wiersza projektu. 
 6. Wybierz opcję **Przetwórz** , aby przenieść pozostałe kwoty budżetu dla wybranych projektów do wybranego rok obrachunkowy.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

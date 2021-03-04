@@ -63,3 +63,6 @@ W tym temacie przedstawiono funkcje i poprawki, które są nowe lub zostały zmi
   - Naprawione: Komunikat błędu w **Wyszukiwaniu projektu** w formularzu **Wiersz oferty** nie pojawia się, gdy wprowadzono ponad 1000 projektów.
   - Naprawione: Siatka **Szacowane** dla oszacowań robocizny i oszacowań kosztów powoduje wyświetlenie poprawnego symbolu waluty.
   - Naprawione: po zaktualizowaniu PSA przez organizację z wydania 14 do wydania 15 karta **Harmonogram** nie pojawia się pusty w formularzu **Projekt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Jeśli nie ma wiersza w siatce cena roli dla rozmiarów kalkulacji cen na warto�
 
 Jeśli nadal nie widać prawidłowej ceny na wartości rzeczywistej czas sprzedaż, po wykonaniu powyższych trzech kontroli prześlij zgłoszenie prośby o pomoc techniczną. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

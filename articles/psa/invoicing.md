@@ -117,3 +117,6 @@ Po potwierdzeniu faktury korygującej oryginalna rozliczona wartość rzeczywist
 
 - Rozliczona wartość rzeczywista za sześć godzin.
 - Nierozliczona sprzedaż za pozostałe dwie godziny. Ta transakcja może być rozliczona później lub oznakowana jako niepłatna, w zależności od ustaleń z klientem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

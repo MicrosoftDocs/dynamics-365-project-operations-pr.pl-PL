@@ -57,3 +57,6 @@ W tym temacie opisano sposób tworzenia modelu prognozy dla pozostałego budżet
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

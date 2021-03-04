@@ -68,3 +68,6 @@ Każda organizacja musi skonfigurować te role na stronie **Aktywne kategorie za
 ## <a name="price-lists"></a>Cenniki
 
 Cenniki umożliwiają określanie kosztów i cen sprzedaży dla ról zasobów, kategorii wydatków, produktów i innych elementów w organizacji. Przed utworzeniem szacunków finansowych dla prac, które muszą zostać wykonane w projekcie, należy utworzyć zapasową listę kosztów i cennik sprzedaży. W sekcji parametrów należy także skonfigurować domyślną listę kosztów i cennik sprzedaży, które mają zastosowanie do wszystkich projektów tworzonych w organizacji. Na stronie **Aktywne parametry projektu** upewnij się, że skonfigurowano domyślną listę kosztów i cennik sprzedaży.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

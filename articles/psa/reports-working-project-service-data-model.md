@@ -123,3 +123,6 @@ Pracując z encją **Rzeczywiste**, ważne jest, aby rozumieć, jakie transakcje
 Encja **Początkowy rekord transakcji** rejestruje źródło rekordu **Rzeczywiste**, a encja **Połączenie transakcji** rejestruje pokrewne rekordy dla rekordu **Rzeczywiste**. Ponadto rekord **Rzeczywiste** zawiera odwołania do projektu, kontraktu projektu (zamówienia), zasobu, który można zarezerwować oraz klienta.
 
 ![Diagram przedstawiający połączenie transakcji, źródło i rzeczywistą relacje](media/PS-Reporting-image6.png "Diagram przedstawiający połączenie transakcji, źródło i rzeczywistą relacje")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Jeśli używasz starszej wersji, dla dostępności zasobów sprawdź [Przegląda
   
 ### <a name="additional-resources"></a>Dodatkowe zasoby  
  [Przewodnik menedżera zasobów](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

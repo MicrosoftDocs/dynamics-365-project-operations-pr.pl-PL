@@ -41,3 +41,6 @@ Gdy klucz zarządzania funkcjami **Włącz stronę listy delegatów wydatków** 
 Delegat może szybko filtrować i przeszukiwać istniejące raporty z wydatków, które zostały mu delegowane. Mogą również utworzyć nowy raport z wydatków dla innych użytkowników, wybierając **Nowy raport z wydatków**.
 
 Delegowani użytkownicy mogą także tworzyć raporty o wydatkach dla innych pracowników i zarządzać nimi, przechodząc do **Zarządzanie wydatkami** > **Moje wydatki** > **Raporty wydatków** i wybierając **Otwórz wydatki innych użytkowników**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

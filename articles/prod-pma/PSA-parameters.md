@@ -47,3 +47,6 @@ Aby otworzyć stronę **parametry integracji z Project Service Automation** , wy
 | Domyślne typy fakturowania  | Typ rozliczania         | Kliknij opcję **Nowy** , aby dodać wiersz, w którym można wybrać typ rozliczenia, dla którego ustawić domyślną właściwość linii. Określony typ rozliczenia można wybrać tylko raz w konfiguracji. |
 |                        | Właściwość wiersza        | Wybierz domyślną właściwość linii dla wybranego typu rozliczenia. Gdy nowe szacunki godzinowe, nowe szacunki wydatków lub nowe wartości rzeczywiste są synchronizowane z Project Service Automation, pole **Właściwości wiersz** jest ustawiane na wartość domyślną dla typu rozliczenia. |
 | Blokowanie funkcjonalności  | Nie dotyczy       | Wybierz funkcję do wyłączenia w Finance dla projektów i umów, które pochodzą z Project Service Automation. Na przykład można wyłączyć możliwość edytowania umów i projektów, tworzenia struktur podziału pracy i wprowadzania grafików pracy w Finance. Pola związane z księgowością będą nadal aktywne, nawet jeśli są niedostępne przez ustawienie parametru. Domyślnie wszystkie funkcje są włączone. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

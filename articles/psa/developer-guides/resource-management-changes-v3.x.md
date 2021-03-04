@@ -170,3 +170,6 @@ W encji **msdyn\_projecttask** nie zmieniono następujących pól kosztu ani spr
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

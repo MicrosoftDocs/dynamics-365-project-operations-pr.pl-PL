@@ -84,3 +84,6 @@ W liście cenników dla Fabrikam UK-Robotics, stawki kosztów mogą być wyrażo
 | Developer | Fabrikam UK | 115 GBP |
 
 Lista kosztów własnych może udostępniać stawki pracy w wielu walutach. Podczas generowania oszacowania kosztów projektu są one konwertowane na walutę projektu i wyświetlane dla użytkownika. Po zatwierdzeniu wpisu czasu i utworzeniu kosztu wartości rzeczywistej koszt rzeczywisty jest wyceniany w walucie odpowiadającej tej pozycji z wiersza z ceną z listy cenników. Koszt rzeczywisty czasu w pojedynczym projekcie może być rejestrowany w wielu walutach. Jednak podczas zestawiania lub podsumowywania rzeczywistych kosztów wykonanej pracy na poziomie projektu Project Operations wykonają konwersję wszystkich kosztów pracy na walutę projektu, która może być wyświetlana przez użytkownika.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

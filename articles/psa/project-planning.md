@@ -52,3 +52,6 @@ Poniższe tematy zawierają informacje, które pomogą menedżerom projektów sz
 - [Szablony projektów](project-templates.md)
 - [Etapy projektu](project-stages.md)
 - [Ustawienia projektu](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

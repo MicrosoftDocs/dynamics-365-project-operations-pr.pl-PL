@@ -90,3 +90,6 @@ Skojarzenia zadań projektu można także anulować odnośnie do wierszy oferty 
 
 >[!NOTE]
 > Ta procedura nie powoduje usunięcia zadania z projektu. Usuwane jest tylko powiązanie zadania z wiersza oferty opartej na projekcie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

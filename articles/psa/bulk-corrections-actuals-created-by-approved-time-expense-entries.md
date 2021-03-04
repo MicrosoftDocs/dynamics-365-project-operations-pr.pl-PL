@@ -90,3 +90,6 @@ Wykonaj poniższe kroki, aby skorygować jeden lub więcej wpisów wydatków.
 8. Na stronie projektu na karcie **Wartości rzeczywiste** przejrzyj **Widok skojarzony wartości rzeczywistej**. Oryginalne wpisy i poprawione wpisy są wyświetlane na liście. Na poniższym rysunku pokazano pierwotne kwoty wpisów wydatków oraz odpowiednie skorygowane wpisy kwoty wydatków. 
 
 ![Rzeczywiste_wydatki](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

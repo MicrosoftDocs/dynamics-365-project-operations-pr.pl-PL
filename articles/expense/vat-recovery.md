@@ -66,3 +66,6 @@ Kiedy Arnie jest gotowy do wysłania danych z raportu o wydatkach do dostawcy st
 Arnie musi sprawdzić, czy transakcje raportu z wydatków są objęte zwrotem podatku VAT, oraz czy paragony cyfrowe są dołączone do raportów. Aby rozpocząć przetwarzanie kwalifikujących się kosztów dla celów krajowych, Arnie otwiera stronę **Zwrotu podatku od wydatków** i wybiera raport o wydatkach, który wymaga weryfikacji. Weryfikuje, że paragony są wystawione na firmę, nie na pracownika. (Na potrzeby zwrotu VAT paragony muszą być wystawione na firmę.) Arnie następnie sprawdza, czy zostały dołączone wszystkie wymagane paragony oraz czy wprowadzono poprawne kody podatku i kodów podatku towaru.
 
 Kiedy Arnie otrzymuje paragony na papierze, zmienia stan raportu z wydatków na **Gotowy do zwrotu**. Następnie może zgłosić zwrot w odpowiednim urzędzie skarbowym. W tym przypadku odpowiednim urzędem skarbowym w Stanach Zjednoczonych jest Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

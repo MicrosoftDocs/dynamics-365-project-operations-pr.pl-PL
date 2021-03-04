@@ -52,3 +52,6 @@ Można użyć poszczególnych cenników i wprowadzić zmiany dotyczące robocizn
 W kontrakcie projektu cena projektu zawsze jest domyślnie ustawiona jako cennik niestandardowy z nazwą kontraktu i sygnaturą czasową utworzenia dołączaną do nazwy. Jest to prawdą, czy kontrakt został utworzony w czasie, gdy oferta została wykorzystana lub kiedy kontrakt został utworzony od podstaw. Jeśli jest to konieczne, można usunąć to skojarzenie z cennika niestandardowego i zamiast niego skojarzyć cennik standardowy z kontraktem dotyczącym projektu.
 
 Po skojarzeniu standardowego cennika z cennikami dotyczącymi oferty lub kontraktu wszelkie zmiany cen w cenniku będą miały wpływ na wszystkie oferty i kontrakty, w których jest używany cennik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

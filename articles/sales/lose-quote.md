@@ -45,3 +45,6 @@ Po wybraniu opcji **OK** na stronie dialogu system tworzy kopię oferty projektu
 > - Odwołanie do projektu w wierszach oferty opartej na projekcie — informacje o budżecie klienta
 >
 >Ponieważ te informacje są specyficzne dla danej oferty, te pola i rekordy nie są kopiowane. Kopiowane są wiersze oferty dotyczące projektów i produktów, oszacowania dotyczące szczegółów wiersza oferty oraz wartości graniczne nie do przekroczenia na poziomie oferty. Domyślne ustawienia cen i stawek kosztów zależą od wartości w opcji **Kopiuj kalkulację cen** wybranej na stronie **Kopiowania parametrów**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

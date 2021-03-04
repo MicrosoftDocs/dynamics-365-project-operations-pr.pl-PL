@@ -96,3 +96,6 @@ Wykonaj te kroki, aby utworzyć niestandardową wersję formularza **Informacje 
     ```
 
 6. Zapisz i opublikuj dostosowania.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Aby wykonać czynności opisane w tym temacie należy się upewnić, że użytko
 3. W polu **Ilość** wprowadź ilość, jaką będzie zawierać dana jednostka. Na przykład jeśli pudełko zawiera dwie sztuki, należy wpisać „2”. 
 4. W polu **Jednostka podstawowa** wybierz jednostkę podstawową, aby ustanowić najmniejszą jednostkę miary w jednostce. Można na przykład wybrać pozycję „sztuka”.
 5. Wybierz pozycję **Zapisz**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

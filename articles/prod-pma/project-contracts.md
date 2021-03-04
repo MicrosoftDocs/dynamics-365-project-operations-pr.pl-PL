@@ -344,3 +344,6 @@ W pierwszym miesiącu konsultanci projektu rejestrują łącznie 800 godzin. Kos
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Rozwiązano następujące problemy:
 - Zamknięcie oferty jako wygranej nie powoduje przejścia do utworzonego kontraktu, jeśli BPF dołączony do oferty jest na ostatnim etapie.
 - Wycofanie **Niezafakturowanej sprzedaży** jest powiązane z oryginalnym kosztem po odwołaniu wpisu czasu.
 - Po wybraniu przycisku **Potwierdź** status faktury nie zmieni się na **Potwierdzony**, chyba że faktura jest odświeżana.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Użyj tego typu wdrożenia, jeśli oczekujesz, że Project Operations będą uż
 - Zintegrowany system zarządzający projektami wewnętrznymi i płatnymi w zakresie harmonogramów i finansów, od sprzedaży projektów po fakturowanie.
 - Planowanie zasobów przedsiębiorstwa innych firm (ERP/Financial Accounting system), które ma zostać zintegrowane z Project Operations.
 - System innych firm umożliwiający współpracę z podatkami, kursami wymiany, zwrotem kosztów i wydatkami spoza projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

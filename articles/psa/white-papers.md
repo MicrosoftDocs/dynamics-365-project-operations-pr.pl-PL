@@ -45,3 +45,6 @@ Dokumenty omówione poniżej mają na celu dostarczyć szczegółowe informacje 
 
 ### <a name="see-also"></a>Zobacz także
  [Przewodnik po rozwiązaniu Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

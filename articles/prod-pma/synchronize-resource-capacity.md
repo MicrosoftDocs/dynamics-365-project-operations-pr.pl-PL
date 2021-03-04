@@ -49,3 +49,6 @@ Zalecamy użycie partii. Te opcje są dostępne podczas synchronizowania rezerwa
     | Data zakończenia    | Wprowadź datę zakończenia procesu synchronizacji dotyczącego zestawienia wydajności zasobów. |
 
 [![Proces synchronizacji](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

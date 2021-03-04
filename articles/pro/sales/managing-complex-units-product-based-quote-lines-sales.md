@@ -45,3 +45,6 @@ Aby utworzyć współczynnik ilościowy na podstawie właściwości produktu, wy
 6. Zapisz i zamknij formularz. Powtórz te kroki dla wszystkich właściwości, które mają być używane do obliczania ilości wiersza oferty opartej na produkcie.
 
 W przypadku utworzenia wiersza oferty opartej na produkcie dla danego produktu, ilość w wierszu oferty zostanie zablokowana. Ilość będzie obliczana jako iloczyn wartości właściwości wprowadzonych w danym wierszu oferty.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

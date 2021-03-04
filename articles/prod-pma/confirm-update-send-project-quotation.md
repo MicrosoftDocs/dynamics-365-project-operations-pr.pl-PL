@@ -57,3 +57,6 @@ W celu zmodyfikowania istniejącej oferty projektu należy ustawić jej stan na 
 
 > [!NOTE]
 > Oferty projektu nie można zmodyfikować po zmianie stanu na **Wysłana**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Następujące funkcje są dostępne na obecnej stronie ale nie są jeszcze dost�
 - Przepływ pracy na poziomie wiersza
 - Wsparcie tymczasowych osób zatwierdzających
 - Wyszczególnianie zaawansowane
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

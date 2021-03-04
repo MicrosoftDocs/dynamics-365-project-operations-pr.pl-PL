@@ -26,3 +26,5 @@ Wymagania dotyczące zasobów są definiowane przez menedżera projektu w celu u
 3.  Na karcie **Członek zespołu** wybierz członka i wybierz opcję **Generuj zapotrzebowanie**.
 
 Aby uzyskać informacje na temat sposobu modyfikowania wymagania dotyczącego zasobu, zobacz artykuł [Aktualizowanie wymagań dotyczących zasobów](define-resource-requirements.md), gdzie znajdują się informacje dotyczące modyfikowania wymagania dotyczącego zasobu.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Wybierz wniosek wyjazdowy, który chcesz zatwierdzić, a następnie wybierz pozy
 
 > [!NOTE]
 > W przypadku zamapowania raportu z wydatków do zatwierdzonego wniosku wyjazdowego, kwota transakcji nie może być większa od kwoty dozwolonej. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

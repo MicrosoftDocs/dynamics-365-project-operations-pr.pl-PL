@@ -57,3 +57,6 @@ Reguła: projekt i określona klasa transakcji może zawierać tylko jeden wiers
 | C1       | CL2           | O1      | No           | Tak             | No          | Prawidłowe           | Godziny i opłaty z projektu P1 są uwzględnione na CL1. Wydatki projektu P1 są zawarte w CL2. </br>   W każdym wierszu kontraktu nie ma zakładki, która jest więc ważna.  |
 | C1       | CL1           | O1      | Tak          | Tak             | Tak         | Nieprawidłowe       | Narusza regułę. Godziny, wydatek i opłaty w projekcie P1 są uwzględnione w pozycjach obu kontraktów.                                                                                               |
 | CL2      | CL2           | O1      | Tak          | Tak             | Tak         | Nieprawidłowe       | Narusza regułę. Godziny, wydatek i opłaty w projekcie P1 są uwzględnione w pozycjach obu kontraktów.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

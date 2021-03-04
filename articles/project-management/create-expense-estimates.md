@@ -38,3 +38,6 @@ Dla każdego elementu wiersza wydatków są definiowane następujące atrybuty:
 - **Jednostkowy koszt własny**: cena jednostkowa użyta do obliczenia kosztu wydatku.
 - **Jednostkowa cena sprzedaży**: cena jednostkowa użyta do obliczenia ceny sprzedaży danego wydatku.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

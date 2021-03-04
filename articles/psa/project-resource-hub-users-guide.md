@@ -105,3 +105,6 @@ Wprowadzaj swoje wydatki co najmniej raz w tygodniu — lub z częstotliwością
  [Przewodnik po rozwiązaniu Project Service](../psa/overview.md)   
  [Przewodnik dotyczący czasu, wydatków i współpracy](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

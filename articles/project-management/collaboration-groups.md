@@ -26,3 +26,6 @@ Grupy programu Office umożliwiają udostępnianie projektu innym członkom zesp
 > [!NOTE] 
 > Użytkownicy są dodawani do grupy tylko wtedy, gdy naciśniesz **Grupy** i ich do niej dodasz. Ta funkcja różni się od zachowania projektu w sieci. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

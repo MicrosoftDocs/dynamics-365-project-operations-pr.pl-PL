@@ -34,3 +34,6 @@ ms.locfileid: "5145731"
 Wszystkie transakcje finansowe zaistniałe w trakcie projektu są rejestrowane. Te transakcje są zapisywane jako **wartości rzeczywiste**. W poniższej tabeli przedstawiono różne typy wartości rzeczywistych, które są tworzone w zależności od tego, czy projekt jest rozliczany według czasu i materiałów, czy też jest projektem o stałej cenie, czy jest projektem wewnętrznym lub czy znajduje się na etapie przedsprzedaży.
 
 > ![Tabela pokazująca sposób rejestrowania wartości rzeczywistych](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

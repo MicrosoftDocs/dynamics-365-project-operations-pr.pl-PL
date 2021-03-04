@@ -53,3 +53,6 @@ Zanim będzie można rezerwować z tablicy harmonogramu, należy utworzyć lub w
 Wymaganie zostanie zaspokojone przy użyciu wybranego zasobu. Zwróć uwagę, że w okienku **Wymagania dotyczące rezerwacji** wymaganie zostało zaktualizowane, a zasób jest wyświetlany jako zarezerwowany w projekcie.
 
 ![Zasób zarezerwowany w projekcie](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Po zarezerwowaniu zasobów wybierz opcję **Obsługa rezerwacji**, aby wprowadzi
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Jaka jest różnica między przypisaniem a rezerwacją?
 
 Przypisania to przydziały zasobów do zadań projektu w harmonogramie projektu. Zasoby mogą być rzeczywiste lub ogólne. Rezerwacje to ostateczne lub wstępne przydzielenie zasobów do projektu. Rezerwacje ostateczne zużywają dyspozycyjność zasobu. W przypadku zasobów rzeczywistych najlepiej, aby rezerwacje i przypisania były zgodne, ponieważ technicznie nie różnią się od siebie. Jednak program PSA nie wymusza takiej zgodności. Widok Uzgadnianie pokazuje menedżerowi projektu miejsca, w których rezerwacje i przypisania zasobów są niezgodne.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

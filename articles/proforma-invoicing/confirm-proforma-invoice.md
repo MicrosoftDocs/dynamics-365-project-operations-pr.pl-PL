@@ -198,3 +198,6 @@ Rozliczona rzeczywista sprzedaż dla kwoty punktów kontrolnych w oryginalnym pu
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

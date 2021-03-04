@@ -131,3 +131,6 @@ Podobnie jak stawki naliczania, stawki kosztów dla zasobów ludzkich są równi
     1. Lista kosztów własnych dołączonych do jednostki organizacyjnej.
     2. Lista kosztów własnych dołączonych do parametrów usługi projektów. Ponieważ z parametrami usługi projektów można łączyć listy kosztów własnych w wielu różnych walutach, PSA dopasowuje waluty kontraktującej jednostki organizacyjnej, kontraktu lub oferty z także walutą z listy kosztów własnych.
     3. W przypadku kosztów metody kalkulacji po kosztach i z marżą nie są stosowane do list kosztów własnych. Nawet w przypadku, gdy te metody kalkulacji cen są używane w wierszach list kosztów własnych w celu skonfigurowania kosztów kategorii transakcji, system zignoruje je i nie zostanie wprowadzony domyślny koszt własny.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

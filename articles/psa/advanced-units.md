@@ -112,3 +112,6 @@ Nr Szacowanie harmonogramów można obecnie wykonywać tylko w godzinach.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Czy jednostki i grupy jednostek można edytować, usuwać i dodawać?
 Tak. Z wyjątkiem grupy jednostek **Czasu** i jednostki **Godzina** można usuwać i edytować wszystkie jednostki, a także dodawać nowe jednostki. W usłudze PSA nie można usuwać grupy jednostek **Czas** ani jednostki **Godzina**. Można je jednak aktualizować o przetłumaczony tekst w polu **Nazwa**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

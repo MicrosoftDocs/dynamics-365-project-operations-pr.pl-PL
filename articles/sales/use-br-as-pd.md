@@ -78,3 +78,6 @@ Rekord wymiaru kalkulacji cen dla pola **msdyn_bookableresource** musi zostać p
 5. Dodaj obiekt **msdyn_bookableresourceid** do **nazwy pola**.
 
  ![Formularz Nowa nazwa pola wymiaru kalkulacji cen](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

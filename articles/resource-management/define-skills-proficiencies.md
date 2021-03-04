@@ -42,3 +42,6 @@ Umiejętności zasobów są oceniane za pomocą modeli biegłości. Poszczególn
 
 
 Te wartości ocen są wyświetlane w filtrach **Wymagania zasobów**, **Tablica harmonogramu** i **Asystent planowania**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

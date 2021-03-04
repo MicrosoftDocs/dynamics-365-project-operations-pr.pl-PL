@@ -101,3 +101,6 @@ Jeśli nie widzisz wykorzystania odpłatnego, oto co możesz sprawdzić:
   - Rola dla pozycji kontraktu projektu, z kopią projektu została ustawiona na nieodpłatne.
   - Projekt nie posiada skojarzonej pozycji kontraktu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

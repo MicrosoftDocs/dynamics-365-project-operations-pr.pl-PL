@@ -54,3 +54,6 @@ Podczas procesu sprzedaży możesz od podstaw opracowywać szacunki sprzedaży k
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera projektu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Punkty kontrolne z ustalonymi cenami można generować ręcznie, kiedy nie są o
 | Podatek | Szybkie tworzenie | Kwota podatku stosowana względem punktu kontrolnego. | To jest dołączone do pola punkt kontrolny pozycji kontraktu projektu oraz na fakturze. |
 
 4. Wybierz pozycję **Zapisz i zamknij**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

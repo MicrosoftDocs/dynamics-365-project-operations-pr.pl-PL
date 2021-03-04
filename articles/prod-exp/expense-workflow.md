@@ -55,3 +55,6 @@ Poniższy proces stanowi przykład przepływu pracy Zarządzanie wydatkami w ram
 Dopiero po sprawdzeniu tych wymagań raport jest księgowany.
 
 Po zaksięgowaniu raportu o wydatkach płatność jest zatwierdzana, a pracownik otrzymuje zwrot.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

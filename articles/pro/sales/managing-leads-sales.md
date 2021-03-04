@@ -72,3 +72,6 @@ Proces biznesowy Od potencjalnego klienta do szansy sprzedaży obsługuje nastę
 | Opracuj | Szansa sprzedaży | Rozwijanie szansy sprzedaży w celu dodania informacji o związanej pracy, kluczowych udziałowcach i konkurencji. |
 | Zaproponuj | Szansa sprzedaży | Opracowanie i uzyskanie zgody zespołu na przegląd wewnętrzny. |
 | Zamykanie | Szansa sprzedaży | Wykorzystaj szansę sprzedaży, aby zamknąć ofertę. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ Podczas rezerwacji zasobów kierownicy projektów mogą filtrować zasoby ról, 
 
 3. Wybierz **Zapisz** , a następnie zamknij stronę.
 4. Na karcie **kompetencje** dodaj umiejętność **ProjectMgmt** i certyfikat **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

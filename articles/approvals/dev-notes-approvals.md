@@ -23,3 +23,6 @@ Dynamics 365 Project Operations zawiera logikę walidacji, która zapewnia prawi
 
   - Wszystkie wiersze obsługi są tworzone w tabelach pokrewnych, takich jak arkusze i wartości rzeczywiste.
   - Przed kontynuowaniem osoba zatwierdzająca jest oznaczona jako **Osoba zatwierdzająca projekt** w projekcie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

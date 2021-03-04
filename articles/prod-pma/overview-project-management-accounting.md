@@ -440,3 +440,6 @@ Po obliczeniu zestawienia możesz wyświetlić następujące informacje na róż
 -   **Zużycie** — Informacje o zużyciu godzin, towarów, wydatków i transakcji listy płac.
 -   **Faktura** — Informacje o fakturach i fakturach akonto.
 -   **Stawka godzinowa** — stawki godzinowe dotyczące godzin, które są księgowane na przychodach i na kontach kosztów.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

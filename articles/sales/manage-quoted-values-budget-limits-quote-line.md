@@ -635,3 +635,6 @@ Nieprawidłowe </p>
     </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

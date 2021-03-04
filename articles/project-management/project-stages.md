@@ -63,3 +63,6 @@ Po zakończeniu prac w projekcie menedżer projektu może zaktualizować etap na
 
 Po zarejestrowaniu wszystkich transakcji w projekcie menedżer projektu może zaktualizować etap na **Zamknięto**. Odtąd nie można rejestrować żadnych transakcji, a projekt jest ustawiany jako tylko do odczytu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -273,3 +273,6 @@ Rozliczona wartość rzeczywista za wiersz produktu wraz z ilością i kwotą pr
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

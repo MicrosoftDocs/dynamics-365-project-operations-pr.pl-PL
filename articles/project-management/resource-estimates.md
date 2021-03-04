@@ -34,3 +34,6 @@ Ceny sprzedaży są stosowane raz dla każdej transakcji. Hierarchia domyślna d
 1. Organizacja
 2. Klient
 3. Oferta / kontrakt
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

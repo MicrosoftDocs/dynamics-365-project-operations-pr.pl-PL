@@ -54,3 +54,6 @@ Po rozwiązaniu cennika na potrzeby sprzedaży system wykonuje poniższe kroki, 
     | &nbsp; | Narzut na koszt | Stosując narzut zdefiniowany w wierszu kategoria cena na stawce kosztu jednostkowego dla pokrewnego kosztu |
 
 4. Jeśli system nie jest w stanie dopasować wartości pól **Kategorii** oraz **Jednostki**, domyślna stawka sprzedaży wynosi zero (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

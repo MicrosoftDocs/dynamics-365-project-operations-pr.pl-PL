@@ -35,3 +35,6 @@ Aby przejrzeć projekty szacowanych przychodów o stałej cenie, wykonaj następ
 
   Koszt projektu, profil przychodów, szablon kosztów i kod okresu można ustawić ręcznie. Jeśli nie są one ustawione ręcznie, wartości domyślne zostaną ustawione podczas pierwszego obliczenia szacowania dla projektu przy użyciu reguł skonfigurowanych dla profilów przychodów i kosztów projektu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

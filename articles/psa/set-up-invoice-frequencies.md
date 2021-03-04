@@ -51,3 +51,6 @@ Częstotliwość sporządzania faktur [!INCLUDE[pn_project_service_auto](../incl
   
 ### <a name="see-also"></a>Zobacz także  
  [Konfiguruj Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

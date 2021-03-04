@@ -107,3 +107,6 @@ W SPP dodano dodatkowe opcje, aby lepiej wykorzystać funkcję pozyskiwania zaso
     > Nie otrzymasz ostrzeżenia, że określony zasób wynosi teraz 2, ponieważ liczba zasobów pozostaje 1.
 
 14. Na stronie **Struktura podziału pracy** sprawdź poprawność przydziału zasobu w SPP, a następnie wybierz pozycję **Zapisz**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

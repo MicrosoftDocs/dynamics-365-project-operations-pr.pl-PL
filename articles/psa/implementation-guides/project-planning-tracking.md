@@ -45,3 +45,6 @@ Aplikacja Project Service pomaga organizacjom usługowym identyfikować szanse s
 
 > [!NOTE]
 > Ten temat zostanie usunięty w przyszłej aktualizacji dokumentacji. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

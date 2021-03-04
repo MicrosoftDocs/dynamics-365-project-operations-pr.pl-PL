@@ -106,3 +106,6 @@ Po rozwinięciu wiersza dla rekordu należącego do danego członka zespołu mog
 ### <a name="estimates-grid"></a>Siatka szacowań 
 
 W siatce **szacowań** obydwa przypisania dotyczące tego samego zasobu są wyceniane w różny sposób. Przypisanie zasobu w **zadaniu A** ma cenę ustaloną za pomocą wartości atrybutu **Rola** o wartości **Lider ds. konsultingu**. Przypisanie tego samego zasobu w **zadaniu B** ma cenę ustaloną za pomocą wartości atrybutu **Rola** o wartości **Technik sieciowy**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

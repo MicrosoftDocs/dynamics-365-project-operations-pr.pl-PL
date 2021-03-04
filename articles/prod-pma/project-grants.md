@@ -79,3 +79,6 @@ Można utworzyć grant wprowadzając wszystkie szczegóły do nowego rekordu alb
 2. Wybierz grant do zmodyfikowania.
 3. W okienku akcji na karcie **Grant** w grupie **Zarządzanie** kliknij opcję **Edytuj**.
 4. Przejrzyj szczegóły dotyczące udzielenia i wprowadź wymagane zmiany.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

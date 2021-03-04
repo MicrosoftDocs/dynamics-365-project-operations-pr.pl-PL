@@ -113,3 +113,6 @@ Molly Clark zatrudniona jako deweloper w firmie GBPM rejestruje 10 godzin pracy 
     - Kredyt: projekt — przychód naliczony 120 USD
 
     System jest teraz gotowy do utworzenia międzyfirmowej faktury dla klienta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Kalendarz nie obsługuje akcji na poszczególnych elementach kalendarza i nie mo
 ## <a name="extensibility"></a>Możliwości rozszerzania
 
 Na stronie **Wpisy czasu** zawierającej siatkę godzin można dodać pola niestandardowe, skonfigurować pola wyszukiwania i utworzyć widoki niestandardowe. Istnieje również możliwość skonfigurowania niestandardowej logiki biznesowej, która jest oparta na wartościach wybranych lub wprowadzonych w polach niestandardowych.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

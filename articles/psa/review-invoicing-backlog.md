@@ -59,3 +59,6 @@ Każda pozycja kontraktu projektu z metodą rozliczania według stałej ceny mus
 Aby przejrzeć punkty kontrolne rozliczania, wybierz kolejno opcje **Sprzedaż** \> **Rozliczenia** \> **Punkty kontrolne dotyczące stałej ceny**. Zaznacz punkty kontrolne, które są gotowe do zafakturowania, a następnie wybierz pozycję **Przygotowane do fakturowania**. Stan rozliczania tych punktów kontrolnych zmieni się na **Przygotowane do fakturowania**.
 
 ![Punkty kontrolne dotyczące stałej ceny](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

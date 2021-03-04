@@ -68,3 +68,6 @@ Otwórz wiersz oferty o stałej cenie, dla którego chcesz utworzyć punkt kontr
 | Stan faktury | Szybkie tworzenie | Po utworzeniu punktu kontrolnego jego stan jest zawsze ustawiony jako **Niegotowy do fakturowania**. | Następuje skopiowanie punktów kontrolnych do pozycji kontraktu projektu i do faktury. |
 | Kwota pozycji | Szybkie tworzenie | Kwota lub wartość punktów kontrolnych, która zostanie zafakturowana klientowi. | Następuje skopiowanie punktów kontrolnych do pozycji kontraktu projektu i do faktury. |
 | Podatek | Szybkie tworzenie | Kwota podatku, która zostanie zastosowana względem punktu kontrolnego. | Następuje skopiowanie punktów kontrolnych do pozycji kontraktu projektu i do faktury. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

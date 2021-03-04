@@ -73,3 +73,6 @@ Można wykonać zbiorcze ponowne obliczanie stanu nieprzekraczalnego. Ponowna oc
 Aby obliczyć ponownie stan nie do przekroczenia, wybierz jeden lub więcej wartości rzeczywistych w widoku **Zaległość rozliczania czasu i materiałów** albo **Wartości rzeczywiste**, a następnie wybierz opcję **Oblicz ponownie nieprzekraczalny stan**.
 
 Wszystkie wybrane wartości rzeczywiste z wartością nieprzekraczalną limitu będą oceniane względem konfiguracji, która nie przekroczy limitu. Wartości rzeczywiste, które są istotne dla ponownej oceny stanu nieprzekraczalności, to niezafakturowane wartości rzeczywiste sprzedaży, które nie zostały zafakturowane, nie znajdują się na wersji roboczej faktury i są oznaczone jako wymagalne. Zaznacz wszystkie wybrane wartości rzeczywiste.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

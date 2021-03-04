@@ -46,3 +46,6 @@ Zostanie wyświetlony Asystent planowania z zawartością wyfiltrowaną według 
 > ![Wybranie zasobu](media/Resource-Management-image61.png)
 
 Ogólny członek zespołu zostanie zastąpiony nazwanym zasobem zarezerwowanym ostatecznie w zespole projektu oraz przypisaniami zadań w harmonogramie projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

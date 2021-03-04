@@ -209,3 +209,6 @@ Jeśli dane demonstracyjne zostały zastosowane do środowiska Finance, zobacz [
 
 
 Środowisko Project Operations jest teraz obsługiwane i konfigurowane. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

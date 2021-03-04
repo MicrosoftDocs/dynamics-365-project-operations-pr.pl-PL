@@ -51,3 +51,6 @@ Klienta oferty można utworzyć, aktualizować i usuwać z poziomu karty **Klien
 Zawartość procentową podziału rozliczeń na fakturze można edytować przy użyciu funkcji edycji siatki w wierszu. Jeśli procent podziału rozliczenia nie sumuje się do 100%, wystąpi błąd. Po aktualizacji procentów podziału na fakturze odśwież stronę, aby usunąć błąd.
 
 Można również spróbować wybrać **Rozłóż równomiernie** w podsiatce klientów z ofertą. Ta akcja spowoduje alokowanie podziału procentowego na fakturze dla wszystkich klientów oferty. Jeśli istnieje współczynnik zaokrąglenia, zostanie dodany do klienta zaokrąglającego. Jeden z klientów korzystających z oferty jest zawsze oznakowany jako klient do zaokrąglenia. oznacza to, że dany rekord klienta oferty ma ustawioną flagę **Tak** w opcji **Zaokrąglanie**. Zazwyczaj jest to główny klient oferty, ale można to zmienić.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

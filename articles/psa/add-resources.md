@@ -55,3 +55,6 @@ Jeśli musisz mieć różne koszty i ceny dla zasobów dla różnych działów w
   
 ### <a name="see-also"></a>Zobacz także  
  [Konfigurowanie zasobów](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

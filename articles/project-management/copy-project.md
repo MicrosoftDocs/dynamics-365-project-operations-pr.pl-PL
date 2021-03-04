@@ -61,3 +61,6 @@ W przypadku kopiowania zespołu projektu z projektu źródłowego, zasoby ogóln
 Po skopiowaniu projektu wiersze szacowania zasobu i wydatku są kopiowane z projektu źródłowego. 
 
 Informacje na temat sposobu programowego uzyskiwania dostępu do kopiowania projektów można znaleźć w artykule [projektowanie szablonów projektów przy użyciu narzędzia do kopiowania projektów](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Program Dynamics 365 Project Operations korzysta z aparatu Universal Resource Sc
 
 Aby wyświetlić więcej informacji na temat konkretnego zasobu, kliknij go prawym przyciskiem myszy, a zostanie otwarta karta zasobu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

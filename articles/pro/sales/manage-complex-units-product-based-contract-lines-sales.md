@@ -46,3 +46,6 @@ Aby utworzyć współczynnik ilościowy z poziomu właściwości produktu, nale�
 7. Powtórz kroki 2-6 dla wszystkich właściwości, które będą składają się na ilość w wierszu kontraktu opartego na produkcie.
 
 W przypadku, gdy użytkownik tworzy wiersz kontraktu dla tego produktu, ilość pozycji kontraktu jest zablokowana. Ilość jest następnie obliczana jako iloczyn wartości właściwości dla danej pozycji kontraktu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

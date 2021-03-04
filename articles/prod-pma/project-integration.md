@@ -127,3 +127,6 @@ Aby utworzyć nową strukturę podziału pracy przy użyciu programu Microsoft P
 8.  Wybierz **Kalendarz** , który ma być używany do ponownego wyszukania.
 
 11. Kliknij przycisk **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

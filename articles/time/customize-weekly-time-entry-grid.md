@@ -144,3 +144,6 @@ Użyj sprawdzania poprawności do wszystkich walidacji, które wymagają więcej
 
 ### <a name="copying-time-entries"></a>Kopiowanie wpisów czasu
 Użyj widoku **Kopiuj kolumny wpisów czasu** w celu zdefiniowania listy pól, które mają zostać skopiowane podczas wpisywania czasu. Pola **Data** oraz **Czas trwania** są wymagane i nie można ich usunąć z widoku.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

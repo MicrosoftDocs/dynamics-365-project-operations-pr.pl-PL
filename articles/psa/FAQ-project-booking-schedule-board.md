@@ -91,3 +91,6 @@ Wykonaj poniższe kroki, aby zarezerwować z nowego wymagania zasobu.
 
 4. Teraz gdy zasób jest już zarezerwowany, należy ręcznie przypisać zadania.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ W przypadku raportów z wydatków użytkownik może przejść do szczegółów z
 Aby przejść do szczegółów oryginalnego raportu z wydatków, na którym pojawiła się transakcja, wybierz transakcję i wybierz **Oryginalny dokument**.
 
 Podczas wyświetlania poszczególnych transakcji można również wyświetlić dowolne dodatkowe dane dołączone do transakcji. Na przykład w przypadku pozycji z listy przedmiotów z hotelu można wyświetlić szczegółową listę wydatków, takich jak dostęp do Internetu, rozmowy telefoniczne i usługi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -257,3 +257,6 @@ Poniższy rysunek przedstawia sytuację po utworzeniu cenników niestandardowych
 
 > [!NOTE]
 > Podczas tworzenia cennika może następować krótka zwłoka między kliknięciem przycisku **Utwórz niestandardowy cennik** a utworzeniem niestandardowego cennika. Zalecamy odświeżenie siatki zamiast wielokrotnego klikania. Niestandardowy cennik został utworzony, jeśli skojarzona z nim nazwa cennika zawiera nazwę oferty lub nazwę kontraktu projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

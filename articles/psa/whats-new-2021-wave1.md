@@ -43,3 +43,6 @@ Rozwiązano następujące problemy:
 
 - Daty zakończenia są wypełniane automatycznie po utworzeniu pozycji czasu, jeśli czas trwania jest pusty.
 - Użytkownicy mogą zmienić zadanie we wpisie czasu, który został zatwierdzony lub przesłany.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

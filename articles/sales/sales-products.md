@@ -124,3 +124,6 @@ Jeśli na przykład istnieją następujące właściwości:
 - **Kod SKU produktu** 
 
 Właściwości **Liczba użytkowników** i **Liczba miesięcy** można oflagować jako współczynniki ilościowe, odpowiednio modyfikując właściwości wiersza produktu. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

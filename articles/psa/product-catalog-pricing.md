@@ -64,3 +64,6 @@ Encje Szansa sprzedaży, Oferta i Kontrakt projektu używają następującej kol
 Domyślnie w polu **Produkt** w wierszu oferty znajduje się lista wszystkich aktywnych produktów z cennika produktów w ofercie. Jeśli produkt został zdezaktywowany lub jest wersją roboczą, nie jest on wymieniony na tej liście, nawet jeśli znajduje się w cenniku. 
 
 Wiersze katalogu produktów są dodawane jako wiersze faktury w pierwszej fakturze tworzonej dla kontraktu na projekt. W fakturze w wersji roboczej te wiersze faktury można usuwać. W takim przypadku wiersze będą wyświetlane na kolejnej fakturze do momentu ich zafakturowania lub do chwili wysłania faktury do klienta. W rozwiązaniu PSA nie można zafakturować częściowej ilości w wierszu faktury za produkt. Podczas fakturowania wierszy produktów z kontraktu na projekt są tworzone wartości rzeczywiste. Jednak te wartości rzeczywiste nie są łączone z pokrewną encją projektu. Innymi słowy pozycje kontraktu projektu oparte na produktach są niezależne od jakiegokolwiek użycia opartego na projekcie. Program PSA nie śledzi zużycia materiałów w projektach.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

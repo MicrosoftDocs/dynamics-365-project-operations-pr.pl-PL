@@ -140,3 +140,6 @@ Poniższe ilustracje przedstawiają przykłady odwzorowań zadań szablonu w int
 [![Mapowanie szablonu — aktualizacja wartości rzeczywistych](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Mapowanie szablonu — aktualizacja transakcji](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

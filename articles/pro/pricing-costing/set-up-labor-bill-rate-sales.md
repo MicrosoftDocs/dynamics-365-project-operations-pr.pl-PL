@@ -55,3 +55,6 @@ Na przykład deweloper z firmy Fabrikam Indie pracujący w ramach projektu w USA
     | Developer | Fabrikam US | 150 USD |
 
 3. Dołącz cennik sprzedaży **Stawki rozliczania Fabrikam US** do cennika projektu lub kontraktu projektu bądź danego konta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

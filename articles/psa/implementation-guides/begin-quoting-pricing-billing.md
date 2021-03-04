@@ -52,3 +52,6 @@ Możliwość znalezienia odpowiednich zasobów we właściwym czasie, zarezerwow
 
 > [!NOTE]
 > Ten temat zostanie usunięty w przyszłej aktualizacji dokumentacji. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

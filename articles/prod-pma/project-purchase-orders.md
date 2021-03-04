@@ -76,3 +76,6 @@ Aby utworzyć zamówienie zakupu w programie Zarządzanie projektami i ich księ
 
 Aby uzyskać więcej informacji, zobacz temat [Pobierz towary w zamówieniu zakupu z zapotrzebowania na towary](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

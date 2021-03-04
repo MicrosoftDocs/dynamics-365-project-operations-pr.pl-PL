@@ -47,3 +47,6 @@ Skonfiguruj jednostki czasu w katalogu produktów, który ma być używany jako 
   
 ### <a name="see-also"></a>Zobacz także  
  [Konfiguruj Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

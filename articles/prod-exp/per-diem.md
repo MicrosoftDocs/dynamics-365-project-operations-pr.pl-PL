@@ -28,3 +28,6 @@ ms.locfileid: "4960035"
 *Stawka dzienna* jest przyznawana pracownikowi, który podróżuje do pracy. W przypadku zarządzania wydatkami można tworzyć reguły na diety dzienne dla różnych typów podróży. Stawki dzienne mogą być oparte na porze roku, miejscu podróży lub obydwu tych danych. Podczas tworzenia reguły diety dziennej można określić, że procent stawki diety będzie wstrzymany, jeśli pracownik otrzymuje dodatkowe posiłki lub usługi. Można również ustawić minimalną i maksymalną liczbę godzin, w przypadku których stawka dzienna może być zastosowana do kosztów podróży pracownika.
 
 Obliczanie łącznej kwoty diety jest oparte na datach rozpoczęcia i zakończenia, które można ustawić na **Stronie diety**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

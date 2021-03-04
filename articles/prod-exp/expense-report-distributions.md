@@ -37,3 +37,6 @@ Ponieważ jednak Nancy pracowała nad dwoma różnymi projektami podczas pobytu 
 |Hotel         |725 EUR              |557 EUR                        |168 EUR                          |
 |Posiłki         |346 EUR              |284 EUR                        |62 EUR                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

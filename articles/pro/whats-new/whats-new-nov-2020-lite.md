@@ -37,3 +37,6 @@ W poniższej tabeli wymieniono aktualizacje operacji projektu w środowisku CDS 
 | Czas i szybki wpis wydatków | 2047499          | Przycisk **Nowy** na stronie wprowadzania czasu otwiera stronę **Nowy podpis wiadomości e-mail**.                                                                                               |
 | Czas i szybki wpis wydatków | 2059859          | Nieoczekiwane podręczne otwieranie podczas tworzenia wpisu wydatku.                                                                                                                         |
 | Inny powód                        | 2044181          | [PO odinstalowania programu] — Podczas próby odinstalowania podstawowych rozwiązań   **msdyn_ProjectServiceCore_Patch** i msdyn Project service pojawia się błąd „Rekord jest niedostępny”.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

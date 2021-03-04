@@ -45,3 +45,6 @@ Ponadto każdemu zasobowi możliwemu do zarezerwowania musi być przypisana rola
 Na karcie **Project Service** można również skonfigurować konkretne docelowe wykorzystanie zasobu. Następnie aparat obliczania wykorzystania na podstawie docelowego wykorzystania ocenia wartość docelową dla zasobu, a nie dla jego domyślnej roli.
 
 Wykorzystanie jest pokazywane dla zasobu tylko w przypadku, gdy zasób ma zatwierdzony czas odpłatny w okresie wyświetlanym w siatce.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

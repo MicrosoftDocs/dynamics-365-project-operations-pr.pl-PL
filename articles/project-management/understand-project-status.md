@@ -29,3 +29,6 @@ Sekcja **Stan** na stronie **Encja projektu** zawiera podsumowanie stanu środow
 - Pole **Komentarze** umożliwia menedżerowi projektu wprowadzenie określonych komentarzy dotyczących stanu. 
 - Pole **Stan zaktualizowany dnia** jest edytowalny. Wartość w tym polu to znacznik czasowy wskazujący, że stan został ostatnio zaktualizowany.
 - Pola **Wydajność planowania** i **Wydajność kosztów** są ustawiane na podstawie siatki śledzenia. Jeśli odchylenie względem harmonogramu i kosztu dla węzła głównego w widoku **śledzenia nakładu** pracy jest dodatnie, te pola są zaktualizowane na **Wyprzedza**. Kiedy Odchylenie względem harmonogramu i kosztu dla węzła głównego są ujemne,te pola otrzymają wartość **Opóźnienie**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

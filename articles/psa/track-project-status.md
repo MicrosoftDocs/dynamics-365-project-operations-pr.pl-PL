@@ -58,3 +58,6 @@ Wraz z postępem zaangażowania etapy projektu są aktualizowane, aby odzwiercie
 
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera projektu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

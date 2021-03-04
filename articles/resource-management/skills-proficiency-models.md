@@ -43,3 +43,5 @@ Dodanie charakterystyk do wymagań zasobów pozwala na udokumentowanie umiejętn
 3. W podsiatce **Umiejętność** wybierz pozycję **+ Dodaj nową charakterystykę wymagania.**
 4. W okienku szybkiego tworzenia znajdź i wybierz wymagane charakterystyki i dodaj **Wartość oceny**.
 5. Zaznacz **Zapisz i zamknij**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

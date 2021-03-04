@@ -105,3 +105,6 @@ Usługa Dynamics 365 automatycznie przetwarza zestawienia kwot w różnych walut
 | Wydatek           | Nierozliczona sprzedaż   | 17-cze | Jakub  | Wypożyczenie samochodu           | 1 szt.     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Aby obliczyć wartość łącznej nierozliczonej sprzedaży w projekcie, można utworzyć pole zestawienia dla pola **Kwota** we wszystkich pokrewnych wartościach rzeczywistych nierozliczonej sprzedaży. Pole zestawienia to konstrukcja w usłudze Dynamics 365, która umożliwia stosowanie szybkich formuł do pokrewnych rekordów.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

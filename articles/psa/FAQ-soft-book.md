@@ -67,3 +67,6 @@ Gdy jesteś gotowy, aby zmienić zasób członka zespołu zarezerwowany wstępni
 2. Kliknij prawym przyciskiem myszy rezerwację, a następnie w obszarze **Zmień stan** wybierz kolejno opcje **Zarezerwuj ostatecznie** \> **Ostateczna**. Stan rezerwacji to teraz **Ostateczna**.
 3. Po zamknięciu tablicy harmonogramu, powrocie do projektu i otwarciu karty **Zespół** zobaczysz, że godziny dla zasobu zostały przeniesione z kolumny **Godziny zarezerwowane wstępnie** do kolumny **Godziny zarezerwowane ostatecznie** na karcie **Zespół** w widoku **Nazwani członkowie zespołu**. Jeśli zasób został przypisany do zadań, nie będą one już ukazywać deficytu rezerwacji na karcie **Uzgadnianie**, gdyż ich rezerwacje są już rezerwacjami ostatecznymi.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

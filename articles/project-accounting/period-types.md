@@ -34,3 +34,6 @@ Aby utworzyć typy okresów i pracować z nimi, wykonaj następujące czynności
 4. Wybierz rekord typu okresu, a następnie wybierz pozycję **Generuj okresy**, aby utworzyć okresy dla typu okresu. Na podstawie wybranej częstotliwości okresu może być dostępna opcja określenia daty rozpoczęcia lub liczby okresów do wygenerowania.
 5. Wybierz pozycję **Okresy**, aby przejrzeć wygenerowane okresy.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -316,3 +316,6 @@ Błędy planowania można również skorygować osobno, klikając ikonę ostrze�
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

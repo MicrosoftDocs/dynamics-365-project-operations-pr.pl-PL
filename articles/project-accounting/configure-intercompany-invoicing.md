@@ -101,3 +101,6 @@ W poniższym przykładzie Contoso Robotics USA (USPM) jest firmą pożyczającą
           - **Firma zasobów** = **Contoso Robotics UK**
           - **Stawka rozliczania** = **200 USD**
       9. Przejdź do pozycji **Sprzedaż** > **Kontrakty sprzedaży** i dołącz cennik **Stawki rozliczeń Adventure Works** do cennika projektu Adventure Works w kontrakcie projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

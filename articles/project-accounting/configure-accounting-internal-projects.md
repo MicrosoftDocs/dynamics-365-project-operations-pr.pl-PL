@@ -32,3 +32,6 @@ Każdy projekt nieskojarzony z kontraktem w Dynamics 365 Project Operations jest
 Jeśli projekt jest skojarzony z kontraktem projektu po zaksięgowaniu transakcji, system cofnie wszystkie transakcje skumulowane i tworzy nowe transakcje fakturowania. Transakcje podlegające rozliczaniu podążają za regułami księgowania zdefiniowanymi w odpowiednim profilu kosztów projektów i przychodów.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

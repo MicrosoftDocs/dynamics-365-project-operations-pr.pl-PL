@@ -143,3 +143,6 @@ Aby wyświetlić fakturę przed opublikowaniem, wyczyść pole wyboru **Księgow
 Oprócz strony **Propozycja faktury** można także wystawić propozycję faktury, uruchamiając zadanie okresowe **Księgowanie propozycji faktur**. Aby znaleźć to zadanie, przejdź do **Zarządzanie projektami i księgowanie** > **Okresowe** > **Faktury projektów** > **Zaksięguj propozycje faktur**.
 
 Ta strona zawiera wszystkie propozycje faktur, które są gotowe do zaksięgowania. Ofertę na fakturę można zaplanować, wybierając opcję **Partia**. Ustaw parametr **Przetwarzanie wsadowe** na wartość **Tak** i ustaw cykl przetwarzania wsadowego, wybierając opcję **Cykl**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

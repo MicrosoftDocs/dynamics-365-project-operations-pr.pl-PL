@@ -54,3 +54,6 @@ W tym temat opisano sposób konfigurowania kosztów standardowych dla robocizny 
 22. W polu **Ceny** wprowadź liczbę. Rzeczywista cena sprzedaży stosowana w momencie, gdy pracownik wprowadza transakcje w arkuszu wydatków, to cena sprzedaży zawierająca najwyższy poziom szczegółowości. Na przykład, jeśli skonfigurowano zarówno cenę sprzedaży ogólną, jak i cenę sprzedaży dla konkretnego pracownika, używana jest cena sprzedaży dla konkretnego pracownika.  
 23. Wybierz pozycję **Zapisz**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

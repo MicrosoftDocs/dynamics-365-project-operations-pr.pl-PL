@@ -53,3 +53,6 @@ Poniższa tabela zawiera wyczerpującą listę gotowych formularzy i widoków, w
 2. Na stronie **Parametry** na karcie **Wymiary kalkulacji cen oparte na kwocie** zwróć uwagę, że siatka na karcie pokazuje rekordy z encji **Wymiary kalkulacji cen**.
 3. Dodaj pozycję **Kategoria transakcji** do tej listy, a w polach **Ma zastosowanie do kosztu** i **Ma zastosowanie do sprzedaży** ustaw wartość **Tak**.
 4. W polu **Typ wymiaru** zaznacz opcję **Oparty na kwocie**, a następnie dla ustawienia **Kategoria transakcji** wybierz priorytet dotyczący kosztu i sprzedaży.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -28,3 +28,6 @@ Wiersze oparte na produkcie mogą mieć pozycje katalogowe i produkty dopisane. 
 
 Gdy metodą przychodów podsumowania szansy sprzedaży jest **Obliczony przez system**, wartości budżetu klienta w wierszach szansy sprzedaży są sumowane w celu obliczenia szacowanego przychodu. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Jeśli nadal nie widać prawidłowej ceny na wartości rzeczywistej czas koszt, 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

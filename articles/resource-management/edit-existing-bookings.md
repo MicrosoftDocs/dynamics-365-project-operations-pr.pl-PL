@@ -33,3 +33,6 @@ W siatce **Członek zespołu** kierownik projektu może podświetlić określony
 ## <a name="schedule-board"></a>Tablica harmonogramu
 
 Na **Tablicy harmonogramów** menedżer zasobów ma widok portfela wszystkich rezerwacji w organizacji. Z tego widoku menedżer zasobów może rozszerzać, skracać lub przenosić istniejące rezerwacje, podobnie jak w przypadku funkcji **Utrzymaj rezerwacje**. Menedżer zasobów może także zastąpić istniejące zasoby przydzielone do określonej rezerwacji, klikając prawym przyciskiem myszy rezerwację i wybierając opcję **Podstaw zasób**. Menedżerowie zasobów mogą również edytować kontury istniejących rezerwacji, klikając prawym przyciskiem myszy rezerwację i wybierając **Edytuj**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

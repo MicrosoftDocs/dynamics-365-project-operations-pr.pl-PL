@@ -81,3 +81,6 @@ Rozwiązano następujące problemy:
 - **Przycisk odświeżanie wartości rzeczywistych** powoduje nieprawidłowe obliczenie zadań sumarycznych.
 - Dodatek programu Microsoft Project: rozwiąż błąd odwołania do wartości null, jeśli dowolny członek zespołu ma pustą jednostkę ponownego pozyskania zasobów.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

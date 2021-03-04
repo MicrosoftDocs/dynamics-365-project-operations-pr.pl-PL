@@ -41,3 +41,6 @@ Zamówienia sprzedaży oparte na projektach można tworzyć na dwa sposoby:
 - Przejść do projektu. W okienku akcji wybierz pozycję **Zarządzaj > Zadania towarów > Zamówienie sprzedaży**. Informacje o projekcie będą domyślnie zamówione na zamówienie sprzedaży z projektu. Jeśli kontrakt projektu zawiera więcej niż jedno źródło finansowania, należy wybrać źródło finansowania, aby ustawić klienta dla danego zamówienia sprzedaży. Jeśli dla danego projektu istnieje tylko jedno źródło finansowania, klient zostanie ustawiony na automatyczny.
 - Przejdź do strony listy **Wszystkie zamówienia sprzedaży** i utwórz nowe zamówienie sprzedaży. Konieczne będzie wybranie projektu dla zamówienia sprzedaży. Po wybraniu projektu klient zostanie ustawiony ze źródła finansowania lub konieczne będzie wybranie źródła finansowania, jeśli kontrakt projektu zawiera wiele źródeł finansowania.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

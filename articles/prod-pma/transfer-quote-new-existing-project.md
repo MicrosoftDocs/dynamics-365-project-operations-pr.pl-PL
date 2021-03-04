@@ -36,3 +36,6 @@ Wykonaj następujące kroki, aby użyć kreatora.
 1. Przejdź do sekcji **Zarządzanie projektami i księgowanie** > **Projekty** > **Oferty projektów**.
 2. Wybierz ofertę, którą chcesz przenieść, i na karcie **Kolejne czynności** w grupie **Modyfikacja** wybierz opcję **Przeniesienie do projektu**.
 3. Postępuj zgodnie z instrukcjami kreatora **Przeniesienia oferty do projektu** i przypisz oraz przenieś ofertę do projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Można importować dane z rezerwacji projektów i przypisań. Podczas importowan
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Funkcje grupowania według, sortowania, wyszukiwania i filtrowania
 
 Wpisy czasu można grupować i filtrować według wymiarów określonych w kolumnach. W polu **Grupuj według** wybierz wymiar, który ma być używany do filtrowania wpisów czasu. Przy użyciu strzałek sortowania w nagłówkach kolumn można również sortować rekordy wpisów czasu w porządku rosnącym lub malejącym. Ponadto można wyświetlać lub ukrywać wpisy, klikając przycisk **Filtruj** w nagłówkach kolumn, a następnie w polu **Wyszukaj** wprowadzając tekst, który ma być używany do wyszukiwania wpisów czasu według nazwy projektu, zadania projektu, godziny wpisu lub zasobu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

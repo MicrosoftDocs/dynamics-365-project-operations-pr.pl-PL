@@ -59,3 +59,6 @@ Możesz także kliknąć łącze **Wymaganie zasobów** w siatce zespołu, aby o
 
 ![Wymaganie zasobów](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

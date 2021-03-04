@@ -38,3 +38,6 @@ Te często zadawane pytanie dotyczy wartości rzeczywistych wydatków, gdzie kla
 Przejdź do odpowiedniego wydatku i upewnij się, że w polu wydatku wprowadzona została kwota. Jeśli źródłowy wpis dotyczący wydatku nie miał wypełnionego pola kwoty, znalazłeś problem.
  
 Aby rozwiązać ten problem, należy ponownie utworzyć wpis wydatków wprowadzając prawidłową kwotę a następnie zatwierdzić go.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

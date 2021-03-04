@@ -45,3 +45,6 @@ Dzięki funkcjom [!INCLUDE[pn_project_service_auto](../includes/pn-project-servi
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera projektu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

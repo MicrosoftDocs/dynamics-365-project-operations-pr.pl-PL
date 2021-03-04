@@ -68,3 +68,6 @@ Jest to przykład sytuacji, kiedy do zaspokojenia żądania zasobu ogólnego pot
 Główna różnica w tym scenariuszu polega na tym, że zasób ogólny pozostaje w zespole przypisanym do zadania, a członkowie zespołu będący zarezerwowanymi zasobami nazwanymi nie są przypisywani do zadania w ramach ich standardowych obowiązków. Menedżer projektu może odpowiednio przypisać pracę do nazwanych zasobów. Widok **Uzgadnianie** może pomóc menedżerowi projektu podzielić rezerwacje między wiele zasobów i przypisać im zadanie. Nie jest to wykonywane automatycznie, ponieważ w każdym scenariuszu bardziej skomplikowanym niż ten powyżej, na przykład gdy użytkownik ma pakiet zadań składających się na wymaganie, system musi uwzględnić sposób, w jaki Menedżer projektu zamierza dokonywać przypisań. Ponieważ system nie jest w stanie zrozumieć zamierzeń, założenia mogą być inne niż zamierzania i może wystąpić nieprawidłowy lub nieprzewidywalny rezultat. Przewidywany wynik jest taki, że zasób ogólny pozostanie przypisany do czasu, aż menedżer projektu jednoznacznie utworzyć przypisania za pomocą widoku **Uzgadnianie**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

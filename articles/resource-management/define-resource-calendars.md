@@ -43,3 +43,6 @@ Każdy zasób zaksięgowany w pracy nad projektem musi wykorzystywać kalendarz 
 2. W widoku siatki wybierz maksymalnie 25 **Zasobów do zaksięgowania**, które chcesz zaktualizować.
 3. Wybierz opcję **Ustaw kalendarz**. Wyświetli się się monit z listą dostępnych szablonów godzin pracy.
 4. Wybierz go, aby znaleźć wybrany szablon, a następnie wybierz opcję **Zastosuj**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

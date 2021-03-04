@@ -101,3 +101,6 @@ Po wykonaniu na każdym z zasobów funkcji Rozszerz rezerwację rezerwacje dla k
 
 Ściślejsze zapoznanie się z szczegółowymi informacjami dotyczącymi rezerwacji pokazuje różnice w czasie rozpoczęcia rezerwacji. Rezerwacje będą zaczynać się nie wcześniej, niż godzina rozpoczęcia rozkładu przydziału i nie wcześniej, niż jest dostępna godzina rozpoczęcia danego zasobu.
  ![Nowe rezerwacje zasobów na tablicy harmonogramu](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

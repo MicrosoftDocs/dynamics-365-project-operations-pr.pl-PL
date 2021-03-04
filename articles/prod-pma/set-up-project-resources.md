@@ -75,3 +75,6 @@ Po wykonaniu powyższych czynności można wykonać następujące zadania, któr
 - Realizowanie żądań zasobów.
 - Zażądanie zasobu pracowniczego z SPP.
 - Zarezerwuj zasoby do projektu bez żądania zasobu pracowniczego.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

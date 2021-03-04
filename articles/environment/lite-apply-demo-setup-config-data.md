@@ -74,3 +74,6 @@ Przed rozpoczęciem konfiguracji należy dysponować środowiskiem usługi Commo
     -   Charakterystyka zasobu, który można zarezerwować
 
     ![Zakończ importowanie](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

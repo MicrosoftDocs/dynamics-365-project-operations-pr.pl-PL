@@ -107,3 +107,6 @@ Aby utworzyć własny przepływ procesów biznesowych dla encji projektu przepro
 
    ![Zrzut ekranu przedstawiający modyfikowanie widoków an encji projektu](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Szacowanie zmienia stan na **Wyeliminowane**.
 Ta strona służy do wycofywania wszystkich eliminacji z określoną datą szacowania i stanem szacowania **Wyeliminowane**. Stan transakcji zmienia się po wybraniu odpowiednich pól.
 
 Spowoduje to również automatyczną zmianę stanu projektu na **W trakcie przetwarzania**, jeśli etap projektu jest ustawiony na ukończenie. Stan szacowania okresu projektu zmienia się z powrotem na **Zaksięgowane**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

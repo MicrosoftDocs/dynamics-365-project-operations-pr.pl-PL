@@ -59,3 +59,6 @@ W kontrakcie dotyczącym projektu, wykorzystywana jest następująca kolejność
 Kiedy Cennik projektu jest wprowadzany domyślnie, system sprawdza poprawność waluty odpowiadającej walucie klienta i, że wprowadzone cenniki domyślne mają kontekst **sprzedaży**.
 
 Istnieje możliwość skojarzenia kilku cenników projektów z encjami sprzedaży Klient, Szansa sprzedaży, Oferta i Kontrakt projektu. Ta funkcja obsługuje specyficzne dla konkretnego kontraktu ceny domyślne na długo działającym kontrakcie projektu, w którym może zaistnieć potrzeba więcej niż jednego cennika w celu zaktualizowania cen ze względu na inflację. Jeśli jednak cenniki skojarzone z encją klient, szansa sprzedaży, oferta lub kontrakt projektu mają nachodzącą na nią datę obowiązywania, cena domyślna może być nieprawidłowa. Dlatego należy się upewnić, że cenniki z nakładającymi się datami nie są skojarzone z tymi encjami.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

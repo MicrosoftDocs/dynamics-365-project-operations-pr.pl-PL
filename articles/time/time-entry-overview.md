@@ -27,3 +27,6 @@ Członkowie zespołu projektu tworzą i przesyłają wpisy czasu na potrzeby zat
 
 Aby uzyskać informacje na temat tworzenia, przesyłania i wycofywania wpisu oraz innych narzędzi ułatwiających raportowanie, zobacz temat [Zachowania użytkownika — wpisy czasu](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

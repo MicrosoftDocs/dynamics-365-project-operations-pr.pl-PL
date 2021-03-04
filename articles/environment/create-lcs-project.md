@@ -36,3 +36,6 @@ Korzystanie z Lifecycle Services (LCS) do zarządzania programem Dynamics 365 w 
 
 Użyj tego projektu LCS do wdrożenia środowiska Project Operations.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Android będą kompatybilne z aktualizacją platformy 16, kiedy stanie się dost
 13. Opcjonalnie: wprowadź dodatkowe wiersze grafiku.
 
 14. Po zakończeniu wprowadzania wierszy grafiku wybierz akcję **Przepływ pracy** \> **Prześlij** w celu wysłania grafiku do procesu przepływu pracy zatwierdzania.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

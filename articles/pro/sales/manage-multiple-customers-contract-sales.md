@@ -52,3 +52,6 @@ Klienta kontraktowego można utworzyć, zaktualizować lub usunąć, korzystają
 Wartości procentowe podziału płatności można edytować za pomocą narzędzia do edycji siatki w linii. Gdy wartości procentowe podziału płatności nie osiągną 100 procent, pojawi się błąd. Po wyedytowaniu procentów podziału na fakturę odśwież stronę, aby odrzucić błąd.
 
 Można również wybrać **Równo rozpowszechnianie** w podsiatce **Klienci kontraktów**, aby podzielić rozliczenia na różne pozycje. Jeśli istnieje współczynnik zaokrąglania, zostanie on dodany do zaokrąglenia do klienta. Jeden z klientów kontraktowych jest zawsze oznakowany jako klient **zaokrąglający**, co oznacza, że flaga zaokrąglania rekordu klienta w kontrakcie jest ustawiona na **Tak**. Zazwyczaj jest to główny klient kontraktu, ale można go również zmienić.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Rezerwacja zasobu bezpośrednio do projektu:
 Rezerwowanie zasobów z poziomu wymagań zasobów:
 - [Przypisywanie ogólnego zasobu możliwego do zarezerwowania do zadania i generowanie wymagań zasobów](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Rezerwowanie nazwanych zasobów z poziomu wymagań zasobów](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Organizuj dokumenty związane z projektem dodając je do projektu.
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera projektu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

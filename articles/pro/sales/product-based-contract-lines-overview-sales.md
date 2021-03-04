@@ -46,3 +46,6 @@ Jeśli wiersz kontraktu jest oparty na katalogu produktów, można zastąpić ce
 Jeśli w polu **Kalkulacja cen** zostanie ustawiona wartość **Zastąp kalkulację ceny**, nie jest ustawiana cena domyślna. Wprowadź cenę produktu w pozycji kontraktu projektu. Jeśli pole ma **Używać wartości domyślnych**, jest używana domyślna cena sprzedaży i nie można edytować pola.
 
 Po zainstalowaniu rozwiązania Project Operations domyślne ceny sprzedaży są wprowadzane w wierszach opartych na produktach w kontrakcie. Następnie w polu **Kalkulacja cen** jest ustawiana wartość **Zastąp kalkulację ceny**, tak aby można było edytować domyślną cenę w wierszach kontraktu. Jest to opcja zastąpienia dostępna w Project Operations dla wierszy opartych na produkcie w Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

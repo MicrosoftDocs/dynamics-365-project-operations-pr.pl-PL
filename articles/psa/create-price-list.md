@@ -71,3 +71,6 @@ Cenniki opierają się na kategoriach wydatków i ról, więc przed utworzeniem 
   
 ### <a name="see-also"></a>Zobacz także  
  [Skonfiguruj Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

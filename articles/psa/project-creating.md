@@ -149,3 +149,6 @@ Domyślnie, jeśli zadanie węzła liścia nie ma poprzedników, jego data rozpo
 ### <a name="manual-scheduling"></a>Planowanie ręczne
 
 Jeśli reguły automatycznego planowania nie spełniają wymagań użytkownika, można ustawić tryb zadania na **ręczne planowanie.** Powstrzymuje to aparat planowania przed obliczaniem wartości dla innych atrybutów planowania. Bez względu na tryb zadania ustawienie poprzedników zawsze ma wpływ na datę rozpoczęcia zadania zależnego.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

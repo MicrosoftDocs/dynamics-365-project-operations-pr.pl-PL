@@ -47,3 +47,6 @@ Ustaw wykorzystanie docelowe dla każdej roli. Te ustawienia określają dostęp
   
 ### <a name="see-also"></a>Zobacz także  
  [Konfigurowanie zasobów](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

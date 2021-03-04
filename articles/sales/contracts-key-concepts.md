@@ -88,3 +88,6 @@ Harmonogramy fakturowania są specyficzne dla poszczególnych pozycji kontraktu 
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Zmiany z zamówień w Dynamics 365 Sales
 
 Kontrakty w Project Operations są oparte na zamówieniach w Dynamics 365 Sales. Istnieją jednak poważne różnice w działaniu tych funkcji. Kontrakty mają własne elementy formularzy i UI, reguły biznesowe, logikę biznesową w dodatkach plug-in oraz skrypty po stronie klienta, które sprawiają, że różnią się od ofert Orders. Z tych powodów nie należy używać zamiennych zamówień typu Sales i Project Operations wymiennie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

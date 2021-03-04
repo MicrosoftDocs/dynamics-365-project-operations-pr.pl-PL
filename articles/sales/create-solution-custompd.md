@@ -64,3 +64,6 @@ Dodaj następujące encje aplikacji Project Service do rozwiązania obsługując
 5.  Po wyświetleniu monitu o uwzględnienie dowolnych encji zależnych dla wybranych encji wybierz opcję **Nie, nie należy dołączać składników wymaganych.**
 
     ![Z uwzględnieniem encji zależnych](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

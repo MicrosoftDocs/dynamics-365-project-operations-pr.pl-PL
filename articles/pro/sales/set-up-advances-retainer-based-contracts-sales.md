@@ -37,3 +37,6 @@ Operacja zatrzymania w Project Operations jest niedostępna do momentu zafakturo
 | --- | --- | --- |
 | Dostępna kwota | Kwota, która jest dostępna do użycia w odniesieniu do rekordu zatrzymania lub zaliczki. | Do momentu zafakturowania zaliczki lub zatrzymania nie będzie można tego korzystać, co oznacza, że dostępna kwota będzie wynosić zero. |
 | Kwota użyta | Kwota, która jest już użyta w odniesieniu do rekordu zatrzymania lub zaliczki. | Zaliczka lub zatrzymanie na fakturze z kosztami rzeczywistymi, które będą stanowić część oznaczoną jako już wykorzystana lub zużyta, może zostać częściowo uzgodniona. Pozostała część kwoty zaliczki lub zatrzymania jest dostępna do uzgodnienia na przyszłej fakturze z kosztami rzeczywistymi. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

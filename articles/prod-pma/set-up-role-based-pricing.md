@@ -34,3 +34,6 @@ Wszystkie ceny kosztów, sprzedaży i przeniesienia można skonfigurować dla r�
 1. Na stronie **Cena sprzedaży (godzina)** wybierz opcję **Nowa** i wprowadź datę wejścia w życie.
 2. W kolumnie **Rola** wybierz rolę.
 3. W kolumnie **Ceny** wprowadź cenę wybranej roli zasobu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Szansy sprzedaży to zainteresowanie ze strony klientów, którzy są zaintereso
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera kont](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

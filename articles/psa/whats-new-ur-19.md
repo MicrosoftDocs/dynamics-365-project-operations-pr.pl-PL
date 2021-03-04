@@ -66,3 +66,6 @@ Rozwiązano następujące problemy:
 - Podczas tworzenia projektu klienci mogą doświadczyć spadku wydajności, ponieważ **GetBookableResourceIdFromUser** pobiera wszystkie kolumny zasobów możliwych do zarezerwowania, a nie tylko podstawowy identyfikator.
 - W encji **TransactionType** brak dodatku wstępnej weryfikacji aktualizacji, aby zapobiec wprowadzaniu przez użytkowników **jednostek** i **UnitGroups**, które są nieprawidłowe dla typów transakcji.
 - Krok **Usuń** nie działa w przypadku importowania wpisów czasu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

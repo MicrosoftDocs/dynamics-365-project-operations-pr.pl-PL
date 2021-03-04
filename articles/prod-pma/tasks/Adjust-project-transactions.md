@@ -44,3 +44,6 @@ W tym przewodniku zadań przedstawiono sposób korygowania transakcji w projekci
 13. Zaznacz wybrany wiersz na liście. 
 14. W polu Koszt własny wprowadź liczbę. 
 15. Kliknij pozycję Wpis. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

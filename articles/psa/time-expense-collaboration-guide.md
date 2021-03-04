@@ -73,3 +73,6 @@ Kliknij łącze poniżej, aby dowiedzieć się więcej na temat tego, co można 
  [Przewodnik menedżera kont](../psa/account-manager-guide.md)   
  [Przewodnik menedżera projektów](../psa/project-manager-guide.md)   
  [Przewodnik menedżera zasobów](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

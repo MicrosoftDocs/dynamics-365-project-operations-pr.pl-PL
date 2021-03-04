@@ -55,3 +55,6 @@ Wydatki które nie zostały jeszcze przesłane, można usunąć. Aby usunąć wy
 ## <a name="see-also"></a>Zobacz także
 
 - [Omówienie zatwierdzeń](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

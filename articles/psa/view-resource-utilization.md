@@ -43,3 +43,6 @@ Możesz sprawdzić wykorzystanie zasobów, aby określić poziomy wykorzystania 
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera zasobów](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

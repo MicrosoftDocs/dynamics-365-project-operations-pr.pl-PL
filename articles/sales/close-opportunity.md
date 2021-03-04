@@ -24,3 +24,6 @@ Szanse sprzedaży projektu można zamknąć jako wykorzystane lub utracone. Okno
 Nie otrzymasz pozwolenia na zamknięcie szansy sprzedaży, jeśli są z nią skojarzone jakieś aktywne oferty. Użytkownik może jednocześnie zamknąć wszystkie aktywne i robocze oferty skojarzone z daną szansą sprzedaży. Następnie użytkownik będzie mógł zamknąć szansę sprzedaży.
 
 Aby uzyskać więcej ogólnych informacji o zamykaniu szans sprzedaży, zobacz [Zamykanie szans sprzedaży jako wykorzystane lub utracone](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

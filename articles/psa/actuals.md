@@ -330,3 +330,6 @@ Rozwiązanie PSA rejestruje transakcje finansowe zaistniałe w trakcie projektu.
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

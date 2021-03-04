@@ -47,3 +47,6 @@ Po wprowadzeniu przez konsultantów czasu i wydatków związanych z projektem, n
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera projektu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

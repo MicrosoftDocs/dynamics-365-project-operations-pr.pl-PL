@@ -44,3 +44,6 @@ Project Operations obsługuje wiele modeli wdrożeń. Aby wybrać najlepszy mode
 2. Zainstaluj aplikację **Microsoft Dynamics 365 Project Operations** z listy wdrożeń aplikacji Dynamics 365. Aby uzyskać więcej informacji, zobacz temat [Zarządzanie aplikacjami Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

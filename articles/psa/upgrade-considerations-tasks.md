@@ -96,3 +96,6 @@ W celu zapewnienia pomyślnego uaktualnienia należy poprawnie utrzymywać nast�
 
 - Wszystkie zależności zadań projektu muszą być powiązane z tym samym projektem.
 - Zadanie może się odwoływać tylko raz do każdego elementu stanowiącego zależność.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ Szanse sprzedaży projektu można łatwo kopiować, aby tworzyć nowe szanse spr
     | Kopiuj kalkulację cen | Wartość tak/nie wskazuje, czy cena z szansy sprzedaży powinna być kopiowana z szansy sprzedaży źródłowej. | Jeśli zaznaczona jest opcja **Tak**, cenniki są kopiowane z lokalizacji źródłowej do docelowej szansy sprzedaży. Jeśli wybrana jest opcja **Nie**, cenniki są domyślnie ustawiane na podstawie najnowszych skonfigurowanych cenników. |
 
 3. Wybierz pozycję **OK**. System utworzy kopię szansy sprzedaży projektu na podstawie wybranych parametrów i otworzy się nowa szansa sprzedaży projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

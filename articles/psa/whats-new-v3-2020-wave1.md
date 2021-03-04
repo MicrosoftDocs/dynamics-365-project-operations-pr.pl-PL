@@ -43,3 +43,6 @@ Ponadto w przypadku dowolnych niestandardowych modułów aplikacji, które zawie
 
 ### <a name="currently-extended-time-entry-changes"></a>Zmiany aktualnie przedłużonych wpisów czasowych
 Aby zminimalizować wpływ wpisu czasowego na bieżących użytkowników, ta zmiana roli jest jedynym wymogiem podstawowym koniecznym do kontynuowania korzystania z wpisu czasowego. Jeśli zostały utworzone widoki niestandardowe lub odrębny czas wprowadzenia, należy ustawić prawidłową wartość PSA w polach **ustawienia wpisu czasowego**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

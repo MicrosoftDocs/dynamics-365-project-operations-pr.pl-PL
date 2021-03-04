@@ -53,3 +53,6 @@ Oto kilka sugestii, które mogą pomóc podczas tworzenia nowych zasad zarządza
 ## <a name="when-to-evaluate-policies"></a>Kiedy oceniać przestrzeganie zasad
 
 W ramach parametrów zarządzania wydatkami można wybrać opcję oceny pod kątem przestrzegania zasad dotyczących wydatków na: podczas zapisywania wiersza lub podczas przesyłania raportu z wydatków. W przypadku wybrania opcji oceny w trakcie zapisywania wiersza użytkownicy będą wcześniej widzieli, co należy wykonać, aby wypełnić cały raport. Można także opóźnić ocenę przez zasadę i oszczędzić czas przeprowadzając weryfikację na samym końcu, przed przesłaniem do przepływu pracy.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

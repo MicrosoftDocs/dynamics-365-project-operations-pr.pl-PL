@@ -63,3 +63,6 @@ W tym temacie przedstawiono funkcje i poprawki, które są nowe lub zostały zmi
 **Sales**
 
 - Naprawione: Czas ponownego zatwierdzania wpisów (**Zatwierdzanie > Anulowanie >** Ponowne zatwierdzanie) powoduje utworzenie zduplikowanych wartości rzeczywistych, które nie są odliczane.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

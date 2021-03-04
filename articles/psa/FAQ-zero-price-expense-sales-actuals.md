@@ -72,3 +72,6 @@ Jeśli ustawienia ceny dla kategorii wydatek nie są prawidłowe, właśnie zlok
 Jeśli nadal nie widać prawidłowej ceny na wartości rzeczywistej wydatek sprzedaż, po wykonaniu powyższych trzech kontroli prześlij zgłoszenie prośby o pomoc techniczną.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

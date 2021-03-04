@@ -45,3 +45,6 @@ W poprzednim kroku skojarzyłeś już pewne umiejętności z nowym zasobem. Od c
   
 ### <a name="see-also"></a>Zobacz także  
  [Konfigurowanie zasobów](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,5 @@ Menedżer projektu może wykonać poniższe kroki, aby edytować wymagania dotyc
 ## <a name="edit-resource-assignment-contours"></a>Edytowanie rozkładów przypisania zasobów
 
 Poza edytowaniem szczegółów wymagania dotyczącego zasobów menedżer projektu może zaktualizować poszczególne przypisania wymagań dotyczących zasobu, korzystając z funkcji **Określ wzorzec**. Jeśli wybrano opcję **Określ wzorzec**, zostanie otwarta strona i będzie można wyświetlać rozkłady w ramach danego dnia, tygodnia lub miesiąca. W ramach każdego przypisania można dostosować czas rozpoczęcia, godzinę zakończenia i sumę nakładów pracy w danym okresie.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

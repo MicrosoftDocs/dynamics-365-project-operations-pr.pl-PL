@@ -62,3 +62,6 @@ Anulowanie zatwierdzenia wpływa również finansowo na projekt. Najpierw odnoś
 Następnie w tabeli Wartości rzeczywiste są tworzone wpisy wycofania. Aby utworzyć wpisy wycofania, system kopiuje wartości pól z pierwotnych wartości rzeczywistych. Jedyne wartości, które nie są kopiowane, to wartości ilości. Zamiast tego te wartości są wycofywane. Wycofane wartości rzeczywiste są tworzone dla wartości rzeczywistych **Koszt** i **Nierozliczona sprzedaż**. Pole **Stan korekty** w wycofanych wartościach rzeczywistych otrzymuje wartość **Nie można skorygować**, a stan rozliczania otrzymuje wartość **Anulowano**.
 
 Po wprowadzeniu tych zmian kwota zarejestrowana jako wydana w projekcie oraz zaległości przychodów w projekcie nie będą już uwzględniały kwot reprezentowanych przez te wartości rzeczywiste.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

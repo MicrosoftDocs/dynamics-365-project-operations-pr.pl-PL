@@ -38,3 +38,6 @@ Nierozliczone wartości rzeczywiste sprzedaży, które mają stan **Nie do przek
 W przypadku pozycji z listy kontraktów obejmujących wielu klientów, które zawierają metodę fakturowania typu czas i materiały, podczas zatwierdzania czasu i wydatków dla każdego klienta w pozycji kontraktu jest tworzona wartość rzeczywista sprzedaży niezafakturowanej w zależności od procentu podziału określonego dla każdego klienta w pozycji kontraktu. W widoku **Zaległości rozliczeń czasu i materiałów** będą widoczne poszczególne specyficzne dla konkretnego klienta nierozliczone wartości rzeczywiste. Każdy z tych nierozliczonych rekordów rzeczywistych wartości sprzedaży może być oznaczony jako **Gotowy do fakturowania**, z poziomu tego widoku.
 
 Nierozliczona wartość rzeczywista sprzedaży w wersji roboczej faktury jest wyświetlana w tym widoku wraz ze **stanem fakturowania** w polu **Faktura klienta utworzona**. Po potwierdzeniu wersji roboczej faktury stan fakturowania w tym rekordzie jest aktualizowany na **Faktura klienta zaksięgowana**. Zaktualizowanie tej wartości stanu w tym momencie przy użyciu kodu niestandardowego nie jest zalecane. Project Operations nie będzie działać poprawnie, gdy te wartości stanu będą aktualizowane za pomocą kodu niestandardowego.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

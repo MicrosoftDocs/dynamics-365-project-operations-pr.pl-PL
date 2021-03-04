@@ -43,3 +43,6 @@ Poniżej przedstawiono karty i wskaźniki KPI dostępne w ofercie projektu, któ
 | Analiza rentowności | Karta w ofercie | Karta ta zawiera poniższe metryki:</br>- Łączny koszt odpłatny</br></br>- Łączny koszt nieodpłatny</br>- Łączny przychód</br>- Łączny przychód (podstawowy)</br>- Marża brutto</br>- Skorygowana marża brutto|
 | Porównanie z oczekiwaniami klienta | Karta w ofercie | Ta karta ta zawiera poniższe metryki:</br>- Szacowane zakończenie</br>- Żądane zakończenie</br>- Budżet klienta</br>- Wartość oferowana |
 | Analiza ofert | Karta w ofercie | Na tej karcie są podsumowane poniższe kluczowe wskaźniki wydajności (KPI) dotyczące oferty projektu</br>- Porównanie oczekiwań klientów związanych z budżetem i harmonogramem</br>- Marża brutto</br>- Skorygowana marża brutto |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

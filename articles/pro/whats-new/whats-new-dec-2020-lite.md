@@ -57,3 +57,6 @@ W poniższej tabeli wymieniono aktualizacje aplikacji Project Operations w środ
 | Czas i wydatek | 2034882 | Przycisk **Nowy** jest wyświetlany dwukrotnie na pasku poleceń w przypadku wpisów czasu po zainstalowaniu aplikacji Dynamics 365 Field Service. |
 | Czas i wydatek | 2056028 | Aktualizacja strony **edytowania czasu** w celu dołączenia osi czasu. |
 | Czas i wydatek | 1983747 | Na wykresie wpisów czasu są wyświetlane dodatkowe dane. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

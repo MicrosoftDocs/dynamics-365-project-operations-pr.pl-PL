@@ -31,3 +31,6 @@ Stawka dzienna jest przyznawana pracownikowi, który podróżuje do pracy. W prz
     
 ## <a name="submit-expenses-using-per-diem"></a>Prześlij koszty przy użyciu diety na dzień
 Aby przesyłać wydatki umożliwiające korzystanie z diet na dzień, należy skorzystać z kategorii wydatków **Na dzień** podczas tworzenia raportu z wydatków. Wprowadź **Datę diety na dzień**, **Datę końcową diety na dzień** i **Lokalizację diety na dzień**. Kwota będzie obliczana na podstawie stawek diety na dzień dla wybranej lokalizacji, a redukcja za posiłki będzie obliczana na podstawie warstw stawek diety.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

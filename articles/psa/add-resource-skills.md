@@ -47,3 +47,6 @@ Projekty Twoich klientów bez wątpienia wymagają różnych umiejętności pozw
   
 ### <a name="see-also"></a>Zobacz także  
  [Konfigurowanie zasobów](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Jeśli konieczne jest użycie Power Query, wykonaj następujące wytyczne:
 Na poniższym rysunku pokazano przykład mapowania zadań szablonów w zakresie integracji danych. Mapowanie przedstawia informacje o polach, które zostaną zsynchronizowane z Project Service Automation do Finance.
 
 [![Mapowanie szablonu](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

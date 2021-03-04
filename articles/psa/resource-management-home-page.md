@@ -41,3 +41,6 @@ Zasoby stanowią najważniejszy zasób organizacji usługowej. Możliwość znal
 - [Wstępne rezerwowanie wymagań](resource-management-softbook-requirements.md)
 - [Modele umiejętności i biegłości](resource-management-skills-proficiency.md)
 - [Zarządzanie zasobami — często zadawane pytania](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

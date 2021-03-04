@@ -46,3 +46,6 @@ Jeśli wiersz oferty jest oparty na katalogu produktów, można zastąpić cenę
 W przypadku wybrania opcji **Zastąp cennik** cena domyślna nie jest ustawiona. W zamian należy wprowadzić cenę produktu w wierszu oferty. W przypadku wybrania opcji **Użyj domyślnych** jest używana domyślna cena sprzedaży, a pole jest zablokowane do edycji.
 
 Domyślne ceny sprzedaży są wprowadzana w wierszach opartych na produktach w ofercie. Następnie w polu **Kalkulacja cen** jest ustawiana wartość **Zastąp Cennik**, tak aby można było edytować domyślną cenę w wierszach oferty. Jest to zastąpienie specyficzne dla Project Operations dotyczące zachowania wierszy opartych na produkcie w rozwiązaniu Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

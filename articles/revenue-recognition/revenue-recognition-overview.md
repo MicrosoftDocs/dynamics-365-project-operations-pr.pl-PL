@@ -60,3 +60,6 @@ W aplikacji Dynamics 365 Project Operations zasady rozpoznawania przychodów ró
 [Zarządzanie szacowaniami przychodów](rev-rec-completed-contract-method.md)
 
 [Metody dotyczące kosztów wykonania](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -170,3 +170,6 @@ Poniższe ilustracje przedstawiają przykłady odwzorowań zadań szablonu w int
 [![Mapowanie szablonów transakcji szacowania wydatków](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Mapowanie szablonów szacowania wydatków](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

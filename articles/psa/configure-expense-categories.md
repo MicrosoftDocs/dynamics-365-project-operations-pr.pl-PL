@@ -55,3 +55,6 @@ Każda kategoria wydatków może mieć własną grupę jednostek i jednostkę. M
   
 ### <a name="see-also"></a>Zobacz także  
  [Skonfiguruj Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

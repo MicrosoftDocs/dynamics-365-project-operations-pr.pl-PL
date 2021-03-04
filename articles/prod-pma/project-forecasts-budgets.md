@@ -81,3 +81,6 @@ Jeśli używasz prognozowania projektu, możesz identyfikować modele jako model
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

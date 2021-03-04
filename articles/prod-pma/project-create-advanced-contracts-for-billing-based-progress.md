@@ -103,3 +103,6 @@ kategorie budżetowe automatycznie obliczają kwoty faktur dla procentu pracy wy
 8. Opcjonalnie: Przypisz regułę fakturowania do dodatkowych projektów. Na skróconej karcie **Projekt** , w sekcji **Dostępne projekty** wybierz projekt, a następnie wybierz przycisk strzałki w prawo, aby dodać projekt do sekcji **Wybrane projekty**.
 9. Opcjonalnie: należy obliczyć kwotę procentową zatrzymania przez klienta na fakturze. Na skróconej karcie **Warunki zatrzymania płatności** wybierz źródło finansowania, a następnie w polu **Procent zatrzymania** wprowadź wartość procentową zatrzymania.
 10. Powtórz te kroki, aby utworzyć dodatkowe reguły fakturowania dla kontraktu dotyczącego projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

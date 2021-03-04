@@ -48,3 +48,6 @@ W poniższej tabeli przedstawiono typy przepływów pracy, które można tworzy�
 |       <strong>Wnioski wyjazdowe</strong>       |          Tworzenie przepływów pracy dla zatwierdzania wniosków wyjazdowych.           |
 |      <strong>Zaliczka gotówkowa — anulowanie</strong>      |         Tworzenie przepływów pracy zatwierdzania dla wniosków o zaliczkę w gotówce.          |
 |        <strong>Zwrot podatku VAT</strong>        | Utwórz przepływy pracy zatwierdzenia w celu odzyskania podatku VAT.  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ W wierszach arkusza integracji Project Operations można aktualizować tylko nas
 Wiersze arkusza integracji można usunąć, jednak wszelkie niewysłane wiersze zostaną ponownie wstawione do arkusza po ponownym uruchomieniu okresowego procesu **Importowania z przemieszczania**.
 
 Podczas księgowania arkusza integracji tworzona jest księga podrzędna projektu i transakcje księgi głównej. Są one używane w przeliczeniu na podrzędne fakturowanie klientów, rozpoznawaniu przychodów i raportowaniu finansowym.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Przed rozpoczęciem procesu instalacji należy wykonać następujące decyzje do
 
     - Czy któraś z podkategorii jest wykluczona ze zwrotu podatku?
     - Jaka jest grupa podatku od sprzedaży w tych podkategoriach?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

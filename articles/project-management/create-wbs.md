@@ -116,3 +116,6 @@ Tryb zadania nie ma wpływu na aktualizacje wprowadzane do dat rozpoczęcia i za
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Skróty klawiaturowe i ułatwienia dostępu
 
 Siatka **harmonogramu** jest w pełni dostępna i może być używana z czytnikami ekranu, takimi jak Narrator, JAWS lub NVDA. Aby przechodzić między obszarem siatki za pomocą klawiszy strzałek (jak w Microsoft Excel), można użyć klawisza Tab w celu przechodzenia między elementami interaktywnego interfejsu użytkownika i można użyć klawisza strzałki w dół, klawisza Enter lub klawisza spacji w celu wybrania i otwarcia menu rozwijanego.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

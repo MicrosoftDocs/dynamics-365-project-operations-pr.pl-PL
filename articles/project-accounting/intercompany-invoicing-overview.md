@@ -43,3 +43,6 @@ Na poniższym diagramie przedstawiono fakturowanie międzyfirmowe w zależności
 - [Konfigurowanie faktury międzyfirmowej](configure-intercompany-invoicing.md)
 - [Rejestrowanie transakcji międzyfirmowych](create-intercompany-transactions.md)
 - [Tworzenie faktur międzyfirmowych dla klienta i dostawcy](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

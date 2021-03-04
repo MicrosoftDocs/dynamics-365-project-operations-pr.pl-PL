@@ -107,3 +107,6 @@ Na poniższej ilustracji pokazano zmiany występujące w zatwierdzonych wpisach 
 Na poniższej ilustracji pokazano zmiany występujące w zatwierdzonych wpisach wydatków po ich odwołaniu.
 
 ![Zmiany stanu wpisu wydatku](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

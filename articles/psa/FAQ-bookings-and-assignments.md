@@ -68,3 +68,6 @@ Ponieważ rezerwacje i przypisania nie są ściśle powiązane, istnieje możliw
 > [!NOTE]
 > Po przeniesieniu zadania, dla którego użytkownik sam sporządził rozkład, rozkłady nie zostaną zachowane. Zarysy są generowane według kalendarza projektu, aby uwzględniać zmiany wprowadzone w godzinach pracy i dniach wolnych od pracy. Jest to ustawienie fabryczne, ponieważ system nie zna przeznaczenia oryginalnego rozkładu i nie może określić, czy warto zachować ten rozkład dla nowego przedziału czasu. Ponieważ rezerwacje i przypisania nie są połączone, rezerwacje zachowują oryginalne rozkłady rezerwacji. W tym przypadku będziesz musiał anulować i ponownie zarezerwować dla nowego zarysu przypisania.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

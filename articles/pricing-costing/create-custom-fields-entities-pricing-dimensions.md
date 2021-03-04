@@ -77,3 +77,6 @@ Dane wymiarów opartych na encjach można tworzyć ręcznie, poprzez import z pr
 5. Powtórz kroki 1–3, aby utworzyć kolejne nowe stanowisko „Starszy inżynier systemów”.
 
 > ![Przykładowe dane encji Standardowe stanowisko](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

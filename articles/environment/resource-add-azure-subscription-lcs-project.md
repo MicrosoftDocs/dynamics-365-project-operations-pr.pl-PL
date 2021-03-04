@@ -70,3 +70,6 @@ Autoryzacja jest teraz ukończona.
 Pomyślnie połączono Twoją subskrypcję Azure. Można teraz wdrażać środowiska Dynamics 365 Finance hostowane w chmurze.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

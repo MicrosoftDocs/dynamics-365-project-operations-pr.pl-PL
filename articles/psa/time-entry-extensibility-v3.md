@@ -132,3 +132,6 @@ Sprawdzania poprawności plug-inów należy używać do wszystkich walidacji, kt
 
 > [!IMPORTANT] 
 > Obecnie znany problem na stronach TBX uniemożliwia użytkownikom poprawianie informacji i ponowne wybieranie opcji Gotowe, gdy aktualizacja zakończy się niepowodzeniem walidacji plug-inu. W ramach rozwiązania alternatywnego można skonfigurować sprawdzanie poprawności reguł biznesowych w celu zapobiegania tej sytuacji na ile to tylko możliwe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

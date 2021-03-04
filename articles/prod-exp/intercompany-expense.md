@@ -35,3 +35,6 @@ Zanim pracownik będzie mógł tworzyć i przesyłać wydatki międzyfirmowe, na
 
 Zanim będzie można użyć grup podatków, które są skojarzone z firmą wypożyczającą (źródłową) zamiast firmy pożyczającej (docelowej) w raporcie z wydatków, należy włączyć tę funkcję w konfiguracji podatku od sprzedaży księgi głównej. Gdy parametr **Firma dla księgowania podatku międzyfirmowego** jest ustawiony na **Źródło**, a **Reguły opodatkowania podatku** są ustawione na **Nie**, używana jest kombinacja podatków dla firmy wypożyczającej. Jeśli ten sam parametr ma ustawioną wartość **Docelowy**, będzie używana kombinacja podatku dla podmiotu prawnego wypożyczającego. W przypadku podmiotów prawnych w Stanach Zjednoczonych, gdy parametr jest ustawiony na wartość **Źródło**, to w polu **Należny podatek od sprzedaży** musi być skonfigurowana nowa strona **Grup księgowania w rejestrze**. Silnik do księgowania użyje informacji z tego pola do prowadzania rachunków związanych z podatkami.   
 Zachowanie to jest spójne w przypadku wierszy wydatków zaksięgowanych z użyciem projektu lub bez niego.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

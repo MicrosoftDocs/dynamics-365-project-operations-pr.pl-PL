@@ -64,3 +64,6 @@ W tym temacie przedstawiono funkcje i poprawki, które są nowe lub zostały zmi
 
     -   Naprawione: Kiedy użytkownicy uaktualnią wersję z od 2.X do 3.X, dozwolone będą projekty o wartości PUSTEJ dla nazwy projektu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

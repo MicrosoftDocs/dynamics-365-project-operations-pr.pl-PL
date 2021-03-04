@@ -53,3 +53,6 @@ Teraz, gdy dodałeś umiejętności dla projektów swoich klientów, potrzebujes
   
 ### <a name="see-also"></a>Zobacz także  
  [Konfigurowanie zasobów](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ W PSA nie można śledzić poprawek wprowadzanych do oferty. Zamiast tego koniec
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Śledzenie komentarzy i zatwierdzania ofert i kontraktów projektów
 Użytkownik może zarządzać przeglądaniem i zatwierdzaniem ofert i kontraktów projektów przy użyciu tablicy rekordów i wpisów. Organizacja może tworzyć niestandardowe przepływy pracy i dodatki plug-in, aby przypisywać, przekierowywać, eskalować i zarządzać powiadomieniami o elementach pracy przeglądanie i zatwierdzenie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

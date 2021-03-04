@@ -41,3 +41,6 @@ Wygenerowane wymaganie zasobu można przesłać jako żądanie zasobu. Żądanie
 Stan żądania o ogólnego członka zespołu zmieni się na **"Przesłano**.
 
 Gdy menedżer zasobów zrealizuje żądanie, ogólny zasób zostanie zastąpiony nazwanym zasobem, jeśli menedżer zasobów zrealizował żądanie poprzez zarezerwowanie nazwanego zasobu. W przeciwnym razie zasób ogólny pozostanie w zespole, a stan żądania zmieni się na **Wymaga przeglądu**, jeśli menedżer zasobów zaproponował nazwany zasób.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

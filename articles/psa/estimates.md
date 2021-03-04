@@ -106,3 +106,6 @@ Jeśli w szczegółach wiersza oferty dodano pole niestandardowe, a chcesz, aby 
 
 8. Powtórz kroki od 1 do 7 dla drugiego dodatku plug-in.
 9. Zamknij narzędzie PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

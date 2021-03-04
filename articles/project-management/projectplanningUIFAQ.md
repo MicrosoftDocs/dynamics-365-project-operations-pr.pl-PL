@@ -106,3 +106,6 @@ Po wprowadzeniu co najmniej jednej aktualizacji struktury podziału pracy zmiany
   - System Project Operations
   - System projektów
   - System podwójnego zapisu Project Operations (ta rola jest wymagana w przypadku wdrażania scenariusza dotyczącego zasobów/braku zapasów w ramach Project Operations).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

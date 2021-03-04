@@ -85,3 +85,6 @@ Po utworzeniu kilku zapisów czasowych użytkownicy mogą tworzyć wiele wpisów
 
 ## <a name="import"></a>Import
 Ten sam podstawowy proces jest przeznaczony do importowania z rezerwacji, przypisań i wymian. Można określić zakres dat dla rezerwacji, które mają zostać zaimportowane, a następnie po prostu wybrać rezerwacje, które mają zostać utworzone jako wpisy czasu w wersji roboczej. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

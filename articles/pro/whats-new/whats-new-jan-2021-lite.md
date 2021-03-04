@@ -41,3 +41,6 @@ Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 P
 | **Zarządzanie szansami sprzedaży** | 2040713 | Rozwiązano błąd skryptu wyświetlany podczas tworzenia faktury z kontraktu i zainstalowanej usługi Field Service. |
 | **Planowanie i śledzenie projektu** | 2090202 | Oznaczone reguły biznesowe, które nie są już używane jako **Przestarzałe**. |
 | **Czas i wydatek** | 2091249 | Kontrolki z przechowanem widać, że użytkownicy nie mogą zmieniać zadania w przesłanym lub zatwierdzonym wpisie czasu. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

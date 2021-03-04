@@ -44,3 +44,6 @@ W poniższej tabeli przedstawiono pola rekordu nabywcy w wierszu oferty opartej 
 Procent podziału rozliczeń można edytować w wierszu. Jeśli procent podziału rozliczenia nie sumuje się do 100%, wystąpi błąd. Po wyedytowaniu procentów podziału na fakturze odśwież stronę w wierszu oferty, aby usunąć błąd.
 
 Skorzystaj z siatki rozdzielenia równomiernego pomiędzy klientami wiersza oferty, aby przydzielić wszystkie procenty podziału rozliczeń pomiędzy wszystkich klientów wiersza. Jeśli istnieje współczynnik zaokrąglenia, zostanie dodany do klienta zaokrąglającego. Jeden z klientów wierszy oferty jest zawsze oznakowany jako klient zaokrąglający, co oznacza, że rekord klienta wiersza oferty ma ustawioną flagę zaokrąglania równą **Tak**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Istniejącą ofertę można połączyć z szansą sprzedaży. Wykonaj poniższe 
    Po przeniesieniu szansy sprzedaży do danego etapu można wybrać tę ofertę z listy ofert skojarzonych z daną szansą sprzedaży. Zaznaczenie tej oferty oznacza, że jest ona wybrana do dalszego przetwarzania.
 
    Wszystkie pozostałe oferty skojarzone z szansą sprzedaży będą nadal dostępne i aktywne do chwili wygrania jednej z nich. Użytkownik może przenieść proces sprzedaży z powrotem na poprzedni etap **Kwalifikowanie** i wybrać inną ofertę.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Aby odrzucić propozycję, kliknij pozycję **Odrzuć zasób**.
 ![Akceptowanie propozycji zasobu](media/RM-how-to-20.png) 
 
 Podobnie jak w bezpośrednim realizowaniu żądania zasobu ogólnego za pomocą nazwanego zasobu, zasób ogólny zostanie zastąpiony, a przypisane zadania zostaną zaktualizowane danymi nazwanego członka zespołu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

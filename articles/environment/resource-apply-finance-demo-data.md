@@ -79,3 +79,6 @@ Wykonanie tej czynności może potrwać do kilku minut. Powinien zostać wyświe
 18. Zamknij sesję pulpitu zdalnego i na stronie **Szczegóły środowiska** LCS zaloguj się w celu potwierdzenia, że wszystko działa zgodnie z oczekiwaniami.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

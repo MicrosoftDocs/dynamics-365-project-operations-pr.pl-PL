@@ -149,3 +149,6 @@ W poniższej tabeli przedstawiono rekordy w encji Połączenie transakcji dla po
 | Korekta faktury w wersji roboczej       | Identyfikator GUID transakcji wiersza faktury | Zastąpienie          | msdyn_invoicelinetransaction | Identyfikator GUID rozliczonej sprzedaży            | Oryginalna           | msdyn_actual       |
 | Potwierdzanie korekty faktury     | Identyfikator GUID wycofania rozliczonej sprzedaży    | Wycofywanie          | msdyn_actual                 | Identyfikator GUID rozliczonej sprzedaży            | Oryginalna           | msdyn_actual       |
 | Identyfikator GUID nowej wartości rzeczywistej nierozliczonej sprzedaży | Zastąpienie                     | msdyn_actual       | Identyfikator GUID rozliczonej sprzedaży            | Oryginalna                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

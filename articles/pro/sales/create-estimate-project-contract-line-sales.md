@@ -68,3 +68,6 @@ Obliczenia rentowności konwertują kwoty dla szczegółów pozycji kontraktu do
 
 > [!NOTE]
 > Błędy zaokrąglania walut i zmienione marginesy mogą nastąpić z powodu braku aktualnych kursów wymiany. Te obliczenia są stosowane w kontraktach dotyczących projektów wyłącznie jako przybliżenia, a nie w stosunku do rzeczywistych lub innych raportów, które wymagają wyższego dokładność zaokrąglania i świadomości daty effectivity dla kursów wymiany.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

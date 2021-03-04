@@ -72,3 +72,6 @@ Po wynegocjowaniu głównej umowy cenowej z klientami można również skonfigur
 ## <a name="custom-pricing-on-a-project-contract"></a>Niestandardowa kalkulacja cen w kontrakcie dotyczącym projektu
 
 Po utworzeniu organizacji i domyślnych cenników projektu dla konkretnego klienta kontrakty projektów zostaną utworzone automatycznie za pomocą tych skojarzeń z cennikami projektu. Jednak cenniki projektu zawarte w kontrakcie projektu są zawsze kopiowane z datą i nazwą kontraktu dodaną do nich. Menedżerowie kont i projektów mogą następnie rozpocząć edycję cen w tych kopiach. Te zmienione ceny będą dotyczyć wyłącznie tego kontraktu dotyczącego projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

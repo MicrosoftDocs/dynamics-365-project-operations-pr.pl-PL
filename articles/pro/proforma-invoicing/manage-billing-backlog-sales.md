@@ -60,3 +60,6 @@ Nie można oznaczyć stanu **Nieprzekraczalny** wynoszącego **Niepowodzenie** n
 Jeśli istnieje metoda fakturowania dla wielu klientów, podczas zatwierdzania typu czasu i wydatku dla każdego klienta w pozycji kontraktu jest tworzona jedna niefakturowana wartość sprzedaży w zależności od podziału procentowego rozliczenia określonego dla każdego z klientów. W widoku **Zaległości dotyczące rozliczeń czasu i materiału** będą widoczne poszczególne specyficzne dla konkretnego klienta informacje o niefakturowanych wartościach sprzedaży. Każdy z tych nierozliczonych rekordów rzeczywistych wartości sprzedaży może być oznaczony jako **Gotowy do fakturowania**, z poziomu tego widoku.
 
 W tym widoku jest wyświetlana niezafakturowana faktyczna sprzedaż, która znajduje się na roboczej fakturze wraz ze stanem fakturowania **Utworzono fakturę dla klienta**. Po potwierdzeniu wersji roboczej faktury stan fakturowania w tym rekordzie jest aktualizowany na **Faktura klienta zaksięgowana**. Nie należy aktualizować tej wartości stanu przy użyciu kodu niestandardowego. Project Operations nie funkcjonują poprawnie, gdy te wartości stanu są aktualizowane za pomocą kodu niestandardowego.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

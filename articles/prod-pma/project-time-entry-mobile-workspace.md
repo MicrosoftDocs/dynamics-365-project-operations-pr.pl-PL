@@ -113,3 +113,6 @@ Pobierz i zainstaluj aplikację mobilną Finance and Operations:
 11. Wybierz właściwość wiersza.
 12. Opcjonalnie: wprowadź wszelkie komentarze zewnętrzne i wewnętrzne.
 13. Wybierz **Gotowe**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

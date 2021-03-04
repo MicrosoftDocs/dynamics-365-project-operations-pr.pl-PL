@@ -67,3 +67,6 @@ Po utworzeniu cenników organizacji i domyślnych cenników projektu dla konkret
 
 1. Z poziomu **Oferty projektu** na karcie **Cennik projektu** sprawdź, czy w podsiatce nie został wybrany konkretny rekord cennika.
 2. Wybierz **Utwórz niestandardową kalkulację cen**. Spowoduje to utworzenie kopii wszystkich standardowych cenników skojarzonych z obecną ofertą i skojarzenie tych kopii z ofertą. Istniejące skojarzenia z cennikami standardowymi zostaną usunięte. Sprzedawca może następnie rozpocząć edycję cen w tych kopiach. Te zmienione ceny będą dotyczyć wyłącznie tej oferty projektu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

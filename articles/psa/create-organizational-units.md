@@ -52,3 +52,6 @@ Twoja firma prawdopodobnie organizuje działalność konsultingową w oparciu o 
   
 ### <a name="see-also"></a>Zobacz także  
  [Skonfiguruj Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

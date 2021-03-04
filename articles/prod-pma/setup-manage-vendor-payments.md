@@ -80,3 +80,6 @@ Gdy dostawca wykona swoją pracę nad projektem i prześle fakturę, należy prz
 2. Na stronie **Faktura dostawcy z opcją płać po otrzymaniu zapłaty** , w polu wyszukiwania wprowadź wartości, aby znaleźć fakturę zakupu, którą chcesz przejrzeć, a następnie wybierz pozycję **Wyszukaj**.
 3. Na skróconej karcie **Wiersze faktury dostawcy** zaznacz wiersze, które chcesz zmienić.
 4. Jeśli wartości **Zapłać po uiszczeniu zapłaty** są spełnione, wybierz **Zwolnij płatność dla dostawcy**. Opcja **Zapłać po otrzymaniu zapłaty** jest wyczyszczona, a wartość pola **Gotowe do zapłaty** jest zamieniana na **Tak**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Jeśli kontrakt projektu, który został zamknięty jako utracony, odwołuje si�
 
 > [!NOTE]
 > W przypadku Dynamics 365 Project Operations zamknięcie kontraktu dotyczącego projektu jako utraconego nie wpłynie na stan skojarzonej szansy sprzedaży. Szansa sprzedaży pozostanie otwarta i należy ją zamknąć ręcznie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

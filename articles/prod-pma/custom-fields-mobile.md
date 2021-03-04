@@ -429,3 +429,6 @@ Zapisanie domyślnej kategorii projektu we wpisach grafiku ma miejsce na trzech 
 1. Aplikacja próbuje umieścić kategorię domyślną z zasobu projektu. Ta kategoria domyślna jest ustawiana w metodach **getCurrentUserResource** i **getDelegatedResourcesForCurrentUser** w klasie **TSTimesheetSettingsService**.
 2. Jeśli kategoria domyślna nie jest podana na poziomie zasobu projektu, aplikacja próbuje ją ściągnąć z działania projektu. Ta kategoria domyślna jest ustawiana w metodzie **getActivitiesForProject** w klasie **TSTimesheetProjectService**.
 3. Jeśli domyślna kategoria nie jest podana na poziomie działania projektu, domyślna kategoria została pobrana z parametrów projektu. Ta kategoria domyślna jest ustawiana w metodzie **getProjectDetailsbyRule** w klasie **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Po rozwinięciu wiersza rekordu tego członka zespołu można wyraźnie zobaczy�
 Kiedy przechodzisz do siatki **Szacowań**, zauważysz, że oba przypisania dotyczące tego samego zasobu będą w różny sposób wycenione.
 Przypisanie zasobu w zadaniu A ma cenę ustaloną za pomocą wartości atrybutu **Rola** **Potencjalnego klienta konsultingowego**. Przypisanie tego samego zasobu w zadaniu B ma cenę ustaloną za pomocą wartości atrybutu **Rola** **Technika sieciowego**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

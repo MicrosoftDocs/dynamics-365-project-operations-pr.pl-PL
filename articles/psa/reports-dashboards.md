@@ -40,3 +40,6 @@ Pulpit nawigacyjny **Menedżer praktyk** to graficzne środowisko, w którym men
 ## <a name="resource-manager"></a>Menedżer zasobów 
 
 Pulpit nawigacyjny **Menedżer zasobów** to graficzne środowisko, w którym menedżerowie zasobów mogą monitorować żądania zasobów, zapotrzebowania na zasoby i wykorzystanie zasobów. Mogą także dzielić monitorowane informacje według różnych wymiarów.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

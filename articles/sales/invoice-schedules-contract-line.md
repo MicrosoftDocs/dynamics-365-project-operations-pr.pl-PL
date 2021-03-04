@@ -74,3 +74,6 @@ Można także tworzyć punkty kontrolne ze stałymi cenami ręcznie, kiedy nie s
 | Podatek | Szybkie tworzenie | Kwota podatku stosowana względem punktu kontrolnego. | Następuje skopiowanie punktów kontrolnych do pozycji kontraktu projektu i do faktury. |
 
 3. Wybierz pozycję **Zapisz i zamknij**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Rozwiązano następujące problemy:
 - **Zestawienie kosztów własnych jednostki organizacyjnej** zezwalają na nakładanie się dnia wejścia w życie.
 - Użytkownicy nie mogą zmieniać składnika **OrgUnit**, kiedy typ zamówienia nie jest związany z pracą, ponieważ jego wartość powoduje błąd wyjątku odwołania do wartości null.
 - Podczas próby przejścia do nawigacji z poziomu formularza **Szczegóły wiersza oferty,** powrót do karty **Oferta** powoduje odświeżenie formularza i wyświetlenie karty **Podsumowanie**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

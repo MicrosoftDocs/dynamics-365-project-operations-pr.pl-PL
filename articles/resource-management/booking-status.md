@@ -20,3 +20,6 @@ ms.locfileid: "4514567"
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
 Można użyć funkcji dostępnych w rozwiązaniu Universal Resource Scheduling dla aplikacji Dynamics 365 Field Service w celu skonfigurowania stanów rezerwacji dla organizacji. Aby uzyskać informacje na temat sposobu przeprowadzania tej konfiguracji, zobacz [Konfigurowanie stanów rezerwacji](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

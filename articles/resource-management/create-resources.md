@@ -20,3 +20,6 @@ ms.locfileid: "4514566"
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
 Można użyć aplikacji Dynamics 365 Field Service do tworzenia zasobów z możliwością rezerwowania do użycia w środowisku aplikacji Dynamics 365 Project Operations. Aby utworzyć te zasoby, zobacz [Konfigurowanie zasobów do zarezerwowania](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

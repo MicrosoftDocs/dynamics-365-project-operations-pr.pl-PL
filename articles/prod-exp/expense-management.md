@@ -58,3 +58,6 @@ Dodatkowa pomoc jest dostępna w przewodnikach po zadaniach. Aby uzyskać dostę
 ### <a name="videos"></a>Wideo
 
 Zapoznaj się z filmami wideo, które są teraz dostępne na [kanale YouTube Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -135,3 +135,6 @@ Jeśli po utworzeniu faktury istnieją wartości rzeczywiste, na fakturze można
 2. Otwórz roboczą fakturę proforma i na wstążce **Akcje** kliknij polecenie **Odśwież transakcje w wierszu faktury**.
 
   Spowoduje to utworzenie szczegółów wiersza faktury dla dowolnych wartości rzeczywistych i oznaczonych jako **Przygotowane do fakturowania**, ale nie są one uwzględnione na fakturze.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

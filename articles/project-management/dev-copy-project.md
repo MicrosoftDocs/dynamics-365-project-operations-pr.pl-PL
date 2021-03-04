@@ -112,3 +112,6 @@ W poniższym przykładzie pokazano, jak wywołać akcję niestandardową **CopyP
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

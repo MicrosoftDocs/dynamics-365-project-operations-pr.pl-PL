@@ -32,3 +32,6 @@ Twoja organizacja może wymagać przesłania zapotrzebowania na wyjazd, zanim pr
 Aby pomóc w zarządzaniu wydatkami organizacji, można skorzystać z kontroli budżetu. Jeśli na przykład organizacja pracuje nad projektem o stałej cenie, który wymaga podróży, koszty podróży członków zespołu projektu muszą mieścić się w budżecie projektu. Wymagając, aby koszty podróży były zatwierdzane przed ich poniesieniem, organizacja może pomóc w upewnieniu się, że projekt nie przekracza budżetu.
 
 Zasady dotyczące wniosków wyjazdowych można skonfigurować z poziomu strony **wniosek wyjazdowy**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

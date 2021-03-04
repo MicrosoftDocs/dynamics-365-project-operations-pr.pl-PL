@@ -35,3 +35,6 @@ Zasoby stanowią najważniejszy zasób organizacji usługowej. Możliwość znal
 
 
 W programie Project Operations projekt można obsadzić zespołem złożonym z zasobów ogólnych lub nazwanych. Istnieją różne metody dodawania i przypisywania członków zespołu oraz zarządzania ich rezerwacjami i przypisaniami. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

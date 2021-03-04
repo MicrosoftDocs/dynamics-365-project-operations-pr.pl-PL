@@ -44,3 +44,6 @@ Po przydzieleniu budżetu lub zmiany budżetu można przejrzeć kwoty alokacji i
 10. Gdy alokacja jest odpowiednia, kliknij przycisk Prześlij na stronie budżetu projektu, aby wysłać budżet lub poprawki budżetu do przepływu pracy zatwierdzania.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

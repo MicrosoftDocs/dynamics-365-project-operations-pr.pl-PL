@@ -84,3 +84,6 @@ Następujące zasoby internetowe zostały wycofane:
 > Aby zapoznać się z pełną listą wycofanych zasobów, zobacz [Wycofane zasoby internetowe w rozwiązaniu Project Service Automation w wersji 3.x](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

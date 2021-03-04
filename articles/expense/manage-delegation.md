@@ -39,3 +39,6 @@ Jeśli włączono funkcję-klucz **Włącz listę pełnomocników ds. wydatków*
 Pełnomocnik może szybko filtrować i przeszukiwać istniejące raporty o wydatkach, które zostały mu delegowane. Pełnomocnik może również szybko utworzyć nowy raport z wydatków dla innych użytkowników, wybierając opcję **Nowy raport o wydatkach**.
 
 Pełnomocnicy mogą tworzyć raporty dotyczące wydatków innych pracowników i zarządzać nimi, przechodząc do **Zarządzania wydatkami** > **Moje wydatki** > **Raporty wydatków** i wybierając **Otwórz wydatki dla innego użytkownika**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

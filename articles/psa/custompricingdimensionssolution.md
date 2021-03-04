@@ -68,3 +68,6 @@ Następujące encje usługi Project Service trzeba będzie dodać do rozwiązani
 > ![Opcja niedołączania pokrewnych składników](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

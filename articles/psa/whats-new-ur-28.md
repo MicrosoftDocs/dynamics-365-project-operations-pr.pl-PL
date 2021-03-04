@@ -55,3 +55,6 @@ Rozwiązano następujące problemy:
 - Wyjątek odwołania do null jest generowany, gdy jest wywoływany dodatek plug-in **GetEstimatesForProject**.
 - **Oznacz jako przygotowane do fakturowania** w siatce punktów kontrolnych tylko częściowo aktualizowane atrybuty, z wyjątkiem aktualizowanego atrybutu **InvoiceStatus**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

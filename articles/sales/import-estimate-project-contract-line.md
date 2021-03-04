@@ -59,3 +59,6 @@ Kiedy użytkownik wybierze opcję podsumowania według **klas transakcji**, **ka
 | Zadanie A | Opłata za przelot | 10.01.2020 | 100 | 400 | 1600 |
 | Zadanie B | Hotel | 10.01.2020 | 100 | 200 | 800 |
 | Zadanie C | Hotel | 11.01.2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

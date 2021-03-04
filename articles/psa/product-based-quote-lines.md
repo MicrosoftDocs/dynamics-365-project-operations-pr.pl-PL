@@ -82,3 +82,6 @@ Właściwości **Liczba użytkowników** i **Liczba miesięcy** można oflagowa�
 
 > ![Flagowanie atrybutów Liczba użytkowników i Liczba miesięcy jako współczynników ilościowych](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

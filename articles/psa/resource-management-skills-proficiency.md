@@ -48,3 +48,6 @@ Umiejętności zasobów są oceniane za pomocą modeli biegłości. Poszczególn
 > ![Zdefiniowane oceny minimalna i maksymalna](media/Resource-Management-image85.png)
 
 Te wartości ocen są wyświetlane w filtrach **Wymagania zasobów**, **Tablica harmonogramu** i **Asystent planowania**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

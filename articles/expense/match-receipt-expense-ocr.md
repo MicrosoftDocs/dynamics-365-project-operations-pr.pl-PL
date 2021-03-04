@@ -94,3 +94,6 @@ Obecnie obsługiwana lokalizacja to Stany Zjednoczone.
 W celu wyodrębnienia danych, Finance kontaktuje się z usługami Cognitive Services. Cognitive Services zachowają kopie otrzymanego paragonu przez maksymalnie 24 godziny, w czasie których trwać będzie przetwarzanie. Po zakończeniu przetwarzania usługi Cognitive Services usuną paragon. Paragony są przechowywane w usłudze Finance.
 
 Aby uzyskać więcej informacji, zobacz temat [Włączanie funkcji rozumienia paragonów korzystając z nowej funkcji dostępnej w Form Recognizer](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

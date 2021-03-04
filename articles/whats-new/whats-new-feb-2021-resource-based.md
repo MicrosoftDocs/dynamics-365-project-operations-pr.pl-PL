@@ -54,3 +54,6 @@ Aby uzyskać więcej informacji o zarządzaniu projektami i księgowością w Dy
 ## <a name="regulatory-updates"></a>Aktualizacje dotyczące regulacji
 
 Aby uzyskać więcej informacji na temat aktualizacji dotyczących aplikacji Finance and Operations, zobacz artykuł dotyczący [Aktualizacje dotyczące regulacji](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Innym sposobem uzyskania informacji o aktualizacjach regulacyjnych jest zalogowanie się do Lifecycle Services (LCS) i wyświetlenie planowanych aktualizacji prawnych za pomocą narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

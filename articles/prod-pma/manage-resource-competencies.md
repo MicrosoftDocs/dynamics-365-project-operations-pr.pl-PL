@@ -53,3 +53,6 @@ Aby skonfigurować kompetencje pracownika, można użyć strony listy **Pracowni
 5. W polu **Data poziomu** wybierz pozycję **1-/14/2014**.
 6. W polu **Lata doświadczenia** wprowadź liczbę **10**.
 7. Wybierz **Zapisz** , a następnie zamknij stronę.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

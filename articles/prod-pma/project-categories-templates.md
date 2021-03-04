@@ -124,3 +124,6 @@ Na poniższym rysunku pokazano przykład mapowania zadań szablonów w zakresie 
 > Mapowanie przedstawia informacje o polach, które zostaną zsynchronizowane z Project Service Automation do Finance.
 
 [![Mapowanie szablonu Project Service Automation z Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

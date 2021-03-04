@@ -42,3 +42,6 @@ Rozwiązano następujące problemy:
 
 - Zaplanuj obniżenie wydajności wyszukiwania pomocy
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

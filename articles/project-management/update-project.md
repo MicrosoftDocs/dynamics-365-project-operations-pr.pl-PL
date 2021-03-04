@@ -48,3 +48,6 @@ Poniżej zamieszczono podsumowanie pól, które mogą być aktualizowane po utwo
 - **Ogólny stan projektu**: ogólna kondycja projektu podana przez menedżera projektu.
 - **Komentarze**: Opis aktualnej kondycji projektu dostarczony przez menedżera projektu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

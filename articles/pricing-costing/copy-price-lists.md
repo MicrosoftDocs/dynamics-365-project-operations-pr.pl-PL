@@ -43,3 +43,6 @@ Aby utworzyć kopię cennika, należy wykonać następujące kroki.
 1. Na kartach **Cennik**, **Kategoria** i **Pozycja cennika** można wybrać opcję **Uaktualnij ceny**, aby zastosować adiustację dla wszystkich cen w podsiatce. 
 2. W otwartym oknie dialogowym, wprowadź narzut. Istnieje również możliwość wprowadzenia ujemnego narzutu procentowego w celu obniżenia cen o daną wartość procentową. 
 3. Na stronie dialogu wybierz przycisk **OK**, a następnie sprawdź, czy ceny w podsiatce odzwierciedlają wprowadzone zmiany.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

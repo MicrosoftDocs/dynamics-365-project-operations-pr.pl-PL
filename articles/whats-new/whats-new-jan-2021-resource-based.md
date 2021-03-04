@@ -89,3 +89,6 @@ Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 P
 ## <a name="regulatory-updates"></a>Aktualizacje dotyczące regulacji
 
 Aby uzyskać więcej informacji na temat aktualizacji dotyczących aplikacji Finance and Operations, zobacz artykuł dotyczący [Aktualizacje dotyczące regulacji](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Można również zalogować się w LCS i wyświetlić planowane aktualizacje ustawodawcze, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

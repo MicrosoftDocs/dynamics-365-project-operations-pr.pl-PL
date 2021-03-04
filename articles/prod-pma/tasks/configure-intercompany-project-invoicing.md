@@ -64,3 +64,6 @@ W tym temat pokazano, jak skonfigurować sposób fakturowania projektów między
 32. W polu **Ceny** wprowadź liczbę.
 33. Wybierz pozycję **Zapisz**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

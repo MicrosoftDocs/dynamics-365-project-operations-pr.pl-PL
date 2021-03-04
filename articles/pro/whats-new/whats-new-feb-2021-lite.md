@@ -38,3 +38,6 @@ Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 P
 | **Planowanie i śledzenie projektu** | 2164035 | Rozwiązano problemy z funkcją **Kopiowanie projektu**. |
 | **Wpis czasu** | 2129161 | Stosuje się bardziej ścisłe ograniczenia, aby zagwarantować, że użytkownicy nie mogą zmienić ani zaktualizować wpisu czasu przesłanego lub zatwierdzonego. |
 | **Wpis czasu** | 2103572 | Zatwierdzenie przez czas wpisów czasu, które nie dotyczącą projektu, nie może być szukane przez rolę osoby zatwierdzającej projekt. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

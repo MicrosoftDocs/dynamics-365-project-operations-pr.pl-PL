@@ -41,3 +41,6 @@ Metody i technologie raportowania w tej aplikacji mogą pomóc w określeniu kon
 
 > [!NOTE]
 > Ten temat zostanie usunięty w przyszłej aktualizacji dokumentacji. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

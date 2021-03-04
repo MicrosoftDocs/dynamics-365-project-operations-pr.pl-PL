@@ -57,3 +57,6 @@ Zaplanuj swój urlop lub zwolnienie w taki sam sposób, jak podczas wprowadzania
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik dotyczący czasu, wydatków i współpracy](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

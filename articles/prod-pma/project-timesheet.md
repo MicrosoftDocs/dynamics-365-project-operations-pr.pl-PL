@@ -96,3 +96,6 @@ Kliknij przycisk **Prześlij** , aby wysłać grafik do przepływu pracy zatwier
 ## <a name="review-timesheets"></a>Przeglądanie grafików
 
 Lista grafików, które należy przejrzeć, jest dostępna w menu. Ta opcja jest dostępna tylko wtedy, gdy została wyznaczona osoba zatwierdzająca przepływ pracy. Obsługiwane jest zarówno zatwierdzanie nagłówków, jak i wierszy. Zatwierdzanie na poziomie wiersza umożliwia oznaczenie jednego lub większej liczby wierszy do zatwierdzenia. Po przejrzeniu informacji z grafiku kliknij przycisk **Zatwierdź** , **Deleguj** lub **Wróć** , aby kontynuować przepływ pracy.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

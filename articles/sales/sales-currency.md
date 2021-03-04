@@ -71,3 +71,6 @@ Przed przystąpieniem do rozpoczęcia tej procedury należy sprawdzić, czy Twoj
 
 > [!IMPORTANT]
 >  Nie możesz usunąć walut używanych przez inne rekordy, możesz je jedynie dezaktywować. Dezaktywowanie rekordów walutowych nie powoduje usunięcia informacji o walutach przechowywanych w istniejących rekordach, takich jak szanse sprzedaży czy zamówienia. Jednakże nie będziesz mógł wybrać dezaktywowanej waluty dla nowych transakcji.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

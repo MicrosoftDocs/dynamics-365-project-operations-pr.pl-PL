@@ -71,3 +71,6 @@ W przykładzie pod spodem przedstawiono stawki rozliczania skonfigurowane na pod
 | ----------------|-------------|----------|----------:|----------|
 | Moja firma_pasmo1 | Contoso US  |Hour | 145|USD     |
 | Moja firma_pasmo2 | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

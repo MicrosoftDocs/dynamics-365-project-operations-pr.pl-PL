@@ -40,3 +40,6 @@ Kierownik projektu może zaplanować wymagane role zasobów dla projektu. Kierow
 7. Wybierz pracownika, a następnie opcję **Przypisz**.
 8. Sprawdź, czy wiersz dotyczący **Dewelopera oprogramowania 1** został usunięty z projektu **XYZ aktualizacja projektu faza 2**.
 9. Na karcie **Zespół projektowy i planowanie** , w odniesieniu do projektu **XYZ aktualizacja faza 2** , należy sprawdzić, czy pracownik wybrany w poprzednim kroku został dodany jako **Deweloper oprogramowania**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

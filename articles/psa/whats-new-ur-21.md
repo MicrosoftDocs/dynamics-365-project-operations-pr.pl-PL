@@ -77,3 +77,6 @@ Rozwiązano następujące problemy:
 - Logika **Rozpoznawania cennika sprzedaży** nieprawidłowo obsługuje strefy czasowe, co powoduje nieprawidłowe wybór cenników.
 - **Łączny koszt rzeczywisty** projektu może być wyłączony o kwotę ułamkową po zaakceptowaniu jednego wpisu czasowego.
 - Logika **Rozwiązywania cen** nie zawiera przyjaznych dla użytkownika komunikatów o błędach, jeśli **Pobieranie Ceny Ról** nie ma wartości w polach **„Jednostka podstawowa”** i **„Cena w jednostce podstawowej”**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

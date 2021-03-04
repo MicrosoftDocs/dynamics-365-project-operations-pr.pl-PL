@@ -59,3 +59,6 @@ Każdy projekt ma wielu członków zespołu projektu. Użytkownik może określi
 3. Wybierz pozycję **Zapisz**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

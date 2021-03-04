@@ -59,3 +59,6 @@ W tym temacie przedstawiono funkcje i poprawki, które są nowe lub zostały zmi
      - Naprawione: dodatkowe przyciski dla **Nowa szansa sprzedaży**, **Oferta**, **Wiersz zamówienia** i **Dodaj produkt** są widoczne dla poleceń dotyczących szans sprzedaży, ofert, produktów zamówionych i podsiatki wierszy opartych na projekcie.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

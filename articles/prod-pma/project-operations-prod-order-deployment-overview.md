@@ -43,3 +43,6 @@ Wybierz ten typ wdrożenia, aby używać Dynamics 365 Project Operations przez c
 - Wieloklasowy i dwukursowy aparat do generowania faktur dostępnych dla klienta w celu tworzenia projektów.
 - System księgowania projektów i rozpoznawania przychodów zgodny z Międzynarodowymi Standardami Sprawozdawczości Finansowej (Financial Reporting Standards - MSSF).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

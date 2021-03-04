@@ -65,3 +65,6 @@ Po utworzeniu warunków zatrzymania dla dostawcy, można stosować je do wszystk
 6. Jeśli w projekcie zdefiniowano również warunki płatności dla dostawcy po uiszczonej opłacie (PWP) dla danego dostawcy, wprowadź procent wartości progowej dla projektu w polu **Procent wartości progowej PWP**.
 
 Warunki zatrzymania dotyczącego dostawcy są również wyświetlane w zamówieniach zakupu tworzonych dla danego dostawcy.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

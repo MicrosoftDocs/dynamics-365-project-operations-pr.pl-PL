@@ -297,3 +297,6 @@ Wybierz użytkownika (na przykład Spencer Low) i zmień godzin pracy użytkowni
 
 > [!div class="mx-imgBorder"]
 > ![Zrzut ekranu przedstawiający aktywne zasoby, które można zarezerwować](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

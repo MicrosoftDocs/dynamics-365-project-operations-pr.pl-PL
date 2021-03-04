@@ -73,3 +73,6 @@ Dane wymiarów opartych na encjach można tworzyć ręcznie, poprzez import z pr
 > ![Przykładowe dane encji Standardowe stanowisko ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

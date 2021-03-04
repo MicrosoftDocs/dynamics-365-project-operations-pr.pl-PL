@@ -60,3 +60,6 @@ Z poziomu siatki członków zespołu można wykonać następujące czynności:
 
 - **Nowe**: oprócz dodawania zasobów bezpośrednio z poziomu harmonogramu menedżerowie projektów mogą dodawać nowych nazwanych lub ogólnych członków zespołu z siatki członków zespołu.
 - **Usuń**: wybranie jednego lub wielu członków zespołu powoduje, że menedżer projektu może usunąć zasoby, które już nie biorą udziału w projekcie. Usunięcie członka zespołu spowoduje również usunięcie wszystkich skojarzonych przypisań zasobów i anulowanie wszystkich istniejących rezerwacji.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

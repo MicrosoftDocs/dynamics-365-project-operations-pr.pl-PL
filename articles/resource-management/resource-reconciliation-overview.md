@@ -48,3 +48,6 @@ W sytuacjach, gdy istnieją przypisania zadań dla zasobu, ale nie ma rezerwacji
 Rezerwacje tworzone w ramach akcji **Rozszerzanie rezerwacji** są związane z podstawowymi wymaganiami projektu. Po zainicjowaniu rozszerzenia nie można określić konkretnego wymagania, które musi zostać rozszerzone, ponieważ zasób może być powiązany z więcej niż jednym wymaganiem projektu.
 
 Następnie menedżer projektu lub menedżer zasobów może za pomocą tablicy harmonogramu rozwiązać sytuację, w której zasób został zarezerwowany ponad jego dyspozycyjność.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

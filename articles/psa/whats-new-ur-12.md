@@ -61,3 +61,6 @@ W tym temacie przedstawiono funkcje i poprawki, które są nowe lub zostały zmi
     - Naprawione: w formularzu **głównym kontraktu** znaleziono zduplikowane identyfikatory obiektów.
     - Naprawione: logika została zaktualizowana tak, by karta **Analiza oferty** była wyświetlana w celu ukazania konfiguracji metadanych karty.
     - Naprawione: Data księgowania w aktualnym rekordzie zaczyna się od daty wprowadzenia godzin/wydatku, a nie daty zatwierdzenia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

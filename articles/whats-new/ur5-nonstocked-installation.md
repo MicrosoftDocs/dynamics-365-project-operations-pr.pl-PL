@@ -125,3 +125,6 @@ W ramach aktualizacji UR5 są wymagane następujące aktualizacje uprawnień zab
  
  ![Synchronizacja mapowania księgi](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -134,3 +134,6 @@ Przed przystąpieniem do konfigurowania danych z Common Data Service (CDS) musz�
 13. Wybierz pozycję **Zapisz**. 
 
 ![Zaktualizowane parametry projektu](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

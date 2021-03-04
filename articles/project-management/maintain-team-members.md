@@ -42,3 +42,6 @@ Po dokonaniu wyboru zasób zostanie dodany do zespołu projektu i przypisany do 
 Aby zarezerwować dyspozycyjność zasobu dla projektu, można użyć funkcji rozszerzania rezerwacji dostępnej na stronie **Uzgadnianie** albo okna **Tablica harmonogramu**.
 
 Gdy członek zespołu jest zarezerwowany dla Twojego projektu, do **zarządzania jego rezerwacjami** możesz używać funkcji **Obsługa rezerwacji** albo bezpośrednio tablicy harmonogramu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

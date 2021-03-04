@@ -91,3 +91,6 @@ Zadanie przetwarzania wsadowego umożliwiającego tworzenie faktur jest zadaniem
 
 > [!NOTE]
 > Fakturowanie wsadowe w Project Operations jest wykonywane tylko dla wierszy kontraktu projektu, które są konfigurowane przez harmonogramy faktur. Pozycja kontraktu z metodą fakturowania przy stałej cenie musi mieć skonfigurowany punkt kontrolny. Pozycja kontraktu projektu z metodą rozliczania czasu i materiału będzie wymagała konfiguracji harmonogramu fakturowania opartego na datach.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ W tym temacie przedstawiono funkcje i poprawki, które są nowe lub zostały zmi
      - Ustalone: Łączna cena sprzedaży nie jest obliczana, dopóki użytkownik nie wprowadzi kosztu własnego dla oszacowania kosztów projektu.
      - Naprawione: zamknięcie oferty jako **wykorzystanej** kończy się niepowodzeniem, jeśli skojarzony kontrakt dotyczący projektu nie znajduje się w stanie **roboczym**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

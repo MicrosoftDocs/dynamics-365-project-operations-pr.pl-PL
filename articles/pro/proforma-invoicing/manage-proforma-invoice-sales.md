@@ -144,3 +144,6 @@ Jeśli po utworzeniu faktury istnieją wartości rzeczywiste, na fakturze można
 W Project Operations można tworzyć wiersze faktur dla produktów, których nie stosuje się do żadnego projektu lub dla wszystkich projektów z wierszami faktur opartych na projektach. Te wiersze są tworzone jako wiersze kontraktu opartego na produktach i po ich oznaczeniu jako gotowy do zafakturowania są dodawane jako wiersze faktury opartej na produktach.
 
 Po dodaniu wierszy faktury produktów nie można ich zmienić. Można je jednak usunąć z wersji roboczej faktury.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

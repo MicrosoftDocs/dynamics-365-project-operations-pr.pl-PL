@@ -116,3 +116,6 @@ Wybierz **Zarezerwuj** dla zasobu ogólnego, a w następnym kroku będziesz móg
 Gdy zasób ogólny jest zrealizowany przez zasób nazwany, zasób ogólny jest usuwany z zespołu a przypisania zadań dla zasobu ogólnego są przypisywane do zasobu nazwanego, który zrealizował wymaganie zasobu dla zasobu ogólnego.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

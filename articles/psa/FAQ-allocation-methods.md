@@ -71,3 +71,6 @@ Podsumowując, poniższe metody alokacji prowadzą do nakładania się rezerwacj
 - Godziny — rozłóż równomiernie
 
 Korzystając z jednej z tych trzech metod alokacji nie zostaniesz powiadomiony, że zasób został nadmiarowo zarezerwowany. Aby rozwiązać problem nakładania się rezerwacji, należy użyć tablicy harmonogramu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

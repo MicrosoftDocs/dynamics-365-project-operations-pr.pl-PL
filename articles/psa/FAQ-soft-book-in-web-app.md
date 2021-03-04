@@ -87,3 +87,6 @@ Gdy jesteś gotowy, aby zmienić zasób członka zespołu zarezerwowany wstępni
 2. Po otwarciu tablicy harmonogramu, rozwiń zasób, aby wyświetlić dla niego rezerwacje. Zobaczysz rezerwację oznaczoną jako Wstępne.
 3. Kliknij prawym przyciskiem myszy rezerwację, w obszarze Zmień stan, wybierz Zarezerwuj ostatecznie, a następnie Ostateczne. Stan rezerwacji to teraz Ostateczne.
 4. Po zamknięciu tablicy harmonogramu, zobaczysz, że godziny dla zasobu zostały zmienione z Wstępne na Ostateczne w siatce członków zespołu. Możesz teraz przypisać zasób do zadań (pod warunkiem, że godziny zarezerwowane ostatecznie są zgodne z godzinami nakładu pracy zadania dla przypisania). Należy zauważyć, że jeśli przeprowadziłeś kroki realizacji zasobu ogólnego w punkcie #3 opisane powyżej, gdy zmieniasz stan rezerwacji zasobu z Zarezerwowane wstępnie na Zarezerwowane ostatecznie, członek zespołu jest usuwany z zespołu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

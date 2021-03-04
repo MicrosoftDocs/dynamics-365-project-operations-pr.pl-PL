@@ -35,3 +35,6 @@ Wszystkie utworzone faktury projektu są dostępne na stronie **Faktura** w sekc
 Fakturę proforma można również utworzyć na stronie szczegółów **Kontrakt projektu**. System weryfikuje, czy umowa w sprawie projektu zawiera zaległości typu **Gotowe do fakturowania** datowane przed dzisiejszą datą. Na bazie tychże kontraktów system tworzy faktury proforma w wersji roboczej na podstawie liczby klientów w każdej pozycji kontraktu.
 
 W przypadku utworzenia jednej faktury proforma zostanie otwarta strona **Faktura**. Jeśli dla tej umowy dotyczącej projektu zostanie utworzonych wiele faktur, zostanie otwarta strona z listą **Faktur**, na której będą widoczne wszystkie utworzone faktury.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

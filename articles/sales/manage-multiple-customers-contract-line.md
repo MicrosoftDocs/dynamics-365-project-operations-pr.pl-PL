@@ -44,3 +44,6 @@ Poniżej znajdują się pola rekordu klienta w wierszu kontraktu opartego na pro
 Podziały procentowe dotyczące rozliczeń można edytować w siatce. Jeśli procent podziału rozliczenia nie ma sumy 100 procent, wystąpi błąd. Po wyedytowaniu procentów podziału na fakturę odśwież stronę, aby usunąć błąd.
 
 Można również spróbować wybrać **Rozłóż równomiernie** w podsiatce klientów pozycji kontraktu. Ta akcja powoduje równomierne alokowanie podziału na rozliczenia dla wszystkich klientów z pozycji kontraktu. Jeśli istnieje współczynnik zaokrąglania, zostanie on dodany do zaokrąglenia do klienta. Klient z jedną pozycją kontraktu jest zawsze oznakowany jako klient **Zaokrąglający** flagę **Zaokrąglania** ustawioną na **Tak**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

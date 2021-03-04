@@ -98,3 +98,6 @@ Postępuj zgodnie z instrukcjami w temacie [Ustanowienie nowego środowiska](res
 
 Zainstaluj konfigurację CDS i dane konfiguracyjne, tak jak to opisano w temacie [Konfiguracja i stosowanie danych konfiguracyjnych w usłudze Common Data Service](resource-apply-pro-setup-config-data.md).
 Tę czynność należy wykonać tylko po wdrożeniu środowiska pokazowego Finance i przygotowaniu danych demonstracyjnych w FO.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Na przykład deweloper z działu robotyki firmy Fabrikam Indie pracujący w rama
     | Developer | Fabrikam US | Fabrikam US - Robotics | 150 USD |
 
 3. Dołącz cennik sprzedaży **Stawki rozliczania Fabrikam US** do cennika projektu lub kontraktu projektu bądź danego konta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

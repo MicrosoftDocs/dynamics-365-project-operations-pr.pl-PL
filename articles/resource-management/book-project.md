@@ -66,3 +66,6 @@ Jako menedżer projektu być może będziesz musiał zarezerwować zasób do pro
 
 > [!NOTE]
 > W tej metodzie nie są tworzone żadne rezerwacje danego zasobu. Zamiast tego, rezerwacja dodaje go po prostu do zespołu projektu. Po dodaniu członka zespołu do projektu menedżer projektu może użyć funkcji utrzymania rezerwacji lub przedłużenia rezerwacji, aby dodać wymagane rezerwacje do zasobu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

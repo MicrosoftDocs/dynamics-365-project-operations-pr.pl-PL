@@ -42,3 +42,6 @@ Możesz użyć pola wyszukiwania w oknie **Selektor zasobów**, aby wyszukać ws
 1. Z siatki zadań, tablicy lub osi czasu przejdź do komórki **Przypisane do**.
 2. W polu wyszukiwania rozpocznij wpisywanie nazwy. Wyniki wyszukiwania nazwy są wyświetlane w oknie **Selektor zasobów** w obszarze **Inne zasoby**.
 3. Wybierz zasób, który chcesz przypisać do zadania, lub wybierz nazwę zasobu w obszarze **Innych zasobów zespołu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

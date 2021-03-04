@@ -49,3 +49,6 @@ Moje karty czasu pracy (Optymalizacja dla urządzeń mobilnych) i kart czasu pra
 - [Wpis czasu projektu]( project-time-entry-mobile-workspace.md)
 - [Karty czasu pracy projektu na urządzeniu mobilnym](Mobile-timesheets.md)
 - [Zaimplementuj pola niestandardowe dla aplikacji mobilnej Microsoft Dynamics 365 Project Timesheet w systemie iOS i Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

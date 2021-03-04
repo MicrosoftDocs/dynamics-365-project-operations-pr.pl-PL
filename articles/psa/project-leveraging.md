@@ -54,3 +54,6 @@ Do definiowania oszacowań nakładu pracy i harmonogramów można używać pól 
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importowanie oszacowań z projektu do oferty
 
 Po zdefiniowaniu szacunków dla projektu można je zaimportować do wiersza oferty. Na stronie **Szczegóły wiersza oferty** na wstążce kliknij przycisk **Importuj z oszacowań**, aby podsumować szacunki projektu według typu zadania, roli lub poziomu zadania.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

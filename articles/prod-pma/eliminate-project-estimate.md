@@ -51,3 +51,6 @@ W celu wyeliminowania projektu szacowanego należy go zakończyć. Poniższe kro
 5. Po zakończeniu procesu eliminacji dla wyeliminowanego projektu szacowanego jest wyświetlany element o ujemnych wartościach. 
 
 Jeśli nie zachodzi potrzeba wyeliminowania oszacowania, można wybrać wyeliminowaną wartość szacunkową i wybrać pozycję **Cofnij eliminację**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

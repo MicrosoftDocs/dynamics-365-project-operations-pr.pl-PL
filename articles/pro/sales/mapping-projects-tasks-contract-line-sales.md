@@ -82,3 +82,6 @@ Jest to bardziej optymalne rozwiązanie w przypadku usuwania skojarzeń zadań z
 4. Na stronie dialogu, który zostanie otwarty, wybierz pozycja kontraktu z listy rozwijanej.
 5. Zaznacz pole wyboru, aby wskazać, czy skojarzenie powinno również zostać usunięte z wszelkich zadań podrzędnych wybranych zadań. Zaznaczenie tego pola spowoduje również odłączenie zadań podrzędnych wybranych zadań z linii kontraktu.
 6. Wybierz pozycję **OK**. Komunikat ostrzegawczy oznacza, że usunięcie tego skojarzenia może skutkować wycofaniem wartości rzeczywistych zanotowanych wcześniej dla zadania. Kliknij przycisk **OK** w oknie ostrzeżenia, aby usunąć skojarzenie między zadaniem a pozycją kontraktu opartego na projektach.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4119791"
 ---
 # <a name="resource-management-overview"></a>Omówienie zarządzanie zasobami
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ W przypadku zadań przydzielonych do roli w jednostce organizacyjnej innej niż 
  
 Zmiana domyślnych ustawień w różnych jednostkach organizacyjnych zasobów dla niewygenerowanych członków zespołu jest powodem, dla którego zalecamy wygenerowanie lub ponowne wygenerowanie zespołu dla każdego projektu, zawierającego zasoby ogólne przed uaktualnieniem, aby nie utracić przypisań jednostki organizacyjnej.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

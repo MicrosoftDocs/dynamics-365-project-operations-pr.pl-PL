@@ -102,3 +102,6 @@ Poniżej znajduje się zwięzły przegląd typowych formantów dostępnych na r�
 **Dodaj kolumnę**: umożliwia użytkownikowi zdefiniowanie widocznych kolumn w siatce. Do siatek w formularzu **planowania projektu** można dodać tylko niektóre z gotowych kolumn.
 
 ![Przycisk dodawania kolumny](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

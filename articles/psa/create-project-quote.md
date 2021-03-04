@@ -55,3 +55,6 @@ Tworzenie oferty jest podobne do tworzenia szansy sprzedaży. Szansa sprzedaży 
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera kont](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

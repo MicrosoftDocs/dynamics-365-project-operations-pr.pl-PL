@@ -44,3 +44,6 @@ W tym temacie przedstawiono funkcje i poprawki, które są nowe lub zostały zmi
 - Naprawione: 24-godzinne szablony godzin pracy — dokładny czas dodawania kolejnego dnia do zadań.
 - naprawione: Rozwiązane problemu, kiedy szablony godzin pracy +13 GMT niedokładnie zmieniają zadania na następny dzień.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

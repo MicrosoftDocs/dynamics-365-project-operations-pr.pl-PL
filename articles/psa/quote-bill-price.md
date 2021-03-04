@@ -44,3 +44,6 @@ Poniższe tematy zawierają więcej informacji o funkcjach sporządzania ofert, 
 - [Grupy jednostek i jednostki](advanced-units.md)
 - [Obsługa wielu walut](advanced-currency.md)
 - [Rejestrowanie wartości rzeczywistych](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

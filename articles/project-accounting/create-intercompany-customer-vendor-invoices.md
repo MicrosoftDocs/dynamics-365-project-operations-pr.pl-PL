@@ -61,3 +61,6 @@ W tym samym czasie można utworzyć wiele faktur międzyfirmowych dla wszystkich
 ## <a name="post-the-intercompany-vendor-invoice"></a>Księgowanie międzyfirmowej faktury od dostawcy
 
 Osoba zajmująca się księgowaniem projektu w firmie pożyczającej może przeglądać międzyfirmowe, oczekujące faktur dla dostawców podczas księgowania międzyfirmowej faktury dla klienta. W aplikacji Finance w firmie pożyczającej przejdź do pozycji **Rozrachunki z dostawcami** > **Faktury** > **Oczekująca faktura od dostawcy**. Numer faktury oczekującej będzie taki sam jak numer międzyfirmowej faktury dla klienta. Upewnij się, że faktura jest poprawna, a następnie zaksięguj fakturę. Zaksięgowanie międzyfirmowej faktury od dostawcy powoduje utworzenie księgi podrzędnej projektu i transakcji księgi głównej, która odzwierciedla koszty transakcji w firmie pożyczającej.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

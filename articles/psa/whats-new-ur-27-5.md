@@ -42,3 +42,6 @@ W tym temacie przedstawiono funkcje i poprawki, które są nowe lub zostały zmi
 Rozwiązano następujące problemy:
 
 - Zaplanuj obniżenie wydajności wyszukiwania pomocy
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

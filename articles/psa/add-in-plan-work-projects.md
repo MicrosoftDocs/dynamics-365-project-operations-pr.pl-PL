@@ -242,3 +242,6 @@ W poniższej tabeli przedstawiono sposób synchronizacji danych encji Zależnoś
 
 ### <a name="additional-resources"></a>Dodatkowe zasoby
  [Przewodnik menedżera projektu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

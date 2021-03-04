@@ -26,3 +26,6 @@ W przeciwieństwie do rezerwacji, przydziały to przydział zasobów do zadań p
 Zazwyczaj suma księgowań zasobu jest równa sumie przydziałów zasobu w jednym lub wielu zadaniach. Jednak Project Operations nie wymusza takiej zgodności. Widok **Uzgadnianie** pokazuje menedżerowi projektu miejsca, w których rezerwacje i przypisania zasobów są niezgodne.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

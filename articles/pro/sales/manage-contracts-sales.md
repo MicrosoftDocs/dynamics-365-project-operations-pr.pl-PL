@@ -33,3 +33,6 @@ Listę wszystkich kontraktów projektów można zobaczyć na stronie listy **Kon
 2. Wybierz **Przełącznik widoku** (strzałkę w dół obok nazwy widoku), aby wybrać inne widoki filtrowane. Użytkownik może tworzyć własne widoki z kryteriami filtrowania niestandardowego.
 
 Kontrakty można tworzyć i usuwać na tej stronie listy lub na stronach szczegółów.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Po utworzeniu szablonu godzin pracy, należy przypisać go do zasobów, aby ich 
   
 ### <a name="see-also"></a>Zobacz także  
  [Konfigurowanie zasobów](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

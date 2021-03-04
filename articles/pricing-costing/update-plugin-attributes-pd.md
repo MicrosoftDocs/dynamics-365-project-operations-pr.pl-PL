@@ -52,3 +52,6 @@ Wykonaj poniższe kroki, aby zaktualizować i ponownie zarejestrować dodatki pl
 7. Wybierz przycisk **OK**, aby zamknąć stronę, a następnie wybierz pozycję **Aktualizuj krok**.
 8. Powtórz kroki 2–7 dla drugiego dodatku plug-in, **PreOperationQuoteLineDetail**. Dla tego dodatku plug-in musisz zaktualizować krok **Aktualizuj obiekt msdyn_quotelinetransaction**.
 9. Zamknij narzędzie **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

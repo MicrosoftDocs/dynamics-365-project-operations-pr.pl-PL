@@ -32,3 +32,6 @@ W programie Dynamics 365 Project Service Automation w wersji 3.0 widoki czasu i 
 Poprzednio widoki kalendarza i siatki dla czasu i wydatków były implementowane jako kontrolki DHTMLX. Artefakty związane z taką implementacją widoków kalendarza i siatki zostały wycofane (są nieaktualne).
 
 Aby zapoznać się z pełną listą wycofanych zasobów, zobacz [Wycofane zasoby internetowe w rozwiązaniu Project Service Automation w wersji 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -20,3 +20,6 @@ ms.locfileid: "4514568"
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
 Funkcje dostępne w aplikacji Dynamics 365 Field Service służą do definiowania ról w środowisku aplikacji Dynamics 365 Project Operations. Aby przeprowadzić tę konfigurację, zobacz [Konfigurowanie kategorii zasobów możliwych do zarezerwowania](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

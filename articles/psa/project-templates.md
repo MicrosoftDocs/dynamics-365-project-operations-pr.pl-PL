@@ -69,3 +69,6 @@ Podczas kopiowania między wierszami szacowania projektu są aktualizowane cenni
 ### <a name="copying-a-project-team"></a>Kopiowanie zespołu projektu
 
 Podczas kopiowania zespołu projektu z szablonu projektu do projektu kopiowane są zasoby ogólne wraz z umiejętnościami i poziomami biegłości zdefiniowanymi w szablonie. Przypisania zasobów ogólnych są także obsługiwane jak w szablonie projektu. Nazwane zasoby nie są obsługiwane w szablonach projektów.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Kontrakty projektów są tworzone i utrzymywane w (CDS). Atrybuty obsługi kont 
 4. Ustaw wartości domyślne wymiaru finansowego. Należy zwrócić uwagę, że wymiar finansowy jest typem domyślnym na podstawie konta klienta. Jeśli projekt jest skojarzony z pozycją kontraktu, która ma wielu klientów kontraktów projektów, jest używany podstawowy klient z domyślnymi wymiarami finansowymi.
 
 Domyślne wymiary finansowe projektu służą do ustawiania wartości domyślnych wierszy arkusza dla transakcji dotyczących czasu, wydatków i opłat w **Arkusz integracji aplikacji Project Operations** oraz w powiązanych wierszach faktur projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

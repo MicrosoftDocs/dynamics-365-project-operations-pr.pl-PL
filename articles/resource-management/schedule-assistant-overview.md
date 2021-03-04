@@ -57,3 +57,6 @@ W okienku filtru są wyświetlane opcje związane z pracą, w tym:
 -   Firma zasobów
 -   Typy zasobów
 -   Preferowane zasoby
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

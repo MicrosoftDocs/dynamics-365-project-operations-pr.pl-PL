@@ -33,3 +33,6 @@ Na przykład:
 Firma Fabrikam Robotics instaluje robotyczne ramiona na liniach montażowych w fabryce należącej do Datum Corporation. Firma Fabrikam oferuje usługi instalacyjne, ale ramiona są wytwarzane przez inną firmę — Trey robotics. Jeśli instalacja ramion w Datum Corporation otworzy nową branżę przemysłu dla robotycznych ramion firmy Trey, ta druga firma może chcieć odwdzięczyć się Fabrikam za pomocą zniżki.
 
 W takiej sytuacji Fabrikam będzie tworzył wiersz oferty opartej na produkcie dla ramion robotycznych i skorzystać ze specjalnego kosztu jednostkowego dla takiej oferty. Koszty różnią się od kosztów normatywnych ramion robotycznych Trey.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

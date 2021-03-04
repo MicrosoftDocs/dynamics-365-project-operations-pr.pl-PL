@@ -79,3 +79,6 @@ Aby utworzyć szablon kosztów, wykonaj następujące kroki:
 7. Na karcie **Kategorie** wybierz kategorie projektów, które mają być uwzględnione w wierszu szablonu kosztów.
 8. Na karcie **Ogólne** wybierz opcję, aby wskazać, czy wiersz będzie uwzględniany w obliczeniach procentu wykonania.
 9. Wybierz metodę kosztów wykonania, która ma być używana przy obliczaniu procentu wykonania.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

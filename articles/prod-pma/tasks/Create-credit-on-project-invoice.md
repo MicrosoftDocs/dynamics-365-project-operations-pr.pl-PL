@@ -39,3 +39,6 @@ ms.locfileid: "4081989"
 10. Kliknij przycisk OK. 
 
 Po wykonaniu tej czynności faktura korygująca będzie dostępna dla Propozycji fakturowania.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

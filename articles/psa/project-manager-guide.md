@@ -95,3 +95,6 @@ Ten przewodnik zawiera informacje potrzebne do tworzenia i zarządzania projekta
  [Przewodnik menedżera zasobów](../psa/resource-manager-guide.md)   
  [Przewodnik dotyczący czasu, wydatków i współpracy](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

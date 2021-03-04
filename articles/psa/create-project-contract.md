@@ -47,3 +47,6 @@ Teraz, gdy wygrałeś ofertę dla projektu, nadszedł czas utworzyć umowę z kl
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera kont](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

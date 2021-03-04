@@ -43,3 +43,6 @@ Jeśli oferta projektu, która zostanie zamknięta jako utracona zawiera projekt
 
 > [!NOTE]
 > W Project Operations zamknięcie oferty jako wykorzystanej lub utraconej nie wpłynie na stan szansy sprzedaży, który pozostanie otwarty do momentu jego ręcznego zamknięcia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

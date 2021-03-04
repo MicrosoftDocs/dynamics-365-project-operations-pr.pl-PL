@@ -128,3 +128,6 @@ W przypadku wiersza oferty o stałej cenie można użyć siatki **harmonogramu f
 - Aby utworzyć zestawienia faktur, które są równo podzielone, wybierz częstotliwość faktur, wprowadź datę rozpoczęcia fakturowania w wierszu oferty i wybierz **żądaną datę wykonania** dla oferty w sekcji **podsumowania** nagłówka oferty. Następnie należy wybrać opcję **generowania okresowych punktów kontrolnych** w celu utworzenia równo podziału punktów kontrolnych na podstawie wybranej częstotliwości faktur. 
 - Aby utworzyć ryczałtowy punkt kontrolny, utwórz punkt kontrolny, a następnie wprowadź wartość w wierszu oferty jako wartość pola punkt kontrolny.
 - W celu utworzenia punktów kontrolnych na podstawie określonych zadań w planie projektu utwórz punkt kontrolny i zamapuj go na element harmonogramu projektu w interfejsie użytkownika punktów kontrolnych fakturowania.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

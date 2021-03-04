@@ -53,3 +53,6 @@ W programie PSA projekt można obsadzić zespołem złożonym z zasobów ogólny
 - [Rezerwowanie nazwanych zasobów z poziomu wymagań zasobów](book-named-resource.md)
 - [Przesyłanie żądania zasobu](submit-resource-request.md)
 - [Akceptowanie lub odrzucanie proponowanego zasobu projektu z poziomu żądania zasobu](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

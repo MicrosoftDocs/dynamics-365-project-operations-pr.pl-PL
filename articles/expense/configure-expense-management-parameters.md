@@ -83,3 +83,6 @@ W tym temacie opisano parametry, które kontrolują ogólny sposób zarządzania
 | Wyświetlanie zaświadczeń przeciwdziałających korupcji   | Wybierz tę opcję, aby podczas tworzenia raportu z wydatkami był wyświetlany tekst antykorupcyjny. Następnie można włączyć określoną kategorię wydatków, która wymagać będą złożenia w raporcie oświadczeń antykorupcyjnych. Na przykład kategoria upominkowa powiązana z oficjalnymi wydatkami dla urzędnika administracji rządowej może wymagać, aby pracownik zatwierdził, że wydatek przestrzega zasad firmy dotyczących urzędników administracji rządowej. |
 | Komunikat antykorupcyjny dla osoby przesyłającej | Wprowadź tekst, który ma być wyświetlany pracownikowi tworzącemu raport o wydatkach. Aby wprowadzić odpowiedni dla języka tekst, który będzie widoczny na podstawie języka użytkownika, wybierz pozycję **Tłumaczenia**. |
 | Komunikat antykorupcyjny dla osoby zatwierdzającej  | Wprowadź tekst, który ma być wyświetlany pracownikowi zatwierdzającemu raport o wydatkach podczas tworzenia raportu. Aby wprowadzić odpowiedni dla języka tekst, który będzie widoczny na podstawie języka użytkownika, wybierz pozycję **Tłumaczenia**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

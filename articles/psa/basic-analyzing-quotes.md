@@ -60,3 +60,6 @@ Można analizować oferty oraz generować wykresy oczekiwań klientów w odniesi
 Analiza oczekiwań klienta w kwestii harmonogramu polega na porównaniu najpóźniejszej daty zakończenia w szczegółach wiersza oferty z żądaną datą dostawy we wszystkich wierszach oferty.
 
 Analiza oczekiwań klientów w kwestii budżetu polega na porównaniu sumy całkowitego budżetu klienta z kwotą oferty we wszystkich wierszach oferty.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

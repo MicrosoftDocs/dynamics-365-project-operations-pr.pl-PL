@@ -200,3 +200,6 @@ Po wyświetleniu wyższych poziomów czasu na karcie **Uzgadnianie** widać wska
 W sytuacjach, gdy istnieją przypisania zadań dla zasobu, ale nie ma rezerwacji, w formularzu **Projekty** na karcie **Uzgadnianie** można wybrać niedobór rezerwacji, a następnie kliknąć przycisk **Rozszerz rezerwację**. Zostanie wyświetlone okno dialogowe **Rozszerz rezerwację**, w którym przedstawiono rezerwację potrzebną do wyeliminowania problemu niedoboru zasobu. To okno dialogowe pokazuje również istniejące rezerwacje zasobu we wszystkich projektach lub innych encjach zaplanowania. W przypadku wybrania opcji **OK**, aby utworzyć rezerwację zasobu niezależnie od dostępności tego zasobu, może wystąpić rezerwacja ponad dyspozycyjność.
 
 Następnie menedżer projektu lub menedżer zasobów może za pomocą tablicy harmonogramu rozwiązać sytuację, w której zasób został zarezerwowany ponad jego dyspozycyjność.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

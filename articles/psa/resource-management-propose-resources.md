@@ -113,3 +113,6 @@ Program Dynamics 365 Project Service Automation korzysta z aparatu Universal Res
 Aby wyświetlić więcej informacji na temat konkretnego zasobu, kliknij go prawym przyciskiem myszy, a zostanie otwarta karta zasobu.
 
 ![Karta zasobu](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ W poniższej tabeli przedstawiono najważniejsze pojęcia używane w aplikacji D
 | Rozkład                    | Godziny zadania, wymagania lub przydziału w rozbiciu na dzienną dystrybucję. Na przykład zadanie przewidziane na pięć dni i 40 godzin można rozłożyć na 8 godzin dziennie przez pięć dni. |
 | Widok Uzgadnianie        | Widok, w którym są pokazywane rezerwacje i przypisania dla każdego członka zespołu projektu. W tym widoku menedżer projektu może wyszukiwać wszelkie niezgodności między rezerwacjami i przypisaniami, a w razie stwierdzenia niezgodności podejmować działania naprawcze. |
 | Godziny pracy                 | Encja służąca do identyfikowania dyspozycyjności zasobu oraz godzin pracy i wolnych. Ta encja jest również nazywana kalendarzem zasobu. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Listy kosztów własnych nie są domyślnymi obiektami w Project Operations. Ust
 5. Następnie program analizuje datę obowiązywania cenników odpowiadającą dacie nachodzącego oszacowania lub rzeczywistego wiersza. 
 6. Jeśli istnieje wiele cenników, które obowiązują dla daty oszacowania przychodzącego lub wartości rzeczywistej, wybierany jest cennik utworzony jako ostatni.
 7. Jeśli nie dołączono żadnych list kosztów własnych do parametrów projektu, które pasowałyby do waluty i daty obowiązywania, system domyślnie ustawia stawkę kosztu na zero (0) dla wiersza rzeczywistego lub przychodzącego oszacowania.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

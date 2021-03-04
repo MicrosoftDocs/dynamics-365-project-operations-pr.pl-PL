@@ -167,3 +167,6 @@ Jeśli firma ma jeden oddział z jednym cennikiem, nie trzeba konfigurować żad
 W przypadku tworzenia projektu jego domyślna jednostka jest określana na podstawie użytkownika, który ją utworzył. Taki użytkownik jest również domyślnym menedżerem projektu. Jeśli projekt jest zamapowany na encję sprzedaży, taki jak oferta lub kontrakt dotyczący projektu, jednostka zamawiająca w projekcie jest oparta na encji sprzedaży. W takim przypadku oszacowania projektów mogą być obliczane ponownie, ponieważ lista kosztów kosztu jest używana do obliczania oszacowania kosztów w przypadku zmiany jednostki zamawiającej. Cennik jest używany do obliczania oszacowań sprzedaży, które zostaną zmienione w taki sposób, aby były zsynchronizowane z cennikiem projektu na ofercie.
 
 Pola **Jednostka kontraktująca** i **Waluta** w projekcie są zablokowane do edycji, ponieważ muszą być zsynchronizowane z wartościami w kontrakcie dotyczącym sprzedaży (oferta lub kontrakt projektu), na które ma zostać zamapowany projekt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Wprowadzaj swoje godziny co najmniej raz w tygodniu — lub z częstotliwością
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik dotyczący czasu, wydatków i współpracy](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

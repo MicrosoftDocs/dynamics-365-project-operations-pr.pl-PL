@@ -65,3 +65,6 @@ Proces sprzedaży szans sprzedaży w Project Operations jest rozszerzeniem przep
 > Jeśli transakcja oparta na projekcie została wyzwolona przez szansę sprzedaży, pierwszeństwo w procesie biznesowym ma proces „Szansy sprzedaży”.
 
 Użytkownik może edytować przepływ procesów biznesowych produktu lub tworzyć własne przepływy procesów biznesowych umożliwiające śledzenie procesu sprzedaży w zależności od potrzeb. Aby uzyskać więcej informacji na temat przepływu procesów biznesowych, zobacz [Omówienie przepływu procesów biznesowych](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Klienta kontraktowego można utworzyć, zaktualizować lub usunąć na karcie **
 Procent podziału rozliczeń można edytować w obrębie siatki. Jeśli suma procentów podziału rozliczeń jest inna niż 100 procent, występuje błąd. Po zmodyfikowaniu procentu podziału rozliczeń odśwież stronę **Kontrakt projektu**, aby usunąć błąd.
 
 Można również wybrać opcję **Rozłóż równomiernie** w podsiatce klientów kontraktu projektu. Podziały rozliczeń są równomiernie alokowane do wszystkich klientów kontraktu projektu. Jeśli istnieje współczynnik zaokrąglania, zostanie on dodany do klienta zaokrąglającego. Jeden z klientów kontraktu ma zawsze flagę **Zaokrąglanie** ustawioną na **Tak**. Jest to klient zaokrąglający. Zazwyczaj klient zaokrąglający jest również podstawowym klientem kontraktu, ale nie jest to wymagane.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

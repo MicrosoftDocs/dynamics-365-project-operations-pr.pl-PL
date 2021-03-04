@@ -77,3 +77,6 @@ Utworzony czas szacowany lub rzeczywisty będzie uważany za odpłatny, jeśli *
 | No | Tak | Cały projekt | Nie można ustawić | Nieodpłatne | Nie można ustawić | Fakturowanie wartości rzeczywistej czas: Niedostępne </br>Typ fakturowania wartości rzeczywistej wydatku: Nieodpłatny |
 | Tak | No | Cały projekt | Odpłatne | Nie można ustawić | Nie można ustawić | Fakturowanie wartości rzeczywistej czas: Odpłatny</br>Typ fakturowania wartości rzeczywistej wydatku: Niedostępne |
 | Tak | No | Cały projekt | Nieodpłatne | Nie można ustawić | Nie można ustawić | Fakturowanie wartości rzeczywistej czas: Nieodpłatny </br>Typ fakturowania wartości rzeczywistej wydatku: Niedostępne |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

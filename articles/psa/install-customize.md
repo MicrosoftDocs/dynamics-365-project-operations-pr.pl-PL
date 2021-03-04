@@ -55,3 +55,6 @@ Możliwości [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-a
  [Przewodnik menedżera projektów](../psa/project-manager-guide.md)   
  [Przewodnik menedżera zasobów](../psa/resource-manager-guide.md)   
  [Przewodnik dotyczący czasu, wydatków i współpracy](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

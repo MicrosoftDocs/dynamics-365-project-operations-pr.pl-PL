@@ -26,3 +26,6 @@ Narzędzia do zarządzania projektami dostępne w programie Dynamics 365 Project
 - Używanie szacunków projektów w trakcie procesu sprzedaży.
 - Prognozowanie wymagań zasobów dla projektów w potoku.
 - Pomyślne dostarczanie projektów dzięki śledzeniu postępu i wykorzystania kosztów.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

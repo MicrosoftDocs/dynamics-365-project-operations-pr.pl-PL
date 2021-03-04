@@ -344,3 +344,6 @@ W sytuacjach, gdy istnieją przypisania zadań dla zasobu, ale nie ma rezerwacji
 ![Okno dialogowe Rozszerz rezerwację](media/Resource-Management-image58.png)
 
 Następnie menedżer projektu lub menedżer zasobów może za pomocą tablicy harmonogramu rozwiązać sytuację, w której zasób został zarezerwowany ponad jego dyspozycyjność.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

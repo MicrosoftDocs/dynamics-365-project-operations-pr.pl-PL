@@ -35,3 +35,6 @@ Etapy projektu mogą służyć jako przewodnik po cyklu życia projektu. Możesz
 4. Na liście wybierz wstępnie zdefiniowany lub zdefiniowany przez użytkownika etap, który chcesz zmodyfikować. 
 5. W polu Etap projektu wprowadź nową nazwę.
 6. Kliknij opcję Zapisz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

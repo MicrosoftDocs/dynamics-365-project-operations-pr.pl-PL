@@ -55,3 +55,6 @@ Poniższe tematy zawierają informacje o zadaniach, które należy wykonać podc
 - [Wydajność planowania zasobów projektu](project-scheduling-performance.md)
 - [Konfigurowanie ról w szablonach struktury podziału pracy](set-up-roles-wbs-template.md)
 - [Realizacja zasobów dla planowanych zasobów](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Zasoby przypisane w ten sposób zostaną dodane do zespołu bez żadnych rezerwa
 
 3. Zaznacz zasób, który chcesz przypisać do zadania.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

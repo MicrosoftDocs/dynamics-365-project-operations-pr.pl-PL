@@ -125,3 +125,6 @@ Stała cena — wypełnienie procentowe
 Reguły profilu koszt projektu i przychodu określają profil kosztu i przychodu projektu, który musi zostać użyty podczas przetwarzania transakcji projektu do zafakturowania. Zdefiniuj reguły, korzystając z opcji **Zarządzania projektami i ich księgowania** \> **Konfiguracja** \> **Księgowanie** \> **Reguły profilu kosztu projektu i przychodu**.
 
 Reguły mogą być definiowane przez kontrakt dotyczący projektu, grupę projektów lub według określonego projektu. System będzie zawsze wybierał najbardziej dokładną regułę.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

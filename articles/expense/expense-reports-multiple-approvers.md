@@ -41,3 +41,6 @@ Jeśli zachodzi konieczność pracy przez wiele osób zatwierdzających raporty 
 
     1. Kierownik pracownika zatwierdza raport o wydatkach.
     2. Właściciel budżetu zatwierdza raport o wydatkach.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

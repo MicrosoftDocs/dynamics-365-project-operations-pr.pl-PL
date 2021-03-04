@@ -62,3 +62,6 @@ Poniższa procedura wyjaśnia, jak utworzyć zespół projektowy.
 ## <a name="monitor-project-teams"></a>Monitoruj zespoły projektów
 1. Na stronie **Wszystkie projekty** wybierz łącze **Identyfikator projektu** dla projektu **XYZ uaktualnianie faza 2**.
 2. Na skróconej karcie **Zespół projektowy i planowanie** sprawdź, czy wymienione zasoby projektu są poprawne.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

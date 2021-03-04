@@ -36,3 +36,6 @@ Istnieją dwa sposoby ponownego prognozowania nakładu pracy na zadania:
 - Zastąpienie domyślnej wartości procentowej postępu nową wartością rzeczywistego postępu.
 
 Każda z tych metod powoduje ponowne obliczenie wartości ETC zadania, szacowania przy zakończeniu (EAC) i wartości procentowej postępu oraz przewidywane odchylenie nakładu pracy nad zadaniem. Wartości EAC, ETC i procent postępu w zadaniach sumarycznych są obliczane ponownie i dają nową projekcję odchylenia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

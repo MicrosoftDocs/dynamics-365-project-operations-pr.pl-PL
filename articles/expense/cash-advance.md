@@ -63,3 +63,6 @@ Po utworzeniu i przesłaniu raportu z wydatków dla zaliczki gotówkowej, któr�
 ### <a name="example"></a>Przykład
 Planujesz podróż z Seattle do Nowego Jorku na konferencję. Tworzysz żądanie zaliczki na kwotę 3000,00 USD na podstawie szacunkowego kosztu biletu konferencyjnego, przelotów, hotelu, posiłków i taksówki. Nie otrzymasz zapłaty, dopóki Twój menedżer nie zatwierdzi tej prośby. Po otrzymaniu zatwierdzenia zaliczka w wysokości 3000 USD trafia na Twój rachunek. Bierzesz udział w konferencji. Po zakończeniu podróży okazuje się, że łączna liczba wydatków wyniosła 2790.00 USD. Wybierz opcję **Gotówka** w polu **Metoda płatności** i prześlij koszt o wartości 2790,00 USD. Przesłana kwota wydatków jest automatycznie porównywana z kwotą zaliczki gotówkowej (3000 USD), która została Ci wcześniej udzielona. Teraz jesteś winien saldo w wysokości 210,00 USD (3000,00 - 2790,00), które możesz zwrócić firmie za pomocą kategorii **Zwrot gotówki**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

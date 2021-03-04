@@ -48,3 +48,6 @@ Możesz sprawdzić dostępność zasobów, aby uzyskać ogólny pogląd stopnia 
 
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera zasobów](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

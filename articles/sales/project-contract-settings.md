@@ -58,3 +58,6 @@ Poniższe wskaźniki KPI są dostępne na karcie **Wydajność kontraktu** w kon
 | Koszt poniesiony | Wiersze oparte na produktach | Suma wszystkich wartości rzeczywistych dla pozycji kontraktu opartego na produktach. |
 | Marża brutto | Wiersze oparte na projektach | Kwota na fakturze — koszt poniesiony do dnia / koszt rozliczony |
 | Oczekiwana marża | Wiersze oparte na produktach | (Wartość pozycji kontraktu — szacowane koszty pozycji kontraktu) / wartość pozycji kontraktu |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

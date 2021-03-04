@@ -67,3 +67,6 @@ Waluta w wierszu szczegółów oferty dotyczącym kosztu zmienia się z wartośc
 Obliczenia rentowności konwertują kwotę w wierszu oferty szczegółów dotyczących kosztów i sprzedaży na walutę podstawową środowiska, aby raportować ogólną obliczoną marżę oferty.
 
 Może to doprowadzić do błędów procesów zaokrąglania waluty i zmiany marży z powodu braku aktualnych kursów wymiany. Te obliczenia w ofertach projektów winny być używane tylko jako przybliżenia, gdyż nie są rzeczywistymi, ustawowymi lub innymi typami sprawozdawczości, które wymagają wyższego poziomu dokładności zaokrąglania i świadomości terminu ważności kursów wymiany.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

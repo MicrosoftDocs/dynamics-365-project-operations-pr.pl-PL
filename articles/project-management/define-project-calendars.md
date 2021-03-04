@@ -49,3 +49,6 @@ Aby utworzyć harmonogram projektu, należy utworzyć szablon kalendarza projekt
 8. W oknie dialogowym **Szablon pracy** nadaj nazwę szablonowi pracy, a następnie kliknij przycisk **Zastosuj**. 
 
 Szablon pracy można teraz skojarzyć z szablonem kalendarza projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

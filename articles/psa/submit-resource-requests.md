@@ -55,3 +55,6 @@ Po wygraniu umowy związanej projektu, będziesz musiał zapewnić dla tego proj
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera projektu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

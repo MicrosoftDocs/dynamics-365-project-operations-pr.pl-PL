@@ -32,3 +32,6 @@ Jeśli wydatki w raporcie obciążają inną firmę niż ta, zatrudniająca prac
 W celu zaksięgowania raportu z wydatków na stronie **Zatwierdzone raporty o wydatkach** wybierz raport o wydatkach, a następnie w okienku akcji wybierz pozycję **Księguj**.
 
 Można również zaksięgować wszystkie raporty o wydatkach na liście w tym samym czasie. Zaznacz wszystkie raporty o wydatkach, a następnie wybierz pozycję **Księguj**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

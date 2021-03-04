@@ -59,3 +59,6 @@ Role odgrywają istotną rolę w planowaniu projektów, przy ustalaniu wymagań 
   
 ### <a name="see-also"></a>Zobacz także  
  [Konfigurowanie zasobów](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

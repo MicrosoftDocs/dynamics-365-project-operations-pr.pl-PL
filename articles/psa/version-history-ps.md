@@ -73,3 +73,6 @@ Aby uzyskać informacje na temat aktualizacji usługi Project Service, odwiedź 
 >[!Note]
 > - Daty we wszystkich regionach poza chmurą Government Community Cloud (GCC) wskazują chronometraż następnej aktualizacji automatycznej. Daty w GCC wskazują dostępność wersji; w tej chwili nie ma automatycznej aktualizacji dla tych regionów.
 > - W przypadku wszystkich innych regionów, gdzie większość aktualizacji powinna zakończyć się w ciągu zaplanowanej nocy, aktualizacje wymagające więcej czasu można wykonać po godzinach pracy w weekend wskazany w kolumnie **Data zaplanowana**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

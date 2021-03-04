@@ -43,3 +43,6 @@ To wdrożenie powinno zostać wybrane, ponieważ oczekuje się, że Project Oper
 - Konieczne jest rozbudowany, wieloklasowy i dwukursowy aparat do generowania faktur dostępnych dla klienta w celu tworzenia projektów.
 - System księgowania projektów i rozpoznawania przychodów zgodny z Międzynarodowymi Standardami Sprawozdawczości Finansowej (Financial Reporting Standards - MSSF).
 - Aplikacje Finance lub Supply Chain Management oraz integracja transakcji opartych na projektach.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

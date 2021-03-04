@@ -68,3 +68,6 @@ Twoje zasoby mogą korzystać z aplikacji Project Finder Mobile na telefonie z [
   
 ### <a name="see-also"></a>Zobacz także  
  [Konfigurowanie zasobów](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

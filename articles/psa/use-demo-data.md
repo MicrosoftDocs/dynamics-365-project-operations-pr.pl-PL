@@ -55,3 +55,6 @@ Aby uzyskać więcej informacji, zobacz [blog](https://blogs.msdn.microsoft.com/
  [Przewodnik menedżera projektów](../psa/project-manager-guide.md)   
  [Przewodnik menedżera zasobów](../psa/resource-manager-guide.md)   
  [Przewodnik dotyczący czasu, wydatków i współpracy](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

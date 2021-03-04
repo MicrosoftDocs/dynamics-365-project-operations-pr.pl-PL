@@ -63,3 +63,6 @@ Korzystając z tej samej metody, można anulować rezerwację ostateczną lub ws
 Aby przekonwertować wstępnie zarezerwowany zasób na ostatecznie zarezerwowany zasób na karcie **Zespół** dla projektu, zaznacz zasób i kliknij przycisk **Potwierdź**.
 
 ![Polecenie Potwierdź](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

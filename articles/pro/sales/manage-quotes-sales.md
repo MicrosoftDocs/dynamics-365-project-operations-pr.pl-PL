@@ -33,3 +33,6 @@ Listę wszystkich ofert projektów można zobaczyć na stronie listy **Oferty**.
 2. Użyj **Przełącznik widoku**, aby wybrać inne filtrowane widoki ofert. Korzystając z niestandardowych kryteriów filtrowania, można skonfigurować własne widoki i opcje nawigacji.
 
 Oferty można tworzyć i usuwać na tej stronie listy lub na stronach szczegółów.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

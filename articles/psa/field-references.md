@@ -150,3 +150,6 @@ Poniższa tabela zawiera wyczerpującą listę gotowych formularzy i widoków, w
 |  Wartość rzeczywista|• Informacja<br>• Aktywne wartości rzeczywiste|• Widok skojarzony wartości rzeczywistej|
 
 Pola niestandardowe mogą być również dodawane w regułach biznesowych w zależności od zdefiniowanych opcji. Jednym z wbudowanych przykładów jest wprowadzenie reguły **możliwość edycji wpisu czasu na podstawie stanu**. Ta reguła określa, które pola muszą być zablokowane, gdy wpis czasu będzie mieć stan, który nie jest edytowalny, np. **Zatwierdzony**. Dodaj pola do tej reguły biznesowej, aby były zablokowane do edycji, kiedy wpis czasu ma status inny niż **Wersja robocza** lub **Zwrócony**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

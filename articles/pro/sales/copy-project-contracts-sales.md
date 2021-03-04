@@ -45,3 +45,6 @@ Poniższe informacje nie są kopiowane z lokalizacji **źródłowej** do **kontr
   - Informacje o budżecie klienta
 
 Ponieważ te informacje są specyficzne dla danego kontraktu, te pola i rekordy nie są kopiowane. Kopiowane są wiersze oferty dotyczące projektów i produktów, oszacowania dotyczące szczegółów wierszy kontraktu oraz wartości graniczne nie do przekroczenia na poziomie kontraktu. Domyślne ustawienia cen i stawek kosztów zależą od wartości w polu **Kopiuj kalkulację cen** wybranej na stronie **Kopiowania parametrów**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

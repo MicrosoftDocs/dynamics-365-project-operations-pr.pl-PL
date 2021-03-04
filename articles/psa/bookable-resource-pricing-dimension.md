@@ -76,3 +76,6 @@ Spowoduje to otwarcie strony **Nowa nazwa pola wymiaru kalkulacji cen** dla encj
 5. Dodaj encję **msdyn_projectteam** do pola **Logiczna nazwa encji**, a encję **msdyn_bookableresourceid** do pola **Nazwa pola**. Zapisz rekord.
 
  ![Formularz Nowa nazwa pola wymiaru kalkulacji cen](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

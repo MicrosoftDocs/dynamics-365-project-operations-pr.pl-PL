@@ -89,3 +89,6 @@ Parametry kontrolują ogólne zachowanie funkcji zarządzania wydatkami.
 | <strong>Komunikat antykorupcyjny dla osoby przesyłającej</strong> |                                                                                             Wprowadź tekst, który będzie wyświetlany pracownikiem podczas tworzenia nowego raportu dotyczącego wydatków. Aby wprowadzić odpowiedni dla języka tekst, który będzie widoczny na podstawie języka użytkownika, wybierz pozycję <strong>Tłumaczenia</strong>.                                                                                             |
 | <strong>Komunikat antykorupcyjny dla osoby zatwierdzającej</strong>  |                                                                                             Wprowadź tekst, który będzie wyświetlany pracownikom zatwierdzającym podczas tworzenia nowego raportu dotyczącego wydatków. Aby wprowadzić odpowiedni dla języka tekst, który będzie widoczny na podstawie języka użytkownika, wybierz pozycję <strong>Tłumaczenia</strong>.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ W poniższej tabeli wymieniono wszystkie gotowe formularze i widoki według encj
 2. Na stronie **Parametry** na karcie **Wymiary kalkulacji cen oparte na kwocie** sprawdź, czy siatka pokazuje rekordy z encji **Wymiary kalkulacji cen**.
 3. Dodaj pozycję **Kategoria transakcji** do tej listy, a w polach **Ma zastosowanie do kosztu** i **Ma zastosowanie do sprzedaży** ustaw wartość **Tak**.
 4. W polu **Typ wymiaru** zaznacz opcję **Oparty na kwocie**, a następnie dla ustawienia **Kategoria transakcji** wybierz priorytet powiązany z kosztem i sprzedażą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

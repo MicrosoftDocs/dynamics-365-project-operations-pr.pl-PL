@@ -38,3 +38,6 @@ Wybierz opcję **Logowanie** > **Zaloguj się do środowiska**, aby przejść do
 
 > [!NOTE]
 > Dostęp do operacji projektu można uzyskać w usłudze Common Data Service oraz w module **Zarządzania projektami i księgowością** bezpośrednio za pomocą odpowiednich adresów URL. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

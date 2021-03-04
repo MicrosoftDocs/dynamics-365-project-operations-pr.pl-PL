@@ -35,3 +35,6 @@ Po rozwiązaniu listy cennika, system korzysta z pól **Rola**, **Firma zasobów
 Szacowane wiersze dla wartości Wydatek odnoszą się do oferty i pozycji kontraktu dla wydatku oraz do wierszy oszacowania wydatku w projekcie.
 
 Po rozwiązaniu listy cennika, system korzysta z połączenia pól **Kategoria**, **Firma zasobów** z wiersza szacowania dla Wydatku, w celu dopasowania do wiersza **Cena kategorii** znajdującego się w rozwiązanym cenniku. Jeśli system znajdzie wiersz ceny kategorii, który ma stawkę kosztu dla połączenia pól **Kategoria** oraz **Jednostką zasobów**, to będzie to domyślna stawka kosztu. Jeśli system nie może dopasować wartości **Kategoria** i **Jednostka** albo jeśli jest w stanie znaleźć pasujący wiersz cena kategorii, ale metoda kalkulacji cena nie jest ustawiona na wartość **Ceną jednostkową**, stawka kosztów jest domyślnie ustawiona na zero (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

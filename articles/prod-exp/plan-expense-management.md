@@ -160,3 +160,6 @@ Tworząc zasady raportów o wydatkach, można pomóc organizacji w zaoszczędzen
 - Kiedy zasady wygasną?
 - Czym jest reguła zasad?
 - Jaki jest wynik reguły zasad?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

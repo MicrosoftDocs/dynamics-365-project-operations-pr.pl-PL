@@ -68,3 +68,6 @@ W poniższych krokach przedstawiono proces rejestrowania dodatków plug-in.
 
 9. Zamknij narzędzie do rejestrowania dodatków plug-in.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

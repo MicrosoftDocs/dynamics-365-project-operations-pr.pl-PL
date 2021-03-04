@@ -69,3 +69,6 @@ Aby włączyć podniesienie wydajności planowania zasobów, należy wykonać na
 
 > [!NOTE]
 > Spowoduje to dystrybuowanie danych ogólnych do tabeli **ResRollup** we wszystkich firmach w środowisku, więc zadanie wsadowe musi zostać uruchomione tylko w jednej firmie. To zadanie wsadowe jest wymagane we wszystkich widokach **Dostępności zasobów**. Jeśli to zadanie wsadowe nie zostanie uruchomione, dane **ResRollup** będą generowane na żywo, co może zajmować czas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

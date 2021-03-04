@@ -56,3 +56,6 @@ W tym zadaniu jest używany zestaw danych USSI.
 21. Wpisz wartość w polu **Odbiór produktu**.
 22. Wybierz pozycję **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

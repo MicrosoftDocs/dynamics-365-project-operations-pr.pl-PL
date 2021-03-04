@@ -44,3 +44,6 @@ Aby uzyskać więcej informacji, zobacz temat [Pozycja wydatek (uproszczone)](ba
 
 ## <a name="determine-your-expense-deployment"></a>Określenie typu wdrażania wydatków
 Aby sprawdzić, czy uruchomiono podstawowe wdrożenie zarządzania wydatkami, należy sprawdzić, czy adres URL programu kończy się rozszerzeniem **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

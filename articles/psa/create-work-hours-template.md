@@ -65,3 +65,6 @@ Zanim będziesz mógł utworzyć harmonogramy projektów musisz skonfigurować k
   
 ### <a name="see-also"></a>Zobacz także  
  [Konfigurowanie zasobów](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

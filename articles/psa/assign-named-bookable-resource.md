@@ -68,3 +68,6 @@ Aby zarezerwować dyspozycyjność zasobu dla projektu, można użyć funkcji ro
 ![Rozszerzanie rezerwacji dla członka zespołu na karcie Uzgadnianie zasobów](media/RM-how-to-7.png)
 
 Gdy członek zespołu jest zarezerwowany dla Twojego projektu, do zarządzania jego rezerwacjami możesz używać funkcji Obsługa rezerwacji albo bezpośrednio tablicy harmonogramu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

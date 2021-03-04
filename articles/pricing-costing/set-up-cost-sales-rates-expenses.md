@@ -55,3 +55,6 @@ W przypadku wybrania tej metody kalkulacji cen w cenniku powiązanym cena sprzed
 
 ### <a name="markup-over-cost"></a>Narzut na koszt
 W przypadku wybrania tej metody kalkulacji cen w cenniku powiązanym cena sprzedaży jest domyślnie określana przez kombinację kategoria i jednostka tylko dla wartości rzeczywistej. Na przykład wartości rzeczywiste dotyczące nierozliczonej sprzedaży dla klasy transakcji wydatkowej. Ta cena jednostkowa jest ustalana na podstawie ceny niepodlegającej sprzedaży w odniesieniu do wartości obliczonej, która jest wyznaczana na wartość ceny jednostkowej w koszcie rzeczywistym dla tego wydatku po zastosowaniu określonego procentu marży. Domyślne ustawianie cen przy użyciu kosztów nie jest wykonywane na podstawie oszacowań kosztów lub wierszy oferty oraz szczegółów pozycji kontraktu dla kosztów.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

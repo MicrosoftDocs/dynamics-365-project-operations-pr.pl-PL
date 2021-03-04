@@ -67,3 +67,6 @@ Rozwiązano następujące problemy:
 Rozwiązano następujące problemy:
 
 - Dwukrotne kliknięcie **Pobierania wszystkich kategorii transakcji** powoduje utworzenie wielu wierszy.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

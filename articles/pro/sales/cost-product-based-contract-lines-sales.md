@@ -30,3 +30,6 @@ Po utworzeniu pozycji umowy opartej na produktach dla produktu z katalogu, koszt
 Dysponowanie kosztami jednostkowymi w wierszu kontraktu opartego na produkcie pozwala na zastosowanie różnych kosztów produktu w danej sprzedaży jednostki. Choć nie zawsze jest to konieczne, istnieje kilka scenariuszy, w których koszt produktu może być zredukowany na rzecz klienta. Rozważmy następujący scenariusz:
 
 Firma Fabrikam Robotics instaluje robotyczne ramiona na liniach montażowych w fabryce należącej do Adatum Corporation. Firma Fabrikam świadczy usługi instalacyjne, ale ramiona robotów pochodzą z firmy Trey Research. Jeśli instalacja ramion w Adatum Corporation otworzy nową branżę przemysłu dla robotycznych ramion firmy Trey Research, ta druga firma może chcieć odwdzięczyć się Fabrikam za pomocą zniżki. W takim przypadku firma Fabrikam tworzy linię kontraktową opartą na produktach dla ramion robotów. W przypadku kontraktu jest wprowadzany koszt jednostkowy. Koszt jest inny niż koszt zakupu od firmy Trey Research.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

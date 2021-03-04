@@ -43,3 +43,6 @@ Ustaw kategorie transakcji, aby zdefiniować nadzbiór kategorii wydatków.
   
 ### <a name="see-also"></a>Zobacz także  
  [Konfiguruj Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

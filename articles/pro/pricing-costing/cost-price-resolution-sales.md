@@ -36,3 +36,6 @@ Po rozpoznaniu cennika kosztów pola **Rola** i **Jednostka ponownego zakupu** w
 Szacowane wiersze dla wartości Wydatek odnoszą się do oferty i pozycji kontraktu dla wydatku oraz do wierszy oszacowania wydatku w projekcie.
 
 Po rozwiązanie cennika kosztów system używa kombinacji pól **Kategoria** i **Jednostka** w wierszu szacowania wydatku w celu dopasowania do wierszy **Ceny kategorii** na cenniku rozwiązanym. Jeśli system znajdzie wiersz ceny kategorii, który ma stawkę kosztu dla połączenia pól **Kategoria** oraz **Jednostką zasobów**, to będzie to domyślna stawka kosztu. Jeśli system nie może dopasować wartości **Kategoria** i **Jednostka** lub jeśli jest w stanie znaleźć pasującą linią cen kategorii, ale metoda kalkulacji cen nie to **Cena jednostkowa**, koszt jest domyślny do zera(0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

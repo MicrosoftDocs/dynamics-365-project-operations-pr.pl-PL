@@ -97,3 +97,6 @@ W obu rodzajach widoków — siatki i faz czasowych — można wybrać pola, kt�
 ## <a name="expense-estimates"></a>Szacowanie wydatków
 
 Przycisk **Dodaj nowe szacowanie wydatków** dostępny w widoku siatki umożliwia rejestrowanie wszystkich wydatków, które zostały poniesione w projekcie, ale nie są bezpośrednio związane z robocizną. Szacunki wydatków można rejestrować dla określonego zadania lub dla całego projektu. Należy wybrać kategorię wydatków i datę wstępną, kiedy jest spodziewane poniesienie wydatku. Jeśli na powiązanej liście kosztów własnych i w cenniku sprzedaży znajdują się ceny domyślne (lub jeśli dla kategorii wydatków zdefiniowano wartości procentowe narzutu), zostaną one automatycznie wprowadzone w wierszu szacowania po zaistnieniu powiązania.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

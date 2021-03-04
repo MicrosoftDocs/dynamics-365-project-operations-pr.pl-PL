@@ -113,3 +113,6 @@ Gdy firma pożyczająca, USSI, księguje międzyfirmową fakturę dla odbiorcy, 
 Aby uzyskać więcej informacji, zobacz temat [Konfigurowanie międzyfirmowego fakturowania projektu](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

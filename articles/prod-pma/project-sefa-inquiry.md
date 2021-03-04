@@ -104,3 +104,6 @@ Zapytanie dotyczące środków federalnych zawiera następujące kolumny:
 - Katalog federalnej pomocy krajowej
 - Paragony
 - Wydatki
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
