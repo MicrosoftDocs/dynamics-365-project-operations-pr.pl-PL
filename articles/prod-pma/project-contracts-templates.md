@@ -1,9 +1,9 @@
 ---
-title: Synchronizuj umowy i projekty dotyczące projektów bezpośrednio z Project Service Automation do Finance and Operations
+title: Synchronizuj kontrakty projektowe i projekty bezpośrednio z Project Service Automation do Finance
 description: Ta temat opisuje szablon i podstawowe zadanaużywane do synchronizowania kontraktów projektu i projektów bezpośrednio z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642646"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764832"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizuj umowy i projekty dotyczące projektów bezpośrednio z Project Service Automation do Finance and Operations
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synchronizuj kontrakty projektowe i projekty bezpośrednio z Project Service Automation do Finance 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ Aby uzyskać dostęp do dostępnych szablonów, w centrum administracyjnym Micro
 Następujące szablony i podstawowe zadania służą do synchronizowania umów dotyczących projektów i projektów z usługi Project Service Automation do Finance:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Integrowanie z Dynamics 365 Project Service Automation v2.x
-- **Nazwa szablonu podczas integracji danych:** projekty i kontrakty (PSA do Fin i Ops)
+- **Nazwa szablonu w integracji danych:** Projekty i kontrakty (Project Service Automation to Finance)
 - **Nazwa zadań w projekcie:**
 
-    - Kontrakty projektów PSA do Fin i Ops
-    - Projekty PSA do Fin i Ops
-    - Pozycje kontraktu projektów PSA do Fin i Ops
-    - Punkty kontrolne pozycji kontraktu projektów PSA do Fin i Ops
+    - Umowy dotyczące projektów Project Service Automation to Finance
+    - Projekty Project Service Automation to Finance
+    - Wiersze umowy dotyczącej projektu Project Service Automation to Finance
+    - Punkty kontrolne linii umowy na projekt Project Service Automation to Finance
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Integrowanie z Dynamics 365 Project Service Automation v3.x
 Nastąpiła zmiana schematu w Project Service Automation, która ma wpływ na szablon punktu kontrolnego wiersza umowy dotyczącej projektu i użycie wersji v2 szablonu jest wymagane do integracji Project Service Automation v3.x z Dynamics 365.
 
-- **Nazwa szablonu podczas integracji danych:** projekty i kontrakty (PSA 3.x do Fin i Ops) - v2
+- **Nazwa szablonu w integracji danych:** Projekty i kontrakty (Project Service Automation 3.x to Finance) - v2
 - **Nazwa zadań w projekcie:**
 
-    - Kontrakty projektów PSA do Fin i Ops
-    - Projekty PSA do Fin i Ops
-    - Pozycje kontraktu projektów PSA do Fin i Ops
-    - Punkty kontrolne pozycji kontraktu projektów PSA do Fin i Ops
+    - Umowy dotyczące projektów Project Service Automation to Finance
+    - Projekty Project Service Automation to Finance
+    - Wiersze umowy dotyczącej projektu Project Service Automation to Finance
+    - Punkty kontrolne linii umowy na projekt Project Service Automation to Finance
 
 Przed synchronizacją umów dotyczących projektów i projektów należy zsynchronizować konta.
 
@@ -87,7 +87,8 @@ Przed synchronizacją umów dotyczących projektów i projektów należy zsynchr
 
 Kontraktami projektu zarządza się w Project Service Automation i są one synchronizowane z Finance jako kontrakty projektów. W ramach szablonu integracji można ustawić źródło integracji w programie Finance dla umowy dotyczącej projektu.
 
-Projektami czasowo-materiałowymi i projektami o ustalonej cenie zarządza się w programie Project Service Automation i synchronizuje z programem Finance jako projekty. W ramach szablonu integracji można ustawić źródło integracji w Finance dla projektu.
+Projekty czasowe i materiałowe oraz projekty o stałej cenie są zarządzane w programie Project Service Automation i synchronizowane z programem Finance jako projekty. W ramach integracji szablonu możesz ustawić źródło integracji dla projektu w Finance. Obecnie obsługiwane są tylko projekty czasowe i materiałowe oraz projekty o stałej cenie.
+
 
 Pozycjami kontraktu projektu zarządza się w Project Service Automation i są one synchronizowane z Finance jako reguły rozliczeniowe kontraktu dotyczącego projektu. Jeśli metoda rozliczenia różni się od domyślnego typu projektu, synchronizacja aktualizuje typ projektu dla projektu w wierszu umowy i grupy projektów.
 
@@ -122,7 +123,7 @@ Po zastosowaniu rozwiązania integracji Project Service Automation z Finance skr
 
 ## <a name="power-query"></a>Power Query
 
-Aby filtrować dane, należy użyć dodatku Microsoft Power Query dla programu Excel, jeśli są spełnione następujące warunki:
+Użyj dodatku Microsoft Power Query dla programu Excel do filtrowania danych, jeśli są spełnione następujące warunki:
 
 - W Dynamics 365 Sales jest zamówienie sprzedaży.
 - Masz wiele jednostek organizacyjnych w Project Service Automation, a te jednostki organizacyjne zostaną zamapowane na wiele firm w Finance.
@@ -130,7 +131,7 @@ Aby filtrować dane, należy użyć dodatku Microsoft Power Query dla programu E
 Jeśli musisz użyć dodatku Power Query, postępuj zgodnie z tymi wskazówkami:
 
 - Szablon projektów i kontraktów (PSA to fin i Ops) zawiera filtr domyślny zawierający tylko zamówienia sprzedaży z typem **Work item (msdyn\_ordertype = 192350001)**. Ten filtr ułatwia zagwarantowanie, że kontrakty projektów nie są tworzone dla zamówień sprzedaży w Finance. W przypadku utworzenia własnego szablonu należy dodać ten filtr.
-- Należy utworzyć filtr dodatku Power Query, który obejmuje tylko organizacje kontraktowe, które powinny być synchronizowane z firmą zestawu połączeń integracji. Na przykład umowy dotyczące projektów, które masz z jednostką organizacyjną kontraktu firmy Contoso US, powinny być synchronizowane z firmą USSI, ale umowy dotyczące projektów, które masz z jednostką organizacyjną kontraktu firmy Contoso Global, powinny być synchronizowane z firmą USMF. Jeśli nie dodasz tego filtru do mapowania zadań, wszystkie umowy dotyczące projektu zostaną zsynchronizowane z firmą zdefiniowaną dla zestawu połączeń, niezależnie od jednostki organizacyjnej kontraktu.
+- Utwórz filtr dodatku Power Query obejmujący tylko organizacje kontraktowe, które powinny być synchronizowane z firmą zestawu połączeń integracji. Na przykład umowy dotyczące projektów, które masz z jednostką organizacyjną kontraktu firmy Contoso US, powinny być synchronizowane z firmą USSI, ale umowy dotyczące projektów, które masz z jednostką organizacyjną kontraktu firmy Contoso Global, powinny być synchronizowane z firmą USMF. Jeśli nie dodasz tego filtru do mapowania zadań, wszystkie umowy dotyczące projektu zostaną zsynchronizowane z firmą zdefiniowaną dla zestawu połączeń, niezależnie od jednostki organizacyjnej kontraktu.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapowanie szablonów w integracji danych
 

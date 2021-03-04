@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3fedf7b577e2372fb10ea85ea1e3caa9bf2f5ad0
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d2afaa2231f4044dbcbfa24b91aec39289275a91
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176804"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764607"
 ---
 # <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Rozwiązywanie kosztów własnych w oszacowaniach i wartościach rzeczywistych — wersja uproszczona
 
@@ -25,7 +26,7 @@ W celu rozpoznania cennika i listy kosztów własnych na potrzeby oszacowań i w
 
 Szacowane wiersze dla wartości Czas odnoszą się do oferty i pozycji kontraktu oraz do przydziałów zasobów w projekcie.
 
-Po rozwiązaniu listy cennika, system korzysta z pól **Rola** oraz **Jednostka kontraktująca** z wiersza szacowania dla czasu, w celu dopasowania do wierszy cennika ról. To dopasowanie zakłada, że używasz przygotowanych wymiarów kalkulacji cen, aby uzyskać koszty wykonanej pracy. Jeśli system został skonfigurowany w taki sposób, aby odpowiadał polom **Rola** i **Jednostka zasobów** lub odpowiadał także tym polom, w celu pobrania pasującego cennika ról zostanie wykorzystana inna kombinacja. Jeśli aplikacja znajdzie wiersz ceny roli, który ma stawkę kosztu dla połączenia **Rola** oraz **Jednostką zamawiająca**, to będzie domyślna stawka kosztu. Jeśli aplikacja nie może dopasować pól **Rola** i **Jednostka zamawiająca**, program pobiera pasujące wiersze z rolą, ale ustawiane są wartości null **Jednostki zamawiającej**. Po dopasowaniu odpowiedniego rekordu ceny roli, stawka kosztu pobierana jest domyślnie z tego rekordu. 
+Po rozpoznaniu cennika kosztów pola **Rola** i **Jednostka ponownego zakupu** w wierszu szacowania czasu są dopasowane do wierszy cen roli w cenniku. To dopasowanie zakłada, że używasz standardowych wymiarów cenowych dla kosztów pracy. Jeśli system został skonfigurowany w taki sposób, aby odpowiadał polom **Rola** i **Jednostka zasobów** lub odpowiadał także tym polom, w celu pobrania pasującego cennika ról zostanie wykorzystana inna kombinacja. Jeśli aplikacja znajdzie wiersz ceny roli, który ma stawkę kosztu dla połączenia **Rola** oraz **Jednostką zamawiająca**, to będzie domyślna stawka kosztu. Jeśli aplikacja nie może dopasować pól **Rola** i **Jednostka zamawiająca**, program pobiera pasujące wiersze z rolą, ale ustawiane są wartości null **Jednostki zamawiającej**. Po dopasowaniu odpowiedniego rekordu ceny roli, stawka kosztu pobierana jest domyślnie z tego rekordu. 
 
 > [!NOTE]
 > W przypadku skonfigurowania innej prioretyzacji **Roli** i **Jednostki zamawiającej** lub jeśli istnieją inne wymiary mające wyższy priorytet, to zachowanie odpowiednio się zmieni. System pobiera rekordy cen ról wraz z wartościami odpowiadającymi poszczególnym wartościom wymiarów kalkulacji cen w kolejności według priorytetu. Wiersze, które mają wartości null dla tych wymiarów są ostatnie.
@@ -34,4 +35,4 @@ Po rozwiązaniu listy cennika, system korzysta z pól **Rola** oraz **Jednostka 
 
 Szacowane wiersze dla wartości Wydatek odnoszą się do oferty i pozycji kontraktu dla wydatku oraz do wierszy oszacowania wydatku w projekcie.
 
-Po rozwiązaniu listy cennika, system korzysta z połączenia pól **Kategoria**, **Firma zasobów** z wiersza szacowania dla Wydatku, w celu dopasowania do wiersza **Cena kategorii** znajdującego się w rozwiązanym cenniku. Jeśli system znajdzie wiersz ceny kategorii, który ma stawkę kosztu dla połączenia pól **Kategoria** oraz **Jednostką zasobów**, to będzie to domyślna stawka kosztu. Jeśli system nie może dopasować wartości **Kategoria** i **Jednostka** albo jeśli jest w stanie znaleźć pasujący wiersz cena kategorii, ale metoda kalkulacji cena nie jest ustawiona na wartość **Ceną jednostkową**, stawka kosztów jest domyślnie ustawiona na zero (0).
+Po rozwiązanie cennika kosztów system używa kombinacji pól **Kategoria** i **Jednostka** w wierszu szacowania wydatku w celu dopasowania do wierszy **Ceny kategorii** na cenniku rozwiązanym. Jeśli system znajdzie wiersz ceny kategorii, który ma stawkę kosztu dla połączenia pól **Kategoria** oraz **Jednostką zasobów**, to będzie to domyślna stawka kosztu. Jeśli system nie może dopasować wartości **Kategoria** i **Jednostka** lub jeśli jest w stanie znaleźć pasującą linią cen kategorii, ale metoda kalkulacji cen nie to **Cena jednostkowa**, koszt jest domyślny do zera(0).

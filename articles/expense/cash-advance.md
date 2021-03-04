@@ -3,19 +3,19 @@ title: Zaliczka gotówkowa
 description: Ten temat zawiera informacje o zaliczkach gotówkowych.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
+ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122762"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098897"
 ---
 # <a name="cash-advance"></a>Zaliczka gotówkowa
 
@@ -24,8 +24,9 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 Zaliczka gotówkowa umożliwia pracownikom pożyczanie pieniędzy z firmy przed poniesieniem kosztów. Po zatwierdzeniu i zapłaceniu zaliczki gotówkowej pracownik może użyć tych pieniędzy do opłacenia poniesionych kosztów prowadzenia działalności. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Tworzenie i złożenie prośby o zaliczkę gotówkową
+Aby utworzyć nową zaliczkę z góry i złożyć wniosek o zaliczkę, wykonaj następujące czynności: 
 
-1. W sekcji **Moje wydatki** wybierz opcję **Zaliczki gotówkowe** > **Nowa**, aby utworzyć nową zaliczkę gotówkową. 
+1. W obszarze **Moje koszty** wybierz **Zaliczki gotówkowe** > **Nowe**. 
 2. Na **Nowy wniosek o zaliczkę gotówkową** wprowadź cel wydatku i wybierz lokalizację, w której koszty będą ponoszone.
 3. Wprowadź wnioskowaną kwotę i walutę, a następnie wybierz pozycję **Zapisz**. 
 4. Kiedy przygotowana prośba o zaliczkę gotówkową będzie gotowa, na stronie **Wniosek o zaliczkę gotówkową** wybierz pozycję **Przepływ pracy** > **Prześlij**.
@@ -34,7 +35,7 @@ Zaliczka gotówkowa umożliwia pracownikom pożyczanie pieniędzy z firmy przed 
 
 Wniosek o zaliczkę gotówkową można modyfikować, jeśli nie został jeszcze przesłany do akceptacji.
 
-1. W obszarze **Moje wydatki: zaliczki gotówkowe** odnajdź i zaznacz zaliczkę gotówkową, która ma być edytowana.
+1. W obszarze **Moje koszty: Zaliczki gotówkowe** i wybierz zaliczki gotówkowe do edycji.
 2. Wybierz **Edytuj** i wprowadź wymagane zmiany we wniosku o zaliczkę gotówkową. 
 3. Wybierz **Zapisz i zamknij**.
 
@@ -57,7 +58,8 @@ Poniższa procedura jest zwykle wykonywana przez księgowego lub osobę z uprawn
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Wysyłanie raportu wydatków względem płatnej zaliczki gotówkowej 
 
-Podczas tworzenia i przesyłania raportu wydatków dotyczącego już otrzymanej zaliczki, koszty zostaną automatycznie skorygowane w stosunku do tej zaliczki. Jeśli zaliczka gotówkowa jest większa od wydanej kwoty konieczne jest zwrócenie pozostałej kwoty korzystając z kategorii wydatków **Zwrot gotówki**. Jeśli zaliczka gotówkowa jest mniejsza niż wydana kwota, firma musi zwrócić różnicę. 
+Po utworzeniu i przesłaniu raportu z wydatków dla zaliczki gotówkowej, którą już otrzymałeś, wydatki zostaną automatycznie skorygowane o tę zaliczkę. Jeśli zaliczka gotówkowa jest większa od wydanej kwoty konieczne jest zwrócenie pozostałej kwoty korzystając z kategorii wydatków **Zwrot gotówki**. Jeśli zaliczka gotówkowa opłacona przez firmę jest mniejsza niż kwota, którą wydałeś, firma musi zwrócić Ci saldo. 
 
 ### <a name="example"></a>Przykład
-Zamierzasz podróżować na konferencję z Seattle do Nowego Jorku. Tworzysz wniosek o zaliczkę w wys. 3000 USD, gdyż tyle będzie szacunkowo kosztować będą bilety na konferencję, przeloty, hotel, posiłki oraz taksówki. Nie otrzymasz środków, chyba że Menedżer zatwierdzi tę prośbę. Po otrzymaniu zatwierdzenia zaliczka w wysokości 3000 USD trafia na Twój rachunek. Bierzesz udział w konferencji. Po zakończeniu podróży okazuje się, że łączna liczba wydatków wyniosła 2790.00 USD. W polu **Metoda płatności** wybierz **Gotówka** i prześlij koszt w wysokości 2790 USD. Przesłana kwota wydatków jest automatycznie porównywana z kwotą zaliczki gotówkowej (3000 USD), która została Ci wcześniej udzielona. Różnicę w wysokości 210 USD (3000 - 2790) musisz zwrócić firmie. Możesz to zrobić za pomocą kategorii wydatków pt. **Zwrot gotówki**. 
+Planujesz podróż z Seattle do Nowego Jorku na konferencję. Tworzysz żądanie zaliczki na kwotę 3000,00 USD na podstawie szacunkowego kosztu biletu konferencyjnego, przelotów, hotelu, posiłków i taksówki. Nie otrzymasz zapłaty, dopóki Twój menedżer nie zatwierdzi tej prośby. Po otrzymaniu zatwierdzenia zaliczka w wysokości 3000 USD trafia na Twój rachunek. Bierzesz udział w konferencji. Po zakończeniu podróży okazuje się, że łączna liczba wydatków wyniosła 2790.00 USD. Wybierz opcję **Gotówka** w polu **Metoda płatności** i prześlij koszt o wartości 2790,00 USD. Przesłana kwota wydatków jest automatycznie porównywana z kwotą zaliczki gotówkowej (3000 USD), która została Ci wcześniej udzielona. Teraz jesteś winien saldo w wysokości 210,00 USD (3000,00 - 2790,00), które możesz zwrócić firmie za pomocą kategorii **Zwrot gotówki**.
+

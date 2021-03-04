@@ -1,6 +1,6 @@
 ---
 title: Zarządzanie delegacją wydatków
-description: Pełnomocnik ds. wydatków może tworzyć raporty o wydatkach w imieniu innego pracownika w organizacji i zarządzać nimi.
+description: Użytkownik delegujący wydatki może tworzyć raporty wydatków dla innego pracownika w organizacji i zarządzać nimi.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082164"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960800"
 ---
 # <a name="manage-expense-delegation"></a>Zarządzanie delegacją wydatków
 
-[!include [banner](../includes/banner.md)]
+Pełnomocnik ds. wydatków może tworzyć raporty o wydatkach dla innego pracownika i zarządzać nimi.
 
-Pełnomocnik ds. wydatków może tworzyć raporty o wydatkach w imieniu innego pracownika w organizacji i zarządzać nimi.
+## <a name="configure-expense-delegation"></a>Skonfiguruj delegowanie wydatków
 
-## <a name="configuring-expense-delegation"></a>Konfigurowanie delegowania wydatków
+1. Aby skonfigurować użytkownika jako delegowanego wydatkami, wybierz menu **Zarządzanie wydatkami > Ustawienia > Ogólne > Użytkownicy delegowani**.
+2. Na stronie **Użytkownicy delegowani** wybierz **Nowe**.
+3. Wybierz pracownika, który będzie miał zdefiniowanego użytkownika delegowanego. 
+4. Wprowadź alias użytkownika pełnomocnika oraz datę rozpoczęcia i zakończenia okresu pełnomocnictwa.
 
-Aby skonfigurować użytkownika jako pełnomocnika ds. wydatków, wybierz kolejno pozycje **Zarządzanie wydatkami > Konfiguracja > Ogólne > Pełnomocnicy** , aby otworzyć stronę **Pełnomocnicy**. Wybierz opcję **Nowy** , a następnie wybierz pracownika, dla którego ma zostać zdefiniowany pełnomocnik. Wprowadź alias użytkownika pełnomocnika oraz datę rozpoczęcia i zakończenia okresu pełnomocnictwa.
+## <a name="manage-expense-delegation-for-another-employee"></a>Zarządzanie delegowaniem wydatków dla innego pracownika
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Zarządzanie wydatkami w imieniu innego pracownika
+Gdy klucz zarządzania funkcjami **Włącz stronę listy delegatów wydatków** będzie dostępna strona listy **Wydatki przekazane mi**. Przejdź do **Zarządzania wydatkami** > **Moje wydatki** > **Wydatki delegowane do mnie**.
 
-Jeśli włączona jest funkcja **Włącz stronę z listami pełnomocników ds. wydatków** , to strona z listami **Strona z listami pełnomocników ds. wydatków** będzie dostępna po przejściu do obszaru **Zarządzanie wydatkami > Moje wydatki > Przekazane mi wydatki**.
+Delegat może szybko filtrować i przeszukiwać istniejące raporty z wydatków, które zostały mu delegowane. Mogą również utworzyć nowy raport z wydatków dla innych użytkowników, wybierając **Nowy raport z wydatków**.
 
-Pełnomocnik może szybko filtrować i przeszukiwać istniejące raporty o wydatkach, które zostały mu przekazane przez użytkownika. Użytkownik może również szybko utworzyć nowy raport z wydatków w imieniu innych użytkowników, wybierając opcję **Nowy raport o wydatkach**.
-
-Pełnomocnicy mogą tworzyć raporty dotyczące wydatków dla innych pracowników i zarządzać nimi, przechodząc do **Zarządzania wydatkami > Moje wydatki > Raporty wydatków** i wybierając **Otwórz wydatki dla innego użytkownika**.
+Delegowani użytkownicy mogą także tworzyć raporty o wydatkach dla innych pracowników i zarządzać nimi, przechodząc do **Zarządzanie wydatkami** > **Moje wydatki** > **Raporty wydatków** i wybierając **Otwórz wydatki innych użytkowników**.

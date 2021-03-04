@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1be96521cdb486dd5a702cded615d3e1015b364
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 49397592ea002b9da872ac1aa455719b6ca2292e
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082054"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960215"
 ---
 # <a name="vat-recovery"></a>Odzyskiwanie podatku VAT 
-
-[!include [banner](../includes/banner.md)]
 
 Aby otrzymywać zwrot kwalifikujących się transakcji VAT, firma lub organizacja musi identyfikować, gromadzić, sprawdzać i przedkładać dokładne informacje. Ten proces obejmuje wiele zadań i, w zależności od wielkości firmy, może wymagać współpracy wielu pracowników lub ról.
 
@@ -49,7 +47,7 @@ W poniższej sekcji zamieszczono przykłady pokazujące sposób wykonywania posz
 
 Nancy jest pracownikiem działu sprzedaży firmy Contoso, który jest zlokalizowany w Stanach Zjednoczonych, ale ostatnio wróciła z podróży służbowej do Zjednoczonego Królestwa. Podczas podróży, Nancy musiała zapłacić kartą kredytową za posiłki. Nancy musi teraz utworzyć raport wydatków, aby odzyskać koszty.
 
-Kiedy Nancy wprowadza informacje w raporcie wydatków, wybiera **Zjednoczone Królestwo** w polu **Kraju/regionu** na stronie **Edytowanie raportu wydatków**. Lista grup podatku jest następnie filtrowana w taki sposób, aby pokazywała tylko grupy mające zastosowanie do Zjednoczonego Królestwa. Nancy wybiera grupę podatkową **Zjednoczone Królestwo 001** , a następnie wybiera grupę podatkową **Posiłki**. Następnie dodaje nową transakcję do przetworzenia. Ponieważ w Zjednoczonym Królestwie istnieje tylko jedna grupa podatkowa i grupa podatkowa dla towarów, te informacje są automatycznie wypełniane w raporcie z wydatków Nancy.
+Kiedy Nancy wprowadza informacje w raporcie wydatków, wybiera **Zjednoczone Królestwo** w polu **Kraju/regionu** na stronie **Edytowanie raportu wydatków**. Lista grup podatku jest następnie filtrowana w taki sposób, aby pokazywała tylko grupy mające zastosowanie do Zjednoczonego Królestwa. Nancy wybiera grupę podatkową **Zjednoczone Królestwo 001**, a następnie wybiera grupę podatkową **Posiłki**. Następnie dodaje nową transakcję do przetworzenia. Ponieważ w Zjednoczonym Królestwie istnieje tylko jedna grupa podatkowa i grupa podatkowa dla towarów, te informacje są automatycznie wypełniane w raporcie z wydatków Nancy.
 
 Dla każdej zasady z firmy Contoso wszystkie wydatki muszą mieć pasujący przychód. Z tego powodu przy zapisywaniu raportu z wydatków jest wyświetlany komunikat informujący o tym, że musi dołączyć potwierdzenie dla każdej transakcji, która jest wymieniona w raporcie z wydatków. Nancy potwierdza, że dołączyła cyfrowe zdjęcie paragonu każdej transakcji do raportu i przesyła go do zatwierdzenia. Następnie wysyła paragony do zespołu back-office, zajmującego się przetworzeniem zgłoszenia. Ten zespół prześle dane związane ze zwrotem VAT dostawcom strony trzeciej, którzy obsługują zwrot międzynarodowego podatku VAT dla firmy Contoso.
 
