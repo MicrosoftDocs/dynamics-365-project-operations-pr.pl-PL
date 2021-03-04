@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082053"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151311"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Strona główna wymiarów kalkulacji cen i kosztów
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 W wymiarach użytych do ustawienia cen robocizny oraz kosztów w organizacjach opartych na projektach są na przykład uzależnione od następujących atrybutów:
 
@@ -33,8 +35,8 @@ W wymiarach użytych do ustawienia cen robocizny oraz kosztów w organizacjach o
 
 Uwzględniając typowy charakter tych atrybutów pracy i osób wymaganych do wykonania pracy, istnieją dwa typy wartości wymiarów kalkulacji cen w programie Project Service Automation: 
 
-- **Zestawy opcji** : atrybuty, które są ustalonymi elementami stałotekstowymi dla zbioru wartości.
-- **Wartości oparte na obiektach** : atrybuty, które mogą zawierać różne zbiory wartości, które są skończone, ale mogą zmieniać się w czasie.
+- **Zestawy opcji**: atrybuty, które są ustalonymi elementami stałotekstowymi dla zbioru wartości.
+- **Wartości oparte na obiektach**: atrybuty, które mogą zawierać różne zbiory wartości, które są skończone, ale mogą zmieniać się w czasie.
 
 ## <a name="pricing-dimensions"></a>Wymiary kalkulacji cen
 
@@ -55,7 +57,7 @@ Jeśli trzeba określić ceny lub koszty zasobów przy użyciu dodatkowych atryb
 ## <a name="pricing-human-resource-time"></a>Wycena pracy personelu
 Sposób wyceny czasu pracy personelu w organizacji jest często ważnym strategicznym aspektem, który wpływa na rentowność organizacji. Gdy organizacja jest gotowa do określenia, jak chce skonfigurować stawki rozliczania i kosztów dla czasu pracy ludzi, administrator systemu informatycznego powinien to zrobić wspólnie z zespołami finansowymi i szefami działów.
 
-Inne kryteria wyceny to na przykład określenie, czy mają zostać wykorzystane pola i encje, które obecnie nie są wymiarami kalkulacji cen, ale nadają się do takiej funkcji w organizacji. Pola takie jak **Kategoria transakcji** ( **msdyn_transactioncategory** ) i **Zasób, który można zarezerwować** ( **bookableresource** ) to przykłady kandydatów na wymiary. 
+Inne kryteria wyceny to na przykład określenie, czy mają zostać wykorzystane pola i encje, które obecnie nie są wymiarami kalkulacji cen, ale nadają się do takiej funkcji w organizacji. Pola takie jak **Kategoria transakcji** (**msdyn_transactioncategory**) i **Zasób, który można zarezerwować** (**bookableresource**) to przykłady kandydatów na wymiary. 
 
 Należy także rozważyć, czy wymiar kalkulacji cen powinien być tabelą, czy zestawem opcji. Jeśli przewidujesz zmiany wartości wymiaru w liczbie przekraczającej 10 lub 12, w związku z czym będziesz potrzebować dodatkowych atrybutów w takich wymiarach, utwórz encję, a nie zestaw opcji. Zarządzanie zestawem opcji, czyli na przykład dodawanie lub usuwanie wartości, wymaga udziału administratora lub programisty, podczas nowe wiersze do tabeli może dodawać większość użytkowników biznesowych.
 

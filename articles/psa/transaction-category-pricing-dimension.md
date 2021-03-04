@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082096"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150771"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Używanie kategorii transakcji jako wymiaru kalkulacji cen
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 W tym temacie pokazano, jak używać kategorii transakcji w roli wymiaru kalkulacji cen. Jeśli przed rozpoczęciem pracy jeszcze nie utworzono rozwiązania do zarządzania wymiarami kalkulacji cen, trzeba je utworzyć. Jeśli istnieje już rozwiązanie do zarządzania wymiarami kalkulacji cen, można wprowadzić w nim zmiany. Jeśli w organizacji nie utworzono nowego rozwiązania do zarządzania wymiarami kalkulacji cen, należy wykonać procedury opisane w temacie [Tworzenie niestandardowych pól i encji](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Dodawanie kategorii transakcji do formularzy i widoków
@@ -49,4 +52,4 @@ Poniższa tabela zawiera wyczerpującą listę gotowych formularzy i widoków, w
 1. W interfejsie internetowym wybierz kolejno opcje **Project Service** > **Ustawienia** > **Parametry**. 
 2. Na stronie **Parametry** na karcie **Wymiary kalkulacji cen oparte na kwocie** zwróć uwagę, że siatka na karcie pokazuje rekordy z encji **Wymiary kalkulacji cen**.
 3. Dodaj pozycję **Kategoria transakcji** do tej listy, a w polach **Ma zastosowanie do kosztu** i **Ma zastosowanie do sprzedaży** ustaw wartość **Tak**.
-4. W polu **Typ wymiaru** zaznacz opcję **Oparty na kwocie** , a następnie dla ustawienia **Kategoria transakcji** wybierz priorytet dotyczący kosztu i sprzedaży.
+4. W polu **Typ wymiaru** zaznacz opcję **Oparty na kwocie**, a następnie dla ustawienia **Kategoria transakcji** wybierz priorytet dotyczący kosztu i sprzedaży.

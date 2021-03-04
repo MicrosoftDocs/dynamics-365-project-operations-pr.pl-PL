@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8107a660f9993c7b6a32d69047a81fb7e0abef8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082076"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151401"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturowanie w Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -62,7 +64,7 @@ Wykonaj te kroki, aby utworzyć zbiorczo faktury.
 
     Komunikat ostrzegawczy informuje, że podczas tworzenia faktur może nastąpić opóźnienie. Proces również jest widoczny.
 
-2. Wybierz **OK** , aby zamknąć okno komunikatu.
+2. Wybierz **OK**, aby zamknąć okno komunikatu.
 
     Faktura jest generowana dla wszystkich transakcji w ramach pozycji kontraktu mających status **gotowe do zafakturowania**. Do tych transakcji należą między innymi pozycje czas, wydatki, punkty kontrolne i wiersze kontraktu opartego na produktach.
 
@@ -81,14 +83,14 @@ Wykonaj te kroki, aby skonfigurować zautomatyzowany przebieg fakturowania w PSA
     - ProcessRunner
     - UpdateRoleUtilization
 
-5. Wybierz **ProcessRunCaller** , a następnie wybierz opcję **Dodaj**.
+5. Wybierz **ProcessRunCaller**, a następnie wybierz opcję **Dodaj**.
 6. W następnym oknie dialogowym wybierz **OK**. Po wykonaniu przepływu pracy **Uśpienie** następuje przepływ pracy **Proces**.
 
     Możesz również wybrać opcję **ProcessRunner** w kroku 5. Następnie po wybraniu opcji **OK** przepływ pracy **Proces** jest zastępowany przepływem pracy **Uśpienie**.
 
 Przepływy pracy **ProcessRunCaller** i **ProcessRunner** tworzą faktury. **ProcessRunCaller** wywołuje **ProcessRunner**. **ProcessRunner** to przepływ pracy, który w rzeczywistości tworzy faktury. Przechodzi między wszystkimi pozycjami kontraktu, dla których muszą zostać utworzone faktury i tworzy faktury dla tych pozycji. W celu określenia pozycji kontraktu, dla których mają zostać utworzone faktury, zadanie będzie znajdzie daty rozpoczęcia fakturowania w pozycjach kontraktu. Jeśli pozycje kontraktu należące do jednego kontraktu mają taką samą datę rozpoczęcia fakturowania, transakcje zostaną połączone na jedną fakturę zawierającą dwa wiersze faktury. W przypadku braku transakcji do utworzenia faktur dla zadania program pominie tworzenie faktur.
 
-Kiedy **ProcessRunner** zakończy działanie, wywołuje **ProcessRunCaller** , dostarcza godzinę zakończenia i następuje zamknięcie. **ProcessRunCaller** następnie uruchamia zegar, który trwa 24 godziny od określonego czasu końcowego. Po upływie tego czasu program **ProcessRunCaller** jest zamknięty.
+Kiedy **ProcessRunner** zakończy działanie, wywołuje **ProcessRunCaller**, dostarcza godzinę zakończenia i następuje zamknięcie. **ProcessRunCaller** następnie uruchamia zegar, który trwa 24 godziny od określonego czasu końcowego. Po upływie tego czasu program **ProcessRunCaller** jest zamknięty.
 
 Zadanie przetwarzania wsadowego umożliwiającego tworzenie faktur jest zadaniem powtarzanym. Jeśli ten proces wsadowy jest wykonywany wiele razy, system tworzy wiele wystąpień zadania i powoduje to wystąpienie błędów. Z tego powodu proces przetwarzania wsadowego powinien być uruchamiany tylko raz. Aby uruchomić go tylko wtedy, gdy zakończy się jego działanie.
 
@@ -103,7 +105,7 @@ Podczas tworzenia wersji roboczej faktury projektu wszystkie niezafakturowane tr
 - Edytowanie i korygowanie ilości oraz typu fakturowania.
 - Bezpośrednie dodanie czasu, wydatku i opłaty jako transakcji na fakturze. Z tej funkcji można skorzystać, jeśli wiersz faktury jest mapowany na pozycję kontraktu, która umożliwia korzystanie z tych klas transakcji.
 
-Kliknij przycisk **Potwierdź** , aby potwierdzić fakturę. Akcja Confirm jest akcją jednokierunkową. Po wybraniu opcji **Confirm** system dokona zapisze fakturę jako tylko do odczytu i tworzy wartości rzeczywiste dotyczące sprzedaży z poszczególnych wierszy faktury dla każdego wiersza faktury. Jeśli Szczegóły wiersza faktury odwołują się do wartości rzeczywistej niezafakturowanej sprzedaży, system cofnie również wartość rzeczywistą nienależną sprzedaż. (Wszystkie wiersze faktury utworzone z danego wpisu czasu lub wydatku będą dotyczyć niezafakturowanego poziomu sprzedaży). Systemy integracji księgi głównej umożliwiają wycofanie zmian w toku prac projektów (PWT) na potrzeby księgowania.
+Kliknij przycisk **Potwierdź**, aby potwierdzić fakturę. Akcja Confirm jest akcją jednokierunkową. Po wybraniu opcji **Confirm** system dokona zapisze fakturę jako tylko do odczytu i tworzy wartości rzeczywiste dotyczące sprzedaży z poszczególnych wierszy faktury dla każdego wiersza faktury. Jeśli Szczegóły wiersza faktury odwołują się do wartości rzeczywistej niezafakturowanej sprzedaży, system cofnie również wartość rzeczywistą nienależną sprzedaż. (Wszystkie wiersze faktury utworzone z danego wpisu czasu lub wydatku będą dotyczyć niezafakturowanego poziomu sprzedaży). Systemy integracji księgi głównej umożliwiają wycofanie zmian w toku prac projektów (PWT) na potrzeby księgowania.
 
 ### <a name="correct-a-confirmed-psa-invoice"></a>Korygowanie potwierdzonej faktury w PSA
 
