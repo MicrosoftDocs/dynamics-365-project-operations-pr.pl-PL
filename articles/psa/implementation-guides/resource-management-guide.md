@@ -18,27 +18,29 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3b1f195cf712862972e6b52d1529089ccd52c775
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a0a12840f7f53cab0e81a5d3764d5c1a9d4df6a3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132526"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149061"
 ---
-# <a name="resource-management-guide"></a><span data-ttu-id="9fac4-103">Przewodnik menedżera zasobów</span><span class="sxs-lookup"><span data-stu-id="9fac4-103">Resource management guide</span></span>
+# <a name="resource-management-guide"></a><span data-ttu-id="ec62b-103">Przewodnik menedżera zasobów</span><span class="sxs-lookup"><span data-stu-id="ec62b-103">Resource management guide</span></span>
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="9fac4-104">Łącze do pliku PDF, które było wcześniej w tym temacie, zostało usunięte, a zawartość przeniesiono do następujących tematów:</span><span class="sxs-lookup"><span data-stu-id="9fac4-104">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
+<span data-ttu-id="ec62b-104">Łącze do pliku PDF, które było wcześniej w tym temacie, zostało usunięte, a zawartość przeniesiono do następujących tematów:</span><span class="sxs-lookup"><span data-stu-id="ec62b-104">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
 
-- [<span data-ttu-id="9fac4-105">Strona główna zarządzania zasobami</span><span class="sxs-lookup"><span data-stu-id="9fac4-105">Resource management home page</span></span>](../resource-management-home-page.md)
-- [<span data-ttu-id="9fac4-106">Najważniejsze pojęcia</span><span class="sxs-lookup"><span data-stu-id="9fac4-106">Key concepts</span></span>](../reports-key-concepts.md)
-- [<span data-ttu-id="9fac4-107">Realizowanie żądań zasobów</span><span class="sxs-lookup"><span data-stu-id="9fac4-107">Fulfilling resource requests</span></span>](../resource-management-fulfill-requests.md)
-- [<span data-ttu-id="9fac4-108">Proponowanie zasobów</span><span class="sxs-lookup"><span data-stu-id="9fac4-108">Proposing resources</span></span>](../resource-management-propose-resources.md)
-- [<span data-ttu-id="9fac4-109">Rezerwowanie zasobów</span><span class="sxs-lookup"><span data-stu-id="9fac4-109">Booking resources</span></span>](../resource-management-book-resources-scheduleboard.md)
-- [<span data-ttu-id="9fac4-110">Wstępne rezerwowanie wymagań</span><span class="sxs-lookup"><span data-stu-id="9fac4-110">Soft-book requirements</span></span>](../resource-management-softbook-requirements.md)
-- [<span data-ttu-id="9fac4-111">Modele umiejętności i biegłości</span><span class="sxs-lookup"><span data-stu-id="9fac4-111">Skills and proficiency models</span></span>](../resource-management-skills-proficiency.md)
-- [<span data-ttu-id="9fac4-112">Zarządzanie zasobami — często zadawane pytania</span><span class="sxs-lookup"><span data-stu-id="9fac4-112">Resource management FAQ</span></span>](../resource-management-faq.md)
+- [<span data-ttu-id="ec62b-105">Strona główna zarządzania zasobami</span><span class="sxs-lookup"><span data-stu-id="ec62b-105">Resource management home page</span></span>](../resource-management-home-page.md)
+- [<span data-ttu-id="ec62b-106">Najważniejsze pojęcia</span><span class="sxs-lookup"><span data-stu-id="ec62b-106">Key concepts</span></span>](../reports-key-concepts.md)
+- [<span data-ttu-id="ec62b-107">Realizowanie żądań zasobów</span><span class="sxs-lookup"><span data-stu-id="ec62b-107">Fulfilling resource requests</span></span>](../resource-management-fulfill-requests.md)
+- [<span data-ttu-id="ec62b-108">Proponowanie zasobów</span><span class="sxs-lookup"><span data-stu-id="ec62b-108">Proposing resources</span></span>](../resource-management-propose-resources.md)
+- [<span data-ttu-id="ec62b-109">Rezerwowanie zasobów</span><span class="sxs-lookup"><span data-stu-id="ec62b-109">Booking resources</span></span>](../resource-management-book-resources-scheduleboard.md)
+- [<span data-ttu-id="ec62b-110">Wstępne rezerwowanie wymagań</span><span class="sxs-lookup"><span data-stu-id="ec62b-110">Soft-book requirements</span></span>](../resource-management-softbook-requirements.md)
+- [<span data-ttu-id="ec62b-111">Modele umiejętności i biegłości</span><span class="sxs-lookup"><span data-stu-id="ec62b-111">Skills and proficiency models</span></span>](../resource-management-skills-proficiency.md)
+- [<span data-ttu-id="ec62b-112">Zarządzanie zasobami — często zadawane pytania</span><span class="sxs-lookup"><span data-stu-id="ec62b-112">Resource management FAQ</span></span>](../resource-management-faq.md)
 
 > [!NOTE]
-> <span data-ttu-id="9fac4-113">Ten temat zostanie usunięty w przyszłej aktualizacji dokumentacji.</span><span class="sxs-lookup"><span data-stu-id="9fac4-113">This topic will be removed in a future documentation update.</span></span> 
+> <span data-ttu-id="ec62b-113">Ten temat zostanie usunięty w przyszłej aktualizacji dokumentacji.</span><span class="sxs-lookup"><span data-stu-id="ec62b-113">This topic will be removed in a future documentation update.</span></span> 
