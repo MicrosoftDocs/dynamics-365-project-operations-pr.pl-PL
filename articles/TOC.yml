@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Co nowego
       items:
+        - name: Marzec 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-mar-2021-resource-based.md
         - name: Luty 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
           href: whats-new/whats-new-feb-2021-resource-based.md
         - name: Styczeń 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
@@ -318,52 +320,52 @@
       items:
         - name: Omówienie wydatków
           href: expense/expense-overview.md
-        - name: Wydajność zarządzania wydatkami dla projektów
+        - name: Środowisko nowego wydatku
           items:
-            - name: Konfiguracja i ustawianie
-              items:
-                - name: Konfigurowanie zasad
-                  href: expense/set-up-policies.md
-                - name: Konfigurowanie przepływów pracy
-                  href: expense/set-up-workflows.md
-                - name: Zarządzanie delegacją
-                  href: expense/manage-delegation.md
-                - name: Konfigurowanie parametrów zarządzania wydatkami
-                  href: expense/configure-expense-management-parameters.md
-                - name: Konfigurowanie integracji z kartą kredytową
-                  href: expense/set-up-credit-card-integration.md
-                - name: Ustawianie kategorii wydatków
-                  href: expense/set-up-expense-categories.md
-            - name: Praca z wydatkami osobistymi w raporcie wydatków
-              href: expense/personal-expenses-expense-report.md
-            - name: Tworzenie raportów wydatków
-              items:
-                - name: Dystrybucje w raporcie wydatków
-                  href: expense/distributions-expense-report.md
-            - name: Zatwierdzanie raportów wydatków
-              items:
-                - name: Raporty wydatków i różne osoby zatwierdzające
-                  href: expense/expense-reports-multiple-approvers.md
-            - name: Księgowanie raportów wydatków
-              href: expense/posting-expense-reports.md
-            - name: Wnioski wyjazdowe
-              href: expense/travel-requisition.md
-            - name: Zaliczka gotówkowa
-              href: expense/cash-advance.md
-            - name: Każdego dnia
-              href: expense/per-diems.md
-            - name: Zarządzanie finansami
-              items:
-                - name: Odzyskiwanie podatku VAT
-                  href: expense/vat-recovery.md
-            - name: Środowisko nowego wydatku
-              items:
-                - name: Przebudowane raporty wydatków
-                  href: expense/expense-reports-reimagined.md
-                - name: Dopasowywanie przychodu do wydatku przy użyciu OCR
-                  href: expense/match-receipt-expense-ocr.md
-            - name: Zarządzanie wydatkami w środowisku mobilnym
-              href: expense/expense-using-mobile.md
+            - name: Przebudowane raporty wydatków
+              href: expense/expense-reports-reimagined.md
+            - name: Przechwytywanie potwierdzenia za pomocą funkcji OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: Konfiguracja i ustawianie
+          items:
+            - name: Konfigurowanie zasad
+              href: expense/set-up-policies.md
+            - name: Konfigurowanie przepływów pracy
+              href: expense/set-up-workflows.md
+            - name: Zarządzanie delegacją
+              href: expense/manage-delegation.md
+            - name: Konfigurowanie parametrów zarządzania wydatkami
+              href: expense/configure-expense-management-parameters.md
+            - name: Konfigurowanie integracji z kartą kredytową
+              href: expense/set-up-credit-card-integration.md
+            - name: Ustawianie kategorii wydatków
+              href: expense/set-up-expense-categories.md
+        - name: Wydatki osobiste
+          href: expense/personal-expenses-expense-report.md
+        - name: Wydatki międzyfirmowe
+          href: prod-exp/intercompany-expense.md
+        - name: Tworzenie raportów wydatków
+          items:
+            - name: Dystrybucje w raporcie wydatków
+              href: expense/distributions-expense-report.md
+        - name: Zatwierdzanie raportów wydatków
+          items:
+            - name: Raporty wydatków i różne osoby zatwierdzające
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Księgowanie raportów wydatków
+          href: expense/posting-expense-reports.md
+        - name: Wnioski wyjazdowe
+          href: expense/travel-requisition.md
+        - name: Zaliczka gotówkowa
+          href: expense/cash-advance.md
+        - name: Każdego dnia
+          href: expense/per-diems.md
+        - name: Mobilna aplikacja wydatków
+          href: expense/expense-using-mobile.md
+        - name: Zarządzanie finansami
+          items:
+            - name: Odzyskiwanie podatku VAT
+              href: expense/vat-recovery.md
     - name: Zatwierdzenia
       items:
         - name: Omówienie zatwierdzeń
@@ -456,6 +458,8 @@
           href: environment/security-model.md
     - name: Co nowego
       items:
+        - name: Co nowego w marcu 2021 r. — wdrażanie wersji uproszczonej
+          href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: Co nowego w lutym 2021 r. — wdrażanie wersji uproszczonej
           href: pro/whats-new/whats-new-feb-2021-lite.md
         - name: Co nowego w styczniu 2021 r. — wdrażanie wersji uproszczonej
@@ -894,44 +898,52 @@
   items:
     - name: Omówienie zarządzania wydatkami
       href: prod-exp/expense-management.md
-    - name: Przebudowane raporty wydatków
-      href: prod-exp/ExpenseWorkspaceNew.md
-    - name: Zarządzanie wydatkami planu
-      href: prod-exp/plan-expense-management.md
-    - name: Parametry zarządzania wydatkami
-      href: prod-exp/Expense-Management-Parameters.md
-    - name: Mobilny obszar roboczy zarządzania wydatkami
-      href: prod-exp/expense-management-mobile-workspace.md
-    - name: Konfigurowanie przepływu pracy do zarządzania wydatkami
-      href: prod-exp/expense-workflows.md
-    - name: Przepływ pracy zarządzania wydatkami
-      href: prod-exp/expense-workflow.md
-    - name: Zarządzanie delegacją wydatków
-      href: prod-exp/manage-expense-delegation.md
-    - name: Przetwarzanie paragonów związanych z wydatkami
-      href: prod-exp/expense-receipt-processing.md
-    - name: Importowanie i zarządzanie transakcjami kartami kredytowymi
-      href: prod-exp/import-credit-card.md
-    - name: Dystrybucje w raporcie wydatków
-      href: prod-exp/expense-report-distributions.md
+    - name: Środowisko nowego wydatku
+      items:
+        - name: Przebudowane raporty wydatków
+          href: expense/expense-reports-reimagined.md
+        - name: Przechwytywanie potwierdzenia za pomocą funkcji OCR
+          href: expense/match-receipt-expense-ocr.md
+    - name: Konfiguracja i ustawianie
+      items:
+        - name: Konfigurowanie zasad
+          href: expense/set-up-policies.md
+        - name: Konfigurowanie przepływów pracy
+          href: expense/set-up-workflows.md
+        - name: Zarządzanie delegacją
+          href: expense/manage-delegation.md
+        - name: Konfigurowanie parametrów zarządzania wydatkami
+          href: expense/configure-expense-management-parameters.md
+        - name: Konfigurowanie integracji z kartą kredytową
+          href: expense/set-up-credit-card-integration.md
+        - name: Ustawianie kategorii wydatków
+          href: expense/set-up-expense-categories.md
+    - name: Wydatki osobiste
+      href: expense/personal-expenses-expense-report.md
     - name: Wydatki międzyfirmowe
       href: prod-exp/intercompany-expense.md
-    - name: Definiowanie zasad wydatków
-      href: prod-exp/travel-expense-policies.md
-    - name: Wyświetlanie raportu wydatków
-      href: prod-exp/view-expense-report.md
-    - name: Księgowanie raportu wydatków
-      href: prod-exp/post-expense.md
-    - name: Raporty wydatków i różne osoby zatwierdzające
-      href: prod-exp/expense-report-multiple-approvers.md
-    - name: Odzyskiwanie podatku VAT w zarządzaniu wydatkami
-      href: prod-exp/VAT-expense-report.md
-    - name: Reguły diety
-      href: prod-exp/per-diem.md
-    - name: Zapotrzebowania wyjazdowe
-      href: prod-exp/travel-req.md
-    - name: Wydatki osobiste w raporcie wydatków
-      href: prod-exp/personal-expenses.md
+    - name: Tworzenie raportów wydatków
+      items:
+        - name: Dystrybucje w raporcie wydatków
+          href: expense/distributions-expense-report.md
+    - name: Zatwierdzanie raportów wydatków
+      items:
+        - name: Raporty wydatków i różne osoby zatwierdzające
+          href: expense/expense-reports-multiple-approvers.md
+    - name: Księgowanie raportów wydatków
+      href: expense/posting-expense-reports.md
+    - name: Wnioski wyjazdowe
+      href: expense/travel-requisition.md
+    - name: Zaliczka gotówkowa
+      href: expense/cash-advance.md
+    - name: Każdego dnia
+      href: expense/per-diems.md
+    - name: Mobilna aplikacja wydatków
+      href: expense/expense-using-mobile.md
+    - name: Zarządzanie finansami
+      items:
+        - name: Odzyskiwanie podatku VAT
+          href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -940,10 +952,16 @@
       items:
         - name: Harmonogram wydań aktualizacji dla rozwiązania Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 29, V3'
+          href: psa/whats-new-ur-29.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 28.6, poprawka, V3'
+          href: psa/whats-new-ur-28-6.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 28.5, poprawka, V3'
           href: psa/whats-new-ur-28-5.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 28, V3'
           href: psa/whats-new-ur-28.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 27.6, poprawka, V3'
+          href: psa/whats-new-ur-27-6.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 27.5, poprawka, V3'
           href: psa/whats-new-ur-27-5.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 27, V3'
