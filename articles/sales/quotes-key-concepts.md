@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121321"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277531"
 ---
 # <a name="quotes---key-concepts"></a>Najważniejsze koncepcje — oferty cenowe
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-W przypadku Dynamics 365 Project Operations istnieją dwa typy wyceny — projekt i oferta sprzedaży. Te dwa typy wycen różnią się w następujących obszarach:
+W rozwiązaniu Dynamics 365 Project Operations istnieją dwa typy ofert, projektów i sprzedaży. Te dwa typy wycen różnią się w następujących obszarach:
 
 - **Siatki dla pozycji w wierszu**: W ofercie sprzedaży jest tylko jedna siatka dla pozycji. Oferta projektu zawiera dwie siatki dla pozycji w wierszu. Jedna siatka dla linii projektów, a druga jest dla wierszy produktów.
 - **Aktywacja i poprawki**: oferty sprzedaży obsługują aktywację i poprawki. Te procesy nie są obsługiwane w ofercie projektu.

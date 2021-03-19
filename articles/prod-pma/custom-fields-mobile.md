@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082066"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271006"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Zaimplementuj pola niestandardowe dla aplikacji mobilnej Microsoft Dynamics 365 Project Timesheet w systemie iOS i Android
 
@@ -61,11 +61,11 @@ Właściwość **FieldBaseType** obiektu **TsTimesheetCustom** określa typ pola
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Jeśli właściwość **stringOptions** nie jest podana w obiekcie **TSTimesheetCustomField** , użytkownikowi zostanie udostępnione pole dowolnego tekstu.
+- Jeśli właściwość **stringOptions** nie jest podana w obiekcie **TSTimesheetCustomField**, użytkownikowi zostanie udostępnione pole dowolnego tekstu.
 
     Właściwość **stringLength** może służyć do ustawiania maksymalnej długości ciągu, jaką użytkownicy mogą wprowadzać.
 
-- Jeśli właściwość **stringOptions** jest podana dla obiektu **TSTimesheetCustomField** , te elementy listy są jedynymi wartościami, które mogą być wybierane przez użytkowników za pomocą przycisków opcji (przycisków radiowych).
+- Jeśli właściwość **stringOptions** jest podana dla obiektu **TSTimesheetCustomField**, te elementy listy są jedynymi wartościami, które mogą być wybierane przez użytkowników za pomocą przycisków opcji (przycisków radiowych).
 
     W takim przypadku pole ciągu może działać jako wartość wyliczenia na potrzeby wprowadzania danych przez użytkownika. Aby zapisać wartość w bazie danych jako wyliczenie, ręcznie zamapuj wartość ciągu z powrotem na wartość wyliczenia przed zapisaniem do bazy danych za pomocą łańcucha poleceń (zobacz „Użyj łańcucha poleceń w klasie TSTimesheetEntryService, aby zapisać wpis grafiku z aplikacja z powrotem do bazy danych ”w dalszej części tego tematu, aby zapoznać się z przykładem).
 
@@ -76,7 +76,7 @@ Za pomocą tej właściwości można formatować wartości rzeczywiste jako walu
 - **TSCustomFieldExtendedType:None** — Formatowanie nie jest stosowane.
 - **TSCustomFieldExtendedType::Waluta** – sformatuj wartość jako walutę.
 
-    Kiedy formatowanie waluty jest aktywne, można użyć pola **stringValue** , aby przekazać kod waluty, który ma być wyświetlony w aplikacji. Jest to wartość tylko do odczytu.
+    Kiedy formatowanie waluty jest aktywne, można użyć pola **stringValue**, aby przekazać kod waluty, który ma być wyświetlony w aplikacji. Jest to wartość tylko do odczytu.
 
     Pole **realValue** zawiera kwotę pieniężną, która powinna zostać zapisana w bazie danych.
 
@@ -97,11 +97,11 @@ Ta właściwość identyfikuje pole, gdy wartości dostarczane przez aplikację 
 
 ### <a name="iseditable-noyes"></a>isEditable (NoYes)
 
-Ustaw tę właściwość na **Tak** , aby określić, że pole w sekcji wpisu grafiku powinno być edytowalne przez użytkowników. Ustaw właściwość na **Nie** , aby uczynić pole tylko do odczytu.
+Ustaw tę właściwość na **Tak**, aby określić, że pole w sekcji wpisu grafiku powinno być edytowalne przez użytkowników. Ustaw właściwość na **Nie**, aby uczynić pole tylko do odczytu.
 
 ### <a name="ismandatory-noyes"></a>isMandatory (NoYes)
 
-Ustaw tę właściwość na **Tak** , aby określić, że pole w sekcji wpisu grafiku powinno być obowiązkowe.
+Ustaw tę właściwość na **Tak**, aby określić, że pole w sekcji wpisu grafiku powinno być obowiązkowe.
 
 ### <a name="label-str"></a>label (str)
 
@@ -109,7 +109,7 @@ Właściwość ta określa etykietę widoczną obok pola w aplikacji.
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (lista ciągów)
 
-Ta właściwość jest stosowana tylko wtedy, gdy **fieldBaseType** jest ustawiona na wartość **Ciąg**. Jeśli ustawiona jest opcja **stringOptions** , wartości ciągów, które są dostępne do wyboru za pomocą przycisków opcji (przycisków radiowych), są określane przez ciągi na liście. Jeśli nie podano żadnych ciągów, dozwolone jest wprowadzanie dowolnego tekstu w polu ciągu (przykład można znaleźć w sekcji „Używanie łańcucha poleceń w klasie TSTimesheetEntryService do zapisywania wpisu grafiku z aplikacji z powrotem do bazy danych” w dalszej części tego tematu). .
+Ta właściwość jest stosowana tylko wtedy, gdy **fieldBaseType** jest ustawiona na wartość **Ciąg**. Jeśli ustawiona jest opcja **stringOptions**, wartości ciągów, które są dostępne do wyboru za pomocą przycisków opcji (przycisków radiowych), są określane przez ciągi na liście. Jeśli nie podano żadnych ciągów, dozwolone jest wprowadzanie dowolnego tekstu w polu ciągu (przykład można znaleźć w sekcji „Używanie łańcucha poleceń w klasie TSTimesheetEntryService do zapisywania wpisu grafiku z aplikacji z powrotem do bazy danych” w dalszej części tego tematu). .
 
 ### <a name="stringlength-int"></a>stringLength (int)
 
@@ -145,7 +145,7 @@ W przypadku pól typu **Rzeczywista** ta właściwość przekazuje wartość rze
 
 ### <a name="stringvalue-str"></a>stringValue (str)
 
-W przypadku pól typu **Ciąg** ta właściwość przekazuje wartość ciąg pola między serwerem a aplikacją. Jest on również używany w przypadku pól o typie **rzeczywistym** , które są sformatowane jako waluta. W przypadku tych pól właściwość jest używana do przekazania kodu waluty do aplikacji.
+W przypadku pól typu **Ciąg** ta właściwość przekazuje wartość ciąg pola między serwerem a aplikacją. Jest on również używany w przypadku pól o typie **rzeczywistym**, które są sformatowane jako waluta. W przypadku tych pól właściwość jest używana do przekazania kodu waluty do aplikacji.
 
 ### <a name="datevalue-date"></a>dateValue (data)
 
@@ -179,9 +179,9 @@ Poniżej znajduje się zrzut ekranu z Visual Studio drzewa obiektów aplikacji. 
 
 Ten kod Steruje ustawieniami wyświetlania pola w aplikacji. Na przykład kontroluje typ pola, etykietę, czy pole jest obowiązkowe oraz w jakiej sekcji pojawia się pole.
 
-W poniższym przykładzie przedstawiono pole ciągu na wpisach czasowych. W tym polu są dostępne dwie opcje, **Pierwsza opcja** i **Druga opcja** , dostępnych za pośrednictwem przycisków opcji (przycisków radiowych). Pole w aplikacji jest skojarzone z polem **TestLineString** dodawanym do tabeli TSTimesheetLine.
+W poniższym przykładzie przedstawiono pole ciągu na wpisach czasowych. W tym polu są dostępne dwie opcje, **Pierwsza opcja** i **Druga opcja**, dostępnych za pośrednictwem przycisków opcji (przycisków radiowych). Pole w aplikacji jest skojarzone z polem **TestLineString** dodawanym do tabeli TSTimesheetLine.
 
-Zwróć uwagę na użycie metody **TSTimesheetCustomField::newFromMetatdata()** w celu uproszczenia inicjowania niestandardowych właściwości pola: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** i **numberOfDecimals**. Te parametry można również ustawić ręcznie, zależnie od preferencji.
+Zwróć uwagę na użycie metody **TSTimesheetCustomField::newFromMetatdata()** w celu uproszczenia inicjowania niestandardowych właściwości pola: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** i **numberOfDecimals**. Te parametry można również ustawić ręcznie, zależnie od preferencji.
 
 ```xpp
 ...
@@ -248,7 +248,7 @@ Aby zapisać pole niestandardowe z powrotem do bazy danych przy użyciu programu
 - Metodę **populateTimesheetWeekFromEntry** można również rozszerzyć, jeśli pole niestandardowe mapowane na obiekt **TSTimesheetEntry** musi zostać zapisane z powrotem do tabeli bazy danych TSTimesheetLineweek.
 
 > [!NOTE]
-> Poniższy przykład zapisuje wartość **firstOption** lub **secondOption** , która jest wybierana przez użytkownika do bazy danych w postaci nieprzetworzonej wartości ciągu. Jeśli pole bazy danych jest polem typu **Wyliczenie** , można je ręcznie zamapować na wartość enum, a następnie zapisać w polu wyliczenia w tabeli bazy danych.
+> Poniższy przykład zapisuje wartość **firstOption** lub **secondOption**, która jest wybierana przez użytkownika do bazy danych w postaci nieprzetworzonej wartości ciągu. Jeśli pole bazy danych jest polem typu **Wyliczenie**, można je ręcznie zamapować na wartość enum, a następnie zapisać w polu wyliczenia w tabeli bazy danych.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ Istniejąca logika funkcji grafiku na poziomie bazy danych będzie nadal działa
 
 - Jeśli **validateWrite** w tabeli TSTimesheetLine zwróci **false** podczas operacji zapisywania wiersza grafiku, w aplikacji mobilnej zostanie wyświetlony komunikat o błędzie.
 - Jeśli **validateSubmit** w tabeli TSTimesheetTable zwróci **false** podczas przesyłania grafiku w aplikacji wyświetlany jest komunikat o błędzie.
-- Logika, która wypełni pola (na przykład **Właściwość wiersza** ) podczas metody **wstawiania** w tabeli TSTimesheetLine, będzie nadal działać.
+- Logika, która wypełni pola (na przykład **Właściwość wiersza**) podczas metody **wstawiania** w tabeli TSTimesheetLine, będzie nadal działać.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Ukrywanie i oznaczanie pól wbudowanych jako tylko do odczytu za pośrednictwem konfiguracji
 

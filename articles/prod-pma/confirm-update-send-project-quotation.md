@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: f9d76c65cb6732a96cd0bd6c4c36a2a73a65a2b6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7794f9b620165b3ce914e42693faa792e3918854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082150"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270826"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Potwierdzanie, aktualizowanie i wysyłanie oferty projektu
 
@@ -37,9 +37,9 @@ Istniejącą ofertę projektu można wysłać do potwierdzenia za pomocą wiadom
 
 1. Przejdź do sekcji **Zarządzanie projektami i księgowanie** > **Projekty** > **Wszystkie projekty**. 
 2. Na stronie **Oferta projektu** wybierz ofertę, którą chcesz wysłać do potwierdzenia. 
-3. Na karcie **Kolejne czynności** , w grupie **Generowanie** , wybierz pozycję **Potwierdź**. 
-4. Na stronie **Potwierdzenie oferty** ustaw wymagane parametry. Aby na przykład wydrukować potwierdzenie, w obszarze **Opcje drukowania** włącz opcję **Potwierdzenie drukowania** , a następnie kliknij przycisk **OK**.
-5. Na stronie **Wysyłanie oferty** wybierz **Opcje** i na stronie **Ustawienia celu drukowania** wybierz, czy oferta ma być wysłana do **Ekranu** , jako **E-mail** lub **Plik** , do **Archiwum drukowania** lub **Drukarki** , a następnie wprowadź odpowiednie zmiany w obszarze **Specyfikacja** , aby przesłać ofertę.
+3. Na karcie **Kolejne czynności**, w grupie **Generowanie**, wybierz pozycję **Potwierdź**. 
+4. Na stronie **Potwierdzenie oferty** ustaw wymagane parametry. Aby na przykład wydrukować potwierdzenie, w obszarze **Opcje drukowania** włącz opcję **Potwierdzenie drukowania**, a następnie kliknij przycisk **OK**.
+5. Na stronie **Wysyłanie oferty** wybierz **Opcje** i na stronie **Ustawienia celu drukowania** wybierz, czy oferta ma być wysłana do **Ekranu**, jako **E-mail** lub **Plik**, do **Archiwum drukowania** lub **Drukarki**, a następnie wprowadź odpowiednie zmiany w obszarze **Specyfikacja**, aby przesłać ofertę.
 6. Na stronie **Ustawienia celu drukowania** wybierz **OK**.  
 
 ## <a name="update-a-project-quotation"></a>Aktualizowanie oferty projektu
@@ -53,7 +53,7 @@ W celu zmodyfikowania istniejącej oferty projektu należy ustawić jej stan na 
 ## <a name="send-a-project-quotation-to-a-customer"></a>Przesyłanie oferty projektu do klienta 
 
 1. Przejdź do obszaru **Zarządzanie projektami i księgowanie** > **Oferty** > **Oferty projektów** i wybierz ofertę projektu, którą chcesz wysłać.
-2. Na stronie **Oferty projektu** na karcie **Oferta** w grupie **Procesy** , wybierz pozycję **Wyślij ofertę**. Stan oferty jest aktualizowany na wartość **Wysłano**.
+2. Na stronie **Oferty projektu** na karcie **Oferta** w grupie **Procesy**, wybierz pozycję **Wyślij ofertę**. Stan oferty jest aktualizowany na wartość **Wysłano**.
 
 > [!NOTE]
 > Oferty projektu nie można zmodyfikować po zmianie stanu na **Wysłana**.

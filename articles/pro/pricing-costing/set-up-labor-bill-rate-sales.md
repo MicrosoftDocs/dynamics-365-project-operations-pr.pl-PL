@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 733b7c83de8137aba6c084d5f03a2a4cf076a16c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181195"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274426"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Konfigurowanie stawek weksli robocizny — wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-Każdy cennik ma zestaw stawek pracy, inaczej cen ról, które obowiązują w ramach kontekstu i daty obowiązywania z nagłówka danego cennika. Stawki za koszty fakturowania w Dynamics 365 Project Operations można skonfigurować tylko w jednej walucie, która jest walutą w nagłówku cennika.
+Każdy cennik ma zestaw stawek pracy, inaczej cen ról, które obowiązują w ramach kontekstu i daty obowiązywania z nagłówka danego cennika. Stawki faktur w rozwiązaniu Dynamics 365 Project Operations można skonfigurować tylko w jednej walucie, która jest walutą w nagłówku Cennik.
 
 1. Aby skonfigurować stawki sprzedaży wykonanej pracy w cenniku, należy utworzyć Cennik na podstawie nagłówka cennika. 
 2. Na karcie **Ceny ról**. w podsiatce, wybierz pozycję **+ Nowa cena roli**. 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 92b12bd9272805a736286bf7e0ff926cb6361c05
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e14dbe5abb69a547e2d09ef9e6bcba48e1f89455
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125641"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279241"
 ---
 # <a name="schedule-assistant-overview"></a>Omówienie asystenta planowania
 
@@ -25,7 +25,7 @@ Po zidentyfikowaniu odpowiednich zasobów, menedżer zasobów lub menedżer proj
 
 ## <a name="prerequisites"></a>Wymagania wstępne
 
-Asystent planowania jest częścią rozwiązania Universal Resource Scheduling. To rozwiązanie jest dołączone i instalowane wraz z Dynamics 365 Project Operations, Dynamics 365 Field Service i Dynamics 365 Customer Service.
+Asystent planowania jest częścią rozwiązania Universal Resource Scheduling. To rozwiązanie jest dołączone i instalowane z rozwiązaniami Dynamics 365 Project Operations, Dynamics 365 Field Service oraz Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Dopasowywanie wymagań i zasobów
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e49a95a04e9506e983d920c49d4c504d9f944c88
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181510"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275731"
 ---
 # <a name="copy-price-lists"></a>Kopiowanie cenników
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Użytkownik może tworzyć kopie cenników w Dynamics 365 Project Operations. Na przykład można utworzyć cenniki dla nadchodzącego roku, korzystając z cennika z bieżącego roku.  Istnieje również możliwość skopiowania cennika stawek rozliczania i cen sprzedaży z cenników dla kosztu. 
+W rozwiązaniu Dynamics 365 Project Operations można tworzyć kopie cenników. Na przykład można utworzyć cenniki dla nadchodzącego roku, korzystając z cennika z bieżącego roku.  Istnieje również możliwość skopiowania cennika stawek rozliczania i cen sprzedaży z cenników dla kosztu. 
 
 Aby utworzyć kopię cennika, należy wykonać następujące kroki.
 

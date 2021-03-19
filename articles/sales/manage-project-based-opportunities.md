@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118486"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277846"
 ---
 # <a name="manage-project-based-opportunities"></a>Zarządzanie szansami sprzedaży opartymi na projektach
 
@@ -21,7 +21,7 @@ _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i 
 
 Przedsiębiorstwa oparte na projektach zwykle mają swoje działania w wielu krajach i lokalizacjach. Koszty wykonania i dostawy projektu mogą się różnić zależnie od tego, gdzie projekt jest wykonywany, i który oddział się nim zajmuje. Może to wpłynąć na marże transakcji. Dostarczanie usług opartych na projektach zwykle polega na dużym poziomie zasobów ludzkich, znaczących kosztach podróży, kosztach materiałowych i innych kosztach.
 
-Szanse sprzedaży w programie Dynamics 365 Project Operations są utworzone wraz z rozszerzeniami szans sprzedaży w Dynamics 365 Sales. Temat zawiera szczegółowe informacje o różnych polach i regułach biznesowych dołączonych do dodatkowych funkcji wymaganych przez firmy oparte na projektach, aby zarządzać szansami sprzedaży opartymi na projektach.
+Możliwości oparte na projekcie w rozwiązaniu Dynamics 365 Project Operations są zaprojektowane z rozszerzeniami do systemu Dynamics 365 Sales. Temat zawiera szczegółowe informacje o różnych polach i regułach biznesowych dołączonych do dodatkowych funkcji wymaganych przez firmy oparte na projektach, aby zarządzać szansami sprzedaży opartymi na projektach.
 
 ## <a name="view-all-project-based-opportunities"></a>Wyświetlanie wszystkich szans sprzedaży opartych na projektach
 

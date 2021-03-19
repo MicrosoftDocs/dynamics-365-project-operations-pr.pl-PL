@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181555"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274062"
 ---
 # <a name="manage-a-proforma-invoice---lite"></a>Zarządzanie fakturą proforma - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-W Dynamics 365 Project Operations faktury proforma są budowane jako rozszerzenie faktur w Dynamics 365 Sales. However, there are many differences in the invoicing process between Sales i Project Operations when it comes to invoicing. Nie można na przykład utworzyć nowej faktury na stronie **Listy faktur** w Project Operations, ale może to zrobić w przypadku sprzedaży. Te różnice i rozszerzenia służą do obsługi procesów fakturowania projektów, które różnią się od typowej faktury za zamówienie sprzedaży.
+W rozwiązaniu Dynamics 365 Project Operations faktury proforma są budowane jako rozszerzenie faktur w Dynamics 365 Sales. However, there are many differences in the invoicing process between Sales i Project Operations when it comes to invoicing. Nie można na przykład utworzyć nowej faktury na stronie **Listy faktur** w Project Operations, ale może to zrobić w przypadku sprzedaży. Te różnice i rozszerzenia służą do obsługi procesów fakturowania projektów, które różnią się od typowej faktury za zamówienie sprzedaży.
 
 > [!IMPORTANT]
 > Ze względu na różnice między Sales i Project Operations nie można zamiennie używać faktur.

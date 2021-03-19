@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180205"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275506"
 ---
 # <a name="set-up-price-lists"></a>Konfigurowanie cenników
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Cenniki w Dynamics 365 Project Operations są odzwierciedleniem katalogu stawek. Stawki wyrażają koszty, sprzedaż i stawki rozliczeń. W zależności od tego, czy cennik zawiera stawki kosztów lub stawki sprzedaży i stawki rozliczeń, kontekstem cennika jest **Sprzedaż** lub **Koszt**.
+Cenniki w rozwiązaniu Dynamics 365 Project Operations reprezentują katalog stawek. Stawki wyrażają koszty, sprzedaż i stawki rozliczeń. W zależności od tego, czy cennik zawiera stawki kosztów lub stawki sprzedaży i stawki rozliczeń, kontekstem cennika jest **Sprzedaż** lub **Koszt**.
 
 Poniższe rozszerzenia są specyficzne dla Project Operations i są stosowane do cenników z Dynamics 365 Sales.
 

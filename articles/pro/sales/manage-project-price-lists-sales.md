@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175994"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273031"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Zarządzanie cennikami projektu w ofertach projektu - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-Oferty projektów są zaprojektowane w taki sposób, aby obsługiwały cenniki sprzedaży z wieloma efektywnymi datami. W Dynamics 365 Project Operations dodano nową skojarzoną encję o nazwie **Cenniki projektu**. Ta encja ma relację 1-do-wielu z ofertą projektu.
+Oferty projektów są zaprojektowane w taki sposób, aby obsługiwały cenniki sprzedaży z wieloma efektywnymi datami. W programie Dynamics 365 Project Operations dodawana jest nowa encja skojarzona o nazwie **Cenniki projektu**. Ta encja ma relację 1-do-wielu z ofertą projektu.
 
 Cenniki projektu są używane do wyceny transakcji dotyczących godzin i kosztów w projekcie. Jeśli oferta zawiera jeden lub więcej cenników projektu, te cenniki są używane do szacowania czasu i wydatków oraz wartości rzeczywistych w projektach skojarzonych z ofertą za pośrednictwem wiersza oferty.
 

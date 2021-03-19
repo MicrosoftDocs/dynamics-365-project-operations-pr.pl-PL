@@ -1,6 +1,6 @@
 ---
 title: Konfigurowanie pól niestandardowych Project Operations jako wymiarów kalkulacji cen
-description: W tym temacie zamieszczono informacje na temat używania istniejących pól programu Dynamics 365 Project Operations jako wymiarów kalkulacji cen.
+description: Ten temat zawiera informacje o używaniu pól jako wymiarów kalkulacji cen w rozwiązaniu Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 59367b35f15f806b109f606e912edc487d9e7685
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04b823e8237590a294ed0706e64d0ecb9d2cf56f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119251"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274651"
 ---
-# <a name="project-operations-fields-as-pricing-dimensions"></a>Konfigurowanie pól niestandardowych Project Operations jako wymiarów kalkulacji cen
+# <a name="project-operations-fields-as-pricing-dimensions"></a>Pola aplikacji Project Operations jako wymiary kalkulacji cen
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 

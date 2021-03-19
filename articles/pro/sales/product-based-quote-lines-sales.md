@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f6aa428c486f149308ad078f9d7a80a0be0f0f04
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 29d82637c6c8bb5b5cde7707d181d5b3d3b235c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178201"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272581"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>Omówienie wierszy oferty opartej na produkcie - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-W Dynamics 365 Project Operations można tworzyć wiersze ofert oparte na produktach. Wiersze ofert oparte na produktach mogą być dodane ręcznie albo dotyczyć pozycji z katalogu produktów.
+W programie Dynamics 365 Project Operations można tworzyć wiersze ofert oparte na produktach. Wiersze ofert oparte na produktach mogą być dodane ręcznie albo dotyczyć pozycji z katalogu produktów.
 
 ## <a name="product-catalog"></a>Katalog produktów
 

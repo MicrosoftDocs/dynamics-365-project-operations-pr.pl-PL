@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082038"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270781"
 ---
 # <a name="intercompany-invoicing"></a>Faktura międzyfirmowa
 
@@ -31,7 +31,7 @@ ms.locfileid: "4082038"
 
 W tym artykule zamieszczono informacje i przykłady dotyczące międzyfirmowego fakturowania projektów.
 
-Organizacja może dysponować wieloma oddziałami, podmiotami zależnymi i innymi firmami, które przekazują sobie produkty i usługi do projektów. Podmiot prawny, który świadczy usługę lub produkt, jest nazywany *firmą udzielającą pożyczki* , a podmiot prawny, który otrzymuje usługę lub produkt, jest nazywany *firmą pożyczającą*. 
+Organizacja może dysponować wieloma oddziałami, podmiotami zależnymi i innymi firmami, które przekazują sobie produkty i usługi do projektów. Podmiot prawny, który świadczy usługę lub produkt, jest nazywany *firmą udzielającą pożyczki*, a podmiot prawny, który otrzymuje usługę lub produkt, jest nazywany *firmą pożyczającą*. 
 
 Na poniższej ilustracji przedstawiono typowy scenariusz, w którym dwie osoby prawne, SI FR (firma pożyczająca) i SI USA (firma udzielająca pożyczki) współużytkują zasoby w celu dostarczenia projektu dla klienta A. praca dla klienta A. 
 
@@ -65,7 +65,7 @@ W tym przykładzie FRSI musi być klientem w firmie USSI, a USSI musi być dosta
    |  C   |                                  W FRSI otwórz właśnie utworzony rekord dostawcy.                                  | W okienku akcji na karcie <strong>Ogólne</strong> w grupie <strong>Konfiguracja</strong> kliknij opcję <strong>Międzyfirmowe</strong>. Na stronie <strong>Międzyfirmowe</strong> na karcie <strong>Relacja handlowa</strong> ustaw suwak <strong>Aktywny</strong> na <strong>Tak</strong>. W polu <strong>Firma klienta</strong> wybierz rekord klienta utworzony w kroku A. |
 
 
-2. Kliknij **Zarządzanie projektami i księgowanie** &gt; **Ustawienia** &gt; **Parametry Zarządzanie projektami i księgowanie** , a następnie kliknij kartę **Międzyfirmowe**. Sposób konfigurowania parametrów zależy od tego, czy jest to osoba prawna lub osoba prawna, która jest pożyczana.
+2. Kliknij **Zarządzanie projektami i księgowanie** &gt; **Ustawienia** &gt; **Parametry Zarządzanie projektami i księgowanie**, a następnie kliknij kartę **Międzyfirmowe**. Sposób konfigurowania parametrów zależy od tego, czy jest to osoba prawna lub osoba prawna, która jest pożyczana.
    -   Jeśli jesteś firmą pożyczającą, wybierz kategorię zaopatrzenia, która ma być używana do dopasowywania faktur od dostawcy, które są generowane automatycznie.
    -   Jeśli jesteś firmą udzielającą pożyczki, dla każdego podmiotu pożyczającego wybierz domyślną kategorię projektu dla każdego typu transakcji. Kategorie projektów są używane do konfiguracji podatku, gdy zafakturowana kategoria w transakcjach międzyfirmowych istnieje tylko w firmie wypożyczającej. Istnieje możliwość naliczenia przychodu z transakcji międzyfirmowych. To naliczanie jest wykonywane po zaksięgowaniu transakcji, a następnie jest wycofywane po zaksięgowaniu faktury międzyfirmowej.
 
@@ -94,9 +94,9 @@ USSI, firma udzielająca pożyczki, musi utworzyć i zaksięgować fakturę mię
 
 | Krok | Punkt wejścia                                                                                             | Opis                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Zarządzanie projektami i księgowanie** &gt; **Faktury projektów** &gt; **Faktura międzyfirmowa dla klienta**  | Kliknij pozycję **Nowy** , aby otworzyć stronę **Utwórz fakturę międzyfirmową**.                                                                                  |
+| A    | **Zarządzanie projektami i księgowanie** &gt; **Faktury projektów** &gt; **Faktura międzyfirmowa dla klienta**  | Kliknij pozycję **Nowy**, aby otworzyć stronę **Utwórz fakturę międzyfirmową**.                                                                                  |
 | B    | **Zarządzanie projektami i księgowanie** &gt; **Faktury projektów** &gt; **Faktury międzyfirmowe dla klienta** | Na stronie **Tworzenie faktury międzyfirmowej** wprowadź firmę, określ transakcję, która ma zostać uwzględniona, a następnie kliknij opcję **Wyszukaj**. |
-| C    | **Zarządzanie projektami i księgowanie** &gt; **Faktury projektów** &gt; **Faktury międzyfirmowe dla klienta** | Wybierz transakcje do zafakturowania lub kliknij pozycję **Zaznacz wszystko** , aby zafakturować wszystkie transakcje z listy, a następnie kliknij przycisk **OK**.                  |
+| C    | **Zarządzanie projektami i księgowanie** &gt; **Faktury projektów** &gt; **Faktury międzyfirmowe dla klienta** | Wybierz transakcje do zafakturowania lub kliknij pozycję **Zaznacz wszystko**, aby zafakturować wszystkie transakcje z listy, a następnie kliknij przycisk **OK**.                  |
 | D    | Strona **Faktura międzyfirmowa**                                                                       | Zostanie wyświetlona oferta międzyfirmowej faktury dla klienta.                                                                                             |
 | E    | Strona **Faktura międzyfirmowa**                                                                       | Kliknij pozycję **Wpis**.                                                                                                                                  |
 
@@ -107,7 +107,7 @@ Gdy firma pożyczająca, USSI, księguje międzyfirmową fakturę dla odbiorcy, 
 |------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | A    | **Rozrachunki z dostawcami** &gt; **Faktury** &gt; **Oczekujące faktury od dostawcy**                            | Przejrzyj fakturę, aby sprawdzić, czy są uwzględnione wartości grafiku, a następnie kliknij opcję księguj fakturę od dostawcy.                  |
 | B    | **Zarządzanie projektami i księgowanie** &gt; **Faktury projektów** &gt; **Propozycje faktur projektowych** | Utwórz nową fakturę projektu dla projektu i sprawdź, czy są na nim zaksięgowane transakcje godzinowe.            |
-| C    | Strona **Faktura projektu**                                                                       | Wybierz fakturę projektu, a następnie kliknij opcję **Wyświetl szczegóły** , aby przejrzeć koszty i kwotę sprzedaży. Następnie należy zaksięgować fakturę. |
+| C    | Strona **Faktura projektu**                                                                       | Wybierz fakturę projektu, a następnie kliknij opcję **Wyświetl szczegóły**, aby przejrzeć koszty i kwotę sprzedaży. Następnie należy zaksięgować fakturę. |
 
 
 Aby uzyskać więcej informacji, zobacz temat [Konfigurowanie międzyfirmowego fakturowania projektu](tasks/configure-intercompany-project-invoicing.md).

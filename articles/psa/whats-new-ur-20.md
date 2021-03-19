@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147126"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280681"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation, wydanie 20, wer. 3
 
@@ -42,7 +42,7 @@ Rozwiązano następujące problemy:
 
 - Importowanie członków zespołu projektu przy użyciu metody alokacji, która wymaga użycia godzin, powoduje wyczyszczenie niejasnych komunikatów o błędach, kiedy określona liczba godzin jest równa zero.
 - Podczas wprowadzania przez użytkownika maksymalnej liczby znaków w polu **Opis** dla zadania w projekcie jest wyświetlany nieprawidłowy błąd.
-- Strona **pobierania dodatków Microsoft Dynamics 365 Project Service Automation** przekierowuje do strony pobierania w języku angielskim, kiedy ustawienia języka użytkownika są ustawione na japoński.
+- Strona **Pobierz dodatek Microsoft Dynamics 365 Project Service Automation** przekierowuje do strony pobierania w języku angielskim, gdy ustawienia języka użytkownika są ustawione na japoński.
 - Kiedy wystąpi błąd serwera, etykieta synchronizacji na karcie **Harmonogram** w formularzu **Projekty** pozostaje niekiedy w programie.
 - Gdy zadanie jest modyfikowane, nadmiarowe aktualizacje zadań są wysyłane na serwer.
 

@@ -1,5 +1,5 @@
 ---
-title: Zagadnienia dotyczące uaktualniania — Microsoft Dynamics 365 Project Service Automation z wersji 2.x lub 1.x do wersji 3
+title: Zagadnienia dotyczące uaktualniania — Microsoft Dynamics 365 Project Service Automation z wersji 2.x lub 1.x do wersji 3.x
 description: W tym temat zamieszczono informacje na temat zagadnień, które należy wziąć pod uwagę podczas uaktualniania programu Project Service Automation w wersji 2.x lub 1.x do wersji 3.
 manager: kfend
 ms.prod: ''
@@ -18,12 +18,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144188"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281671"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Zagadnienia dotyczące uaktualniania — PSA z wersji 2.x lub 1.x do wersji 3.x
 

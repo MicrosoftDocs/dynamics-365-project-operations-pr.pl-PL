@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147711"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283291"
 ---
 # <a name="reporting-home-page"></a>Strona główna raportowania
 
@@ -31,7 +31,7 @@ ms.locfileid: "5147711"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Program Microsoft Dynamics 365 Project Service Automation umożliwia organizacjom działającym poprzez realizowanie projektów skuteczne zarządzanie bieżącymi operacjami. W każdym projekcie członkowie zespołu muszą zarządzać szansami sprzedaży, sporządzać oferty, planować pracę, pozyskiwać zasoby do projektów, zarządzać pracą według planu, rozliczać pracę oraz wykonywać pracę w celu zrealizowania projektu. Zdolność tworzenia raportów z operacji ma kluczowe znaczenie dla określenia kondycji organizacji i możliwości podjęcia koniecznych działań naprawczych. Do swoich wszystkich funkcji sprawozdawczych program PSA wykorzystuje metody i technologie raportowania systemu Microsoft Dynamics 365. Aby uzyskać więcej informacji na temat opcji raportowania, zobacz [Przewodnik po pisaniu raportu dla programu Dynamics 365 Customer Engagement (on-premises), wersja 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Rozwiązanie Microsoft Dynamics 365 Project Service Automation umożliwia organizacjom działającym poprzez realizowanie projektów skuteczne zarządzanie bieżącymi operacjami. W każdym projekcie członkowie zespołu muszą zarządzać szansami sprzedaży, sporządzać oferty, planować pracę, pozyskiwać zasoby do projektów, zarządzać pracą według planu, rozliczać pracę oraz wykonywać pracę w celu zrealizowania projektu. Zdolność tworzenia raportów z operacji ma kluczowe znaczenie dla określenia kondycji organizacji i możliwości podjęcia koniecznych działań naprawczych. Do swoich wszystkich funkcji sprawozdawczych program PSA wykorzystuje metody i technologie raportowania systemu Microsoft Dynamics 365. Aby uzyskać więcej informacji na temat opcji raportowania, zobacz [Przewodnik po pisaniu raportu dla programu Dynamics 365 Customer Engagement (on-premises), wersja 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Kreator raportów
 

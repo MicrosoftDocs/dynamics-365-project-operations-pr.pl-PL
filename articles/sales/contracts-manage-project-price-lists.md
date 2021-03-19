@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 030684576e1f53d27921907b07c9e5e0c5efe612
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133410"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278611"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Zarządzanie cennikami projektu w kontraktach projektu
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Kontrakty projektów w Dynamics 365 Project Operations są projektowane tak, aby obsługiwały w kontrakcie wiele efektywnych cenników sprzedaży. W operacjach projektu istnieje nowa encja skojarzona o nazwie **Cenniki projektu**. Ta encja jest relacją typu jeden-do-wielu z kontraktem dotyczącym projektu.
+Kontrakty projektów w rozwiązaniu Dynamics 365 Project Operations są projektowane tak, aby obsługiwały w kontrakcie wiele efektywnych cenników sprzedaży. W operacjach projektu istnieje nowa encja skojarzona o nazwie **Cenniki projektu**. Ta encja jest relacją typu jeden-do-wielu z kontraktem dotyczącym projektu.
 
 Cenniki projektu są używane do wyceny transakcji dotyczących godzin i kosztów w projekcie. W przypadku, gdy kontrakt zawiera jeden lub więcej cenników projektu, te cenniki są używane do kalkulacji cen w oszacowaniach czasu i wydatków oraz wartości rzeczywistych w projektach skojarzonych z kontraktem za pośrednictwem pozycji kontraktu.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082147"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270736"
 ---
 # <a name="create-a-new-project"></a>Tworzenie nowego projektu
 
@@ -31,7 +31,7 @@ ms.locfileid: "4082147"
 
 Wykonaj poniższe kroki, aby utworzyć nowy projekt.
 
-1. Na stronie **Zarządzanie projektem** wybierz **Nowy projekt** , a następnie wprowadź następujące wartości:
+1. Na stronie **Zarządzanie projektem** wybierz **Nowy projekt**, a następnie wprowadź następujące wartości:
 
     - **Typ projektu:** czas i materiały
     - **Nazwa projektu:** faza uaktualniania w XYZ 2
@@ -44,10 +44,10 @@ Wykonaj poniższe kroki, aby utworzyć nowy projekt.
 
 1. Na stronie **Pracownicy** na liście **Pracownicy** wybierz rekord pracownika, dla którego wcześniej skonfigurowano kompetencje, i otwórz rekord pracownika.
 2. W okienku akcji na karcie **Projekt** w grupie **Ustawienia** kliknij opcję **Przypisz projekty**.
-3. Na stronie **Przypisania projektów walidacji zasobów** , na karcie **Projekty** , w polu **Dodaj projekt do wybranych projektów** wybierz Filtr w projekcie **XYZ faza aktualizacji 2**.
+3. Na stronie **Przypisania projektów walidacji zasobów**, na karcie **Projekty**, w polu **Dodaj projekt do wybranych projektów** wybierz Filtr w projekcie **XYZ faza aktualizacji 2**.
 4. W okienku **Pozostałe projekty** wybierz projekt, a następnie wybierz przycisk strzałki, aby dodać go do okienka **Wybrane projekty**.
 
-Kategorie zasobu można również przypisać w zależności od potrzeb. Kategoria typu to albo **Koszt** , albo **Przychód**. Typ kategorii jest określany przez organizację. Jeśli do zasobu nie są przypisane żadne kategorie, Finance wyszukuje domyślną kategorię według cen godzinowych dla kosztów i przychodów.
+Kategorie zasobu można również przypisać w zależności od potrzeb. Kategoria typu to albo **Koszt**, albo **Przychód**. Typ kategorii jest określany przez organizację. Jeśli do zasobu nie są przypisane żadne kategorie, Finance wyszukuje domyślną kategorię według cen godzinowych dla kosztów i przychodów.
 
 ## <a name="set-up-project-resource-and-role-characteristics"></a>Skonfiguruj zasoby projektu i cechy roli
 
@@ -59,13 +59,13 @@ Menedżer projektu może używać funkcji zasobów projektu do tworzenia ról wy
 
 Poniższe kroki pokazują, jak menedżer zasobów może skonfigurować rolę starszego kierownika projektu i skojarzyć z nią cechy zasobu. Później roli można użyć do wyszukiwania dostępnych zasobów, które pasują do wymaganych kompetencji zasobów.
 
-1. Na stronie **Role ustawień** wybierz **Nowy** , a następnie wprowadź następujące wartości:
+1. Na stronie **Role ustawień** wybierz **Nowy**, a następnie wprowadź następujące wartości:
 
     - **Identyfikator roli:** starszy kierownik projektu
     - **Opis:** starszy kierownik projektu
 
 2. Wybierz pozycję **Utwórz**.
-3. Zaznacz rolę **Starszy kierownik projektu** , a następnie wybierz pozycję **Konfigurowanie charakterystyki**.
+3. Zaznacz rolę **Starszy kierownik projektu**, a następnie wybierz pozycję **Konfigurowanie charakterystyki**.
 4. W polu **Typ charakterystyki** wybierz opcję **Umiejętności**.
 5. W polu **Dostępne charakterystyki** wprowadź umiejętność, która ma zostać wyszukana.
 6. W polu **Typ charakterystyki** wybierz opcję **Certyfikat**.
@@ -96,13 +96,13 @@ Podczas rezerwacji zasobów kierownicy projektów mogą filtrować zasoby ról, 
 **Scenariusz:** Rozpoczął się zatwierdzony projekt, a rola starszego kierownika projektu została zarezerwowana jako planowany zasób na etapie planowania projektu. Kierownik zasobów uzyskał teraz zasób do pełnienia roli starszego kierownika projektu.
 
 1. Na stronie **Lista zasobów** wybierz pozycję **Daniel Goldschmidt**.
-2. Na stronie **Rola zasobu** wybierz **Nowy** , a następnie wprowadź następujące wartości:
+2. Na stronie **Rola zasobu** wybierz **Nowy**, a następnie wprowadź następujące wartości:
 
     - **Efektywność:** wprowadź aktualną datę.
     - **Data wygaśnięcia:** wprowadź **nigdy**.
     - **Rola:** Wpisz **starszy kierownik projektu**.
 
-3. Wybierz **Zapisz** , a następnie zamknij stronę.
+3. Wybierz **Zapisz**, a następnie zamknij stronę.
 4. Na karcie **kompetencje** dodaj umiejętność **ProjectMgmt** i certyfikat **PMP**.
 
 

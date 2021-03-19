@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082037"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270646"
 ---
 # <a name="manage-resource-competencies"></a>Zarządzaj kwalifikacjami zasobów
 
@@ -41,7 +41,7 @@ Aby skonfigurować kompetencje pracownika, można użyć strony listy **Pracowni
 
 1. Na stronie listy **Pracownicy** wybierz wiersz, dla którego pracownik ma dodać informacje o certyfikacie.
 2. W okienku akcji na karcie **Pracownik** w grupie **Kwalifikacje** kliknij opcję **Certyfikaty**.
-3. Wybierz **Nazwa** w polu **Typ certyfikatu** , a następnie wybierz **PMP**.
+3. Wybierz **Nazwa** w polu **Typ certyfikatu**, a następnie wybierz **PMP**.
 4. W polu **Data rozpoczęcia** wybierz opcję **10/1/2015** i wybierz pozycję **Zapisz**.
 
 ## <a name="set-up-competencies-skills"></a>Konfigurowanie kompetencji: umiejętności
@@ -52,7 +52,7 @@ Aby skonfigurować kompetencje pracownika, można użyć strony listy **Pracowni
 4. W polu **Poziom** wybierz pozycję **5 ekspertów**.
 5. W polu **Data poziomu** wybierz pozycję **1-/14/2014**.
 6. W polu **Lata doświadczenia** wprowadź liczbę **10**.
-7. Wybierz **Zapisz** , a następnie zamknij stronę.
+7. Wybierz **Zapisz**, a następnie zamknij stronę.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

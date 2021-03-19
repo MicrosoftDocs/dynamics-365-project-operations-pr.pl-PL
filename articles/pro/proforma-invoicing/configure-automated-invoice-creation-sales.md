@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176579"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274336"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>Konfigurowanie automatycznego tworzenia faktury - wersja uproszczona
  
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-Można skonfigurować automatyczne tworzenie faktur w ramach Dynamics 365 Project Operations. System utworzy roboczą fakturę pro forma na podstawie harmonogramu fakturowania dla każdej umowy dotyczącej projektu i pozycji kontraktu. Harmonogramy faktur są konfigurowane na poziomie pozycji kontraktu. Każdy wiersz kontraktu może zawierać odrębny harmonogram fakturowania lub ten sam harmonogram fakturowania może być uwzględniany w każdym wierszu kontraktu.
+Można skonfigurować automatyczne tworzenie faktury w rozwiązaniu Dynamics 365 Project Operations. System utworzy roboczą fakturę pro forma na podstawie harmonogramu fakturowania dla każdej umowy dotyczącej projektu i pozycji kontraktu. Harmonogramy faktur są konfigurowane na poziomie pozycji kontraktu. Każdy wiersz kontraktu może zawierać odrębny harmonogram fakturowania lub ten sam harmonogram fakturowania może być uwzględniany w każdym wierszu kontraktu.
 
 Podczas tworzenia faktury system zawsze tworzy co najmniej jedną fakturę przypadającą na każdy kontrakt projektu. W niektórych przypadkach może być utworzonych wiele faktur.
 

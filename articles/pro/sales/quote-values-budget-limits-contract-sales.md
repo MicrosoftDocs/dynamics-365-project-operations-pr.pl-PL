@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180969"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272446"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Podsumowanie informacji o ofercie projektu - wersja uproszczona
 
@@ -21,7 +21,7 @@ _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
 W tym artykule opisano informacje dotyczące oferty projektu. Obejmuje ona ustawienia mające wpływ na wszystkie wiersze oferty oraz informacje o ofercie, które są podsumowanie we wszystkich pozycjach produktu, aby utworzyć wskaźniki KPI oferty projektu.
 
-W poniższej tabeli zamieszczono listę pól informacji podsumowujących w ofercie projektu, które są unikatowe dla Dynamics 365 Project Operations lub istnieją istotne zmiany dotyczące zachowania ofert pomiędzy Project Operations a Dynamics 365 Sales.
+W poniższej tabeli wymieniono pola informacji podsumowującej w ofercie projektu, które są unikatowe dla rozwiązania Dynamics 365 Project Operations lub zawierają pewne istotne zmiany w zachowaniu z ofert systemu Dynamics 365 Sales.
 
 | **Pole** | **Lokalizacja** | **Opis** | **Wpływ zmian w dalszych etapach** |
 | --- | --- | --- | --- |

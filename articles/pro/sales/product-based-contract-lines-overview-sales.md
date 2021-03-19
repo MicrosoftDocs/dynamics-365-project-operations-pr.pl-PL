@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 6e9ef33cc9c79f828e85733f4f5a199bce842700
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177884"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272671"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>Omówienie pozycji kontraktu opartego na produkcie - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-Użytkownik może tworzyć pozycje kontraktu oparte na produktach w Dynamics 365 Project Operations. Wiersze kontraktów oparte na produktach mogą być ręcznie tworzone albo dotyczyć pozycji z katalogu produktów.
+W programie Dynamics 365 Project Operations można tworzyć pozycje kontraktu oparte na produktach. Wiersze kontraktów oparte na produktach mogą być ręcznie tworzone albo dotyczyć pozycji z katalogu produktów.
 
 ## <a name="product-catalog"></a>Katalog produktów
 

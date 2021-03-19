@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 18f43acc64ed72b1543a2d7d91a2648e7e185fc4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bc97af1ec90e60417c502eb329a85004e769e05b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128836"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279151"
 ---
 # <a name="submit-a-resource-request"></a>Przesyłanie żądania zasobów
 
@@ -21,7 +21,7 @@ _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i 
 
 Wygenerowane wymaganie zasobu można przesłać jako żądanie zasobu. Żądanie jest następnie wysyłane do menedżera zasobów w celu zrealizowania.
 
-1. W usłudze Dynamics 365 Project Operations na stronie **Projekty** wybierz kartę **Zespół**, aby wyświetlić listę zasobów możliwych do zarezerwowania. 
+1. W rozwiązaniu Dynamics 365 Project Operations na stronie **Projekty** kliknij kartę **Zespół**, aby wyświetlić listę zasobów możliwych do zarezerwowania. 
 2. Z listy wybierz zasób ogólny, który ma wymaganie zasobu, a następnie kliknij opcję **Prześlij żądanie**.
 
 Stan żądania o ogólnego członka zespołu zmieni się na **"Przesłano**.

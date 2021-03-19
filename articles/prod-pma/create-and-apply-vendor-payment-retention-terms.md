@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082149"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270961"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Tworzenie i stosowanie warunków zatrzymania płatności u dostawcy
 
@@ -38,12 +38,12 @@ Istnieje możliwość wprowadzenia wartości procentowej płatności dla dostawc
 Wykonaj poniższe kroki, aby skonfigurować warunki zatrzymywania płatności dostawcy i zarządzać nimi. 
 
 1. Przejdź do obszaru **Zarządzanie projektami i księgowanie** > **Zatrzymywanie** > **Warunki zatrzymania płatności u dostawcy**.
-2. Wybierz opcję **Nowy** , aby dodać nowy warunek zatrzymania dla dostawcy. Wartość **Identyfikatora reguły** dla nowego terminu jest wprowadzana automatycznie. 
-3. Wprowadź krótki opis w polu **Opis** , a następnie na skróconej karcie **Warunki** wybierz opcję **Dodaj wiersz** w celu wprowadzenia wartości terminów dla następujących kryteriów:
+2. Wybierz opcję **Nowy**, aby dodać nowy warunek zatrzymania dla dostawcy. Wartość **Identyfikatora reguły** dla nowego terminu jest wprowadzana automatycznie. 
+3. Wprowadź krótki opis w polu **Opis**, a następnie na skróconej karcie **Warunki** wybierz opcję **Dodaj wiersz** w celu wprowadzenia wartości terminów dla następujących kryteriów:
 
-   - **Procent dostarczonych jednostek** : wprowadź wartość procentową wykonania. Kwoty na fakturach dostawców są automatycznie zatrzymywane , dopóki kontrakt nie będzie równy określonemu stanowi procentowego wykonania. Na przykład po wprowadzeniu wartości 50,00 kwoty zostaną zatrzymane, dopóki projekt nie będzie ukończony w 50%.
-   - **Procent do zatrzymania** : wprowadź wartość procentową kwoty faktury od dostawcy, która ma zostać zatrzymana. Na przykład wprowadzenie wartości 10,00 oznacza, że 10 procent kwoty na fakturze zostanie zatrzymane do momentu, kiedy projekt osiągnie wartość procentową wykonania ustaloną w polu **Procent dostarczonych jednostek**.
-   - **Procent do zwolnienia** : wybierz opcję **Dodaj wiersz** , aby wprowadzić wartość procentową wszelkich poprzednio zatrzymywanych kwot do zwolnienia dla wybranego poziomu wykonania projektu.
+   - **Procent dostarczonych jednostek**: wprowadź wartość procentową wykonania. Kwoty na fakturach dostawców są automatycznie zatrzymywane , dopóki kontrakt nie będzie równy określonemu stanowi procentowego wykonania. Na przykład po wprowadzeniu wartości 50,00 kwoty zostaną zatrzymane, dopóki projekt nie będzie ukończony w 50%.
+   - **Procent do zatrzymania**: wprowadź wartość procentową kwoty faktury od dostawcy, która ma zostać zatrzymana. Na przykład wprowadzenie wartości 10,00 oznacza, że 10 procent kwoty na fakturze zostanie zatrzymane do momentu, kiedy projekt osiągnie wartość procentową wykonania ustaloną w polu **Procent dostarczonych jednostek**.
+   - **Procent do zwolnienia**: wybierz opcję **Dodaj wiersz**, aby wprowadzić wartość procentową wszelkich poprzednio zatrzymywanych kwot do zwolnienia dla wybranego poziomu wykonania projektu.
 
 > [!NOTE]
 > Jeśli na różnych poziomach wykonania projektu znajduje się więcej niż jeden punkt kontrolny, dla każdej reguły zatrzymywania wprowadź osobny wiersz warunku zatrzymania. Każdy wiersz może określać inny procent zatrzymania i inny procent zwolnienia dla każdego określonego poziomu wykonania projektu.
@@ -56,11 +56,11 @@ Po utworzeniu warunków zatrzymania dla dostawcy, można stosować je do wszystk
 2. Na skróconej karcie **Kontrakty z dostawcami** wybierz pozycję **Dodaj wiersz**.
 3. W polu **Wyświetlany kod konta** wybierz jedną z następujących opcji: 
 
-   - **Tabela** : warunki zatrzymania dotyczące dostawcy stosuje się do jednego dostawcy.
-   - **Grupa** : warunki zatrzymania dotyczące dostawcy stosuje się do wszystkich dostawców w grupie.
-   - **Wszyscy** : warunki zatrzymania dotyczące dostawcy stosuje się do wszystkich dostawców.
+   - **Tabela**: warunki zatrzymania dotyczące dostawcy stosuje się do jednego dostawcy.
+   - **Grupa**: warunki zatrzymania dotyczące dostawcy stosuje się do wszystkich dostawców w grupie.
+   - **Wszyscy**: warunki zatrzymania dotyczące dostawcy stosuje się do wszystkich dostawców.
 
-4. W polu **Dostawca / Grupa dostawców** wybierz dostawcę lub grupę, do których mają mieć zastosowanie warunki zatrzymania. Jeśli wybrano opcję **Wszyscy** , wtedy to pole jest niedostępne.
+4. W polu **Dostawca / Grupa dostawców** wybierz dostawcę lub grupę, do których mają mieć zastosowanie warunki zatrzymania. Jeśli wybrano opcję **Wszyscy**, wtedy to pole jest niedostępne.
 5. W polu **Warunki zatrzymania dla dostawcy** wybierz warunki zatrzymania utworzone w poprzedniej procedurze.
 6. Jeśli w projekcie zdefiniowano również warunki płatności dla dostawcy po uiszczonej opłacie (PWP) dla danego dostawcy, wprowadź procent wartości progowej dla projektu w polu **Procent wartości progowej PWP**.
 

@@ -1,6 +1,6 @@
 ---
 title: Przeprojektowane raporty z wydatków
-description: W tym temacie zamieszczono informacje dotyczące zmienionej i ulepszonej funkcji tworzenia raportów wydatków w Microsoft Dynamics 365 Finance. Nowe środowisko upraszcza proces tworzenia raportów o wydatkach i skraca wymagany czas.
+description: W tym temacie zamieszczono informacje dotyczące zmienionej i ulepszonej funkcji tworzenia raportów wydatków.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960260"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271996"
 ---
 # <a name="redesigned-expense-reports"></a>Przeprojektowane raporty z wydatków
 
@@ -40,12 +40,6 @@ Aby włączyć nowe środowisko, w obszarze roboczym **Zarządzanie funkcjami** 
 - Dodawany jest nowy element menu z widocznością pola wydatku.
 - Nie są usuwane żadne istniejące pozycje menu dla raportów wydatków (istniejąca strona) ani z pól raportu wydatków.
 - Przepływy pracy i wszelkie zatwierdzenia wciąż przenoszą użytkownika na stronę istniejących raportów z wydatków.
-
-## <a name="getting-started-video-for-new-users"></a>Wideo wprowadzające do rozwiązania dla nowych użytkowników
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Wydatkowanie w Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) — film (pokazany powyżej) jest częścią [Listy odtwarzania Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) dostępnej na YouTube.
 
 ## <a name="new-features"></a>Nowe funkcje
 

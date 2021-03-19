@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a4357d5cf184a3c6ada3ae33631694c31bb5b00
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177344"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273220"
 ---
 # <a name="manage-project-contracts"></a>Zarządzanie kontraktami projektu
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Kontrakty projektów zawarte w Dynamics 365 Operations Project przechwytują i zarządzają umownie uzgodnieniami dotyczącymi zobowiązań i informacji na temat rozliczania projektu. Struktura umowy projektowej w Project Operations jest dostosowana do pracy opartej na projektach z następującymi komponentami:
+Kontrakty projektów zawarte w rozwiązaniu Dynamics 365 Project Operations przechwytują i zarządzają umownie uzgodnieniami dotyczącymi zobowiązań i informacji na temat rozliczania projektu. Struktura umowy projektowej w Project Operations jest dostosowana do pracy opartej na projektach z następującymi komponentami:
 
 - Pozycje kontraktu umożliwiające identyfikację dyskretnych składników pracy, które będą prezentowane na fakturze projektu jako składniki wysokiego poziomu.
 - Szczegóły pozycji kontraktu umożliwiające identyfikację i ocenę pracy każdej części składowej wysokiego poziomu lub pozycji kontraktu. Prognoza zawiera harmonogram i aspekty finansowe pracy związane z pozycją kontraktu.

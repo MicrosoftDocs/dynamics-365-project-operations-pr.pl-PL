@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a2c752ba6395ed4bf025092219350dc245f7428f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124696"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277261"
 ---
 # <a name="close-a-quote"></a>Zamknij ofertę
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Ofertę projektu można zamknąć jako wykorzystaną lub utraconą. Operacje aktywowania i zmiany oferty nie są obsługiwane w ramach Microsoft Dynamics 365 Project Operations, więc roboczą ofertę można zamknąć.
+Ofertę projektu można zamknąć jako wykorzystaną lub utraconą. Ponieważ funkcje Aktywuj i Popraw nie są obsługiwane w Microsoft Dynamics 365 Project Operations, możesz zamknąć wersję roboczą oferty.
 
 ## <a name="close-a-quote-as-won"></a>Zamknięcie oferty jako wykorzystaną
 

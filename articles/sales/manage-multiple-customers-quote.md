@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4182005"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277891"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Zarządzanie wieloma klientami w ofercie projektu
 
@@ -23,7 +23,7 @@ Oferty projektów obsługują scenariusz polegający na tym, że dana oferta obe
 
 Wszyscy klienci oferty na karcie **Klienci** w ofercie projektu domyślnie stają się klientami wiersza oferty dla wszystkich **nowych** wierszy oferty opartej na projekcie tworzonych dla oferty projektu. Żadne istniejące wiersze oferty opartej na projekcie nie odziedziczą nowych rekordów klientów oferty utworzonych po ich utworzeniu.
 
-Można dodawać klientów oferty i klientów wierszy oferty, a także aktualizować, dodawać i usuwać te dane przed zamknięciem oferty. Prawidłowa identyfikacja klienta w ofercie projektu musi zostać ustawiona na stronie **Klienci** na firmę będącą właścicielem lub osobę prawną. Osoby prawne są konfigurowane w module **Zarządzanie projektami i księgowanie** w Dynamics 365 Project Operations i są udostępniane jako firmy w modułach **Sprzedaży i dostarczania projektów** w Project Operations.
+Można dodawać klientów oferty i klientów wierszy oferty, a także aktualizować, dodawać i usuwać te dane przed zamknięciem oferty. Prawidłowa identyfikacja klienta w ofercie projektu musi zostać ustawiona na stronie **Klienci** na firmę będącą właścicielem lub osobę prawną. Podmioty prawne są konfigurowane w module **Zarządzanie projektami i księgowanie w aplikacji** rozwiązania Dynamics 365 Project Operations i są dostępne jako firmy w modułach **Sprzedaż i dostawa projektu** w aplikacji Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Koncept podstawowego klienta
 
