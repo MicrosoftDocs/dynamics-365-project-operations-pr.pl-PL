@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122356"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287746"
 ---
 # <a name="manage-the-billing-backlog"></a>Zarządzanie zaległością rozliczenia
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Dynamics 365 Project Operations jest wyposażone w dwa widoki specjalne pomocne przy pracy z zaległościami na fakturze i zarządzaniu nimi. Są to **Punkty kontrolne stałych cen** oraz **Zaległości rozliczeniowe w ramach czasu i materiałów**. Aby wybrać widok, w obszarze **Sales** w Project Operations, po lewej stronie nawigacji wybierz pozycję **Rozliczanie**. W tym miejscu są przechowywane łącza do rozliczania zaległości.
+Rozwiązanie Dynamics 365 Project Operations ma dwa dedykowane widoki ułatwiające zarządzanie zaległościami na fakturę. Są to **Punkty kontrolne stałych cen** oraz **Zaległości rozliczeniowe w ramach czasu i materiałów**. Aby wybrać widok, w obszarze **Sales** w Project Operations, po lewej stronie nawigacji wybierz pozycję **Rozliczanie**. W tym miejscu są przechowywane łącza do rozliczania zaległości.
 
 ## <a name="fixed-price-milestones"></a>Punkty kontrolne dotyczące stałej ceny
 

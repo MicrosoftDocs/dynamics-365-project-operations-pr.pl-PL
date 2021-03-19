@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081995"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289022"
 ---
 # <a name="project-resource-scheduling-performance"></a>Wydajność planowania zasobów projektu
 
@@ -34,7 +34,7 @@ ms.locfileid: "4081995"
 Problemy dotyczące wydajności związanej z planowaniem zasobów mogą mieć znaczenie, gdy liczba jest bardzo duża. Aby poprawić wydajność planowania zasobów, można uzyskać dostęp do funkcji, która pozwoli użytkownikom skrócić czas potrzebny na uruchomienie formularza dostępności zasobów. W szczególności powoduje to usunięcie procesu synchronizacji zestawienia dyspozycyjności zasobów i użycie tabeli **ResProjectResource** w celu przyspieszenia wyszukiwania zasobów. Zauważ, że tabela **ResRollup** nie będzie już używana.
 
 > [!IMPORTANT]
-> Jeśli istnieje zależność między procesem synchronizacji zestawienia wydajności zasobów lub tabelą **ResProjectResource** , nie należy korzystać z tej funkcji.
+> Jeśli istnieje zależność między procesem synchronizacji zestawienia wydajności zasobów lub tabelą **ResProjectResource**, nie należy korzystać z tej funkcji.
 
 ## <a name="enable-resource-scheduling-performance-enhancement"></a>Włączanie zwiększania wydajności planowania zasobów
 Aby włączyć podniesienie wydajności planowania zasobów, należy wykonać następujące kroki.
@@ -54,7 +54,7 @@ Aby włączyć podniesienie wydajności planowania zasobów, należy wykonać na
  > [!NOTE]
  > Spowoduje to dystrybuowanie danych ogólnych do tabeli **ResCalendarCapacity** we wszystkich firmach w środowisku, więc zadanie wsadowe musi zostać uruchomione tylko w jednej firmie. Dane w tym zadaniu wsadowym są potrzebne do obliczenia wydajności zasobów za pośrednictwem skojarzonego kalendarza.
 
-8. Przejdź do obszaru **Zarządzanie projektami i księgowanie** > **Okresowe** > **Zasoby projektu** > **Wypełnij zasoby projektu we wszystkich firmach** , a następnie kliknij przycisk **OK**. Jest to skrypt uaktualniania danych dla ogólnych danych w tabelach **ResProjectResource** , **ResCalendarDateTimeRange** oraz **ResEffectiveDateTimeRange**. Wartości pola **PSAPRojSchedRole.RootObject** są również aktualizowane. Jeśli nie zostanie uruchomione, zostanie wyświetlone ostrzeżenie podczas próby wykonania operacji planowania zasobów.
+8. Przejdź do obszaru **Zarządzanie projektami i księgowanie** > **Okresowe** > **Zasoby projektu** > **Wypełnij zasoby projektu we wszystkich firmach**, a następnie kliknij przycisk **OK**. Jest to skrypt uaktualniania danych dla ogólnych danych w tabelach **ResProjectResource**, **ResCalendarDateTimeRange** oraz **ResEffectiveDateTimeRange**. Wartości pola **PSAPRojSchedRole.RootObject** są również aktualizowane. Jeśli nie zostanie uruchomione, zostanie wyświetlone ostrzeżenie podczas próby wykonania operacji planowania zasobów.
  
 ## <a name="turn-off-resource-scheduling-performance-enhancement"></a>Wyłączanie zwiększania wydajności planowania zasobów
 

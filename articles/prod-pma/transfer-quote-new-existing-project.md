@@ -18,18 +18,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec0d53e9d294b12be9af9bb03885a45b68fb3388
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9952336c395d98eb776190f92062fffcfb31556b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081988"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288106"
 ---
 # <a name="transfer-a-quotation-to-a-project"></a>Przenoszenie oferty do projektu
 
 [!include [banner](../includes/banner.md)]
 
-Jeśli oferta projektu ma stan **Potwierdzona** , można przenieść niektóre lub wszystkie wiersze oferty do nowego lub istniejącego projektu za pomocą kreatora **Przeniesienia do projektu**. 
+Jeśli oferta projektu ma stan **Potwierdzona**, można przenieść niektóre lub wszystkie wiersze oferty do nowego lub istniejącego projektu za pomocą kreatora **Przeniesienia do projektu**. 
 
 Wykonaj następujące kroki, aby użyć kreatora.
 

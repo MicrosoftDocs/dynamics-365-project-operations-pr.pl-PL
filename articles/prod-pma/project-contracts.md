@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082143"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289562"
 ---
 # <a name="project-contracts"></a>Kontrakty projektów
 
@@ -260,7 +260,7 @@ Użytkownik może zdefiniować następujące typy reguł fakturowania:
 
 W przypadku wszystkich typów reguł rozliczeniowych można określić procent zatrzymania, który jest odejmowany od faktur klientów, dopóki projekt nie osiągnie uzgodnionego etapu. Procent zatrzymania płatności jest określany w kontrakcie projektu. Kwota jest obliczana na podstawie i odjęta od wartości łącznej wierszy na fakturze dla klienta. 
 
-Aby zmienić reguły fakturowania **Czasu i materiału** oraz **Postępu** , można przypisać kategorie wymagalności. Kategorie podlegające opłacie wskazują transakcje, które powinny być uwzględnione na fakturach odbiorcy. 
+Aby zmienić reguły fakturowania **Czasu i materiału** oraz **Postępu**, można przypisać kategorie wymagalności. Kategorie podlegające opłacie wskazują transakcje, które powinny być uwzględnione na fakturach odbiorcy. 
 
 Gdy jesteś gotowy do wystawienia faktury na klienta, kwota do faktury za projekt jest obliczana na podstawie reguł fakturowania i generowana jest propozycja faktury za projekt. 
 

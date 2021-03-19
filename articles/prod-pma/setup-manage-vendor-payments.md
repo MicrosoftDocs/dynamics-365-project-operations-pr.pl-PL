@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081991"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288616"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Konfigurowanie i korzystanie z płatności dla dostawcy po uiszczonej opłacie
 
@@ -52,9 +52,9 @@ Podczas konfigurowania warunków PWP dla projektu należy określić jako stawk�
 3. Na skróconej karcie **Kontrakty z dostawcami** wybierz pozycję **Dodaj wiersz**.
 3. W polu **Kod konta** wybierz jedną z następujących opcji:
 
-    - **Tabela** : warunki PWP dotyczące dostawcy stosuje się do jednego dostawcy.
-    - **Grupa** : warunki PWP dotyczące dostawcy stosuje się do wszystkich dostawców w grupie.
-    - **Wszyscy** : warunki PWP dotyczące dostawcy stosuje się do wszystkich dostawców.
+    - **Tabela**: warunki PWP dotyczące dostawcy stosuje się do jednego dostawcy.
+    - **Grupa**: warunki PWP dotyczące dostawcy stosuje się do wszystkich dostawców w grupie.
+    - **Wszyscy**: warunki PWP dotyczące dostawcy stosuje się do wszystkich dostawców.
 
 4. W przypadku wybrania **Tabeli** lub **Grupy** z poprzedniego kroku w polu **Grupa dostawca/dostawca** wybierz dostawcę lub grupę dostawców, której mają dotyczyć warunki PWP. W przypadku wybrania opcji **Wszystkie** w poprzednim kroku nie można edytować pola **Grupa dostawca/dostawca**.
 5. Jeśli warunki zatrzymania dostawcy są ustawione dla dostawcy w polu **Warunki zatrzymania dostawcy** wybierz identyfikator reguły dla warunków zatrzymania.
@@ -69,7 +69,7 @@ W przypadku księgowania faktury dostawcy, jeśli dostawcę obowiązują warunki
 
     Innym rozwiązaniem jest otworzenie istniejącego zamówienia zakupu na stronie listy **Wszystkich zamówień zakupu**.
 
-4. Na stronie **Zamówienia zakupu** , na skróconej karcie **Wiersze zamówienia zakupu** przejrzyj szczegóły dotyczące wiersza zakupu danego dostawcy. Opcja **Zapłać po otrzymaniu zapłaty** jest wybierana automatycznie, a wartość w polu **Procent progu PWP** jest automatycznie kopiowana z pola **Procent progu PWP** ze strony **Projekty**.
+4. Na stronie **Zamówienia zakupu**, na skróconej karcie **Wiersze zamówienia zakupu** przejrzyj szczegóły dotyczące wiersza zakupu danego dostawcy. Opcja **Zapłać po otrzymaniu zapłaty** jest wybierana automatycznie, a wartość w polu **Procent progu PWP** jest automatycznie kopiowana z pola **Procent progu PWP** ze strony **Projekty**.
 6. Jeśli nie chcesz stosować PWP względem dostawcy w wierszu zamówienia zakupu, wyczyść opcję **Płać po otrzymaniu zapłaty**. W tym przypadku **Procent progu PWP** dla wiersza zakupu zostanie zresetowany do wartości 0 (zero).
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Aktualizowanie płatności u klienta i spłata
@@ -77,7 +77,7 @@ W przypadku księgowania faktury dostawcy, jeśli dostawcę obowiązują warunki
 Gdy dostawca wykona swoją pracę nad projektem i prześle fakturę, należy przejrzeć stan projektu i faktury klienta w celu ustalenia, czy dla danego projektu spełniono warunki PWP. Jeśli zostały spełnione warunki PWP dla danego dostawcy, można ustalić, które wiersze na fakturze opłacić na podstawie płatności z tytułu klienta dla danego projektu. W przypadku wybrania opcji zapłaty dostawcy pomimo braku spełnienia warunków PWP, warunki PWP można zastąpić na stronie **Faktura dostawcy z opcją płać po otrzymaniu zapłaty**.
 
 1. Przejdź do obszaru **Zarządzanie projektami i księgowanie** \> **Zapytania i raporty** \> **Zapytania zachowania** \> **Faktura dostawcy z opcją płać po otrzymaniu zapłaty**.
-2. Na stronie **Faktura dostawcy z opcją płać po otrzymaniu zapłaty** , w polu wyszukiwania wprowadź wartości, aby znaleźć fakturę zakupu, którą chcesz przejrzeć, a następnie wybierz pozycję **Wyszukaj**.
+2. Na stronie **Faktura dostawcy z opcją płać po otrzymaniu zapłaty**, w polu wyszukiwania wprowadź wartości, aby znaleźć fakturę zakupu, którą chcesz przejrzeć, a następnie wybierz pozycję **Wyszukaj**.
 3. Na skróconej karcie **Wiersze faktury dostawcy** zaznacz wiersze, które chcesz zmienić.
 4. Jeśli wartości **Zapłać po uiszczeniu zapłaty** są spełnione, wybierz **Zwolnij płatność dla dostawcy**. Opcja **Zapłać po otrzymaniu zapłaty** jest wyczyszczona, a wartość pola **Gotowe do zapłaty** jest zamieniana na **Tak**.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081992"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288662"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Konfigurowanie ról w szablonach struktury podziału pracy
 
@@ -81,7 +81,7 @@ W SPP dodano dodatkowe opcje, aby lepiej wykorzystać funkcję pozyskiwania zaso
 
 1. Na stronie **Wszystkie projekty** wybierz projekt **XYZ uaktualnianie faza 2**.
 2. Wybierz **Plan** > **Działania** > **Struktura podziału pracy**.
-3. Wybierz opcję **Nowy** , aby dodać następujące działania poziomu pierwszego do WBS:
+3. Wybierz opcję **Nowy**, aby dodać następujące działania poziomu pierwszego do WBS:
 
     - Inicjowanie
     - Planowanie
@@ -93,11 +93,11 @@ W SPP dodano dodatkowe opcje, aby lepiej wykorzystać funkcję pozyskiwania zaso
 
     [![Ustawianie dat i wysiłku](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Zaznacz wiersz zadania **Inicjowanie** , a następnie w polu **Rola** wybierz pozycję **Starszy kierownik projektu**.
+5. Zaznacz wiersz zadania **Inicjowanie**, a następnie w polu **Rola** wybierz pozycję **Starszy kierownik projektu**.
 6. Wybierz **Publikuj**.
-7. W tym samym wierszu w polu **Zasób** wybierz opcję **Daniel Goldschmidt** , a następnie wybierz opcję **Zaakceptuj**.
-8. Wybierz wiersz zadania **Planowania** , a następnie w polu **Rola** wybierz pozycję **Analityk biznesowy**.
-9. Wybierz opcję **Opublikuj** , a następnie wybierz opcję **Automatyczne generowanie zespołu**.
+7. W tym samym wierszu w polu **Zasób** wybierz opcję **Daniel Goldschmidt**, a następnie wybierz opcję **Zaakceptuj**.
+8. Wybierz wiersz zadania **Planowania**, a następnie w polu **Rola** wybierz pozycję **Analityk biznesowy**.
+9. Wybierz opcję **Opublikuj**, a następnie wybierz opcję **Automatyczne generowanie zespołu**.
 10. W oknie z komunikatem potwierdzenia wyświetlany wybierz **Tak**.
 11. W polu **Zasób** sprawdź, czy wartość jest **Analitykiem biznesowym 1**.
 12. W przypadku zasobu **Analityk biznesowy 1** otwórz wyszukiwanie i wybierz opcję **Uruchom przydziały zasobów**. Następnie wybierz pracownika do wykonania zadania.

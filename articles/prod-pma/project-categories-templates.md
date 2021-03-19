@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4abb7fe6554825b97df4cc04ee1b02d731cb4af9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082151"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289652"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synchronizacja kategorii wydatku projektu między Finance and Operations i Project Service Automation
 
@@ -48,7 +48,7 @@ Jeśli kategorie wydatków projektu są opanowane w Project Service Automation, 
 >
 > Jeśli synchronizujesz najpierw z Project Service Automation, przed uruchomieniem synchronizacji w Finance muszą być spełnione następujące wymagania:
 >
-> - Kategoria udostępniona, która jest zgodna z kategorią projektu skonfigurowaną w programie Project Service Automation, musi istnieć i musi być włączona zarówno dla **Projektu** , jak i dla **Wydatków**.
+> - Kategoria udostępniona, która jest zgodna z kategorią projektu skonfigurowaną w programie Project Service Automation, musi istnieć i musi być włączona zarówno dla **Projektu**, jak i dla **Wydatków**.
 > - Dla każdej firmy finansowej, z którą należy zintegrować, muszą istnieć następujące kategorie projektów:
 >
 >     - **Kategoria projektu** istnieje. 
@@ -64,7 +64,7 @@ Na poniższej ilustracji przedstawiono sposób synchronizowania danych między P
 
 ### <a name="template-and-task"></a>Szablon i zadanie
 
-Aby uzyskać dostęp do szablonu, w centrum administracyjnym Microsoft Power Apps wybierz pozycję **Projekty** , a następnie w prawym górnym rogu wybierz opcję **Nowy projekt** , aby wybrać szablony publiczne.
+Aby uzyskać dostęp do szablonu, w centrum administracyjnym Microsoft Power Apps wybierz pozycję **Projekty**, a następnie w prawym górnym rogu wybierz opcję **Nowy projekt**, aby wybrać szablony publiczne.
 
 Następujący szablon i podstawowe zadanie służą do synchronizowania kategorii wydatków projektu z Finance do Project Service Automation:
 
@@ -86,7 +86,7 @@ Kategorie wydatków projektów są zarządzane w Finance i są synchronizowane z
 Przy synchronizowaniu z Project Service Automation należy użyć Microsoft Power Query dla Excel w celu ustawienia typu fakturowania w kategorii transakcji. Kategoria transakcji wydatku projektu (Fin i Ops do PSA) zawiera domyślną kolumnę i mapowanie. Aby utworzyć własny szablon, należy w Power Query dodać kolumnę warunkową. Wykonaj poniższe kroki.
 
 1. Kliknij strzałkę, aby otworzyć mapowanie zadania kategorii wydatków projektu w szablonie Kategorie transakcji wydatków w projekcie (Fin i Ops do PSA).
-2. Kliknij łącze **Zaawansowane zapytania i filtrowania** , aby otworzyć Power Query.
+2. Kliknij łącze **Zaawansowane zapytania i filtrowania**, aby otworzyć Power Query.
 2. Wybierz opcję **Dodaj kolumnę warunkową**.
 3. Wprowadź nazwę nowej kolumny, na przykład nazwa **TypRozliczenia**.
 4. Wprowadź następujący warunek: **Jeśli CATEGORYID nie jest równy zero, 19235001, w przeciwnym razie zero**.

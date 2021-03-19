@@ -1,6 +1,6 @@
 ---
 title: Synchronizowanie szacowań projektu bezpośrednio z rozwiązania Project Service Automation do Finance and Operations
-description: W tym temacie opisano szablony i podstawowe zadania, które są używane do synchronizowania szacunków godzin projektu i szacunków kosztów projektu bezpośrednio z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+description: W tym temacie opisano szablony i podstawowe zadania, które są używane do synchronizowania szacunków godzin projektu i szacunków kosztów projektu bezpośrednio z Microsoft Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 author: Yowelle
 manager: AnnBe
 ms.date: 07/20/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082140"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289472"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizowanie szacowań projektu bezpośrednio z rozwiązania Project Service Automation do Finance and Operations
 
@@ -46,7 +46,7 @@ Na poniższej ilustracji przedstawiono sposób synchronizowania danych między P
 
 ### <a name="template-and-tasks"></a>Szablon i zadania
 
-Aby uzyskać dostęp do dostępnych szablonów, w centrum administracyjnym Microsoft Power Apps wybierz pozycję **Projekty** , a następnie w prawym górnym rogu wybierz opcję **Nowy projekt** , aby wybrać szablony publiczne.
+Aby uzyskać dostęp do dostępnych szablonów, w centrum administracyjnym Microsoft Power Apps wybierz pozycję **Projekty**, a następnie w prawym górnym rogu wybierz opcję **Nowy projekt**, aby wybrać szablony publiczne.
 
 Następujący szablon i podstawowe zadania są używane do synchronizowania szacowań godzin projektu z Project Service Automation do Finance:
 
@@ -80,14 +80,14 @@ W szablonie szacunków godzin projektu należy użyć dodatku Microsoft Power Qu
 
 #### <a name="set-the-default-forecast-model-id"></a>Ustaw domyślny identyfikator modelu prognozy
 
-Aby zaktualizować domyslny identyfikator modelu prognozy w szablonie, kliknij strzałkę na **mapie** , aby otworzyć mapowanie. Zaznacz łącze **Zaawansowane zapytania i filtrowania**.
+Aby zaktualizować domyslny identyfikator modelu prognozy w szablonie, kliknij strzałkę na **mapie**, aby otworzyć mapowanie. Zaznacz łącze **Zaawansowane zapytania i filtrowania**.
 
 - Jeśli używasz domyślnego szablonu szacowania godzin projektu (PSA do Fin i Ops), wybierz opcję **Wstawiony warunek** z listy **zastosowanych kroków**. We wpisie **Funkcja** zamień **O\_forecast** na nazwę identyfikatora modelu prognozy, która ma być używana podczas integracji. Szablon domyślny ma identyfikator modelu prognozy z danych demonstracyjnych.
 - Jeśli tworzysz nowy szablon, musisz dodać tę kolumnę. W Power Query wybierz opcję **Dodaj kolumnę warunkową** i wprowadź nazwę nowej kolumny, na przykład **ModelID**. Wprowadź warunek dla kolumny, gdzie, jeśli zadanie projektowe nie ma wartości null, wtedy \<enter the forecast model ID\>. W przeciwnym razie ma wartość null.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrowanie rekordów specyficznych dla zasobu
 
-Szablon szacowania godzin projektu (PSA do Fin i Ops) zawiera domyślny filtr, który usuwa wszelkie rekordy specyficzne dla zasobów. W przypadku utworzenia własnego szablonu należy dodać ten filtr. Zaznacz łącze **Zaawansowane zapytania i filtrowania** , aby filtrować kolumnę **msdyn\_islinetask** tak, aby zawierała tylko **Fałszywe** rekordy.
+Szablon szacowania godzin projektu (PSA do Fin i Ops) zawiera domyślny filtr, który usuwa wszelkie rekordy specyficzne dla zasobów. W przypadku utworzenia własnego szablonu należy dodać ten filtr. Zaznacz łącze **Zaawansowane zapytania i filtrowania**, aby filtrować kolumnę **msdyn\_islinetask** tak, aby zawierała tylko **Fałszywe** rekordy.
 
 #### <a name="filter-out-empty-transaction-category-rows"></a>Odfiltruj puste wiersze kategorii transakcji
 
@@ -137,18 +137,18 @@ W szablonie szacowania wydatków projektu należy użyć dodatku Power Query do 
 
 #### <a name="filter-to-include-only-expense-estimate-lines"></a>Filtr, w którym znajdują się tylko wiersze szacowanego wydatku.
 
-Szablon Szacunki wydatków projektu (PSA do Fin i Ops) ma domyślny filtr, który obejmuje tylko wiersze wydatków w integracji. W przypadku utworzenia własnego szablonu należy dodać ten filtr. Zaznacz zadanie **Relacje transakcyjne** , a następnie kliknij strzałkę **Mapa** , aby otworzyć mapowanie. Wybierz łącze **Zaawansowane zapytania i filtrowania**. Przefiltruj kolumnę **msdyn\_transactiontype1** , tak aby zawierała tylko **msdyn\_estimateline**.
+Szablon Szacunki wydatków projektu (PSA do Fin i Ops) ma domyślny filtr, który obejmuje tylko wiersze wydatków w integracji. W przypadku utworzenia własnego szablonu należy dodać ten filtr. Zaznacz zadanie **Relacje transakcyjne**, a następnie kliknij strzałkę **Mapa**, aby otworzyć mapowanie. Wybierz łącze **Zaawansowane zapytania i filtrowania**. Przefiltruj kolumnę **msdyn\_transactiontype1**, tak aby zawierała tylko **msdyn\_estimateline**.
 
 #### <a name="set-the-default-forecast-model-id"></a>Ustaw domyślny identyfikator modelu prognozy
 
-Aby zaktualizować domyslny identyfikator modelu prognozy w szablonie, wybierz zadanie **Szacowanie wydatków** , a potem kliknij strzałkę **Mapa** , aby otworzyć mapowanie. Wybierz łącze **Zaawansowane zapytania i filtrowania**.
+Aby zaktualizować domyslny identyfikator modelu prognozy w szablonie, wybierz zadanie **Szacowanie wydatków**, a potem kliknij strzałkę **Mapa**, aby otworzyć mapowanie. Wybierz łącze **Zaawansowane zapytania i filtrowania**.
 
 - Jeśli są używane szablony domyślne szacowania wydatków projektów (PSA do Fin i Ops), w Power Query wybierz najpierw **Wstawiony warunek** z sekcji **Zastosowane kroki**. We wpisie **Funkcja** zamień **O\_forecast** na nazwę identyfikatora modelu prognozy, która ma być używana podczas integracji. Szablon domyślny ma identyfikator modelu prognozy z danych demonstracyjnych.
 - Jeśli tworzysz nowy szablon, musisz dodać tę kolumnę. W Power Query wybierz opcję **Dodaj kolumnę warunkową** i wprowadź nazwę nowej kolumny, na przykład **ModelID**. Wprowadź warunek dla kolumny, gdzie, jeśli identyfikator linii oszacowania nie ma wartości null, wtedy \<enter the forecast model ID\>. W przeciwnym razie ma wartość null.
 
 #### <a name="transform-the-billing-types"></a>Przekształć typy fakturowania
 
-Szablon Szacunki kosztów projektu (od PSA do Fin i Ops) zawiera kolumnę warunkową używaną do przekształcania typów rozliczeń otrzymywanych z Project Service Automation podczas integracji. Jeśli tworzysz własny szablon, musisz dodać tę kolumnę warunkową. Wybierz łącze **Zaawansowane zapytania i filtrowania** , a następnie wybierz opcję **Dodaj kolumnę warunkową**. Wprowadź nazwę nowej kolumny, na przykład nazwa **TypRozliczenia**. Następnie wprowadź następujący warunek:
+Szablon Szacunki kosztów projektu (od PSA do Fin i Ops) zawiera kolumnę warunkową używaną do przekształcania typów rozliczeń otrzymywanych z Project Service Automation podczas integracji. Jeśli tworzysz własny szablon, musisz dodać tę kolumnę warunkową. Wybierz łącze **Zaawansowane zapytania i filtrowania**, a następnie wybierz opcję **Dodaj kolumnę warunkową**. Wprowadź nazwę nowej kolumny, na przykład nazwa **TypRozliczenia**. Następnie wprowadź następujący warunek:
 
 Jeśli **msdyn\_billingtype** = 192350000, to **NonChargeable**  
 inaczej jeśli **msdyn\_billingtype** = 192350001, to **Chargeable**  
@@ -157,7 +157,7 @@ inaczej **NotAvailable**
 
 #### <a name="transform-the-transaction-types"></a>Przekształć typy transakcji
 
-Szablon Szacunki kosztów projektu (od PSA do Fin i Ops) zawiera kolumnę warunkową używaną do przekształcania typów transakcji otrzymywanych z Project Service Automation podczas integracji. Jeśli tworzysz własny szablon, musisz dodać tę kolumnę warunkową. Wybierz łącze **Zaawansowane zapytania i filtrowania** , a następnie wybierz opcję **Dodaj kolumnę warunkową**. Wprowadź nazwę nowej kolumny, na przykład nazwa **TypTransakcji**. Następnie wprowadź następujący warunek:
+Szablon Szacunki kosztów projektu (od PSA do Fin i Ops) zawiera kolumnę warunkową używaną do przekształcania typów transakcji otrzymywanych z Project Service Automation podczas integracji. Jeśli tworzysz własny szablon, musisz dodać tę kolumnę warunkową. Wybierz łącze **Zaawansowane zapytania i filtrowania**, a następnie wybierz opcję **Dodaj kolumnę warunkową**. Wprowadź nazwę nowej kolumny, na przykład nazwa **TypTransakcji**. Następnie wprowadź następujący warunek:
 
 Jeśli **msdyn\_transactiontypecode** = 192350000, **Koszt**  
 inaczej jeśli **msdyn\_transactiontypecode** = 192350005, **Sprzedaż**  

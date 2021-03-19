@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0bf146c3bfb2fd558c471d8a9e980834cb1b87df
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082184"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288752"
 ---
 # <a name="set-up-project-resources"></a>Skonfiguruj zasoby projektu
 
@@ -41,7 +41,7 @@ Poniższe procedury wyjaśniają, jak skonfigurować pracownika jako zasób proj
 2. W okienku akcji wybierz **Projekt** &gt; **Ustawienia** &gt; **Ustawienia projektu**.
 3. Zaznacz kalendarz i zamknij stronę.
 
-Można również określić domyślne projekty zasobu jako typ przypisywania wstępnego. Przypisań wstępnych można użyć, gdy menedżer zasobów lub kierownik projektu wie z wyprzedzeniem, nad którymi projektami będzie pracował zasób. Przypisania wstępne mogą być również oparte na żądaniu sponsora lub klienta projektu. Aby wstępnie przydzielić projekt, na stronie **Przypisywanie projektów** , na karcie **Projekty** , na liście **Pozostałe projekty** wybierz odpowiedni projekt.
+Można również określić domyślne projekty zasobu jako typ przypisywania wstępnego. Przypisań wstępnych można użyć, gdy menedżer zasobów lub kierownik projektu wie z wyprzedzeniem, nad którymi projektami będzie pracował zasób. Przypisania wstępne mogą być również oparte na żądaniu sponsora lub klienta projektu. Aby wstępnie przydzielić projekt, na stronie **Przypisywanie projektów**, na karcie **Projekty**, na liście **Pozostałe projekty** wybierz odpowiedni projekt.
 
 ## <a name="set-up-an-intercompany-resource"></a>Konfigurowanie zasobu międzyfirmowego
 

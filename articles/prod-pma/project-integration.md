@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082073"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289337"
 ---
 # <a name="microsoft-project-client-integration"></a>Integracja klienta programu Microsoft Project
 
@@ -37,15 +37,15 @@ Planowanie i utrzymywanie harmonogramu projektu może być skomplikowane, więc 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>Konfigurowanie dodatku Microsoft Project Client
 Aby umożliwić integrację z Microsoft Project Client, dodatek Microsoft Dynamics 365 musi być zainstalowany w aplikacji klienta Microsoft Project użytkownika. W tym celu należy otworzyć **Obszar roboczy zarządzanie projektami**.
 
-•   Kliknij opcję **Konfigurowanie dodatku klienta projektu** , korzystając z sekcji **Łącza** > **Ustawienia** w obszarze roboczym.
+•   Kliknij opcję **Konfigurowanie dodatku klienta projektu**, korzystając z sekcji **Łącza** > **Ustawienia** w obszarze roboczym.
 
-•   Kliknij przycisk **Otwórz** , a następnie kliknij opcję **Uruchom** po wyświetleniu monitu.
+•   Kliknij przycisk **Otwórz**, a następnie kliknij opcję **Uruchom** po wyświetleniu monitu.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Otwórz i edytuj istniejącą roboczą strukturę podziału pracy w programie Microsoft Project Client
-Jeśli projekt w Dynamics 365 Finance ma już utworzoną strukturę podziału pracy, strukturę podziału pracy można otworzyć w aplikacji Microsoft Project Client, jeśli struktura podziału pracy ma status wersji roboczej. Aby otworzyć ze strony **Projektu** , kliknij łącze **Otwórz w programie Microsoft Project** na karcie **Plan**. Tę stronę można również otworzyć z poziomu aplikacji Microsoft Project Client, klikając **Otwórz** na karcie **Microsoft Dynamics 365**. Wybierz **Firma** i **Projekt** z listy.
+Jeśli projekt w Dynamics 365 Finance ma już utworzoną strukturę podziału pracy, strukturę podziału pracy można otworzyć w aplikacji Microsoft Project Client, jeśli struktura podziału pracy ma status wersji roboczej. Aby otworzyć ze strony **Projektu**, kliknij łącze **Otwórz w programie Microsoft Project** na karcie **Plan**. Tę stronę można również otworzyć z poziomu aplikacji Microsoft Project Client, klikając **Otwórz** na karcie **Microsoft Dynamics 365**. Wybierz **Firma** i **Projekt** z listy.
 
 > [!NOTE]
-> Jeśli używasz przeglądarki Internet Explorer jako przeglądarki, musisz kliknąć przycisk **Zapisz** , aby ręcznie otworzyć plik z lokalizacji, do której został pobrany plik. Lub kliknij przycisk **Zapisz i Otwórz** , aby otworzyć plik w programie Microsoft Project Client. Nie zmieniaj nazwy pliku przy zapisywaniu.
+> Jeśli używasz przeglądarki Internet Explorer jako przeglądarki, musisz kliknąć przycisk **Zapisz**, aby ręcznie otworzyć plik z lokalizacji, do której został pobrany plik. Lub kliknij przycisk **Zapisz i Otwórz**, aby otworzyć plik w programie Microsoft Project Client. Nie zmieniaj nazwy pliku przy zapisywaniu.
 
 Przed wprowadzeniem jakichkolwiek zmian w pliku przy użyciu Microsoft Project Client należy go zaewidencjonować. Kliknij pozycję **Wyewidencjonuj** na karcie **Microsoft Dynamics 365**. Uniemożliwi to innym użytkownikom edytowanie struktury podziału prac z poziomu finansów w tym samym czasie. Aby opublikować strukturę podziału pracy po zakończeniu edycji, kliknij pozycję **Zaewidencjonuj** na karcie **Microsoft Dynamics 365**.
 
@@ -122,9 +122,9 @@ Aby utworzyć nową strukturę podziału pracy przy użyciu programu Microsoft P
 
 6.  Wprowadź **Nazwa projektu**.
 
-7.  Wybierz **Typ projektu** , **Grupę projektów** oraz **Identyfikator kontraktu projektu**. Można również utworzyć nowy kontrakt dotyczący projektu, klikając opcję **Nowy**.
+7.  Wybierz **Typ projektu**, **Grupę projektów** oraz **Identyfikator kontraktu projektu**. Można również utworzyć nowy kontrakt dotyczący projektu, klikając opcję **Nowy**.
 
-8.  Wybierz **Kalendarz** , który ma być używany do ponownego wyszukania.
+8.  Wybierz **Kalendarz**, który ma być używany do ponownego wyszukania.
 
 11. Kliknij przycisk **OK**.
 

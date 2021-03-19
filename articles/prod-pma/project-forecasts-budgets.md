@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f99c00effbb0678f1f55e5068a7128cbfb86f5ce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2685e99800ef6fd0b613377271259da0da805aad
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082125"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289427"
 ---
 # <a name="project-forecasts-and-budgets"></a>Prognozy i budżety projektów
 
@@ -61,7 +61,7 @@ W modelach prognoz do obsługi projektów może służyć redukcja prognozowana.
 
 Prognozy projektów można korygować, kopiować, usuwać i przenosić do księgi głównej budżetu. Nie ma jednak żadnych kontrolnych procesów. Każdy pracownik, który ma uprawnienia do formularza prognozy, może wprowadzać poprawki bez przeglądu.
 
--   **Popraw** – Prognozowaną transakcję można skorygować w tych samych formularzach, w których wprowadzono oryginalne wpisy.
+-   **Popraw**– Prognozowaną transakcję można skorygować w tych samych formularzach, w których wprowadzono oryginalne wpisy.
 -   **Kopiowanie lub usuwanie** — podczas kopiowania transakcji planowania kopiowane są wiersze transakcji z jednego modelu prognozy do innego modelu prognozy. Usunięcie prognozy powoduje usunięcie transakcji prognozy z modelu prognozy. Aby ograniczyć sposób kopiowania lub usuwania transakcji prognozowanych, wybierz konkretne typy transakcji i daty. Pozwala to na skopiowanie lub usunięcie tylko określonych części prognozy.
 -   **Przeniesienie** — Po przeniesieniu prognozy projektu do budżetu księgi głównej przenosi się transakcje prognozy modelu prognozy do budżetu księgi głównej. Istnieje możliwość zastąpienia wszystkich przetransferowanych wcześniej transakcji w budżecie księgi głównej, do której ma zostać przesunięta prognoza projektu.
 

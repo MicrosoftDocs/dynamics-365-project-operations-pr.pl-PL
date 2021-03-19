@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081996"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288977"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Zapytanie dotyczące środków federalnych
 
@@ -44,25 +44,25 @@ Konieczne jest skonfigurowanie klastrów CFDA, które mogą być skojarzone z nu
 1. Wybierz kolejno pozycje **Zarządzanie projektami i księgowanie \> Konfiguracja \> Granty \> Katalog klastrów federalnej pomocy krajowej**.
 2. Aby utworzyć nowy klastr CFDA wybierz opcję **Nowy**.
 3. Wprowadź nazwę klastra.
-4. Wybierz **Zapisz** , aby zapisać zmiany.
+4. Wybierz **Zapisz**, aby zapisać zmiany.
 
 ## <a name="set-up-cfda-numbers"></a>Konfigurowanie numerów CFDA
 
 Konieczne jest skonfigurowanie numerów CFDA, które będą dodane do grantów i zawarte w zapytaniu dotyczącym zestawienia wydatków w ramach środków federalnych.
 
 1. Wybierz kolejno pozycje **Zarządzanie projektami i księgowanie \> Konfiguracja \> Granty \> Numery katalogu federalnej pomocy krajowej**.
-2. Wybierz opcję **Nowy** , aby nadać numer CFDA.
+2. Wybierz opcję **Nowy**, aby nadać numer CFDA.
 3. W kolumnie **Liczba** wprowadź numer CFDA.
 4. Naciśnij klawisz **Tab**.
 5. W kolumnie **Opis** wprowadź tytuł CFDA.
 6. Naciśnij klawisz **Tab**.
 7. Opcjonalnie: w polu **Klaster programów** dodaj odpowiedni klaster CFDA.
-8. Wybierz **Zapisz** , aby zapisać zmiany.
+8. Wybierz **Zapisz**, aby zapisać zmiany.
 
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Konfigurowanie grantów na potrzeby sporządzania raportów na temat zestawień wydatków w ramach środków federalnych
 
 1. W tym celu należy przejść do obszaru **Zarządzanie projektami i księgowanie \> Granty \> Granty** oraz wybrać istniejący grant.
-2. Na skróconej karcie **Konfiguracja** w polu **Katalog federalnej pomocy krajowej** przypisz numer CFDA. Numer CFDA określa raportowany klaster CFDA.
+2. Na skróconej karcie **Konfiguracja** w polu **Katalog federalnej pomocy krajowej** przypisz numer CFDA. Numer CFDA określa raportowany klaster CFDA.
 3. Na skróconej karcie **Informacje kontaktowe** FastTab wprowadź informacje dotyczące podmiotu udzielającego grant, wykonując następujące kroki:
 
     1. W polu **Klient grantu** wprowadź klienta, który jest odpowiedzialny za grant. W przypadku istniejącego grantu te informacje mogą być już wprowadzane.
@@ -79,9 +79,9 @@ Rząd federalny finansuje projekt infrastrukturalny w danym stanie. Rząd federa
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Wyłączenie grantów z raportów SEFA w zależności od typu grantu
 
-1. Wybierz kolejno pozycje **Zarządzanie projektami i księgowanie \> Konfiguracja \> Granty \> Typy grantów**.
-2. Na skróconej karcie **Informacje domyślne** zaznacz pole **Wyklucz z zapytania dotyczącego zestawienia wydatków w ramach środków federalnych**.
-3. Wybierz **Zapisz** , aby zapisać zmiany.
+1. Wybierz pozycje **Zarządzanie projektami i księgowanie \> Konfiguracja \> Granty \> Typy grantów**.
+2. Na skróconej karcie **Informacje domyślne** zaznacz pole **Wyklucz z zapytania dotyczącego zestawienia wydatków w ramach środków federalnych**.
+3. Wybierz **Zapisz**, aby zapisać zmiany.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Uruchamianie zapytania dotyczącego środków federalnych
 

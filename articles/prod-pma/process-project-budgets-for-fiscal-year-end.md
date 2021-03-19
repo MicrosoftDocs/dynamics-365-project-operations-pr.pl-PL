@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082145"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289742"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Przeniesienie budżetów projektu na koniec roku obrachunkowego
 
@@ -36,12 +36,12 @@ Podczas pracy w ramach projektu wieloletniego może się zdarzyć, że w budżec
 Wykonaj poniższe kroki, aby przejrzeć kwoty w budżecie na koniec roku dla projektów, ale nie przenosić kwot na następny okres.
 
 1. Przejdź do **Zarządzania projektami i księgowania** > **Okresowe** > **Budżety** > **Przeniesienie budżetów na następny okres**. 
-2. Na stronie **Proces przeniesienia budżetu projektu na następny okres** , na karcie **Opcje końca roku** potwierdź, że pole **Przenoś pozostałe w budżecie kwoty na następny okres** nie jest włączone.
+2. Na stronie **Proces przeniesienia budżetu projektu na następny okres**, na karcie **Opcje końca roku** potwierdź, że pole **Przenoś pozostałe w budżecie kwoty na następny okres** nie jest włączone.
 3. Na karcie **Parametry** w polu **Rok budżetowy projektu** zaznacz rok obrachunkowy, dla którego ma zostać wyświetlona pozostała kwota budżetu. 
 4. W polu **Rok budżetowy otwarcia** zaznacz rok obrachunkowy, dla którego ma zostać wyświetlona pozostała kwota budżetu. 
 5. W polu **Model prognozy** wybierz **Pozostały budżet**. 
 6. Aby uwzględnić projekty spełniające wybrane kryteria, które nie mają środków w budżecie, wybierz pozycję **Pokaż pozostałe z zero**.  
-7. Na karcie **Wybierz budżety** wybierz pozycję **Pobierz wszystkie budżety** , aby załadować wszystkie budżety spełniające wybrane kryteria, a następnie wybierz pozycję **Przetwórz**. 
+7. Na karcie **Wybierz budżety** wybierz pozycję **Pobierz wszystkie budżety**, aby załadować wszystkie budżety spełniające wybrane kryteria, a następnie wybierz pozycję **Przetwórz**. 
 8. Aby zaprojektować kwerendę bazy danych zawierającą dany zestaw budżetów w panelu, wybierz pozycję **Pobierz wybrane budżety**.
 
 Aby uzyskać więcej informacji na temat konkretnego wiersza w okienku, zaznacz wiersz i wybierz opcję **Wyświetl szczegóły budżetu** lub **Wyświetl konta**.
@@ -56,13 +56,13 @@ Podczas przetwarzania pozostałych kwot budżetu można utworzyć transakcje w k
 ## <a name="carry-forward-budget-amounts-and-create-general-ledger-transactions"></a><a name="carry-forward"></a>Przenoszenie kwot budżetu na następny okres i tworzenie transakcji w ramach księgi głównej
 
 1.  Wybierz **Zarządzania projektami i księgowania** > **Okresowe** > **Budżety** > **Przeniesienie budżetów na następny okres**. 
-2. Na stronie **Przeniesienie budżetu projektu na następny okres** wybierz opcję **Koniec roku** , a następnie włącz **Przenoszenie pozostałych kwot budżetu na następny okres** i **Tworzenie wpisów do rejestru budżetu w księdze głównej**. 
-3. Na karcie **Parametry** zaznacz grupę wyboru **Parametry projektu** , a następnie wklej w polu następujący kod:
+2. Na stronie **Przeniesienie budżetu projektu na następny okres** wybierz opcję **Koniec roku**, a następnie włącz **Przenoszenie pozostałych kwot budżetu na następny okres** i **Tworzenie wpisów do rejestru budżetu w księdze głównej**. 
+3. Na karcie **Parametry** zaznacz grupę wyboru **Parametry projektu**, a następnie wklej w polu następujący kod:
 
-   - **Rok budżetowy projektu** : zaznacz początek roku obrachunkowego, dla którego ma zostać wyświetlona pozostała kwota budżetu. 
-   - **Zyski i straty** : w księdze głównej utwórz transakcje zysków i strat. 
-   -  **PWT** : tworzenie transakcji prac w toku (PWT) w księdze głównej.
-   -  **Lista płac** : tworzenie transakcji alokacji środków w księdze głównej. 
+   - **Rok budżetowy projektu**: zaznacz początek roku obrachunkowego, dla którego ma zostać wyświetlona pozostała kwota budżetu. 
+   - **Zyski i straty**: w księdze głównej utwórz transakcje zysków i strat. 
+   -  **PWT**: tworzenie transakcji prac w toku (PWT) w księdze głównej.
+   -  **Lista płac**: tworzenie transakcji alokacji środków w księdze głównej. 
 
 5. W grupie pól **Księga główna** wprowadź następujące informacje: 
 
@@ -73,10 +73,10 @@ Podczas przetwarzania pozostałych kwot budżetu można utworzyć transakcje w k
 
    - W polu **Model prognozowania** wybierz model prognozy budżetu projektu skojarzony z pozostałymi kwotami budżetów, które mają zostać przeniesione do projektów. 
    - W polu **Docelowy model księgi budżetowej** wybierz model prognozy księgi budżetu skojarzony z pozostałymi kwotami budżetów, które mają zostać przeniesione do księgi głównej. 
-   -  Wybierz opcję **Przenieś walutę sprzedaży** , aby użyć waluty sprzedaży projektu na potrzeby transakcji księgi głównej tworzonych przy przenoszeniu kwot budżetu dla projektów. Jeśli opcja ta nie jest wybrana, transakcje korzystają z waluty rozliczeniowej. 
-   -  Wybierz opcję **Pokaż pozostałe zera** , aby uwzględnić projekty, które nie mają pozostałych kwot budżetu, ale spełniają inne kryteria wybrane w projektach wyświetlonych w dolnym okienku.
+   -  Wybierz opcję **Przenieś walutę sprzedaży**, aby użyć waluty sprzedaży projektu na potrzeby transakcji księgi głównej tworzonych przy przenoszeniu kwot budżetu dla projektów. Jeśli opcja ta nie jest wybrana, transakcje korzystają z waluty rozliczeniowej. 
+   -  Wybierz opcję **Pokaż pozostałe zera**, aby uwzględnić projekty, które nie mają pozostałych kwot budżetu, ale spełniają inne kryteria wybrane w projektach wyświetlonych w dolnym okienku.
 
-7. Na karcie **Wybierz budżety** wybierz pozycję **Pobierz wszystkie budżety** , aby załadować wszystkie budżety spełniające wybrane kryteria. Jeśli wolisz zaprojektować kwerendę bazy danych zawierającą dany zestaw budżetów projektu w panelu, wybierz pozycję **Pobierz wybrane budżety**.
+7. Na karcie **Wybierz budżety** wybierz pozycję **Pobierz wszystkie budżety**, aby załadować wszystkie budżety spełniające wybrane kryteria. Jeśli wolisz zaprojektować kwerendę bazy danych zawierającą dany zestaw budżetów projektu w panelu, wybierz pozycję **Pobierz wybrane budżety**.
 8. Dla każdego projektu, który ma zostać przetworzony, wybierz opcję na początku wiersza projektu.
 
     > [!TIP]
@@ -87,16 +87,16 @@ Podczas przetwarzania pozostałych kwot budżetu można utworzyć transakcje w k
 ## <a name="carry-forward-budget-amounts-without-creating-general-ledger-transactions"></a>Przenoszenie kwot budżetu na następny okres bez tworzenia transakcji w ramach księgi głównej
 
 1. Przejdź do **Zarządzania projektami i księgowania** > **Okresowe** > **Budżety** > **Przeniesienie budżetów na następny okres**.
-2. Na stronie **Proces przeniesienia budżetu projektu na następny okres** , w polu **Opcje końca roku** wybierz **Przenoś pozostałe w budżecie kwoty na następny okres**.
-3. W grupie **Parametry** , w polu **Rok budżetowy projektu** zaznacz rok obrachunkowy, dla którego mają zostać wyświetlone pozostałe kwoty budżetu.
+2. Na stronie **Proces przeniesienia budżetu projektu na następny okres**, w polu **Opcje końca roku** wybierz **Przenoś pozostałe w budżecie kwoty na następny okres**.
+3. W grupie **Parametry**, w polu **Rok budżetowy projektu** zaznacz rok obrachunkowy, dla którego mają zostać wyświetlone pozostałe kwoty budżetu.
 4. W grupie **Kopiuj z / do** wprowadź następujące informacje:
 
    - W polu **Model prognozowania** wybierz model prognozy budżetu projektu skojarzony z pozostałymi kwotami budżetów, które mają zostać przeniesione do projektów. 
-   - Wybierz pozycję **Pokaż pozostałe z zero** , aby uwzględnić projekty spełniające wybrane kryteria, które nie mają środków w budżecie.
-   - W grupie **Wybierz budżety** wybierz pozycję **Pobierz wszystkie budżety** , aby załadować wszystkie budżety spełniające wybrane kryteria. Aby zaprojektować kwerendę bazy danych zawierającą dany zestaw budżetów projektów w panelu, wybierz pozycję **Pobierz wybrane budżety**.
+   - Wybierz pozycję **Pokaż pozostałe z zero**, aby uwzględnić projekty spełniające wybrane kryteria, które nie mają środków w budżecie.
+   - W grupie **Wybierz budżety** wybierz pozycję **Pobierz wszystkie budżety**, aby załadować wszystkie budżety spełniające wybrane kryteria. Aby zaprojektować kwerendę bazy danych zawierającą dany zestaw budżetów projektów w panelu, wybierz pozycję **Pobierz wybrane budżety**.
 
 5. Dla każdego projektu, który ma zostać przetworzony, wybierz opcję na początku wiersza projektu. 
-6. Wybierz opcję **Przetwórz** , aby przenieść pozostałe kwoty budżetu dla wybranych projektów do wybranego rok obrachunkowy.
+6. Wybierz opcję **Przetwórz**, aby przenieść pozostałe kwoty budżetu dla wybranych projektów do wybranego rok obrachunkowy.
 
 
 

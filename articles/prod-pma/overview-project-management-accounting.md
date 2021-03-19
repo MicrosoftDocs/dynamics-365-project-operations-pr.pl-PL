@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082155"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289787"
 ---
 # <a name="project-management-and-accounting-overview"></a>Informacje o zarządzaniu projektami i ich księgowaniu
 
@@ -205,7 +205,7 @@ Można zamówić towary z poziomu zapasów firmy przeznaczonych do spożycia w p
 
 Sposób zamawiania produktów zależy od tego, skąd je zamawiasz:
 
--   Aby zamówić towary w magazynie firmy, należy wprowadzić zamówienie jako zapotrzebowanie na towary. Jeśli jest używana Strona **Zapotrzebowania na towary** , możesz skonfigurować wymaganie, aby otrzymywać przedmioty jako częściowe dostawy. W związku z tym można odłożyć zużycie towarów do momentu, gdy będzie jedna ilość potrzebna.
+-   Aby zamówić towary w magazynie firmy, należy wprowadzić zamówienie jako zapotrzebowanie na towary. Jeśli jest używana Strona **Zapotrzebowania na towary**, możesz skonfigurować wymaganie, aby otrzymywać przedmioty jako częściowe dostawy. W związku z tym można odłożyć zużycie towarów do momentu, gdy będzie jedna ilość potrzebna.
 -   Aby zamówić towary od dostawcy zewnętrznego, należy utworzyć zamówienie jako zamówienie zakupu na stronie **Zamówienie zakupu**.
 
 > [!NOTE] 
@@ -232,7 +232,7 @@ Aby uzyskać więcej informacji na temat przetwarzania faktur w ramach projektu,
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Obliczanie kosztów w celu wykonania projektu
 
-Podczas tworzenia oszacowania można wybrać metodę, która jest używana do obliczenia kosztu wykonania projektu. Metodę należy wybrać z pola **Metoda Koszt do zakończenia** na stronie **Tworzenie oszacowania**. Wybrana metoda jest stosowana osobno dla każdego wiersza kosztów w szacowaniu kosztów. Jeśli wiersz ma stan **Utworzony** , można zmienić metodę zastosowaną do niego na stronie **Szacowanie kosztów**. 
+Podczas tworzenia oszacowania można wybrać metodę, która jest używana do obliczenia kosztu wykonania projektu. Metodę należy wybrać z pola **Metoda Koszt do zakończenia** na stronie **Tworzenie oszacowania**. Wybrana metoda jest stosowana osobno dla każdego wiersza kosztów w szacowaniu kosztów. Jeśli wiersz ma stan **Utworzony**, można zmienić metodę zastosowaną do niego na stronie **Szacowanie kosztów**. 
 
 Poniższa tabela zawiera opis metod obliczania kosztów w celu wykonania projektu.
 
@@ -300,7 +300,7 @@ W zależności od konfiguracji można prognozować przychody środków pienięż
 -   **Data projektu:** 5 marca, 2012.
 -   **Data fakturowania:** 31 marca, 2012. Ta data jest określana na podstawie częstotliwości faktur. W tym przykładzie wartość częstotliwości faktury jest ustawiana na bieżący miesiąc. Z tego powodu wszystkie transakcje zaksięgowane w marcu są zafakturowane ostatniego dnia miesiąca.
 -   **Termin zapłaty:** 14 kwietnia 2012. Ta data jest określana na podstawie warunków płatności ustalonych dla projektu. W tym przykładzie wybrano warunki płatności na 14 dni. W związku z tym 14 dni jest dodawane do daty faktury, aby otrzymać termin płatności 14 kwietnia 2012 r.
--   **Przewidywana data płatności za sprzedaż:** 27 kwietnia 2012. Ta data jest obliczana przez dodanie liczby dni w polu **Ogólne dni buforowe** na stronie **Zarządzanie projektem i parametry księgowe** do liczby dni w polu **Indywidualne dni buforowe** na stronie **Umowy dotyczące projektów** , a następnie dodanie sumy do liczby dni w polu **Termin zapłaty**. W tym przykładzie wprowadzono **3** w polu **Ogólne dni buforowe** i **10** w polu **Indywidualne dni buforowe**. Dlatego 13 dni jest dodawane do terminu płatności, aby uzyskać oczekiwany termin płatności sprzedaży, czyli 27 kwietnia 2012 r.
+-   **Przewidywana data płatności za sprzedaż:** 27 kwietnia 2012. Ta data jest obliczana przez dodanie liczby dni w polu **Ogólne dni buforowe** na stronie **Zarządzanie projektem i parametry księgowe** liczby dni w polu **Indywidualne dni buforowe** na stronie **Umowy dotyczące projektów**, a następnie dodanie sumy do liczby dni w polu **Termin zapłaty**. W tym przykładzie wprowadzono **3** w polu **Ogólne dni buforowe** i **10** w polu **Indywidualne dni buforowe**. Dlatego 13 dni jest dodawane do terminu płatności, aby uzyskać oczekiwany termin płatności sprzedaży, czyli 27 kwietnia 2012 r.
 
 Ogólne dni buforowe mogą albo zastąpić poszczególne dni buforowe, albo zostać dodane do indywidualnych dni buforowych:
 
@@ -323,9 +323,9 @@ W zależności od definiowanego dnia data wypłaty kosztów może być inna niż
 
 Na przykład data projektu transakcji to 5 marca 2012 r. i ustalono następujące warunki płatności:
 
--   **Godziny:** bieżący miesiąc ( **M** )
--   **Koszty:** 14 dni ( **D14** )
--   **Towary:** 30 dni ( **D30** )
+-   **Godziny:** bieżący miesiąc (**M**)
+-   **Koszty:** 14 dni (**D14**)
+-   **Towary:** 30 dni (**D30**)
 
 W oparciu o te ustawienia, oto data płatności kosztów dla każdego typu transakcji:
 
@@ -364,7 +364,7 @@ Możesz monitorować koszty, które Twoja organizacja ponosi podczas projektu na
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Wyświetlanie pozostałych kwot zabudżetowanych
 
-Jeśli **Pozostały budżet** jest wybrana jako metoda kontroli kosztów na stronie **Parametry zarządzania projektem i księgowania** , strona **Kontrola kosztów** oblicza koszty, które nie zostały zaksięgowane jako rzeczywiste lub oznaczone jako zatwierdzone. W szczególności kwoty na karcie **Ogólne** w dolnym okienku strony **Kontrola kosztów** są obliczane w następujący sposób:
+Jeśli **Pozostały budżet** jest wybrana jako metoda kontroli kosztów na stronie **Parametry zarządzania projektem i księgowania**, strona **Kontrola kosztów** oblicza koszty, które nie zostały zaksięgowane jako rzeczywiste lub oznaczone jako zatwierdzone. W szczególności kwoty na karcie **Ogólne** w dolnym okienku strony **Kontrola kosztów** są obliczane w następujący sposób:
 
 -   **Koszt rzeczywisty** — łączna kwota, która została wydana w projekcie dla wybranego wiersza kosztów. Koszt rzeczywisty jest obliczany na stronie **Aktualizacje rejestru**.
 -   **Ustalony koszt** — dodatkowa kwota kosztów, jaką dana osoba prawna musi zapłacić za zapłatę. Określone kwoty ustalonych kosztów są obliczane na stronie **Ustalone koszty**.
@@ -381,7 +381,7 @@ Na stronie **Kontrola kosztów** na karcie **Odchylenie** można przejrzeć łą
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Wyświetlanie łącznych kwot zabudżetowanych
 
-Jeśli **Budżet całkowity** jest wybrany jako metoda kontroli kosztów na stronie **Parametry Zarządzanie projektami i księgowanie** , strona **Kontrola kosztów** oblicza koszty rzeczywiste i całkowite koszty projektu, aby ułatwić wykrycie różnic między nimi. W szczególności na stronie **Kontrola kosztów** kwoty w kolumnach w dolnym okienku na karcie **Ogólne** są obliczane w następujący sposób:
+Jeśli **Budżet całkowity** jest wybrany jako metoda kontroli kosztów na stronie **Parametry Zarządzanie projektami i księgowanie**, strona **Kontrola kosztów** oblicza koszty rzeczywiste i całkowite koszty projektu, aby ułatwić wykrycie różnic między nimi. W szczególności na stronie **Kontrola kosztów** kwoty w kolumnach w dolnym okienku na karcie **Ogólne** są obliczane w następujący sposób:
 
 -   **Łączny koszt w budżecie** — łączna kwota budżetowa dla wybranego wiersza kosztu.
 -   **Koszt rzeczywisty** — Całkowita kwota kosztów, które zostały dotychczas poniesione w projekcie dla wybranych linii kosztów.
@@ -414,7 +414,7 @@ Stawki wykorzystania są obliczane na stronie **Wykorzystania godzin**. Obliczen
 -   **Zależnie od właściwości wiersza** — Właściwości wiersza danej transakcji godzinowej określają, czy godziny są brane pod uwagę do rozliczenia, czy do wykorzystania wydajności.
 -   **Wyłączone** — godziny nie są brane pod uwagę w obliczeniu wykorzystania fakturowania lub wydajności.
 
-Na stronie **Wykorzystania godzin** , oprócz ogólnego wskaźnika wykorzystania dla pracownika lub projektu można wyświetlić liczbę godzin, które były używane do obliczania wskaźnika wykorzystania dla każdego z następujących typów godzin:
+Na stronie **Wykorzystania godzin**, oprócz ogólnego wskaźnika wykorzystania dla pracownika lub projektu można wyświetlić liczbę godzin, które były używane do obliczania wskaźnika wykorzystania dla każdego z następujących typów godzin:
 
 -   **Wyłączone godziny** – Te godziny nie są wliczane do wskaźnika wykorzystania godzin.
 -   **Wliczone godziny** — Te godziny są obliczane przez dodanie godzin wykorzystania i godzin obciążenia. Te godziny są uwzględnione we współczynniku wykorzystania.
@@ -432,7 +432,7 @@ Możesz utworzyć instrukcję projektu, aby wyświetlić szybką migawkę postę
 -   Data projektu/data rejestru
 -   Dane
 
-Po obliczeniu zestawienia możesz wyświetlić następujące informacje na różnych zakładkach na stronie **Instrukcje projektów** :
+Po obliczeniu zestawienia możesz wyświetlić następujące informacje na różnych zakładkach na stronie **Instrukcje projektów**:
 
 -   **Ogólne** — Ogólne informacje o podstawowej strukturze zysków i strat projektu.
 -   **Zyski i straty** — Informacje o naliczonym przychodzie.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081987"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287971"
 ---
 # <a name="work-breakdown-structures-overview"></a>Omówienie struktur podziału pracy
 
@@ -50,7 +50,7 @@ Aby korzystać z pełnych możliwości planowania funkcji SPP, należy wykonać 
 
 1.  Skonfiguruj kalendarz domyślny i kalendarz projektu:
     1.  Przejdź do **Zarządzanie projektami i księgowanie** &gt; **Ustawienia** &gt; **Parametry Zarządzanie projektami i księgowanie** &gt; **Planowanie**. W polu **Domyślny kalendarz pracy** określ kalendarz domyślny. Będzie to domyślny kalendarz pracy dla każdego tworzonego nowego projektu.
-    2.  Użytkownik może zmienić kalendarz domyślny dla określonego projektu. Kliknij stronę szczegółów projektu, a następnie na skróconej karcie **Zespół projektowy i planowanie** zaktualizuj pole **Kalendarz planowania** , wybierając inny kalendarz.
+    2.  Użytkownik może zmienić kalendarz domyślny dla określonego projektu. Kliknij stronę szczegółów projektu, a następnie na skróconej karcie **Zespół projektowy i planowanie** zaktualizuj pole **Kalendarz planowania**, wybierając inny kalendarz.
 
 2.  Konfigurowanie standardowych dni roboczych i godzin pracy. Kalendarz ustawiony jako kalendarz roboczy w projekcie zostanie użyty w SPP w celu określenia następujących informacji:
 
@@ -102,7 +102,7 @@ Obecnie nie można dostosować numeracji SPP.
 
 ### <a name="schedule-estimation"></a>Szacowanie harmonogramu
 
-Planowanie planowania to zazwyczaj drugi krok w celu utworzenia struktury SPP. Zaleca się, aby po utworzeniu wszystkich zadań oszacować harmonogram został wykonany. Strona **Struktura podziału pracy** w Finance zawiera dwie sekcje. Panel górny jest przeznaczony do szacowania planowania, a w dolnym okienku są dostępne karty **Szacowane koszty i przychody** , które mogą być używane przy szacowaniu kosztów. 
+Planowanie planowania to zazwyczaj drugi krok w celu utworzenia struktury SPP. Zaleca się, aby po utworzeniu wszystkich zadań oszacować harmonogram został wykonany. Strona **Struktura podziału pracy** w rozwiązaniu Finance zawiera dwie sekcje. Panel górny jest przeznaczony do szacowania planowania, a w dolnym okienku są dostępne karty **Szacowane koszty i przychody**, które mogą być używane przy szacowaniu kosztów. 
 **Współzależności zadań** W SPP można utworzyć poprzednią relację między zadaniami. Kiedy przypiszesz poprzednie zadania do zadania, to zadanie może zostać uruchomione dopiero po wykonaniu wszystkich poprzednich zadań. Planowana data rozpoczęcia zadania jest automatycznie ustawiana na ostatnią datę jej poprzednika. 
 
 **Planowanie zadań** następujące czynniki określają planowanie zadań węzłów liścia:

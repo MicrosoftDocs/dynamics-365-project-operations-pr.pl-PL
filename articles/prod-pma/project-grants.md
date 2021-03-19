@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082193"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289382"
 ---
 # <a name="project-grants"></a>Granty projektu
 
@@ -51,9 +51,9 @@ Można utworzyć grant wprowadzając wszystkie szczegóły do nowego rekordu alb
     Poniższa lista zawiera informacje określone w poszczególnych skróconych kartach strony z informacjami dotyczącymi udzielenia grantu:
 
     - **Ogólne** — Wprowadź nazwę grantu, stan, opis, cel i kwotę.
-    - **Informacje kontaktowe** — Wprowadź szczegóły dotyczące pracowników, dział zarządzający grantem oraz klienta grantu lub źródło. Można również określić, czy dana organizacja jest podmiotem przekazującym, który odbiera grantu a potem przekazuje go dalej innemu odbiorcy. Wybierz przycisk **Dodaj** , aby dodać do organizacji przyznającej grant informacje o kontakcie, takie jak numery telefonów i adresy e-mail.
+    - **Informacje kontaktowe** — Wprowadź szczegóły dotyczące pracowników, dział zarządzający grantem oraz klienta grantu lub źródło. Można również określić, czy dana organizacja jest podmiotem przekazującym, który odbiera grantu a potem przekazuje go dalej innemu odbiorcy. Wybierz przycisk **Dodaj**, aby dodać do organizacji przyznającej grant informacje o kontakcie, takie jak numery telefonów i adresy e-mail.
     - **Daty i terminy** — wprowadź daty powiązane z danym grantem oraz jego przyznaniem. Przykładami mogą być graniczna data złożenia wniosku, data przesyłania oraz data zatwierdzenia lub odrzucenia grantu.
-    - **Skojarzone projekty i kontrakty projektów** — Informacje zawarte na tej skróconej karcie można wprowadzić tylko wtedy, gdy w polu **Status grantu** , na skróconej karcie **Ogólne** jest ustawiona wartość **Aktywny** lub **Przyznany**. Aby wykonać zadanie, należy wybrać jedną z następujących opcji:
+    - **Skojarzone projekty i kontrakty projektów** — Informacje zawarte na tej skróconej karcie można wprowadzić tylko wtedy, gdy w polu **Status grantu**, na skróconej karcie **Ogólne** jest ustawiona wartość **Aktywny** lub **Przyznany**. Aby wykonać zadanie, należy wybrać jedną z następujących opcji:
 
         - **Dodaj źródło finansowania** — dodanie nowego źródła finansowania grantu. Można teraz wprowadzić wszystkie szczegóły albo użyć domyślnych informacji, a następnie zaktualizować je później.
         - **Dodanie kontraktu dotyczącego projektu** — dodanie lub zaktualizowanie informacji o kontrakcie projektu.

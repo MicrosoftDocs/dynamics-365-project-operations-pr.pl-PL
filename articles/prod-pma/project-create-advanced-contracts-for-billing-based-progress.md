@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b1de330df8cf85ed30c0ee4e4f2f2fe74d05dbff
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082141"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289517"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Tworzenie zaawansowanych kontraktów dotyczących rozliczeń na podstawie postępu
 [!include [banner](../includes/banner.md)]
@@ -51,7 +51,7 @@ Menedżer budżetu tworzy budżet dla kategorii projektów. Ilość pracy wykona
 Przed utworzeniem projektu, który korzysta z reguł fakturowania, należy skonfigurować sekwencje numerów dla reguł fakturowania i arkusz opłat używany do księgowania postępu fakturowania.
 
 1. Przejdź do **Zarządzanie projektami i księgowanie** \> **Ustawienia** \> **Parametry zarządzania projektami i księgowanie**.
-2. Na stronie **Zarządzanie projektami i parametry księgowania** , na karcie **Sekwencje numerów** skonfiguruj sekwencję numerów, która ma być używana podczas tworzenia reguł fakturowania.
+2. Na stronie **Zarządzanie projektami i parametry księgowania**, na karcie **Sekwencje numerów** skonfiguruj sekwencję numerów, która ma być używana podczas tworzenia reguł fakturowania.
 3. Wybierz kolejno pozycje **Zarządzanie projektami i księgowanie** \> **Arkusze** \> **Opłaty**.
 4. Na stronie **Arkusz opłat** wybierz opcję **Nowy** i wprowadź nazwę arkusza.
 
@@ -77,7 +77,7 @@ Wykonaj te kroki, aby utworzyć projekt i wszystkie podprojekty skojarzone z kon
 
 1. Przejdź do **Zarządzanie projektami i księgowanie** \> **Projekty** \> **Wszystkie projekty**.
 2. Na stronie **Wszystkie projekty** wybierz **Nowy**.
-3. W oknie dialogowym **Nowy projekt** , w polu **Typ projektu** wybierz opcję **Czas i materiały**.
+3. W oknie dialogowym **Nowy projekt**, w polu **Typ projektu** wybierz opcję **Czas i materiały**.
 4. Wybierz grupę projektu. Grupa projektu definiuje informacje dotyczące księgowania dla projektów przypisanych do grupy.
 5. Wybierz pozycję **Utwórz projekt**.
 6. Po utworzeniu projektu ustaw etap projektu na **W toku**.
@@ -88,7 +88,7 @@ kategorie budżetowe automatycznie obliczają kwoty faktur dla procentu pracy wy
 
 1. Przejdź do **Zarządzanie projektami i księgowanie** \> **Projekty** \> **Wszystkie projekty**.
 2. Na stronie **Wszystkie projekty** wybierz odpowiedni projekt i otwórz go.
-3. Na stronie **Projekty** w okienku akcji na karcie **Plan** , w grupie **Budżet** wybierz pozycję **Budżet projektu**.
+3. Na stronie **Projekty** w okienku akcji na karcie **Plan**, w grupie **Budżet** wybierz pozycję **Budżet projektu**.
 4. Na stronie **Budżet projektu** wprowadź szacowany koszt dla każdej kategorii w projekcie.
 
 ## <a name="create-billing-rules-for-progress-billings"></a>Tworzenie reguł fakturowania dla fakturowania postępu
@@ -97,10 +97,10 @@ kategorie budżetowe automatycznie obliczają kwoty faktur dla procentu pracy wy
 2. Na stronie listy **Kontrakty projektów** wybierz i otwórz kontrakt projektu.
 3. Na stronie kontrakt projektu na skróconej karcie **Reguły fakturowania** wybierz pozycję **Dodaj**.
 4. Na stronie **Reguła fakturowania** w polu **Typ wiersza** wybierz pozycję **Postęp**.
-5. Na skróconej karcie **Szczegóły wiersza reguły fakturowania** , w polu **Wartość kontraktu** wprowadź łączną wartość kontraktu.
+5. Na skróconej karcie **Szczegóły wiersza reguły fakturowania**, w polu **Wartość kontraktu** wprowadź łączną wartość kontraktu.
 6. W polu **Kategoria** wybierz kategorię, w której ma zostać zaksięgowana transakcja opłat.
 7. W polu **Projekt** wybierz projekt korzystający z reguły fakturowania.
-8. Opcjonalnie: Przypisz regułę fakturowania do dodatkowych projektów. Na skróconej karcie **Projekt** , w sekcji **Dostępne projekty** wybierz projekt, a następnie wybierz przycisk strzałki w prawo, aby dodać projekt do sekcji **Wybrane projekty**.
+8. Opcjonalnie: Przypisz regułę fakturowania do dodatkowych projektów. Na skróconej karcie **Projekt**, w sekcji **Dostępne projekty** wybierz projekt, a następnie wybierz przycisk strzałki w prawo, aby dodać projekt do sekcji **Wybrane projekty**.
 9. Opcjonalnie: należy obliczyć kwotę procentową zatrzymania przez klienta na fakturze. Na skróconej karcie **Warunki zatrzymania płatności** wybierz źródło finansowania, a następnie w polu **Procent zatrzymania** wprowadź wartość procentową zatrzymania.
 10. Powtórz te kroki, aby utworzyć dodatkowe reguły fakturowania dla kontraktu dotyczącego projektu.
 

@@ -1,6 +1,6 @@
 ---
 title: Synchronizuj dane rzeczywiste projektu bezpośrednio z programu Project Service Automation do dziennika integracji projektu w celu księgowania w Finance and Operations
-description: Ta temat opisuje szablony i podstawowe zadania używane do synchronizowania wartości rzeczywiste projektu bezpośrednio z Microsoft Dynamics 365 Project Service Automation do Finance and Operations.
+description: W tym temacie opisano szablony i podstawowe zadania, które są używane do synchronizowania danych rzeczywistych projektu bezpośrednio z Microsoft Microsoft Dynamics 365 Project Service Automation do Finance and Operations.
 author: Yowelle
 manager: AnnBe
 ms.date: 07/20/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082144"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289697"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronizuj dane rzeczywiste projektu bezpośrednio z programu Project Service Automation do dziennika integracji projektu w celu księgowania w Finance and Operations
 
@@ -50,7 +50,7 @@ Na poniższej ilustracji przedstawiono sposób synchronizowania danych między P
 
 ### <a name="template-and-tasks"></a>Szablon i zadania
 
-Aby uzyskać dostęp do dostępnych szablonów, w centrum administracyjnym Microsoft Power Apps wybierz pozycję **Projekty** , a następnie w prawym górnym rogu wybierz opcję **Nowy projekt** , aby wybrać szablony publiczne.
+Aby uzyskać dostęp do dostępnych szablonów, w centrum administracyjnym Microsoft Power Apps wybierz pozycję **Projekty**, a następnie w prawym górnym rogu wybierz opcję **Nowy projekt**, aby wybrać szablony publiczne.
 
 Następujący szablon i podstawowe zadania są używane do synchronizowania danych rzeczywistych projektu z Project Service Automation do Finance:
 
@@ -86,9 +86,9 @@ Aby wykonać te zadania, należy użyć Microsoft Power Query dla Excel w szablo
 - Jeśli międzyfirmowe lub międzyfirmowe wartości rzeczywiste wydatków nie zostaną zsynchronizowane z programem Finance, należy usunąć z szablonu ostatnią wstawioną kolumnę warunkową. W przeciwnym razie może wystąpić błąd integracji lub nieprawidłowe rzeczywiste transakcje mogą zostać zaimportowane do Finance.
 
 #### <a name="contract-organizational-unit"></a>Jednostka organizacyjna kontraktowa
-Aby zaktualizować wstawioną kolumnę warunkową w szablonie, kliknij strzałkę na **mapie** , aby otworzyć mapowanie. Zaznacz łącze **Zaawansowane zapytania i filtrowania** , aby otworzyć Power Query.
+Aby zaktualizować wstawioną kolumnę warunkową w szablonie, kliknij strzałkę na **mapie**, aby otworzyć mapowanie. Zaznacz łącze **Zaawansowane zapytania i filtrowania**, aby otworzyć Power Query.
 
-- Jeśli są używane szablony domyślne projektów rzeczywistych (PSA do Fin lub Ops), w Power Query wybierz ostatnio **Wstawiony warunek** z sekcji **Zastosowane kroki**. We wpisie **Funkcja** zamień **USSI** na nazwę firmy, która ma być używana podczas integracji. Dodaj dodatkowe warunki do wpisu **Funkcji** , gdy jest to wymagane, i zaktualizuj warunek **else** z **USMF** do właściwej firmy.
+- Jeśli są używane szablony domyślne projektów rzeczywistych (PSA do Fin lub Ops), w Power Query wybierz ostatnio **Wstawiony warunek** z sekcji **Zastosowane kroki**. We wpisie **Funkcja** zamień **USSI** na nazwę firmy, która ma być używana podczas integracji. Dodaj dodatkowe warunki do wpisu **Funkcji**, gdy jest to wymagane, i zaktualizuj warunek **else** z **USMF** do właściwej firmy.
 - Jeśli tworzysz nowy szablon, musisz dodać kolumnę, aby wspierać czas i koszty międzyfirmowe. Wybierz opcję **Dodaj kolumnę warunkową** i wprowadź nazwę kolumny, na przykład **LegalEntity**. Wprowadź warunek dla kolumny, gdzie, jeśli **msdyn\_contractorganizationalunitid.msdyn\_name** to \<organizational unit\>, wtedy \<enter the legal entity\>. W przeciwnym razie ma wartość null.
 
 ### <a name="template-mapping-in-data-integration"></a>Mapowanie szablonów w integracji danych

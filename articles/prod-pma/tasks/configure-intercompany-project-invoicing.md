@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cb53cb63ee11082146455ec9f13790501dc3d1d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9df15cb3712356a164de3507f5dbc17a9ff9a652
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082071"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288392"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Konfigurowanie międzyfirmowego fakturowania projektu
 
@@ -34,14 +34,14 @@ W tym temat pokazano, jak skonfigurować sposób fakturowania projektów między
 2. Na liście **Wszyscy sprzedawcy** znajdź i wybierz żądany rekord.
 3. W okienku akcji wybierz pozycję **Ogólne**.
 4. Wybierz opcję **Międzyfirmowe**.
-5. Ustaw wartość **Aktywne** na **Tak** , aby włączyć handel międzyfirmowy.
+5. Ustaw wartość **Aktywne** na **Tak**, aby włączyć handel międzyfirmowy.
 6. W polu **Firma klienta** wprowadź lub wybierz wartość.
 7. W polu **Moje konto** wprowadź lub wybierz wartość.
 8. Wybierz pozycję **Zapisz**.
 9. Zamknij strony, aby powrócić do strony głównej.
 10. W okienku nawigacji wybierz kolejno pozycje **Moduły > Zarządzanie projektami i księgowanie > Ustawienia > Parametry Zarządzanie projektami i księgowanie**.
 11. Wybierz kartę **Międzyfirmowe**.
-12. Przesuń suwak na **Tak** , aby włączyć Międzyfirmowe planowanie zasobów i grafiki.
+12. Przesuń suwak na **Tak**, aby włączyć Międzyfirmowe planowanie zasobów i grafiki.
 13. Zaznacz wybrany wiersz na liście.
 14. Wybierz **Nowy**.
 15. W polu **Firma pozyczająca** wprowadź lub wybierz wartość.
