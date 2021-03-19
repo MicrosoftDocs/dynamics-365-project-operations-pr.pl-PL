@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
-ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
+ms.openlocfilehash: f8e9bce6612e617785264470b7946ffc4795a621
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367279"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291857"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nowości Listopad 2020 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Ten temat dotyczy następujących składników i wersji Dynamics 365 Project Operations:
+Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
 
 - Project Operations w środowisku CDS w wersji 4.4.0.70
 - Zarządzanie projektami i ich księgowanie w wersji 10.0.14 środowiska Dynamics 365 Finance

@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175904"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290057"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Tworzenie konta dla subskrypcji w wersji zapoznawczej — wersja uproszczona 
 
-W tym temacie zamieszczono informacje wyjaśniające wykorzystanie oferty partnerskiej i wdrożenie programu Dynamics 365 Project Operations w wersji okrojonej— od oferty do faktury pro forma.
+W tym temat wyjaśniono, jak subskrybować ofertę partnera w wersji zapoznawczej i wdrożyć w wersji uproszczonej Dynamics 365 Project Operations — od umowy do fakturowania proforma.
 
 > [!NOTE]
 > Ten proces będzie się zmieniać w nadchodzących wersjach Project Operations.
@@ -42,7 +42,7 @@ Po zatwierdzeniu żądania [dostępu do wersji zapoznawczej](https://forms.offic
 
 Przed rozpoczęciem pracy należy się upewnić, że użytkownik jest zalogowany w przeglądarce i ma konto pracy użytkownika w dzierżawie, w której ma zostać wyświetlona wersja zapoznawcza Project Operations.
 
-1. Zrealizuj pierwszy kod oferty **Dynamics 365 Project Operations (CRM) — próbna wersja zapoznawcza**, wklejając go do adresu URL przeglądarki.
+1. Zrealizuj pierwszy kod oferty, **Dynamics 365 Project Operations (CRM) — próbna wersja zapoznawcza**, wklejając go do adresu URL przeglądarki.
 
 ![Realizacja oferty](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ Powtórz te kroki, tak jak w przypadku pierwszego kodu oferty. Należy pamięta�
 
 ![Przypisywanie licencji](./media/15AssignLicenses.png)
 
-3. Sprawdź, czy wybrano licencje **Dynamics 365 Project Operations (CRM) — próbna wersja zapoznawcza** i **Office 365 Project Operations — wersja zapoznawcza**. 
+3. Sprawdź, czy zaznaczone są licencje **Dynamics 365 Project Operations (CRM) w wersji zapoznawczej** i **Project Operations Office 365 — wersja zapoznawcza**. 
 4. Wybierz **Zapisz zmiany**.
 
 ## <a name="create-a-new-cds-environment"></a>Utwórz nowe środowisko CDS
@@ -84,7 +84,7 @@ Powtórz te kroki, tak jak w przypadku pierwszego kodu oferty. Należy pamięta�
 
 ![Dodaj bazę danych](./media/20CreateEnvironment1.png)
 
-4. Po utworzeniu środowiska zainstaluj rozwiązanie **Microsoft Dynamics Project 365 Operations**. 
+4. Po utworzeniu środowiska zainstaluj rozwiązanie **Microsoft Dynamics 365 Project Operations**. 
 
 ![Instalacja rozwiązania](./media/21InstallSolution.png)
 

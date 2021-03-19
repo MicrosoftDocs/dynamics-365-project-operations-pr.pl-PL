@@ -1,6 +1,6 @@
 ---
 title: Wartości rzeczywiste
-description: Ten temat zawiera informacje na temat pracy z wartościami rzeczywistymi w Microsoft Dynamics 365 Project Operations.
+description: Ten temat zawiera informacje dotyczące pracy z wartościami rzeczywistymi w rozwiązaniu Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126326"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291812"
 ---
 # <a name="actuals"></a>Wartości rzeczywiste 
 
@@ -70,7 +70,7 @@ We wpisach wydatków nie można wprowadzać domyślnych cen jednostkowych oparty
 Arkusze umożliwiają rejestrowanie kosztów lub przychodów w klasach materiałów, opłat, czasu, wydatków lub transakcji podatkowych. Arkusze mogą być używane w produkcji.
 
 - Rejestrowania rzeczywistych kosztów materiałów i wielkości sprzedaży w projekcie.
-- Przeniesienia wartości rzeczywistych transakcji z innego systemu do Microsoft Dynamics 365 Project Operations.
+- Przenieś wartości rzeczywiste transakcji z innego systemu do rozwiązaniu Microsoft Dynamics 365 Project Operations.
 - Zarejestrowania kosztów, które wystąpiły w innym systemie. Koszty te mogą zawierać koszty zakupu lub podwykonawców.
 
 > [!IMPORTANT]

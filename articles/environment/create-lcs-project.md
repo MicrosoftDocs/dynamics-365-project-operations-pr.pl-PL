@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 595fda369fe19a69604fc4ab694cb844f45076b5
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 463c1e206090b8c85ff67f4fc38a15932749a834
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175634"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290237"
 ---
 # <a name="start-a-new-lcs-project"></a>Rozpoczęcie nowego projektu LCS
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Korzystanie z Lifecycle Services (LCS) do zarządzania programem Dynamics 365 w środowisku Project Operations. Wykonaj poniższe kroki, aby utworzyć nowy projekt LCS.
+Użyj usług Lifecycle Services (LCS), aby zarządzać środowiskami Dynamics 365 Project Operations. Wykonaj poniższe kroki, aby utworzyć nowy projekt LCS.
 
 1. Przejdź do obszaru [LCS](https://lcs.dynamics.com/Logon/Index) i wybierz pozycję **Zaloguj się**, korzystając z konta użytego do subskrybowania.
 2. Jeśli zostanie wyświetlony monit, zaakceptuj postanowienia licencyjne i dotyczące prywatności.
