@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127375"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286621"
 ---
 # <a name="project-tracking-overview"></a>Omówienie śledzenia projektu
 
@@ -23,7 +23,7 @@ Konieczność śledzenia postępu w harmonogramie zależy od branży. Niektóre 
 
 ## <a name="effort-tracking-view"></a>Widok Śledzenie nakładu pracy
 
-W widoku **Śledzenia nakładów** są śledzone postępy zadań w harmonogramie. Polega to na porównaniu rzeczywistych nakładów pracy na zadanie z planowanymi godziny nakładu pracy danego zadania. Dynamics 365 Project Operations korzysta z poniższych formuł do obliczania metryk śledzenia:
+W widoku **Śledzenia nakładów** są śledzone postępy zadań w harmonogramie. Polega to na porównaniu rzeczywistych nakładów pracy na zadanie z planowanymi godziny nakładu pracy danego zadania. Rozwiązanie Dynamics 365 Project Operations korzysta z poniższych formuł do obliczania metryk śledzenia:
 
 - **Procent postępu**: rzeczywisty nakład pracy do dnia dzisiejszego ÷ szacowane przy zakończeniu (SPZ) 
 - **Szacowane do zakończenia (ETC)**: planowany nakład pracy — rzeczywisty nakład pracy do dnia dzisiejszego 

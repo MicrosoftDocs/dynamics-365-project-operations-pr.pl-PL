@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133411"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287251"
 ---
 # <a name="integration-journal-in-project-operations"></a>Arkusz integracji w aplikacji Project Operations
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Wpisy czasu i wydatku tworzą **Rzeczywiste** transakcje reprezentujące praktyczny widok pracy wykonanej nad projektem. Dynamics 365 Project Operations zapewnia księgowym narzędzie do przeglądania transakcji i dostosowywania atrybutów księgowych zgodnie z potrzebami. Po zakończeniu przeglądu i dostosowań transakcje są księgowane w księgach i księdze głównej projektu. Te działania można wykonać przy użyciu arkusza **integracji Project Operations** (**Dynamics 365 Finance** > **Zarządzanie projektami i ich księgowanie** > **Arkusze** > **Arkusz integracji aplikacji Project Operations**.
+Wpisy czasu i wydatku tworzą **Rzeczywiste** transakcje reprezentujące praktyczny widok pracy wykonanej nad projektem. Rozwiązanie Dynamics 365 Project Operations zapewnia księgowym narzędzie do przeglądania transakcji i dostosowywania atrybutów księgowych zgodnie z potrzebami. Po zakończeniu przeglądu i dostosowań transakcje są księgowane w księgach i księdze głównej projektu. Te działania można wykonać przy użyciu arkusza **integracji Project Operations** (**Dynamics 365 Finance** > **Zarządzanie projektami i ich księgowanie** > **Arkusze** > **Arkusz integracji aplikacji Project Operations**.
 
 ![Przepływ dziennika integracji](./media/IntegrationJournal.png)
 
@@ -28,9 +28,9 @@ Wpisy czasu i wydatku tworzą **Rzeczywiste** transakcje reprezentujące praktyc
 Rekordy w dzienniku integracji Project Operations są tworzone przy użyciu procesu okresowego **Import z tabeli przemieszczania**. Aby uruchomić ten proces, należy przechodząc do obszaru **Dynamics 365 Finance** > **Zarządzanie projektami i ich księgowanie** > **Okresowe** > **Integracja Project Operations** > **Import z tabeli przemieszczania**. Proces można uruchomić interakcyjnie lub skonfigurować go tak, aby uruchamiał się w tle w zależności od potrzeb.
 
 Podczas przebiegu procesu okresowego można znaleźć wartości rzeczywiste, które nie zostały jeszcze dodane do arkusza integracji Project Operations. Zostanie utworzony wiersz dziennika dla każdej transakcji rzeczywistej.
-Wiersze dziennika z grupami systemowymi jako oddzielne dzienniki na podstawie wartości wybranej w polu **Jednostka okresu w dzienniku Integracja operacji projektu** (**Finance** > **Zarządzanie projektami i ich księgowanie** > **Ustawienia** > **Zarządzanie projektem i parametry księgowe**, **Project Operations na karcie Dynamics 365 Customer Engagement** _). Dopuszczalne wartości tego pola to:
+Wiersze dziennika z grupami systemowymi jako oddzielne dzienniki na podstawie wartości wybranej w polu **Jednostka okresu w dzienniku Integracja operacji projektu** (**Finance** > **Zarządzanie projektami i ich księgowanie** > **Ustawienia** > **Zarządzanie projektem i parametry księgowe**, **Project Operations na karcie Dynamics 365 Customer Engagement**). Dopuszczalne wartości tego pola to:
 
-  - _*Dni**: wartości rzeczywiste są pogrupowane według daty transakcji. Dla każdego dnia jest tworzony osobny arkusz.
+  - **Dni**: wartości rzeczywiste są pogrupowane według daty transakcji. Dla każdego dnia jest tworzony osobny arkusz.
   - **Miesiące**: wartości rzeczywiste są pogrupowane według miesięcy kalendarzowych. Dla każdego miesiąca jest tworzony osobny arkusz.
   - **Lata**: wartości rzeczywiste są pogrupowane według lat kalendarzowych. Dla każdego roku jest tworzony osobny arkusz.
   - **Wszystkie**: wszystkie transakcje rzeczywiste są zawarte w tym samym arkuszu integracji. Jeśli arkusz nie jest dostępny w ramach procesu okresowego, na przykład jeśli arkusz jest w trakcie księgowania transakcji, tworzony jest nowy arkusz.

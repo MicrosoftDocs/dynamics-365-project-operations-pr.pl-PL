@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131986"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287656"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurowanie księgowania projektów do zafakturowania
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Dynamics 365 Project Operations obsługuje różne opcje księgowania projektów podlegających rozliczeniu, które zawierają transakcje o stałej cenie oraz transakcje typu czas i materiały.
+Rozwiązaniu Dynamics 365 Project Operations obsługuje różne opcje rachunkowości dla projektów podlegających rozliczaniu, które obejmują czas i materiał oraz transakcje o stałej cenie.
 
 - **Transakcje typu czas i materiały** : te transakcje są fakturowane w miarę postępu prac i w zależności od zużycia godzin, wydatków, zapasów lub opłat w projekcie. Te koszty transakcji można dopasować do przychodu z każdej transakcji, a projekt jest fakturowany w miarę postępu prac. Przychód z projektu może być również naliczony w momencie, gdy dana transakcja ma miejsce. Podczas fakturowania w programie jest rozpoznawany przychód, a w odpowiednim przypadku jest zastosowane odwrócenie naliczonego przychodu.
 - **Transakcje o stałej cenie**: Te transakcje są fakturowane zgodnie z harmonogramem fakturowania utworzonym na podstawie kontraktu dotyczącego projektu. Przychód z transakcji o stałej cenie może być rozpoznawany na fakturze, lub lub obliczany i okresowo księgowany — zgodnie z metodami **Wykonanego kontraktu** lub **Procentu ukończenia projektu**.

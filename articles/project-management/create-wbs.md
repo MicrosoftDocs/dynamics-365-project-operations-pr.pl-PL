@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841382"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287026"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Tworzenie struktury podziału pracy (SPP)
 
@@ -92,6 +92,8 @@ W poniższej tabeli przedstawiono dodatkowe atrybuty harmonogramu.
 | Zostanie uruchomiony | Data i godzina rozpoczęcia. |
 | Nazwa/nazwisko | Nazwa zadania. |
 | IDENTYFIKATOR | Identyfikator zadania w strukturze podziału pracy. |
+
+Jako administrator można definiować pola niestandardowe w jednostce zadania. Jednak pola nie mogą być wyświetlane w siatce harmonogramu. Aby wyświetlić pola niestandardowe, dodaj je do strony szczegółów **Zadania projektu**.
 
 ## <a name="staffing-attributes"></a>Atrybuty personelu
 

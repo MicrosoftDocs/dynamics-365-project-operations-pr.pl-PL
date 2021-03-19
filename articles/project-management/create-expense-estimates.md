@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131716"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287071"
 ---
 # <a name="expense-estimates"></a>Szacowanie wydatków
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Oprócz definiowania oszacowań opartych na zasobach Dynamics 365 Project Operations umożliwia menedżerom projektów definiowanie kosztów opartych na projekcie dla każdego projektu. Każdy element wydatków może być skojarzony z określoną kategorią zadania lub wydatku projektu. Kategorie wydatków są zwykle definiowane na poziomie organizacji. Kalkulacja cen dla każdej kategorii wydatków jest zwykle definiowane w poniższej hierarchii:
+Wraz z definiowaniem szacowania opartego na zasobach rozwiązanie Dynamics 365 Project Operations umożliwia menedżerom projektów definiować koszty oparte na projektach dla każdego projektu. Każdy element wydatków może być skojarzony z określoną kategorią zadania lub wydatku projektu. Kategorie wydatków są zwykle definiowane na poziomie organizacji. Kalkulacja cen dla każdej kategorii wydatków jest zwykle definiowane w poniższej hierarchii:
 
 - Organizacja
 - Klient
