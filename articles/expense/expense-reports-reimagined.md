@@ -1,9 +1,9 @@
 ---
 title: Przebudowane raporty wydatków
-description: W tym temacie zamieszczono informacje dotyczące zmienionej i ulepszonej funkcji tworzenia raportów wydatków.
+description: W tym temat wyjaśniono przeprojektowane i przebudowane środowisko wprowadzania raportu z wydatków.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122810"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499729"
 ---
 # <a name="expense-reports-reimagined"></a>Przebudowane raporty wydatków
 
@@ -59,25 +59,22 @@ Aby włączyć nowe środowisko, w obszarze roboczym **Zarządzanie funkcjami** 
 | Redukcja komunikatów na pasku komunikatów| Liczba komunikatów na pasku informacyjnym została zmniejszona i uniemożliwiono wyświetlanie zduplikowanych komunikatów w wielu przypadkach. |
 | Połączono razem wspólne akcje | Interfejs został oczyszczony wraz z dodaniem nowych akcji dla większości typowych akcji na poziomie wiersza i dodaniem przycisku wielokropka (...) w celu wyszukania nagłówków i innych rzadziej występujących akcji. |
 | Nowy obszar roboczy, aby zwiększyć widoczność | Nowy obszar roboczy łączy funkcje i łącza umożliwiające użytkownikom poruszanie się po różnych obszarach. |
-| Dodawanie istniejących kosztów i paragonów podczas tworzenia wydatku | Tworząc raporty o wydatkach, można dodać do niego wszystkie lub wybrane wydatki i paragony. |
+| Dodawanie istniejących kosztów i paragonów podczas tworzenia wydatku | Podczas tworzenia raportów z wydatków można dodać wszystkie wydatki lub wybrać wydatki niezwiązane. Niezwiązane wydatki to wydatki, które zostały zaimportowane z firmowego kanału informacyjnego karty kredytowej lub wydatki, które zostały ręcznie utworzone przez użytkownika, ale nie zostały dołączone do raportu z wydatków.|
 | Kalkulator wymiany walut | Dodano kalkulator kursów wymiany walut, który umożliwia obliczenie kursu wymiany dla kosztów w ramach fakturowania wielowalutowego. |
 | Zapisywanie i dodawanie nowych wierszy wydatku | Przyciski **Zapisz** i **Nowe** są dostępne po wprowadzeniu nowych wydatków w celu szybkiego wprowadzenia wierszy wydatków. |
 | Lepsza widoczność podzielonych i wyszczególnionych wierszy | Wyszczególnione i podzielone wiersze są dodawane bezpośrednio do listy wydatków w celu zwiększenia widoczności i ułatwienia sprawdzania, czy występują jakiekolwiek problemy. |
 | Pokazywanie paragonów podczas podziału na pozycje | Wyświetlanie paragonów podczas podziału na pozycje jest teraz możliwe. |
+| Wybór zaliczki gotówkowej | Wybierz jedną lub więcej zaliczek gotówkowych do realizacji pojedynczej transakcji wydatków. |
+| Saldo zaliczki gotówkowej | Przejrzyj saldo zaliczki gotówkowej w czasie rzeczywistym podczas tworzenia wpisu wydatków względem zatwierdzonych i zapłaconych zaliczek gotówkowych. |
 
 Początkowa wersja koncentruje się na scenariuszach wydatków. Scenariusz, w którym użytkownik sprawdza lub zatwierdza raporty wydatków będzie działał na bazie istniejącej strony wydatków.
 
-Następujące funkcje są dostępne na obecnej stronie ale nie są jeszcze dostępne na nowej stronie. Te funkcje zostaną wprowadzone ponownie w ciągu kilku kolejnych wersji:
+Następujące funkcje nie są obsługiwane w obszarze roboczym przebudowanego obszaru roboczego wydatków:
 
-- Zatwierdzenia
-- Zatwierdzanie rachunków z dostawcami i możliwość edytowania księgowania
-- Wiele punktów wejścia
 - Integracja wniosków wyjazdowych
-- Encja danych dla widoczności pola wydatku
-- Wpis dla wydatków w ramach diet na dzień
-- Przepływ pracy na poziomie wiersza
+- Wpis wydatku na dzień
 - Wsparcie tymczasowych osób zatwierdzających
-- Wyszczególnianie zaawansowane
+- Możliwość wyświetlania historii przepływu pracy
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

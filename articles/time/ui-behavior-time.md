@@ -3,17 +3,17 @@ title: Zachowanie interfejsu użytkownika wpisów czasu
 description: Ten temat zawiera informacje na temat interfejsu użytkownika wpisów czasu.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124516"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499627"
 ---
 # <a name="time-entry-ui-behavior"></a>Zachowanie interfejsu użytkownika wpisów czasu
 
@@ -21,6 +21,19 @@ _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i 
 
 
 **Tygodniowa siatka wpisów czasu** jest niestandardową kontrolką, która ma pasek narzędzi i dwie główne sekcje, **Wymiary** oraz **Czas trwania**.
+
+## <a name="keyboard-shortcuts"></a>Skróty klawiaturowe
+| Akcja        | Skrót                  |
+|------------   |------------------------   |
+| Nowa           | Alt + Shift + n           |
+| Kopiuj wiersz      | Alt + Shift + c           |
+| Edytuj wpis    | Alt + Shift + e           |
+| Edytuj wiersz      | Alt + Shift + Ctrl + e    |
+| Otwórz wpis    | Alt + Shift + o           |
+| Prześlij        | Alt + Shift + s           |
+| Odwołaj        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Kopiuj tydzień     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Wymiary
 Sekcja **Wymiary** zawiera wymiary, które mogą być wprowadzane względem danego czasu. Poniższe wymiary są obsługiwane standardowo:

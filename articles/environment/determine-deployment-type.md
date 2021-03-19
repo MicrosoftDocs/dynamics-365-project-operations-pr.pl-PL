@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401231"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479577"
 ---
 # <a name="determine-your-deployment-type"></a>Określenie typu wdrażania
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
 > [!IMPORTANT]
-> Po zakupieniu licencji, zacznij tutaj, aby określić najlepszy model wdrażania Dynamics 365 Project Operations przy użyciu [Przepływu instalacji nadzorowanej](https://aka.ms/provisionprojectoperations).
+> Po zakupie licencji należy rozpocząć tutaj, aby określić najlepszy model wdrażania rozwiązania Dynamics 365 Project Operations przy użyciu [przepływu instalacji z przewodnikiem](https://aka.ms/provisionprojectoperations).
 > Po zakończeniu przepływu instalacji nadzorowanej, aby ją zakończyć, nastąpi przekierowanie do odpowiedniego portalu zarządzania. Więcej informacji na ten temat można znaleźć w części dotyczącej wdrożenia programu.
 
 
@@ -31,6 +31,9 @@ Project Operations obejmuje funkcje dostarczone z automatyzacją usługi Project
 
 Obecni klienci Finance, którzy używają funkcji zarządzania projektami i księgowości, mogą nadal korzystać z niej w obecnej postaci. Zobacz [Project Operations — scenariusze obejmujące magazynowanie / zlecenia produkcyjne](#pma).
 
+
+## <a name="deployment-regions"></a>Regiony wdrażania
+Aby określić, które regiony obsługują wdrażanie rozwiązania Project Operations, zobacz [Dostępność geograficzna systemu Dynamics 365 i raport Power Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). Wybierz pozycję **Wyświetl raport** i rozwiń pozycję **Dynamics 365 > Aplikacje operacji > Dynamics 365 Project Operations**, aby wyświetlić obsługiwane regiony.
 
 ## <a name="deployment-types"></a>Typy wdrożenia
 Project Operations obsługuje wiele opcji wdrażania spełniających wymagania użytkownika. Niezależnie od tego, czy jesteś nowym, czy istniejącym klientem Dynamics 365, Project Operations pomoże Ci w Twojej pracy.
