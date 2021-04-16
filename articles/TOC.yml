@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Co nowego
       items:
+        - name: Kwiecień 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Marzec 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
           href: whats-new/whats-new-mar-2021-resource-based.md
         - name: Luty 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
@@ -64,7 +66,7 @@
           items:
             - name: Omówienie zarządzania szansami sprzedaży projektu
               href: sales/manage-project-based-opportunities.md
-            - name: Ustawienia szansy sprzedaży opartej na projekcie
+            - name: Szczegóły nagłówka dla szans sprzedaży opartych na projekcie
               href: sales/opportunity-header.md
             - name: Wiesze szansy sprzedaży opartej na projekcie
               href: sales/project-based-lines.md
@@ -78,23 +80,27 @@
           items:
             - name: Omówienie zarządzania ofertami projektu
               href: pro/sales/manage-quotes-sales.md
-            - name: Pojęcia dotyczące ofert projektu
+            - name: Pojęcia unikalne dla ofert opartych na projekcie
               href: sales/quotes-key-concepts.md
-            - name: Ustawienia ofert projektu
+            - name: Szczegóły nagłówka dla ofert opartych na projekcie
               href: sales/quote-values-budget-limits-contract.md
             - name: Zarządzanie wieloma klientami w ofercie projektu
               href: sales/manage-multiple-customers-quote.md
             - name: Zarządzanie cennikami projektu w ofercie
-              href: sales/managing-project-price-lists.md
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: Wiersze oferty opartej na projekcie
               items:
                 - name: Omówienie wierszy oferty opartej na projekcie
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Zarządzanie wieloma klientami w wiersza oferty opartej na projekcie
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: Mapowanie projektów i zadań do wierszy oferty opartej na projekcie
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Konfigurowanie odpłatnych składników dla wierszy oferty opartej na projekcie
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Konfigurowanie odpłatnych składników wiersza oferty projektu
                   href: sales/configure-chargeable-quoteline.md
-                - name: Tworzenie szacowań w wierszu oferty
+                - name: Szacowanie wiersza oferty projektu
                   href: sales/create-estimate-quote-line.md
                 - name: Importowanie szacowań z projektu do wiersza oferty opartej na projekcie
                   href: sales/import-estimate-quote-line.md
@@ -108,9 +114,9 @@
           items:
             - name: Omówienie zarządzania kontraktami projektu
               href: pro/sales/manage-contracts-sales.md
-            - name: Kluczowe pojęcia kontraktów projektu
+            - name: Pojęcia unikalne dla kontraktów opartych na projekcie
               href: sales/contracts-key-concepts.md
-            - name: Ustawienia kontraktu projektu
+            - name: Szczegóły nagłówka dla kontraktów opartych na projekcie
               href: sales/project-contract-settings.md
             - name: Zarządzanie cennikami projektu w kontraktach projektu
               href: sales/contracts-manage-project-price-lists.md
@@ -119,12 +125,14 @@
             - name: Pozycje kontraktu opartego na projekcie
               items:
                 - name: Omówienie pozycji kontraktu opartego na projekcie
-                  href: sales/manage-contract-values-project-based.md
+                  href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Zarządzanie wieloma klientami w pozycjach kontraktu opartego na projekcie
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Konfigurowanie odpłatnych składników pozycji kontraktu opartego na projekcie
-                  href: sales/configure-chargeable-contract-line.md
-                - name: Szacowanie pozycji kontraktu opartego na projekcie
+                - name: Mapowanie projektów i zadań w pozycji kontraktu projektu
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: Konfigurowanie odpłatnych składników dla pozycji kontraktu projektu
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Szacowanie pozycji kontraktu projektu
                   href: sales/create-estimate-contract-line.md
                 - name: Importowanie szacowań z projektu do pozycji kontraktu opartego na projekcie
                   href: sales/import-estimate-project-contract-line.md
@@ -132,8 +140,6 @@
                   href: sales/invoice-schedules-contract-line.md
             - name: Potwierdzenie kontraktu projektu
               href: pro/sales/confirm-contract-sales.md
-            - name: Kopiowanie kontraktu projektu
-              href: pro/sales/copy-project-contracts-sales.md
             - name: Zaliczki i zatrzymania
               items:
                 - name: Kontrakty oparte na zaliczkach i zatrzymaniach
@@ -146,16 +152,16 @@
       items:
         - name: Ustawianie cennika
           items:
-            - name: Konfigurowanie cenników
+            - name: Definicja cennika
               href: pricing-costing/price-list-setup.md
-            - name: Cenniki produktu
-              href: pricing-costing/product-price-list.md
             - name: Konfigurowanie stawek weksli robocizny
               href: pricing-costing/set-up-labor-bill-rate.md
             - name: Konfigurowanie stawek kosztów robocizny
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: Konfigurowanie kosztów i stawek sprzedaży na potrzeby wydatku
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Konfigurowanie kosztów i stawek sprzedaży na potrzeby materiałów
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Wartości domyślne i zastąpienia
           items:
             - name: Cenniki domyślne
@@ -168,6 +174,8 @@
               href: pricing-costing/sales-price-resolution.md
             - name: Kopiowanie cenników
               href: pricing-costing/copy-price-lists.md
+            - name: Dezaktywowanie cenników
+              href: pricing-costing/deactivatepricelists.md
         - name: Wymiary kalkulacji cen
           items:
             - name: Przegląd wymiarów kalkulacji cen
@@ -218,18 +226,24 @@
               href: project-management/create-wbs.md
             - name: Tworzenie przypisań
               href: project-management/create-assignments.md
-        - name: Szacowanie projektów
+        - name: Szacowania finansowe w projektach
           items:
-            - name: Omówienie szacowania projektu
+            - name: Pojęcia dotyczące szacowania finansowego
               href: project-management/estimating-projects-overview.md
-            - name: Szacowania zasobu
+            - name: Szacowania finansowe dotyczące czasu zasobów w projektach
               href: project-management/resource-estimates.md
-            - name: Tworzenie szacowań wydatku
+            - name: Szacowania finansowe dotyczące wydatków w projektach
               href: project-management/create-expense-estimates.md
+            - name: Szacowania finansowe dotyczące materiałów w projektach
+              href: project-management/create-material-estimate.md
         - name: Śledzenie projektu
           items:
-            - name: Omówienie śledzenia projektu
+            - name: Śledzenie nakładu pracy projektu
               href: project-management/project-tracking-overview.md
+            - name: Śledzenie kosztów robocizny w projektach
+              href: project-management/project-cost-tracking.md
+            - name: Śledzenie przychodów robocizny w projektach
+              href: project-management/project-sales-tracking.md
             - name: Aktualizacja szacowania przy zakończeniu
               href: project-management/update-completed-estimate.md
         - name: Członkowie zespołu projektu
@@ -248,6 +262,8 @@
           items:
             - name: Projektowanie szablonów projektów przy użyciu narzędzia kopiowania projektów
               href: project-management/dev-copy-project.md
+            - name: Używanie planowanych interfejsów API (publiczna wersja zapoznawcza)
+              href: project-management/schedule-api-preview.md
     - name: Zarządzanie zasobami
       items:
         - name: Najważniejsze pojęcia
@@ -366,6 +382,10 @@
           items:
             - name: Odzyskiwanie podatku VAT
               href: expense/vat-recovery.md
+    - name: Użycie materiałów
+      items:
+        - name: Rejestrowanie użycia materiałów w projektach i zadaniach projektów
+          href: material/material-usage-log.md
     - name: Zatwierdzenia
       items:
         - name: Omówienie zatwierdzeń
@@ -378,6 +398,8 @@
       items:
         - name: Omówienie wartości rzeczywistych
           href: actuals/actuals-overview.md
+        - name: Łączenie wartości rzeczywistych z oryginalnymi rekordami
+          href: actuals/linkingactuals.md
         - name: Arkusze korekt
           items:
             - name: Tworzenie i potwierdzanie arkuszy korekcyjnych
@@ -390,19 +412,21 @@
           href: invoicing/format-update-project-invoice-proposals.md
         - name: Fakturowanie proforma
           items:
-            - name: Zarządzanie zaległościami rozliczania projektu
+            - name: Zarządzanie zaległościami rozliczania opartymi na projekcie
               href: proforma-invoicing/manage-billing-backlog.md
             - name: Zarządzanie nieprzekraczalnym stanem i weryfikacjami
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: Ręczne tworzenie faktury proforma projektu
+            - name: Faktury proforma oparte na projekcie
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: Zarządzanie fakturą proforma projektu
+            - name: Zarządzanie fakturą proforma opartej na projekcie
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: Fakturowanie płatności opartej na zatrzymaniu lub zaliczce
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Potwierdzenie faktury proforma projektu
+            - name: Potwierdzenie faktury proforma opartej na projekcie
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: Konfiguracja automatyzacji fakturowania projektu
+            - name: Tworzenie faktur korygujących opartych na projekcie
+              href: proforma-invoicing/corrective-invoices.md
+            - name: Konfiguracja automatyzacji fakturowania opartego na projekcie
               href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Księgowanie projektu
       items:
@@ -458,6 +482,8 @@
           href: environment/security-model.md
     - name: Co nowego
       items:
+        - name: Co nowego w kwietniu 2021 r. — wdrażanie wersji uproszczonej
+          href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Co nowego w marcu 2021 r. — wdrażanie wersji uproszczonej
           href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: Co nowego w lutym 2021 r. — wdrażanie wersji uproszczonej
@@ -486,7 +512,7 @@
           items:
             - name: Omówienie szans sprzedaży projektu
               href: sales/manage-project-based-opportunities.md
-            - name: Ustawienia szansy sprzedaży projektu
+            - name: Szczegóły nagłówka dla szans sprzedaży projektu
               href: pro/sales/opportunity-header-sales.md
             - name: Zarządzanie wierszami szansy sprzedaży opartej na produkcie
               href: pro/sales/product-based-lines-sales.md
@@ -502,9 +528,9 @@
           items:
             - name: Omówienie oferty opartych na projekcie
               href: pro/sales/manage-quotes-sales.md
-            - name: Pojęcia dotyczące oferty projektu
+            - name: Pojęcia unikalne dla ofert projektu
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Ustawienia oferty projektu
+            - name: Szczegóły nagłówka dla ofert projektu
               href: pro/sales/quote-values-budget-limits-contract-sales.md
             - name: Wielu klientów w ofertach projektu
               href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -542,9 +568,9 @@
           items:
             - name: Omówienie kontraktów opartych na projekcie
               href: pro/sales/manage-contracts-sales.md
-            - name: Pojęcia kontraktu projektu
+            - name: Pojęcia unikalne dla kontraktów projektu
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Ustawienia kontraktu projektu
+            - name: Szczegóły nagłówka dla kontraktów projektu
               href: pro/sales/project-contract-settings-sales.md
             - name: Wielu klientów w kontraktach projektu
               href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -590,30 +616,32 @@
       items:
         - name: Ustawianie cennika
           items:
-            - name: Konfigurowanie cenników
+            - name: Definicja cennika
               href: pricing-costing/price-list-setup.md
-            - name: Ustawianie cennika sprzedaży
-              href: pricing-costing/sales-price-list-setup.md
-            - name: Konfigurowanie stawek weksli robocizny — wersja uproszczona
+            - name: Konfigurowanie cenników produktu
+              href: pricing-costing/product-price-list.md
+            - name: Konfigurowanie stawek weksli dla robocizny
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: Konfigurowanie stawek kosztów robocizny — wersja uproszczona
+            - name: Konfigurowanie stawek kosztów dla robocizny
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-            - name: Konfigurowanie kosztów i stawek sprzedaży dla katalogu produktów — wersja uproszczona
-              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
             - name: Konfigurowanie kosztów i stawek sprzedaży na potrzeby wydatku
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Konfigurowanie kosztów i stawek sprzedaży na potrzeby materiałów
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Wartości domyślne i zastąpienia
           items:
             - name: Cenniki domyślne
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Zastępowanie cenników sprzedaży projektu
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Rozwiązywanie kosztów własnych w oszacowaniach i wartościach rzeczywistych — wersja uproszczona
+            - name: Rozwiązywanie kosztów własnych w oszacowaniach i wartościach rzeczywistych projektu
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Rozwiązywanie kosztów sprzedaży dla oszacowań i wartości rzeczywistych — wersja uproszczona
+            - name: Rozwiązywanie kosztów sprzedaży dla oszacowań i wartości rzeczywistych projektu
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Kopiowanie cenników
               href: pricing-costing/copy-price-lists.md
+            - name: Dezaktywowanie cenników projektów
+              href: pricing-costing/deactivatepricelists.md
         - name: Wymiary kalkulacji cen
           items:
             - name: Przegląd wymiarów kalkulacji cen
@@ -664,18 +692,24 @@
               href: project-management/create-wbs.md
             - name: Tworzenie przypisań
               href: project-management/create-assignments.md
-        - name: Szacowanie projektów
+        - name: Szacowania finansowe w projektach
           items:
-            - name: Omówienie szacowania projektu
+            - name: Pojęcia dotyczące szacowania finansowego
               href: project-management/estimating-projects-overview.md
-            - name: Szacowania zasobu
+            - name: Szacowania finansowe dotyczące czasu zasobów w projektach
               href: project-management/resource-estimates.md
-            - name: Tworzenie szacowań wydatku
+            - name: Szacowania finansowe dotyczące wydatków w projektach
               href: project-management/create-expense-estimates.md
+            - name: Szacowania finansowe dotyczące materiałów w projektach
+              href: project-management/create-material-estimate.md
         - name: Śledzenie projektu
           items:
-            - name: Omówienie śledzenia projektu
+            - name: Śledzenie nakładu pracy projektu
               href: project-management/project-tracking-overview.md
+            - name: Śledzenie kosztów robocizny w projektach
+              href: project-management/project-cost-tracking.md
+            - name: Śledzenie przychodów robocizny w projektach
+              href: project-management/project-sales-tracking.md
             - name: Aktualizacja szacowania przy zakończeniu
               href: project-management/update-completed-estimate.md
         - name: Członkowie zespołu projektu
@@ -694,6 +728,8 @@
           items:
             - name: Projektowanie szablonów projektów przy użyciu narzędzia kopiowania projektów
               href: project-management/dev-copy-project.md
+            - name: Używanie planowanych interfejsów API (publiczna wersja zapoznawcza)
+              href: project-management/schedule-api-preview.md
     - name: Zarządzanie zasobami
       items:
         - name: Najważniejsze pojęcia
@@ -768,6 +804,10 @@
           href: expense/expense-overview.md
         - name: Wpis wydatków (wersja uproszczona)
           href: expense/basic-expense.md
+    - name: Użycie materiałów
+      items:
+        - name: Rejestrowanie użycia materiałów w projektach i zadaniach projektów
+          href: material/material-usage-log.md
     - name: Zatwierdzenia
       items:
         - name: Omówienie zatwierdzeń
@@ -780,6 +820,8 @@
       items:
         - name: Omówienie wartości rzeczywistych
           href: actuals/actuals-overview.md
+        - name: Łączenie wartości rzeczywistych z oryginalnymi rekordami
+          href: actuals/linkingactuals.md
         - name: Arkusze korekt
           items:
             - name: Tworzenie i potwierdzanie arkuszy korekcyjnych
@@ -790,7 +832,7 @@
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
         - name: Zarządzanie nieprzekraczalnym stanem i weryfikacjami
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Ręczne tworzenie faktury proforma projektu
+        - name: Faktury proforma projektu
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: Zarządzanie fakturą proforma projektu
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
@@ -806,6 +848,8 @@
   items:
     - name: Co nowego
       items:
+        - name: Co nowego w marcu 2021 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
+          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Co nowego w styczniu 2021 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
         - name: Co nowego w grudniu 2020 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
@@ -830,6 +874,8 @@
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: Fakturowanie projektu
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: Wydajność propozycji faktury projektu
+      href: prod-pma/project-invoice-proposal-performance.md
     - name: Kontrakty projektów
       href: prod-pma/project-contracts.md
     - name: Tworzenie zaawansowanych kontraktów dotyczących rozliczeń na podstawie postępu
@@ -952,6 +998,10 @@
       items:
         - name: Harmonogram wydań aktualizacji dla rozwiązania Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 30, V3'
+          href: psa/whats-new-ur-30.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 29.5, poprawka, V3'
+          href: psa/whats-new-ur-29-5.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 29, V3'
           href: psa/whats-new-ur-29.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 28.6, poprawka, V3'
