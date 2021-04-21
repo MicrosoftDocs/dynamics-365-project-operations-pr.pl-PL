@@ -1,6 +1,6 @@
 ---
-title: Importowanie szacowań projektu do wiersza oferty opartego na projekcie
-description: W tym temacie zamieszczono informacje dotyczące importowania szacunków z projektu do wiersza oferty.
+title: Importowanie szacowań dla projektu do wiersza oferty projektu
+description: Ten temat zawiera informacje na temat importowania szacunków z projektu do wiersza oferty projektu.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b32ac22188922a56fa13ea67e0ead77b9b045d9f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 40facf002ca8aa77cbd7f1cfa29dab24842fd932
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278341"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858756"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importowanie szacowań projektu do wiersza oferty opartego na projekcie
+# <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>Importowanie szacowań dla projektu do wiersza oferty projektu
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 

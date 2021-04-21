@@ -3,17 +3,17 @@ title: Zarządzanie cennikami projektu w kontraktach projektu
 description: Ta temat zawiera informacje na temat zarządzania cennikami projektu przy kontraktach dotyczących projektów.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278611"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858576"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Zarządzanie cennikami projektu w kontraktach projektu
 
@@ -21,13 +21,13 @@ _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i 
 
 Kontrakty projektów w rozwiązaniu Dynamics 365 Project Operations są projektowane tak, aby obsługiwały w kontrakcie wiele efektywnych cenników sprzedaży. W operacjach projektu istnieje nowa encja skojarzona o nazwie **Cenniki projektu**. Ta encja jest relacją typu jeden-do-wielu z kontraktem dotyczącym projektu.
 
-Cenniki projektu są używane do wyceny transakcji dotyczących godzin i kosztów w projekcie. W przypadku, gdy kontrakt zawiera jeden lub więcej cenników projektu, te cenniki są używane do kalkulacji cen w oszacowaniach czasu i wydatków oraz wartości rzeczywistych w projektach skojarzonych z kontraktem za pośrednictwem pozycji kontraktu.
+Cenniki projektu służą do wyceny transakcji dotyczących czasu, materiałów i wydatków w projekcie. Gdy kontrakt ma co najmniej jeden cennik projektu, cenniki te służą do wyceny czasu, materiałów, szacunków kosztów i wartości rzeczywistych dotyczących projektów, które są skojarzone z kontraktem za pośrednictwem wiersza kontraktu.
 
-Jeśli w umowie dotyczącej projektu nie ma cenników projektu, zostanie wyświetlony komunikat ostrzegawczy, że nie ma cenników projektu, a Twoje szacunki, rzeczywiste prace projektowe i wydatki nie zostaną wycenione. Nie będzie ceny na wartości sprzedaży.
+Jeśli w umowie dotyczącej projektu nie ma cenników projektu, zostanie wyświetlony komunikat ostrzegawczy, że nie ma cenników projektu, a Twoje szacunki, rzeczywiste prace projektowe, materiały i zarejestrowane wydatki nie zostaną wycenione. Nie będzie ceny na wartości sprzedaży.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Kojarzenie i odkojarzenie cennika projektu względem kontraktu dotyczącego projektu
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Tworzenie i kojarzenie określonego cennika w celu oszacowania pracy i kosztów na podstawie projektu
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Utwórz lub skojarz konkretny cennik w celu oszacowania pracy, materiałów i wydatków związanych z projektem
 
 1. W kontrakcie projektu wybierz kartę **Cenniki projektów**.
 2. W podsiatce wybierz pozycję **+ Dodaj nowy Cennik projektu**.
@@ -52,7 +52,7 @@ Jeśli w umowie dotyczącej projektu nie ma cenników projektu, zostanie wyświe
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Konfigurowanie automatycznej konfiguracji domyślnej cenników projektu na kontrakcie
 
-Cennik projektu może być ustawiony jako lista domyślna na kontrakcie projektu. Ta konfiguracja może pomóc w zapewnieniu, że wszystkie kontrakty w organizacji zawsze zaczynają się od standardowych cenników dla danego okresu.
+Cennik projektu można ustawić jako cennik domyślny dla projektu. Ta konfiguracja zapewnia, że wszystkie umowy w Twojej organizacji zawsze zaczynają się od standardowego cennika projektu dla tego okresu cenowego.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Konfigurowanie ustawień domyślnych organizacyjnych dla cenników projektu
 

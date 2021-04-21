@@ -3,17 +3,17 @@ title: Zarządzanie nieprzekraczalnym stanem i weryfikacjami
 description: Ten temat zawiera informacje o sprawdzaniu limitów nieprzekraczania wykonywanych w Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c491d4014ffc2568d7df72b542761ec9b1a90b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7026ff654a9db8e8a22bcef544b043af39865559
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274042"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866740"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Zarządzanie nieprzekraczalnym stanem i weryfikacjami 
 
@@ -21,7 +21,7 @@ _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i 
 
 ## <a name="not-to-exceed-on-approvals"></a>Nie do przekroczenia w zatwierdzeniach
 
-Po przesłaniu godziny lub wpisu wydatku zostaje utworzony rekord zatwierdzania. Jeśli zatwierdzenie jest odpłatne i mapowane na wiersz kontraktu typu czas i materiały, system zakończy sprawdzanie poprawności, które nie przekroczyć interwału, na następujących poziomach:
+Po przesłaniu wpisu czasu, wydatku lub użycia materiałów tworzony jest rekord zatwierdzenia. Jeśli zatwierdzenie jest odpłatne i mapowane na wiersz kontraktu typu czas i materiały, system zakończy sprawdzanie poprawności, które nie przekroczyć interwału, na następujących poziomach:
 
   - Sprawdzanie zgodności z limitem skonfigurowanym dla klienta w pozycji kontraktu projektu
   - Sprawdź limit ustawiony na pozycji kontraktu
@@ -34,11 +34,11 @@ Jeśli test zakończy się pomyślnie, zatwierdzenie otrzyma status walidacji **
 
 Jeśli test nie powiedzie się, zatwierdzenie otrzyma status walidacji **Niepowodzenie**. Szczegółowe informacje o pomyślnym sprawdzeniu poprawności będą informować użytkownika, na którym poziomie nie powiodła się walidacja.
 
-W przypadku braku płatnego czasu lub wpisu wydatku, stan nieprzekraczający przekroczenia jest ustawiony na **Brak stosowania** z szczegółami sprawdzania poprawności równą **Brak zastosowania**.
+Gdy przesłany wpis dotyczący czasu, kosztu lub zużycia materiałów jest uznawany za nieopłacalny, status walidacji nieprzekraczania jest ustawiany na **Nie ma zastosowania**, jeśli szczegóły weryfikacji mają wartość **Nie ma zastosowania**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Nie-do-przekroczenia dla wartości rzeczywistych niefakturowanych sprzedaży
 
-Kiedy zatwierdzany jest czas lub zapis wydatku, tworzone są rekordy kosztu i niezfakturowanych wartości sprzedaży. Jeśli faktycznie tworzona niezafakturowana sprzedaż podlega opłacie i jest mapowana do wiersza umowy czasowej i materiałowej, aplikacja przeprowadza weryfikację nieprzekraczalności na następujących poziomach:
+Po zatwierdzeniu wpisu dotyczącego czasu, kosztu lub zużycia materiałów tworzone są rekordy kosztów i niezafakturowanych danych rzeczywistych sprzedaży. Jeśli faktycznie tworzona niezafakturowana sprzedaż podlega opłacie i jest mapowana do wiersza umowy czasowej i materiałowej, aplikacja przeprowadza weryfikację nieprzekraczalności na następujących poziomach:
 
   - Sprawdzanie zgodności z limitem skonfigurowanym dla klienta w pozycji kontraktu projektu
   - Sprawdź limit ustawiony na pozycji kontraktu
@@ -55,9 +55,9 @@ W przypadku niepłatnych lub bezpłatnych wartości rzeczywistych sprzedaży nie
 
 ## <a name="reset-the-not-to-exceed-status"></a>Resetuj nieprzekraczalny stan
 
-Można wykonać zbiorcze resetowanie stanu nieprzekraczalnego. Dzięki temu kierownicy projektów mogą dostosować walidację nieprzekraczającą, aby nadać priorytet fakturom za jeden określony zakres pracy, czasu lub wydatków w stosunku do innych, które zostały już zatwierdzone z dostępnej kwoty nieprzekraczalnej.
+Można wykonać zbiorcze resetowanie stanu nieprzekraczalnego. Menedżerowie projektów mogą dostosować walidację nieprzekraczającą, aby nadać priorytet fakturowaniu jednego określonego zakresu pracy, czasu, wydatków lub zużycia materiałów w stosunku do innych, które zostały już zatwierdzone z dostępnej kwoty nieprzekraczalnej.
 
-Po zresetowaniu stanu nieprzekraczalnego w ramach wartości rzeczywistych niefakturowanych sprzedaży kwota ustalona zostaje zmniejszona. Kierownik projektu może wybrać inny zakres pracy, czasu lub wydatków, które poprzednio nie przeszły walidacji nieprzekraczającej, i ponownie je ocenić. Po zmniejszeniu kwoty zadeklarowanej wartości rzeczywiste przejdą teraz walidację. Pomaga to kierownikowi projektu wywierać większy wpływ i kontrolę nad transakcjami podlegającymi fakturowaniu w tym okresie.
+Po zresetowaniu stanu nieprzekraczalnego w ramach wartości rzeczywistych niefakturowanych sprzedaży kwota ustalona zostaje zmniejszona. Kierownik projektu może wybrać inny zakres pracy, czas, wydatek lub wpis dotyczący zużycia materiałów, który poprzednio nie przeszedł walidacji nieprzekraczającej i dokonać ponownej oceny. Wraz ze zmniejszeniem kwoty zobowiązania te wartości rzeczywiste przechodzą teraz walidację, co pomaga Kierownikowi projektu wywierać większy wpływ i kontrolę nad transakcjami, które można zafakturować w tym okresie.
 
 Aby zresetować stan nie do przekroczenia, wybierz jeden lub więcej wartości rzeczywistych w widoku **Zaległość rozliczania czasu i materiałów** albo **Wartości rzeczywiste**, a następnie wybierz opcję **Resetuj nieprzekraczalny stan**.
 

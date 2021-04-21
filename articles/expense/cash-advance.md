@@ -3,19 +3,19 @@ title: Zaliczka gotówkowa
 description: Ten temat zawiera informacje o zaliczkach gotówkowych.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276721"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715573"
 ---
 # <a name="cash-advance"></a>Zaliczka gotówkowa
 
@@ -60,7 +60,22 @@ Poniższa procedura jest zwykle wykonywana przez księgowego lub osobę z uprawn
 
 Po utworzeniu i przesłaniu raportu z wydatków dla zaliczki gotówkowej, którą już otrzymałeś, wydatki zostaną automatycznie skorygowane o tę zaliczkę. Jeśli zaliczka gotówkowa jest większa od wydanej kwoty konieczne jest zwrócenie pozostałej kwoty korzystając z kategorii wydatków **Zwrot gotówki**. Jeśli zaliczka gotówkowa opłacona przez firmę jest mniejsza niż kwota, którą wydałeś, firma musi zwrócić Ci saldo. 
 
-### <a name="example"></a>Przykład
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Wybierz zaliczki gotówkowe, które dotyczą Twoich wydatków
+Przed przesłaniem raportu z wydatków można wybrać zaliczkę gotówkową, która jest zgodna z transakcjami wydatkowymi w raporcie. Aby korzystać z tej funkcji, z obszaru roboczego **Zarządzanie funkcjami** muszą być włączone następujące dwie funkcje:
+
+  - Przebudowane raporty wydatków
+  - Możliwość mapowania zaliczek gotówkowych do linii wydatków
+ 
+ Po włączeniu tych funkcji:
+ 
+  - Możesz zasądzić jedną lub więcej zaliczek gotówkowych na każdą linię wydatków.
+  - Dostępne saldo pożyczki gotówkowej jest widoczne w czasie rzeczywistym, gdy zapisywany jest raport z wydatków. Pozwala to na przetwarzanie transakcji wydatkowych i zwrot transakcji gotówkowych w tym samym czasie.
+  - Możesz wybrać wiele zaliczek gotówkowych dla jednej transakcji wydatkowej.
+  - Dane rozliczenia zaliczki gotówkowej są dostępne za pomocą zapytania. 
+ 
+Jeśli nie korzystasz z tych funkcji, funkcjonalność pozostanie taka sama, a istniejące zaliczki gotówkowe zostaną automatycznie zmniejszone po przesłaniu wydatku.
+
+### <a name="example"></a>Przykład 
 Planujesz podróż z Seattle do Nowego Jorku na konferencję. Tworzysz żądanie zaliczki na kwotę 3000,00 USD na podstawie szacunkowego kosztu biletu konferencyjnego, przelotów, hotelu, posiłków i taksówki. Nie otrzymasz zapłaty, dopóki Twój menedżer nie zatwierdzi tej prośby. Po otrzymaniu zatwierdzenia zaliczka w wysokości 3000 USD trafia na Twój rachunek. Bierzesz udział w konferencji. Po zakończeniu podróży okazuje się, że łączna liczba wydatków wyniosła 2790.00 USD. Wybierz opcję **Gotówka** w polu **Metoda płatności** i prześlij koszt o wartości 2790,00 USD. Przesłana kwota wydatków jest automatycznie porównywana z kwotą zaliczki gotówkowej (3000 USD), która została Ci wcześniej udzielona. Teraz jesteś winien saldo w wysokości 210,00 USD (3000,00 - 2790,00), które możesz zwrócić firmie za pomocą kategorii **Zwrot gotówki**.
 
 

@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f3f18644a51d87cf3bb5b4effba2236eaf3d81a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0aedaa2ec77bb54031fccd0db2872e0aa5fea5e0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273436"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858261"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Importowanie szacowań dla projektu do wiersza oferty opartej na projekcie - wersja uproszczona
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importowanie szacowań dla projektu do wiersza oferty opartej na projekcie 
 
-_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
+_**Ma zastosowanie do:** Wdrożenie uproszczone - zajmuje się fakturowaniem proforma, Project Operations dla scenariuszy opartych na zasobach / braku zapasów_
 
 Jeśli projekt jest tworzony podczas etapu przed sprzedażą, można wybrać opcję importowania oszacowań finansowych z projektu do wiersza oferty opartej na projekcie.
 
@@ -30,7 +30,7 @@ Jeśli projekt jest tworzony podczas etapu przed sprzedażą, można wybrać opc
   - **Rola** 
   - **Zadanie projektu**
 
-W zależności od dokonanego wyboru oszacowania projektu dotyczące wszystkich klas transakcji zawartych w tym wierszu oferty są kopiowane. Aby sprawdzić, jakie klasy transakcji są uwzględnione, wybierz kartę **Ogólne** w wierszu oferty opartej na projekcie i sprawdź wartości opcji **Uwzględnij godzinę**, **Uwzględnij koszty** i **Uwzględnij opłaty**.  Aby sprawdzić, jakie zadania są uwzględnione, wybierz kartę **Zadania odpłatne** w pozycji oferty.
+W zależności od dokonanego wyboru oszacowania projektu dotyczące wszystkich klas transakcji zawartych w tym wierszu oferty są kopiowane. Aby sprawdzić, które klasy transakcji są uwzględnione, należy wybrać kartę **Ogólne** w wierszu oferty opartej na projekcie i sprawdzić wartości typu **Uwzględnij czas**, **Uwzględnij koszty**, **Uwzględnij materiały** i **Uwzględnij opłaty**.  Aby sprawdzić, jakie zadania są uwzględnione, wybierz kartę **Zadania odpłatne** w pozycji oferty.
 
 W zależności od powiązanych klas transakcji i zadań, wszystkie oszacowania dotyczące tych kombinacji klas i transakcji są importowane do pozycji kontraktu.
 

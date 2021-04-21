@@ -1,21 +1,21 @@
 ---
-title: Skorygowane faktury - wersja uproszczona
-description: Ta temat zawiera informacje na temat pracy korekt faktur w Project Operations
+title: Faktury korygujące za projekty
+description: Ten temat zawiera informacje o tym, jak tworzyć i potwierdzać faktury korygujące w Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/15/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb949ff3a53bcba19d44e1c3d6fe08a6b368108d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274246"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866604"
 ---
-# <a name="corrected-invoices---lite"></a>Skorygowane faktury - wersja uproszczona
+# <a name="corrective-project-invoices"></a>Faktury korygujące za projekty
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
@@ -37,9 +37,9 @@ Nowa wersja robocza faktury jest tworzona na podstawie potwierdzonej faktury. Ws
 > [!IMPORTANT]
 > Szczegóły wierszy faktury, które są korektą do innych zafakturowanych opłat, mają w polu **Korektę** ustawioną wartość **Tak**. Na fakturach, dla których istnieją poprawione dane w wierszu faktury znajduje się pole **Wprowadzono korektę**, która ma również ustawioną wartość na **Tak**.
 
-## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Wartości rzeczywiste utworzone w potwierdzeniu faktury korygującej:
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Wartości rzeczywiste tworzone po potwierdzeniu faktury korygującej
 
-Poniżej znajdują się wartości rzeczywiste, które zostały utworzone przez aplikację na bazie korekty na podstawie operacji wykonywanych na wersji roboczej faktury korygującej przed jej potwierdzeniem.
+W poniższej tabeli przedstawiono wartości rzeczywiste, które są tworzone po potwierdzenia faktury korekcyjnej.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -214,6 +214,51 @@ Nowa nierozliczona wartość rzeczywista sprzedaży, która jest odpłatna za po
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+Fakturowanie pełnego kredytu z poprzednio zafakturowanej transakcji materiałowej.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Fakturowane wycofanie sprzedaży dla ilości i kwoty w szczegółach wiersza oryginalnej faktury dla materiału.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nowa niezafakturowana sprzedaż rzeczywista dla ilości i kwoty w szczegółach wiersza oryginalnej faktury dla materiału.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Fakturowanie częściowego kredytu przy istotnej transakcji.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Wycofanie sprzedaży zafakturowanej dla ilości i kwoty zafakturowanej dla szczegółów wiersza oryginalnej faktury dla materiału.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nowa niezafakturowana rzeczywista sprzedaż, która jest obciążana za ilość i kwotę w edytowanych szczegółach wiersza faktury, ich odwrócenie i równoważna faktyczna fakturowana sprzedaż.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nowa nierozliczona wartość rzeczywista sprzedaży, która jest odpłatna za pozostałą ilość i kwotę po odjęciu skorygowanych wartości w szczegółach wiersza faktury.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 Zafakturowanie pełnego uznania uprzednio zafakturowanej transakcji opłaty.
                 </p>
             </td>
@@ -260,7 +305,7 @@ Zafakturowanie pełnego uznania uprzednio zafakturowanego punktu kontrolnego.
 Rozliczona sprzedaż za kwotę z oryginalnego wiersza faktury dla punktu kontrolnego.
                 </p>
                 <p>
-Faktura punktu kontrolnego lub status fakturowania w pozycji kontraktu projektu są aktualizowane na **Gotowe do fakturowania**.
+Stan faktury w punktów kontrolnych jest aktualizowany z <b>Zaksięgowano fakturę dla klienta</b> do <b>Przygotowane do fakturowania</b>.
                 </p>
             </td>
         </tr>

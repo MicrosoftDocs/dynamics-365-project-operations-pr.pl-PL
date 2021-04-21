@@ -3,17 +3,17 @@ title: Rozwiązywanie kosztów sprzedaży dla oszacowań i wartości rzeczywisty
 description: W tym temacie przedstawiono informacje na temat sposobu rozwiązywania stawek sprzedaży na szacunkach i wartościach rzeczywistych.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274966"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877458"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Rozwiązywanie kosztów sprzedaży dla oszacowań i wartości rzeczywistych
 
@@ -54,6 +54,17 @@ Po rozwiązaniu cennika na potrzeby sprzedaży system wykonuje poniższe kroki, 
     | &nbsp; | Narzut na koszt | Stosując narzut zdefiniowany w wierszu kategoria cena na stawce kosztu jednostkowego dla pokrewnego kosztu |
 
 4. Jeśli system nie jest w stanie dopasować wartości pól **Kategorii** oraz **Jednostki**, domyślna stawka sprzedaży wynosi zero (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Rozwiązywanie problemów z cenami sprzedaży w wierszach rzeczywistych i szacowanych dla materiałów
+
+W Project Operations wiersze szacowania dla materiału są używane do oznaczania szczegółów pozycji oferty i pozycji kontraktu dla materiałów oraz wierszy szacowania materiałów w projekcie.
+
+Po rozwiązaniu cennika na potrzeby sprzedaży system wykonuje poniższe kroki, aby ustawić cenę jednostkową sprzedaży.
+
+1. W systemie jest używana kombinacja pól **Produkt** i **Jednostka** w wierszu szacowania dla materiałów w celu dopasowania do pozycji cennika w cenniku, który został rozwiązany.
+2. Jeśli system znajdzie wiersz pozycji cennika, który ma stawkę sprzedaży dla kombinacji pól **Produkt** i **Jednostka** oraz metodę wyceny to **Kwota w walucie**, używana jest cena sprzedaży określona w wierszu cennika.
+3. Jeśli wartości **Produkt** i **Jednostka** nie są dopasowane koszt sprzedaży jest domyślnie równy zeru.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

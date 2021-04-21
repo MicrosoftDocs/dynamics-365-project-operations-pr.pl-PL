@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9f1cc75b12fec81d726e46f8d970dcfe030f6b29
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 65d05e3a6321dc32aee55c28b3eaa4bd0bae2f86
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287611"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857991"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>Konfigurowanie księgowania projektów wewnętrznych
 
@@ -28,6 +28,7 @@ Każdy projekt, który nie jest skojarzony z kontraktem, w rozwiązaniu Dynamics
 
 - Transakcje czasowe są księgowane: obciążenia na koncie **Kosztów**, a uznania na koncie **Alokacja płac**.
 - Transakcje wydatkowe są księgowane: obciążenia na koncie **Kosztów**, a uznania na koncie **rozliczeniowym dla wydatku**.
+- Transakcje pozycji są publikowane przez przechowanie konta **Koszt** i kredytowanie konta **Koszt - Pozycja**.
 
 Jeśli projekt jest skojarzony z kontraktem projektu po zaksięgowaniu transakcji, system cofnie wszystkie transakcje skumulowane i tworzy nowe transakcje fakturowania. Transakcje podlegające rozliczaniu podążają za regułami księgowania zdefiniowanymi w odpowiednim profilu kosztów projektów i przychodów.
 

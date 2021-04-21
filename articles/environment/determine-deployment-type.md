@@ -3,17 +3,17 @@ title: Określenie typu wdrażania
 description: W tym temacie zamieszczono informacje pozwalające wybrać odpowiedni typ wdrożenia Project Operations dla Twojej firmy.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479577"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663607"
 ---
 # <a name="determine-your-deployment-type"></a>Określenie typu wdrażania
 
@@ -44,9 +44,9 @@ Nasz [kwestionariusz wdrażania](https://aka.ms/provisionprojectoperations) pomo
 - [Project Operations — zasoby / scenariusze nieobejmujące magazynowania](#integrated)
 - [Project Operations — scenariusze obejmujące magazynowanie / zlecenia produkcyjne](#pma)
 
-Project Operations obsługuje scenariusze dotyczące zleceń magazynowania / zlecenia produkcyjnego i scenariusze oparte na zasobach / zasobach niemagazynowanych w tym samym środowisku za pośrednictwem konfiguracji na poziomie firmy. Firma Contoso może na przykład użyć funkcji zarządzania stanami magazynowymi/zleceniami produkcyjnymi swojej placówki w Stanach Zjednoczonych (osoba prawna = Contoso Manufacturing United States). Firma Contoso może użyć funkcji zarządzania stanami magazynowymi/zleceniami produkcyjnymi swojej placówki w Wielkiej Brytanii (osoba prawna = Contoso Robotics United Kingdom).
+Project Operations obsługuje scenariusze dotyczące zleceń magazynowania / zlecenia produkcyjnego i scenariusze oparte na zasobach / zasobach niemagazynowanych w tym samym środowisku za pośrednictwem konfiguracji na poziomie firmy. Na przykład firma Contoso może korzystać z możliwości magazynowania / zleceń produkcyjnych w swoim zakładzie produkcyjnym w USA (firma = Contoso Manufacturing United States). Firma Contoso może używać niedostępnych / opartych na zasobach możliwości w swoim ośrodku serwisowym Contoso Robotics Arms w Wielkiej Brytanii (firma = Contoso Robotics w Wielkiej Brytanii).
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Wdrożenie uproszczone — od okazji do faktury pro forma
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Wdrażanie w wersji uproszczonej — od okazji do faktury pro forma
 
 We wdrożeniu uproszczonym dostępne są następujące możliwości:
 
@@ -56,7 +56,7 @@ We wdrożeniu uproszczonym dostępne są następujące możliwości:
 - Zunifikowane zarządzanie zasobami
 - Śledzenie czasu
 - Podstawowe wydatki
-- Proforma i fakturowanie dla klientów 
+- Wystawianie faktury Proforma za przegląd i edycję kierownika projektu 
 
 #### <a name="deployment-steps"></a>Kroki wdrażania
 Wyznaczanie najlepszego modelu wdrażania Project Operations przy użyciu [kwestionariusza rozmieszczenia](https://aka.ms/provisionprojectoperations).
@@ -94,7 +94,7 @@ W tym wdrożeniu zobacz [Tworzenie konta dla subskrypcji w wersji zapoznawczej](
 - Pełne fakturowanie
 - Ujmowanie przychodów
 - Zlecenia produkcyjne
-- Obsługa materiałów
+- Obsługa materiałów magazynowych przy użyciu zapasów
 
 #### <a name="deployment-steps"></a>Kroki wdrażania
 Wyznaczanie najlepszego modelu wdrażania Project Operations przy użyciu [kwestionariusza rozmieszczenia](https://aka.ms/provisionprojectoperations).

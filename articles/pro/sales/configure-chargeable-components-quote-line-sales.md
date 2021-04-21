@@ -1,23 +1,23 @@
 ---
-title: Konfigurowanie odpłatnych składników wiersza oferty - wersja uproszczona
+title: Konfigurowanie odpłatnych składników wiersza oferty
 description: Ten temat zawiera informacje na temat konfigurowania odpłatnych i nieodpłatnych składników w wierszu oferty opartej na projekcie.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e293587adf15d0523bef6b7e688fdc883aba0fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273886"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858306"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Konfigurowanie odpłatnych składników wiersza oferty - wersja uproszczona
+# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Konfigurowanie odpłatnych składników wiersza oferty 
 
-_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
+_**Ma zastosowanie do:** Wdrożenie uproszczone - zajmuje się fakturowaniem proforma, Project Operations dla scenariuszy opartych na zasobach / braku zapasów_
 
 Pozycja oferty oparta na projekcie zawiera składniki typu *dołączane* i *odpłatne*.
 
@@ -42,7 +42,7 @@ Opłata zdefiniowana w kategoriach transakcji pozycji oferty projektu ma zastoso
 
 ### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a>Aktualizowanie zadania projektu w stan odpłatny lub nieodpłatny
 
-Zadanie projektu może być odpłatne lub niepłatne w ramach określonej pozycji oferty opartej na projekcie, co powoduje, że dostępne są następujące ustawienia:
+Zadanie projektu może być odpłatne lub niepłatne w ramach określonej pozycji oferty opartej na projekcie, co powoduje, że dostępne są następujące ustawienia.
 
 Jeśli wiersz oferty opartej na projekcie zawiera **Czas** i zadanie **T1**, zadanie jest skojarzone z wierszem oferty jako odpłatne. Jeśli istnieje drugi wiersz oferty zawierający **Wydatki**, można skojarzyć zadanie **T1** w pozycji oferty jako nieodpłatne. W efekcie cały czas zanotowany dla zadania jest odpłatny, a wydatki zapisane w zadaniu nie.
 
@@ -61,22 +61,575 @@ Kategoria transakcji w danej pozycji oferty może być płatna lub nieodpłatna.
 Typ fakturowania tranzakcji można skonfigurować na karcie **Odpłatne kategorie** w pozycji oferty na projekcie przez zaktualizowanie pola **Typ fakturowania** w podsiatce **Odpłatne kategorie**.
 
 ### <a name="resolve-chargeability"></a>Rozwiązywanie odpłatności
-Utworzony czas szacowany lub rzeczywisty będzie uważany za odpłatny, jeśli **Czas** zostanie uwzględniony w pozycji oferty, a w przypadku, gdy **Zadanie** i **Rola** zostaną skonfigurowane jako odpłatne w pozycji oferty.
+Wartość szacunkowa lub faktycznie utworzona dla czasu będzie uznana za wymagalną tylko wtedy, gdy:
 
-Utworzony czas szacowany lub rzeczywisty będzie uważany za odpłatny, jeśli **Wydatek** zostanie uwzględniony w pozycji oferty, a w przypadku, gdy kategorie **Zadanie** i **Kategoria transakcji** zostaną skonfigurowane jako odpłatne w pozycji oferty.
+   - **Czas** jest zawarty w wierszu oferty.
+   - **Rola** jest skonfigurowana jako płatna w wierszu oferty.
+   - Dla opcji **Zadania uwzględnione** ustawiono wartość **Wybrane zadania** w wierszu oferty. 
 
-| Uwzględnia czas | Uwzględnia wydatek | Uwzględnione zadania | Rola | Kategoria | Zadanie | Rozliczenia |
-| --- | --- | --- | --- | --- | --- | --- |
-| Tak | Tak | Cały projekt | Odpłatne | Odpłatne | Nie można ustawić | Fakturowanie wartości rzeczywistej czas: Odpłatny </br>Typ fakturowania wartości rzeczywistej wydatku: Odpłatny |
-| Tak | Tak | Tylko wybrane zadania | Odpłatne | Odpłatne | Odpłatne | Fakturowanie wartości rzeczywistej czas: Odpłatny</br>Typ fakturowania wartości rzeczywistej wydatku: Odpłatny |
-| Tak | Tak | Tylko wybrane zadania | Nieodpłatne | Odpłatne | Odpłatne | Fakturowanie wartości rzeczywistej czas: Nieodpłatny</br>Typ fakturowania wartości rzeczywistej wydatku: Odpłatny |
-| Tak | Tak | Tylko wybrane zadania | Odpłatne | Odpłatne | Nieodpłatne | Fakturowanie wartości rzeczywistej czas: Nieodpłatny</br> Typ fakturowania wartości rzeczywistej wydatku: Nieodpłatny |
-| Tak | Tak | Tylko wybrane zadania | Nieodpłatne | Odpłatne | Nieodpłatne | Fakturowanie wartości rzeczywistej czas: Nieodpłatny</br> Typ fakturowania wartości rzeczywistej wydatku: Nieodpłatny |
-| Tak | Tak | Tylko wybrane zadania | Nieodpłatne | Nieodpłatne | Odpłatne | Fakturowanie wartości rzeczywistej czas: Nieodpłatny</br> Typ fakturowania wartości rzeczywistej wydatku: Nieodpłatny |
-| No | Tak | Cały projekt | Nie można ustawić | Odpłatne | Nie można ustawić | Fakturowanie wartości rzeczywistej czas: Niedostępne </br>Typ fakturowania wartości rzeczywistej wydatku: Odpłatny |
-| No | Tak | Cały projekt | Nie można ustawić | Nieodpłatne | Nie można ustawić | Fakturowanie wartości rzeczywistej czas: Niedostępne </br>Typ fakturowania wartości rzeczywistej wydatku: Nieodpłatny |
-| Tak | No | Cały projekt | Odpłatne | Nie można ustawić | Nie można ustawić | Fakturowanie wartości rzeczywistej czas: Odpłatny</br>Typ fakturowania wartości rzeczywistej wydatku: Niedostępne |
-| Tak | No | Cały projekt | Nieodpłatne | Nie można ustawić | Nie można ustawić | Fakturowanie wartości rzeczywistej czas: Nieodpłatny </br>Typ fakturowania wartości rzeczywistej wydatku: Niedostępne |
+Jeśli te trzy rzeczy zostaną spełnione, **Zadanie** jest też skonfigurowane jako opłata. 
+
+Szacunek lub wartość rzeczywista utworzona dla wydatku jest uważana za naliczaną tylko wtedy, gdy: 
+
+   - **Wydatek** jest zawarty w wierszu oferty.
+   - **Kategoria transakcji** jest skonfigurowana jako płatna w wierszu oferty.
+   - Dla opcji **Zadania uwzględnione** ustawiono wartość **Wybrane zadania** w wierszu oferty.
+
+Jeśli te trzy rzeczy zostaną spełnione, **Zadanie** jest też skonfigurowane jako opłata. 
+
+Wartość szacunkowa lub faktycznie utworzona dla materiału będzie uznana za wymagalną tylko wtedy, gdy:
+
+   - **Materiały** sa zawarte w wierszu oferty.
+   - Dla opcji **Zadania uwzględnione** ustawiono wartość **Wybrane zadania** w wierszu oferty.
+
+Jeśli te dwie rzeczy zostaną spełnione, **Zadanie** powinno też być skonfigurowane jako opłata. 
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Uwzględnia czas</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Uwzględnia wydatek</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Uwzględnij materiały</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Uwzględnione zadania</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Rola</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Kategoria</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Zadanie</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Wpływ opłaty</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Cały projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Odpłatne </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Odpłatne </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nie można ustawić </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturowanie wartości rzeczywistej czas: Odpłatny </p>
+                <p>
+Typ fakturowania wartości rzeczywistej wydatku: Odpłatny </p>
+                <p>
+Typ fakturowania wartości rzeczywistej materiału: Odpłatny </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tylko wybrane zadania </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Odpłatne </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Odpłatne </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Odpłatne </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturowanie wartości rzeczywistej czas: Odpłatny </p>
+                <p>
+Typ fakturowania wartości rzeczywistej wydatku: Odpłatny </p>
+                <p>
+Typ fakturowania wartości rzeczywistej materiału: Odpłatny </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tylko wybrane zadania </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nieodpłatne</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Odpłatne </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Odpłatne </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturowanie wartości rzeczywistej czas: <strong>Nieodpłatny</strong>
+                </p>
+                <p>
+Typ fakturowania wartości rzeczywistej wydatku: Odpłatny </p>
+                <p>
+Typ fakturowania wartości rzeczywistej materiału: Odpłatny </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tylko wybrane zadania </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Odpłatne </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Odpłatne </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nieodpłatne</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturowanie wartości rzeczywistej czas: <strong>Nieodpłatny</strong>
+                </p>
+                <p>
+Typ fakturowania wartości rzeczywistej wydatku: <strong>Nieodpłatny</strong>
+                </p>
+                <p>
+Typ fakturowania wartości rzeczywistej materiału: <strong>Nieodpłatny</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tylko wybrane zadania </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nieodpłatne</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Odpłatne </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nieodpłatne</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturowanie wartości rzeczywistej czas: <strong>Nieodpłatny</strong>
+                </p>
+                <p>
+Typ fakturowania wartości rzeczywistej wydatku: <strong>Nieodpłatny</strong>
+                </p>
+                <p>
+Typ fakturowania wartości rzeczywistej materiału: <strong> Nieodpłatny</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tylko wybrane zadania </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nieodpłatne</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nieodpłatne</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Odpłatne </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturowanie wartości rzeczywistej czas: <strong>Nieodpłatny</strong>
+                </p>
+                <p>
+Typ fakturowania wartości rzeczywistej wydatku: <strong> Nieodpłatny</strong>
+                </p>
+                <p>
+Typ fakturowania wartości rzeczywistej materiału: Odpłatny </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Cały projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nie można ustawić </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Odpłatne</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nie można ustawić </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturowanie wartości rzeczywistej czas: <strong>Niedostępne</strong>
+                </p>
+                <p>
+Typ fakturowania wartości rzeczywistej wydatku: Odpłatny </p>
+                <p>
+Typ fakturowania wartości rzeczywistej materiału: Odpłatny </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Cały projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nie można ustawić </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nieodpłatne</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nie można ustawić </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturowanie wartości rzeczywistej czas: <strong>Niedostępne</strong>
+                </p>
+                <p>
+Typ fakturowania wartości rzeczywistej wydatku: <strong> Nieodpłatny</strong>
+                </p>
+                <p>
+Typ fakturowania wartości rzeczywistej materiału: Odpłatny </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Cały projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Odpłatne </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Nie można ustawić </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nie można ustawić </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturowanie wartości rzeczywistej czas: Odpłatny </p>
+                <p>
+Typ fakturowania wartości rzeczywistej wydatku: <strong> Niedostępne</strong>
+                </p>
+                <p>
+Typ fakturowania wartości rzeczywistej materiału: Odpłatny </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Cały projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nieodpłatne</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Nie można ustawić </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nie można ustawić </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturowanie wartości rzeczywistej czas: <strong>Nieodpłatne</strong>
+                </p>
+                <p>
+Typ fakturowania wartości rzeczywistej wydatku: <strong> Niedostępne</strong>
+                </p>
+                <p>
+Typ fakturowania wartości rzeczywistej materiału: Odpłatny </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Cały projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Odpłatne </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Odpłatne </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nie można ustawić </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturowanie wartości rzeczywistej czas: Odpłatny </p>
+                <p>
+Typ fakturowania wartości rzeczywistej wydatku: Odpłatny </p>
+                <p>
+Typ fakturowania wartości rzeczywistej materiału: <strong> Niedostępne</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Tak </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Cały projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nieodpłatne</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nieodpłatne</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nie można ustawić </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturowanie wartości rzeczywistej czas: <strong>Nieodpłatne</strong>
+                </p>
+                <p>
+Typ fakturowania wartości rzeczywistej wydatku: <strong> Nieodpłatne</strong>
+                </p>
+                <p>
+Typ fakturowania wartości rzeczywistej materiału: <strong> Niedostępne</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

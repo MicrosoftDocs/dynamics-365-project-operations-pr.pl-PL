@@ -3,7 +3,7 @@ title: Przebudowane raporty wydatków
 description: W tym temat wyjaśniono przeprojektowane i przebudowane środowisko wprowadzania raportu z wydatków.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499729"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717708"
 ---
 # <a name="expense-reports-reimagined"></a>Przebudowane raporty wydatków
 
@@ -41,11 +41,7 @@ Aby włączyć nowe środowisko, w obszarze roboczym **Zarządzanie funkcjami** 
 - Nie są usuwane żadne istniejące pozycje menu dla raportów wydatków (istniejąca strona) ani z pól raportu wydatków.
 - Przepływy pracy i wszelkie zatwierdzenia wciąż przenoszą użytkownika na stronę istniejących raportów z wydatków.
 
-## <a name="getting-started-video-for-new-users"></a>Wideo wprowadzające do rozwiązania dla nowych użytkowników
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Wydatkowanie w Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) — film (pokazany powyżej) jest częścią [Listy odtwarzania Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) dostępnej na YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Nowe funkcje
 

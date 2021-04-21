@@ -1,6 +1,6 @@
 ---
-title: Szacowanie pozycji kontraktu opartego na projekcie
-description: Ta temat zawiera informacje na temat oszacowań w pozycji kontraktu opartej na projekcie.
+title: Szacowanie pozycji kontraktu projektu
+description: Ten temat zawiera informacje o szacunkach w wierszu umowy dotyczącej projektu.
 author: rumant
 manager: Annbe
 ms.date: 10/27/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cdc8984e080d995e3a0b667fe662291b499235b2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7cb7d7eccf62837ee5abf4cbe29a21dc728eb7ef
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278521"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858531"
 ---
-# <a name="estimate-a-projectbased-contract-line"></a>Szacowanie pozycji kontraktu opartego na projekcie
+# <a name="estimate-a-project-contract-line"></a>Szacowanie pozycji kontraktu projektu
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_ 
 
@@ -26,31 +26,36 @@ Aby oszacować pozycje kontraktu oparte na projektach, przejdź do karty **Szcze
    - Aby utworzyć szacowaną bezpośrednio w pozycji kontraktu, należy ręcznie dodać szczegóły pozycji kontraktu.
    - Utworzenie projektu i planu projektu, a następnie skojarzenie projektu i zadań z pozycją kontraktu projektu. Umożliwia to proces importowania oszacowania planu projektu do pozycji kontraktu na podstawie składników zawartych w pozycji kontraktu.
 
-## <a name="create-an-estimate-directly-on-a-projectbased-contract-line"></a>Tworzenie oszacowania bezpośrednio w pozycji kontraktu opartego na projekcie
+## <a name="create-an-estimate-directly-on-a-project-contract-line"></a>Utwórz oszacowanie bezpośrednio w wierszu umowy dotyczącej projektu
+
+Aby utworzyć oszacowanie bezpośrednio w wierszu umowy dotyczącej projektu, wykonaj następujące kroki:
 
 1. Przejdź do pozycji kontraktu i wybierz kartę **Szczegóły pozycji kontraktu** . Wiersze utworzone na tej karcie są sumowane i wyświetlane jako **Wartość kontraktu** dla danej **Pozycji kontraktu**. 
-2. W podsiatce **Szczegóły pozycji kontraktu** wybierz pozycję **+ Nowe szczegóły pozycji kontraktu**. Zostanie otwarty suwak szybkiego tworzenia. W formularzu **szczegóły pozycji kontraktu** są dostępne następujące pola:
+2. W podsiatce **Szczegóły pozycji kontraktu** wybierz pozycję **Nowe szczegóły pozycji kontraktu**. Zostanie otwarty suwak szybkiego tworzenia. Na stronie **Szczegóły wiersza kontraktu** są dostępne następujące pola.
 
 | Pole | Lokalizacja | Opis | Wpływ zmian w dalszych etapach |
 | --- | --- | --- | --- |
-| **Opis** | **Szybkie tworzenie** | Opis terminu konkretnego oszacowania. | W tym polu są domyślnie wyświetlane szczegóły dotyczące powiązanych wierszy kontraktu dla kosztów, które są automatycznie tworzone. |
-| **Klasa transakcji** | **Szybkie tworzenie** | Ta lista rozwijana jest listą klas transakcji uwzględnionych na karcie **Ogólne** w pozycji kontraktu opartej na projektach. | W tym polu są domyślnie wyświetlane szczegóły dotyczące powiązanych wierszy kontraktu dla kosztów, które są automatycznie tworzone. |
-| **Rola** | **Szybkie tworzenie** | Rola osoby wykonującej prace lub korzystającej z tego wydatku. | W tym polu są domyślnie wyświetlane szczegóły dotyczące powiązanych wierszy kontraktu dla kosztów, które są automatycznie tworzone. |
-| **Kategoria** | **Szybkie tworzenie** | Kategoria pracy lub wydatku. | W tym polu są domyślnie wyświetlane szczegóły dotyczące powiązanych wierszy kontraktu dla kosztów, które są automatycznie tworzone. |
-| **Data rozpoczęcia** | **Szybkie tworzenie** | Data rozpoczęcia pracy. | W tym polu są domyślnie wyświetlane szczegóły dotyczące powiązanych wierszy kontraktu dla kosztów, które są automatycznie tworzone. |
-| **Data zakończenia** | **Szybkie tworzenie** | Data zakończenia pracy. | W tym polu są domyślnie wyświetlane szczegóły dotyczące powiązanych wierszy kontraktu dla kosztu, który jest automatycznie tworzony. |
-| **Firma zasobów** | **Szybkie tworzenie** | Firma pozyskująca zasoby lub osoba prawna, która ponosi ten koszt i zapewnia zasoby do pracy nad tym. | W tym polu są domyślnie wyświetlane szczegóły dotyczące powiązanych wierszy kontraktu dla kosztów, które są automatycznie tworzone. To pole jest również używane podczas pobierania kosztu własnego. |
-| **Jednostka zasobów** | **Szybkie tworzenie** | Jednostka pozyskania, która ponosi koszt i określa zasób, który ma nad nim pracować. | W tym polu są domyślnie wyświetlane szczegóły dotyczące powiązanych wierszy kontraktu dla kosztów, które są automatycznie tworzone. To pole jest również używane podczas pobierania kosztu własnego. |
-| **Harmonogram jednostek** | **Szybkie tworzenie** | Grupa jednostek pracy lub kosztów. Jednostki należą do harmonogramu jednostek lub grupy jednostek. Na przykład *mile* i *kilometry (KMS)* to jednostki należące do grupy jednostek, które opisują odległość. | W tym polu są domyślnie wyświetlane szczegóły dotyczące powiązanych wierszy kontraktu dla kosztów, które są automatycznie tworzone. |
-| **Jednostka** | **Szybkie tworzenie** | Grupa jednostek pracy lub kosztów. | W tym polu są domyślnie wyświetlane szczegóły dotyczące powiązanych wierszy kontraktu dla kosztów, które są automatycznie tworzone. |
-| **Ilość** | **Szybkie tworzenie** | Ilość jednostek pracy lub kosztów. | W tym polu są domyślnie wyświetlane szczegóły dotyczące powiązanych wierszy kontraktu dla kosztów, które są automatycznie tworzone. |
-| **Cena jednostkowa** | **Szybkie tworzenie** | Współczynnik sprzedaży roli, która wykonuje pracę, lub cenę zakupu w danej kategorii wydatkowej. To pole jest domyślnie ustawione na **Czas** na podstawie kombinacji roli i jednostki zasobów znajdującej się na cenniku projektu, która obowiązuje w stosunku do daty rozpoczęcia. W przypadku kosztów wartość tego pola jest domyślna określana na podstawie konfiguracji ceny w danej kategorii transakcji w cenniku projektu, która obowiązuje w stosunku do daty rozpoczęcia. Jeśli w kategorii transakcji wybrana jest inna metoda kalkulacji cen niż **cena jednostkowa**, nie zostanie zastosowana wartość domyślna, a to pole pozostanie puste. | Stawka kosztów roli, która wykonuje pracę, lub koszt na jednostkę kategorii wydatków. To pole jest domyślnie ustawiane na **Czas w zależności od roli** oraz kombinacji jednostkowej ponownej sprzedaży w wierszu ceny roli na liście kosztów podanych w polu Data rozpoczęcia załączonym do Umawiającej się jednostki, która obowiązuje. W przypadku wydatków wartość domyślna tego pola jest oparta na wierszu ceny kategorii w cenniku własnym dołączonym do jednostki umownej, która obowiązuje od daty rozpoczęcia. Jeśli w kategorii transakcji wybrana jest inna metoda kalkulacji cen niż cena jednostkowa, nie zostanie zastosowana wartość domyślna, a to pole pozostanie puste. |
-| **Szacowany podatek** | **Szybkie tworzenie** | Szacunkowy podatek dla tej pracy lub wydatku wyrażony jako wejściowy przez użytkownika. | Szacunkowy podatek dla tej pracy lub wydatku wyrażony jako wejściowy przez użytkownika. |
-| **Kwota** | **Szybkie tworzenie** | Tę wartość w tym polu może dodać użytkownik, jeśli pola **Ilość** i **Cena** pozostaną niewypełnione. Jeśli **ilość** i **Cena** są wypełnione, pole **Kwoty** jest przeznaczone tylko do odczytu i jest obliczane jako **(Ilość \* Cena jednostkowa) + podatek**. | &nbsp; |
+| **Opis** | **Szybkie tworzenie** | Opis terminu konkretnego oszacowania. | Ta wartość jest wartością domyślną dla powiązanych szczegółów pozycji kontraktu dla kosztów, które są tworzone automatycznie. |
+| **Klasa transakcji** | **Szybkie tworzenie** | Jest to lista klas transakcji zawartych na karcie **Ogólne** w wierszu kontraktu opartego na projekcie. | Ta wartość jest wartością domyślną dla powiązanych szczegółów pozycji kontraktu dla kosztów, które są tworzone automatycznie. |
+| **Wybierz produkt** | **Szybkie tworzenie** | Stosuje się, gdy klasa transakcji to **Materiał**. Możesz określić, czy ten wiersz oszacowania dotyczy produktu **Istniejącego** produktu (katalogu), czy też **Dopisane** produktu. | Ta wartość jest wartością domyślną dla powiązanych szczegółów pozycji kontraktu dla kosztów, które są tworzone automatycznie. |
+| **Produkt** | **Szybkie tworzenie** | Identyfikator produktu z katalogu produktów. To pole jest aktywne tylko po wybraniu opcji **Istniejący produkt** w polu **Wybierz produkt**. Identyfikator jest używany do pobierania ceny sprzedaży z cennika projektu dla kontraktu. | Ta wartość jest wartością domyślną dla powiązanych szczegółów pozycji kontraktu dla kosztów, które są tworzone automatycznie. |
+| **Produkt dopisany** | **Szybkie tworzenie** | Pole tekstowe służące do wprowadzania nazwy produktu. To pole jest dostępne tylko po wybraniu opcji **Dopisanie** w polu **Wybierz produkt**.| Ta wartość jest wartością domyślną dla powiązanych szczegółów pozycji kontraktu dla kosztów, które są tworzone automatycznie. |
+| **Rola** | **Szybkie tworzenie** | Rola osoby wykonującej prace lub korzystającej z tego wydatku. | Ta wartość jest wartością domyślną dla powiązanych szczegółów pozycji kontraktu dla kosztów, które są tworzone automatycznie.|
+| **Kategoria** | **Szybkie tworzenie** | Kategoria pracy lub wydatku. | Ta wartość jest wartością domyślną dla powiązanych szczegółów pozycji kontraktu dla kosztów, które są tworzone automatycznie.|
+| **Data rozpoczęcia** | **Szybkie tworzenie** | Data rozpoczęcia pracy. | Ta wartość jest wartością domyślną dla powiązanych szczegółów pozycji kontraktu dla kosztów, które są tworzone automatycznie. |
+| **Data zakończenia** | **Szybkie tworzenie** | Data zakończenia pracy. | Ta wartość jest wartością domyślną dla powiązanych szczegółów pozycji kontraktu dla kosztów, które są tworzone automatycznie. |
+| **Firma zasobów** | **Szybkie tworzenie** | Firma pozyskująca lub podmiot prawny, który ponosi te koszty i zapewnia zasoby do pracy nad tym. | Ta wartość jest wartością domyślną dla powiązanego szczegółu pozycji kontraktu dla kosztu, który jest tworzony automatycznie i jest używany do pobierania ceny kosztu. |
+| **Jednostka zasobów** | **Szybkie tworzenie** | Jednostka zaopatrzeniowa, która ponosi ten koszt i zapewnia zasoby do pracy. | Ta wartość jest wartością domyślną dla powiązanego szczegółu pozycji kontraktu dla kosztu, który jest tworzony automatycznie i jest używany do pobierania ceny kosztu. |
+| **Harmonogram jednostek** | **Szybkie tworzenie** | Grupa jednostek pracy, produktu lub wydatku. Jednostki należą do harmonogramu jednostek lub grupy jednostek. Na przykład *mile* i *kilometry (kms)* to jednostki należące do grupy jednostek, które opisują odległość. | Ta wartość jest wartością domyślną dla powiązanych szczegółów pozycji kontraktu dla kosztów, które są tworzone automatycznie. |
+| **Jednostka** | **Szybkie tworzenie** | Jednostka pracy, produkt lub wydatek. | Ta wartość jest wartością domyślną dla powiązanych szczegółów pozycji kontraktu dla kosztów, które są tworzone automatycznie. |
+| **Ilość** | **Szybkie tworzenie** | Ilość pracy, produkt lub wydatek. | Ta wartość jest wartością domyślną dla powiązanych szczegółów pozycji kontraktu dla kosztów, które są tworzone automatycznie. |
+| **Cena jednostkowa** | **Szybkie tworzenie** | Stawka fakturowa roli, która wykonuje pracę, cena jednostkowa produktu lub cena sprzedaży produktu lub kategorii wydatków. To pole ma wartość domyślną **Czas** na podstawie kombinacji wartości wymiarów wyceny w wierszu ceny roli cennika projektu, który obowiązuje od daty rozpoczęcia. W przypadku **Kosztów** wartość domyślna tego pola jest określana na podstawie konfiguracji ceny w danej kategorii transakcji w cenniku projektu, która obowiązuje w stosunku do daty rozpoczęcia. Jeśli w kategorii transakcji wybrana jest inna metoda kalkulacji cen niż **cena jednostkowa**, nie zostanie zastosowana wartość domyślna, a to pole pozostanie puste. Wartość domyślna tego pola jest oparta na pozycji cennika w **Cenniku projektu**, która obowiązuje w dniu rozpoczęcia.| Stawka kosztów roli wykonującej pracę lub koszt jednostkowy kategorii wydatków lub koszt jednostkowy produktu. Wartość domyślna **Czas** jest w oparciu o kombinację wartości wymiarów wyceny w wierszu ceny roli w cenniku własnym dołączonym do jednostki zamawiającej obowiązującej od daty rozpoczęcia. W przypadku **Wydatków** wartość domyślna jest oparta na wierszu ceny kategorii w cenniku własnym dołączonym do jednostki zawierającej umowę, która obowiązuje od daty rozpoczęcia. Jeśli w kategorii transakcji wybrana jest inna metoda kalkulacji cen niż cena jednostkowa, nie zostanie zastosowana wartość domyślna, a to pole pozostanie puste. Wartość domyślna tego pola jest oparta na **Pozycji cennika** w Cenniku projektu dołączonego do jednostki zamawiającej, która obowiązuje od daty rozpoczęcia.|
+| **Szacowany podatek** | **Szybkie tworzenie** | Szacunkowy podatek dla tej pracy lub wydatku wyrażony jako wejściowy przez użytkownika. | &nbsp; |
+| **Kwota** | **Szybkie tworzenie** | Wartość w tym polu można dodać, jeśli pola **Ilość** i **Cena** pozostawią puste. Jeśli pola **ilość** i **Cena** są wypełnione, pole **Kwoty** jest przeznaczone tylko do odczytu i jest obliczane jako **(Ilość \* Cena jednostkowa) + podatek**. | &nbsp; |
 
 ## <a name="update-prices-on-contract-line-details"></a>Aktualizowanie cen w wierszach kontraktu
 
-W przypadku zmiany cen w cenniku projektu, które są dołączone do kontraktu lub cennika kosztów na jednostkę zamawiającą, można odświeżyć ceny w poszczególnych wierszach kontraktu w celu odzwierciedlenia zmian. Na stronie **Kontrakt** wybierz pozycję **Oblicz ponownie**. Zostanie wyświetlone ostrzeżenie informujące o tym, że wszystkie pozycje kontraktu dotyczące kontraktu są resetowane. Wybierz opcję **Tak**, aby odświeżyć ceny zarówno dla sprzedaży, jak i dla wierszy kontraktu kosztowego.
+W przypadku zmiany cen w cenniku projektu, które są dołączone do kontraktu lub cennika kosztów na jednostkę zamawiającą, można odświeżyć ceny w poszczególnych wierszach kontraktu w celu odzwierciedlenia zmian. Na stronie **Kontrakt** wybierz pozycję **Oblicz ponownie**. Pojawia się ostrzeżenie informujące, że ceny wszystkich pozycji kontraktu w tej umowie zostały zresetowane. Wybierz opcję **Tak**, aby odświeżyć ceny zarówno dla sprzedaży, jak i dla wierszy kontraktu kosztowego.
 
 ## <a name="access-contract-line-details-for-cost"></a>Dostęp do szczegółów wiersza kontraktu dostępu
 
@@ -68,7 +73,7 @@ Szczegóły wiersza kontraktu dla **Kosztu** ustawiają domyślną walutę z cen
 Obliczenia rentowności konwertują kwoty dla szczegółów pozycji kontraktu dotyczące **Kosztów** i **Sprzedaży** w walutę podstawową środowiska, aby raportować ogólne i szacowane marginesy kontraktu.
 
 > [!NOTE]
-> Błędy zaokrąglania walut i zmienione marginesy mogą nastąpić z powodu braku aktualnych kursów wymiany. Te obliczenia są stosowane w kontraktach dotyczących projektów wyłącznie jako przybliżenia, a nie w stosunku do rzeczywistych lub innych raportów, które wymagają wyższego dokładność zaokrąglania i świadomości daty effectivity dla kursów wymiany.
+> Błędy zaokrąglania walut i zmienione marginesy mogą nastąpić z powodu braku aktualnych kursów wymiany. Obliczenia te należy stosować tylko w przypadku umów dotyczących projektów, ponieważ są one przybliżone i nie służą do rzeczywistych sprawozdań ustawowych lub innych, które wymagają większej precyzji zaokrąglania i świadomości skuteczności dat dla kursów wymiany.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

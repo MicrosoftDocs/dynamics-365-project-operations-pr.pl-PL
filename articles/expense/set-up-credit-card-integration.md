@@ -1,9 +1,9 @@
 ---
 title: Konfigurowanie integracji z kartą kredytową
-description: W tym temat przedstawiono sposób importu i utrzymywania transakcji kartą kredytową związanych z wydatkami.
+description: W tym temacie wyjaśniono, jak pracować z transakcjami kartą kredytową związanymi z wydatkami.
 author: suvaidya
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cd60d338e2b2a2d74d4d7f55bb5a1723f10c29ab
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276181"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866696"
 ---
 # <a name="set-up-credit-card-integration"></a>Konfigurowanie integracji z kartą kredytową
 
@@ -30,6 +30,8 @@ Transakcje związane z kartą kredytową związane z wydatkami można skonfiguro
 
 ## <a name="import-credit-card-transactions"></a>Importowanie transakcji kartą kredytową
 
+Aby zaimportować transakcje kartą kredytową, wykonaj następujące kroki:
+
 1. Na stronie **Transakcje kartą kredytową** wybierz opcję **Import transakcji**. W przypadku korzystania z zarządzania danymi po raz pierwszy, przed kontynuowaniem system musi zaktualizować listę encji danych.
 2. W polu **Nazwa** wprowadź unikatowy opis zadania importu.
 3. W polu **Format danych źródłowych** wybierz format pliku zawierającego transakcje kartą kredytową do zaimportowania.
@@ -37,16 +39,23 @@ Transakcje związane z kartą kredytową związane z wydatkami można skonfiguro
 5. Po przekazaniu pliku należy sprawdzić poprawność mapowania pliku transakcji kartą kredytową i kolumnę obiektu dane transakcji kartą kredytową, wybierając łącze **Mapa widoku** na kafelku. Jeśli występują błędy mapowania lub konieczne będzie jego zmodyfikowanie, można to zrobić na karcie **Wizualizacja** lub **Szczegóły mapowania**.
 6. W celu zautomatyzowania transakcji kartą kredytową wybierz opcję **Utwórz cykliczne zadanie danych**. Następnie można ustawić cykliczność definiującą częstotliwość importowania transakcji kartą kredytową. Kiedy skończysz, wybierz **OK**.
 7. Aby zaimportować wybrany plik teraz, wybierz pozycję **Importuj**.
-8. Jeśli podczas importowania wystąpią błędy, można wyświetlić dziennik wykonywania lub dane przemieszczania, aby zobaczyć błędy, które należy rozwiązać w celu zagwarantowania pomyślnego zaimportowania.
+8. Jeśli podczas importu wystąpią błędy, możesz przejrzeć dziennik wykonywania lub dane przemieszczania, aby zobaczyć błędy, które należy naprawić, aby zapewnić pomyślny import.
 
 > [!NOTE]
-> Jeśli zachodzi konieczność zaimportowania więcej niż jednego formatu pliku, należy utworzyć osobne zadania importu dla każdego typu formatu.
+> Jeśli chcesz zaimportować więcej niż jeden format pliku, musisz utworzyć osobne zadania importu dla każdego typu formatu.
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Ponowne przypisywanie transakcji kartą kredytową dla zakończonych pracowników
 
-Po zakończeniu rekordu pracownika, jego konto Active Directory Domain Services (AD DS) jest wyłączane. Jednakże mogą istnieć aktywne transakcje kartą, które nadal trzeba rozliczyć lub zwrócić. Na stronie **Transakcji kartą kredytową** można przypisać pracownika do dowolnej transakcji kartą kredytową, nawet pracownika, który już nie jest zatrudniony.
+Po zakończeniu rekordu pracownika, jego konto Active Directory Domain Services (AD DS) jest wyłączane. Jednakże mogą istnieć aktywne transakcje kartą, które nadal trzeba rozliczyć lub zwrócić. Na stronie **Transakcje kartą kredytową** możesz ponownie przypisać pracownika do dowolnej transakcji kartą kredytową, w przypadku której powiązany pracownik został zwolniony.
 
 Wybierz jedną lub kilka transakcji kartą kredytową, a następnie wybierz opcję **Ponowne przypisanie transakcji**. Następnie można wybrać innego pracownika, do którego ma zostać przypisana transakcja kartą kredytową. Po zmianie przypisania transakcji kartą kredytową można ją wybrać z poziomu raportu z wydatków i zapłacić korzystając z normalnego procesu zwrotu kosztu wydatków.
 
+## <a name="delete-credit-card-transactions"></a>Usuwanie transakcji kartą kredytową 
+
+Czasami po zaimportowaniu transakcji kartą kredytową niektóre transakcje mogą wymagać usunięcia. Może tak być, jeśli transakcje są duplikatami lub ponieważ dane mogą być niedokładne. Administratorzy mogą używać funkcji **Usuwanie transakcji kart kredytowych**, aby wybierać i usuwać transakcje kartą kredytową, które **nie są dołączone** do raportu wydatków. 
+
+1. Przejdź do **Zadania okresowe** > **Usuń transakcje kartą kredytową**.
+2. Wybierz opcję **Filtruj** i podaj informacje służące do identyfikacji uwzględnianych rekordów.
+3. Wybierz **OK**, aby usunąć rekordy. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

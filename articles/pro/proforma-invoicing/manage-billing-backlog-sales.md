@@ -1,6 +1,6 @@
 ---
-title: Zarządzanie zaległością rozliczenia - wersja uproszczona
-description: W tym temat zamieszczono informacje dotyczące różnych widoków dostępnych podczas zarządzania zaległościami na fakturę.
+title: Zarządzanie zaległościami rozliczania projektu
+description: Ten temat zawiera informacje o różnych widokach, których można używać podczas zarządzania zaległościami rozliczeniowymi w projektach.
 author: rumant
 manager: Annbe
 ms.date: 10/26/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 77c4df8c4370017b9199eec3a21cd07dd0343fd9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 25dc9cff6aeb6daed9a27ba843a74b892ca4751c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274111"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867009"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>Zarządzanie zaległością rozliczenia - wersja uproszczona
+# <a name="manage-project-billing-backlog"></a>Zarządzanie zaległościami rozliczania projektu 
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 

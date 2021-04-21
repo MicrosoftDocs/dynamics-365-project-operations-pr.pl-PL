@@ -1,22 +1,22 @@
 ---
-title: Rozwiązywanie kosztów własnych w oszacowaniach i wartościach rzeczywistych — wersja uproszczona
-description: W tym temacie przedstawiono informacje na temat sposobu rozwiązywania kosztów kosztu na szacunkach i wartościach rzeczywistych.
+title: Rozwiązywanie kosztów własnych w oszacowaniach i wartościach rzeczywistych projektu
+description: To temat zawiera informacje na temat sposobu rozwiązania kosztów w szacowaniach i wartościach rzeczywistych projektu.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274562"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877278"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Rozwiązywanie kosztów własnych w oszacowaniach i wartościach rzeczywistych — wersja uproszczona
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Rozwiązywanie kosztów własnych w oszacowaniach i wartościach rzeczywistych projektu 
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
@@ -36,6 +36,12 @@ Po rozpoznaniu cennika kosztów pola **Rola** i **Jednostka ponownego zakupu** w
 Szacowane wiersze dla wartości Wydatek odnoszą się do oferty i pozycji kontraktu dla wydatku oraz do wierszy oszacowania wydatku w projekcie.
 
 Po rozwiązanie cennika kosztów system używa kombinacji pól **Kategoria** i **Jednostka** w wierszu szacowania wydatku w celu dopasowania do wierszy **Ceny kategorii** na cenniku rozwiązanym. Jeśli system znajdzie wiersz ceny kategorii, który ma stawkę kosztu dla połączenia pól **Kategoria** oraz **Jednostką zasobów**, to będzie to domyślna stawka kosztu. Jeśli system nie może dopasować wartości **Kategoria** i **Jednostka** lub jeśli jest w stanie znaleźć pasującą linią cen kategorii, ale metoda kalkulacji cen nie to **Cena jednostkowa**, koszt jest domyślny do zera(0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Rozwiązywanie problemów z kosztami w wierszach rzeczywistych i szacowanych dla materiałów
+
+Wiersze szacowania materiałów odwołują się do szczegółów oferty i wiersza kontraktu dla materiałów i wierszy szacowania materiałów w projekcie.
+
+Po ustaleniu cennika kosztów system wykorzystuje kombinację pól **Produkt** i **Jednostka** w wierszu szacowania, aby oszacować materiał w celu dopasowania do wiersze **Pozycje cennika** na ustalonym cenniku. Jeśli system znajdzie wiersz cen produktu z cennikem dla kombinacji pól **Produkt** i **Jednostka**, koszt własny jest domyślny. Jeśli system nie może dopasować wartości **Produkt** i **Jednostka** lub jeśli jest w stanie znaleźć pasującą pozycję pozycji cennika, ale metoda kalkulacji cen jest oparta na kosztach normatywnych lub koszcie bieżącym i żaden nie jest zdefiniowany dla produktu, koszt jednostkowy jest domyślnie równy zeru.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

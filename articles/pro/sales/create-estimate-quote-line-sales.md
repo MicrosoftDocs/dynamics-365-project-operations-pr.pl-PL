@@ -3,54 +3,58 @@ title: Szacowanie wiersza oferty opartej na projekcie
 description: W tym temacie zamieszczono informacje dotyczące sposobu tworzenia oszacowania dla wiersza oferty opartej na projekcie.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: dbd3876e555ee6bc70308ef11a3528a5dd8b6a32
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ef30df2921df7464aa2173161898121dc8e4f440
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273565"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858221"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Szacowanie wiersza oferty opartej na projekcie
 
-_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
+_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
 Wiersz oferty opartej na projekcie zawiera szczegółowe informacje pomocne przy szacowaniu kosztów i potencjalnego przychodu związanych z pracą mającą na celu dostarczenie danego wiersza oferty.
 
 Aby oszacować wiersz oferty opartej na projekcie, w wierszu oferty opartej na projekcie wybierz kartę **Szczegóły wiersza oferty**. Istnieją dwa sposoby utworzenia oszacowania wiersza oferty opartej na projekcie:
 
-- Ręczne tworzenie oszacowania bezpośrednio w wierszu oferty przy użyciu szczegółów wiersza oferty 
+- Ręczne tworzenie oszacowania bezpośrednio w wierszu oferty przy użyciu szczegółów wiersza oferty. 
 - Utworzenie projektu i planu projektu, a następnie skojarzenie projektu i zadań w projekcie z wierszem oferty. Proces importowania oszacowań z planu projektu na wiersz oferty na podstawie podanych informacji zostanie włączony.
 
 ## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Tworzenie szacowań bezpośrednio na wierszu oferty opartej na projekcie
 
 Aby utworzyć oszacowanie w wierszu oferty opartej na projekcie, wybierz kartę **Szczegóły wiersza oferty**. Utworzony w ten sposób wiersz będzie sumować wartość cytowaną dla danego wiersza oferty. 
 
-Aby utworzyć Szczegóły wiersza oferty, można wybrać nowe **+ Szczegóły wiersza oferty** z podsiatki **Szczegóły wierszy oferty**. Zostanie otwarty suwak szybkiego tworzenia. Poniższe pola w formularzu **Wiersza oferty**:
+Aby utworzyć Szczegóły wiersza oferty, można wybrać nowe **Szczegóły wiersza oferty** z podsiatki **Szczegóły wierszy oferty**. Zostanie otwarty suwak szybkiego tworzenia. W poniższej tabeli przedstawiono szczegółowe informacje o polach na stronie **Szczegóły wiersza oferty** oraz sposób, w jaki wartości mają wpływ na funkcjonalność.
 
 | **Pole** | **Lokalizacja** | **Opis** | **Wpływ zmian w dalszych etapach** |
 | --- | --- | --- | --- |
-| Opis | Szybkie tworzenie | Opis terminu konkretnego oszacowania. | W tym polu jest domyślnie wybierana wartość Szczegółowego wiersza oferty dla automatycznie tworzonego kosztu. |
-| Klasa transakcji | Szybkie tworzenie | Ta lista rozwijana zawiera klasy transakcji uwzględnione na karcie **Ogólne** w wierszu oferty opartej na projekcie.  | W tym polu jest domyślnie wybierana wartość Szczegółowego wiersza oferty dla automatycznie tworzonego kosztu. |
-| Rola | Szybkie tworzenie | Osoba, która wykona pracę lub poniesie koszty. | W tym polu jest domyślnie wybierana wartość Szczegółowego wiersza oferty dla automatycznie tworzonego kosztu. |
-| Kategoria | Szybkie tworzenie | Kategoria pracy lub wydatków. | W tym polu jest domyślnie wybierana wartość Szczegółowego wiersza oferty dla automatycznie tworzonego kosztu. |
-| Data rozpoczęcia | Szybkie tworzenie | Data rozpoczęcia pracy. | W tym polu jest domyślnie wybierana wartość Szczegółowego wiersza oferty dla automatycznie tworzonego kosztu. |
-| Data zakończenia | Szybkie tworzenie | Data zakończenia pracy. | W tym polu jest domyślnie wybierana wartość Szczegółowego wiersza oferty dla automatycznie tworzonego kosztu. |
-| Jednostka zasobów | Szybkie tworzenie | Jednostka zasobów, która poniesie dany koszt i dostarczy zasób do pracy. | W tym polu jest domyślnie wybierana wartość Szczegółowego wiersza oferty dla automatycznie tworzonego kosztu. To pole jest również używane podczas pobierania kosztu własnego. |
-| Harmonogram jednostek | Szybkie tworzenie | Grupa jednostek pracy lub kosztów. Jednostki należą do harmonogramu jednostek lub grupy jednostek. Na przykład mile i kilometry to jednostki należące do grupy jednostek, które opisują odległość. | W tym polu jest domyślnie wybierana wartość Szczegółowego wiersza oferty dla automatycznie tworzonego kosztu. |
-| Jednostka | Szybkie tworzenie | Jednostka pracy lub kosztów. | W tym polu jest domyślnie wybierana wartość Szczegółowego wiersza oferty dla automatycznie tworzonego kosztu. |
-| Ilość | Szybkie tworzenie | Ilość pracy lub kosztów | W tym polu jest domyślnie wybierana wartość Szczegółowego wiersza oferty dla automatycznie tworzonego kosztu. |
-| Cena jednostkowa | Szybkie tworzenie | Stawka rozliczania dla roli wykonującej pracę lub cena sprzedaży w danej kategorii kosztów. To pole jest domyślnie ustawione na czas na podstawie kombinacji roli i jednostki zasobów znajdującej się na cenniku projektu, która obowiązuje w stosunku do daty rozpoczęcia. W przypadku kosztów, to pole zawiera domyślnie wartość ustawień ceny dla kategorii transakcji w cenniku projektowym, która obowiązuje w momencie daty rozpoczęcia. Jeśli w kategorii transakcji wybrana jest inna metoda kalkulacji cen niż cena jednostkowa, nie zostanie zastosowana wartość domyślna, a to pole pozostanie puste. | Stawka kosztów dla roli wykonującej pracę lub cena jednostkowa w danej kategorii kosztów. To pole jest domyślnie ustawione na czas na podstawie kombinacji roli i jednostki zasobów znajdującej się w cenniku jednostki kontaktującej ofertę , która obowiązuje w stosunku do daty rozpoczęcia. W przypadku kosztów, to pole zawiera domyślnie wartość ustawień ceny dla kategorii transakcji w cenniku kosztów jednostki kontraktującej, która obowiązuje w momencie daty rozpoczęcia. Jeśli w kategorii transakcji wybrana jest inna metoda kalkulacji cen niż cena jednostkowa, nie zostanie zastosowana wartość domyślna, a to pole pozostanie puste. |
+| Opis | Szybkie tworzenie | Opis terminu konkretnego oszacowania. | Ta wartość jest wartością domyślną dla powiązanych szczegółów wiersza oferty dla kosztów, które są tworzone automatycznie. |
+| Klasa transakcji | Szybkie tworzenie | Ta lista rozwijana zawiera klasy transakcji uwzględnione na karcie **Ogólne** w wierszu oferty opartej na projekcie.  | Ta wartość jest wartością domyślną dla powiązanych szczegółów wiersza oferty dla kosztów, które są tworzone automatycznie. |
+| Wybierz produkt | Szybkie tworzenie | Stosuje się, gdy klasa transakcji to **Materiał**. Możesz określić, czy ten wiersz oszacowania dotyczy produktu **Istniejącego** produktu (katalogu), czy też **Dopisane** produktu. | Ta wartość jest wartością domyślną dla powiązanych szczegółów wiersza oferty dla kosztów, które są tworzone automatycznie. |
+| Produkt | Szybkie tworzenie | Identyfikator produktu z katalogu produktów. To pole jest aktywne tylko po wybraniu opcji **Istniejący** w polu **Wybierz produkt**. Identyfikator jest używany do pobierania ceny sprzedaży z cennika projektu dla oferty. | Ta wartość jest wartością domyślną dla powiązanych szczegółów wiersza oferty dla kosztów, które są tworzone automatycznie. |
+| Dopisz produkt | Szybkie tworzenie | Pole tekstowe dopisania nazwy produktu. To pole jest dostępne tylko po wybraniu opcji **Dopisanie** w polu **Wybierz produkt**.| Ta wartość jest wartością domyślną dla powiązanych szczegółów wiersza oferty dla kosztów, które są tworzone automatycznie. |
+| Rola | Szybkie tworzenie | Rola osoby, która wykona tę pracę lub poniesie ten wydatek. | Ta wartość jest wartością domyślną dla powiązanych szczegółów wiersza oferty dla kosztów, które są tworzone automatycznie. |
+| Kategoria | Szybkie tworzenie | Kategoria pracy lub wydatku. | Ta wartość jest wartością domyślną dla powiązanych szczegółów wiersza oferty dla kosztów, które są tworzone automatycznie. |
+| Data rozpoczęcia | Szybkie tworzenie | Data rozpoczęcia pracy. | W tym polu domyślnie wyświetlane są szczegóły wiersza oferty dla kosztów, które są tworzone automatycznie. |
+| Data zakończenia | Szybkie tworzenie | Data zakończenia pracy. | W tym polu domyślnie wyświetlane są szczegóły wiersza oferty dla kosztów, które są tworzone automatycznie. |
+| Jednostka zasobów | Szybkie tworzenie | Jednostka zaopatrzeniowa, która poniesie ten koszt i zapewni zasoby do pracy nad nią. | Wartością domyślną są powiązane szczegóły wiersza oferty dla kosztu, który jest tworzony automatycznie i jest używany do pobierania ceny kosztu. |
+| Harmonogram jednostek | Szybkie tworzenie | Grupa jednostek pracy, produktu lub wydatku. Jednostki należą do harmonogramu jednostek lub grupy jednostek. Na przykład mile i kilometry to jednostki należące do grupy jednostek opisujących odległość. | Ta wartość jest wartością domyślną dla powiązanych szczegółów wiersza oferty dla kosztów, które są tworzone automatycznie. |
+| Jednostka | Szybkie tworzenie | Jednostka pracy, produkt lub wydatek. | Ta wartość jest wartością domyślną dla powiązanych szczegółów wiersza oferty dla kosztów, które są tworzone automatycznie. |
+| Ilość | Szybkie tworzenie | Ilość pracy, produkt lub wydatek. | Ta wartość jest wartością domyślną dla powiązanych szczegółów wiersza oferty dla kosztów, które są tworzone automatycznie. |
+| Cena jednostkowa | Szybkie tworzenie |Stawka fakturowa roli, która wykonuje pracę, cena jednostkowa produktu lub cena sprzedaży produktu lub kategorii wydatków. To pole ma wartość domyślną **Czas** na podstawie kombinacji wartości wymiarów wyceny w wierszu ceny roli cennika projektu, który obowiązuje od daty rozpoczęcia. W przypadku **Kosztów** wartość jest domyślna określana na podstawie konfiguracji ceny w danej kategorii transakcji w cenniku projektu, która obowiązuje w stosunku do daty rozpoczęcia. Jeśli metoda wyceny dla kategorii transakcji nie jest ceną za jednostkę, nie ma wartości domyślnej i to pole jest puste. Wartość domyślna jest oparta na pozycji cennika w **Cenniku projektu**, która obowiązuje w dniu rozpoczęcia.| Stawka kosztów roli wykonującej pracę lub koszt jednostkowy kategorii wydatków lub koszt jednostkowy produktu. To pole ma wartość domyślną **Czas** na podstawie kombinacji wartości wymiarów wyceny w wierszu ceny roli cennika projektu, który obowiązuje od daty rozpoczęcia. W przypadku **Kosztów** wartość jest domyślna określana na podstawie konfiguracji ceny w danej kategorii transakcji w cenniku projektu, która obowiązuje w stosunku do daty rozpoczęcia. Jeśli metoda wyceny dla kategorii transakcji nie jest ceną za jednostkę, nie ma wartości domyślnej i to pole jest puste. Wartość domyślna jest oparta na pozycji cennika w **Cenniku projektu**, która obowiązuje w dniu rozpoczęcia.|
 | Szacowany podatek | Szybkie tworzenie | Można ręcznie wprowadzić szacowaną kwotę podatku dla tej pracy lub kosztu. | W tym polu nie ma wpływu zmian na dalsze etapy. |
 | Kwota | Szybkie tworzenie | Informacje zawarte w tym polu można wprowadzić ręcznie, jeśli pola **Ilość** oraz **Cena** pozostaną niewypełnione. Jeśli te pola nie są puste, to pole staje się dostępne tylko do odczytu i będzie obliczane jako (ilość \* cena jednostkowa) + podatek. | W tym polu nie ma wpływu zmian na dalsze etapy. |
 
+
 ## <a name="update-prices-on-quote-line-details"></a>Aktualizowanie cen w wierszach oferty
 
-W przypadku zmodyfikowania cen z cennika projektu dołączonego do oferty lub na liście kosztów własnych jednostki kontraktującej można wybrać opcję **Ponowne obliczenie** znajdującą się na stronie **Oferta**, aby odświeżyć ceny w poszczególnych wierszach oferty w celu odzwierciedlenia tej zmiany. Po wybraniu opcji **Oblicz ponownie** zostanie wyświetlone ostrzeżenie, które informuje tym, że ceny w wierszach oferty zostaną zresetowane. Wybierz opcję **Tak**, aby odświeżyć ceny zarówno dla sprzedaży, jak i dla szczegółów wiersza oferty kosztów.
+Jeśli zmieniłeś ceny w cenniku projektu dołączonym do oferty lub w cenniku kosztów jednostki zamawiającej, możesz wybrać opcję **Oblicz ponownie** na stronie **Oferta**, aby odświeżyć ceny w poszczególnych wierszach oferty, aby odzwierciedlić tę zmianę. Po wybraniu opcji **Ponowne obliczanie** zostanie wyświetlone ostrzeżenie informujące, że ceny w szczegółach wiersza oferty zostaną zresetowane we wszystkich wierszach oferty. Wybierz opcję **Tak**, aby odświeżyć ceny zarówno dla sprzedaży, jak i dla szczegółów wiersza oferty kosztów.
 
 ## <a name="access-quote-line-details-for-cost"></a>Dostęp do wierszy oferty w celu uzyskania dostępu do kosztów
 
@@ -66,7 +70,8 @@ Waluta w wierszu szczegółów oferty dotyczącym kosztu zmienia się z wartośc
 
 Obliczenia rentowności konwertują kwotę w wierszu oferty szczegółów dotyczących kosztów i sprzedaży na walutę podstawową środowiska, aby raportować ogólną obliczoną marżę oferty.
 
-Może to doprowadzić do błędów procesów zaokrąglania waluty i zmiany marży z powodu braku aktualnych kursów wymiany. Te obliczenia w ofertach projektów winny być używane tylko jako przybliżenia, gdyż nie są rzeczywistymi, ustawowymi lub innymi typami sprawozdawczości, które wymagają wyższego poziomu dokładności zaokrąglania i świadomości terminu ważności kursów wymiany.
+> [!Uwaga
+> > Błędy zaokrąglania walut i zmienione marginesy mogą nastąpić z powodu braku aktualnych kursów wymiany. Obliczenia te należy stosować tylko w przypadku umów dotyczących projektów, ponieważ są one przybliżone i nie służą do rzeczywistych sprawozdań ustawowych lub innych, które wymagają większej precyzji zaokrąglania i świadomości skuteczności dat dla kursów wymiany.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

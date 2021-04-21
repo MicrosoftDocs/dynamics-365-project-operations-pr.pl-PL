@@ -1,6 +1,6 @@
 ---
-title: Faktury korygujące oparte na projektach
-description: Ten temat zawiera informacje o tym, jak tworzyć i potwierdzać faktury korygujące oparte na projektach w Project Operations.
+title: Tworzenie faktur korygujących opartych na projekcie
+description: Ten temat zawiera informacje o fakturach korygujących w Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 03/29/2021
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fc96bb40f5207efc381986d46a3e37dfc1dc111c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 32772d64b3fc77f0af9618edff40e3b295593454
+ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867054"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788884"
 ---
-# <a name="corrective-project-based-invoices"></a>Faktury korygujące oparte na projektach
+# <a name="create-corrective-project-based-invoices"></a>Tworzenie faktur korygujących opartych na projekcie 
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
@@ -24,18 +24,19 @@ Potwierdzona faktura projektu może być skorygowana w celu wprowadzenia zmian l
 Aby dokonać edycji potwierdzonej faktury, otwórz potwierdzoną fakturę i wybierz pozycję **Koryguj tę fakturę**. 
 
 > [!NOTE]
-> Ten wybór nie jest dostępny, chyba że faktura za projekt zostanie potwierdzona lub faktura oparta na projekcie zawiera zaliczki lub zaliczki lub uzgodnienia zaliczek lub zaliczek.
+> Ta opcja jest niedostępna, jeśli nie została potwierdzona faktura projektu.
 
-Nowa wersja robocza faktury jest tworzona na podstawie potwierdzonej faktury. Wszystkie szczegóły wiersza faktury z uprzednio potwierdzonej faktury zostaną skopiowane do nowej wersji roboczej. Oto niektóre z najważniejszych informacji na temat nowych wierszy korygowanych faktur:
+Nowa wersja robocza faktury jest tworzona na podstawie potwierdzonej faktury. Wszystkie szczegóły wiersza faktury z uprzednio potwierdzonej faktury zostaną skopiowane do nowej wersji roboczej. Poniżej przedstawiono kilka kluczowych punktów, które pomogą Ci lepiej zrozumieć szczegóły linii na nowej skorygowanej fakturze:
 
-- Wszystkie ilości są aktualizowane na zero. Dynamics 365 Project Operations zakłada, że wszystkie zafakturowane pozycje są w pełni zaksięgowane. Jeśli jest to konieczne, można ręcznie zaktualizować te ilości, tak aby odpowiadały ilości zafakturowanej, a nie uznanej ilości. W zależności od wprowadzonej ilości program obliczy uznaną zaksięgowaną kwotę. Ta kwota jest odzwierciedlona w wartościach rzeczywistych tworzonych podczas potwierdzania faktury korygującej. W przypadku wprowadzania zmian do kwoty podatku należy wprowadzić prawidłową kwotę podatku, a nie kwotę podatku, która ma być uznana.
+- Wszystkie ilości są aktualizowane na zero. Zakłada się, że wszystkie zafakturowane pozycje są w pełni zaksięgowane. Jeśli jest to konieczne, można ręcznie zaktualizować te ilości, tak aby odpowiadały ilości zafakturowanej, a nie uznanej ilości. W zależności od wprowadzonej ilości program obliczy uznaną zaksięgowaną kwotę. Ta kwota jest odzwierciedlona w wartościach rzeczywistych tworzonych podczas potwierdzania faktury korygującej. W przypadku wprowadzania zmian do kwoty podatku należy wprowadzić prawidłową kwotę podatku, a nie kwotę podatku, która ma być uznana.
 - Korekta punktów kontrolnych jest zawsze przetwarzana jako pełne uznania.
-
+- Jeśli klient został zafakturowany na nieprawidłową kwotę, można skorygować zatrzymanie lub zaliczkę.
+- Uzgodnienia dotyczące zatrzymań i zaliczek można skorygować, jeśli do uzgodnienia została użyta nieprawidłowa kwota względem opłat na poprzednio potwierdzonej fakturze zastosowano nieprawidłową kwotę.
 
 > [!IMPORTANT]
-> W przypadku szczegółów wiersza faktury, które są korektami innych już zafakturowanych opłat, pole **Korekta** ma ustawioną wartość **Tak**. W przypadku faktur, które mają skorygowane szczegóły wiersza faktury, pole **Ma korekty** ma ustawioną wartość **Tak**.
+> Szczegóły wiersza faktury, które są poprawiane w innych już zafakturowanych opłatach, mają w polu **Korekta** ustawioną wartość **Tak**. Na fakturach, dla których istnieją poprawione dane w wierszu faktury znajduje się pole **Wprowadzono korektę**, która ma również ustawioną wartość na **Tak**.
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Wartości rzeczywiste tworzone po potwierdzeniu faktury korygującej
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Wartości rzeczywiste utworzone w potwierdzeniu faktury korygującej
 
 W poniższej tabeli przedstawiono wartości rzeczywiste, które są tworzone po potwierdzenia faktury korekcyjnej.
 
@@ -50,6 +51,72 @@ W poniższej tabeli przedstawiono wartości rzeczywiste, które są tworzone po 
             <td width="808" valign="top">
                 <p>
                     <strong>Wartości rzeczywiste utworzone przy potwierdzeniu</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="4" valign="top">
+                <p>
+Potwierdź korektę zafakturowanego zatrzymania lub zaliczki.<strong></strong>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Wycofanie nierozliczonej sprzedaży zaliczki lub zatrzymania, która zostały utworzone na potrzeby uzgodnienia. Ta kwota jest dodatnia, ponieważ powoduje anulowanie ujemnych wartości, które zostały utworzone w momencie zafakturowania zatrzymania lub zaliczki.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Wartość rzeczywista wycofanych wyliczonych sprzedaży jest tworzona dla kwoty zaliczki lub zatrzymania, w celu wycofania pierwotnej zafakturowanej sprzedaży.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Tworzona jest nowa wartość rzeczywista zafakturowanej sprzedaży w korygowanym wierszu faktury opartym na zaliczce lub zatrzymaniu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Niezafakturowana wartość sprzedaży negatywnej wartości rzeczywistej wiersza faktury opartego na zaliczce lub zatrzymaniu, która ma być używana do uzgadniania.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="4" valign="top">
+                <p>
+Potwierdzenie korekty wcześniej uzgodnionej zaliczki lub zatrzymania.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Wycofanie nierozliczonej sprzedaży zaliczki lub zatrzymania, która zostały utworzone na potrzeby uzgodnienia. Ta kwota jest dodatnia i powoduje anulowanie ujemnych wartości, które zostały utworzone w momencie poprzedniego uzgodnienia.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Rzeczywiste rozliczone wycofanie wartości sprzedaży za ilość znajdującą się na poprzedniej fakturze.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Stosowana jest nowa rozliczona wartość rzeczywista w korygowanym wierszu faktury opartym na zaliczce lub zatrzymaniu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Niezafakturowana wartość sprzedaży o negatywnej wartości rzeczywistej ze skorygowanych pozostałych zaliczek lub zatrzymań, która ma być używana na późniejszych fakturach.
                 </p>
             </td>
         </tr>
@@ -143,51 +210,6 @@ Nowa nierozliczona wartość rzeczywista sprzedaży, która jest odpłatna za po
                 </p>
             </td>
         </tr>
-                <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Fakturowanie pełnego kredytu z poprzednio zafakturowanej transakcji materiałowej.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Fakturowane wycofanie sprzedaży dla ilości i kwoty w szczegółach wiersza oryginalnej faktury dla materiału.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Nowa niezafakturowana sprzedaż rzeczywista dla ilości i kwoty w szczegółach wiersza oryginalnej faktury dla materiału.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Fakturowanie częściowego kredytu przy istotnej transakcji.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Wycofanie sprzedaży zafakturowanej dla ilości i kwoty zafakturowanej dla szczegółów wiersza oryginalnej faktury dla materiału.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Nowa niezafakturowana rzeczywista sprzedaż, która jest obciążana za ilość i kwotę w edytowanych szczegółach wiersza faktury, ich odwrócenie i równoważna faktyczna fakturowana sprzedaż.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Nowa nierozliczona wartość rzeczywista sprzedaży, która jest odpłatna za pozostałą ilość i kwotę po odjęciu skorygowanych wartości w szczegółach wiersza faktury.
-                </p>
-            </td>
-        </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
@@ -249,10 +271,9 @@ Zafakturowanie częściowego uznania uprzednio zafakturowanego punktu kontrolneg
             </td>
             <td width="408" valign="top">
                 <p>
-Ten scenariusz nie jest obsługiwany.
-                </p>
+Nieobsługiwane </p>
             </td>
-        </tr>       
+        </tr>        
     </tbody>
 </table>
 

@@ -3,7 +3,7 @@ title: Wartości rzeczywiste
 description: Ten temat zawiera informacje dotyczące pracy z wartościami rzeczywistymi w rozwiązaniu Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291812"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852557"
 ---
 # <a name="actuals"></a>Wartości rzeczywiste 
 
-_**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
+_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Wartości rzeczywiste określają ilość pracy wykonanej w projekcie. Są one tworzone w wyniku zapisów czasu i wydatku oraz pozycji dziennika i faktur.
+Dane rzeczywiste reprezentują sprawdzony i zatwierdzony postęp finansowy i harmonogram projektu. Są one tworzone w wyniku zatwierdzania czasu, wydatków, wpisów użycia materiałów oraz wpisów i faktur.
 
 ## <a name="journal-lines-and-time-submission"></a>Wiersze arkusza i przesyłanie czasu
 
@@ -45,7 +45,7 @@ Podczas przesyłania wpisu czasu dla projektu, który jest połączony z projekt
 
 Logika tworzenia cen domyślnych jest przechowywana w wierszu arkusza. Wartości pól z wpisu czasu są kopiowane do wiersza arkusza. Te wartości zawierają datę transakcji, pozycję kontraktu, do której jest mapowany projekt, oraz wynik obliczania waluty z odpowiedniego cennika.
 
-Pola wpływające na domyślne ceny, takie jak **Rola** i **Jednostka organizacyjna**, są wykorzystywane do domyślnego wprowadzenia właściwej ceny w wierszu arkusza. We wpisie czasu można dodać pole niestandardowe. Chcąc przetworzyć wartość do wartości rzeczywistych, należy utworzyć pole w encji Wartości rzeczywiste, a następnie za pomocą mapowań pól skopiować pole z wpisu czasu do wartości rzeczywistej.
+Pola wpływające na domyślne ceny, takie jak **Rola** i **Jednostka zasobów**, służą do określenia odpowiedniej ceny w wierszu arkusza. We wpisie czasu można dodać pole niestandardowe. Aby wartość pola była propagowana do wartości rzeczywistych, należy utworzyć pole w tabelach **Wartości rzeczywiste** i **Wiersz arkusza**. Użyj kodu niestandardowego, aby propagować wybraną wartość pola od wpisu czasu do wartości rzeczywistych w wierszu arkusza przy użyciu źródeł transakcji. Aby uzyskać więcej informacji o pochodzenia transakcji i połączeniach, zobacz temat [Łączenie wartości rzeczywistych z oryginalnymi rekordami](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Wiersze arkusza i przesyłanie podstawowych kosztów
 
@@ -57,24 +57,42 @@ W przypadku połączenia przesłanego wpisu wydatku podstawowego do projektu zam
 
 ### <a name="fixed-price"></a>Stała cena
 
-Podczas przesyłania wpisu podstawowego wydatku dla projektu, który jest połączony z projektem zamapowanym do kontraktu o stałej cenie, system tworzy tylko wiersz arkusza dotyczący kosztu.
+Gdy przesłany wpis podstawowego wydatku jest połączony z projektem, który jest mapowany do wiersza umowy o stałej cenie, system tworzy jeden wiersz arkusza dla kosztu.
 
 ### <a name="default-pricing"></a>Cena domyślna
 
-Logika wprowadzania cen domyślnych wydatków jest oparta na kategorii wydatków. Do wyznaczenia odpowiedniego cennika są używane wartości daty transakcji, pozycji kontraktu, do której jest mapowany projekt, i waluty. Jednak domyślnie kwota wprowadzona przez użytkownika dla ceny jest ustawiana bezpośrednio w odpowiednich wierszach arkusza wydatków dla kosztów i sprzedaży.
+Logika wprowadzania cen domyślnych wydatków jest oparta na kategorii wydatków. Do wyznaczenia odpowiedniego cennika są używane wartości daty transakcji, pozycji kontraktu, do której jest mapowany projekt, i waluty. Pola wpływające na domyślne ceny, takie jak **Kategoria transakcji** i **Jednostka**, służą do określenia odpowiedniej ceny w wierszu arkusza. Działa to jednak tylko wtedy, gdy metoda kalkulacji cen w cenniku to **Cena jednostkowa**. Jeśli metoda kalkulacji cen to **Koszt** lub **Narzut na koszcie**, cena wprowadzona podczas tworzenia wpisu wydatku jest używana dla kosztu, a cena w wierszu sprzedaży jest obliczana na podstawie metody kalkulacji ceny. 
 
-We wpisach wydatków nie można wprowadzać domyślnych cen jednostkowych opartych na kategoriach.
+Niestandardowe pole można dodać do wpisu wydatków. Aby wartość pola była propagowana do wartości rzeczywistych, należy utworzyć pole w tabelach **Wartości rzeczywiste** i **Wiersz arkusza**. Użyj kodu niestandardowego, aby propagować wybraną wartość pola od wpisu czasu do wartości rzeczywistych w wierszu arkusza przy użyciu źródeł transakcji. Aby uzyskać więcej informacji o pochodzenia transakcji i połączeniach, zobacz temat [Łączenie wartości rzeczywistych z oryginalnymi rekordami](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Wiersze dziennika i przesyłanie dziennika zużycia materiałów
+
+Aby uzyskać więcej informacji na temat wprowadzania wydatków, zobacz [Dziennik użycia materiałów](../material/material-usage-log.md).
+
+### <a name="time-and-materials"></a>Rozliczanie według czasu i materiałów
+
+Gdy przesłany wpis dziennika zużycia materiałów jest połączony z projektem, który jest mapowany do wiersza kontraktu dotyczącego czasu i materiałów, system tworzy dwa wiersze arkusza, jeden dla kosztów, a drugi dla niezafakturowanej sprzedaży.
+
+### <a name="fixed-price"></a>Stała cena
+
+Gdy przesłany wpis dziennika zużycia materiałów jest połączony z projektem, który jest mapowany do wiersza umowy o stałej cenie, system tworzy jeden wiersz arkusza dla kosztu.
+
+### <a name="default-pricing"></a>Cena domyślna
+
+Logika wprowadzania domyślnych cen materiałów jest oparta na kombinacji produktu i jednostki. Do wyznaczenia odpowiedniego cennika są używane wartości daty transakcji, pozycji kontraktu, do której jest mapowany projekt, i waluty. Pola wpływające na domyślne ceny, takie jak **Identyfikator produktu** i **Jednostka**, służą do określenia odpowiedniej ceny w wierszu arkusza. Działa to jednak tylko w przypadku produktów z katalogu. W przypadku produktów podlegających zapisowi cena wprowadzona podczas tworzenia wpisu dziennika zużycia materiału jest używana jako koszt i cena sprzedaży w wierszach arkusza. 
+
+Niestandardowe pole można dodać do wpisu **Dziennik użycia materiałów**. Aby wartość pola była propagowana do wartości rzeczywistych, należy utworzyć pole w tabelach **Wartości rzeczywiste** i **Wiersz arkusza**. Użyj kodu niestandardowego, aby propagować wybraną wartość pola od wpisu czasu do wartości rzeczywistych w wierszu arkusza przy użyciu źródeł transakcji. Aby uzyskać więcej informacji o pochodzenia transakcji i połączeniach, zobacz temat [Łączenie wartości rzeczywistych z oryginalnymi rekordami](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Używanie dzienników do rejestrowania kosztów
 
 Arkusze umożliwiają rejestrowanie kosztów lub przychodów w klasach materiałów, opłat, czasu, wydatków lub transakcji podatkowych. Arkusze mogą być używane w produkcji.
 
-- Rejestrowania rzeczywistych kosztów materiałów i wielkości sprzedaży w projekcie.
 - Przenieś wartości rzeczywiste transakcji z innego systemu do rozwiązaniu Microsoft Dynamics 365 Project Operations.
 - Zarejestrowania kosztów, które wystąpiły w innym systemie. Koszty te mogą zawierać koszty zakupu lub podwykonawców.
 
 > [!IMPORTANT]
 > Aplikacja nie sprawdza poprawności typu wiersza arkusza lub powiązanej kalkulacji cen wprowadzonych w wierszu dziennika. Z tego powodu tylko użytkownik, który jest w pełni świadomi skutków związanych z księgowaniem w projekcie powinien używać dzienników wpisów do tworzenia wartości rzeczywistych. Ze względu na wpływ danego typu arkusza należy starannie wybrać osoby, które mają mieć dostęp do tworzenia arkuszy zapisu.
+
 ## <a name="record-actuals-based-on-project-events"></a>Rejestrowanie wartości rzeczywistych na podstawie zdarzeń projektu
 
 Project Operations rejestruje transakcje finansowe zaistniałe w trakcie projektu. Te transakcje są zapisywane jako wartości rzeczywiste. W poniższych tabelach przedstawiono różne typy wartości rzeczywistych, które są tworzone w zależności od tego, czy projekt jest rozliczany według czasu i materiałów czy też jest projektem o stałej cenie, czy znajduje się na etapie przedsprzedaży lub czy jest projektem wewnętrznym.

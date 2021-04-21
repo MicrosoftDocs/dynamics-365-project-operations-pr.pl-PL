@@ -1,21 +1,21 @@
 ---
-title: Zarządzanie fakturą proforma - wersja uproszczona
-description: Ten temat zawiera informacje dotyczące pracy z fakturami Proforma.
+title: Zarządzanie fakturą proforma projektu
+description: Ten temat zawiera informacje o tym, jak pracować z fakturami projektu proforma.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274062"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866919"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Zarządzanie fakturą proforma - wersja uproszczona
+# <a name="manage-a-proforma-project-invoice"></a>Zarządzanie fakturą proforma projektu 
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
@@ -69,9 +69,9 @@ W Project Operations zawsze istnieje jeden wiersz faktury dla każdego wiersza u
 
 Każdy wiersz faktury na fakturze projektu zawiera szczegóły wiersza faktury. Te szczegóły wierszy są powiązane z wartościami rzeczywistymi i punktami kontrolnymi niefakturowanymi, które są powiązane z pozycją kontraktu, do której odwołuje się wiersz faktury. Wszystkie te transakcje są oznaczone jako **Przygotowane do fakturowania**.
 
-W przypadku wiersza **Faktura czasowa i materiałowa** szczegóły wiersza faktury są zgrupowane jako **Odpłatne**, **Niepodlegające opłatom** i **Uzupełniające** na stronie **Wiersz faktury**. Szczegóły **Wypłacanego wiersza na fakturze** są dodawane do sumy wiersza faktury. **Uzupełniające** i **Wartości rzeczywiste niepodlegające obciążeniu** nie są dodawane do sumy wiersza faktury.
+W przypadku wiersza **Faktura czasowa i materiałowa** szczegóły wiersza faktury są zgrupowane jako **Odpłatne**, **Nieodpłatne** i **Bezpłatne** na stronie **Wiersz faktury**. Szczegóły **Wypłacanego wiersza na fakturze** są dodawane do sumy wiersza faktury. **Bezpłatne** i **Rzeczywiste wartości nieodpłatne** nie są dodawane w sumie wierszy faktury.
 
-W przypadku wiersza **Faktury o stałej cenie** szczegóły wiersza faktury są tworzone na podstawie punktów kontrolnych oznaczonych jako **Przygotowane do fakturowania** w pokrewnej pozycji kontraktu. Po utworzeniu szczegółów wiersza faktury z punktu kontrolnego stan fakturowania w punktach kontrolnych zostanie zaktualizowany na podstawie **Utworzono fakturę dla klienta**.
+W przypadku wiersza **Faktura ze stalą ceną** szczegóły wiersza faktury są tworzone na podstawie punktów kontrolnych oznaczonych jako **Gotowe do zafakturowania** w powiązanym wierszu umowy. Po utworzeniu szczegółów wiersza faktury z punktu kontrolnego stan fakturowania w punktach kontrolnych zostanie zaktualizowany na podstawie **Utworzono fakturę dla klienta**.
 
 ### <a name="edit-invoice-line-details"></a>Edytuj szczegóły linii faktury
 
@@ -98,8 +98,12 @@ Następujące pola są dostępne w szczegółach wiersza faktury, które są pop
 | **Podatek** | Domyślnie jest ustawiona wartość z wartości źródłowej. To pole może być edytowane przez użytkownika | Pole może być edytowane przez użytkownika podczas tworzenia nowych szczegółów wiersza faktury bez potrzeby wykonywania kopii zapasowej. |
 | **Kwota rozszerzona** | Pole obliczane, które jest obliczane jako **Kwota + podatek**. Pole tylko do odczytu, które można edytować jako zablokowane. | &nbsp; |
 | **Typ rozliczeń** | Domyślnie jest ustawiona wartość z wartości źródłowej. To pole może być edytowane przez użytkownika. | Wybranie opcji **Płatny** powoduje dodanie wiersza do sumy wiersza faktury. **Uzupełniające** i **Nieodpłatne** wykluczą go z sumy wiersza faktury. |
+| **Wybierz produkt** | Ustawione domyślnie z rzeczywistego źródła, jest to pole tylko do odczytu. | Podczas tworzenia nowego szczegółu wiersza faktury bez faktycznej kopii zapasowej to pole można edytować. |
+| **Produkt** | Ustawione domyślnie z rzeczywistego źródła, jest to pole tylko do odczytu. | Podczas tworzenia nowych szczegółów wiersza faktury bez konieczności tworzenia kopii rzeczywistej to pole można edytować, jeśli w polu **Wybierz produkt** ustawiono wartość **Istniejący produkt**. |
+| **Nazwa produktu** | Ustawione domyślnie z rzeczywistego źródła, jest to pole tylko do odczytu. | W nowym szczególe linii faktury, gdzie identyfikator produktu jest wybrany z katalogu, w tym polu jest ustawiona nazwa produktu. W przypadku zapisu produktu w polu jest ustawiona wartość Imię i nazwisko. |
+| **Opis dopisanego** | Ustawione domyślnie z rzeczywistego źródła, jest to pole tylko do odczytu. | Podczas tworzenia nowego szczegółu wiersza faktury bez faktycznej kopii zapasowej można dodać opis produktu. |
 | **Typ transakcji** | Domyślnie jest ustawiona wartość z wartości źródłowej. Pole tylko do odczytu, które można edytować jako zablokowane. | Ustaw domyślnie na **Sprzedaż zafakturowaną** i zablokowane podczas tworzenia nowego **Szczegółu wiersza faktury** bez faktycznej kopii zapasowej.  |
-| **Klasa transakcji** | Domyślnie jest ustawiona wartość z wartości źródłowej. Pole tylko do odczytu, które można edytować jako zablokowane. | Ustawiany domyślnie w oparciu o to, czy użytkownik zdecyduje się utworzyć szczegóły wiersza faktury **Czasu**, **Wydatków** lub **Opłat**, jednocześnie tworząc nowy **Szczegół wiersza faktury** bez faktycznego zaplecza. Zablokowano możliwość edycji. |
+| **Klasa transakcji** | Domyślnie jest ustawiona wartość z wartości źródłowej. Pole tylko do odczytu, które można edytować jako zablokowane. | Ustawienie jest domyślnie oparte na tym, czy użytkownik wybierze opcję tworzenia szczegółów wiersza faktury **Czas**, **Koszt**, **Materiał** lub **Opłata**, a także tworzenie nowego **Szczegółu wiersza faktury** bez rzeczywistej kopii zapasowej. Zablokowano możliwość edycji. |
 
 Następujące pola są dostępne w szczegółach wiersza faktury, które są poparte punktem kontrolnym:.
 

@@ -1,21 +1,21 @@
 ---
-title: Omówienie śledzenia projektu
-description: W tym temat zamieszczono informacje dotyczące śledzenia postępu i zużycia kosztów w programie project.
+title: Śledzenie nakładu pracy projektu
+description: Ten temat zawiera informacje dotyczące śledzenia nakładu pracy i postępu pracy w ramach projektu.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286621"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5710953"
 ---
-# <a name="project-tracking-overview"></a>Omówienie śledzenia projektu
+# <a name="project-effort-tracking"></a>Śledzenie nakładu pracy projektu
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
@@ -26,50 +26,28 @@ Konieczność śledzenia postępu w harmonogramie zależy od branży. Niektóre 
 W widoku **Śledzenia nakładów** są śledzone postępy zadań w harmonogramie. Polega to na porównaniu rzeczywistych nakładów pracy na zadanie z planowanymi godziny nakładu pracy danego zadania. Rozwiązanie Dynamics 365 Project Operations korzysta z poniższych formuł do obliczania metryk śledzenia:
 
 - **Procent postępu**: rzeczywisty nakład pracy do dnia dzisiejszego ÷ szacowane przy zakończeniu (SPZ) 
-- **Szacowane do zakończenia (ETC)**: planowany nakład pracy — rzeczywisty nakład pracy do dnia dzisiejszego 
+- **Pozostały nakład pracy**: Szacowany wysiłek po zakończeniu - rzeczywisty wysiłek wydany do tej pory 
 - **SPZ**: pozostały nakład pracy + rzeczywisty nakład pracy do dnia dzisiejszego 
 - **Przewidywane odchylenie nakładu pracy**: planowany nakład pracy — SPZ
 
 W programie Project Operations jest wyświetlona projekcja odchylenia danego zadania. Jeśli wartość SPZ przekracza planowany nakład pracy, zadanie jest rzutowane na czas dłuższy niż planowano i jest opóźnienie. Jeśli wartość SPZ jest mniejsza niż planowany nakład pracy, zadanie jest rzutowane na czas krótszy niż planowano i praca posuwa się do przodu szybciej niż zaplanowano.
 
-## <a name="reprojecting-effort"></a>Ponowne prognozowanie nakładu pracy
+## <a name="reprojecting-effort-on-leaf-node-tasks"></a>Ponowne projektunie nakładu pracy w zadaniach węźle liścia
 
-Menedżerowie projektu czasem rewidują oryginalne wartości szacunkowe zadania. Ponowne prognozy to oszacowania menedżera projektu z uwzględnieniem bieżącego stanu projektu. Nie zaleca się jednak, aby menedżerowie projektów zmieniali liczby w planie bazowym. Dzieje się tak, ponieważ podstawa projektu reprezentuje ustalone źródło prawdziwych wartości dla harmonogramu i szacunkowego kosztu projektu, na które wyrazili zgodę wszyscy udziałowcy.
+Menedżerowie projektu czasem rewidują oryginalne wartości szacunkowe zadania. Ponowne prognozy to oszacowania menedżera projektu z uwzględnieniem bieżącego stanu projektu. Nie zalecamy jednak, aby kierownicy projektów zmieniali planowane liczby nakładów. Dzieje się tak, ponieważ planowane wysiłki w ramach projektu stanowią ustalone źródło prawdziwości harmonogramu projektu i szacunku kosztów, a wszyscy interesariusze projektu wyrazili na to zgodę.
 
-Istnieją dwa sposoby ponownego prognozowania nakładu pracy na zadania:
-
-- Zastąpienie domyślnej wartości ETC nową wartością szacunkową rzeczywistego pozostałego nakładu pracy na zadanie. 
-- Zastąpienie domyślnej wartości procentowej postępu nową wartością rzeczywistego postępu.
-
-Każda z tych metod powoduje ponowne obliczenie wartości ETC zadania, SPZ i wartości procentowej postępu oraz przewidywane odchylenie nakładu pracy nad zadaniem. Wartości SPZ, ETC i procent postępu w zadaniach sumarycznych są również obliczane ponownie i dają nową projekcję odchylenia.
+Menedżer projektu może ponownie zaplanować nakłady pracy na zadaniach, aktualizując domyślny **Pozostały nakład pracy** o nowe oszacowanie zadania. Ta aktualizacja powoduje ponowne obliczenie oszacowania zadania przy ukończeniu (SPZ), procentu postępu i przewidywanej wariancji nakładu pracy w zadaniu. Wartości SPZ, ETC i procent postępu w zadaniach sumarycznych są również obliczane ponownie i dają nową projekcję odchylenia.
 
 ## <a name="reprojection-of-effort-on-summary-tasks"></a>Ponowna projekcja nakładów na zadania sumaryczne
 
-Nakład pracy na zadania sumaryczne lub zadania kontenera można zaprojektować ponownie. Bez względu na to, czy użytkownik ponownie pracuje nad projektami przy użyciu pozostałego nakładu lub procentu postępu w zadaniach sumarycznych, zaczyna się następujący zestaw obliczeń:
+Nakład pracy na zadania sumaryczne lub zadania kontenera można zaprojektować ponownie. Menedżerowie projektów mogą aktualizować pozostałe nakłady pracy związane z zadaniami podsumowania. Aktualizacja pozostałego nakładu pracy powoduje wyzwolenie następującego zestawu obliczeń w aplikacji:
 
-- Wartości SPZ, ETC i procent postępu są obliczane względem zadania.
+- Wartości SPZ i procent postępu są obliczane względem zadania.
 - Nowe wartości SPZ są rozkładane w dół na zadania podrzędne w takiej samej proporcji jak w oryginalnym elemencie SPZ w ramach danego zadania.
 - Obliczana jest nowa wartość SPZ w każdym z zadań w dół względem poszczególnych węzłów typu liść. 
-- Następuje ponowne przeliczenie ETC i procenta postępu zadań podrzędnych do węzła liścia na podstawie wartości SPZ. W wyniku tego powstaje nowa projekcja odchylenia nakładu pracy nad zadaniem. 
+- Zadania podrzędne, których dotyczy problem, aż do węzłów liści, pozostały wysiłek i procent postępu są ponownie obliczane na podstawie wartości SPZ. W wyniku tego powstaje nowa projekcja odchylenia nakładu pracy nad zadaniem. 
 - System ponownie oblicza EAC zadań sumarycznych na całej drodze do węzła głównego.
 
-### <a name="cost-tracking-view"></a>Widok śledzenia kosztów 
-
-W widoku **śledzenia kosztów** jest porównywany koszt rzeczywisty, który został wydany na wykonanie zadania według planowanego kosztu. 
-
-> [!NOTE]
-> W tym widoku są wyświetlane tylko koszty robocizny i nie są uwzględniane koszty szacunków kosztów. Project Operations korzysta z poniższych formuł do obliczania metryk śledzenia:
-
-- **Procent zużytego kosztu**: koszt rzeczywisty poniesiony do dnia ÷ szacowany koszt przy zakończeniu
-- **Koszt do zakończenia (CTC)**: planowany koszt — rzeczywisty koszt poniesiony do dnia
-- **EAC**: pozostały koszt + rzeczywisty koszt poniesiony do tej pory
-- **Prognozowane odchylenie kosztu**: koszt planowany – SPZ
-
-Prognoza odchylenia kosztu jest widoczna w zadaniu. Jeśli wartość SPZ przekracza planowany koszt, zadaniu jest przypisywany koszt wyższy niż planowano na początku. Z tego powodu ma ono tendencję do przekroczenia budżetu. Jeśli wartość SPZ jest mniejsza od planowanego kosztu, zadaniu jest przypisywany koszt niższy niż planowano na początku. Z tego powodu ma ono tendencję do niewykorzystania budżetu.
-
-## <a name="project-managers-reprojection-of-cost"></a>Ponowne prognozowanie kosztów przez menedżera projektu
-
-W przypadku ponownie prognozowanego nakładu pracy CTC, SPZ, procent zużytego kosztu i przewidywane odchylenie kosztów są ponownie obliczane w widoku **śledzenia kosztów**.
 
 ## <a name="project-status-summary"></a>Podsumowanie statusu projektu
 

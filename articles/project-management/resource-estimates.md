@@ -1,39 +1,52 @@
 ---
-title: Szacowania zasobu
-description: W tym temat zamieszczono informacje dotyczące sposobu obliczania zasobów w Project Operations.
-author: ruhercul
+title: Szacowania finansowe dotyczące czasu zasobów w projektach
+description: Ten temat zawiera informacje o sposobie obliczania szacunków finansowych dotyczących czasu.
+author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 98a61746f172b50bf6fa29cb0d21462cd616f417
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: 91156c5cf79af8c66c12b84a6d2b17aa7fe09ed1
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286531"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701839"
 ---
-# <a name="resource-estimates"></a>Szacowania zasobu
+# <a name="financial-estimates-for-resource-time-on-projects"></a>Szacowania finansowe dotyczące czasu zasobów w projektach
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Oszacowania zasobów pochodzą z nakładu pracy faz czasowych, określonego w strukturze podziału pracy oraz w zakresie odpowiednich wymiarów kalkulacji cen. Zazwyczaj obliczenia dokonywane są na podstawie następującego schematu: **współczynnik/h dla każdej roli x liczba godzin.** Nakłady pracy faz czasowych na każdy zasób są przechowywane w rekordzie przydziału zasobu. Cena jest przechowywana we wstępnie zdefiniowanym cenniku. Przeliczanie jednostek jest stosowane na podstawie odpowiednich cenników.
+Szacowanie finansowe czasu jest obliczane na podstawie trzech czynników: 
+
+- Typ ogólnego lub nazwanego członka zespołu przypisanego do każdego zadania węzła-liścia w planie projektu. 
+- Typ lub złożoność pracy.
+- Rozkład nakładu pracy przy przypisywaniu zasobu do zadania. 
+
+Pierwsze dwa czynniki wpływają na koszt jednostkowy lub stawkę faktury przydziału zasobu. Koszt jednostkowy lub stawka opłaty przydziału zasobu jest określana przez atrybuty przypisanego zasobu. Te atrybuty obejmują jednostkę organizacyjną, do której należy zasób, oraz standardową rolę zasobu. Możesz również dodać atrybuty niestandardowe odpowiednie dla Twojej firmy dla zasobu, takie jak standardowy tytuł lub poziom doświadczenia, i sprawić, by wpływały na koszt jednostkowy lub stawkę opłaty przydziału.
+Oprócz atrybutów zasobu atrybuty pracy, takie jak zadanie, mogą również wpływać na stawkę jednostkową lub stawkę kosztów przydziału. Na przykład, gdy niektóre zadania są bardziej złożone, przypisanie zasobu do tych konkretnych zadań skutkuje wyższym kosztem jednostkowym lub stawką opłat niż zadania, które są mniej złożone.   
+
+Trzeci współczynnik dostarcza liczbę godzin po tej stawce. W przypadkach, gdy zadanie obejmuje dwa okresy cenowe, jest prawdopodobne, że pierwsza część przydziału zasobów dla tego zadania jest wyceniana i wyceniana inaczej niż druga część zadania. Oszacowanie nakładu pracy dla każdego przydziału zasobu to złożona wartość przechowywana wraz z dziennym rozkładem wysiłku na dzień.
+
+Aby uzyskać szczegółowe instrukcje dotyczące konfigurowania niestandardowych atrybutów pracy i zasobów jako wymiarów wyceny i cen, zobacz [Omówienie wymiarów wyceny](../pricing-costing/pricing-dimensions-overview.md).
+
+Szacunek finansowy każdego przydziału zasobów jest obliczany jako **stawka / godz. Za przydział pomnożona przez liczbę godzin.**  Podobnie jak w przypadku oszacowania nakładu pracy, oszacowanie finansowe kosztów i przychodów dla każdego przydziału zasobów jest złożoną wartością przechowywaną wraz z dzienną dystrybucją kwoty pieniężnej. 
+
+## <a name="summarizing-financial-estimates-for-time"></a>Podsumowanie szacowania finansowego dla czasu
+Szacunek finansowy czasu wykonywania zadania węzła-liścia to suma oszacowań finansowych wszystkich przydziałów zasobów dla tego zadania.
+
+Szacunek finansowy czasu poświęconego zadaniu sumarycznemu lub nadrzędnemu to suma oszacowań finansowych wszystkich jego zadań podrzędnych. Jest to szacowany koszt pracy w projekcie. 
 
 ![Szacowania zasobu](./media/navigation12.png)
 
 ## <a name="default-cost-price-and-cost-currency"></a>Wartości domyślne kosztów własnych i waluty kosztów
 
-Koszty własne są domyślnie pobierane z jednostki organizacyjnej.
+Domyślna cena kosztów pochodzi z cenników dołączonych do jednostki kontraktu projektu. Walutą kosztu projektu jest zawsze waluta jednostki zamawiającej projektu. W przypadku przypisania zasobu szacowanie kosztów jest przechowywane w walucie kosztów projektu. Czasami waluta, w której stawka kosztów jest ustawiona w cenniku, różni się od waluty kosztu projektu. W tych przypadkach aplikacja konwertuje walutę, w której jest ustawiana cena kosztów dla waluty projektu. Na siatce **Szacowane** wszystkie szacowane koszty są wyświetlane i sumowane w walucie kosztów projektu. 
 
 ## <a name="default-bill-rate-and-sales-currency"></a>Domyślna stawka rozliczenia i waluta sprzedaży
 
-Ceny sprzedaży są stosowane raz dla każdej transakcji. Hierarchia domyślna dla cennika sprzedaży zawiera następujące dane:
-
-1. Organizacja
-2. Klient
-3. Oferta / kontrakt
-
+Domyślna cena sprzedaży pochodzi z cenników projektu dołączonych do powiązanej umowy dotyczącej projektu, jeśli transakcja zostanie wygrana, lub z oferty związanej z projektem, jeśli transakcja jest nadal na etapie przedsprzedażowym. Walutą sprzedaży projektu jest zawsze waluta oferty projektu lub umowy dotyczącej projektu. W przypadku przydziału zasobu oszacowanie finansowe sprzedaży jest przechowywane w walucie sprzedaży projektu. W przeciwieństwie do kosztu cena sprzedaży ustawiona w cenniku nigdy nie może różnić się od waluty sprzedaży projektu. Nie ma scenariusza, w którym potrzebna jest konwersja walut. Na siatce **Szacowane** wszystkie szacunki sprzedaży są wyświetlane i podsumowywane w walucie sprzedaży projektu. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

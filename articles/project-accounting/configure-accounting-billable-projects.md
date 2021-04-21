@@ -3,17 +3,17 @@ title: Konfigurowanie księgowania projektów do zafakturowania
 description: Ten temat zawiera informacje o opcjach księgowania projektów podlegających rozliczeniu.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287656"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858666"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurowanie księgowania projektów do zafakturowania
 
@@ -58,13 +58,25 @@ Wykonaj poniższe kroki, aby utworzyć nowy profil kosztu projektu i przychodu.
 
          - **Saldo**: podczas księgowania dziennika integracji Project Operations koszt transakcji wydatkowej będzie obciążał konto księgi głównej typu *PWT — wartość kosztu* zdefiniowane na karcie **Koszt** na stronie **Konfiguracja zapisów księgi głównej** i zaksięgowana na koncie rozliczeniowym w wierszu arkusza. Domyślne konta rozliczeniowe kosztów są definiowane w ustawieniach sekcji **Informacje o zarządzaniu projektami i ich księgowaniu** > **Konfiguracja** \> **Księgowanie** \> **Domyślne konta rozliczeniowe wydatków**. Korzystając z funkcji **księgowanie kosztów**, program klienta będzie okresowo przesuwać ten koszt z konta bilansowego na konto zysków i strat.
         - **Zyski i straty**: podczas księgowania dziennika integracji Project Operations koszt transakcji wydatkowej będzie obciążał konto księgi głównej typu *Koszt* zdefiniowanego na karcie **Koszt** na stronie **Konfiguracja zapisów księgi głównej** i zaksięgowana na koncie rozliczeniowym w wierszu arkusza. Domyślne konta rozliczeniowe kosztów są definiowane w ustawieniach sekcji **Informacje o zarządzaniu projektami i ich księgowaniu** \> **Konfiguracja** \> **Księgowanie** \> **Domyślne konta rozliczeniowe wydatków**.
+      
+    - **Księguj koszty - pozycja**:
+
+         - **Saldo**: Podczas księgowania arkusza integracji Project Operations koszt transakcji pozycji zostanie pobrany z rachunku *PwT typu konta Księgi - Wartość kosztu - pozycja* zgodnie z definicją na karcie **Koszt** na stronie **Ustawienia księgowania w księdze** i zaksięgowany na:
+    
+              - W przypadku użycia typu dokumentu: konto **Koszt — pozycja** w **Ustawienia księgowania w księdze**.  
+              - W przypadku zakupu typu dokumentu: **Konto integracji zakupów** w **Zarządzanie projektami i parametry księgowe**.
+           Korzystając z funkcji **księgowanie kosztów**, program klienta będzie okresowo przesuwać ten koszt z konta bilansowego na konto zysków i strat.
+        - **Zyski i straty**: Podczas księgowania arkusza integracji Project Operations koszt transakcji pozycji zostanie pobrany z *Koszt* zgodnie z definicją na karcie **Koszt** na stronie **Ustawienia księgowania w księdze** i zaksięgowany na:
+         
+             - W przypadku użycia typu dokumentu: konto **Koszt — pozycja** w **Ustawienia księgowania w księdze**.  
+             - W przypadku zakupu typu dokumentu: **Konto integracji zakupów** w **Zarządzanie projektami i parametry księgowe**.
        
     - **Faktury akonto**:
 
         - **Saldo**: podczas księgowania propozycji faktury projektu transakcja akonto (punkt milowy w rozliczeniach) będzie księgowana na koncie księgi głównej typu *Faktura PWT — akonto*, zdefiniowanym na karcie **Przychód**, która znajduje się na stronie **Konfiguracja dodawania zapisów księgi głównej**, i zaksięgowany po stronie debetowej dla konta bilansowego klienta.
          - **Zysk i strata**: podczas księgowania propozycji faktury projektu transakcja akonto (punkt milowy w rozliczeniach) będzie księgowana na koncie księgi głównej typu *Faktura PWT — akonto*, zdefiniowanym na karcie **Przychód na fakturze — akonto**, która znajduje się na stronie **Konfiguracja dodawania zapisów księgi głównej**, i zaksięgowany po stronie debetowej dla konta bilansowego klienta. Konta bilansowe klientów są określone w sekcji **Rozrachunki z odbiorcami** \> **Konfiguracja** \> **Profile rozrachunków z klientami**.
 
-   Podczas definiowania profili księgowania dla metod fakturowania typu czas i materiały użytkownik ma możliwość naliczenia przychodu na typ transakcji (godzina, wydatek i opłata). Jeśli opcja **Naliczany przychód** ma wartość **Tak**, niezafakturowane transakcje sprzedaży w arkuszu integracji operacji projektu będą rejestrowane w księdze głównej. Wartość sprzedaży obciąża konto **PWT — konto wartości sprzedaży**, a uznanie naliczane jest na koncie **Naliczony przychód — wartość sprzedaży**, które zostało skonfigurowane na karcie **Przychód** w sekcji **Konfiguracja księgowania w rejestrze**. 
+   Definiując profile księgowania dla metod rozliczania według czasu i materiałów, masz możliwość naliczania przychodów według typu transakcji (godzina, wydatek, pozycja i opłata). Jeśli opcja **Naliczany przychód** ma wartość **Tak**, niezafakturowane transakcje sprzedaży w arkuszu integracji operacji projektu będą rejestrowane w księdze głównej. Wartość sprzedaży obciąża konto **PWT — konto wartości sprzedaży**, a uznanie naliczane jest na koncie **Naliczony przychód — wartość sprzedaży**, które zostało skonfigurowane na karcie **Przychód** w sekcji **Konfiguracja księgowania w rejestrze**. 
   
   > [!NOTE]
   > Ta opcja powoduje, że **Przychód naliczony** jest dostępny tylko wtedy, gdy odpowiedni typ transakcji **Koszt** jest księgowany na rachunku zysków i strat.

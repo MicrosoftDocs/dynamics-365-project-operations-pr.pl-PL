@@ -3,17 +3,17 @@ title: Konfigurowanie stawek rozliczania wykonanej pracy
 description: W tym temacie zamieszczono informacje dotyczące konfigurowania stawek rozliczania wykonanej pracy w Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274831"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877413"
 ---
 # <a name="set-up-labor-bill-rates"></a>Konfigurowanie stawek weksli robocizny
 
@@ -21,8 +21,8 @@ ms.locfileid: "5274831"
 
 Każdy cennik ma zestaw stawek pracy, inaczej cen ról, które obowiązują w ramach kontekstu i daty obowiązywania z nagłówka danego cennika. Stawki faktur w rozwiązaniu Dynamics 365 Project Operations można skonfigurować tylko w jednej walucie, która jest walutą w nagłówku Cennik.
 
-1. Aby skonfigurować stawki sprzedaży wykonanej pracy w cenniku, należy utworzyć Cennik na podstawie nagłówka cennika. 
-2. Na karcie **Ceny ról**. w podsiatce, wybierz pozycję **+ Nowa cena roli**. 
+1. Aby skonfigurować opłaty za robocizna dla cennika sprzedaży, przejdź do **Sprzedaż** > **Klienci** > **Cenniki** i wybierz **Nowy**, aby utworzyć nowy cennik. 
+2. Na karcie **Ceny ról**. w podsiatce, wybierz pozycję **Nowa cena roli**. 
 3. W okienku **Szybkie tworzenie** wprowadź kombinację roli i jednostka organizacyjnej, dla której konieczne jest skonfigurowanie stawki rozliczenia.
 
    W poniższej tabeli podano pola na karcie **Ogólne** oraz w okienku **Szybkie tworzenie** z wiersza cen z rolami, o których trzeba pamiętać, podczas tworzenia cen ról w cenniku sprzedaży:

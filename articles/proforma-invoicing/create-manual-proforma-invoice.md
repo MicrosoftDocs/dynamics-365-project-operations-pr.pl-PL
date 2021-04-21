@@ -1,42 +1,27 @@
 ---
-title: Tworzenie ręcznej faktury proforma
-description: Ta temat zawiera informacje na temat tworzenia faktury proforma.
+title: Faktury proforma
+description: Ten temat zawiera informacje o fakturach proforma w Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287791"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866874"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Tworzenie ręcznej faktury proforma
+# <a name="proforma-invoices"></a>Faktury proforma
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Fakturowanie zapewnia menedżerom projektów drugi poziom zatwierdzania przed utworzeniem faktur dla klientów. Pierwszy poziom zatwierdzania jest wykonywany, gdy wpisy czasu i wydatku przesłane przez członków zespołu projektu zostaną zatwierdzone.
+Fakturowanie Proforma daje kierownikom projektów drugi poziom zatwierdzenia przed utworzeniem faktur dla klientów. Pierwszy poziom zatwierdzania jest zakończony po zatwierdzeniu czasu, wydatków i pozycji materiałowych przesłanych przez członków zespołu projektowego. Potwierdzone faktury proforma są dostępne w module Księgowanie projektu w Project Operations. Księgowi projektu mogą wykonywać dodatkowe aktualizacje, takie jak podatek od sprzedaży, księgowość i układ faktury.
 
-Rozwiązanie Dynamics 365 Project Operations nie służy do generowania faktur dostępnych dla klienta, z następujących powodów:
-
-- Nie zawiera informacji o podatkach.
-- Nie może dokonać konwersji innych walut na walutę fakturowania przy użyciu poprawnie skonfigurowanych kursów wymiany.
-- Nie może poprawnie formatować faktur, aby mogły zostać wydrukowane.
-
-Zamiast tego system finansowy lub księgowy może służyć do tworzenia faktur dostępnych dla klienta, które korzystają z informacji zawartych w propozycjach wygenerowanych faktur.
 
 ## <a name="creating-project-invoices"></a>Tworzenie faktur projektów
 
@@ -50,7 +35,7 @@ Wykonaj ten krok, aby utworzyć fakturę dla konkretnego kontraktu dotyczącego 
 
 - Na stronie listy **kontrakty projektów** otwórz kontrakt projektu, a następnie wybierz pozycję **Utwórz fakturę**.
 
-    Faktura jest generowana dla wszystkich transakcji w ramach wybranego kontraktu dotyczącego projektu mających status **gotowe do zafakturowania**. Do tych transakcji należą między innymi pozycje czas, wydatki, punkty kontrolne i wiersze kontraktu opartego na produktach.
+    Faktura jest generowana dla wszystkich transakcji w ramach wybranego kontraktu dotyczącego projektu mających status **gotowe do zafakturowania**. Transakcje te obejmują czas, wydatki, materiały, kamienie milowe i inne niezafakturowane wiersze arkusza sprzedaży.
 
 Wykonaj te kroki, aby utworzyć zbiorczo faktury.
 
@@ -60,7 +45,7 @@ Wykonaj te kroki, aby utworzyć zbiorczo faktury.
 
 2. Wybierz **OK**, aby zamknąć okno komunikatu.
 
-    Faktura jest generowana dla wszystkich transakcji w ramach pozycji kontraktu mających status **gotowe do zafakturowania**. Do tych transakcji należą między innymi pozycje czas, wydatki, punkty kontrolne i wiersze kontraktu opartego na produktach.
+    Faktura jest generowana dla wszystkich transakcji w ramach pozycji kontraktu mających status **gotowe do zafakturowania**. Transakcje te obejmują czas, wydatki, materiały, kamienie milowe i inne niezafakturowane wiersze arkusza sprzedaży.
 
 3. Aby wyświetlić wygenerowane faktury, należy przejść do obszaru **Sprzedaż** \> **Rozliczenia** \> **Faktury**. Zobaczysz jedną fakturę dla każdego kontraktu projektu.
 
@@ -93,11 +78,10 @@ Zadanie przetwarzania wsadowego umożliwiającego tworzenie faktur jest zadaniem
  
 ### <a name="edit-a-draft-invoice"></a>Edytuj fakturę roboczą
 
-Podczas tworzenia wersji roboczej faktury projektu wszystkie niezafakturowane transakcje sprzedaży utworzone podczas zatwierdzania wpisów czasu i wydatku są pobierane na fakturę. W czasie, gdy faktura będzie wciąż w etapie roboczym, można wprowadzać następujące zmiany:
+Podczas tworzenia wersji roboczej faktury projektu wszystkie niezafakturowane transakcje sprzedaży, które zostały utworzone, gdy czas, wydatki i wpisy dotyczące zużycia materiałów zostały zatwierdzone, są pobierane na fakturę. W czasie, gdy faktura będzie wciąż w etapie roboczym, można wprowadzać następujące zmiany:
 
 - Usuń lub Edytuj szczegóły wiersza faktury.
 - Edytowanie i korygowanie ilości oraz typu fakturowania.
-- Bezpośrednie dodanie czasu, wydatku i opłaty jako transakcji na fakturze. Z tej funkcji można skorzystać, jeśli wiersz faktury jest mapowany na pozycję kontraktu, która umożliwia korzystanie z tych klas transakcji.
 
 Kliknij przycisk **Potwierdź**, aby potwierdzić fakturę. Akcja Confirm jest akcją jednokierunkową. Po wybraniu opcji **Confirm** system dokona zapisze fakturę jako tylko do odczytu i tworzy wartości rzeczywiste dotyczące sprzedaży z poszczególnych wierszy faktury dla każdego wiersza faktury. Jeśli Szczegóły wiersza faktury odwołują się do wartości rzeczywistej niezafakturowanej sprzedaży, system cofnie również wartość rzeczywistą nienależną sprzedaż. (Wszystkie wiersze faktury utworzone z danego wpisu czasu lub wydatku będą dotyczyć niezafakturowanego poziomu sprzedaży). Systemy integracji księgi głównej umożliwiają wycofanie zmian w toku prac projektów (PWT) na potrzeby księgowania.
 

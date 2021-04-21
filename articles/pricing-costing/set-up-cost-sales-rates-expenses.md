@@ -3,17 +3,17 @@ title: Konfigurowanie kosztów i stawek sprzedaży na potrzeby wydatku
 description: Ten temat zawiera informacje na temat konfigurowania kosztów i stawek sprzedaży dla transakcji i kategorii wydatków.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274921"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877233"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Konfigurowanie kosztów i stawek sprzedaży na potrzeby wydatku
 
@@ -23,9 +23,10 @@ W rozwiązaniu Dynamics 365 Project Operations można skonfigurować ceny koszt�
 
 W celu skonfigurowania kosztów i stawek sprzedaży dla kategorii transakcji wykonaj poniższe kroki. 
 
-1. Utwórz cennik na podstawie nagłówka cennika. 
-2. Na **Ceny kategorii** w menu podsiatce wybierz pozycję **+ Nowa cena kategorii**. 
-3. Na stronie **Szybkie tworzenie** wprowadź kategorię transakcji i jednostkę, dla której jest tworzona nowa cena.
+1. Przejdź do **Sprzedaż** > **Klienci** > **Cenniki**.
+2. Wybierz **Nowy**, aby utworzyć nowy cennik. 
+3. Na **Ceny kategorii** w menu podsiatce wybierz pozycję **Nowa cena kategorii**. 
+4. Na stronie **Szybkie tworzenie** wprowadź kategorię transakcji i jednostkę, dla której jest tworzona nowa cena.
 
 W poniższej tabeli podano pola na karcie **Ogólne** oraz na stronie **Szybkie tworzenie** z wiersza cen z kategoriami, o których trzeba pamiętać, podczas tworzenia cen kategorii w cenniku sprzedaży lub kosztów:
 

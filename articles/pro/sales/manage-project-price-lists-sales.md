@@ -1,27 +1,27 @@
 ---
-title: Zarządzanie cennikami projektu w ofertach projektu - wersja uproszczona
-description: Ta temat zawiera informacje na temat pracy z cennikami projektowymi w ofertach. (Sales)
+title: Zarządzanie cennikami projektu w ofertach projektu
+description: Ta temat zawiera informacje na temat pracy z cennikami projektowymi w ofertach.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273031"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858621"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Zarządzanie cennikami projektu w ofertach projektu - wersja uproszczona
+# <a name="manage-project-price-lists-on-project-quotes"></a>Zarządzanie cennikami projektu w ofertach projektu 
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
 Oferty projektów są zaprojektowane w taki sposób, aby obsługiwały cenniki sprzedaży z wieloma efektywnymi datami. W programie Dynamics 365 Project Operations dodawana jest nowa encja skojarzona o nazwie **Cenniki projektu**. Ta encja ma relację 1-do-wielu z ofertą projektu.
 
-Cenniki projektu są używane do wyceny transakcji dotyczących godzin i kosztów w projekcie. Jeśli oferta zawiera jeden lub więcej cenników projektu, te cenniki są używane do szacowania czasu i wydatków oraz wartości rzeczywistych w projektach skojarzonych z ofertą za pośrednictwem wiersza oferty.
+Cenniki projektu służą do wyceny transakcji dotyczących czasu, materiałów i wydatków w projekcie. Gdy oferta ma co najmniej jeden cennik projektu, cenniki te służą do wyceny czasu, materiałów, szacunków kosztów i wartości rzeczywistych dotyczących projektów, które są skojarzone z ofertą za pośrednictwem wiersza oferty.
 
 W przypadku braku cenników projektu dla oferty zostanie wyświetlony komunikat ostrzegawczy. Wiadomość ta zawiera informację, że z powodu braku cenników projektu, szacunkowa i rzeczywista praca nad projektem i koszty nie będą wyceniane. Zamiast tego będą one miały zerową (0) cenę wartości sprzedaży.
 
