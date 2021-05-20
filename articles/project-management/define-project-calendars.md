@@ -1,9 +1,9 @@
 ---
 title: Definiowanie kalendarzy projektu
-description: Ta temat zawiera informacje na temat korzystania z kalendarza projektu w celu śledzenia jego harmonogramu.
+description: Ten temat zawiera informacje na temat stosowania szablonu kalendarza projektu w celu śledzenia harmonogramu projektu.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286981"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981313"
 ---
 # <a name="define-project-calendars"></a>Definiowanie kalendarzy projektu
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Aby utworzyć harmonogram projektu, należy utworzyć szablon kalendarza projektu, który definiuje liczbę godzin pracy w ciągu dnia i wszystkie dni wolne od pracy. Aby utworzyć szablon kalendarza projektu, należy skojarzyć szablon pracy z polem **Szablon kalendarza** dotyczącym projektu. Aby utworzyć szablon pracy, wykonaj następujące czynności.
+Aby utworzyć projekt i zarządzać nim, należy zastosować do projektu szablon kalendarza. W szablonie kalendarza są następujące atrybuty projektu:
 
-1. W lewym okienku nawigacji wybierz **Zasoby**. 
-2. Na stronie listy **Zasoby** otwórz rekord użytkownika, a następnie wybierz pozycję **Pokaż godziny pracy**.
+- Godziny pracy, w tym godzina rozpoczęcia i zakończenia
+- Dni robocze
+- Wyjątki kalendarzowe, np. dni niepracujące
 
-  > [!NOTE]
-  > Upewnij się, że zezwolono na wyświetlanie wyskakujących okienek na stronie przeglądarki. Dzięki temu będziesz widzieć godzin pracy ustawione dla zasobu.
-  
-3. Na karcie **Widok miesięczny** wybierz **Konfiguracja**. Zostanie wyświetlona lista z trzema opcjami: 
+Szablon kalendarza zastosowany do projektu jest kopią szablonu kalendarza zdefiniowanego w ustawieniach organizacji.
 
-  - Nowy harmonogram tygodniowy
-  - Harmonogram pracy na jeden dzień
-  - Czas wolny
+> [!NOTE]
+> W przypadku zmiany szablonu kalendarza te zmiany nie są przenoszone na godziny pracy projektu. Aby zmienić godziny pracy projektu, należy zastosować nowy szablon.
 
-4. Zaznacz opcję **Nowy harmonogram tygodniowy**, a następnie ustaw opcje dla tego harmonogramu zasobów. Można określić cykliczny harmonogram tygodniowy, dzienne parametry godzinowe, dni wolne od pracy itd.
-5. Ustaw zakres dat, kliknij przycisk **Zapisz**, a następnie wybierz **Zamknij**. 
-6. Wróć do strony listy **Zasoby** i wybierz zasób, dla którego ustawiono godziny pracy. 
-7. W ustawieniu **Ustaw kalendarz jako** określ szablon pracy. 
-8. W oknie dialogowym **Szablon pracy** nadaj nazwę szablonowi pracy, a następnie kliknij przycisk **Zastosuj**. 
+Aby utworzyć szablon kalendarza dla organizacji, należy spełnić dwa najważniejsze wymagania:
+
+- Definiować wymagane godziny pracy szablonu przy użyciu nowego lub istniejącego zasobu, który można zarezerwować.
+- Utworzyć nowy szablon kalendarza i skojarzyć szablon z zasobem, który można zarezerwować.
+
+**Określenie godzin pracy — szablon**
+
+1. Wybierz kolejno opcje **Zasoby** \> **Zasoby**.
+2. Utwórz nowy zasób, do który chcesz się odwoływać w szablonie kalendarza lub wybierz istniejący zasób.
+3. Wybierz kartę **Godziny pracy** zasobu i wykonaj instrukcje z [Ustawianie godzin pracy dla zasobu](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) w celu skonfigurowania reguł kalendarza.
+
+**Utwórz nowy szablon kalendarza**
+
+1. Wybierz kolejno opcje **Ustawienia** \> **Szablon kalendarza**.
+2. Wybierz opcję **Nowy** i wprowadź nazwę, opis i zasób szablonu.
+
+> [!NOTE]
+> Kiedy do zasobu odwołuje się szablon kalendarza, kopia kalendarza zasobu jest skojarzona z szablonem kalendarza. Jeśli godziny pracy skopiowanego szablonu ulegną zmianie, zmiany te nie zostaną przeniesione do szablonu kalendarza.
 
 Szablon pracy można teraz skojarzyć z szablonem kalendarza projektu.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
