@@ -3,18 +3,18 @@ title: Nowości z kwietnia 2021 r. — Project Operations dla zasobów/scenarius
 description: Ten temat zawiera informacje o aktualizacjach dotyczących jakości dostępnych w wydaniu Project Operations z kwietnia 2021 r. dla scenariuszy obejmujących zasoby/niemagazynowanie.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868006"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935487"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nowości z kwietnia 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
 
@@ -33,8 +33,26 @@ To wydanie zawiera następujące funkcje:
   - Kalkulacji i kalkulacji cen materiałów niezabędowych w cyklu sprzedaży projektu. Więcej informacji można znaleźć w: [Konfigurowanie kosztów i stawek sprzedaży dla katalogu produktów — wersja uproszczona](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Śledzenie wykorzystania materiałów niezamagazynowanych podczas realizacji projektu. Aby uzyskać więcej informacji, zobacz [Rejestrowanie użycia materiałów w projektach i zadaniach projektów](../material/material-usage-log.md).
   - Fakturowanie kosztów materiałów niezamagazynowanych. Aby uzyskać więcej informacji, zobacz [Zarządzanie zaległością rozliczenia](../proforma-invoicing/manage-billing-backlog.md).
+  - Aby uzyskać informacje na temat konfigurowania tej funkcji, zobacz [Konfigurowanie materiałów niemagazynowanych i oczekujących faktur od dostawcy](../procurement/configure-materials-nonstocked.md)
 - Fakturowanie oparte na zadaniach: Dodano możliwość kojarzenia zadań projektu z wierszami umowy w sprawie projektu, tym samym poddając je tej samej metodzie rozliczenia, częstotliwości fakturowania i klientom, co w wierszu umowy. To skojarzenie zapewnia dokładne fakturowanie, księgowanie, szacowanie przychodów i uznawanie, aby działały zgodnie z tą konfiguracją w zadaniach projektu.
 - Nowe interfejsy API w Dynamics 365 Dataverse umożliwiają tworzenie, aktualizowanie i usuwanie operacji za pomocą **Encji planowania**. Aby uzyskać więcej informacji, zobacz [Użyj interfejsów API harmonogramu, aby wykonywać operacje na jednostkach planowania](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Project Operations — mapy podwójnego zapisu — aktualizacje
+
+Następująca lista zawiera mapowania podwójnego zapisu, które zostały zmodyfikowane lub dodane w wydaniu Project Operations z kwietnia 2021 roku.
+
+| **Mapowanie encji** | **Wersja zaktualizowana** | **Komentarze** |
+| --- | --- | --- |
+| Wartości rzeczywiste integracji Project Operations (msdyn\_actuals) | 1.0.0.14 | Mapowanie zmodyfikowane w celu zsynchronizowania rzeczywistych wartości projektu materiałów. |
+| Encja integracji Project Operations na potrzeby oszacowania kosztów (msdyn\_estimateslines) | 1.0.0.2 | Dodano synchronizację wiersza kontraktu projektu do aplikacji Finance and Operations w celu do obsługi rozliczeń w oparciu o zadania. |
+| Encja integracji Project Operations na potrzeby oszacowania godzinowego (msdyn\_resourceassignments) | 1.0.0.5 | Dodano synchronizację wiersza kontraktu projektu do aplikacji Finance and Operations w celu do obsługi rozliczeń w oparciu o zadania. |
+| Tabela integracji Project Operations dla szacowania materiałów (msdyn\_estimatelines) | 1.0.0.0 | Nowe mapowanie tabel służące do synchronizowania szacowania materiałów z Dataverse do aplikacji Finance and Operations. |
+| Integracja w Project Operations encji eksportu faktury dostawcy projektu (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nowe mapowanie tabel służące do synchronizowania nagłówków faktur dostawców z aplikacji Finance and Operations do Dataverse. |
+| Integracja w Project Operations encji eksportu wiersza faktury dostawcy projektu (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nowe mapowanie tabel służące do synchronizowania wierszy faktur dostawców z aplikacji Finance and Operations do Dataverse. |
+
+Zawsze należy uruchomić najnowszą wersję mapy w środowisku i włączyć wszystkie mapowania tabel pokrewnych podczas aktualizowania rozwiązania Project Operations Dataverse i wersji rozwiązania Finance and Operations. Niektóre funkcje i możliwości mogą nie działać poprawnie, jeśli najnowsza wersja mapy nie zostanie aktywowana. Aktywną wersję mapy można zobaczyć w kolumnie **Wersja** na stronie **Zapis podwójny**. Aby uaktywnić nową wersję mapy, należy wybrać **Wersję mapowania tabeli**, a następnie zapisać wybraną wersję po wybraniu najnowszej wersji. Jeśli dostosowałeś niestandardową mapę tabeli, będziesz trzeba ponownie zastosować zmiany. Więcej informacji: [Zarządzanie cyklem życia aplikacji](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Jeśli wystąpi problem z uruchomieniem mapy, postępuj zgodnie z instrukcjami w sekcji [Problem brakujących kolumn tabeli na mapach](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) w przewodniku rozwiązywania problemów związanych z podwójnym zapisem.
 
 ## <a name="quality-updates"></a>Aktualizacje dotyczące jakości
 
@@ -67,7 +85,7 @@ To wydanie zawiera następujące funkcje:
 
 | **Obszar funkcji** | **Numer referencyjny** | **Aktualizacja dotycząca jakości** |
 | --- | --- | --- |
-| Zarządzanie projektami i księgowanie | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Szacowanie cykliczne nie działa w obszarze **Okres**.  |
+| Zarządzanie projektami i księgowanie | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Eliminacja szacowania wstecznego nie działa w sekcji **Okresowe**.  |
 | Zarządzanie projektami i księgowanie | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | Funkcja **Korekta księgowa** powoduje problem z kontami księgi, dla których nie wybrano opcji **Nie zezwalaj na ręczne wprowadzanie**. |
 | Zarządzanie projektami i księgowanie | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Dodano logikę biznesową do przetwarzania faktur korygujących, w tym kwoty zaliczki lub zastosowanej kwoty zaliczki. |
 | Zarządzanie projektami i księgowanie | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | Księgowanie PWT wartości sprzedaży podczas międzyfirmowego fakturowania projektu wybiera nieoczekiwane konto. |

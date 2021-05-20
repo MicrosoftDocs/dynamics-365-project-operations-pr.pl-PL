@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287251"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948343"
 ---
 # <a name="integration-journal-in-project-operations"></a>Arkusz integracji w aplikacji Project Operations
 
@@ -38,7 +38,7 @@ Wiersze dziennika z grupami systemowymi jako oddzielne dzienniki na podstawie wa
 Wiersze arkusza są tworzone na podstawie wartości rzeczywistych projektu. Poniższa lista zawiera niektóre z bardziej istotnych reguł domyślnych i transformacji:
 
   - Każda transakcja rzeczywista projektu zawiera wiersz w arkuszu integracji Project Operations. Koszty i niezafakturowane transakcje sprzedaży na potrzeby fakturowania typu czas i materiały są przedstawione w oddzielnych wierszach.
-  - Pole **Data** reprezentuje datę transakcji. Pole **Data księgowania** jest datą, kiedy transakcja jest rejestrowana w księdze głównej. Jeśli data księgowania znajduje się w [zamkniętym okresie finansowym](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), a dla parametru jest **Automatycznie ustawiana Data księgowania otwarta okresu księgi**, na karcie **Finanse** na stronie **Parametry zarządzania i księgowania projektów** system skoryguje datę księgowania transakcji na pierwszą datę w następnym otwartym okresie finansowym.
+  - Pole **Data** reprezentuje datę transakcji. Pole **Data księgowania** jest datą, kiedy transakcja jest rejestrowana w księdze głównej. Jeśli data księgowania znajduje się w [zamkniętym okresie finansowym](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), a dla parametru jest **Automatycznie ustawiana Data księgowania otwarta okresu księgi**, na karcie **Finanse** na stronie **Parametry zarządzania i księgowania projektów** system skoryguje datę księgowania transakcji na pierwszą datę w następnym otwartym okresie finansowym.
   - Pole **Załącznik** zawiera numer załącznika dla każdej transakcji rzeczywistej. Seria numerów załączników jest definiowana na karcie **Sekwencje numerów** na stronie **Parametry zarządzania projektami i parametrów księgowania**. Każdemu wierszowi przypisano nowy numer. Po zaksięgowaniu załącznika można sprawdzić, jak koszty i niezafakturowane transakcje sprzedaży są z nimi powiązane, wybierając **Pokrewne załączniki** na stronie **Transakcji załączników**.
   - Pole **Kategoria** reprezentuje transakcję projektu i wartości domyślne na podstawie kategorii transakcji dla pokrewnej wartości rzeczywistej projektu.
     - Jeśli **Kategoria transakcji** została ustawiona w wartości rzeczywistej projektu, a w danej firmie istnieje pokrewna **Kategoria projektu**, kategorią domyślną jest ta kategoria projektu.

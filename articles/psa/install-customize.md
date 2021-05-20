@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284326"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947937"
 ---
 # <a name="install-and-customize-project-service"></a>Zainstaluj i dostosuj (Project Service)
 
@@ -34,20 +34,20 @@ Możliwości [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-a
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Zainstaluj Project Service  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] jest rozwiązaniem preferowanym. Istnieje kilka sposobów zakupienia rozwiązania. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Wprowadzenie dla organizacji i użytkowników](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] jest rozwiązaniem preferowanym. Istnieje kilka sposobów zakupienia rozwiązania. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Wprowadzenie dla organizacji i użytkowników](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>Dostosuj formularze i raporty [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]  
  Jeśli chcesz dostosować dowolne formularze, pulpity nawigacyjne lub raporty [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], więcej informacji znajdziesz w następujących łączach:  
   
-- [Wprowadzenie do tworzenia aplikacji i dostosowywania](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [Wprowadzenie do tworzenia aplikacji i dostosowywania](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Tworzenie i projektowanie formularzy](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [Tworzenie i projektowanie formularzy](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Tworzenie i edytowanie pulpitów nawigacyjnych](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [Tworzenie i edytowanie pulpitów nawigacyjnych](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [Tworzenie i edytowanie procesów](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [Tworzenie i edytowanie procesów](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Wprowadzenie do raportowania i analizy](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Wprowadzenie do raportowania i analizy](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>Zobacz także  
  [Podręcznik administratora](../psa/admin-guide.md)   

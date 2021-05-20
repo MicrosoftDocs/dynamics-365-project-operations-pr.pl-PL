@@ -3,17 +3,17 @@ title: Tworzenie transakcji międzyfirmowych
 description: W tym temacie przedstawiono informacje dotyczące sposobu tworzenia transakcji międzyfirmowych.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287431"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880461"
 ---
 # <a name="create-intercompany-transactions"></a>Tworzenie transakcji międzyfirmowych
 
@@ -62,7 +62,7 @@ Molly Clark zatrudniona jako deweloper w firmie GBPM rejestruje 10 godzin pracy 
     4. Ustaw walutę na **USD**.
     5. Zapisz rekord.
 3. Wybierz kolejno **Sprzedaż** > **Kontrakty projektu** i utwórz nowy kontrakt dotyczący firmy Adventure Works.
-    1. Ustaw firmę będącą właścicielem na **USPM**, a jednostkę kontraktującą na **Contoso Robotics US**.
+    1. Ustaw firmę, która jest właścicielem na **USPM**, a jednostkę kontraktującą na **Contoso Robotics US**.
     2. Wybierz opcję Adventure Works jako klienta.
     3. Wybierz cennik produktów i zapisz rekord.
     4. Na karcie **Pozycje kontraktu** utwórz nową pozycję kontraktu. Ustaw dowolną nazwę i wybierz pozycję **Czas i materiały** jako metodę rozliczania.
@@ -94,7 +94,7 @@ Molly Clark zatrudniona jako deweloper w firmie GBPM rejestruje 10 godzin pracy 
     Ta niezafakturowana sprzedaż jest już gotowa do fakturowania. Faktura dla klienta firmy Adventure Works może być księgowana finansowo, gdy okaże się to potrzebne.
 
 10. Zaloguj się jako osoba zajmującą się księgowością w **GBPM**. Otwórz wystąpienie Project Operations w aplikacji Finance i otwórz firmę **GBPM**. 
-11. Przejdź do obszaru **Zarządzanie projektami i księgowanie** > **Okresowe** > **Project Operations w aplikacji Customer Engagement** > **Importowanie z przemieszczania** i wybierz opcję uruchomienia procesu okresowego, aby wypełnić arkusz integracji Project Operations.
+11. Przejdź do strony **Zarządzanie projektami i rozliczeniami** > **Okresowe** > **Integracja Project Operations** > **Importowanie z tabeli przemieszczania** i uruchom proces okresowy w celu wypełnienia dziennika integracji Project Operations.
 12. Przejdź do pozycji **Zarządzanie projektami i księgowanie** > **Arkusze** > **Arkusz integracji Project Operations** i przejrzyj wiersze. W systemie są tworzone następujące wiersze.
 
     | **Typ transakcji** | **Cena** | **Waluta transakcji** | **Kwota** |

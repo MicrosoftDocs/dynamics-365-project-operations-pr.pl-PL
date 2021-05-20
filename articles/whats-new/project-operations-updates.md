@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5a1ab3b506ae94bba3a6ca96b164437d3fd3a035
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877548"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948252"
 ---
 # <a name="project-operations-updates"></a>Aktualizacje aplikacji Project Operations
 
@@ -49,23 +49,23 @@ Aktualizacje dotyczące Project Operations w środowisku Dataverse są dostępne
 | Stacja   | Region        | Bieżąca wersja | Następna wersja | Ogólnie dostępne |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Stacja 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Pierwsze wydanie |  4.9.0.221       | Do ustalenia     | 23-Kwi-21           |
+|   &nbsp;  | Pierwsze wydanie |  4.9.0.221       | Do ustalenia     | 30-Kwi-21           |
 | Stacja 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Ameryka Południowa |  4.9.0.221       | Do ustalenia     | 23-Kwi-21           |
-|    &nbsp; | Kanada        |  4.9.0.221       | Do ustalenia     | 23-Kwi-21           |
-|   &nbsp;  | Indie         |  4.9.0.221       | Do ustalenia     | 23-Kwi-21           |
-|   &nbsp;  | Francja         |  4.9.0.221       | Do ustalenia     | 23-Kwi-21           |
-|   &nbsp;  | Zjednoczone Emiraty Arabskie         |  4.9.0.221       | Do ustalenia     | 23-Kwi-21           |
-|   &nbsp;  | Republika Południowej Afryki         |  4.9.0.221       | Do ustalenia     | 23-Kwi-21           |
+|   &nbsp;  | Ameryka Południowa |  4.9.0.221       | Do ustalenia     | 30-Kwi-21           |
+|    &nbsp; | Kanada        |  4.9.0.221       | Do ustalenia     | 30-Kwi-21           |
+|   &nbsp;  | Indie         |  4.9.0.221       | Do ustalenia     | 30-Kwi-21           |
+|   &nbsp;  | Francja         |  4.9.0.221       | Do ustalenia     | 30-Kwi-21           |
+|   &nbsp;  | Zjednoczone Emiraty Arabskie         |  4.9.0.221       | Do ustalenia     | 30-Kwi-21           |
+|   &nbsp;  | Republika Południowej Afryki         |  4.9.0.221       | Do ustalenia     | 30-Kwi-21           |
 | Stacja 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japonia         |  4.9.0.221       | Do ustalenia     | 30-Kwi-21           |
-|   &nbsp;  | Azja i Pacyfik  |  4.9.0.221       | Do ustalenia     | 30-Kwi-21           |
-|   &nbsp;  | Wielka Brytania |  4.9.0.221       | Do ustalenia     | 30-Kwi-21           |
-|   &nbsp;  | Oceania       |  4.9.0.221       | Do ustalenia     | 30-Kwi-21           |
+|   &nbsp;  | Japonia         |  4.9.0.221       | Do ustalenia     | 7 maja 2021 r.           |
+|   &nbsp;  | Azja i Pacyfik  |  4.9.0.221       | Do ustalenia     | 7 maja 2021 r.           |
+|   &nbsp;  | Wielka Brytania |  4.9.0.221       | Do ustalenia     | 7 maja 2021 r.           |
+|   &nbsp;  | Oceania       |  4.9.0.221       | Do ustalenia     | 7 maja 2021 r.           |
 | Stacja 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europa        |  4.8.0.92       | 4.9.0.221     | 16 kwietnia 2021 r.           |
+|   &nbsp;  | Europa        |  4.9.0.221       | Do ustalenia     | 14 maja 2021 r.           |
 | Stacja 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Ameryka Północna |  4.8.0.92       | 4.9.0.221     | 23-Kwi-21           |
+|   &nbsp;  | Ameryka Północna |  4.9.0.221       | Do ustalenia     | 21 maja 2021 r.           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Harmonogram wydawniczy na potrzeby zarządzania projektami i księgowania w środowisku aplikacji Finance and Operations
 
@@ -73,15 +73,15 @@ Aktualizacje dotyczące zarządzania projektami i ich księgowania są wydawane 
 
 | Obsługiwane wydanie | Ogólnie dostępne (Samoaktualizacja) |
 | --- | --- |
+| 10.0.18 | 16 kwietnia 2021 |
 | 10.0.17 | 19 marca 2021 |
 | 10.0.16 | 22 stycznia 2021 |
 
 
-Docelowe daty wersji mogą ulec zmianie. Więcej informacji można znaleźć w artykule [Dostępność aktualizacji usługi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
+Docelowe daty wersji mogą ulec zmianie. Więcej informacji można znaleźć w artykule [Dostępność aktualizacji usługi](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 | Docelowa data premiery | Ogólnie dostępne (samoaktualizacja) |
 | --- | --- |
-| 10.0.18 | 16 kwietnia 2021 |
 | 10.0.19 | 18 czerwca 2021 roku |
 | 10.0.20 | 16 lipca 2021 roku |
 

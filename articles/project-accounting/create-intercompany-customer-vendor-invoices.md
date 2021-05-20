@@ -3,17 +3,17 @@ title: Tworzenie faktur międzyfirmowych dla klienta i dostawcy
 description: W tym temacie przedstawiono informacje dotyczące sposobu tworzenia faktur międzyfirmowych dla klienta i dostawcy.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287476"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948408"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Tworzenie faktur międzyfirmowych dla klienta i dostawcy
 
@@ -25,7 +25,9 @@ Osoba zajmująca się księgowaniem projektu w firmie wypożyczającej może sko
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Ręczne tworzenie faktury międzyfirmowej dla klienta na potrzeby transakcji projektu 
 
-Ta procedura służy do ręcznego tworzenia faktury międzyfirmowej dla klienta na potrzeby transakcji projektu. Wyszukaj godziny zaksięgowane przez pracowników w ramach projektów w firmach pożyczających oraz wydatki poniesione przez firmy wypożyczające w imieniu firm wypożyczających. Wyszukiwanie może być przeprowadzone według nazwy firmy, numeru kontraktu projektu, numeru projektu, zakresu dat lub dowolnej kombinacji tych opcji. W wynikach wyszukiwania wybierz transakcje, które mają zostać dodane do faktury międzyfirmowej.
+Ta procedura służy do ręcznego tworzenia faktury międzyfirmowej dla klienta na potrzeby transakcji projektu. Wyszukaj godziny zaksięgowane przez pracowników w ramach projektów w firmach pożyczających oraz wydatki poniesione przez firmy wypożyczające w imieniu firm wypożyczających. Wyszukiwanie może być przeprowadzone według nazwy firmy, numeru kontraktu projektu, numeru projektu, zakresu dat lub dowolnej kombinacji tych opcji. W wynikach wyszukiwania wybierz transakcje, które mają zostać dodane do faktury międzyfirmowej. 
+
+Następujące czynności muszą być wykonane w podmiocie prawnym udzielającym pożyczki. 
 
 1. W rozwiązaniu Dynamics 365 Finance wybierz kolejno pozycje **Zarządzanie projektami i księgowość** > **Faktury projektu** > **Międzyfirmowe faktury dla odbiorcy**. Na stronie listy **Międzyfirmowe faktury dla odbiorcy** w okienku akcji wybierz pozycję **Nowy**.
 2. Na stronie **Tworzenie faktury międzyfirmowej** w polu **Firma** wybierz firmę pożyczającą.
@@ -35,9 +37,9 @@ Ta procedura służy do ręcznego tworzenia faktury międzyfirmowej dla klienta 
 6. W wynikach wyszukiwania wybierz transakcje, które mają zostać uwzględnione w propozycji faktury międzyfirmowej, a następnie kliknij przycisk **OK**.
 7. Na stronie **międzyfirmowy fakturze dla odbiorcy** zostaną wyświetlone transakcje międzyfirmowe dotyczące projektu, które wybrano z wyników wyszukiwania. W celu zmodyfikowania transakcji przed wysłaniem faktury do firmy pożyczającej należy wykonać następujące czynności:
   
-    1. Otwórz stronę **Tworzenie propozycji faktury**. Wybierz dodatkowe transakcje międzyfirmowe dla bieżącej faktury, a następnie wybierz opcję **Dodaj wiersz**.
+    1. Na stronie **Faktura dla klienta międzyfirmowego** otwórz szczegóły faktury, a następnie wybierz opcję **Dodaj wiersz**.
     2. Aby usunąć wiersz, wybierz go, a następnie wybierz pozycję **Usuń**.
-    3. Przejrzyj komentarze, przyczyny, wymiary finansowe i inne informacji o wybranym wierszu na skróconej karcie **Wiersze faktury**.
+    3. Wyświetlanie komentarzy, przyczyn, rozmiarów finansowych i innych informacji o wybranym wierszu faktury.
     
 8. Aby zaksięgować międzyfirmową fakturę dla klienta, w okienku akcji wybierz pozycję **Księguj**.
 
@@ -52,7 +54,7 @@ W tym samym czasie można utworzyć wiele faktur międzyfirmowych dla wszystkich
 2. Na stronie **Tworzenie międzyfirmowej faktury dla odbiorcy** w polu **Firma** wybierz firmę wypożyczającą do zafakturowania. Jeśli nie zostanie wybrana żadna firma, wszystkie transakcje spełniające kryteria wyszukiwania zostaną wyświetlone dla wszystkich firm pożyczających.
 3. W obszarze **Tworzenie jednej faktury na** wybierz, czy faktura dla transakcji międzyfirmowych ma zostać utworzona na podstawie projektu, czy w oparciu o firmę pożyczającą.
 4. Opcjonalnie: aby wybrać konkretny projekt i kontrakt dotyczący projektu, dla którego chcesz utworzyć faktury międzyfirmowe, kliknij opcję **Wybierz**. Na stronie **Zapytanie** w polu **Kryteria** wybierz kontrakt projektu, numer projektu lub oba te elementy, a następnie kliknij przycisk **OK**.
-5. Na karcie **Partia** skonfiguruj proces przetwarzania wsadowego w celu tworzenia cyklicznych faktur międzyfirmowych. Aby uzyskać więcej informacji, zobacz artykuł [Przesyłanie zadania przetwarzania wsadowego z formularza](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. Na karcie **Partia** skonfiguruj proces przetwarzania wsadowego w celu tworzenia cyklicznych faktur międzyfirmowych. Aby uzyskać więcej informacji, zobacz artykuł [Przesyłanie zadania przetwarzania wsadowego z formularza](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Aby księgować faktury międzyfirmowe, w okienku akcji wybierz pozycję **Księguj**.
 
 > [!NOTE]
