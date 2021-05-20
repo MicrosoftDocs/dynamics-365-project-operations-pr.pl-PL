@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279466"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949962"
 ---
 # <a name="resource-management-modes-overview"></a>Omówienie trybów zarządzania zasobami
 
@@ -29,11 +29,11 @@ W przypadku organizacji, w których scentralizowano alokację zasobów do projek
 
 Aby zarządzać zasobami w trybie Centralnym, zobacz:
 
-- [Przypisywanie ogólnego zasobu możliwego do zarezerwowania do zadania i generowanie wymagań zasobów](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Rezerwowanie nazwanych zasobów z poziomu wymagań zasobów](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Przesyłanie żądania zasobów](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Realizowanie żądania zasobów](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Akceptowanie lub odrzucanie proponowanego zasobu projektu z poziomu żądania zasobu](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Przypisywanie ogólnego zasobu możliwego do zarezerwowania do zadania i generowanie wymagań zasobów](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Rezerwowanie nazwanych zasobów z poziomu wymagań zasobów](/dynamics365/project-service/book-named-resource)
+- [Przesyłanie żądania zasobów](/dynamics365/project-service/submit-resource-request)
+- [Realizowanie żądania zasobów](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Akceptowanie lub odrzucanie proponowanego zasobu projektu z poziomu żądania zasobu](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Tryb hybrydowy
 W organizacjach, które potrzebują elastyczności w zakresie alokacji zasobów, tryb hybrydowy umożliwia menedżerom projektów i menedżerom zasobów możliwość tworzenia rezerwacji zasobów.
@@ -43,11 +43,11 @@ W organizacjach, które potrzebują elastyczności w zakresie alokacji zasobów,
 Poza obsługiwanym procesem w trybie centralnym można także skorzystać z następujących tematów, aby zarządzać wszystkimi innymi obsługiwanymi przepływami rezerwacji w trybie hybrydowym:
 
 Rezerwacja zasobu bezpośrednio do projektu:
-- [Rezerwowanie nazwanych zasobów możliwych do zarezerwowania dla zespołu projektu i przypisywanie zadań](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Rezerwowanie nazwanych zasobów możliwych do zarezerwowania dla zespołu projektu i przypisywanie zadań](/dynamics365/project-service/assign-named-bookable-resource)
 
 Rezerwowanie zasobów z poziomu wymagań zasobów:
-- [Przypisywanie ogólnego zasobu możliwego do zarezerwowania do zadania i generowanie wymagań zasobów](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Rezerwowanie nazwanych zasobów z poziomu wymagań zasobów](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Przypisywanie ogólnego zasobu możliwego do zarezerwowania do zadania i generowanie wymagań zasobów](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Rezerwowanie nazwanych zasobów z poziomu wymagań zasobów](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

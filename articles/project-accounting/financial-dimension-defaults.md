@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: eec85b83cad4cd8fb6e0ec9c026c6a571bccf7f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287386"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950142"
 ---
 # <a name="financial-dimension-defaults"></a>Wartości domyślne wymiaru finansowego
 
@@ -21,7 +21,7 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Aplikacja Dynamics 365 Project Operations używa struktury [wymiarów finansowych](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) w aplikacji Dynamics 365 Finance w celu uzyskiwania dodatkowych informacji na temat ksiąg i transakcji księgi głównej projektu.
+Aplikacja Dynamics 365 Project Operations używa struktury [wymiarów finansowych](/dynamics365/finance/general-ledger/financial-dimensions) w aplikacji Dynamics 365 Finance w celu uzyskiwania dodatkowych informacji na temat ksiąg i transakcji księgi głównej projektu.
 
 W przypadku klienta, źródła finansowania projektu, punktu kontrolnego, pozycji kontraktu projektu lub projektu można ustawić domyślne wymiary finansowe.
 

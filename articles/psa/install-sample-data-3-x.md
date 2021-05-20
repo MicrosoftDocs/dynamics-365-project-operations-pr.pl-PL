@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275101"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950592"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalowanie danych przykładowych dla aplikacji Project Service
 
@@ -149,7 +149,7 @@ Pakiet danych demonstracyjnych wymaga sześciu użytkowników. Aby pakiet zosta�
 
 5. Kalendarz pierwszego użytkownika (w znaczniku **userstocreateandconfigure**) jest używany do wypełnienia godzin pracy dla wszystkich zasobów, które można zarezerwować przy importowaniu danych demonstracyjnych. Przejdź do **Ustawienia** > **Zabezpieczenia** > **Użytkownicy**, znajdź użytkownika "Spencer Low" i otwórz opcję "Godziny pracy". Edytuj istniejące godziny pracy, wybierając opcję **Cały cykliczny harmonogram tygodniowy - od początku do końca**. Zapewnij **Godziny pracy są ustawione na 8:00 - 17:00 (9 godzin), od poniedziałku do piątku dla strefy czasowej ustawionej na czas pacyficzny (Stany Zjednoczone i Kanada)**. Jest to niezbędne do zapewnienia, że tablice Projekt i Harmonogram prezentują dane zgodne z oczekiwaniami.
 
-**Rekomendacja:** Rozważ utworzenie kopii zapasowej organizacji teraz, na wypadek wystąpienia konieczność powrotu do punktu początkowego, jeśli wystąpią problemy podczas na instalowania danych przykładowych. Aby uzyskać więcej informacji, zobacz [Kopia zapasowa i przywracanie wystąpień](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Rekomendacja:** Rozważ utworzenie kopii zapasowej organizacji teraz, na wypadek wystąpienia konieczność powrotu do punktu początkowego, jeśli wystąpią problemy podczas na instalowania danych przykładowych. Aby uzyskać więcej informacji, zobacz [Kopia zapasowa i przywracanie wystąpień](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Uruchom Package Deployer
 

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282661"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951447"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Planuj zasoby dla projektu (Project Service)
 
@@ -35,7 +35,7 @@ Możesz sprawdzić dostępność zasobów, aby uzyskać ogólny pogląd stopnia 
   
 Tablica harmonogramu zawiera listę zasobów i ich dostępności. Wybierz tryb wyświetlania dostępności dla **Godziny**, **Dzień**, **Tydzień**, lub **Miesiąc**.  
   
-Przed skorzystaniem z tablicy harmonogramu, należy ją skonfigurować. Aby uzyskać więcej informacji, zobacz [Konfiguruj tablicę harmonogramu (Field Service lub Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Przed skorzystaniem z tablicy harmonogramu, należy ją skonfigurować. Aby uzyskać więcej informacji, zobacz [Konfiguruj tablicę harmonogramu (Field Service lub Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Jeśli używasz starszej wersji, dla dostępności zasobów sprawdź [Przeglądanie dostępności zasobów](../psa/view-resource-availability.md).  
 

@@ -3,17 +3,17 @@ title: Zarządzanie propozycjami faktur projektu
 description: Ten temat zawiera szczegółowe informacje na temat przetwarzania faktur wystawianych dla klientów za pomocą Project Operations dla scenariuszy opartych na zasobach / braku zapasów.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275866"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950727"
 ---
 # <a name="manage-project-invoice-proposals"></a>Zarządzanie propozycjami faktur projektu
 
@@ -80,7 +80,8 @@ Wartości **Grupa podatków** i **Grupa podatku towaru** są domyślnie ustawion
     - **Klient** zawsze będzie domyślną grupą podatku fakturowania dla klienta.
     - **Wyszukiwanie**:przeszuka wszystkie powyższe encje na tej liście i wybierz pierwszą dostępną wartość. Wyszukiwanie rozpoczyna się od encji **Projekt**, encji **Kontrakt projektu** oraz encji **Klient**.
 
-- **Grupa podatku produktu o stałej cenie punktów kontrolnych** jest używana, aby domyślna wartość pola wynosiła **Grupa podatku towaru do rozliczania**.
+- **Grupa podatku od sprzedaży — Pozycja etapu o stałej cenie** jest używana jako wartość domyślna w polu **Grupa podatku od sprzedaży** dla punktu kontrolnego rozliczenia. Księgowy może przejrzeć i zmodyfikować tę wartość na stronie **Transakcje na rachunku**. Podczas tworzenia wiersza propozycji sprzedaży na fakturze projektu system używa wartości z transakcji konta.
+ 
 
 ### <a name="financial-dimensions"></a>Wymiary finansowe
 
@@ -132,7 +133,7 @@ Strona **Formatowanie ofert faktur** umożliwia wyświetlanie niestandardowych t
 
 Zarządzanie drukowaniem wykorzystuje różne pliki raportów do drukowania, określania miejsc docelowych i dostosowywania tekstu stopki faktury. Zarządzanie drukowaniem można skonfigurować na poziomie modułu, jednak ustawienia te można zastąpić dla konkretnego klienta, umowy lub propozycji faktury. Aby uzyskać dostęp do tej funkcji na stronie **Propozycji fakturowania projektu**, wybierz **Drukuj** > **Zarządzanie drukowaniem**.
 
-Konfiguracja zarządzania drukowaniem jest wyświetlana jako widok drzewa, w którym na każdym poziomie węzła są wyświetlane dokumenty dostępne do dostosowania. Możesz przypisać niestandardowe wydruki na poziomie modułu, klienta, umowy lub dokumentu propozycji faktury. Aby zmodyfikować wydruk oryginalnego dokumentu, rozwiń żądany węzeł i wybierz **Oryginalny element**. W polu **Format raportu** wybierz format raportu, który ma być używany do drukowania. Możesz użyć niestandardowych formatów raportów, używając [struktury zarządzania dokumentami biznesowymi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Konfiguracja zarządzania drukowaniem jest wyświetlana jako widok drzewa, w którym na każdym poziomie węzła są wyświetlane dokumenty dostępne do dostosowania. Możesz przypisać niestandardowe wydruki na poziomie modułu, klienta, umowy lub dokumentu propozycji faktury. Aby zmodyfikować wydruk oryginalnego dokumentu, rozwiń żądany węzeł i wybierz **Oryginalny element**. W polu **Format raportu** wybierz format raportu, który ma być używany do drukowania. Możesz użyć niestandardowych formatów raportów, używając [struktury zarządzania dokumentami biznesowymi](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Księgowanie propozycji faktur
 
