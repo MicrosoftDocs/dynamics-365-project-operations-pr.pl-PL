@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Co nowego
       items:
+        - name: Maj 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: Kwiecień 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Marzec 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
@@ -372,8 +374,10 @@
               href: expense/configure-expense-management-parameters.md
             - name: Konfigurowanie integracji z kartą kredytową
               href: expense/set-up-credit-card-integration.md
-            - name: Ustawianie kategorii wydatków
+            - name: Konfigurowanie kategorii wydatków
               href: expense/set-up-expense-categories.md
+            - name: Konfigurowanie przebiegu używającego warstw współczynnika przebiegu
+              href: expense/set-up-mileage.md
         - name: Wydatki osobiste
           href: expense/personal-expenses-expense-report.md
         - name: Wydatki międzyfirmowe
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Co nowego
       items:
+        - name: Co nowego w maju 2021 r. — wdrażanie wersji uproszczonej
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Co nowego w kwietniu 2021 r. — wdrażanie wersji uproszczonej
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Co nowego w marcu 2021 r. — wdrażanie wersji uproszczonej
@@ -992,7 +998,7 @@
           href: expense/configure-expense-management-parameters.md
         - name: Konfigurowanie integracji z kartą kredytową
           href: expense/set-up-credit-card-integration.md
-        - name: Ustawianie kategorii wydatków
+        - name: Konfigurowanie kategorii wydatków
           href: expense/set-up-expense-categories.md
     - name: Wydatki osobiste
       href: expense/personal-expenses-expense-report.md
@@ -1028,6 +1034,8 @@
       items:
         - name: Harmonogram wydań aktualizacji dla rozwiązania Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 30, V3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Dostosowywanie wpisu czasu tygodniowego
               href: psa/time-entry-extensibility-v3.md
+            - name: Zestawy zatwierdzenia
+              href: psa/approval-set.md
     - name: Często zadawane pytania i rozwiązywanie problemów (3.x)
       items:
         - name: Dlaczego cena domyślnie jest równa zero w wartościach rzeczywistych kosztu wydatków?
