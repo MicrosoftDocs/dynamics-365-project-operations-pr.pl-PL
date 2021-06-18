@@ -2,19 +2,17 @@
 title: Konfigurowanie materiałów niemagazynowanych i oczekujących faktur od dostawcy
 description: W tym temacie wyjaśniono, jak włączyć obsługę materiałów niebędących na stanie magazynowym i oczekujących na faktury dostawcy.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880673"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993924"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurowanie materiałów niemagazynowanych i oczekujących faktur od dostawcy
 
@@ -61,11 +59,11 @@ Jeśli korzystasz ze standardowych danych demonstracyjnych, podczas początkowej
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktywowanie przepływu pracy w celu utworzenia kont na podstawie encji dostawcy
 
-Rozwiązanie Aranżacji podwójnego zapisu zapewnia [Integracja główną dostawców](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Warunkiem działania tej funkcji jest utworzenie danych sprzedawcy w encji **Konta**. Aktywuj proces przepływu pracy szablonu, aby utworzyć dostawców w tabeli **Konta** w sposób opisany w temacie [Przełączanie się pomiędzy projektami dostawców](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Rozwiązanie Aranżacji podwójnego zapisu zapewnia [Integracja główną dostawców](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Warunkiem działania tej funkcji jest utworzenie danych sprzedawcy w encji **Konta**. Aktywuj proces przepływu pracy szablonu, aby utworzyć dostawców w tabeli **Konta** w sposób opisany w temacie [Przełączanie się pomiędzy projektami dostawców](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Ustawianie produktów, które mają być utworzone jako aktywne
 
-Materiały nie magazynowane muszą być skonfigurowane jako **Produkty wydane** w programie Finance. Rozwiązanie Aranżacji podwójnego zapisu daje gotową opcję [integracji wydanych produktów z katalogiem produktów Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Domyślnie produkty z programu Finance są synchronizowane z Dataverse w stanie roboczym. Aby zsynchronizować produkt ze stanem aktywnym, który może być bezpośrednio używany w dokumentach użycia materiałów lub oczekujących fakturach od dostawcy, przejdź do menu **System** > **Administracja** > **Administracja systemu** > **Ustawienia systemowe** i na karcie **Sprzedaż** ustaw opcję **Tworzenie produktów w stanie aktywnym** na **Tak**.
+Materiały nie magazynowane muszą być skonfigurowane jako **Produkty wydane** w programie Finance. Rozwiązanie Aranżacji podwójnego zapisu daje gotową opcję [integracji wydanych produktów z katalogiem produktów Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Domyślnie produkty z programu Finance są synchronizowane z Dataverse w stanie roboczym. Aby zsynchronizować produkt ze stanem aktywnym, który może być bezpośrednio używany w dokumentach użycia materiałów lub oczekujących fakturach od dostawcy, przejdź do menu **System** > **Administracja** > **Administracja systemu** > **Ustawienia systemowe** i na karcie **Sprzedaż** ustaw opcję **Tworzenie produktów w stanie aktywnym** na **Tak**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Konfigurowanie wymagań wstępnych w Finance
 

@@ -2,18 +2,16 @@
 title: Konfigurowanie kategorii projektów
 description: Ten temat zawiera informacje o ustawianiu kategorii projektów.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287521"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995184"
 ---
 # <a name="configure-project-categories"></a>Konfigurowanie kategorii projektów
 
@@ -29,7 +27,7 @@ Kategorie transakcji są podstawowymi grupami transakcji projektów. W ramach te
 
 ## <a name="transaction-categories"></a>Kategorie transakcji
 
-Kategorie transakcji reprezentują podstawowe pogrupowanie transakcji projektu. Nie są specyficzne dla firmy lub typu transakcji. Na przykład firma Contoso Robotics używa kategorii „projektowanie”, „podróże”, „instalacja” i „transakcja usług” do grupowania transakcji projektów.
+Kategorie transakcji reprezentują podstawowe pogrupowanie transakcji projektu. Nie są specyficzne dla firmy lub typu transakcji. Na przykład firma Contoso Robotics używa kategorii Projektowanie, podróż, instalacja i transakcja serwisowa do grupowania transakcji związanych z projektem.
 
 Kategorie transakcji są definiowane w module Project Operations. 
 1. Przejdź do **Ustawienia** \> **Kategorie transakcji**, aby otworzyć formularz. 

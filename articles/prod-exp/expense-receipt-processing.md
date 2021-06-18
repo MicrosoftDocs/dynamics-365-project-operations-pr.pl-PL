@@ -2,11 +2,9 @@
 title: Przetwarzanie paragonów związanych z wydatkami
 description: W tym temat przedstawiono informacje na temat przetwarzania paragonów za pomocą technologii OCR. Ta funkcja ma na celu usprawnienie pracy użytkownika podczas tworzenia raportów o wydatkach w Microsoft Dynamics 365 Finance.
 author: stsporen
-manager: AnnBe
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 57ef67412eb3c5795559e4f6d011e97c4d7a1338
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ed9c97ba9cc505106599c2896dc2112358d0c408
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271816"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993519"
 ---
 # <a name="expense-receipt-processing"></a>Przetwarzanie paragonów związanych z wydatkami
 
