@@ -2,8 +2,6 @@
 title: Nowości i zmiany w aplikacji Project Service Automation, wydanie 24, wer. 3
 description: W tym temacie przedstawiono funkcje i poprawki, które są dostępne w programie Project Service Automation, aktualizacja 24, wer. 3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,69 +15,69 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 956dcd2a06fad1eec488ad81bec2de4bd0550e82
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: c95a9dcada4fbf6c462df29d450aaafab4e73aa5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948928"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000269"
 ---
-# <a name="project-service-automation-update-release-24-v3"></a><span data-ttu-id="d6f99-103">Project Service Automation, wydanie 24, wer. 3</span><span class="sxs-lookup"><span data-stu-id="d6f99-103">Project Service Automation Update Release 24, V3</span></span>
+# <a name="project-service-automation-update-release-24-v3"></a><span data-ttu-id="7592f-103">Project Service Automation, wydanie 24, wer. 3</span><span class="sxs-lookup"><span data-stu-id="7592f-103">Project Service Automation Update Release 24, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="d6f99-104">Mamy przyjemność ogłosić najnowszą aktualizację aplikacji Project Service Automation dla Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="d6f99-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="d6f99-105">To wydanie obejmuje znaczną poprawę jakości, wydajności i użyteczności.</span><span class="sxs-lookup"><span data-stu-id="d6f99-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="d6f99-106">To wydanie jest zgodne z systemem Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="d6f99-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="d6f99-107">Aby zaktualizować do tej wersji, odwiedź centrum administracyjne Dynamics 365 online i przejdź na stronę rozwiązań, aby zainstalować aktualizację.</span><span class="sxs-lookup"><span data-stu-id="d6f99-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="d6f99-108">By uzyskać więcej informacji, zobacz [Instalowanie, aktualizowanie lub usuwanie preferowanego rozwiązania](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="d6f99-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="7592f-104">Mamy przyjemność ogłosić najnowszą aktualizację aplikacji Project Service Automation dla Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="7592f-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="7592f-105">To wydanie obejmuje znaczną poprawę jakości, wydajności i użyteczności.</span><span class="sxs-lookup"><span data-stu-id="7592f-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="7592f-106">To wydanie jest zgodne z systemem Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="7592f-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="7592f-107">Aby zaktualizować do tej wersji, odwiedź centrum administracyjne Dynamics 365 online i przejdź na stronę rozwiązań, aby zainstalować aktualizację.</span><span class="sxs-lookup"><span data-stu-id="7592f-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="7592f-108">By uzyskać więcej informacji, zobacz [Instalowanie, aktualizowanie lub usuwanie preferowanego rozwiązania](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="7592f-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="d6f99-109">W tym temacie przedstawiono funkcje i poprawki, które są nowe lub zostały zmienione w programie Project Service Automation, wer. 3, aktualizacja 24.</span><span class="sxs-lookup"><span data-stu-id="d6f99-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 24.</span></span> <span data-ttu-id="d6f99-110">Numer tej kompilacji to V3.10.42.43 i jest on zazwyczaj dostępny za pośrednictwem samoaktualizacji w październiku 2020 r.</span><span class="sxs-lookup"><span data-stu-id="d6f99-110">This version has a build number of V 3.10.42.43 and is generally available through a self-update in October 2020.</span></span>
+<span data-ttu-id="7592f-109">W tym temacie przedstawiono funkcje i poprawki, które są nowe lub zostały zmienione w programie Project Service Automation, wer. 3, aktualizacja 24.</span><span class="sxs-lookup"><span data-stu-id="7592f-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 24.</span></span> <span data-ttu-id="7592f-110">Numer tej kompilacji to V3.10.42.43 i jest on zazwyczaj dostępny za pośrednictwem samoaktualizacji w październiku 2020 r.</span><span class="sxs-lookup"><span data-stu-id="7592f-110">This version has a build number of V 3.10.42.43 and is generally available through a self-update in October 2020.</span></span>
 
-## <a name="update-release-24"></a><span data-ttu-id="d6f99-111">Wydanie 24</span><span class="sxs-lookup"><span data-stu-id="d6f99-111">Update Release 24</span></span>
+## <a name="update-release-24"></a><span data-ttu-id="7592f-111">Wydanie 24</span><span class="sxs-lookup"><span data-stu-id="7592f-111">Update Release 24</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="d6f99-112">Poprawki błędów</span><span class="sxs-lookup"><span data-stu-id="d6f99-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="7592f-112">Poprawki błędów</span><span class="sxs-lookup"><span data-stu-id="7592f-112">Bug fixes</span></span>
 
-<span data-ttu-id="d6f99-113">**Sales**</span><span class="sxs-lookup"><span data-stu-id="d6f99-113">**Sales**</span></span>
+<span data-ttu-id="7592f-113">**Sales**</span><span class="sxs-lookup"><span data-stu-id="7592f-113">**Sales**</span></span>
 
-<span data-ttu-id="d6f99-114">Rozwiązano następujące problemy:</span><span class="sxs-lookup"><span data-stu-id="d6f99-114">The following issues have been fixed:</span></span>
+<span data-ttu-id="7592f-114">Rozwiązano następujące problemy:</span><span class="sxs-lookup"><span data-stu-id="7592f-114">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="d6f99-115">Wystąpił problem podczas ustawiania domyślnego cennika produktów.</span><span class="sxs-lookup"><span data-stu-id="d6f99-115">Problem while setting default price list of products.</span></span>
-- <span data-ttu-id="d6f99-116">Wydajność licytacji jest niska z powodu osadzonych cenników i kopii rekordów cen ról.</span><span class="sxs-lookup"><span data-stu-id="d6f99-116">Performance of Quote win is slow due to the embedded price list and role price records copy.</span></span>
-- <span data-ttu-id="d6f99-117">**Kontrakt projektu/Centrum sprzedaży** > **Pozycja wiersza produktu/Ilość wiersza zamówienia** jest automatycznie zaokrąglana do najbliższej liczby całkowitej.</span><span class="sxs-lookup"><span data-stu-id="d6f99-117">**Project Contract/Sales Hub** > **Product Line Item/Order Line Quantity** is automatically rounded to the nearest integer.</span></span>
-- <span data-ttu-id="d6f99-118">Podnieś uprawnienia do uprawnień systemowych podczas odczytywania cenników.</span><span class="sxs-lookup"><span data-stu-id="d6f99-118">Elevate to system privileges when reading price lists.</span></span>
-- <span data-ttu-id="d6f99-119">Kopiuj pola adresu klienta **address1_freighttermscode** i **address1_shippingmethodcode** do oferty/zamówienia.</span><span class="sxs-lookup"><span data-stu-id="d6f99-119">Copy customer address fields **address1_freighttermscode** and **address1_shippingmethodcode** to Quote/Order.</span></span> 
-
-
-<span data-ttu-id="d6f99-120">**Czas i wydatek**</span><span class="sxs-lookup"><span data-stu-id="d6f99-120">**Time and Expense**</span></span>
-
-<span data-ttu-id="d6f99-121">Rozwiązano następujące problemy:</span><span class="sxs-lookup"><span data-stu-id="d6f99-121">The following issues have been fixed:</span></span>
-
-- <span data-ttu-id="d6f99-122">**Siatka wprowadzania godzin** nie obsługuje zachowania czasowego **Tylko data**.</span><span class="sxs-lookup"><span data-stu-id="d6f99-122">The **Time Entry Grid** doesn't support **Date Only** time behavior.</span></span>
-- <span data-ttu-id="d6f99-123">**Wpis czasu** nie jest odświeżany automatycznie.</span><span class="sxs-lookup"><span data-stu-id="d6f99-123">**Time Entry** is not refreshing automatically.</span></span> <span data-ttu-id="d6f99-124">Wymagane jest ręczne odświeżenie.</span><span class="sxs-lookup"><span data-stu-id="d6f99-124">A manual refresh is required.</span></span>
-- <span data-ttu-id="d6f99-125">Nie można zaimportować wpisów czasu z przypisania, jeśli w przypisaniach zasobu występuje przerwa (0 godzin).</span><span class="sxs-lookup"><span data-stu-id="d6f99-125">Unable to import the time entries from an assignment when there is a break (0 hours) in a resource's assignments.</span></span>
-- <span data-ttu-id="d6f99-126">Podczas tworzenia wpisu czasu ustaw początek na taki sam, jak **msdyn_date**.</span><span class="sxs-lookup"><span data-stu-id="d6f99-126">When creating a time entry, set the start to the same as **msdyn_date**.</span></span>
-- <span data-ttu-id="d6f99-127">Ponownie włącz edycję zbiorczą dla wpisu czasu.</span><span class="sxs-lookup"><span data-stu-id="d6f99-127">Re-enable bulk edit for time entry.</span></span>
-
-<span data-ttu-id="d6f99-128">**Zarządzanie zasobami**</span><span class="sxs-lookup"><span data-stu-id="d6f99-128">**Resource Management**</span></span>
-
-<span data-ttu-id="d6f99-129">Rozwiązano następujące problemy:</span><span class="sxs-lookup"><span data-stu-id="d6f99-129">The following issues have been fixed:</span></span>
-
-- <span data-ttu-id="d6f99-130">Próba zaktualizowania stanu rezerwacji międzydniowej bez wymagania spowoduje zgłoszenie wyjątku odwołania o wartości null.</span><span class="sxs-lookup"><span data-stu-id="d6f99-130">Trying to update the status of an inter-day booking without a requirement will throw a null-ref exception.</span></span>
-- <span data-ttu-id="d6f99-131">Wystąpił błąd podczas ładowania **Widoku uzgadniania**.</span><span class="sxs-lookup"><span data-stu-id="d6f99-131">Error loading the **Reconciliation View**.</span></span>
+- <span data-ttu-id="7592f-115">Wystąpił problem podczas ustawiania domyślnego cennika produktów.</span><span class="sxs-lookup"><span data-stu-id="7592f-115">Problem while setting default price list of products.</span></span>
+- <span data-ttu-id="7592f-116">Wydajność licytacji jest niska z powodu osadzonych cenników i kopii rekordów cen ról.</span><span class="sxs-lookup"><span data-stu-id="7592f-116">Performance of Quote win is slow due to the embedded price list and role price records copy.</span></span>
+- <span data-ttu-id="7592f-117">**Kontrakt projektu/Centrum sprzedaży** > **Pozycja wiersza produktu/Ilość wiersza zamówienia** jest automatycznie zaokrąglana do najbliższej liczby całkowitej.</span><span class="sxs-lookup"><span data-stu-id="7592f-117">**Project Contract/Sales Hub** > **Product Line Item/Order Line Quantity** is automatically rounded to the nearest integer.</span></span>
+- <span data-ttu-id="7592f-118">Podnieś uprawnienia do uprawnień systemowych podczas odczytywania cenników.</span><span class="sxs-lookup"><span data-stu-id="7592f-118">Elevate to system privileges when reading price lists.</span></span>
+- <span data-ttu-id="7592f-119">Kopiuj pola adresu klienta **address1_freighttermscode** i **address1_shippingmethodcode** do oferty/zamówienia.</span><span class="sxs-lookup"><span data-stu-id="7592f-119">Copy customer address fields **address1_freighttermscode** and **address1_shippingmethodcode** to Quote/Order.</span></span> 
 
 
-<span data-ttu-id="d6f99-132">**Zarządzanie projektem**</span><span class="sxs-lookup"><span data-stu-id="d6f99-132">**Project Management**</span></span>
+<span data-ttu-id="7592f-120">**Czas i wydatek**</span><span class="sxs-lookup"><span data-stu-id="7592f-120">**Time and Expense**</span></span>
 
-<span data-ttu-id="d6f99-133">Rozwiązano następujące problemy:</span><span class="sxs-lookup"><span data-stu-id="d6f99-133">The following issues have been fixed:</span></span>
+<span data-ttu-id="7592f-121">Rozwiązano następujące problemy:</span><span class="sxs-lookup"><span data-stu-id="7592f-121">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="d6f99-134">W **Harmonogramie projektu** podczas zmiany z **Ręczne** na **Automatyczne** nie jest dokonywane automatyczne zapisywanie.</span><span class="sxs-lookup"><span data-stu-id="d6f99-134">In the **Project Schedule**, when changing from **Manual** to **Auto**, auto save is not completing.</span></span>
-- <span data-ttu-id="d6f99-135">Koszty wydatków nie powinny być obliczane względem wariancji w **Siatce śledzenia projektu**.</span><span class="sxs-lookup"><span data-stu-id="d6f99-135">Expense costs should not calculate toward variance on the **Project Tracking Grid**.</span></span>
-- <span data-ttu-id="d6f99-136">Niespójne zachowanie dotyczące kolumn **Tag oszacować** podczas ładowania i zmiany typu **Fazy czasu**.</span><span class="sxs-lookup"><span data-stu-id="d6f99-136">Inconsistent behavior for **Estimates tag** columns during load versus changing the **Time-Phase** type.</span></span>
-- <span data-ttu-id="d6f99-137">Koszt rzeczywisty w projekcie może nie odzwierciedlać sum w **Wartościach rzeczywistych**.</span><span class="sxs-lookup"><span data-stu-id="d6f99-137">The actual cost on a project may not reflect the totals from **Actuals**.</span></span>
-- <span data-ttu-id="d6f99-138">**Szacowana data zakończenia** na karcie **Podsumowanie** nie jest zgodna z **Harmonogramem SPP**.</span><span class="sxs-lookup"><span data-stu-id="d6f99-138">**Estimated Finish Date** on the **Summary** tab does not match the **WBS Schedule**.</span></span>
-- <span data-ttu-id="d6f99-139">**Zaktualizowanie rzeczywistych godzin** na zmniejszeniu wcięcia nie działa poprawnie.</span><span class="sxs-lookup"><span data-stu-id="d6f99-139">**Update Actual Hours** on outdent does not work correctly.</span></span>
-- <span data-ttu-id="d6f99-140">Menedżer projektu spoza katalogu głównego **JB** nie może utworzyć projektu.</span><span class="sxs-lookup"><span data-stu-id="d6f99-140">A Project manager outside of root **BU** can't create a project.</span></span>
-- <span data-ttu-id="d6f99-141">Zmiany w zadaniach i kategoriach w **Szacunkach wydatków** nie są trwałe.</span><span class="sxs-lookup"><span data-stu-id="d6f99-141">Changes to task or category on **Expense Estimates** are not persisted.</span></span>
-- <span data-ttu-id="d6f99-142">**Kopia kontraktu** kopiuje harmonogramy faktur oraz stanu przebiegu.</span><span class="sxs-lookup"><span data-stu-id="d6f99-142">**Copy of contract** copies the invoice schedules and the run status.</span></span>
-- <span data-ttu-id="d6f99-143">**Przycisk odświeżanie wartości rzeczywistych** powoduje nieprawidłowe obliczenie zadań sumarycznych.</span><span class="sxs-lookup"><span data-stu-id="d6f99-143">**Refresh Actuals** button incorrectly calculates summary tasks.</span></span>
-- <span data-ttu-id="d6f99-144">Dodatek programu Microsoft Project: rozwiąż błąd odwołania do wartości null, jeśli dowolny członek zespołu ma pustą jednostkę ponownego pozyskania zasobów.</span><span class="sxs-lookup"><span data-stu-id="d6f99-144">Microsoft Project Add-in: Fix null reference error if any team member has an empty resourcing unit.</span></span>
+- <span data-ttu-id="7592f-122">**Siatka wprowadzania godzin** nie obsługuje zachowania czasowego **Tylko data**.</span><span class="sxs-lookup"><span data-stu-id="7592f-122">The **Time Entry Grid** doesn't support **Date Only** time behavior.</span></span>
+- <span data-ttu-id="7592f-123">**Wpis czasu** nie jest odświeżany automatycznie.</span><span class="sxs-lookup"><span data-stu-id="7592f-123">**Time Entry** is not refreshing automatically.</span></span> <span data-ttu-id="7592f-124">Wymagane jest ręczne odświeżenie.</span><span class="sxs-lookup"><span data-stu-id="7592f-124">A manual refresh is required.</span></span>
+- <span data-ttu-id="7592f-125">Nie można zaimportować wpisów czasu z przypisania, jeśli w przypisaniach zasobu występuje przerwa (0 godzin).</span><span class="sxs-lookup"><span data-stu-id="7592f-125">Unable to import the time entries from an assignment when there is a break (0 hours) in a resource's assignments.</span></span>
+- <span data-ttu-id="7592f-126">Podczas tworzenia wpisu czasu ustaw początek na taki sam, jak **msdyn_date**.</span><span class="sxs-lookup"><span data-stu-id="7592f-126">When creating a time entry, set the start to the same as **msdyn_date**.</span></span>
+- <span data-ttu-id="7592f-127">Ponownie włącz edycję zbiorczą dla wpisu czasu.</span><span class="sxs-lookup"><span data-stu-id="7592f-127">Re-enable bulk edit for time entry.</span></span>
+
+<span data-ttu-id="7592f-128">**Zarządzanie zasobami**</span><span class="sxs-lookup"><span data-stu-id="7592f-128">**Resource Management**</span></span>
+
+<span data-ttu-id="7592f-129">Rozwiązano następujące problemy:</span><span class="sxs-lookup"><span data-stu-id="7592f-129">The following issues have been fixed:</span></span>
+
+- <span data-ttu-id="7592f-130">Próba zaktualizowania stanu rezerwacji międzydniowej bez wymagania spowoduje zgłoszenie wyjątku odwołania o wartości null.</span><span class="sxs-lookup"><span data-stu-id="7592f-130">Trying to update the status of an inter-day booking without a requirement will throw a null-ref exception.</span></span>
+- <span data-ttu-id="7592f-131">Wystąpił błąd podczas ładowania **Widoku uzgadniania**.</span><span class="sxs-lookup"><span data-stu-id="7592f-131">Error loading the **Reconciliation View**.</span></span>
+
+
+<span data-ttu-id="7592f-132">**Zarządzanie projektem**</span><span class="sxs-lookup"><span data-stu-id="7592f-132">**Project Management**</span></span>
+
+<span data-ttu-id="7592f-133">Rozwiązano następujące problemy:</span><span class="sxs-lookup"><span data-stu-id="7592f-133">The following issues have been fixed:</span></span>
+
+- <span data-ttu-id="7592f-134">W **Harmonogramie projektu** podczas zmiany z **Ręczne** na **Automatyczne** nie jest dokonywane automatyczne zapisywanie.</span><span class="sxs-lookup"><span data-stu-id="7592f-134">In the **Project Schedule**, when changing from **Manual** to **Auto**, auto save is not completing.</span></span>
+- <span data-ttu-id="7592f-135">Koszty wydatków nie powinny być obliczane względem wariancji w **Siatce śledzenia projektu**.</span><span class="sxs-lookup"><span data-stu-id="7592f-135">Expense costs should not calculate toward variance on the **Project Tracking Grid**.</span></span>
+- <span data-ttu-id="7592f-136">Niespójne zachowanie dotyczące kolumn **Tag oszacować** podczas ładowania i zmiany typu **Fazy czasu**.</span><span class="sxs-lookup"><span data-stu-id="7592f-136">Inconsistent behavior for **Estimates tag** columns during load versus changing the **Time-Phase** type.</span></span>
+- <span data-ttu-id="7592f-137">Koszt rzeczywisty w projekcie może nie odzwierciedlać sum w **Wartościach rzeczywistych**.</span><span class="sxs-lookup"><span data-stu-id="7592f-137">The actual cost on a project may not reflect the totals from **Actuals**.</span></span>
+- <span data-ttu-id="7592f-138">**Szacowana data zakończenia** na karcie **Podsumowanie** nie jest zgodna z **Harmonogramem SPP**.</span><span class="sxs-lookup"><span data-stu-id="7592f-138">**Estimated Finish Date** on the **Summary** tab does not match the **WBS Schedule**.</span></span>
+- <span data-ttu-id="7592f-139">**Zaktualizowanie rzeczywistych godzin** na zmniejszeniu wcięcia nie działa poprawnie.</span><span class="sxs-lookup"><span data-stu-id="7592f-139">**Update Actual Hours** on outdent does not work correctly.</span></span>
+- <span data-ttu-id="7592f-140">Menedżer projektu spoza katalogu głównego **JB** nie może utworzyć projektu.</span><span class="sxs-lookup"><span data-stu-id="7592f-140">A Project manager outside of root **BU** can't create a project.</span></span>
+- <span data-ttu-id="7592f-141">Zmiany w zadaniach i kategoriach w **Szacunkach wydatków** nie są trwałe.</span><span class="sxs-lookup"><span data-stu-id="7592f-141">Changes to task or category on **Expense Estimates** are not persisted.</span></span>
+- <span data-ttu-id="7592f-142">**Kopia kontraktu** kopiuje harmonogramy faktur oraz stanu przebiegu.</span><span class="sxs-lookup"><span data-stu-id="7592f-142">**Copy of contract** copies the invoice schedules and the run status.</span></span>
+- <span data-ttu-id="7592f-143">**Przycisk odświeżanie wartości rzeczywistych** powoduje nieprawidłowe obliczenie zadań sumarycznych.</span><span class="sxs-lookup"><span data-stu-id="7592f-143">**Refresh Actuals** button incorrectly calculates summary tasks.</span></span>
+- <span data-ttu-id="7592f-144">Dodatek programu Microsoft Project: rozwiąż błąd odwołania do wartości null, jeśli dowolny członek zespołu ma pustą jednostkę ponownego pozyskania zasobów.</span><span class="sxs-lookup"><span data-stu-id="7592f-144">Microsoft Project Add-in: Fix null reference error if any team member has an empty resourcing unit.</span></span>
 
 
 
