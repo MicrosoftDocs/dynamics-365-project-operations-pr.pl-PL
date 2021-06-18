@@ -2,48 +2,46 @@
 title: Omówienie wydatków
 description: Ta temat zawiera informacje na temat funkcji Wydatków w Project Operations.
 author: stsporen
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c4e2f441e1c4b1bcba5bca292b8075b4334a004d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2a26b321e15080cc6a4a6a3ed410be175e790a1b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276586"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995409"
 ---
-# <a name="expense-home-page"></a><span data-ttu-id="3f559-103">Strona główna wydatku</span><span class="sxs-lookup"><span data-stu-id="3f559-103">Expense home page</span></span>
+# <a name="expense-home-page"></a><span data-ttu-id="f7a54-103">Strona główna wydatku</span><span class="sxs-lookup"><span data-stu-id="f7a54-103">Expense home page</span></span>
 
-<span data-ttu-id="3f559-104">_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_</span><span class="sxs-lookup"><span data-stu-id="3f559-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="f7a54-104">_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_</span><span class="sxs-lookup"><span data-stu-id="f7a54-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 
-<span data-ttu-id="3f559-105">Dynamics 365 Project Operations wspiera zdolność do przetwarzania wydatków.</span><span class="sxs-lookup"><span data-stu-id="3f559-105">Dynamics 365 Project Operations supports the ability to process expenses.</span></span> <span data-ttu-id="3f559-106">Przetwarzanie wydatków jest realizowane z projektami lub bez nich, dzięki możliwemu do dostosowania przepływowi pracy w ramach zasad, kategorii transakcji i zatwierdzeń.</span><span class="sxs-lookup"><span data-stu-id="3f559-106">Expense processing occurs with or without projects by using a customizable workflow of policies, transaction categories, and approvals.</span></span>
+<span data-ttu-id="f7a54-105">Dynamics 365 Project Operations wspiera zdolność do przetwarzania wydatków.</span><span class="sxs-lookup"><span data-stu-id="f7a54-105">Dynamics 365 Project Operations supports the ability to process expenses.</span></span> <span data-ttu-id="f7a54-106">Przetwarzanie wydatków jest realizowane z projektami lub bez nich, dzięki możliwemu do dostosowania przepływowi pracy w ramach zasad, kategorii transakcji i zatwierdzeń.</span><span class="sxs-lookup"><span data-stu-id="f7a54-106">Expense processing occurs with or without projects by using a customizable workflow of policies, transaction categories, and approvals.</span></span>
 
-<span data-ttu-id="3f559-107">W Project Operations istnieją dwa modele wdrożeń obsługiwanych na potrzeby wydatkowania:</span><span class="sxs-lookup"><span data-stu-id="3f559-107">In Project Operations, there are two supported deployment models for Expense:</span></span> 
+<span data-ttu-id="f7a54-107">W Project Operations istnieją dwa modele wdrożeń obsługiwanych na potrzeby wydatkowania:</span><span class="sxs-lookup"><span data-stu-id="f7a54-107">In Project Operations, there are two supported deployment models for Expense:</span></span> 
 
-- <span data-ttu-id="3f559-108">**Pełne**: pełne wdrażanie jest dostępne dla **Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu** lub **Project Operations dla scenariuszy opartych na zamówieniach produkcyjnych**.</span><span class="sxs-lookup"><span data-stu-id="3f559-108">**Full**: Full deployment is available for **Project Operations for resource/non-stocked based scenarios** or **Project Operations for production order-based scenarios**.</span></span>
-- <span data-ttu-id="3f559-109">**Podstawowe**: wdrażanie podstawowe jest dostępne dla **Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu** oraz **Wdrożenia uproszczonego — od oferty do faktury pro forma**.</span><span class="sxs-lookup"><span data-stu-id="3f559-109">**Basic**: Basic deployment is available for **Project Operations for resource/non-stocked based scenarios** and **Lite deployment – deal to proforma invoicing**.</span></span>
+- <span data-ttu-id="f7a54-108">**Pełne**: pełne wdrażanie jest dostępne dla **Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu** lub **Project Operations dla scenariuszy opartych na zamówieniach produkcyjnych**.</span><span class="sxs-lookup"><span data-stu-id="f7a54-108">**Full**: Full deployment is available for **Project Operations for resource/non-stocked based scenarios** or **Project Operations for production order-based scenarios**.</span></span>
+- <span data-ttu-id="f7a54-109">**Podstawowe**: wdrażanie podstawowe jest dostępne dla **Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu** oraz **Wdrożenia uproszczonego — od oferty do faktury pro forma**.</span><span class="sxs-lookup"><span data-stu-id="f7a54-109">**Basic**: Basic deployment is available for **Project Operations for resource/non-stocked based scenarios** and **Lite deployment – deal to proforma invoicing**.</span></span>
 
-## <a name="full"></a><span data-ttu-id="3f559-110">Pełny</span><span class="sxs-lookup"><span data-stu-id="3f559-110">Full</span></span> 
-<span data-ttu-id="3f559-111">Wdrożenie pełnego kosztu zapewnia pełne egzekwowanie zasad, które obejmuje możliwość tworzenia zasad, takich jak:</span><span class="sxs-lookup"><span data-stu-id="3f559-111">Full Expense deployment provides a complete policy enforcement that includes the ability to create policies, such as:</span></span>
+## <a name="full"></a><span data-ttu-id="f7a54-110">Pełny</span><span class="sxs-lookup"><span data-stu-id="f7a54-110">Full</span></span> 
+<span data-ttu-id="f7a54-111">Wdrożenie pełnego kosztu zapewnia pełne egzekwowanie zasad, które obejmuje możliwość tworzenia zasad, takich jak:</span><span class="sxs-lookup"><span data-stu-id="f7a54-111">Full Expense deployment provides a complete policy enforcement that includes the ability to create policies, such as:</span></span>
 
-  - <span data-ttu-id="3f559-112">Tworzenie limitów wydatków w kategorii</span><span class="sxs-lookup"><span data-stu-id="3f559-112">Expense category limits</span></span>
-  - <span data-ttu-id="3f559-113">Podróż</span><span class="sxs-lookup"><span data-stu-id="3f559-113">Travel</span></span>
-  - <span data-ttu-id="3f559-114">Dieta</span><span class="sxs-lookup"><span data-stu-id="3f559-114">Per diem</span></span>
-  - <span data-ttu-id="3f559-115">Pobieranie danych z karty kredytowej</span><span class="sxs-lookup"><span data-stu-id="3f559-115">Credit card imports</span></span>
-  - <span data-ttu-id="3f559-116">Optyczne rozpoznawanie znaków z paragonów (OCR)</span><span class="sxs-lookup"><span data-stu-id="3f559-116">Receipt optical character recognition</span></span>
+  - <span data-ttu-id="f7a54-112">Tworzenie limitów wydatków w kategorii</span><span class="sxs-lookup"><span data-stu-id="f7a54-112">Expense category limits</span></span>
+  - <span data-ttu-id="f7a54-113">Podróż</span><span class="sxs-lookup"><span data-stu-id="f7a54-113">Travel</span></span>
+  - <span data-ttu-id="f7a54-114">Dieta</span><span class="sxs-lookup"><span data-stu-id="f7a54-114">Per diem</span></span>
+  - <span data-ttu-id="f7a54-115">Pobieranie danych z karty kredytowej</span><span class="sxs-lookup"><span data-stu-id="f7a54-115">Credit card imports</span></span>
+  - <span data-ttu-id="f7a54-116">Optyczne rozpoznawanie znaków z paragonów (OCR)</span><span class="sxs-lookup"><span data-stu-id="f7a54-116">Receipt optical character recognition</span></span>
 
-## <a name="basic"></a><span data-ttu-id="3f559-117">Podstawowy</span><span class="sxs-lookup"><span data-stu-id="3f559-117">Basic</span></span> 
-<span data-ttu-id="3f559-118">Scenariusz podstawowego wdrażania wydatków umożliwia tylko rejestrowanie w projekcie podstawowych kosztów.</span><span class="sxs-lookup"><span data-stu-id="3f559-118">Basic Expense deployment scenario only allows you to record basic expenses against a project.</span></span> 
+## <a name="basic"></a><span data-ttu-id="f7a54-117">Podstawowy</span><span class="sxs-lookup"><span data-stu-id="f7a54-117">Basic</span></span> 
+<span data-ttu-id="f7a54-118">Scenariusz podstawowego wdrażania wydatków umożliwia tylko rejestrowanie w projekcie podstawowych kosztów.</span><span class="sxs-lookup"><span data-stu-id="f7a54-118">Basic Expense deployment scenario only allows you to record basic expenses against a project.</span></span> 
 
-<span data-ttu-id="3f559-119">Aby uzyskać więcej informacji, zobacz temat [Pozycja wydatek (uproszczone)](basic-expense.md)</span><span class="sxs-lookup"><span data-stu-id="3f559-119">For more information, see [Expense entry (lite)](basic-expense.md)</span></span>
+<span data-ttu-id="f7a54-119">Aby uzyskać więcej informacji, zobacz temat [Pozycja wydatek (uproszczone)](basic-expense.md)</span><span class="sxs-lookup"><span data-stu-id="f7a54-119">For more information, see [Expense entry (lite)](basic-expense.md)</span></span>
 
-## <a name="determine-your-expense-deployment"></a><span data-ttu-id="3f559-120">Określenie typu wdrażania wydatków</span><span class="sxs-lookup"><span data-stu-id="3f559-120">Determine your Expense deployment</span></span>
-<span data-ttu-id="3f559-121">Aby sprawdzić, czy uruchomiono podstawowe wdrożenie zarządzania wydatkami, należy sprawdzić, czy adres URL programu kończy się rozszerzeniem **.crm.dynamics.com**.</span><span class="sxs-lookup"><span data-stu-id="3f559-121">To determine if you're running the Basic Expense management deployment, verify that the address URL ends with **.crm.dynamics.com**.</span></span> 
+## <a name="determine-your-expense-deployment"></a><span data-ttu-id="f7a54-120">Określenie typu wdrażania wydatków</span><span class="sxs-lookup"><span data-stu-id="f7a54-120">Determine your Expense deployment</span></span>
+<span data-ttu-id="f7a54-121">Aby sprawdzić, czy uruchomiono podstawowe wdrożenie zarządzania wydatkami, należy sprawdzić, czy adres URL programu kończy się rozszerzeniem **.crm.dynamics.com**.</span><span class="sxs-lookup"><span data-stu-id="f7a54-121">To determine if you're running the Basic Expense management deployment, verify that the address URL ends with **.crm.dynamics.com**.</span></span> 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
