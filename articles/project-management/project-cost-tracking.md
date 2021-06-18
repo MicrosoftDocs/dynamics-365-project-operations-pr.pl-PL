@@ -2,18 +2,16 @@
 title: Śledzenie kosztu projektu
 description: Ten temat zawiera informacje o tym, jak Project Operations śledzą postęp w stosunku do kosztów pracy i wydatków na projekt.
 author: rumant
-manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28cb692c61ae4137a28973dc1bd70ffd989dd535
-ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
+ms.openlocfilehash: cb76987cf15a14639f34cd3b67c1296a020b2e3e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "5711074"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996534"
 ---
 # <a name="labor-cost-tracking-on-projects"></a>Śledzenie kosztów robocizny w projektach
 

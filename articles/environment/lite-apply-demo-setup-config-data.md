@@ -2,18 +2,16 @@
 title: Zastosowanie konfiguracji demonstracyjnej i danych konfiguracyjnych — wersja uproszczona
 description: W tym temacie zamieszczono informacje dotyczące sposobu stosowania konfiguracji demonstracyjnej i danych konfiguracyjnych Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 01/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 694dbc74591de74895095a9da6e590069711fc83
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290147"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997164"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Zastosowanie konfiguracji demonstracyjnej i danych konfiguracyjnych dla Project Operations — wersja uproszczona 
 
@@ -28,8 +26,8 @@ Przed rozpoczęciem konfiguracji należy dysponować środowiskiem usługi Commo
 
 ## <a name="instructions"></a>Instrukcje
 
-1. Pobierz [pakiet Master Data Package](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
-2. Przejdź do folderu *ProjOpsDemoDataSetupAndMaster - Integrated CMT*, a następnie uruchom plik wykonywalny *DataMigrationUtility*.
+1. Pobierz [pakiet Master Data Package](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
+2. Przejśdź do folderu *ProjOpsSampleSetupData - CE only CMT* i uruchom plik wykonywalny, *DataMigrationUtility*.
 3. Na stronie 1 Kreatora migracji konfiguracji Common Data Service (CMT) wybierz pozycję **Importuj dane**, a następnie wybierz pozycję **Kontynuuj**.
 
     ![Migracja konfiguracji](./media/1ConfigurationMigration.png)
@@ -41,7 +39,7 @@ Przed rozpoczęciem konfiguracji należy dysponować środowiskiem usługi Commo
    ![Konfiguracja logowania](./media/2ConfigurationSignin.png)
 
 7. Na stronie 3 z poziomu listy organizacji w dzierżawie wybierz nazwę organizacji, do której chcesz zaimportować dane demonstracyjne, a następnie wybierz pozycję **Zaloguj**.
-8. Na stronie 4 wybierz plik zip *MasterAndSetupData*, który znajduje się w rozpakowanym folderze *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.
+8. Na stronie 4 wybierz plik zip, *SampleSetupAndConfigData* z rozpakowanego folderu, *ProjOpsSampleSetupData - CE only CMT*.
 
    ![Plik ZIP](./media/3ZipFile.png)
 
@@ -52,7 +50,7 @@ Przed rozpoczęciem konfiguracji należy dysponować środowiskiem usługi Commo
    ![Importuj dane](./media/5ImportData.png)
 
 10. Importowanie potrwa około dwóch sekund, w zależności od szybkości sieci. Po zakończeniu pracy zakończ działanie kreatora CMT. 
-11. Należy sprawdzić w ramach organizacji dane z następujących 20 encji:
+11. Należy sprawdzić w ramach organizacji dane z następujących 18 encji:
 
     -   Waluta
     -   Konto
