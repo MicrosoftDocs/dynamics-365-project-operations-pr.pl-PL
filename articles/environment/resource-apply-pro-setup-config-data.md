@@ -2,18 +2,16 @@
 title: Skonfiguruj i zastosuj dane konfiguracyjne w usłudze Common Data Service
 description: W tym temacie zamieszczono informacje dotyczące ustawienia i zastosowania danych konfiguracyjnych Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289832"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001304"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Skonfiguruj i zastosuj dane konfiguracyjne w usłudze Common Data Service 
 
@@ -23,7 +21,7 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 ## <a name="prerequisites"></a>Wymagania wstępne
 
-Przed przystąpieniem do konfigurowania danych z Common Data Service (CDS) muszą spełnione następujące wymagania wstępne:
+Przed rozpoczęciem konfigurowania danych w ramach Common Data Service (CDS) należy spełnić następujące warunki wstępne:
 
 1.  Udostępnij środowisko CDS i środowisko Dynamics 365 Finance na potrzeby Project Operations.
 2.  Informacje o osobach prawnych z Dynamics 365 Finance są udostępniane środowisku CDS. Oznacza to, że **Firma** z CDS zawiera następujące rekordy firm:
@@ -33,7 +31,7 @@ Przed przystąpieniem do konfigurowania danych z Common Data Service (CDS) musz�
 
 ## <a name="install-setup-and-configuration-data"></a>Zainstaluj konfigurację i dane konfiguracyjne
 
-1. Pobierz, odblokuj i rozpakuj [pakiet danych instalacyjnych i konfiguracyjnych](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Pobierz, odblokuj i rozpakuj [pakiet danych instalacyjnych i konfiguracyjnych](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Przejdź do wyodrębnionego folderu, a następnie uruchom plik wykonywalny *DataMigrationUtility*.
 3. Na stronie 1 Kreatora migracji konfiguracji Common Data Service (CMT) wybierz pozycję **Importuj dane**, a następnie wybierz pozycję **Kontynuuj**.
 
@@ -57,13 +55,20 @@ Przed przystąpieniem do konfigurowania danych z Common Data Service (CDS) musz�
 ![Importuj dane](./media/5ImportData.png)
 
 10. Importowanie potrwa około dwóch sekund, w zależności od szybkości sieci. Po zakończeniu importu zakończ działanie kreatora CMT. 
-11. Należy sprawdzić w ramach organizacji dane z następujących 19 encji:
+11. Należy sprawdzić w ramach organizacji dane z następujących 26 encji:
 
   - Waluta
+  - Plan kont
+  - Kalendarz obrachunkowy
+  - Rodzaje kursów walutowych
+  - Dzień płatności
+  - Harmonogram płatności
+  - Termin płatności
   - Jednostka organizacyjna
-  - Kontakt biznesowy
+  - Kontakt
   - Grupa podatku
   - Grupa klientów
+  - Grupa dostawców
   - Jednostka
   - Grupa jednostek
   - Cennik

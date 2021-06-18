@@ -2,12 +2,10 @@
 title: Tworzenie niestandardowych pól i encji
 description: W tym temacie przedstawiono sposób tworzenia zestawów opcji i encji we własnym rozwiązaniu na platformie Power Apps.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c58745a46e84a40b90fbb3cbf89b10e293588fc3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290551"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998964"
 ---
 # <a name="create-custom-fields-and-entities"></a>Tworzenie niestandardowych pól i encji 
 
