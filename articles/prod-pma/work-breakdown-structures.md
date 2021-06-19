@@ -2,11 +2,9 @@
 title: Omówienie struktur podziału pracy
 description: Struktura podziału pracy (SPP) to opis pracy, która zostanie wykonana w ramach projektu. Jest hierarchią zadań, która reprezentuje zrozumienie struktury prac zespołu projektu oraz wielkości, kosztów i czasu trwania każdego ze składników i zadań.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 713e38f4218b980c4256e433e90c12adccd70e11
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287971"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012239"
 ---
 # <a name="work-breakdown-structures-overview"></a>Omówienie struktur podziału pracy
 

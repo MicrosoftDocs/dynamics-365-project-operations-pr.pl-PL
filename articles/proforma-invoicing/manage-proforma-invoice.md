@@ -2,18 +2,16 @@
 title: Zarządzanie fakturą proforma opartej na projekcie
 description: Ten temat zawiera informacje dotyczące zarządzania fakturami opartymi na projektach proforma i pracy z nimi.
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9fd357648f8166cbcbe91ca1922739585f9fcfa9
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: b1b0f70f25d157e1d7e2d14dc011a048d698d299
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867234"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012554"
 ---
 # <a name="manage-a-proforma-project-based-invoice"></a>Zarządzanie fakturą proforma opartej na projekcie
 
