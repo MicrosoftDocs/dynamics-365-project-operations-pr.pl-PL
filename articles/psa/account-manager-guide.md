@@ -2,8 +2,6 @@
 title: Przewodnik menedżera kont
 description: Przewodnik menedżera kont dla Project Service, który poprowadzi przez proces sprzedaży i zamówień dla kont projektowych
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2d5bca26a5a32d062123e1a83b27ee2d0045a43b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 57b9d6d391d4babda6e4f67f3f49798b70876aa8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285676"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014714"
 ---
 # <a name="account-manager-guide-project-service"></a>Przewodnik menedżera kont (Project Service)
 

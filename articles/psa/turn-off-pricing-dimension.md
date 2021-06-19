@@ -2,12 +2,10 @@
 title: Wyłączanie wymiaru kalkulacji cen
 description: Ten temat zawiera informacje na temat konfigurowania wymiarów kalkulacji cen w rozwiązaniu Project Service.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/06/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6e4b80b9c4b1b0f57d04079c9d2f84051b451d29
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281851"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014309"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Wyłączanie wymiaru kalkulacji cen
 
@@ -41,11 +39,11 @@ Ten komunikat o błędzie oznacza, że istnieją rekordy cen, które uprzednio s
 
 | Standardowe stanowisko         | Jednostka organizacyjna    |Jednostka   |Cena  |Waluta  |
 | -----------------------|-------------|-------|-------|----------|
-| Inżynier systemów|Contoso US|Hour| 100|USD|
-| Starszy inżynier systemów|Contoso US|Hour| 150| USD|
+| Inżynier systemów|Contoso — USA|godzina| 100|USD|
+| Starszy inżynier systemów|Contoso — USA|godzina| 150| USD|
 
 
-Gdy wyłączysz encję **Standardowe stanowisko** jako wymiar kalkulacji, aparat kalkulacji cen w usłudze Project Service podczas wyszukiwania ceny będzie z kontekstu wejściowego używał tylko wartości **Jednostka organizacyjna**. Jeśli element **Jednostka organizacyjna** w kontekście wejściowym ma wartość „Contoso US”, wynik będzie niedeterministyczny, ponieważ oba wiersze będą pasowały. Aby uniknąć tego scenariusza, podczas tworzenia rekordów **Cena roli** program Project Service sprawdza, czy kombinacja wymiarów jest unikatowa. Jeśli wymiar zostanie wyłączony po utworzeniu rekordów **Cena roli**, może nastąpić naruszenie tego ograniczenia. Z tego powodu przed wyłączeniem wymiaru trzeba koniecznie usunąć wszystkie wiersze **Cena roli** i **Narzut na cenę dla roli**, które mają wypełnioną tę wartość wymiaru.
+Gdy wyłączysz encję **Standardowe stanowisko** jako wymiar kalkulacji, aparat kalkulacji cen w usłudze Project Service podczas wyszukiwania ceny będzie z kontekstu wejściowego używał tylko wartości **Jednostka organizacyjna**. Jeśli **Jednostka organizacyjna** kontekstu wejściowego to „Contoso US”, wynik będzie nieokreślony, ponieważ oba wiersze będą pasować. Aby uniknąć tego scenariusza, podczas tworzenia rekordów **Cena roli** program Project Service sprawdza, czy kombinacja wymiarów jest unikatowa. Jeśli wymiar zostanie wyłączony po utworzeniu rekordów **Cena roli**, może nastąpić naruszenie tego ograniczenia. Z tego powodu przed wyłączeniem wymiaru trzeba koniecznie usunąć wszystkie wiersze **Cena roli** i **Narzut na cenę dla roli**, które mają wypełnioną tę wartość wymiaru.
 
 
 

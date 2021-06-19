@@ -2,18 +2,16 @@
 title: Konfigurowanie odpłatnych składników wiersza oferty opartej na projekcie
 description: W tym temacie przedstawiono informacje dotyczące składników uwzględnionych, odpłatnych i nieodpłatnych w wierszach oferty opartej na projekcie.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5484c37181bc8a26a6dfe67807093cc83e53e703
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a9febf305e3cd29bab42cd6c83a941f7b494fa56
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278746"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013589"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Konfigurowanie odpłatnych składników wiersza oferty opartej na projekcie
 

@@ -1,9 +1,7 @@
 ---
 title: Zagadnienia dotyczące uaktualniania — Microsoft Dynamics 365 Project Service Automation z wersji 2.x lub 1.x do wersji 3.x
 description: W tym temat zamieszczono informacje na temat zagadnień, które należy wziąć pod uwagę podczas uaktualniania programu Project Service Automation w wersji 2.x lub 1.x do wersji 3.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281671"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014899"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Zagadnienia dotyczące uaktualniania — PSA z wersji 2.x lub 1.x do wersji 3.x
 
@@ -106,7 +104,7 @@ Jednostkę organizacyjną można wyświetlić w widoku oszacowania.
  
 Po zakończeniu uaktualniania jednostka organizacyjna w zadaniu wiersza odpowiadającemu ogólnemu członkowi zespołu jest dodawana do członka zespołu ogólnego, a zadanie wierszowe jest usuwane. Z tego powodu zaleca się, aby przed uaktualnieniem utworzyć lub ponownie wygenerować zespół dla każdego projektu, który zawiera zasoby ogólne.
 
-W przypadku zadań przydzielonych do roli w jednostce organizacyjnej innej niż jednostka organizacyjna kontraktująca i zespół nie został wygenerowany, uaktualnianie spowoduje utworzenie ogólnego członka zespołu dla roli, ale będzie używana jednostka kontraktująca projektu dla jednostki organizacyjnej członka zespołu. Odwołując się do przykładu z Projektem Z, kontraktująca jednostka organizacyjna Contoso US i zadania testowania planu projektu w fazie implementacji mają przypisaną rolę konsultanta technicznego z jednostką organizacyjną przypisaną do Contoso India. Zadanie testowe integracji zakończone po fazie implementacji zostało przypisane do roli konsultanta technicznego. Jednostka organizacyjna to Contoso US, a zespół nie został wygenerowany. Uaktualnianie spowoduje utworzenie jednego ogólnego członka zespołu, konsultanta technicznego, z przypisanymi godzinami wszystkich trzech zadań oraz jednostką organizacyjną Contoso US, czyli kontraktującą jednostką organizacyjną danego projektu.   
+W przypadku zadań przydzielonych do roli w jednostce organizacyjnej innej niż jednostka organizacyjna kontraktująca i zespół nie został wygenerowany, uaktualnianie spowoduje utworzenie ogólnego członka zespołu dla roli, ale będzie używana jednostka kontraktująca projektu dla jednostki organizacyjnej członka zespołu. Odwołując się do przykładu z Projektem Z, oznacza to, że kontraktująca jednostka organizacyjna Contoso US i zadania testowania planu projektu w fazie implementacji mają przypisaną rolę konsultanta technicznego z jednostką organizacyjną przypisaną do Contoso India. Zadanie testowe integracji zakończone po fazie implementacji zostało przypisane do roli konsultanta technicznego. Jednostka organizacyjna to Contoso US, a zespół nie został wygenerowany. Uaktualnianie spowoduje utworzenie jednego ogólnego członka zespołu, konsultanta technicznego, z przypisanymi godzinami wszystkich trzech zadań oraz jednostką organizacyjną Contoso US, czyli kontraktującą jednostką organizacyjną danego projektu.   
  
 Zmiana domyślnych ustawień w różnych jednostkach organizacyjnych zasobów dla niewygenerowanych członków zespołu jest powodem, dla którego zalecamy wygenerowanie lub ponowne wygenerowanie zespołu dla każdego projektu, zawierającego zasoby ogólne przed uaktualnieniem, aby nie utracić przypisań jednostki organizacyjnej.
 

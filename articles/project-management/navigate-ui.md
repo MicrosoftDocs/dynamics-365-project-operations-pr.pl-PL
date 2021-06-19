@@ -2,18 +2,16 @@
 title: Nawigowanie po interfejsie użytkownika
 description: W tym temacie zamieszczono informacje o Zarządzaniu projektem w Dynamics 365 Project operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 02dda534dcab4e8fee0a96a7e09759c32a669be5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 715a8bdb9a1f38f71b4c42f5307ed4a5c7170ef6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286756"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014264"
 ---
 # <a name="navigating-the-user-interface"></a>Nawigowanie po interfejsie użytkownika
 
