@@ -2,30 +2,28 @@
 title: Konfigurowanie kosztów i stawek sprzedaży dla katalogu produktów — wersja uproszczona
 description: Ten temat zawiera informacje na temat konfigurowania kosztów i stawek sprzedaży dla towarów w katalogu produktów.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f0941c549cc38f0938a5819e8cb6ca9912f14790
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4995859696c844e99593139f63dffbf86a52f2f0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274471"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004346"
 ---
-# <a name="set-up-cost-and-sales-rates-for-catalog-products---lite"></a><span data-ttu-id="193da-103">Konfigurowanie kosztów i stawek sprzedaży dla katalogu produktów — wersja uproszczona</span><span class="sxs-lookup"><span data-stu-id="193da-103">Set up cost and sales rates for catalog products - lite</span></span>
+# <a name="set-up-cost-and-sales-rates-for-catalog-products---lite"></a><span data-ttu-id="3d0ac-103">Konfigurowanie kosztów i stawek sprzedaży dla katalogu produktów — wersja uproszczona</span><span class="sxs-lookup"><span data-stu-id="3d0ac-103">Set up cost and sales rates for catalog products - lite</span></span>
 
-<span data-ttu-id="193da-104">_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_</span><span class="sxs-lookup"><span data-stu-id="193da-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="3d0ac-104">_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_</span><span class="sxs-lookup"><span data-stu-id="3d0ac-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
 
 
-<span data-ttu-id="193da-105">Konfigurowanie cen dla pozycji katalogu produktów w Dynamics 365 Project Operations jest takie samo jak w Dynamics 365 Sales.</span><span class="sxs-lookup"><span data-stu-id="193da-105">Setting up pricing for product catalog items in Dynamics 365 Project Operations is the same as in Dynamics 365 Sales.</span></span>
+<span data-ttu-id="3d0ac-105">Konfigurowanie cen dla pozycji katalogu produktów w Dynamics 365 Project Operations jest takie samo jak w Dynamics 365 Sales.</span><span class="sxs-lookup"><span data-stu-id="3d0ac-105">Setting up pricing for product catalog items in Dynamics 365 Project Operations is the same as in Dynamics 365 Sales.</span></span>
 
-<span data-ttu-id="193da-106">W Project Operations produktów nie można szacować ani używać w projektach, więc cen katalogowych produktów nie trzeba ustawiać w cennikach projektów dla ofert i umów.</span><span class="sxs-lookup"><span data-stu-id="193da-106">In Project Operations, products can't be estimated or used on projects, so product catalog prices don't need to be set on project price lists for quotes and contracts.</span></span>
+<span data-ttu-id="3d0ac-106">W Project Operations produktów nie można szacować ani używać w projektach, więc cen katalogowych produktów nie trzeba ustawiać w cennikach projektów dla ofert i umów.</span><span class="sxs-lookup"><span data-stu-id="3d0ac-106">In Project Operations, products can't be estimated or used on projects, so product catalog prices don't need to be set on project price lists for quotes and contracts.</span></span>
 
-<span data-ttu-id="193da-107">Użyj pola **Cena produktu** oferty, umowy lub konta, aby skonfigurować ceny katalogu produktów.</span><span class="sxs-lookup"><span data-stu-id="193da-107">Use the **Product Price** field of a quote, contract, or account to set up product catalog prices.</span></span> <span data-ttu-id="193da-108">Nie ustawiaj cen katalogowych produktów w cennikach projektu.</span><span class="sxs-lookup"><span data-stu-id="193da-108">Don't set up product catalog prices in the project price lists.</span></span> <span data-ttu-id="193da-109">Cenniki projektu są dostępne wyłącznie w ramach Project Operations.</span><span class="sxs-lookup"><span data-stu-id="193da-109">Project price lists are exclusive to Project Operations.</span></span> <span data-ttu-id="193da-110">Logika biznesowa specyficzna dla aplikacji kopiuje cenniki z oferty do kontraktu.</span><span class="sxs-lookup"><span data-stu-id="193da-110">Application-specific business logic copies the price lists from a quote to a contract.</span></span> <span data-ttu-id="193da-111">W wyniku takiego działania powstaje cennik specyficzny dla danego kontraktu.</span><span class="sxs-lookup"><span data-stu-id="193da-111">The result is a contract-specific project price list.</span></span> <span data-ttu-id="193da-112">Dzięki operacji kopiowania można opóźnić licytację oferty, jeśli cennik projektu w ofercie stanie się za duży.</span><span class="sxs-lookup"><span data-stu-id="193da-112">The copy operation can delay the quote win process if the project price list on the quote gets too large.</span></span> <span data-ttu-id="193da-113">Cenniki produktu nie są kopiowane w celu utworzenia cenników niestandardowych na potrzeby kontraktów.</span><span class="sxs-lookup"><span data-stu-id="193da-113">Product price lists aren't copied to create custom price lists on contracts.</span></span> <span data-ttu-id="193da-114">Ponieważ nie jest wymagane kopiowanie, nie ma to wpływu na wydajność procesu wyceny.</span><span class="sxs-lookup"><span data-stu-id="193da-114">Because there's no copying involved, the performance of the quote process isn't affected.</span></span>
+<span data-ttu-id="3d0ac-107">Użyj pola **Cena produktu** oferty, umowy lub konta, aby skonfigurować ceny katalogu produktów.</span><span class="sxs-lookup"><span data-stu-id="3d0ac-107">Use the **Product Price** field of a quote, contract, or account to set up product catalog prices.</span></span> <span data-ttu-id="3d0ac-108">Nie ustawiaj cen katalogowych produktów w cennikach projektu.</span><span class="sxs-lookup"><span data-stu-id="3d0ac-108">Don't set up product catalog prices in the project price lists.</span></span> <span data-ttu-id="3d0ac-109">Cenniki projektu są dostępne wyłącznie w ramach Project Operations.</span><span class="sxs-lookup"><span data-stu-id="3d0ac-109">Project price lists are exclusive to Project Operations.</span></span> <span data-ttu-id="3d0ac-110">Logika biznesowa specyficzna dla aplikacji kopiuje cenniki z oferty do kontraktu.</span><span class="sxs-lookup"><span data-stu-id="3d0ac-110">Application-specific business logic copies the price lists from a quote to a contract.</span></span> <span data-ttu-id="3d0ac-111">W wyniku takiego działania powstaje cennik specyficzny dla danego kontraktu.</span><span class="sxs-lookup"><span data-stu-id="3d0ac-111">The result is a contract-specific project price list.</span></span> <span data-ttu-id="3d0ac-112">Dzięki operacji kopiowania można opóźnić licytację oferty, jeśli cennik projektu w ofercie stanie się za duży.</span><span class="sxs-lookup"><span data-stu-id="3d0ac-112">The copy operation can delay the quote win process if the project price list on the quote gets too large.</span></span> <span data-ttu-id="3d0ac-113">Cenniki produktu nie są kopiowane w celu utworzenia cenników niestandardowych na potrzeby kontraktów.</span><span class="sxs-lookup"><span data-stu-id="3d0ac-113">Product price lists aren't copied to create custom price lists on contracts.</span></span> <span data-ttu-id="3d0ac-114">Ponieważ nie jest wymagane kopiowanie, nie ma to wpływu na wydajność procesu wyceny.</span><span class="sxs-lookup"><span data-stu-id="3d0ac-114">Because there's no copying involved, the performance of the quote process isn't affected.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
