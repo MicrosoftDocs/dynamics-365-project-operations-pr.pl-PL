@@ -2,8 +2,6 @@
 title: Przewodnik użytkownika dla Centrum zasobów projektu
 description: Przewodnik użytkownika końcowego dla Centrum zasobów projektu dla Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,92 +16,92 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: f4f93ee0c0bdb9fc6a9a3c6a75f6c3d178766d0b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948161"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009089"
 ---
-# <a name="user-guide-for-project-resource-hub"></a><span data-ttu-id="7cf53-103">Przewodnik użytkownika dla Centrum zasobów projektu</span><span class="sxs-lookup"><span data-stu-id="7cf53-103">User guide for Project Resource Hub</span></span>
+# <a name="user-guide-for-project-resource-hub"></a><span data-ttu-id="5b1ae-103">Przewodnik użytkownika dla Centrum zasobów projektu</span><span class="sxs-lookup"><span data-stu-id="5b1ae-103">User guide for Project Resource Hub</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="7cf53-104">Aplikacja Centrum zasobów projektu umożliwia wprowadzanie czasu i kosztów dla projektów, nad którymi użytkownik pracuje, z dowolnego miejsca.</span><span class="sxs-lookup"><span data-stu-id="7cf53-104">With the Project Resource Hub app, you can enter time and expenses for the projects you’re working on the go.</span></span> <span data-ttu-id="7cf53-105">Bądź na bieżąco z czasem i kosztami, aby upewnić się, że:</span><span class="sxs-lookup"><span data-stu-id="7cf53-105">Stay on top of your time and expense entry to make sure:</span></span>
+<span data-ttu-id="5b1ae-104">Aplikacja Centrum zasobów projektu umożliwia wprowadzanie czasu i kosztów dla projektów, nad którymi użytkownik pracuje, z dowolnego miejsca.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-104">With the Project Resource Hub app, you can enter time and expenses for the projects you’re working on the go.</span></span> <span data-ttu-id="5b1ae-105">Bądź na bieżąco z czasem i kosztami, aby upewnić się, że:</span><span class="sxs-lookup"><span data-stu-id="5b1ae-105">Stay on top of your time and expense entry to make sure:</span></span>
 
-- <span data-ttu-id="7cf53-106">Klienci są prawidłowo rozliczani</span><span class="sxs-lookup"><span data-stu-id="7cf53-106">Your clients are billed properly</span></span>
-- <span data-ttu-id="7cf53-107">Wykonana praca zostaje do Ciebie przypisana</span><span class="sxs-lookup"><span data-stu-id="7cf53-107">You get credit for the work you’ve done</span></span>
+- <span data-ttu-id="5b1ae-106">Klienci są prawidłowo rozliczani</span><span class="sxs-lookup"><span data-stu-id="5b1ae-106">Your clients are billed properly</span></span>
+- <span data-ttu-id="5b1ae-107">Wykonana praca zostaje do Ciebie przypisana</span><span class="sxs-lookup"><span data-stu-id="5b1ae-107">You get credit for the work you’ve done</span></span>
 
-<span data-ttu-id="7cf53-108">**Dostępne wszędzie, na dowolnym urządzeniu**</span><span class="sxs-lookup"><span data-stu-id="7cf53-108">**Available anywhere, on any device**</span></span>
+<span data-ttu-id="5b1ae-108">**Dostępne wszędzie, na dowolnym urządzeniu**</span><span class="sxs-lookup"><span data-stu-id="5b1ae-108">**Available anywhere, on any device**</span></span>
 
-<span data-ttu-id="7cf53-109">Istnieją dwie wersje [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]:</span><span class="sxs-lookup"><span data-stu-id="7cf53-109">There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]:</span></span> 
+<span data-ttu-id="5b1ae-109">Istnieją dwie wersje [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]:</span><span class="sxs-lookup"><span data-stu-id="5b1ae-109">There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]:</span></span> 
 
-- <span data-ttu-id="7cf53-110">Jeśli używasz komputera stacjonarnego, użyjesz aplikacji Project Service.</span><span class="sxs-lookup"><span data-stu-id="7cf53-110">If you're using a desktop, you'll use the Project Service app.</span></span> 
+- <span data-ttu-id="5b1ae-110">Jeśli używasz komputera stacjonarnego, użyjesz aplikacji Project Service.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-110">If you're using a desktop, you'll use the Project Service app.</span></span> 
 
-- <span data-ttu-id="7cf53-111">Jeśli jesteś w terenie i korzystasz z telefonu typu smartfon lub komputera typu tablet, użyjesz aplikacji Centrum zasobów projektu, która jest podzbiorem aplikacji Project Service.</span><span class="sxs-lookup"><span data-stu-id="7cf53-111">If you’re in the field using a smartphone or tablet, you’ll use the Project Resource Hub app which is a subset of the Project Service  app.</span></span> <span data-ttu-id="7cf53-112">Aplikacja Centrum zasobów została utworzona z użyciem ujednoliconego interfejsu, który wykorzystuje zasady responsywnego projektu sieci Web w celu utworzenia optymalnego środowiska wyświetlania i interakcji na ekranie o dowolnym rozmiarze, na dowolnym urządzeniu i w dowolnej orientacji.</span><span class="sxs-lookup"><span data-stu-id="7cf53-112">The Project Resource Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.</span></span> 
+- <span data-ttu-id="5b1ae-111">Jeśli jesteś w terenie i korzystasz z telefonu typu smartfon lub komputera typu tablet, użyjesz aplikacji Centrum zasobów projektu, która jest podzbiorem aplikacji Project Service.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-111">If you’re in the field using a smartphone or tablet, you’ll use the Project Resource Hub app which is a subset of the Project Service  app.</span></span> <span data-ttu-id="5b1ae-112">Aplikacja Centrum zasobów została utworzona z użyciem ujednoliconego interfejsu, który wykorzystuje zasady responsywnego projektu sieci Web w celu utworzenia optymalnego środowiska wyświetlania i interakcji na ekranie o dowolnym rozmiarze, na dowolnym urządzeniu i w dowolnej orientacji.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-112">The Project Resource Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.</span></span> 
 
 
-## <a name="install-the-mobile-app"></a><span data-ttu-id="7cf53-113">Zainstaluj aplikację mobilną</span><span class="sxs-lookup"><span data-stu-id="7cf53-113">Install the mobile app</span></span>
-<span data-ttu-id="7cf53-114">Zanim zaczniesz używać aplikacji Centrum zasobów projektu, musisz zainstalować aplikację mobilną na urządzeniu przenośnym.</span><span class="sxs-lookup"><span data-stu-id="7cf53-114">Before you can start using the Project Resource Hub app, you need to install the mobile app on your device.</span></span> 
+## <a name="install-the-mobile-app"></a><span data-ttu-id="5b1ae-113">Zainstaluj aplikację mobilną</span><span class="sxs-lookup"><span data-stu-id="5b1ae-113">Install the mobile app</span></span>
+<span data-ttu-id="5b1ae-114">Zanim zaczniesz używać aplikacji Centrum zasobów projektu, musisz zainstalować aplikację mobilną na urządzeniu przenośnym.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-114">Before you can start using the Project Resource Hub app, you need to install the mobile app on your device.</span></span> 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="7cf53-115">[Zainstaluj Dynamics 365 na telefony i tablety](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).</span><span class="sxs-lookup"><span data-stu-id="7cf53-115">[Install Dynamics 365 for phones and tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).</span></span>
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="5b1ae-115">[Zainstaluj Dynamics 365 na telefony i tablety](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).</span><span class="sxs-lookup"><span data-stu-id="5b1ae-115">[Install Dynamics 365 for phones and tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).</span></span>
 
-## <a name="basic-navigation"></a><span data-ttu-id="7cf53-116">Nawigacja podstawowa</span><span class="sxs-lookup"><span data-stu-id="7cf53-116">Basic Navigation</span></span>
-1.  <span data-ttu-id="7cf53-117">Po zalogowaniu do aplikacji mobilnej zobaczysz stronę MyApps z listą aplikacji, do których możesz uzyskać dostęp.</span><span class="sxs-lookup"><span data-stu-id="7cf53-117">When you sign in on the mobile app, you’ll see the MyApps page with a list of the apps that you access to.</span></span> 
-2.  <span data-ttu-id="7cf53-118">Wybierz **Centrum zasobów projektu**.</span><span class="sxs-lookup"><span data-stu-id="7cf53-118">Select **Project Resource Hub**.</span></span>
+## <a name="basic-navigation"></a><span data-ttu-id="5b1ae-116">Nawigacja podstawowa</span><span class="sxs-lookup"><span data-stu-id="5b1ae-116">Basic Navigation</span></span>
+1.  <span data-ttu-id="5b1ae-117">Po zalogowaniu do aplikacji mobilnej zobaczysz stronę MyApps z listą aplikacji, do których możesz uzyskać dostęp.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-117">When you sign in on the mobile app, you’ll see the MyApps page with a list of the apps that you access to.</span></span> 
+2.  <span data-ttu-id="5b1ae-118">Wybierz **Centrum zasobów projektu**.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-118">Select **Project Resource Hub**.</span></span>
 
-<span data-ttu-id="7cf53-119">![Wybierz aplikację](media/chooseApp_1.png "Wybierz aplikację")</span><span class="sxs-lookup"><span data-stu-id="7cf53-119">![Choose an app](media/chooseApp_1.png "Choose an app")</span></span>
+<span data-ttu-id="5b1ae-119">![Wybierz aplikację](media/chooseApp_1.png "Wybierz aplikację")</span><span class="sxs-lookup"><span data-stu-id="5b1ae-119">![Choose an app](media/chooseApp_1.png "Choose an app")</span></span>
 
-<span data-ttu-id="7cf53-120">**Pasek nawigacyjny**</span><span class="sxs-lookup"><span data-stu-id="7cf53-120">**The navigation bar**</span></span>
+<span data-ttu-id="5b1ae-120">**Pasek nawigacyjny**</span><span class="sxs-lookup"><span data-stu-id="5b1ae-120">**The navigation bar**</span></span>
 
-<span data-ttu-id="7cf53-121">Użyj paska nawigacyjnego, aby uzyskać dostęp do swojego obszaru roboczego, utworzyć nowe wyszukiwanie rekordów lub wykonać inne zadania.</span><span class="sxs-lookup"><span data-stu-id="7cf53-121">Use the nav bar to get to your work area, create a new record, search, or do other tasks.</span></span> <span data-ttu-id="7cf53-122">Aby uzyskać więcej poleceń, naciśnij ![przycisk Więcej](media/MoreButton.png "Przycisk Więcej")</span><span class="sxs-lookup"><span data-stu-id="7cf53-122">To access more commands, tap ![More Button](media/MoreButton.png "More Button")</span></span>
+<span data-ttu-id="5b1ae-121">Użyj paska nawigacyjnego, aby uzyskać dostęp do swojego obszaru roboczego, utworzyć nowe wyszukiwanie rekordów lub wykonać inne zadania.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-121">Use the nav bar to get to your work area, create a new record, search, or do other tasks.</span></span> <span data-ttu-id="5b1ae-122">Aby uzyskać więcej poleceń, naciśnij ![przycisk Więcej](media/MoreButton.png "Przycisk Więcej")</span><span class="sxs-lookup"><span data-stu-id="5b1ae-122">To access more commands, tap ![More Button](media/MoreButton.png "More Button")</span></span>
 
-<span data-ttu-id="7cf53-123">![Pasek nawigacyjny](media/NavBar_2.png "Pasek nawigacyjny")</span><span class="sxs-lookup"><span data-stu-id="7cf53-123">![Nav Bar](media/NavBar_2.png "Nav Bar")</span></span>
+<span data-ttu-id="5b1ae-123">![Pasek nawigacyjny](media/NavBar_2.png "Pasek nawigacyjny")</span><span class="sxs-lookup"><span data-stu-id="5b1ae-123">![Nav Bar](media/NavBar_2.png "Nav Bar")</span></span>
 
-<span data-ttu-id="7cf53-124">**Ulubione i ostatnio używane rekordy.**</span><span class="sxs-lookup"><span data-stu-id="7cf53-124">**Favorites and recently used records**</span></span>
+<span data-ttu-id="5b1ae-124">**Ulubione i ostatnio używane rekordy.**</span><span class="sxs-lookup"><span data-stu-id="5b1ae-124">**Favorites and recently used records**</span></span>
 
-<span data-ttu-id="7cf53-125">Sekcja Ulubione i ostatnio używane zapewnia szybki dostęp do rekordów, widoków i pulpitów nawigacyjnych.</span><span class="sxs-lookup"><span data-stu-id="7cf53-125">The Favorites and Recently Used sections provide quick access to your records, views, and dashboards.</span></span> 
+<span data-ttu-id="5b1ae-125">Sekcja Ulubione i ostatnio używane zapewnia szybki dostęp do rekordów, widoków i pulpitów nawigacyjnych.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-125">The Favorites and Recently Used sections provide quick access to your records, views, and dashboards.</span></span> 
 
-- <span data-ttu-id="7cf53-126">Aby uzyskać dostęp do tych sekcji, naciśnij **Menu** ![Przycisk Menu](media/MenuButton.png "Przycisk Menu") na pasku nawigacyjnym, a następnie naciśnij **Ulubione i ostatnio używane** ![Przycisk Ulubione](media/FavButton.png "Przycisk Ulubione").</span><span class="sxs-lookup"><span data-stu-id="7cf53-126">To access these sections, tap the **Menu** ![Menu button](media/MenuButton.png "Menu button") button on the nav bar, and then tap the **Favorites and Recent** ![Fav Button](media/FavButton.png "Fav Button") button.</span></span>
+- <span data-ttu-id="5b1ae-126">Aby uzyskać dostęp do tych sekcji, naciśnij **Menu** ![Przycisk Menu](media/MenuButton.png "Przycisk Menu") na pasku nawigacyjnym, a następnie naciśnij **Ulubione i ostatnio używane** ![Przycisk Ulubione](media/FavButton.png "Przycisk Ulubione").</span><span class="sxs-lookup"><span data-stu-id="5b1ae-126">To access these sections, tap the **Menu** ![Menu button](media/MenuButton.png "Menu button") button on the nav bar, and then tap the **Favorites and Recent** ![Fav Button](media/FavButton.png "Fav Button") button.</span></span>
 
-- <span data-ttu-id="7cf53-127">Aby przypiąć element jako ulubiony, z listy elementów **Ostatnio używane** wybierz opcję Przypnij.</span><span class="sxs-lookup"><span data-stu-id="7cf53-127">To pin an item as a favorite, from the list of **Recently Used** items, tap the pin.</span></span> <span data-ttu-id="7cf53-128">Spowoduje to przypięcie i przeniesienie elementu do Ulubione.</span><span class="sxs-lookup"><span data-stu-id="7cf53-128">This will pin and move the item to Favorites.</span></span>
+- <span data-ttu-id="5b1ae-127">Aby przypiąć element jako ulubiony, z listy elementów **Ostatnio używane** wybierz opcję Przypnij.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-127">To pin an item as a favorite, from the list of **Recently Used** items, tap the pin.</span></span> <span data-ttu-id="5b1ae-128">Spowoduje to przypięcie i przeniesienie elementu do Ulubione.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-128">This will pin and move the item to Favorites.</span></span>
 
-  <span data-ttu-id="7cf53-129">![Ulubione i ostatnio używane elementy](media/Favs_3.png "Ulubione i ostatnio używane elementy")</span><span class="sxs-lookup"><span data-stu-id="7cf53-129">![Favorites and Recent items](media/Favs_3.png "Favorites and Recent items")</span></span>
+  <span data-ttu-id="5b1ae-129">![Ulubione i ostatnio używane elementy](media/Favs_3.png "Ulubione i ostatnio używane elementy")</span><span class="sxs-lookup"><span data-stu-id="5b1ae-129">![Favorites and Recent items](media/Favs_3.png "Favorites and Recent items")</span></span>
  
-## <a name="enter-time"></a><span data-ttu-id="7cf53-130">Wprowadź godzinę</span><span class="sxs-lookup"><span data-stu-id="7cf53-130">Enter time</span></span>
-<span data-ttu-id="7cf53-131">Wprowadzaj swoje godziny co najmniej raz w tygodniu — lub z częstotliwością wymaganą przez menedżerów — aby się upewnić, że klienci otrzymują faktury, a na Twoje konto zaliczane są zrealizowane zadania.</span><span class="sxs-lookup"><span data-stu-id="7cf53-131">Enter your hours at least weekly—or at the frequency requested by your managers—to ensure your clients are invoiced and you’re credited correctly.</span></span>
+## <a name="enter-time"></a><span data-ttu-id="5b1ae-130">Wprowadź godzinę</span><span class="sxs-lookup"><span data-stu-id="5b1ae-130">Enter time</span></span>
+<span data-ttu-id="5b1ae-131">Wprowadzaj swoje godziny co najmniej raz w tygodniu — lub z częstotliwością wymaganą przez menedżerów — aby się upewnić, że klienci otrzymują faktury, a na Twoje konto zaliczane są zrealizowane zadania.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-131">Enter your hours at least weekly—or at the frequency requested by your managers—to ensure your clients are invoiced and you’re credited correctly.</span></span>
 
-1. <span data-ttu-id="7cf53-132">Wybierz przycisk menu ![Przycisk Menu](media/MenuButton.png "Przycisk Menu"), a następnie naciśnij **Wpisy czasu**.</span><span class="sxs-lookup"><span data-stu-id="7cf53-132">Tap the menu ![Menu button](media/MenuButton.png "Menu button") button, and then tap **Time Entries**.</span></span> <span data-ttu-id="7cf53-133">Pojawi się kalendarz.</span><span class="sxs-lookup"><span data-stu-id="7cf53-133">This brings up your calendar.</span></span>
+1. <span data-ttu-id="5b1ae-132">Wybierz przycisk menu ![Przycisk Menu](media/MenuButton.png "Przycisk Menu"), a następnie naciśnij **Wpisy czasu**.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-132">Tap the menu ![Menu button](media/MenuButton.png "Menu button") button, and then tap **Time Entries**.</span></span> <span data-ttu-id="5b1ae-133">Pojawi się kalendarz.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-133">This brings up your calendar.</span></span>
 
-2. <span data-ttu-id="7cf53-134">Aby zobaczyć harmonogram dla poprzedniego lub następnego tygodnia, naciśnij przycisk **Poprzedni** lub **Następny**, .</span><span class="sxs-lookup"><span data-stu-id="7cf53-134">To see your calendar for the previous or next week, tap the **Previous** or **Next** button.</span></span> <span data-ttu-id="7cf53-135">Naciśnij **Dziś**, aby wrócić do bieżącego tygodnia.</span><span class="sxs-lookup"><span data-stu-id="7cf53-135">Tap **Today** to get back to the current week.</span></span>
+2. <span data-ttu-id="5b1ae-134">Aby zobaczyć harmonogram dla poprzedniego lub następnego tygodnia, naciśnij przycisk **Poprzedni** lub **Następny**, .</span><span class="sxs-lookup"><span data-stu-id="5b1ae-134">To see your calendar for the previous or next week, tap the **Previous** or **Next** button.</span></span> <span data-ttu-id="5b1ae-135">Naciśnij **Dziś**, aby wrócić do bieżącego tygodnia.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-135">Tap **Today** to get back to the current week.</span></span>
 
-3. <span data-ttu-id="7cf53-136">Aby wprowadzić czas, naciśnij **Nowy** na pasku poleceń.</span><span class="sxs-lookup"><span data-stu-id="7cf53-136">To enter your time, tap **New** on the command bar.</span></span> 
+3. <span data-ttu-id="5b1ae-136">Aby wprowadzić czas, naciśnij **Nowy** na pasku poleceń.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-136">To enter your time, tap **New** on the command bar.</span></span> 
 
-4. <span data-ttu-id="7cf53-137">Wypełnij pola w formularzu i naciśnij **Zapisz**.</span><span class="sxs-lookup"><span data-stu-id="7cf53-137">Fill in the fields in the form and tap **Save**.</span></span>
+4. <span data-ttu-id="5b1ae-137">Wypełnij pola w formularzu i naciśnij **Zapisz**.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-137">Fill in the fields in the form and tap **Save**.</span></span>
 
-5. <span data-ttu-id="7cf53-138">Kontynuuj wprowadzanie czasu dla danego tygodnia.</span><span class="sxs-lookup"><span data-stu-id="7cf53-138">Continue entering time for the week.</span></span> <span data-ttu-id="7cf53-139">Gdy skończysz i wszystko wygląda poprawnie, naciśnij **Prześlij**.</span><span class="sxs-lookup"><span data-stu-id="7cf53-139">When you’re done and everything looks correct, tap **Submit**.</span></span> <span data-ttu-id="7cf53-140">Menedżer przejrzy i zatwierdzi Twoje wpisy czasu.</span><span class="sxs-lookup"><span data-stu-id="7cf53-140">A manager will review and approve your time entries.</span></span>
+5. <span data-ttu-id="5b1ae-138">Kontynuuj wprowadzanie czasu dla danego tygodnia.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-138">Continue entering time for the week.</span></span> <span data-ttu-id="5b1ae-139">Gdy skończysz i wszystko wygląda poprawnie, naciśnij **Prześlij**.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-139">When you’re done and everything looks correct, tap **Submit**.</span></span> <span data-ttu-id="5b1ae-140">Menedżer przejrzy i zatwierdzi Twoje wpisy czasu.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-140">A manager will review and approve your time entries.</span></span>
 
-## <a name="enter-expenses"></a><span data-ttu-id="7cf53-141">Wprowadź koszty</span><span class="sxs-lookup"><span data-stu-id="7cf53-141">Enter expenses</span></span> 
-<span data-ttu-id="7cf53-142">Wprowadzaj swoje wydatki co najmniej raz w tygodniu — lub z częstotliwością wymaganą przez menedżerów — aby się upewnić, że klienci otrzymują faktury, a na Twoje konto zaliczane są zrealizowane zadania.</span><span class="sxs-lookup"><span data-stu-id="7cf53-142">Enter your expenses at least weekly—or at the frequency requested by your managers—to ensure your clients are invoiced and you’re credited correctly.</span></span>
+## <a name="enter-expenses"></a><span data-ttu-id="5b1ae-141">Wprowadź koszty</span><span class="sxs-lookup"><span data-stu-id="5b1ae-141">Enter expenses</span></span> 
+<span data-ttu-id="5b1ae-142">Wprowadzaj swoje wydatki co najmniej raz w tygodniu — lub z częstotliwością wymaganą przez menedżerów — aby się upewnić, że klienci otrzymują faktury, a na Twoje konto zaliczane są zrealizowane zadania.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-142">Enter your expenses at least weekly—or at the frequency requested by your managers—to ensure your clients are invoiced and you’re credited correctly.</span></span>
 
-1. <span data-ttu-id="7cf53-143">Wybierz przycisk menu ![Przycisk Menu](media/MenuButton.png "Przycisk Menu"), a następnie naciśnij **Wydatki**.</span><span class="sxs-lookup"><span data-stu-id="7cf53-143">Tap the menu ![Menu button](media/MenuButton.png "Menu button") button, and then tap **Expenses**.</span></span> <span data-ttu-id="7cf53-144">Pojawi się kalendarz.</span><span class="sxs-lookup"><span data-stu-id="7cf53-144">This brings up your calendar.</span></span>
+1. <span data-ttu-id="5b1ae-143">Wybierz przycisk menu ![Przycisk Menu](media/MenuButton.png "Przycisk Menu"), a następnie naciśnij **Wydatki**.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-143">Tap the menu ![Menu button](media/MenuButton.png "Menu button") button, and then tap **Expenses**.</span></span> <span data-ttu-id="5b1ae-144">Pojawi się kalendarz.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-144">This brings up your calendar.</span></span>
 
-2. <span data-ttu-id="7cf53-145">Możesz przełączyć się na widok **Dzień**, **Tydzień**, lub **Miesiąc**, albo przejść do następnego lub poprzedniego okresu.</span><span class="sxs-lookup"><span data-stu-id="7cf53-145">You can switch to **Day**, **Week**, or **Month** view, or navigate to the previous or next time period.</span></span> 
+2. <span data-ttu-id="5b1ae-145">Możesz przełączyć się na widok **Dzień**, **Tydzień**, lub **Miesiąc**, albo przejść do następnego lub poprzedniego okresu.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-145">You can switch to **Day**, **Week**, or **Month** view, or navigate to the previous or next time period.</span></span> 
 
-3. <span data-ttu-id="7cf53-146">Aby wprowadzić wydatki, naciśnij **Nowy** na pasku poleceń.</span><span class="sxs-lookup"><span data-stu-id="7cf53-146">To enter your expense, tap **New** on the command bar.</span></span> 
+3. <span data-ttu-id="5b1ae-146">Aby wprowadzić wydatki, naciśnij **Nowy** na pasku poleceń.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-146">To enter your expense, tap **New** on the command bar.</span></span> 
 
-4. <span data-ttu-id="7cf53-147">Wypełnij pola w formularzu i naciśnij **Zapisz**.</span><span class="sxs-lookup"><span data-stu-id="7cf53-147">Fill in the fields in the form and tap **Save**.</span></span>
+4. <span data-ttu-id="5b1ae-147">Wypełnij pola w formularzu i naciśnij **Zapisz**.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-147">Fill in the fields in the form and tap **Save**.</span></span>
 
-5. <span data-ttu-id="7cf53-148">Kontynuuj wprowadzanie wydatków dla danego tygodnia.</span><span class="sxs-lookup"><span data-stu-id="7cf53-148">Continue entering expenses for the week.</span></span> <span data-ttu-id="7cf53-149">Gdy skończysz i wszystko wygląda poprawnie, naciśnij **Prześlij**.</span><span class="sxs-lookup"><span data-stu-id="7cf53-149">When you’re done and everything looks correct, tap **Submit**.</span></span> <span data-ttu-id="7cf53-150">Menedżer przejrzy i zatwierdzi Twoje wydatki.</span><span class="sxs-lookup"><span data-stu-id="7cf53-150">A manager will review and approve your expenses.</span></span>
+5. <span data-ttu-id="5b1ae-148">Kontynuuj wprowadzanie wydatków dla danego tygodnia.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-148">Continue entering expenses for the week.</span></span> <span data-ttu-id="5b1ae-149">Gdy skończysz i wszystko wygląda poprawnie, naciśnij **Prześlij**.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-149">When you’re done and everything looks correct, tap **Submit**.</span></span> <span data-ttu-id="5b1ae-150">Menedżer przejrzy i zatwierdzi Twoje wydatki.</span><span class="sxs-lookup"><span data-stu-id="5b1ae-150">A manager will review and approve your expenses.</span></span>
 
-## <a name="general-information-on-how-to-use-the-mobile-app"></a><span data-ttu-id="7cf53-151">Ogólne informacje na temat korzystania z aplikacji mobilnej</span><span class="sxs-lookup"><span data-stu-id="7cf53-151">General information on how to use the mobile app</span></span> 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="7cf53-152">[Aplikacja mobilna - Podręcznik](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).</span><span class="sxs-lookup"><span data-stu-id="7cf53-152">[Mobile Basics Guide](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).</span></span>
+## <a name="general-information-on-how-to-use-the-mobile-app"></a><span data-ttu-id="5b1ae-151">Ogólne informacje na temat korzystania z aplikacji mobilnej</span><span class="sxs-lookup"><span data-stu-id="5b1ae-151">General information on how to use the mobile app</span></span> 
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="5b1ae-152">[Aplikacja mobilna - Podręcznik](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).</span><span class="sxs-lookup"><span data-stu-id="5b1ae-152">[Mobile Basics Guide](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).</span></span>
 
-### <a name="see-also"></a><span data-ttu-id="7cf53-153">Zobacz także</span><span class="sxs-lookup"><span data-stu-id="7cf53-153">See Also</span></span>  
- <span data-ttu-id="7cf53-154">[Przewodnik po rozwiązaniu Project Service](../psa/overview.md) </span><span class="sxs-lookup"><span data-stu-id="7cf53-154">[Overview of Project Service](../psa/overview.md) </span></span>  
- [<span data-ttu-id="7cf53-155">Przewodnik dotyczący czasu, wydatków i współpracy</span><span class="sxs-lookup"><span data-stu-id="7cf53-155">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)   
+### <a name="see-also"></a><span data-ttu-id="5b1ae-153">Zobacz także</span><span class="sxs-lookup"><span data-stu-id="5b1ae-153">See Also</span></span>  
+ <span data-ttu-id="5b1ae-154">[Przewodnik po rozwiązaniu Project Service](../psa/overview.md) </span><span class="sxs-lookup"><span data-stu-id="5b1ae-154">[Overview of Project Service](../psa/overview.md) </span></span>  
+ [<span data-ttu-id="5b1ae-155">Przewodnik dotyczący czasu, wydatków i współpracy</span><span class="sxs-lookup"><span data-stu-id="5b1ae-155">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)   
  
 
 
