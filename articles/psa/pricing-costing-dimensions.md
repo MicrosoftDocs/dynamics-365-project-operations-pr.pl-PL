@@ -2,12 +2,10 @@
 title: Strona główna wymiarów kalkulacji cen i kosztów
 description: Ta temat zawiera omówienie funkcjonalności wymiarów kalkulacji cen.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284146"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009269"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Strona główna wymiarów kalkulacji cen i kosztów
 
@@ -67,16 +65,16 @@ W przykładzie pod spodem przedstawiono stawki rozliczania skonfigurowane na pod
 
 | Rola        | Jednostka organizacyjna    |Jednostka      |Cena      |Waluta  |
 | ------------|-------------|----------|----------:|----------|
-| Dla deweloperów   | Contoso US  |Hour | 200|USD     |
-| Dla deweloperów   | Contoso India |Hour|   112|USD     |
+| Deweloperskie   | Contoso — USA  |godzina | 200|USD     |
+| Deweloperskie   | Contoso Indie |godzina|   112|USD     |
 
 
 **Przykładowe stawki kosztów**
 
 | Pasmo wynagrodzenia     | Jednostka organizacyjna    |Jednostka      |Cena      |Waluta  |
 | ----------------|-------------|----------|----------:|----------|
-| Moja firma_pasmo1 | Contoso US  |Hour | 145|USD     |
-| Moja firma_pasmo2 | Contoso India |Hour|   67|USD     |
+| Moja firma_pasmo1 | Contoso — USA  |godzina | 145|USD     |
+| Moja firma_pasmo2 | Contoso Indie |godzina|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

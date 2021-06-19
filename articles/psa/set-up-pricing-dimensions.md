@@ -2,12 +2,10 @@
 title: Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen
 description: Ten temat zawiera informacje na temat konfigurowania niestandardowych wymiarów kalkulacji cen.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282481"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008324"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen 
 
@@ -73,9 +71,9 @@ Istnieją dwa typy wymiarów kalkulacji cen:
   
 | Rola        | Jednostka organizacyjna    |Lokalizacja pracy      |Standardowe stanowisko      |Godziny pracy zasobu      |  Narzut|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso India|Na miejscu            |                    |Nadgodziny                 |15     |
-|             | Contoso India|Lokalny             |                    |Nadgodziny                 |10     |
-|             | Contoso US   |Lokalny             |                    |Nadgodziny                 |20     |
+|             | Contoso Indie|Na miejscu            |                    |Nadgodziny                 |15     |
+|             | Contoso Indie|Lokalny             |                    |Nadgodziny                 |10     |
+|             | Contoso — USA   |Lokalny             |                    |Nadgodziny                 |20     |
 
 
 Jeśli zasób z firmy Contoso India, którego stawka podstawowa to 100 USD, pracuje na miejscu, a we wpisie czasu odnotuje 8 godzin regularnego czasu pracy i 2 godziny nadgodzin, aparat kalkulacji cen w usłudze Project Service użyje stawki podstawowej 100 dla 8 godzin i w ten sposób zarejestruje 800 USD. Dla 2 godzin nadgodzin zastosuje narzut 15% do stawki podstawowej 100 USD, uzyskując w ten sposób cenę jednostkową 115 USD i odnotowując łączny koszt 230 USD.

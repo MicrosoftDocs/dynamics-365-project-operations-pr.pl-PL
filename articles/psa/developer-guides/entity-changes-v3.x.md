@@ -2,12 +2,10 @@
 title: Zmiany dotyczące encji, kontrolek i interfejsu użytkownika (Project Service Automation wer. 3.x)
 description: Ten temat opisuje zmiany wprowadzone w rozwiązaniu Microsoft Dynamics Project Service Automation w wersji 3.x.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/15/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa80f459260f30360e78a1e7bcc00706dbc0b5a4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e3d6f515cec51cb30f83ff22a14ecb125dc81214
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284911"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007964"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Zmiany dotyczące encji, kontrolek i interfejsu użytkownika (Project Service Automation wer. 3.x)
 

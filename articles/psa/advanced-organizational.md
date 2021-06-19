@@ -2,8 +2,6 @@
 title: Jednostki organizacyjne
 description: Ten temat zawiera informacje o jednostkach organizacyjnych w programie Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291677"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009629"
 ---
 # <a name="organizational-units"></a>Jednostki organizacyjne 
 
@@ -79,7 +77,7 @@ W przypadku implementacji Dynamics 365 należy zoptymalizować autoryzację zabe
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Przykład jednostek organizacyjnych i jednostek biznesowych
 
-Firma Contoso Ltd. w praktyce stosuje technologię firmy Microsoft. Jakub i Emilia są projektantami C\#, ale Emilia jest w Stanach Zjednoczonych, podczas gdy Jakub znajduje się w Indiach. Większość zakontraktowań projektów wymaga zasobów firmy Contoso Indie i contoso US, a Jakub i Emilia wymagają takiego samego poziomu zabezpieczeń w stosunku do projektów w tym obszarze. Jednak koszty deweloperów z firmy Contoso Indie różnią się znacznie od kosztów deweloperów w firmie Contoso US.
+Firma Contoso Ltd. w praktyce stosuje technologię firmy Microsoft. Jakub i Emilia są projektantami C\#, ale Emilia jest w Stanach Zjednoczonych, podczas gdy Jakub znajduje się w Indiach. Większość zakontraktowań projektów wymaga zasobów firmy Contoso Indie i Contoso US, a Jakub i Emilia wymagają takiego samego poziomu zabezpieczeń w stosunku do projektów w tym obszarze. Jednak koszty deweloperów z firmy Contoso Indie różnią się znacznie od kosztów deweloperów w firmie Contoso US.
 
 Oto optymalny sposób projektowania w tym scenariuszu przy użyciu aplikacji Dynamics 365 i PSA.
 
@@ -96,7 +94,7 @@ Jednostka organizacyjna jest grupą wewnętrzną lub działem w firmie, która �
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Przykład jednostek organizacyjnych i obszarów sprzedaży
 
-Contoso, Ltd. ma dwa centra opracowywania: Contoso US i Contoso Indie. Koszty zasobów różnią się znacząco między tymi dwoma centrami rozwoju.
+Contoso Ltd. ma dwa centra opracowywania: Contoso US i Contoso Indie. Koszty zasobów różnią się znacząco między tymi dwoma centrami rozwoju.
 
 Contoso sprzedaje usługi IT na wielu międzynarodowych rynkach, takich jak Ameryka Łacińska, Ameryka Północna, Azja, Pacyfik, Europa Zachodnia i Bliski Wschód. Stawka rozliczania za te same role projektów mogą się znacznie różnić między tymi rynkami.
 
@@ -124,7 +122,7 @@ Nr W bieżącej wersji PSA jednostki organizacyjne nie są hierarchiczne. Oznacz
 Jeśli istnieje złożona hierarchia centrów kosztów, działy, oddziały fakturowania itd., jako odrębne jednostki organizacyjne należy skonfigurować węzły liści z tej hierarchii.
 W poniższym przykładzie przedstawiono typową hierarchię:
 
-**Contoso India**
+**ContosoIndie**
 
   - Praktyka SAP 
 
