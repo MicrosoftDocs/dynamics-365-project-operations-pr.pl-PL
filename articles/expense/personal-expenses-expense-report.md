@@ -2,19 +2,17 @@
 title: Pracuj z wydatkami osobistymi na raporcie wydatków
 description: Ten temat zawiera informacje o tym, jak radzić sobie z wydatkami osobistymi poniesionymi przez pracowników podczas podróży służbowych.
 author: suvaidya
-manager: tfehr
-ms.date: 11/18/2020
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: d2d558ad4f1a35f83af93d37e377db66d7f70e4f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae25eca08089d224f1e17e95eeb571054de8a5c0
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276242"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025697"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Pracuj z wydatkami osobistymi na raporcie wydatków
 
@@ -28,6 +26,15 @@ Istnieją dwie metody pracy z wydatkami osobistymi pracownika:
   - **Zapłacona przez firmę**: Twoja organizacja płaci pełny rachunek za firmową kartę kredytową, a następnie obciąża konto pracownika kosztami osobistymi.
 
 Użytkownik może wybrać metodę, której dana organizacja użyje na stronie **Parametrów zarządzania wydatkami**.
+
+
+## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Włącz funkcję dzielenia wydatków, gdy pole kwoty osobistej ma zdefiniowaną wartość
+
+Funkcja **Włącz funkcję podzielonego wydatku, gdy pole kwoty osobistej ma zdefiniowaną wartość** dotyczy tylko raportów wydatków, które są zatwierdzane za pomocą przepływu pracy na poziomie linii. Zatwierdzenie raportu odbywa się poprzez przejście do zakładki **Obsługa raportów wydatków** > **Raporty wydatków przypisane do mnie** > **Otwórz raport wydatków**. 
+
+Aby włączyć tę funkcję, należy przejść do **Obszary robocze** > **Zarządzanie funkcjami**, wybrać **Włącz funkcję dzielenia wydatków, gdy pole kwoty osobistej ma zdefiniowaną wartość**, a następnie wybrać **Uruchom teraz**. 
+
+Gdy funkcja jest włączona, linie wydatków, które korzystają z tej funkcjonalności, generują dwie linie podczas składania raportu. Generowane są dwie linie, aby osoba zatwierdzająca mogła zatwierdzić każdą linię osobno.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

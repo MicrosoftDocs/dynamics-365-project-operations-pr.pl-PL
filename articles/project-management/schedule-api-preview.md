@@ -2,18 +2,16 @@
 title: Użyj interfejsów API harmonogramu, aby wykonywać operacje na jednostkach planowania
 description: To temat zawiera informacje i przykłady dotyczące korzystania z interfejsów API planowania.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950817"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116810"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Użyj interfejsów API harmonogramu, aby wykonywać operacje na jednostkach planowania
 
@@ -268,7 +266,6 @@ Oto lista ograniczeń i znanych problemów:
 - Każdy użytkownik może mieć otwartych maksymalnie 10 **OperationSets**.
 - Project Operations obsługuje obecnie maksymalnie 500 wszystkich zadań w projekcie.
 - Obecnie nie są dostępne dzienniki błędów i stanu niepowodzenia **OperationSet**.
-- Harmonogram interfejsów API jest w publicznej wersji zapoznawczej. Używanie tych interfejsów API w środowisku produkcyjnym nie jest obsługiwane przez firmę Microsoft.
 - [Limity i ograniczenia projektów i zadań](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Obsługa błędów
