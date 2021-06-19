@@ -2,18 +2,16 @@
 title: Wpis wydatków (lekkich)
 description: W tym temat zamieszczono informacje na temat pracy z wpisem wydatków w ramach wdrożenia w wersji uproszczonej.
 author: stsporen
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 539d0ba6be6f49a6f0509595a0776ef67135496d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e75a61c25be06a9db121e8165e8ccd25d4719d08
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276766"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002204"
 ---
 # <a name="expense-entry-lite"></a>Wpis wydatków (lekkich)
 

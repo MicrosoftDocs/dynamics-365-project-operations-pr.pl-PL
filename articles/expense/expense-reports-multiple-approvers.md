@@ -2,11 +2,9 @@
 title: Raporty wydatków i różne osoby zatwierdzające
 description: Ta temat zawiera informacje na temat raportów z wydatków, które wymagają zatwierdzenia przez więcej niż jedną osobę.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9b9826c89e9deb870adb053f82bd049906f56052
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2502b2975ad3aebad720970e693ea68eac0a302c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276541"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002069"
 ---
 # <a name="expense-reports-and-multiple-approvers"></a>Raporty wydatków i różne osoby zatwierdzające
 

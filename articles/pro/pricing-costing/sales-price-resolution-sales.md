@@ -2,18 +2,16 @@
 title: Rozwiązywanie kosztów sprzedaży dla oszacowań i wartości rzeczywistych projektu
 description: Ten temat zawiera informacje o ustalaniu cen sprzedaży na kosztorysach projektu i wartościach rzeczywistych.
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 8ac7b8ca7dfc5679b0acb1a984bb7663552d66b4
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877369"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004351"
 ---
 # <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Rozwiązywanie kosztów sprzedaży dla oszacowań i wartości rzeczywistych projektu
 

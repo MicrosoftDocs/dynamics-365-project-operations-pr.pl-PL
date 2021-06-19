@@ -2,18 +2,16 @@
 title: Tworzenie harmonogramów fakturowania w pozycji kontraktu opartego na projekcie - wersja uproszczona
 description: W tym temat zamieszczono informacje dotyczące tworzenia harmonogramów faktur i punktów kontrolnych.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4706a2a711efa7d176030deaa33b65bca28d8498
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 548858f6d2257343a632657ca386da03f1f330a9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273391"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003244"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Tworzenie harmonogramów fakturowania w pozycji kontraktu opartego na projekcie - wersja uproszczona
 

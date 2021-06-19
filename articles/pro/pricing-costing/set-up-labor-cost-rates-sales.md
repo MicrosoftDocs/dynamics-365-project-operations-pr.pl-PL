@@ -2,18 +2,16 @@
 title: Konfigurowanie stawek kosztów robocizny — wersja uproszczona
 description: W tym temacie zamieszczono informacje dotyczące sposobu konfigurowania stawek wykonanej pracy w Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6b1265e5e4d29ccc3f620da364fc9554285a176
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f67b03d2646e81b4aa84f6f93eb2600ff8888bba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274381"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004229"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Konfigurowanie stawek kosztów robocizny — wersja uproszczona
 
