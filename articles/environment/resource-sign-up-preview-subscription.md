@@ -2,16 +2,16 @@
 title: Rejestracja w przeglądzie subskrypcji Project Operations w ramach scenariuszy zasobów / zasobów niemagazynowanych
 description: W tym temacie zamieszczono informacje dotyczące sposobu subskrypcji i wdrożenia Project Operations do obsługi zasobów i zasobów niemagazynowanych.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1b8c8982ede83191ce346e76718322d47abf0dd8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da93fcf23ee3f255812842e31cb22b5d39daa963
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000449"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334840"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Rejestracja w przeglądzie subskrypcji Project Operations w ramach scenariuszy zasobów / zasobów niemagazynowanych
 
@@ -19,48 +19,30 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-W tym temacie przedstawiono sposób subskrybowania wersji zapoznawczej / partnerskiej i wdrożenie Project Operations na potrzeby scenariuszy zasobów i zasobów niemagazynowanych.
+Ten temat wyjaśnia, jak subskrybować ofertę wersji próbnej i wdrożyć środowisko aplikacji Project Operations dla scenariuszy obejmujących zasoby/nieobejmujących magazynowania.
 
 ## <a name="prerequisites"></a>Wymagania wstępne
-
-- Otrzymasz wiadomość e-mail z zaproszeniem do skorzystania z wersji zapoznawczej. O dostęp do wersji zapoznawczej można wystąpić na [stronie internetowej Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- Użytkownik wdrażający wersję zapoznawczą musi posiadać prawa administratora globalnego dzierżawy Azure.
+- Użytkownik wdrażający wersję zapoznawczą musi posiadać prawa administratora globalnego dzierżawy Azure. Dzierżawcę można utworzyć podczas realizowania pierwszej oferty. 
 - Wdrożenie środowiska Finance wymaga poprawnej subskrypcji Azure, która będzie rozliczana w ramach poszczególnego środowiska. Aby rozpocząć, należy użyć istniejącej subskrypcji lub [wersji próbnej usługi Azure](https://azure.microsoft.com/en-us/free/). Środowisko CDS jest dostępne bezpłatnie przez okres 30 dni.
-
-## <a name="subscribe"></a>Subskrybuj
-
-Po zatwierdzeniu [żądania wersji zapoznawczej](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), otrzymasz 3 wiadomości e-mail z ofertą od firmy Microsoft. Te oferty umożliwiają wdrożenie wersji zapoznawczej Project Operations:
-
-- Dynamics 365 Project Operations (CRM) — próbna wersja zapoznawcza
-- Office 365 Project Operations — (wersja zapoznawcza)
-- Dynamics 365 Finance — próbna wersja zapoznawcza
 
 > [!IMPORTANT]
 > To zadanie musi wykonać tylko jedna osoba — administrator dzierżawy w organizacji. Jeśli nie jesteś subskrybentem tej wersji, zaczekaj, aż organizacja się zarejestruje i otrzymasz swoje poświadczenia użytkownika.
+> 
+> Wersje próbne można używać raz w ramach dzierżawcy. Wersję próbną można uruchomić tylko raz. Na potrzeby wersji próbnej zalecamy utworzenie nowego dzierżawcy.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) — próbna wersja zapoznawcza 
+
+### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations (CE) — wersja próbna w wersji zapoznawczej 
 
 Przed rozpoczęciem pracy należy się upewnić, że użytkownik jest zalogowany w przeglądarce i ma konto pracy użytkownika w dzierżawie, w której ma zostać wyświetlona wersja zapoznawcza Project Operations.
 
-1. Zrealizuj pierwszy kod oferty, **Dynamics 365 Project Operations (CRM) — próbna wersja zapoznawcza**, wklejając go do adresu URL przeglądarki.
-
-![Realizacja oferty](./media/16RedeemFirstOfferNew.png)
-
+1. Zrealizuj tutaj kod pierwszej oferty, czyli aplikacji **Dynamics 365 Project Operations** [Wersja próbna aplikacji Project Operations](https://aka.ms/try-po).
 2. Potwierdź zamówienie.
 
-![Potwierdź zamówienie](./media/17ConfirmOrderNew.png)
-
-Zobaczysz, że oferta potwierdzenia została zrealizowana pomyślnie.
-
-![Potwierdzenie](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations — (wersja zapoznawcza)
-
-Powtórz te kroki, tak jak w przypadku pierwszego kodu oferty. Należy pamiętać, aby dodać drugi kod oferty, korzystając z tego samego konta użytkownika, które zostało użyte za pierwszym razem.
+  Zobaczysz, że oferta potwierdzenia została zrealizowana pomyślnie.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance — próbna wersja zapoznawcza
 
-Powtórz te same kroki dla ostatniej oferty z powitalnej wiadomości e-mail.
+Przejdź do [wersji próbnej aplikacji Dynamics 365 for Finance w wersji zapoznawczej](https://aka.ms/trypoche) i powtórz kroki z poprzedniej sekcji wraz z ofertą. Zarejestruj się w środowisku hostowanym w chmurze.  
 
 ## <a name="assign-licenses"></a>Przypisywanie licencji
 
@@ -69,13 +51,9 @@ Powtórz te same kroki dla ostatniej oferty z powitalnej wiadomości e-mail.
 
 1. Przejdź do [Centrum administracyjnego Microsoft 365](https://portal.office.com/), aby przypisać licencje do użytkowników.
 
-![Strona Centrum administracyjnego](./media/14AdminPortal.png)
-
 2. Na stronie **Aktywni użytkownicy** wybierz użytkownika, któremu chcesz przypisać licencję.
 
-![Przypisywanie licencji](./media/15AssignLicenses.png)
-
-3. Sprawdź, czy wybrano licencję rozwiązań **Dynamics 365 Project Operations (CRM) — wersja zapoznawcza** i **Office 365 Project Operations — wersja zapoznawcza**, i wybierz pozycję **Zapisz zmiany**.
+3. Sprawdź, czy wybrano licencję aplikacji **Dynamics 365 Project Operations**, i wybierz opcję **Zapisz zmiany**.
 
 > [!NOTE]
 > Oferta wersji próbnej Finance nie musi być przypisana do użytkownika.
@@ -95,7 +73,7 @@ Postępuj zgodnie z instrukcjami w temacie [Ustanowienie nowego środowiska](res
 ## <a name="install-cds-setup-and-configuration-data"></a>Zainstaluj konfigurację CDS i dane konfiguracyjne
 
 Zainstaluj konfigurację CDS i dane konfiguracyjne, tak jak to opisano w temacie [Konfiguracja i stosowanie danych konfiguracyjnych w usłudze Common Data Service](resource-apply-pro-setup-config-data.md).
-Tę czynność należy wykonać tylko po wdrożeniu środowiska pokazowego Finance i przygotowaniu danych demonstracyjnych w FO.
+Wykonaj ten krok dopiero po wdrożeniu środowiska pokazowego aplikacji Finance i przygotowaniu danych do pokazu.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

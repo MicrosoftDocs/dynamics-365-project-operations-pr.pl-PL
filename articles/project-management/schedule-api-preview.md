@@ -1,19 +1,19 @@
 ---
-title: Użyj interfejsów API harmonogramu, aby wykonywać operacje na jednostkach planowania
-description: To temat zawiera informacje i przykłady dotyczące korzystania z interfejsów API planowania.
+title: Używanie interfejsów API harmonogramu projektu do wykonywania operacji na encji planowania
+description: Ten temat zawiera informacje i przykłady dotyczące korzystania z interfejsów API harmonogramu projektu.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116810"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293240"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Użyj interfejsów API harmonogramu, aby wykonywać operacje na jednostkach planowania
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Używanie interfejsów API harmonogramu projektu do wykonywania operacji na encji planowania
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
@@ -22,9 +22,9 @@ _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i 
 
 ## <a name="scheduling-entities"></a>Encje planowania
 
-Harmonogramy API zapewniają możliwość tworzenia, aktualizowania i usuwania operacji z **Encje planowania**. Te jednostki są zarządzane za pomocą aparatu planowania w Project dla sieci Web. We wcześniejszych wersjach Dynamics 365 Project Operations operacje tworzenia, aktualizowania i usuwania **Encji planowania** były ograniczone.
+Interfejsy API harmonogramu projektu zapewniają możliwość wykonywania operacji tworzenia, aktualizowania i usuwania za pomocą **encji planowania**. Te jednostki są zarządzane za pomocą aparatu planowania w Project dla sieci Web. We wcześniejszych wersjach Dynamics 365 Project Operations operacje tworzenia, aktualizowania i usuwania **Encji planowania** były ograniczone.
 
-W poniższej tabeli przedstawiono pełną listę **Encje planowania**.
+W poniższej tabeli przedstawiono pełną listę encji harmonogramu projektu.
 
 | Nazwa encji  | Logiczna nazwa encji |
 | --- | --- |
@@ -39,19 +39,19 @@ W poniższej tabeli przedstawiono pełną listę **Encje planowania**.
 
 OperationSet to wzorzec jednostki pracy, którego można użyć, gdy w ramach transakcji musi zostać przetworzonych kilka żądań mających wpływ na harmonogram.
 
-## <a name="schedule-apis"></a>Planowanie interfejsów API
+## <a name="project-schedule-apis"></a>Interfejsy API harmonogramu projektu
 
-Poniżej przedstawiono listę bieżących interfejsów API planowania.
+Poniżej przedstawiono listę bieżących interfejsów API harmonogramu projektu.
 
 - **msdyn_CreateProjectV1**: tego interfejsu API można używać do tworzenia projektu. Projekt i domyślny rozmiar projektu są tworzone natychmiast.
 - **msdyn_CreateTeamMemberV1**: tego interfejsu API można używać do tworzenia członka zespołu projektu. Rekord członka zespołu jest tworzony natychmiast.
 - **msdyn_CreateOperationSetV1**: ten interfejs API może być używany do planowania kilku żądań, które muszą zostać wykonane w ramach transakcji.
-- **msdyn_PSSCreateV1**: tego interfejsu API można używać do tworzenia encji. Może to być dowolny z obiektów planowania obsługujący operację tworzenia.
-- **msdyn_PSSUpdateV1**: tego interfejsu API można używać do aktualizacji encji. Może to być dowolny z obiektów planowania obsługujący operację aktualizacji.
-- **msdyn_PSSDeleteV1**: tego interfejsu API można używać do usuwania encji. Może to być dowolny z obiektów planowania obsługujący operację usuwania.
+- **msdyn_PSSCreateV1**: tego interfejsu API można używać do tworzenia encji. Encją może być dowolna z encji planowania projektów, które obsługują operację tworzenia.
+- **msdyn_PSSUpdateV1**: tego interfejsu API można używać do aktualizacji encji. Encją może być dowolna z encji planowania projektów, które obsługują operację aktualizowania.
+- **msdyn_PSSDeleteV1**: tego interfejsu API można używać do usuwania encji. Encją może być dowolna z encji planowania projektów, które obsługują operację usuwania.
 - **msdyn_ExecuteOperationSetV1**: ten interfejs API jest używany do wykonywania wszystkich operacji w ramach danego zestawu operacji.
 
-## <a name="using-schedule-apis-with-operationset"></a>Używanie interfejsów API harmonogramu z zestawem OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>Używanie interfejsów API harmonogramu projektu z zestawem OperationSet
 
 Ponieważ rekordy z zarówno **CreateProjectV1**, jak i **CreateTeamMemberV1** są tworzone natychmiast, tych interfejsów API nie można używać bezpośrednio w przy użyciu zestawu **OperationSet**. Interfejs API umożliwia jednak tworzenie potrzebnych rekordów, tworzenie zestawu **OperationSet**, a następnie używanie tych wstępnie utworzonych rekordów w zestawie **OperationSet**.
 
@@ -257,7 +257,7 @@ W poniższych tabelach przedstawiono pola, których nie można **tworzyć** i **
 ## <a name="limitations-and-known-issues"></a>Ograniczenia i znane problemy
 Oto lista ograniczeń i znanych problemów:
 
-- Interfejsy API planowania mogą być używane tylko przez **Użytkowników z licencją programu Microsoft Project**. Nie mogą z nich korzystać:
+- Interfejsy API harmonogramu projektu mogą być używane tylko przez **użytkowników z licencją programu Microsoft Project.** Nie mogą z nich korzystać:
     - Użytkownicy aplikacji
     - Użytkownicy systemowi
     - Użytkownicy integracyjni
@@ -271,7 +271,7 @@ Oto lista ograniczeń i znanych problemów:
 ## <a name="error-handling"></a>Obsługa błędów
 
    - Aby przejrzeć błędy wygenerowane z zestawów operacji, przejdź do strony **Ustawienia** \> **Harmonogram integracji** \> **Zestawy operacji**.
-   - Aby przejrzeć błędy wygenerowane w usłudze planowania projektów, przejdź do menu **Ustawienia** \> **Harmonogram integracji** \> **Dziennik błędów PSS**.
+   - Aby przejrzeć błędy wygenerowane przez usługę harmonogramu projektów, przejdź do pozycji **Ustawienia** \> **Integracja harmonogramu** \> **Dzienniki błędów PSS**.
 
 ## <a name="sample-scenario"></a>Przykładowy scenariusz
 

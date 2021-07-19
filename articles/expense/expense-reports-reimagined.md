@@ -2,7 +2,7 @@
 title: Przebudowane raporty wydatków
 description: W tym temat wyjaśniono przeprojektowane i przebudowane środowisko wprowadzania raportu z wydatków.
 author: suvaidya
-ms.date: 03/26/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76073d5c58398b2c296fdca05ba7bdf7f01951bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
+ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995364"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6251017"
 ---
 # <a name="expense-reports-reimagined"></a>Przebudowane raporty wydatków
 
@@ -26,13 +26,13 @@ Zapis raportu z wydatków został przeprojektowany w celu uproszczenia procesu i
 
 - Nowy obszar roboczy Zarządzanie wydatkami, który umożliwia uzyskanie dostępu do wydatków pełnomocnika.
 - Nowy system dopasowywania paragonów w celu lepszego pokazywania nagłówków paragonów i uproszczenia procesu dołączania paragonów do wierszy wydatków.
-- Nowa siatka tylko do odczytu, która umożliwia wyświetlenie wielu dodatkowych wierszy i dodatkowych kolumn z danymi. Teraz można wyświetlać wszystkie wyszczególnione i podzielone wiersze oraz koszty nadrzędne.
+- Nowa siatka tylko do odczytu, która umożliwia wyświetlanie wielu dodatkowych wierszy wydatków i innych kolumn danych. Teraz można wyświetlać wszystkie wyszczególnione i podzielone wiersze oraz koszty nadrzędne.
 - Uproszczone okienko do edycji kosztów.
 - Przeprojektowane komunikaty o błędach, ostrzeżeniach i zasadach w celu uzyskania prawidłowego kontekstu i zrozumienia problemu oraz sposobu jego rozwiązywania. Usunięto kilka komunikatów, które były wyświetlane przed zakończeniem przez użytkowników swoich zadań i rozwiązać problemy.
 - Nowa strona określająca wymagane pola, opcjonalne pola i pola, które nie powinny być uwzględnione. Ta strona umożliwia zmniejszenie liczby pól, które należy określić.
 - Nowy wygląd i działanie raportów wydatków, dzięki czemu raporty nie będą wyglądać tak, jakby były projektowane tylko dla księgowych.
 
-Aby włączyć nowe środowisko, w obszarze roboczym **Zarządzanie funkcjami** można włączyć **Przebudowane raporty wydatków**. Po włączeniu tej funkcji zostaną wykonane następujące akcje:
+Aby włączyć nową funkcję, użyj obszaru roboczego **Zarządzanie funkcjami** w celu włączenia funkcji **Obszar roboczy przeprojektowanych raportów wydatków**. Po włączeniu tej funkcji zostaną wykonane następujące akcje:
 
 - Istniejący obszar roboczy Zarządzania wydatkami zostanie zastąpiony nowym obszarem roboczym.
 - Dodawany jest nowy element menu z widocznością pola wydatku.
@@ -45,7 +45,7 @@ Aby włączyć nowe środowisko, w obszarze roboczym **Zarządzanie funkcjami** 
 
 | Nowe funkcje | Opis |
 |---|----|
-| Widoczność pola wydatków | Nowa strona ustawień umożliwia wskazanie, które pola powinny być wyłączone w organizacji, jakie pola powinny być wymagane i które pola są zalecane. |
+| Widoczność pola wydatków | Nowa strona konfiguracji umożliwia określenie pól, które mają być wyłączone dla organizacji. Można również określić pola, które mają być wymagane, oraz pola, które są zalecane. |
 | Pola wymagane | Nowa prosta konfiguracja umożliwia udostępnienie niektórych pól bez konieczności korzystania ze środowiska zasad. |
 | Pola opcjonalne | Pola opcjonalne są teraz na drugiej stronie. W ten sposób pracownicy nie będą czuć, że muszą wypełnić pola, ale nadal będą one łatwo dostępne. |
 | Dodawanie niepowiązanych paragonów | Możliwość dodawania niedołączonych paragonów do raportu wydatków jest widoczna w obszarze roboczym i w raporcie wydatków. |
@@ -57,13 +57,14 @@ Aby włączyć nowe środowisko, w obszarze roboczym **Zarządzanie funkcjami** 
 | Kalkulator wymiany walut | Dodano kalkulator kursów wymiany walut, który umożliwia obliczenie kursu wymiany dla kosztów w ramach fakturowania wielowalutowego. |
 | Zapisywanie i dodawanie nowych wierszy wydatku | Przyciski **Zapisz** i **Nowe** są dostępne po wprowadzeniu nowych wydatków w celu szybkiego wprowadzenia wierszy wydatków. |
 | Lepsza widoczność podzielonych i wyszczególnionych wierszy | Wyszczególnione i podzielone wiersze są dodawane bezpośrednio do listy wydatków w celu zwiększenia widoczności i ułatwienia sprawdzania, czy występują jakiekolwiek problemy. |
+| Wyświetlanie szczegółów podkategorii w wierszach pozycjach | W wierszach pozycji wydatku nadrzędnego są wyświetlane etykiety podkategorii w raporcie wydatków, co pozwala szybko przejrzeć wszystkie szczegóły.|
 | Pokazywanie paragonów podczas podziału na pozycje | Wyświetlanie paragonów podczas podziału na pozycje jest teraz możliwe. |
 | Wybór zaliczki gotówkowej | Wybierz jedną lub więcej zaliczek gotówkowych do realizacji pojedynczej transakcji wydatków. |
 | Saldo zaliczki gotówkowej | Przejrzyj saldo zaliczki gotówkowej w czasie rzeczywistym podczas tworzenia wpisu wydatków względem zatwierdzonych i zapłaconych zaliczek gotówkowych. |
 
 Początkowa wersja koncentruje się na scenariuszach wydatków. Scenariusz, w którym użytkownik sprawdza lub zatwierdza raporty wydatków będzie działał na bazie istniejącej strony wydatków.
 
-Następujące funkcje nie są obsługiwane w obszarze roboczym przebudowanego obszaru roboczego wydatków:
+Następujące funkcje nie są obsługiwane w obszarze roboczym przeprojektowanych raportów wydatków, ale są planowane w przyszłych wydaniach: 
 
 - Integracja wniosków wyjazdowych
 - Wpis wydatku na dzień
