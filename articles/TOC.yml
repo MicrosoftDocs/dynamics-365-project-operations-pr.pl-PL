@@ -832,6 +832,16 @@
           items:
             - name: Omówienie wykorzystania zasobów
               href: resource-management/resource-utilization-overview.md
+    - name: Zarządzanie podumowami w rozwiązaniu Project Operations
+      items:
+        - name: Zarządzanie podumowami — omówienie
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Kluczowe pojęcia związane z podwykonawstwem
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Zarządzanie dostawcami i cennikami projektów
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: 'Podwykonawcy jako zasoby, które można zarezerwować'
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Czas
       items:
         - name: Omówienie czasu
@@ -1050,6 +1060,8 @@
       items:
         - name: Harmonogram wydań aktualizacji dla rozwiązania Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 32.5, V3'
