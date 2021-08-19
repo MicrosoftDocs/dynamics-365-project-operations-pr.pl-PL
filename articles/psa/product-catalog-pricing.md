@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009224"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000184"
 ---
 # <a name="product-catalog-pricing"></a>Kalkulacja cen w katalogu produktów 
 
@@ -44,7 +44,7 @@ Produkty z katalogu produktów można dodawać do różnych cenników. Pozycje c
 
 Program PSA obsługuje różne opcje zaokrąglania, gdy ceny są skonfigurowane jako funkcje ceny katalogowej, kosztu standardowego lub kosztu bieżącego. W odniesieniu do pozycji cenników można nie tylko stosować wiele metod kalkulacji cen i opcji zaokrąglania, ale również łączyć z nimi listy rabatów. 
 
-> ![Dodawanie produktów z katalogu do różnych cenników](media/basic-guide-16.png)
+> ![Dodawanie produktów z katalogu do różnych cenników.](media/basic-guide-16.png)
 
 Podczas tworzenia nowego cennika niestandardowego dla oferty poprzez wybranie opcji **Utwórz niestandardową kalkulację cen** na stronie **Oferta projektu** program PSA tworzy kopię cennika, a w polu **Encja** w nagłówku nowego cennika ustawia wartość **Encja sprzedaży**. Do nazwy nowego cennika jest dołączana nazwa oferty oraz sygnatura czasowa. Nazwy nowego cennika i nazwy oferty można również używać w niestandardowych przepływach pracy w celu inicjowania dodatkowej weryfikacji i zatwierdzania ofert korzystających z niestandardowej kalkulacji cen.
 

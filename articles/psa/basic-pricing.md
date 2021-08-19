@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014984"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000589"
 ---
 # <a name="project-pricing"></a>Cennik projektu 
 
@@ -46,7 +46,7 @@ Encja cennika składa się z trzech tabel pokrewnych przechowujących ceny:
   - **Cena kategorii transakcji** — w tej tabeli są przechowywane ceny według kategorii transakcji i są używane do konfigurowania cen kategorii wydatków.
   - **Pozycje cennika** — w tej tabeli są przechowywane ceny na produkty z katalogu.
 
-> ![Konfigurowanie cen za pomocą cennika](media/basic-guide-12.png)
+> ![Konfigurowanie cen za pomocą cennika.](media/basic-guide-12.png)
  
 Cennik jest kartą stawki. Stawka jest kombinacją encji cennika i pokrewnych wierszy w tabelach cena roli, Cena kategorii transakcji i pozycje cennika.
 
@@ -58,7 +58,7 @@ Czas zasobów ludzkich jest zwykle podawany na podstawie roli, którą dany zas�
 
 Grupa jednostek **czasu** jest tworzona po zainstalowaniu PSA. Jego domyślna jednostka **Godzina**. Nie można usuwać, zmieniać nazw ani edytować atrybutów grupy jednostek **Czas** lub jednostki **Godzina**. Do grupy jednostek **Czas** można jednak dodać inne jednostki. Jeśli użytkownik próbuje usunąć grupę jednostek **czasu** lub jednostkę **godzinową**, może wystąpić awaria logiki biznesowej PSA.
 
-> ![Konfigurowanie cen według ról](media/basic-guide-13.png)
+> ![Konfigurowanie cen według ról.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategorie transakcji i kategorie wydatków
 
@@ -68,7 +68,7 @@ Koszty podróży i inne wydatki, które ponosi konsultant projektu, zazwyczaj s�
 - **Procent narzutu** — procent ponad rzeczywisty koszt jest naliczany klientowi. 
 - **Cena jednostkowa** — cena na fakturze jest ustalana dla każdej jednostki w kategorii wydatków. Kwota, która jest naliczana klientowi, jest obliczana na podstawie liczby jednostek wydatku zgłoszonych przez konsultanta. W przebiegu stosowana jest metoda kalkulacji cen na jednostkę. Na przykład kategoria wydatków przebiegu może być skonfigurowana jako 30 USD na dobę lub na 2 USD za jeden kilometr. Kiedy konsultant raportuje mile w projekcie, kwota do rozliczenia jest obliczana na podstawie liczby mil zgłoszonych przez konsultanta.
 
-> ![Konfigurowanie cen dla kategorii wydatków](media/basic-guide-14.png)
+> ![Konfigurowanie cen dla kategorii wydatków.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Ceny sprzedaży i zastąpienia projektu
 
@@ -114,7 +114,7 @@ W przypadku oferty można jednak skorzystać z cennika głównego. Alternatywnie
 
 Po utworzeniu niestandardowego cennika projektu kopiowane są tylko składniki projektu wymienione w cenniku. Innymi słowy — nowy Cennik utworzony jako kopia istniejącego cennika projektu jest dołączony do oferty, a nowy Cennik ma tylko pokrewne ceny ról i ceny w kategoriach transakcji.
 
-> ![Wyświetlanie i konfigurowanie niestandardowych cen w kontrakcie dotyczącym projektu](media/basic-guide-15.png)
+> ![Wyświetlanie i konfigurowanie niestandardowych cen w kontrakcie dotyczącym projektu.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Śledzenie kosztów
 
