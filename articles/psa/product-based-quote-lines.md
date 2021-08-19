@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998514"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008599"
 ---
 # <a name="product-based-quote-lines"></a>Wiersze ofert oparte na produktach
 
@@ -58,7 +58,7 @@ Jeśli w tym polu zostanie ustawiona wartość **Zastąp kalkulację ceny**, w u
 
 Po zainstalowaniu rozwiązania PSA domyślne ceny sprzedaży są wprowadzana w wierszach opartych na produktach w ofercie. Następnie w polu **Kalkulacja cen** jest ustawiana wartość **Zastąp kalkulację ceny**, tak aby można było edytować domyślną cenę w wierszach oferty.
 
-> ![Konfigurowanie zastępowania kalkulacji ceny](media/basic-guide-10.png)
+> ![Konfigurowanie zastępowania kalkulacji ceny.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Współczynniki ilościowe dla produktów
 
@@ -78,7 +78,7 @@ Na przykład system Dynamics 365 może mieć następujące właściwości:
 
 Właściwości **Liczba użytkowników** i **Liczba miesięcy** można oflagować jako współczynniki ilościowe, odpowiednio modyfikując właściwości wiersza produktu. 
 
-> ![Flagowanie atrybutów Liczba użytkowników i Liczba miesięcy jako współczynników ilościowych](media/basic-guide-11.png)
+> ![Flagowanie atrybutów Liczba użytkowników i Liczba miesięcy jako współczynników ilościowych.](media/basic-guide-11.png)
  
 
 

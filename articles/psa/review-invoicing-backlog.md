@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008549"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006979"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Przeglądanie zaległości fakturowania w projektach i kontraktach na projekty
 
@@ -40,7 +40,7 @@ Wartości rzeczywiste nierozliczonej sprzedaży reprezentują zaległość rozli
 
 Aby przejrzeć zaległość rozliczania czasu i materiałów, wybierz kolejno opcje **Sprzedaż** \> **Rozliczenia** \> **Zaległość rozliczania czasu i materiałów**. Zaznacz wszystkie nierozliczone wartości rzeczywiste sprzedaży, które są gotowe do zafakturowania, a następnie wybierz pozycję **Przygotowane do fakturowania**. Stan rozliczania tych wartości rzeczywistych zmieni się na **Przygotowane do fakturowania**.
 
-![Zaległość rozliczania czasu i materiałów](media/TMBacklog.png)
+![Zaległość rozliczania czasu i materiałów.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Przeglądanie zaległości rozliczania produktów
 
@@ -48,7 +48,7 @@ W programie PSA jeżeli kontrakt projektu zawiera pozycje kontraktu oparte na pr
 
 Aby przejrzeć zaległość rozliczania produktów, wybierz kolejno opcje **Sprzedaż** \> **Rozliczenia** \> **Zaległość rozliczania produktów**. Zaznacz wszystkie pozycje kontraktu oparte na produktach, które są gotowe do zafakturowania, a następnie wybierz pozycję **Przygotowane do fakturowania**. Stan rozliczania tych wierszy zmieni się na **Przygotowane do fakturowania**.
 
-![Zaległość rozliczania produktów](media/ProductBacklog.png)
+![Zaległość rozliczania produktów.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Przeglądanie punktów kontrolnych rozliczania w kontraktach o stałej cenie
 
@@ -56,7 +56,7 @@ Każda pozycja kontraktu projektu z metodą rozliczania według stałej ceny mus
 
 Aby przejrzeć punkty kontrolne rozliczania, wybierz kolejno opcje **Sprzedaż** \> **Rozliczenia** \> **Punkty kontrolne dotyczące stałej ceny**. Zaznacz punkty kontrolne, które są gotowe do zafakturowania, a następnie wybierz pozycję **Przygotowane do fakturowania**. Stan rozliczania tych punktów kontrolnych zmieni się na **Przygotowane do fakturowania**.
 
-![Punkty kontrolne dotyczące stałej ceny](media/FPBacklog.png)
+![Punkty kontrolne dotyczące stałej ceny.](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

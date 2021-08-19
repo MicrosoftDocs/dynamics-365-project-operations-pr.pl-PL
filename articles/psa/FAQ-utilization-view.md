@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992847"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007159"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Wyświetlanie odpłatnego wykorzystania zasobów
 
@@ -29,7 +29,7 @@ ms.locfileid: "5992847"
  
 **Widok wykorzystania** dostępny na stronie **Wykorzystanie zasobów w usłudze Project Service** pokazuje odpłatne wykorzystanie każdego zasobu możliwego do zarezerwowania. Widok jest oparty na tablicy harmonogramu, więc zawiera wiele tych samych funkcji.
 
-> ![Zrzut ekranu przedstawiający Widok wykorzystania](media/FAQ-utilization-1.png)
+> ![Zrzut ekranu przedstawiający Widok wykorzystania.](media/FAQ-utilization-1.png)
  
 
 Obliczenia odpłatnego wykorzystania działają w następujący sposób:
@@ -48,7 +48,7 @@ Wykorzystanie docelowe można ustawić w domyślnej roli zasobu lub w samym zaso
 2. Zaznacz zasób, aby otworzyć jego rekord. 
 3. Na karcie **Project Service** możesz ustawić docelowe wykorzystanie zasobu.
 
-> ![Zrzut ekranu przedstawiający wykorzystanie karty Project Service do ustawiania wykorzystania zasobu](media/FAQ-utilization-2.png)
+> ![Zrzut ekranu przedstawiający wykorzystanie karty Project Service do ustawiania wykorzystania zasobu.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Ustawianie docelowego wykorzystania dla roli
 
@@ -56,7 +56,7 @@ Wykorzystanie docelowe można ustawić w domyślnej roli zasobu lub w samym zaso
 2. Zaznacz rolę i otwórz rekord. 
 3. Wybierz docelowe wykorzystanie dla roli.
 
-> ![Zrzut ekranu przedstawiający wykorzystanie Ról zasobów do ustawiania wykorzystania zasobu](media/FAQ-utilization-3.png)
+> ![Zrzut ekranu przedstawiający wykorzystanie Ról zasobów do ustawiania wykorzystania zasobu.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Obliczanie odpłatnego wykorzystania zasobu
 

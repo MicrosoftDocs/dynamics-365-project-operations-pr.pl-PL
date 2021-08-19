@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000044"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006304"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Szacowania projektu i integracja wartości rzeczywistych
 
@@ -30,7 +30,7 @@ Do tworzenia oszacowania jest wymagana prawidłowa konfiguracja księgowości dl
 
 Szacunki robocizny są tworzone przez kierownika projektu lub kierownika zasobów, który również przypisuje ogólny lub nazwany zasób do zadania projektowego. Rekordy przypisania zasobów można przeglądać na karcie **Przypisania zasobów** na stronie **Szczegóły projektu** w Dataverse. Rekordy przydziału zasobów w Dataverse tworzą rekordy prognozy godzin w aplikacjach Finance and Operations przy użyciu **Encji integracji Project Operations dla szacunków godzin (msdyn\_resourceassignments)**.
 
-   ![Integracja szacunków pracy](./Media/DW4LaborEstimates.png)
+   ![Integracja szacunków pracy.](./Media/DW4LaborEstimates.png)
 
 Podwójny zapis synchronizuje rekordy przydziału zasobów do tabeli inscenizacji (**ProjCDSEstimateHoursImport**), a następnie wykorzystuje logikę biznesową do tworzenia i aktualizacji rekordów prognozy godzin (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ Księgowy projektu przegląda zapisy prognozowanych godzin utworzone w aplikacja
 
 Szacunkowe koszty są tworzone przez menedżera projektu na karcie **Szacowanie wydatków** na stronie **Szczegóły projektu** w Dataverse. Rekordy szacowania wydatków są przechowywane w encji **Wiersz szacowania** w Dataverse. Te rekordy szacowania mają klasę transakcji **Wydatek** i są synchronizowane z rekordami prognozy wydatków w aplikacjach Finance and Operations przy użyciu **Encji integracji Project Operations dla szacowania wydatków (msdyn\_estimatelines)**.
 
-   ![Integracja szacunków wydatków](./Media/DW4ExpenseEstimates.png)
+   ![Integracja szacunków wydatków.](./Media/DW4ExpenseEstimates.png)
 
 Podwójny zapis synchronizuje rekordy prognozy wydatków do tabeli inscenizacji **ProjCDSEstimateExpenseImport)**, a następnie wykorzystuje logikę biznesową do tworzenia i aktualizacji rekordów prognozy wydatków (**ProjForecastCost**). W wierszach szacowania są przechowywane oddzielnie rekordy szacowania sprzedaży i szacowania wydatków. Logika biznesowa w aplikacjach Finance and Operations wypełnia pojedynczy rekord prognozy wydatków, korzystając z tych szczegółów w tabeli przemieszczania.
 
@@ -50,7 +50,7 @@ Księgowy projektu może analizować zapisy prognozowanych godzin utworzone w ap
 
 Szacowanie materiałów jest tworzone przez menedżera projektu na karcie **Szacowanie materiałów** na stronie **Szczegóły projektu** w Dataverse. Rekordy szacowania materiałów są przechowywane w encji **Wiersz szacowania** w Dataverse. Te rekordy szacowania mają klasę transakcji **Materiał** i są synchronizowane z rekordami prognozy wydatków w aplikacjach Finance and Operations przy użyciu **Tabeli integracji Project Operations dla szacowania materiałów (msdyn\_estimatelines)**.
 
-   ![Integracja szacunków materiałów](./Media/DW4MaterialEstimates.png)
+   ![Integracja szacunków materiałów.](./Media/DW4MaterialEstimates.png)
 
 Podwójny zapis synchronizuje rekordy szacowania materiałów do tabeli inscenizacji **ProjForecastSalesImpor**, a następnie wykorzystuje logikę biznesową do tworzenia i aktualizacji rekordów prognozy Elementu (**ForecastSales**). W wierszach szacowania są przechowywane oddzielnie rekordy szacowania sprzedaży i szacowania wydatków. Logika biznesowa w aplikacjach Finance and Operations wypełnia pojedynczy rekord prognozy Element, korzystając z tych szczegółów w tabeli przemieszczania.
 
@@ -60,7 +60,7 @@ Księgowy projektu może analizować zapisy prognozowanych elemetów utworzone w
 
 Wartości rzeczywiste projektu są tworzone w Dataverse na podstawie czasu, wydatków, materiałów i działań dotyczących fakturowania. W tej encji Dataverse są przechwytywane wszystkie atrybuty operacyjne tych transakcji, w tym ilość, cena kosztów, cena sprzedaży i projekt. Aby uzyskać więcej informacji, zobacz [Wartości rzeczywiste](../actuals/actuals-overview.md). Wartości rzeczywiste są synchronizowane z aplikacjami Finance and Operations przy użyciu podwójnego zapisu mapowania tabeli w ramach **Wartości rzeczywistych Project Operations (msdyn\_actuals)** dla późniejszego księgowania.
 
-   ![Integracja wartości rzeczywistych](./Media/DW4Actuals.png)
+   ![Integracja wartości rzeczywistych.](./Media/DW4Actuals.png)
 
 Mapowanie tabeli **Integracji wartości rzeczywistych Project Operations** synchronizuje wszystkie rekordy z encji **Wartości rzeczywiste** w Dataverse z atrybutem **Pomiń synchronizację (tylko do użytku wewnętrznego)** ustawionym na wartość **False**. Ta wartość atrybutu jest ustawiana w Dataverse automatycznie podczas tworzenia rekordu. Przykłady, w których ten atrybut ma wartość **True**:
 

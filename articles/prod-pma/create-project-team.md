@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006209"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005809"
 ---
 # <a name="create-a-project-team"></a>Tworzenie zespołu projektu
 
@@ -33,7 +33,7 @@ Ustawienia widoku mogą być również dostosowywane w celu lepszego wyświetlen
 
 Kierownik projektu może wybrać rolę na stronie, a następnie, jeśli dostępny jest zasób, który spełnia wymagania, może zarezerwować zasób do wypełnienia roli. Należy pamiętać, że zasoby nie muszą być rezerwowane w tym punkcie etapu planowania. Podczas tworzenia SPP można zastępować role przy użyciu zasobów pracowniczych dla danego projektu. Jeśli role zostaną zamienione na zasoby służbowe w SPP, konfiguracja zasobu powoduje automatyczne zaktualizowanie listy i harmonogramu planowania zespołu projektu.
 
-[![Lista zespołu projektowego zawierająca zarówno role, jak i rzeczywiste zasoby](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Lista zespołu projektowego zawierająca zarówno role, jak i rzeczywiste zasoby.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Menedżer projektu ma różne opcje rezerwacji zasobu, takie jak **Wydajność pozostała**, **Pełna wydajność**, **Procent wydajności** i **Określona liczba godzin**. Te opcje rezerwacji można anulować w dowolnym momencie, jeśli zmienią się przydziały zasobów. Obsługiwane są dwa typy rezerwacji:
 
