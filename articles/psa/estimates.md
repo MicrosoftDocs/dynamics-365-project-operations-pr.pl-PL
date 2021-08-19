@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007604"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992399"
 ---
 # <a name="estimates"></a>Szacunki
 
@@ -83,24 +83,24 @@ Jeśli w szczegółach wiersza oferty dodano pole niestandardowe, a chcesz, aby 
 1. Otwórz narzędzie PluginRegistrationTool i nawiąż połączenie z wystąpieniem online.
 2. Wybierz opcję **Wyszukaj** i poszukaj dodatku plug-in, który ma zostać zaktualizowany.
 
-    ![Okno dialogowe Drzewo wyszukiwania](media/basic-guide-19.png)
+    ![Okno dialogowe Drzewo wyszukiwania.](media/basic-guide-19.png)
 
 3. Zaznacz dodatek plug-in, a następnie na stronie głównej kliknij opcję **Wybierz**.
 4. Zaznacz krok dodatku plug-in, który chcesz zaktualizować, kliknij prawym przyciskiem myszy, a następnie wybierz opcję **Aktualizuj**.
 
-    ![Wybieranie kroku w dodatku plug-in](media/basic-guide-20.png)
+    ![Wybieranie kroku w dodatku plug-in.](media/basic-guide-20.png)
 
 5. W oknie dialogowym **Aktualizowanie istniejącego kroku** w polu **Atrybuty filtrowania** kliknij przycisk wielokropka (**...**):
  
-    ![Okno dialogowe Aktualizowanie istniejącego kroku](media/basic-guide-21.png)
+    ![Okno dialogowe Aktualizowanie istniejącego kroku.](media/basic-guide-21.png)
 
 6. W oknie dialogowym **Wybieranie atrybutów** zaznacz pola wyboru atrybutów niestandardowych.
 
-    ![Okno dialogowe Wybieranie atrybutów](media/basic-guide-22.png)
+    ![Okno dialogowe Wybieranie atrybutów.](media/basic-guide-22.png)
 
 7. Kliknij przycisk **OK**, aby zamknąć okno dialogowe, a następnie wybierz pozycję **Aktualizuj krok**.
  
-    ![Przycisk Aktualizuj krok](media/basic-guide-23.png)
+    ![Przycisk Aktualizuj krok.](media/basic-guide-23.png)
 
 8. Powtórz kroki od 1 do 7 dla drugiego dodatku plug-in.
 9. Zamknij narzędzie PluginRegistrationTool.

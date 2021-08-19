@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9fc49211f3c2c79e18f6dd18e9a687091793cad0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996759"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991769"
 ---
 # <a name="link-actuals-to-original-records"></a>Łączenie wartości rzeczywistych z oryginalnymi rekordami
 
@@ -77,7 +77,7 @@ Wartość **Punkt kontrolny** jest zwykle używana w logice biznesowej do rozlic
 
 W następującym przykładzie przedstawiono typowy sposób przetwarzania wpisów czasu w cyklu życia projektu w rozwiązaniu Project Operations.
 
-> ![Wpisy przetwarzania czasu w cyklu życia w usłudze Project Service](media/basic-guide-17.png)
+> ![Wpisy przetwarzania czasu w cyklu życia w usłudze Project Service.](media/basic-guide-17.png)
  
 1. Przesłanie wpisu czasu tworzy dwa wiersze arkusza: jeden wiersz dla kosztów i jeden dla niezafakturowanej sprzedaży.
 2. Ostateczne zatwierdzenie wpisu czasu tworzy dwie wartości rzeczywiste: jedną rzeczywistą dla kosztów i jedną rzeczywistą dla sprzedaży niezafakturowanej.

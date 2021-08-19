@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ccca2f387ce3abef3b24cb96fdbcc69f3c0c075b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002266"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991499"
 ---
 # <a name="security-model"></a>Model zabezpieczeń
 
@@ -58,7 +58,7 @@ Project Operations nie tworzy grupy niejawną operacją i działa wyłącznie w 
 
 Wyszukiwanie członka grupy w oknie dialogowym **Zarządzanie grupami** jest ograniczone do użytkowników, którzy są ustawiani jako część grupy zabezpieczeń środowiska. Aby uzyskać więcej informacji, zobacz [Kontrolowanie dostępu użytkowników do środowisk: grupy zabezpieczeń i licencje](/power-platform/admin/control-user-access).
 
-![Tryb Grupowy](./media/groupsmode.png)
+![Tryb Grupowy.](./media/groupsmode.png)
 
 1. Właścicielem projektu jest użytkownik tworzący i należący do niego.
 2. Właściciel projektu zostanie przypisany do zespołu.

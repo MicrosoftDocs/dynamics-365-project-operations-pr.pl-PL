@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998964"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992444"
 ---
 # <a name="create-custom-fields-and-entities"></a>Tworzenie niestandardowych pól i encji 
 
@@ -43,7 +43,7 @@ Wymiarem kalkulacji cen może być zestaw opcji lub encja. Oba rodzaje wymiarów
 2. W Eksploratorze rozwiązań w lewym okienku nawigacji kliknij pozycję **Encje**.
 3. Kliknij przycisk **Nowy**, aby utworzyć nową encję o nazwie **Standardowe stanowisko**. Wprowadź pozostałe wymagane informacje, a następnie kliknij przycisk **Zapisz**.
 
-> ![Definicja encji Standardowe stanowisko](media/Standard-Title-entity-definition.png)
+> ![Definicja encji Standardowe stanowisko.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Wymiary oparte na zestawach opcji 
@@ -54,9 +54,9 @@ Można utworzyć dwa wymiary oparte na zestawach opcji. Wymiar **Lokalizacja pra
 2. W Eksploratorze rozwiązań w lewym okienku nawigacji kliknij pozycję **Zestawy opcji**. 
 3. Kliknij przycisk **Nowy**, aby utworzyć nowy zestaw opcji, wprowadź pozostałe wymagane informacje, a następnie kliknij przycisk **Zapisz**.
 
-> ![Wymiar kalkulacji cen oparty na zestawie opcji zatytułowany Lokalizacja pracy zasobu ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Wymiar kalkulacji cen oparty na zestawie opcji zatytułowany Lokalizacja pracy zasobu.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Wymiar kalkulacji cen oparty na zestawie opcji zatytułowany Godziny pracy zasobu ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Wymiar kalkulacji cen oparty na zestawie opcji zatytułowany Godziny pracy zasobu.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Tworzenie danych dla wymiarów opartych na encjach
@@ -68,7 +68,7 @@ Dane wymiarów opartych na encjach można tworzyć ręcznie, poprzez import z pr
 3. Zamknij formularz. 
 4. Powtórz kroki 1–3, aby utworzyć kolejne nowe stanowisko „Starszy inżynier systemów”.
 
-> ![Przykładowe dane encji Standardowe stanowisko ](media/ST-data.png)
+> ![Przykładowe dane encji Standardowe stanowisko.](media/ST-data.png)
 
 
 

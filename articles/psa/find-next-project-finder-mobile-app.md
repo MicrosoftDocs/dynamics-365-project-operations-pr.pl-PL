@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007514"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990800"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Znajdź swój następny projekt dzięki aplikacji Project Finder Mobile (Project Service)
 
@@ -38,12 +38,12 @@ Dzięki aplikacji Project Finder Mobile na Twoim telefonie [!INCLUDE[tn_iphone](
   
  Wybierz strzałkę z prawej strony projektu, dla którego chcesz zobaczyć więcej szczegółów, i zapisz się do niego.  
   
- ![Lista umiejętności dopasowanych do projektów w aplikacji mobilnej Project Finder](../psa/media/project-service-project-finder-list.png "Lista umiejętności dopasowanych do projektów w aplikacji mobilnej Project Finder")  
+ ![Lista umiejętności dopasowanych do projektów w aplikacji mobilnej Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Lista umiejętności dopasowanych do projektów w aplikacji mobilnej Project Finder")  
   
 ## <a name="update-your-skills"></a>Aktualizuj swoje umiejętności  
  Wybierz przycisk profil w prawej dolnej części ekranu, aby zaktualizować swoje umiejętności i poziomy biegłości.  
   
- ![Przycisk Profil w aplikacji mobilnej Project Finder](../psa/media/project-service-project-finder-profile.png "Przycisk Profil w aplikacji mobilnej Project Finder")  
+ ![Przycisk Profil w aplikacji mobilnej Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Przycisk Profil w aplikacji mobilnej Project Finder")  
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik dotyczący czasu, wydatków i współpracy](../psa/time-expense-collaboration-guide.md)

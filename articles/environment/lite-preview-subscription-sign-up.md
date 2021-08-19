@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334795"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991544"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Tworzenie konta dla subskrypcji w wersji zapoznawczej — wersja uproszczona 
 
@@ -52,16 +52,16 @@ Przed rozpoczęciem pracy należy się upewnić, że użytkownik jest zalogowany
 
 1. Aprowizuj nowe środowisko wdrożenia usługi Project Operations Dataverse dzięki instrukcjom w temacie [Model wdrożenia usługi Dataverse](lite-deployment.md). Podczas wybierania typu środowiska należy pamiętać o użyciu **wersji próbnej (opartej na subskrypcji)**.
 
-  ![Nowe środowisko](./media/19CreateEnvironment.png)
+  ![Nowe środowisko.](./media/19CreateEnvironment.png)
 
 2. Zaznacz ustawienie **Włącz aplikacje Dynamics 365** i pozostaw pole **Automatycznie wdrażaj te aplikacje** pustym.  
 3. Wybierz **Zapisz**, aby utworzyć nowe środowisko.
 
-  ![Dodaj bazę danych](./media/20CreateEnvironment1.png)
+  ![Dodaj bazę danych.](./media/20CreateEnvironment1.png)
 
 4. Po utworzeniu środowiska zainstaluj rozwiązanie **Microsoft Dynamics 365 Project Operations**. 
 
-![Instalacja rozwiązania](./media/21InstallSolution.png)
+![Instalacja rozwiązania.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Zainstaluj konfigurację CDS i dane wersji demonstracyjnej
 

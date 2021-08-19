@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f087e15780272fd376a14b42ed9e00420f86a61f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009944"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989564"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Mobilny obszar roboczy wprowadzania czasu projektu
 
@@ -94,7 +94,7 @@ Pobierz i zainstaluj aplikację mobilną Finance and Operations:
 3.  Po pierwszym zalogowaniu się jest wyświetlany monit o podanie nazwy użytkownika i hasła. Wprowadź poświadczenia.
 4.  Po zalogowaniu się zostaną wyświetlone dostępne obszary robocze dla firmy. Należy pamiętać, że jeśli system Administrator opublikuje nowy obszar roboczy później, konieczne będzie odświeżenie listy obszarów roboczych urządzeń przenośnych.
 
-[![Przeciągnij, aby odświeżyć](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Przeciągnij, aby odświeżyć.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Wprowadź czas za pomocą mobilnego obszaru roboczego Wpis czasu projektu
 1.  Na urządzeniu przenośnym wybierz obszar roboczy **Wpisu czasu projektu**.
