@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995184"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997124"
 ---
 # <a name="configure-project-categories"></a>Konfigurowanie kategorii projektów
 
@@ -23,7 +23,7 @@ Na poniższym diagramie przedstawiono korelację między kategoriami transakcji,
 
 Kategorie transakcji są podstawowymi grupami transakcji projektów. W ramach tego pogrupowania istnieje zestaw wspólnych kategorii, które mogą być współużytkowane w aplikacjach i modułach. Kategorie projektów to najmniejsze i najdokładniejsze poziomy kategorii. Kategorie projektów są specyficzne dla encji prawnej, modułu i aplikacji.
 
-![Korelacja między kategoriami transakcji, wspólnymi kategoriami i kategoriami projektów](media/project-categories.png)
+![Korelacja między kategoriami transakcji, wspólnymi kategoriami i kategoriami projektów.](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Kategorie transakcji
 

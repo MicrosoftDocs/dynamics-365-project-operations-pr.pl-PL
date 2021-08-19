@@ -2,7 +2,7 @@
 title: Przebudowane raporty wydatków
 description: W tym temat wyjaśniono przeprojektowane i przebudowane środowisko wprowadzania raportu z wydatków.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251017"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997844"
 ---
 # <a name="expense-reports-reimagined"></a>Przebudowane raporty wydatków
 
@@ -57,12 +57,13 @@ Aby włączyć nową funkcję, użyj obszaru roboczego **Zarządzanie funkcjami*
 | Kalkulator wymiany walut | Dodano kalkulator kursów wymiany walut, który umożliwia obliczenie kursu wymiany dla kosztów w ramach fakturowania wielowalutowego. |
 | Zapisywanie i dodawanie nowych wierszy wydatku | Przyciski **Zapisz** i **Nowe** są dostępne po wprowadzeniu nowych wydatków w celu szybkiego wprowadzenia wierszy wydatków. |
 | Lepsza widoczność podzielonych i wyszczególnionych wierszy | Wyszczególnione i podzielone wiersze są dodawane bezpośrednio do listy wydatków w celu zwiększenia widoczności i ułatwienia sprawdzania, czy występują jakiekolwiek problemy. |
-| Wyświetlanie szczegółów podkategorii w wierszach pozycjach | W wierszach pozycji wydatku nadrzędnego są wyświetlane etykiety podkategorii w raporcie wydatków, co pozwala szybko przejrzeć wszystkie szczegóły.|
+| Wyświetlanie szczegółów podkategorii w wierszach pozycjach | Poszczególne wiersze wydatku nadrzędnego pokazują etykiety podkategorii w raporcie z wydatków. Podział na pozycje pozwala szybko przejrzeć szczegółowe szczegóły.|
 | Pokazywanie paragonów podczas podziału na pozycje | Wyświetlanie paragonów podczas podziału na pozycje jest teraz możliwe. |
 | Wybór zaliczki gotówkowej | Wybierz jedną lub więcej zaliczek gotówkowych do realizacji pojedynczej transakcji wydatków. |
 | Saldo zaliczki gotówkowej | Przejrzyj saldo zaliczki gotówkowej w czasie rzeczywistym podczas tworzenia wpisu wydatków względem zatwierdzonych i zapłaconych zaliczek gotówkowych. |
 
 Początkowa wersja koncentruje się na scenariuszach wydatków. Scenariusz, w którym użytkownik sprawdza lub zatwierdza raporty wydatków będzie działał na bazie istniejącej strony wydatków.
+
 
 Następujące funkcje nie są obsługiwane w obszarze roboczym przeprojektowanych raportów wydatków, ale są planowane w przyszłych wydaniach: 
 

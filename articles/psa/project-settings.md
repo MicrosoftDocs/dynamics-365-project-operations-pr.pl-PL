@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24032a77834005c444972f8d234d3acb33d19135
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998334"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996944"
 ---
 # <a name="project-settings"></a>Ustawienia projektu
 
@@ -47,7 +47,7 @@ Aby utworzyć harmonogram projektu, należy utworzyć szablon kalendarza projekt
   - Harmonogram pracy na jeden dzień
   - Czas wolny
 
-> ![Opcje konfigurowania](media/project-13.png)
+> ![Opcje konfigurowania.](media/project-13.png)
 
 4. Zaznacz opcję **Nowy harmonogram tygodniowy**, a następnie ustaw opcje dla tego harmonogramu zasobów. Można określić cykliczny harmonogram tygodniowy, dzienne parametry godzinowe, dni wolne od pracy itd.
 5. Ustaw zakres dat, kliknij przycisk **Zapisz**, a następnie kliknij przycisk **Zamknij**. 

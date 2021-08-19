@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998019"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996854"
 ---
 # <a name="fulfilling-resource-requests"></a>Realizowanie żądań zasobów
 
@@ -33,15 +33,15 @@ Wymagania zasobów mogą być wysyłane jako żądania zasobów do menedżera za
 
 Żądania zasobów są wyświetlane jako lista w widoku **Aktywne żądania zasobów**.
 
-> ![Lista żądań zasobów](media/Resource-Management-image59.png)
+> ![Lista żądań zasobów.](media/Resource-Management-image59.png)
 
 Aby zrealizować żądanie, wybierz je z listy, a następnie wybierz pozycję **Znajdź zasoby**. Alternatywnie kliknij dwukrotnie wiersz, aby otworzyć żądanie. Następnie można wybrać kartę **Wymaganie zasobów**, aby wyświetlić wymagania związane z tym żądaniem. Aby rozpocząć realizację żądania, wybierz pozycję **Znajdź zasoby**.
 
-> ![Szczegóły żądania zasobu](media/Resource-Management-image60.png)
+> ![Szczegóły żądania zasobu.](media/Resource-Management-image60.png)
 
 Zostanie wyświetlony Asystent planowania z zawartością wyfiltrowaną według wymagań. Wybierz zasób, a następnie wybierz opcję **Zarezerwuj**.
 
-> ![Wybranie zasobu](media/Resource-Management-image61.png)
+> ![Wybranie zasobu.](media/Resource-Management-image61.png)
 
 Ogólny członek zespołu zostanie zastąpiony nazwanym zasobem zarezerwowanym ostatecznie w zespole projektu oraz przypisaniami zadań w harmonogramie projektu.
 
