@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004724"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003604"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen
 
@@ -42,11 +42,11 @@ Aby pole było wymiarem kalkulacji cen, musi być:
 
 - Utworzone jako wiersz w tabeli **Wymiar kalkulacji cen**. Na przykład dodaj wiersze wymiarów kalkulacji cen jak pokazano na poniższym rysunku. 
 
-![Wiersze wymiarów kalkulacji cen opartych na kwocie](media/Amt-based-PD.png)
+![Wiersze wymiarów kalkulacji cen opartych na kwocie.](media/Amt-based-PD.png)
 
 Godziny pracy zasobu (**msdyn_resourceworkhours**) została dodana jako wymiar oparty na narzucie oraz dodana do siatki na karcie **Wymiar kalkulacji cen oparty na narzucie**.
 
-![Wiersze wymiaru kalkulacji cen opartego na narzucie](media/Markup-based-PD.png)
+![Wiersze wymiaru kalkulacji cen opartego na narzucie.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009629"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005089"
 ---
 # <a name="organizational-units"></a>Jednostki organizacyjne 
 
@@ -53,7 +53,7 @@ Jednostka organizacyjna pełni dwie role w PSA:
 - **Jednostka zamawiająca** — jednostka organizacyjna reprezentująca grupę lub oddział firmy, która jest głównie odpowiedzialna za sprzedaż i zarządzanie dostawą pracy i usług do klienta. Jednostka zamawiająca jest identyfikowana za pomocą pola **Jednostka zamawiająca** w sekcji nagłówka na stronach **Szansa sprzedaży**, **Oferta**, **Umowa na projekt** i **Projekt**.
 - **Jednostka zasobów** jednostka organizacyjna, do której należy zasób lub która jest przypisana do danego zasobu. Dana jednostka organizacyjna może dostarczać swoich zasobów rolom w instrukcjach akcji pracy (SOW) i projektach, których właścicielem jest jednostka zamawiająca.
 
-> ![Jednostki zamawiające i jednostki zasobów](media/advanced-1.png)
+> ![Jednostki zamawiające i jednostki zasobów.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Jednostka organizacyjna — często zadawane pytania
 

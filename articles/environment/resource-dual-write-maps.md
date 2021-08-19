@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025787"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003829"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Wersje map podwójnego zapisu aplikacji Project Operations
 
@@ -32,7 +32,7 @@ Następujące mapy są wymaganymi warunkami wstępnymi dla rozwiązania Project 
 
 1. Z listy map wybierz mapowanie Księga **(msdyn\_ledgers)** ze wszystkimi wymaganiami wstępnymi i zaznacz pole wyboru **Synchronizacja początkowa**. W polu **Główny dla początkowej synchronizacji** wybierz **aplikacje Finance and Operations** zarówno dla mapy księgi głównej, jak i dla wszystkich map warunkowych. Wybierz **Uruchom**.
 
-![Synchronizacja mapowania księgi](media/DW6.png)
+![Synchronizacja mapowania księgi.](media/DW6.png)
 
 2. Wykonaj te same kroki dla wszystkich pozostałych map tabel wymienionych w powyższej tabeli. Podczas uruchamiania tych map nie zaznaczaj pola wyboru **Synchronizacja początkowa**.
 
@@ -65,7 +65,7 @@ Wykonaj następujące kroki, aby uruchomić wymienione mapowania.
 
 1. Włącz role zasobów projektu dla **wszystkich firm (bookableresourcecategories)**, ponieważ to mapowanie wymaga początkowej synchronizacji. W polu **Główny dla początkowej synchronizacji** wybierz usługę **Common Data Service**. 
 
- ![Synchronizacja mapowania tabeli ról zasobów](media/6ResourceInitialSync.jpg)
+ ![Synchronizacja mapowania tabeli ról zasobów.](media/6ResourceInitialSync.jpg)
 
  Przed przejściem do następnego kroku poczekaj, aż stan mapy zmieni się na **Uruchomione**.
 

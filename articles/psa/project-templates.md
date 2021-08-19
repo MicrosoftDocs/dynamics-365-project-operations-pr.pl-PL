@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998289"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002524"
 ---
 # <a name="project-templates"></a>Szablony projektów 
 
@@ -47,7 +47,7 @@ Istnieje kilka sposobów utworzenia projektu na podstawie szablonu projektu:
 
 - Podczas tworzenia projektu z oferty można wybrać szablon projektu w oknie dialogowym **Szybkie tworzenie: Projekt**.
 
-> ![Okno dialogowe Szybkie tworzenie: Projekt](media/project-11.png)
+> ![Okno dialogowe Szybkie tworzenie: Projekt.](media/project-11.png)
 
 - Podczas tworzenia projektu przez wybranie opcji **Nowy projekt** strona **Projektu** jest wyświetlana przed zapisaniem rekordu. W polu **Wybierz szablon** wybierz jeden ze wstępnie zdefiniowanych szablonów projektów istniejących w organizacji.
 - Użycie opcji **Utwórz projekt na podstawie szablonu** na stronie **Encja Szablon**.

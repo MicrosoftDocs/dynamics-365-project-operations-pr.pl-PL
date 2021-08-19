@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993159"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002974"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Jak dostosować przepływ procesów biznesowych etapów projektu?
 
@@ -60,11 +60,11 @@ Jeśli uaktualnienie nie jest możliwe, można dostosować przepływu procesów 
 1. Dodaj dodatkowe etapy do konfiguracji domyślnej, zachowując nazwy w języku angielskim dla **Quote**, **Plan**, i **Close**.
 
 
-![Zrzut ekranu przedstawiający dodawanie etapów do konfiguracji domyślnej](media/FAQ-Customize-BPF-1.png)
+![Zrzut ekranu przedstawiający dodawanie etapów do konfiguracji domyślnej.](media/FAQ-Customize-BPF-1.png)
  
 2. Utwórz własny przepływ procesów biznesowych i uczyń z niego główny przepływ procesów biznesowych dla encji projektu, co pozwoli na dowolne nazwy etapów. Jednak, jeśli chcesz użyć tych samych standardowych etapów projektu **Quote**, **Plan**, i **Close**, musisz wykonać kilka dostosowań, które wywodzą się od niestandardowych nazw etapów. Bardziej skomplikowana logika jest na zamknięciu projektu, co możesz nadal uruchomić po prostu wyłączając rekord projektu.
 
-![Dostosowanie BPF](media/FAQ-Customize-BPF-2.png)
+![Dostosowywanie BPF.](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Dodatkowe rozważania dotyczące aplikacji Project Service w wersji 2.4.4.30 lub wcześniejszej na platformie 9.0
 
@@ -80,11 +80,11 @@ Aby utworzyć własny przepływ procesów biznesowych dla encji projektu przepro
 
 1. Przejdź do **Ustawienia** > **Centrum procesu**. Nie kopiuj przepływu procesów biznesowych etapów projektu, ponieważ kopiuje to również logikę biznesową Project Service.
 
-  ![Utwórz proces](media/FAQ-Customize-BPF-3.png)
+  ![Utwórz proces.](media/FAQ-Customize-BPF-3.png)
 
 2. Użyj Projektanta procesów, aby utworzyć nazwy etapu, który chcesz utworzyć. Jeśli chcesz, aby były dostępne takie same funkcje, jak na etapach domyślnych dla **Quote**, **Plan**, i **Close**, będziesz musiał to utworzyć w oparciu o swoje niestandardowe nazw etapów przepływu procesów biznesowych.
 
-   ![Zrzut ekranu przedstawiający okno Projektant procesów używane w celu dostosowania przepływu procesów biznesowych](media/FAQ-Customize-BPF-4.png) 
+   ![Zrzut ekranu przedstawiający okno Projektant procesów używane w celu dostosowania przepływu procesów biznesowych.](media/FAQ-Customize-BPF-4.png) 
 
 3. W Projektancie procesów kliknij **Określanie kolejności przepływu procesów**, aby sprawić, że niestandardowy przepływ procesów biznesowych stanie się podstawowym przepływem procesów biznesowych przenosząc go ponad przepływ procesów biznesowych etapy projektu do górnej części listy.
 
@@ -95,15 +95,15 @@ Aby utworzyć własny przepływ procesów biznesowych dla encji projektu przepro
 
 4. Dodaj nowe pole niestandardowe do encji projektu, aby przechwycić niestandardowe etapy w niestandardowym przepływie procesów biznesowych. Będziesz musiał dodać logikę biznesową (plug-in/przepływ pracy), aby zaktualizować to pole po zaktualizowaniu etapu w przepływie procesów biznesowych.
 
-   ![Zrzut ekranu przedstawiający dostosowywanie encji projektu](media/FAQ-Customize-BPF-6-720.png)
+   ![Zrzut ekranu przedstawiający dostosowywanie encji projektu.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Zmodyfikuj wykres **Projekt według etapu**, aby użyć nowego pola niestandardowego dla etapów.
 
-   ![Zrzut ekranu przedstawiający użycie wykresu Projekt według etapu](media/FAQ-Customize-BPF-7-720.png)
+   ![Zrzut ekranu przedstawiający użycie wykresu Projekt według etapu.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Zmodyfikuj wszystkie widoki dla encji projekt, aby objąć nowego niestandardowe pole dla etapów.
 
-   ![Zrzut ekranu przedstawiający modyfikowanie widoków an encji projektu](media/FAQ-Customize-BPF-8-720.png)
+   ![Zrzut ekranu przedstawiający modyfikowanie widoków encji projektu.](media/FAQ-Customize-BPF-8-720.png)
 
 
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369389"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005404"
 ---
 # <a name="intercompany-invoicing-overview"></a>Omówienie faktury międzyfirmowej
 
@@ -22,7 +22,7 @@ Organizacja może dysponować wieloma oddziałami, podmiotami zależnymi i innym
 
 Poniższa ilustracja przedstawia typowy scenariusz, w którym dwa podmioty prawne, Contoso Robotics USA (podmiot prawny pożyczający) i Contoso Robotics UK (podmiot prawny wypożyczający) dzielą się zasobami w celu realizacji projektu dla klienta, firmy Adventure works. W tym scenariuszu firma Contoso Robotics USA została zakontraktowana na dostawę robót do Adventure Works.
 
-![Faktura międzyfirmowa](./media/IntercompanyScenario.png) 
+![Faktura międzyfirmowa.](./media/IntercompanyScenario.png) 
 
 W aplikacji Dynamics 365 Project Operations do przetwarzania transakcji międzyfirmowych jest używany następujący przepływ:
 
@@ -35,7 +35,7 @@ W aplikacji Dynamics 365 Project Operations do przetwarzania transakcji międzyf
 
 Na poniższym diagramie przedstawiono fakturowanie międzyfirmowe w zależności od zdarzeń księgowania oraz oczekiwane zapisy księgowe w księdze głównej.
 
-![Przepływ międzyfirmowy](./media/IntercompanyFlow.png)
+![Przepływ międzyfirmowy.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Dodatkowe zasoby
 

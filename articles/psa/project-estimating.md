@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009179"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002569"
 ---
 # <a name="project-costs-and-revenue"></a>Koszty i przychody w projekcie
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009179"
 
 Szacowania projektu zapewniają widok finansowy dla prac oszacowanych i zaplanowanych w harmonogramie projektu. Karta **Szacunki** na stronie **Projekty** pokazuje wpływ planowanej pracy na koszty i przychody. Zawiera także informacje o wielu wstępnie zdefiniowanych wymiarach. 
 
-> ![Karta Szacunki](media/project-5.png)
+> ![Karta Szacunki.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Wartości kosztu i sprzedaży w projekcie
 
@@ -66,13 +66,13 @@ Jeśli system nie znajdzie ceny dla roli, w polu ceny sprzedaży w wierszu szaco
 
 Karta **Szacunki** zawiera widok siatki, który pokazuje wiersze szacowania. Siatka zawiera kolumny dla jednostki, łączny koszt własny oraz łączną cenę sprzedaży, jak przedstawiono na poniższej ilustracji. 
 
-> ![Widok siatki na karcie Szacunki](media/project-6.png)
+> ![Widok siatki na karcie Szacunki.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Widok faz czasowych oszacowań projektu
 
 Widok faz czasowych oszacowań projektu pokazuje dane szacunkowe w widoku siatki na osi czasu, według skali czasu wybranej przez użytkownika. Domyślnie dane szacunkowe są prezentowane względem wymiaru **Rola**.
 
-> ![Widok faz czasowych oszacowań projektu](media/project-7.png)
+> ![Widok faz czasowych oszacowań projektu.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Alokacja szacowania nakładu pracy w oparciu o tryb zadania
 

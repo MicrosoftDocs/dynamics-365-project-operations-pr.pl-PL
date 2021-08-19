@@ -6,12 +6,12 @@ ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0e396f0d08fd166e7acd6f8ec8f32353a7679dd8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013364"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005494"
 ---
 # <a name="create-intercompany-transactions"></a>Tworzenie transakcji międzyfirmowych
 
@@ -45,8 +45,8 @@ Księgowanie wartości rzeczywistych w projekcie jest rejestrowane w arkuszu int
 | --- | --- | --- | --- | --- |
 | Koszt | Bez dodawania do arkusza integracji | nie dotyczy | nie dotyczy | nie dotyczy |
 | Nierozliczona sprzedaż | Arkusz integracji z pożyczającym podmiotem prawnym | Tak | Project | **Grupa podatku fakturowania**: na podstawie **klienta kontraktu** <br/> **Grupa podatku towaru do rozliczania**: z bieżącej kategorii projektu podmiotu prawnego w wierszu arkusza |
-| Koszt jednostkowy zasobów | Arkusz integracji z podmiotem prawnym udzielającym pożyczki | No | Klient międzyfirmowy | **Grupa podatku fakturowania**: na podstawie **klienta międzyfirmowego** <br/> **Grupa podatku towaru do rozliczania**: z bieżącej kategorii projektu podmiotu prawnego w wierszu arkusza |
-| Sprzedaż międzyorganizacyjna | Arkusz integracji z podmiotem prawnym udzielającym pożyczki | No | Klient międzyfirmowy | **Grupa podatku fakturowania**: na podstawie **klienta międzyfirmowego** <br/> **Grupa podatku towaru do rozliczania**: z bieżącej kategorii projektu podmiotu prawnego w wierszu arkusza |
+| Koszt jednostkowy zasobów | Arkusz integracji z podmiotem prawnym udzielającym pożyczki | Brak | Klient międzyfirmowy | **Grupa podatku fakturowania**: na podstawie **klienta międzyfirmowego** <br/> **Grupa podatku towaru do rozliczania**: z bieżącej kategorii projektu podmiotu prawnego w wierszu arkusza |
+| Sprzedaż międzyorganizacyjna | Arkusz integracji z podmiotem prawnym udzielającym pożyczki | Brak | Klient międzyfirmowy | **Grupa podatku fakturowania**: na podstawie **klienta międzyfirmowego** <br/> **Grupa podatku towaru do rozliczania**: z bieżącej kategorii projektu podmiotu prawnego w wierszu arkusza |
 
 ### <a name="example-intercompany-transactions"></a>Przykład: transakcje międzyfirmowe
 
