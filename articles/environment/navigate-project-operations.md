@@ -6,12 +6,12 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3b403d9432720a4fe2f9b818600a00e250ea918
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000153"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994604"
 ---
 # <a name="navigate-project-operations"></a>Nawigacja po aplikacji Project Operations
 
@@ -28,11 +28,11 @@ Po udostępnieniu operacji projektowych zgodnie z opisem w tym temacie strona **
 
 Aby przechodzić do Project Operations na środowisku CDS, należy użyć nazwy środowiska znajdującej się w sekcji **Nazwa środowiska Common Data Service**. 
 
-  ![Nazwa środowiska Common Data Service](./media/environment-name.PNG)
+  ![Nazwa środowiska Common Data Service.](./media/environment-name.PNG)
 
 Wybierz opcję **Logowanie** > **Zaloguj się do środowiska**, aby przejść do modułu **Zarządzanie projektami i ich księgowanie** w Finance.  
 
-   ![Zalogować się do Finance](./media/environment-login.PNG)
+   ![Zalogować się do Finance.](./media/environment-login.PNG)
 
 > [!NOTE]
 > Dostęp do operacji projektu można uzyskać w usłudze Common Data Service oraz w module **Zarządzania projektami i księgowością** bezpośrednio za pomocą odpowiednich adresów URL. 

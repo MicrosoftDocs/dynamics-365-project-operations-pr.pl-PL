@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014938"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995459"
 ---
 # <a name="quotes-and-quote-lines"></a>Oferty i wiersze ofert
 
@@ -84,7 +84,7 @@ Profesjonalne organizacje obsługi klienta zazwyczaj składają oferty i wystawi
 
 Jedną lub więcej klasyfikacji transakcji można skojarzyć z każdym wierszem oferty. Po wygraniu oferty mapowanie między wierszem klasyfikacji transakcji a pozycją oferty jest przenoszone do pozycji kontraktu.
  
-> ![Zrzut ekranu z mapowaniami typów transakcji na oferty i pozycje kontraktu](media/basic-guide-5.png)
+> ![Zrzut ekranu z mapowaniami typów transakcji na oferty i pozycje kontraktu.](media/basic-guide-5.png)
   
 Na przykład oferta może zawierać następujące dwa wiersze: 
 - Konsultacja, w której stosowana jest metoda fakturowania czasu i materiałów, w której stosuje się klasyfikacje dotyczące godzin i transakcji opłat. Na przykład wszystkie transakcje czasu i opłaty dotyczące przykładowego projektu **implementacji systemu Dynamics AX** są zafakturowane na klienta na podstawie użytego czasu i materiałów. 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73cbc89ae4350cbd568f1bb978825ff53da07afb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008909"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995144"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Uzgadnianie rezerwacji i przypisań
 
@@ -51,11 +51,11 @@ W niektórych przypadkach gdy w polu **Skala czasu** jest ustawiony poziom wyżs
 
 Po wyświetleniu wyższych poziomów czasu na karcie **Uzgadnianie** widać wskaźnik komórki informujący o różnicach na niższych poziomach czasu. Na przykład na ilustracji poniżej w komórce jest wyświetlany wskaźnik dla miesiąca Październik 2018 dla zasobu o nazwie Kaja Lewandowska. Dlatego mimo iż rezerwacje i przypisania zasobu są równe po zagregowaniu na poziomie **Miesiąc**, nie pasują do siebie na niższych poziomach.
 
-![Niedopasowania zaksięgowań i przydziałów na poziomie miesięcznym](media/reconcile-assignments-01.JPG)
+![Niedopasowania zaksięgowań i przydziałów na poziomie miesięcznym.](media/reconcile-assignments-01.JPG)
 
 Kliknij dwukrotnie komórkę, aby przybliżyć następny niższy poziom i zobaczyć różnicę. Na przykład dwukrotne kliknięcie różnicy w miesiącu Październik 2018 dla Kai Lewandowskiej spowoduje przejście do bardziej szczegółowego poziomu **Tydzień**. Wtedy widać, że w pierwszych dwóch tygodniach października zasób ma rezerwacje na 16 godzin, ale żadnych przypisań, natomiast w trzecim tygodniu października ma 16 godzin przypisań, ale żadnych rezerwacji.
 
-![Niedopasowania zaksięgowań i przydziałów na poziomie tygodniowym](media/reconcile-assignments-02.JPG)
+![Niedopasowania zaksięgowań i przydziałów na poziomie tygodniowym.](media/reconcile-assignments-02.JPG)
 
 Można kliknąć komórkę prawym przyciskiem myszy, aby oddalić widok do następnego wyższego poziomu. Można również wyłączyć wskaźnik komórki, klikając przycisk **Ustawienia**. 
 
@@ -68,13 +68,13 @@ Aby zapewnić dokładne i przewidywalne wyniki podczas stosowania opcji Rozszerz
 
 - Użytkownik musi skonfigurować strefę czasową swojego urządzenia, aby odpowiadała strefom czasowym określonym w ustawieniach personalizacji systemu.
  
-  ![Ustawienia strefy czasowej w systemie Windows 10](media/reconcile-assignments-03.png)
+  ![Ustawienia strefy czasowej w systemie Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Ustawienia strefy czasowej w ustawieniach personalizacji](media/reconcile-assignments-04.png)
+  ![Ustawienia strefy czasowej w ustawieniach personalizacji.](media/reconcile-assignments-04.png)
  
 - Zasób obsługujący rezerwacje musi mieć co najmniej jedną minutę czasu pracy, który pokrywa się z rozkładem używanym do definiowania żądanego rozszerzenia. Na przykład w poniższym przykładzie przedstawiono przegląd zasobów z godzinami pracy wypadających między 9:00 i 19:00. 
 
-  ![Porównanie rozkładów zasobów](media/reconcile-assignments-05.png)
+  ![Porównanie rozkładów zasobów.](media/reconcile-assignments-05.png)
 
 W poniższej tabeli przedstawiono:
 
@@ -83,22 +83,22 @@ W poniższej tabeli przedstawiono:
 - Zasób B: ten zasób znajduje się w innej strefie czasowej niż projekt i dlatego zaczyna się o godzinie 7:00 w swojej strefie czasowej. Jednak rezerwacje zaczynają się od godziny 9:00, która jest najwcześniejszym czasem rozpoczęcia rozkładu przydziału.
 - Zasoby C i D: zasoby są również zlokalizowane w różnych strefach czasowych, różnią się między sobą i projektem, a ich rezerwacje zaczynają nie wcześniej niż ich odpowiednio dostępne godziny rozpoczęcia.
 
-|Encja  |Kalendarz  |
+|Entity  |Kalendarz  |
 |-|-|
-|Szablon kalendarza projektu   | ![kalendarz projektu](media/reconcile-assignments-06.png) |
-|Zasób A  | ![Kalendarz zasobu A](media/reconcile-assignments-06.png) |
-|Zasób B  |  ![Kalendarz zasobu B](media/reconcile-assignments-07.png) |
-|Zasób C  |  ![Kalendarz zasobu C](media/reconcile-assignments-08.png) |
-|Zasób D  | ![Kalendarz zasobu D](media/reconcile-assignments-09.png)  |
+|Szablon kalendarza projektu   | ![kalendarz projektu.](media/reconcile-assignments-06.png) |
+|Zasób A  | ![Kalendarz zasobu A.](media/reconcile-assignments-06.png) |
+|Zasób B  |  ![Kalendarz zasobu B.](media/reconcile-assignments-07.png) |
+|Zasób C  |  ![Kalendarz zasobu C.](media/reconcile-assignments-08.png) |
+|Zasób D  | ![Kalendarz zasobu D.](media/reconcile-assignments-09.png)  |
  
 Po przejściu do widoku uzgodnienie zostaną wyświetlone przydziały zasobów i skojarzone niedobory rezerwacji.
- ![Uzgadnianie widoku przed rozszerzeniem](media/reconcile-assignments-10.png)
+ ![Uzgadnianie widoku przed rozszerzeniem.](media/reconcile-assignments-10.png)
 
 Po wykonaniu na każdym z zasobów funkcji Rozszerz rezerwację rezerwacje dla każdego zasobu są pomyślnie rozszerzane. Wynika to z faktu, że godziny pracy poszczególnych zasobów pokrywają się z rozkładem niedoboru.
- ![Widok Uzgodnienie po rozszerzeniu rezerwacji](media/reconcile-assignments-11.png) 
+ ![Widok Uzgodnienie po rozszerzeniu rezerwacji.](media/reconcile-assignments-11.png) 
 
 Ściślejsze zapoznanie się z szczegółowymi informacjami dotyczącymi rezerwacji pokazuje różnice w czasie rozpoczęcia rezerwacji. Rezerwacje będą zaczynać się nie wcześniej, niż godzina rozpoczęcia rozkładu przydziału i nie wcześniej, niż jest dostępna godzina rozpoczęcia danego zasobu.
- ![Nowe rezerwacje zasobów na tablicy harmonogramu](media/reconcile-assignments-12.png)
+ ![Nowe rezerwacje zasobów na tablicy harmonogramu.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

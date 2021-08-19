@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998424"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995189"
 ---
 # <a name="sales-estimates-and-projects"></a>Szacowania sprzedaży w projektach
 
@@ -35,11 +35,11 @@ Podczas procesu sprzedaży można tworzyć oszacowania sprzedaży poprzez powią
 
 Podczas tworzenia wiersza oferty opartej na projekcie można na stronie **Wiersz oferty** utworzyć nowy projekt lub skojarzyć istniejący projekt. 
 
-> ![Formularz Wiersz oferty](media/project-8.png)
+> ![Formularz Wiersz oferty.](media/project-8.png)
  
 Podczas tworzenia nowego projektu na podstawie szczegółów wiersza oferty można skorzystać z szablonów projektów. Szablony projektów są projektami modelowymi, które reprezentują standardowe plany projektów i oszacowania finansowe typowe w organizacji. Mogą one także stanowić kopie planów projektów i oszacowań z przeszłych projektów.
 
-> ![Szczegóły wiersza oferty](media/project-9.png)
+> ![Szczegóły wiersza oferty.](media/project-9.png)
   
 Podczas tworzenia projektu z oferty projekt jest automatycznie kojarzony z wierszem oferty.
 
