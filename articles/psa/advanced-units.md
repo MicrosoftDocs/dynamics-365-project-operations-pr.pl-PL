@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009584"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987584"
 ---
 # <a name="unit-groups-and-units"></a>Grupy jednostek i jednostki
 
@@ -44,7 +44,7 @@ Jeśli na przykład w grupie jednostek **Czas** jednostka **Godzina** zostanie u
 
 Na poniższej ilustracji przedstawiono przykładową konfigurację jednostki **Dzień**, gdzie w polu **Ilość** jest wyświetlana liczba dni istniejących w dniu, oraz jednostki **Tydzień**, gdzie pole **Ilość** zawiera liczbę dni w tygodniu.
 
-> ![Grupa jednostek: strona Informacje](media/advanced-2.png)
+> ![Grupa jednostek: strona Informacje.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Używanie jednostek i grup jednostek
 

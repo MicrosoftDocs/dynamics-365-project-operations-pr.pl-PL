@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1e9ca9407404274648f359be42d350137775ae55
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001079"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986549"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Integracja danych instalacji i konfiguracji aplikacji Project Operations
 
@@ -24,7 +24,7 @@ Ten temat zawiera informacje na temat integracji podwójnego zapisu w Project Op
 
 Kontrakty projektów, wiersze kontraktu i projekty są tworzone w Dataverse i synchronizowane z aplikacjami Finance and Operations na potrzeby dodatkowego rozliczenia. Rekordy w tych encjach można tworzyć i usuwać tylko w programie Dataverse. Można jednak dodać do tych rekordów w aplikacjach Finance and Operations atrybuty księgowe, takie jak domyślne ustawienia grupy podatku sprzedaży oraz rozmiary finansowe.
 
-  ![Pojęcia integracji kontraktu projektu](./media/1ProjectContract.jpg)
+  ![Pojęcia integracji kontraktu projektu.](./media/1ProjectContract.jpg)
 
 Potencjalni klienci w sprzedaży, szanse sprzedaży i oferty są śledzone w Dataverse i te dane nie są synchronizowane z aplikacjami Finance and Operations, ponieważ z tym działaniem nie jest skojarzona żadna księgowa wartość.
 
@@ -51,7 +51,7 @@ Linie umów projektowych mogą być przeglądane przez księgowego projektu w ap
 
 Wiersze kontraktu projektu przy użyciu metody rozliczania o stałej cenie są zafakturowane za pośrednictwem punktów kontrolnych rozliczania. Punkty kontrolne rozliczania są synchronizowane z transakcjami konta projektu w aplikacjach Finance and Operations przy użyciu mapowania tabeli **punktów kontrolnych integracji Project Operations z linią kontraktów (msdyn\_contractlinescheduleofvalues)**.
 
-  ![Integracja punktów kontrolnych rozliczenia](./media/2Milestones.jpg)
+  ![Integracja punktów kontrolnych rozliczenia.](./media/2Milestones.jpg)
 
 Księgowy może przeglądać transakcje konta i dostosowywać atrybuty księgowe tych transakcji, przechodząc do **Zarządzanie projektami i księgowość** > **Kontrakty projektów** > **Zarządzanie** > **Transakcje na rachunku** lub **Zarządzanie projektami i księgowość** > **Wszystkie projekty** > **Zarządzanie** > **Transakcje na rachunku**.
 
@@ -61,13 +61,13 @@ Podczas pierwszego tworzenia etapu rozliczeniowego dla danej linii kontraktowej 
 
 Zadania projektu są synchronizowane z aplikacjami Finance and Operations za pośrednictwem tabeli zadań projektu **(msdyn\_projecttasks)** wyłącznie dla celów referencyjnych. Operacje tworzenia, aktualizowania i usuwania nie są obsługiwane za pośrednictwem aplikacji Finance and Operations.
 
-  ![Integracja zadań projektowych](./media/3Tasks.jpg)
+  ![Integracja zadań projektowych.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Zasoby projektu
 
 Encja **Role zasobów projektu** jest synchronizowana z aplikacjami Finance and Operations, używając **Role zasobów projektowych dla wszystkich firm (bookableresourcecategories)** tylko dla celów referencyjnych. Ponieważ role zasobów w Dataverse nie są specyficzne dla firmy, system automatycznie tworzy w aplikacjach Finance and Operations rekordy odpowiednich ról zasobów specyficznych dla firmy dla wszystkich podmiotów prawnych uwzględnianych w zakresie integracji podwójnego zapisu.
 
-![Integracja ról zasobów](./media/5Resources.jpg)
+![Integracja ról zasobów.](./media/5Resources.jpg)
 
 Zasoby projektu w Project Operations są utrzymywane w Dataverse i nie są synchronizowane z aplikacjami Finance and Operations.
 
@@ -75,6 +75,6 @@ Zasoby projektu w Project Operations są utrzymywane w Dataverse i nie są synch
 
 Kategorie transakcji są zachowywane w Dataverse i synchronizowane z aplikacjami Finance and Operations przy użyciu kategorii transakcji projektu **(msdyn\_transactioncategories)**. Po zsynchronizowaniu rekordu kategorii transakcji system automatycznie tworzy cztery rekordy kategorii udostępnionych. Każdy rekord odpowiada typowi transakcji w aplikacjach Finance and Operations i łączy je z rekordem kategorii transakcji.
 
-![Integracja kategorii transakcji](./media/4TransactionCategories.jpg)
+![Integracja kategorii transakcji.](./media/4TransactionCategories.jpg)
 
 Korzystanie z kategorii transakcji do szacowania i wartości rzeczywistych wymaga, aby księgowy projektu lub systemowy administrator utworzył odpowiednie kategorie projektu w każdym podmiocie prawnym. Aby uzyskać więcej informacji, zobacz [Konfigurowanie kategorii projektu](../project-accounting/configure-project-categories.md).

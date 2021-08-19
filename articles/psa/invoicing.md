@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015074"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985514"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturowanie w Project Service Automation
 
@@ -50,7 +50,7 @@ Wykonaj ten krok, aby utworzyć fakturę dla konkretnego kontraktu dotyczącego 
 
 - Na stronie listy **kontrakty projektów** otwórz kontrakt projektu, a następnie wybierz pozycję **Utwórz fakturę**.
 
-    ![Tworzenie faktur projektu dla konkretnego kontraktu dotyczącego projektu](media/CreateProjectInvoicesOneByOne.png)
+    ![Tworzenie faktur projektu dla konkretnego kontraktu dotyczącego projektu.](media/CreateProjectInvoicesOneByOne.png)
 
     Faktura jest generowana dla wszystkich transakcji w ramach wybranego kontraktu dotyczącego projektu mających status **gotowe do zafakturowania**. Do tych transakcji należą między innymi pozycje czas, wydatki, punkty kontrolne i wiersze kontraktu opartego na produktach.
 
@@ -58,7 +58,7 @@ Wykonaj te kroki, aby utworzyć zbiorczo faktury.
 
 1. Na stronie listy **kontrakty projektów** wybierz co najmniej jeden kontrakt projektu, dla którego chcesz utworzyć fakturę, a następnie wybierz pozycję **Utwórz faktury projektu**.
 
-    ![Tworzenie zbiorczych faktur projektów](media/CreateProjectInvoicesBulk.png)
+    ![Tworzenie zbiorczych faktur projektów.](media/CreateProjectInvoicesBulk.png)
 
     Komunikat ostrzegawczy informuje, że podczas tworzenia faktur może nastąpić opóźnienie. Proces również jest widoczny.
 

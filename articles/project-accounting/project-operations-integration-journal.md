@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304269"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987944"
 ---
 # <a name="integration-journal-in-project-operations"></a>Arkusz integracji w aplikacji Project Operations
 
@@ -19,7 +19,7 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 Wpisy czasu i wydatku tworzą **Rzeczywiste** transakcje reprezentujące praktyczny widok pracy wykonanej nad projektem. Rozwiązanie Dynamics 365 Project Operations zapewnia księgowym narzędzie do przeglądania transakcji i dostosowywania atrybutów księgowych zgodnie z potrzebami. Po zakończeniu przeglądu i dostosowań transakcje są księgowane w księgach i księdze głównej projektu. Te działania można wykonać przy użyciu arkusza **integracji Project Operations** (**Dynamics 365 Finance** > **Zarządzanie projektami i ich księgowanie** > **Arkusze** > **Arkusz integracji aplikacji Project Operations**.
 
-![Przepływ dziennika integracji](./media/IntegrationJournal.png)
+![Przepływ dziennika integracji.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Utwórz rekordy w dzienniku Integracja operacji projektu
 

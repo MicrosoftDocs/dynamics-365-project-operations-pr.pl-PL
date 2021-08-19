@@ -6,12 +6,12 @@ ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6daa86d453ec5022cdd75dff0394c8818292406c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000629"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986684"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Dodaj subskrypcję Azure do projektu LCS
 
@@ -23,35 +23,35 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 1. W projekcie LCS, w sekcji **Środowiska** wybierz pozycję **Ustawienia Microsoft Azure**.
 
-![Ustawienia aplikacji Microsoft Azure](./media/1MicrosoftAzureSettings.png)
+![Ustawienia Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
 
 2. Na stronie **Ustawienia projektu** na karcie **Łączniki Azure** wybierz opcję **Autoryzuj**. Pozwala to na wdrażanie środowiska w tym projekcie.
 
-![Łączniki Azure](./media/2AzureConnectors.png)
+![Łączniki Azure.](./media/2AzureConnectors.png)
 
 3. Wybierz **Autoryzuj**, aby wydać zgodę administratora.
 
-![Wyrażanie zgody administratora](./media/3GrantAdminConsent.png)
+![Wyrażanie zgody administratora.](./media/3GrantAdminConsent.png)
 
 4. Zaakceptuj prośbę o uprawnienia.
 
-![Zaakceptowanie prośby o uprawnienia](./media/4AcceptPermissionRequest.png)
+![Zaakceptowanie prośby o uprawnienia.](./media/4AcceptPermissionRequest.png)
 
 Autoryzacja jest teraz ukończona. 
 
-![Pomyślna autoryzacja](./media/5AuthorizationComplete.png)
+![Pomyślna autoryzacja.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Umożliw dostęp Dynamics Deployment Services do Twojej subskrypcji Azure
 
 1. Przejdź do [Rozliczeń Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) i wybierz swoją subskrypcję. Usługi wdrażania Dynamics Deployment Services muszą mieć dostęp do tej subskrypcji w celu umożliwienia wdrażania środowisk.
 
-![Szczegóły subskrypcji Azure](./media/6AzureSubscription.png)
+![Szczegóły subskrypcji platformy Azure.](./media/6AzureSubscription.png)
 
 2. Wybierz pozycję **Kontrola dostępu (IAM)** w okienku nawigacji, a następnie wybierz pozycję **Dodaj przypisanie roli**.
 3. Korzystając z suwaka po prawej stronie wybierz opcję **Rola współautora**, a następnie na liście znajdź i wybierz pozycję **Dynamics Deployment Services**. 
 4. Wybierz pozycję **Zapisz**.
 
-![Dostęp do subskrypcji](./media/7SubscriptionAccess.png)
+![Dostęp do subskrypcji.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Dodawanie łącznika subskrypcji Azure do projektu LCS
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33c27acc6747c94d76892f41031adc46150da0e0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011564"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987539"
 ---
 # <a name="business-transactions"></a>Transakcje biznesowe
 
@@ -88,7 +88,7 @@ Połączenie transakcji to encja, która przechowuje relację między dwoma podo
 
 W następującym przykładzie przedstawiono typowy sposób przetwarzania wpisów czasu w cyklu życia projektu w rozwiązaniu PSA.
 
-> ![Wpisy przetwarzania czasu w cyklu życia w usłudze Project Service](media/basic-guide-17.png)
+> ![Wpisy przetwarzania czasu w cyklu życia w usłudze Project Service.](media/basic-guide-17.png)
  
 1. Przesłanie wpisu czasu powoduje utworzenie dwóch wierszy arkusza: jednego dla kosztu i jednego dla nierozliczonej sprzedaży.
 2. Końcowe zatwierdzenie wpisu czasu powoduje utworzenie dwóch wartości rzeczywistych: jednej dla kosztu i jednej dla nierozliczonej sprzedaży.

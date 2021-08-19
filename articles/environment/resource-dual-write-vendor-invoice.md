@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002291"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986504"
 ---
 # <a name="vendor-invoice-integration"></a>Integracja faktury od dostawcy
 
@@ -36,7 +36,7 @@ W Project Operations wiersze raportu dotyczące faktur dostawcy są publikowane 
 
 Księgi pomocnicze podatkowe, księgi pomocnicze sprzedawcy oraz inne księgowania finansowe są rejestrowane odpowiednio w Dynamics 365 Finance w momencie zaksięgowania faktury sprzedawcy.
 
-![Integracja faktury od dostawcy](media/DW7VendorInvoice.png)
+![Integracja faktury od dostawcy.](media/DW7VendorInvoice.png)
 
 Podczas tworzenia rekordów w encji **Faktury dostawcy** w Dataverse rozpoczyna się zautomatyzowany proces zatwierdzania rekordów. W razie potrzeby można przejrzeć stan procesu zautomatyzowanego zatwierdzania w Dataverse, przechodząc do strony **Zaawansowane ustawienia** > **System** > **Zadania systemowe**. Po zakończeniu zatwierdzania rekordy klasy transakcji są tworzone przez system w encji **Wartości rzeczywiste**.
 

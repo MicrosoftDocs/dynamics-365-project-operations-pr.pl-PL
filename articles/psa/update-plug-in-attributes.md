@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012824"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988799"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Aktualizowanie atrybutów dodatków plug-in w celu dołączenia nowych wymiarów kalkulacji cen
 
@@ -42,25 +42,25 @@ W poniższych krokach przedstawiono proces rejestrowania dodatków plug-in.
 1. Otwórz narzędzie **PluginRegistrationTool** i nawiąż połączenie z wystąpieniem online.
 2. Kliknij przycisk **Wyszukaj** i poszukaj dodatku plug-in, który ma zostać zaktualizowany.
 
- ![Zrzut ekranu drzewa wyszukiwania](media/PRT-1.png)
+ ![Zrzut ekranu drzewa wyszukiwania.](media/PRT-1.png)
 
 3. Po znalezieniu dodatku plug-in zaznacz go, a następnie kliknij opcję **Zaznacz w formularzu głównym**.
 
 4. Zaznacz krok dodatku plug-in, który chcesz zaktualizować, kliknij prawym przyciskiem myszy, a następnie wybierz opcję **Aktualizuj**.
 
- ![Zrzut ekranu z dodatkiem plug-in, który ma zostać zaktualizowany](media/PRT-2.png)
+ ![Zrzut ekranu z dodatkiem plug-in, który ma zostać zaktualizowany.](media/PRT-2.png)
  
 5. W oknie aktualizowania w atrybutach filtrowania kliknij wielokropek (**...**).
 
- ![Zrzut ekranu z informacjami konfiguracyjnymi w oknie Aktualizowanie istniejącego kroku](media/PRT-3.png)
+ ![Zrzut ekranu z informacjami konfiguracyjnymi w oknie Aktualizowanie istniejącego kroku.](media/PRT-3.png)
  
 6. Zaznacz pola wyboru atrybutów kalkulacji cen.
 
- ![Zrzut ekranu pokazujący zaznaczenia pól wyboru atrybutów kalkulacji cen](media/PRT-4.png)
+ ![Zrzut ekranu pokazujący zaznaczenia pól wyboru atrybutów kalkulacji cen.](media/PRT-4.png)
 
 7. Kliknij przycisk **OK**, aby zamknąć stronę, a następnie wybierz pozycję **Aktualizuj krok**.
 
- ![Zrzut ekranu z widocznym przyciskiem „Aktualizuj krok”](media/PRT-5.png)
+ ![Zrzut ekranu z widocznym przyciskiem „Aktualizuj krok”.](media/PRT-5.png)
  
 8. Powtórz ten proces dla drugiego dodatku plug-in, **PreOperationQuoteLineDetail - aktualizuje obiekt msdyn_quotelinetransaction**.
 

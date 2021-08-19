@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006254"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985964"
 ---
 # <a name="create-a-new-project"></a>Tworzenie nowego projektu
 
@@ -51,7 +51,7 @@ Kategorie zasobu można również przypisać w zależności od potrzeb. Kategori
 
 Menedżer projektu może używać funkcji zasobów projektu do tworzenia ról wymaganych w projekcie. Role mogą być używane, jeśli potwierdzone zasoby są nadal nieznane podczas rezerwowania zasobów. Role mogą być tymczasowo rezerwowane jako planowane zasoby, aby można było kontynuować etapy planowania projektów.
 
-[![Przykład roli](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Przykład roli.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **Scenariusz:** Contoso zostało zatrudnione do realizacji projektu typu Czas i materiał, który posiada zatwierdzoną kartę projektu. Młodszy kierownik projektu nadal kończy zakres projektu. Menedżer zasobów obecnie identyfikuje konkretne zasoby, które będą zastrzeżone do pracy nad nowym projektem. Ze względu na krytyczny charakter projektu, sponsor projektu poprosił starszego kierownika projektu jako jedną z ról. Menedżer zasobów musi nabyć nowy zasób i zdefiniować rolę w systemie na wypadek, gdyby młodszy kierownik projektu potrzebował informacji o zasobach podczas planowania projektu.
 

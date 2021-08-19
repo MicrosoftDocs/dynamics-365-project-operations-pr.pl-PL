@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999999"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986594"
 ---
 # <a name="expense-management-integration"></a>Integracja zarządzania wydatkami
 
@@ -28,7 +28,7 @@ W przypadku pełnego wdrożenia wydatków kategorie wydatków są tworzone i utr
 2. W Finance wybierz **Zarządzanie wydatkami** > **Konfiguracja** > **Kategorie współdzielone** i wybierz kategorię współdzieloną z klasą transakcji **Wydatek**. Ustaw parametr **Może być używany wydatkach** na wartość **True** i zdefiniuj typ wydatku, który ma być używany.
 3. Przy użyciu tego rekordu kategorii udostępnionej utwórz nową kategorię wydatków, przechodząc do **Zarządzanie kosztami** > **Konfiguracja** > **Kategorie wydatków** i wybierz opcję **Nowa**. Po zapisaniu rekordu podwójny zapis używa mapowania tabeli, **Kategorii wydatków integracji Project Operations — encji eksportowania (msdyn\_expensecategories)** w celu synchronizacji tego rekordu z rekordem Dataverse.
 
-  ![Integracja kategorii wydatków](./media/DW6ExpenseCategories.png)
+  ![Integracja kategorii wydatków.](./media/DW6ExpenseCategories.png)
 
 Kategorie wydatków w aplikacjach Finance and Operations są specyficzne dla firmy lub podmiotu prawnego. Są dostępne oddzielne, specyficzne dla podmiotu prawnego rekordy Dataverse. Kiedy kierownik projektu szacuje wydatki, nie może wybrać kategorii wydatków, które zostały utworzone dla projektu należącego do innej firmy niż ta, która jest właścicielem projektu, nad którym pracuje. 
 
@@ -40,7 +40,7 @@ Raporty o wydatkach są tworzone i zatwierdzone w aplikacjach Finance and Operat
   - Funkcja podwójnego zapisu synchronizuje z Dataverse za pomocą mapowania tabeli **Integrowania wydatków projektu w Project Operations z encjami eksportu (msdyn \_expenses)**.
   - Księgę pomocniczą podatków, księgę pomocniczą dostawców i inne księgowania finansowe rejestruje się odpowiednio w momencie księgowania raportu wydatków.
 
-  ![Integracja raportów wydatków](./media/DW6ExpenseReports.png)
+  ![Integracja raportów wydatków.](./media/DW6ExpenseReports.png)
 
 Po wpisie rekordu w encji **Wydatki** w Dataverse, system uruchamia zautomatyzowany proces zatwierdzania rekordu. W razie potrzeby można przejrzeć stan procesu zautomatyzowanego zatwierdzania w Dataverse, przechodząc do strony **Zaawansowane ustawienia** > **System** > **Zadania systemowe**. Po zakończeniu zatwierdzania rekordy klasy transakcji wydatków są tworzone w encji **Wartości rzeczywiste**.
 

@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0eebafe8b4ce54c6ad6ca64200caea8fa414f6cf
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3ca48b8d5d55b1b2178f9bd84e19d9599f057aa296a728cca57577c18fdaf307
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007559"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985784"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Dodawanie pól niestandardowych do ustawień cen i encji transakcyjnych 
 
@@ -47,7 +47,7 @@ Kiedy niestandardowy wymiar kalkulacji cen jest oparty na zestawie opcji, należ
 > [!IMPORTANT]
 > W przypadku dodawania pola do więcej niż jednej encji należy użyć tej samej nazwy pola we wszystkich encjach. 
 
-> ![Dodawanie lokalizacji pracy zasobu do ceny roli](media/RWL-Field.png)
+> ![Dodawanie lokalizacji pracy zasobu do ceny roli.](media/RWL-Field.png)
 
 W fazach sprzedaży i szacunkowej projektu prognozy nakładu pracy wymagane do ukończenia pracy **lokalnej** i **na miejscu** w **zwykłych godzinach** i **nadgodzinach** są używane w celu oszacowania wartość oferty/projektu. Pola **Lokalizacje pracy zasobu** i **Godziny pracy zasobu** zostaną dodane do encji oszacowania, **Szczegóły wiersza oferty**, **Szczegóły wiersza umowy**, **Zadanie projektu**, **Członek zespołu projektu** oraz **Wiersz szacowania**.
 
@@ -59,7 +59,7 @@ W fazach sprzedaży i szacunkowej projektu prognozy nakładu pracy wymagane do u
 6. Powtórz kroki 1-5, aby dodać to pole do encji **Szczegóły pozycji kontraktu projektu**, **Zadanie projektu**, **Członek zespołu projektu** i **Wiersz szacowania**.
 7. Powtórz kroki 1-6 dla zestaw opcji **Godziny pracy zasobu**. 
 
-> ![Dodawanie lokalizacji pracy zasobu do Wiersza szacowania](media/RWL-Default-Value.png)
+> ![Dodawanie lokalizacji pracy zasobu do Wiersza szacowania.](media/RWL-Default-Value.png)
 
 
 W celu dostarczenia i fakturowania ukończona praca powinna być dokładnie wyceniona, aby wybrać czy została wykonana **Lokalnie** lub **Na miejscu** i czy została ukończona w **godzinach pracy** czy w **nadgodzinach** w wartościach rzeczywistych projektu. Pola **Lokalizacja pracy zasobu** i **Godziny pracy zasobu** zostaną dodane do encji **Wpis czasu**, **Rzeczywiste**, **Szczegóły wiersza faktury** oraz **Wiersz dziennika**.
@@ -72,7 +72,7 @@ W celu dostarczenia i fakturowania ukończona praca powinna być dokładnie wyce
 6. Powtórz kroki 1-5 w celu dodania tego pola do encji **Rzeczywiste**, **Szczegóły wiersza faktury** i **Wiersz dziennika**.
 7. Powtórz kroki 1-6 dla zestaw opcji **Godziny pracy zasobu**. 
 
-> ![Dodawanie lokalizacji pracy zasobu do Wpisu czasu](media/RWL-time-entry.png)
+> ![Dodawanie lokalizacji pracy zasobu do Wpisu czasu.](media/RWL-time-entry.png)
 
 Spowoduje to ukończenie zmian schematu wymaganych dla niestandardowych wymiarów opartych na zestawie opcji.
 
@@ -85,7 +85,7 @@ Kiedy niestandardowym wymiarem kalkulacji cen jest encja, dodasz relację 1:N mi
 3. Rozwiń encję **Standardowe stanowisko** i wybierz **Relacje 1:N**.
 4. Kliknij pozycję **Nowa**, aby utworzyć nową relację 1:N o nazwie **Standardowe stanowisko do Zasobu, który można zaksięgować**. Wprowadź wymagane informacje, a następnie kliknij przycisk **Zapisz**.
 
-> ![Dodawanie standardowego stanowiska jako pola odwołania do zasobu, który można zarezerwować](media/ST-BR.png)
+> ![Dodawanie standardowego stanowiska jako pola odwołania do zasobu, który można zarezerwować.](media/ST-BR.png)
 
 Standardowe stanowisko musi również zostać dodane do encji kalkulacji cen Project Service, **Cena roli** oraz **Narzut na cenę dla roli**. Te dane są również uzupełniane przy użyciu relacji 1:N między encjami **Standardowe stanowisko** a **Cena roli** i encjami **Standardowe stanowisko** i **Narzut na cenę dla roli**.
 
@@ -104,13 +104,13 @@ W fazach sprzedaży i oszacowania projektu, do kalkulacji cen oferty/projektu ko
 
 5. Powtórz kroki 1-5, aby utworzyć relacje 1:N z encji **Standardowe stanowisko** do encji **Szczegóły wiersza oferty**, **Szczegóły pozycji kontraktu projektu**, **Zadanie projektu**, **Członek zespołu projektu** oraz **Wiersz szacowania**.
 
-> ![Dodawanie standardowego stanowiska jako pola odwołania do wiersza szacowania](media/ST-Estimate-Line.png)
+> ![Dodawanie standardowego stanowiska jako pola odwołania do wiersza szacowania.](media/ST-Estimate-Line.png)
 
 W fazach dostarczania i fakturowania praca wykonana przez każde standardowe stanowisko musi być dokładnie wyceniona w wartościach rzeczywistych projektu. To oznacza, że musi być relacja 1:N z encji **Standardowe stanowisko** do encji **Wpis czasu**, **Rzeczywiste**, **Szczegóły wiersza faktury** oraz **Wiersz arkusza**.
 
 6. Powtórz kroki 1-6, aby utworzyć relacje 1:N z encji **Standardowe stanowisko** do encji **Wpis czasu**, **Rzeczywiste**, **Szczegóły wiersza faktury** oraz **Wiersz arkusza**.
 
-> ![Dodawanie standardowego stanowiska jako pola odwołania do wpisu czasu](media/ST-Mapping.png)
+> ![Dodawanie standardowego stanowiska jako pola odwołania do wpisu czasu.](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Konfigurowanie ustawiania domyślnych wartości wymiaru przy użyciu funkcji mapowania platformy
 W przypadku encji Wpis czasu pomocne jest, kiedy system domyślnie ustawia ustawienie standardowe stanowisko na Wpis czas z Zasobu, który można zarezerwować, który rejestruje wpis czasu. Wykonaj poniższe kroki, aby dodać mapowania do relacji 1:N z encji **Zasób, który można zarezerwować** do encji **Wpis czasu**.

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015029"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985154"
 ---
 # <a name="manage-resource-requests-project-service"></a>Zarządzaj żądaniami zasobów (Project Service)
 
@@ -43,7 +43,7 @@ Menedżerowie projektów i menedżerowie kont regularnie składają wnioski z ż
   
    -   Kliknij **Filtruj**, aby wyświetlić okienko **Filtr**, które pozwala na filtrowanie wyników dla jednostki organizacyjnej, roli, umiejętności lub innych atrybutów.  
   
-       ![Ekran żądania zasobów programu Project Service](../psa/media/project-service-resource-request-screen.png "Ekran żądania zasobów programu Project Service")  
+       ![Ekran żądania zasobów programu Project Service.](../psa/media/project-service-resource-request-screen.png "Ekran żądania zasobów programu Project Service")  
   
 3. W kalendarzu dla zasobu, który chcesz zarezerwować, wybierz okres czasu, aby zarezerwować zasób, a następnie kliknij **Zarezerwuj**, aby zarezerwować zasób, lub **Zaproponuj rezerwację**, aby zaproponować rezerwację i poczekać na zatwierdzenie przez osobę żądającą. Rezerwacja zasobu może być rezerwacją wstępną lub rezerwacją ostateczną.  
   

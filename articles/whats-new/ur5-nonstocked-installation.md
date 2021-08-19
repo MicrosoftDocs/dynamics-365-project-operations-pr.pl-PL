@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011069"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986774"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Aktualizowanie Project Operations w środowisku Finance
 
@@ -33,7 +33,7 @@ Ten temat zawiera informacje o tym, jak zaktualizować Dynamics 365 Project Oper
 4. Sprawdź, czy środowisko jest uruchomione. Jeśli nie zostało uruchomione, uruchom środowisko.
 5. W sekcji **Nowa wersja** w obszarze **Dostępne aktualizacje** wybierz pozycję **Wyświetl aktualizację** dla wersji 10.0.15.
 
-![Wyświetl przycisk aktualizacji](media/view-update.png)
+![Wyświetl przycisk aktualizacji.](media/view-update.png)
 
 6. Na stronie **Aktualizacje binarne** wybierz pozycję **Zapisz pakiet**.
 7. Na stronie **Przejrzyj i zapisz aktualizacje** wybierz pozycję **Zapisz pakiet**.
@@ -47,11 +47,11 @@ Ten temat zawiera informacje o tym, jak zaktualizować Dynamics 365 Project Oper
 2. Z listy wybierz pakiet zapisany wcześniej, a następnie wybierz pozycję **Zastosuj**.
 3. Wybierz pozycję **Tak**, aby potwierdzić, że chcesz wdrożyć pakiet.
 
-![Okno dialogowe Potwierdzanie wdrażania pakietu](media/confirm-package-deployment.png)
+![Okno dialogowe Potwierdzanie wdrażania pakietu.](media/confirm-package-deployment.png)
 
 4. Wybierz pozycję **Tak**, aby potwierdzić, że chcesz aktualizować aplikację.
 
-![Okno dialogowe Potwierdzanie aktualizacji aplikacji](media/confirm-application-update.png)
+![Okno dialogowe Potwierdzanie aktualizacji aplikacji.](media/confirm-application-update.png)
 
 Rozpocznie się aktualizacja wdrożenia i aplikacji. 
 
@@ -84,7 +84,7 @@ W ramach aktualizacji UR5 są wymagane następujące aktualizacje uprawnień zab
 
 1. W środowisku Dataverse wybierz opcję **Ustawienia** i w grupie **System** wybierz opcję **Zabezpieczenia**.
 
-![Ustawienia środowiska usługi Dataverse](media/Picture21.png)
+![Ustawienia środowiska Dataverse.](media/Picture21.png)
 
 2. Wybierz **Role zabezpieczeń**.
 3. Z listy ról wybierz **użytkownik aplikacji z podwójnym zapisem** i wybierz kartę **Encje niestandardowe**. 
@@ -121,7 +121,7 @@ W ramach aktualizacji UR5 są wymagane następujące aktualizacje uprawnień zab
 6. Z listy map wybierz mapowanie **Księga (msdyn_ledgers)** ze wszystkimi wymaganiami wstępnymi i zaznacz pole wyboru **Synchronizacja początkowa**. 
 7. W polu **Wzorzec dla synchronizacji początkowej** wybierz **aplikacje Finance and Operations**, a następnie wybierz opcję **Uruchom**.
  
- ![Synchronizacja mapowania księgi](media/DW6.png)
+ ![Synchronizacja mapowania księgi.](media/DW6.png)
  
 
 

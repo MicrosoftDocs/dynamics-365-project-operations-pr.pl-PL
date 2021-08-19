@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007289"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985559"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalowanie danych przykładowych dla aplikacji Project Service
 
@@ -86,7 +86,7 @@ Należy zaplanować, że komputer będzie podłączony do sieci a instalacja bę
 Komputer powinien mieć wyłączoną funkcję wygaszacza ekranu. W przeciwnym razie poświadczenia sesji podczas instalacji mogą zostać utracone po uruchomieniu wygaszacza ekranu (chyba że zachowasz przez cały czas aktywną sesję).
 
 > [!div class="mx-imgBorder"]
-> ![Zrzut ekranu przedstawiający ustawienia wygaszacza ekranu, z wygaszaczem ekranu wyłączonym](media/sample-data-1.png)
+> ![Zrzut ekranu przedstawiający ustawienia wygaszacza ekranu, z wygaszaczem ekranu wyłączonym.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Pobierz i rozpakuj
 
@@ -142,7 +142,7 @@ Pakiet danych demonstracyjnych wymaga sześciu użytkowników. Aby pakiet zosta�
 3. Otwórz **PkgFolder** i znajdź i otwórz **ImportUserMapFile.xml**. Zaktualizuj pola **Nowy=** do adresów e-mail odpowiednich użytkowników w systemie.
 
    > [!div class="mx-imgBorder"]
-   > ![Zrzut ekranu UserMapFile](media/sample-data-7.png)
+   > ![Zrzut ekranu UserMapFile.](media/sample-data-7.png)
 
 4. Jeśli użytkownik "Spencer Low" ma Identyfikator użytkownika inny niż **"spencerl"**, musisz zaktualizować dodatkowy plik. Otwórz **DemoDataPreImportConfig.xml**, a następnie znajdź znacznik **userstocreateandconfigure**. Zaktualizuj znacznik **\<login\>** za pomocą loginId (wielkość liter jest uwzględniana). 
 
@@ -172,7 +172,7 @@ Pakiet danych demonstracyjnych wymaga sześciu użytkowników. Aby pakiet zosta�
 5. Wybierz **Dalej** aż pojawi się dialog **Instalator danych pokazowych**.
 
    > [!div class="mx-imgBorder"]
-   > ![Zrzut ekranu przedstawiający okno statusu Instalatora danych przykładowych](media/sample-data-3.png)
+   > ![Zrzut ekranu przedstawiający okno statusu Instalatora danych przykładowych.](media/sample-data-3.png)
 
 6. Zanim przejdziesz dalej, pamiętaj, że instalowanie danych przykładowych może trwać maksymalnie godzinę (zwykle ~ 10 min). Należy się upewnić, że komputer pozostaje włączony i podłączony do sieci w trakcie procesu instalowania, i że sesja pozostaje aktywna.   
 
@@ -191,10 +191,10 @@ Po całkowitym pobraniu danych przykładowych zaloguj się jako użytkownik Spen
 - Jeśli zainstalowana jest aplikacja Field Service, przejdź do **Project Service** > **Ustawienia** > **Cenniki**. Upewnij się, istnieją stawki kosztów i rachunków. Przejdź do **Field Service** > **Ustawienia** > **Cenniki** i sprawdź, czy istnieją stawki kosztów i rachunków, w odpowiedniej walucie, dla każdego kraju/regionu w zestawie danych.
 
   > [!div class="mx-imgBorder"]
-  > ![Zrzut ekranu przedstawiający aktywne cenniki](media/sample-data-4.png)
+  > ![Zrzut ekranu przedstawiający aktywne cenniki.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Zrzut ekranu przedstawiający aktywne jednostki organizacyjne](media/sample-data-5.png)
+  > ![Zrzut ekranu przedstawiający aktywne jednostki organizacyjne.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Uwagi techniczne
 
@@ -295,7 +295,7 @@ Jeśli zachodzi konieczność zmiany godzin pracy dla przykładowych zasobów, k
 Wybierz użytkownika (na przykład Spencer Low) i zmień godzin pracy użytkownika Spencer na godziny, które chcesz zastosować do wielu użytkowników. Przejdź do **Universal Resource Scheduling** > **Ustawienia** > **Szablony godzin pracy** i edytuj rekord **Domyślny szablon pracy**. W polu **Szablon zasobu** wybierz użytkownika z godzinami pracy, które chcesz zastosować dla innych zasobów. Przejdź do **Universal Resource Scheduling** > **Planowanie** > **Zasoby** > **Aktywne zasoby, które można zarezerwować**. Wybierz zasoby, które chcesz zmienić, a następnie wybierz **Ustaw kalendarz**. Z listy rozwijanej **Szablon pracy** wybierz szablon **Domyślne godziny pracy** lub inny szablon z poprawnym zasobem szablonu. Po przejściu do tablicy harmonogramu, powinieneś zobaczyć, że zasoby mają zaktualizowane godziny pracy.
 
 > [!div class="mx-imgBorder"]
-> ![Zrzut ekranu przedstawiający aktywne zasoby, które można zarezerwować](media/sample-data-6.png)
+> ![Zrzut ekranu przedstawiający aktywne zasoby, które można zarezerwować.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
