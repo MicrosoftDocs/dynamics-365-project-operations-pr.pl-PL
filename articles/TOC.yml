@@ -4,6 +4,8 @@
   items:
     - name: Określenie typu wdrażania
       href: environment/determine-deployment-type.md
+    - name: Rejestrowanie się w celu korzystania z wersji próbnych aplikacji Project Operations
+      href: environment/admin-trials.md
     - name: Aktualizacje aplikacji Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Co nowego
       items:
+        - name: Sierpień 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: Lipiec 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: Czerwiec 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
@@ -418,6 +422,8 @@
       items:
         - name: Omówienie zatwierdzeń
           href: approvals/approvals-overview.md
+        - name: Zestawy zatwierdzenia
+          href: approvals/approval-sets.md
         - name: Uwagi dotyczące deweloperów
           items:
             - name: Uwagi dotyczące deweloperów na temat zatwierdzeń
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Co nowego
       items:
+        - name: "Co nowego w drugim wydaniu aktualizacji na 2021\_r. z wczesnym dostępem — wdrażanie wersji uproszczonej"
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Co nowego w sierpniu 2021 r. — wdrażanie wersji uproszczonej
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Co nowego w lipcu 2021 r. — wdrażanie wersji uproszczonej
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Co nowego w czerwcu 2021 r. — wdrażanie wersji uproszczonej
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Zarządzanie podumowami w rozwiązaniu Project Operations
       items:
-        - name: Zarządzanie podumowami — omówienie
+        - name: Zarządzanie podumowami w rozwiązaniu Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: "Podwykonawstwo — październik 2021\_r., wczesny dostęp"
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Kluczowe pojęcia związane z podwykonawstwem
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Zarządzanie dostawcami i cennikami projektów
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: 'Podwykonawcy jako zasoby, które można zarezerwować'
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Szczegóły nagłówka dla podumów
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Wiersze podumowy dla czasu
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Wiersze podumowy dla wydatku
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Wiersze podumowy dla produktów
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Zasoby wiersza podwykonawcy
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Punkty kontrolne wiersza podwykonawcy
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Czas
       items:
         - name: Omówienie czasu
@@ -868,6 +892,8 @@
       items:
         - name: Omówienie zatwierdzeń
           href: approvals/approvals-overview.md
+        - name: Zestawy zatwierdzenia
+          href: approvals/approval-sets.md
         - name: Uwagi dotyczące deweloperów
           items:
             - name: Uwagi dotyczące deweloperów na temat zatwierdzeń
@@ -1060,6 +1086,8 @@
       items:
         - name: Harmonogram wydań aktualizacji dla rozwiązania Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 35, V3'
+          href: psa/whats-new-ur-35.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 34, V3'
           href: psa/whats-new-ur-34.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 33, V3'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Dostosowywanie wpisu czasu tygodniowego
               href: psa/time-entry-extensibility-v3.md
-            - name: Zestawy zatwierdzenia
+            - name: Zestawy zatwierdzeń w rozwiązaniu Project Service Automation
               href: psa/approval-set.md
     - name: Często zadawane pytania i rozwiązywanie problemów (3.x)
       items:
