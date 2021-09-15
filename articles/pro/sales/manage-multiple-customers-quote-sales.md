@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001669"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440790"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Zarządzanie wieloma klientami w ofertach projektu - wersja uproszczona
 
@@ -37,7 +37,7 @@ Klienta oferty można utworzyć, aktualizować i usuwać z poziomu karty **Klien
 
 | **Pole** | **Lokalizacja** | **Opis** | **Wpływ zmian w dalszych etapach** |
 | --- | --- | --- | --- |
-| Konto | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Lista wszystkich aktywnych kont. To pole jest zablokowane po utworzeniu rekordu. Jeśli chcesz przeprowadzić aktualizację, usuń rekord i utwórz go ponownie. Jeśli rekord został zarejestrowany z wartościami rzeczywistymi lub rekord klienta oferty to klient podstawowy, użytkownik będzie mógł usunąć rekord. | Po wykorzystaniu oferty klienci wiersza oferty są kopiowani jako klienci w pozycji kontraktu projektu. Po wykorzystaniu oferty klienci wiersza oferty są także kopiowani jako klienci w pozycji kontraktu projektu. |
+| Konto | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Lista wszystkich aktywnych kont. To pole jest zablokowane po utworzeniu rekordu. Jeśli chcesz przeprowadzić aktualizację, usuń rekord i utwórz go ponownie. Jeśli zostały zarejestrowane jakiekolwiek wartości rzeczywiste lub jeśli rekord klienta oferty jest klientem podstawowym, nie będzie można usunąć tego rekordu. | Po wykorzystaniu oferty klienci wiersza oferty są kopiowani jako klienci w pozycji kontraktu projektu. Po wykorzystaniu oferty klienci wiersza oferty są także kopiowani jako klienci w pozycji kontraktu projektu. |
 | Procent podziału rozliczeń | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Reprezentuje procent każdej niezafakturowanej transakcji sprzedaży, która będzie przypisywana do tego klienta oferty. | Po wygraniu oferty ta wartość jest kopiowana do klienta kontraktu oraz nowych wierszy oferty. |
 | Nazwa kontaktu u płatnika | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Jest to pole tekstowe, które ma służyć do identyfikowania osoby kontaktowej dla faktury u danego klienta. Te elementy są domyślnie pobierane z rekordu pokrewnego konta | Skopiowane do klienta kontraktu dotyczącego projektu podczas potwierdzenia oferty i do pola Nazwa płatnika kontraktu na fakturze wygenerowanej dla danego klienta. |
 | Nazwa płatnika | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | To pole tekstowe ma służyć do identyfikowania osoby kontaktowej dla faktury u danego klienta. | Skopiowane do klienta kontraktu dotyczącego projektu podczas potwierdzenia oferty i do pola **Nazwa płatnika kontraktu** na fakturze wygenerowanej dla danego klienta. |

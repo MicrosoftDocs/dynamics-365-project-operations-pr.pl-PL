@@ -1,0 +1,66 @@
+---
+title: Punkty kontrolne wiersza podumowy
+description: W tym temacie opisano sposób tworzenia i obsługiwania harmonogramu faktur opartego na punktach kontrolnych dla podwykonawcy z wykonawcą.
+author: rumant
+ms.date: 08/06/2021
+ms.topic: article
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.translationtype: HT
+ms.contentlocale: pl-PL
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323789"
+---
+# <a name="subcontract-line-milestones"></a>Punkty kontrolne wiersza podumowy
+
+[!include [banner](../../includes/dataverse-preview.md)]
+
+_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
+
+W aplikacji Dynamics 365 Project Operations wiersz umowy z metody rozliczania o stałej cenie może określać harmonogram faktur oparty na punktach kontrolnych dla dostawcy.
+
+Punkty kontrolne dla faktur dostawcy mogą być generowane automatycznie z ustawioną częstotliwością lub można je tworzyć ręcznie.
+
+## <a name="automatically-create-a-milestone-based-invoice-schedule-for-a-subcontract-line"></a>Automatyczne tworzenie harmonogramu faktur opartego na punktach kontrolnych dla wiersza podumowy
+
+Wykonaj następujące kroki, aby automatycznie wygenerować harmonogram faktur oparty na punktach kontrolnych dla stałego zestawu równomiernie rozproszonych punktów kontrolnych.
+
+1. Przejdź do pozycji **Ustawienia** > **Częstotliwości faktur** i skonfiguruj częstotliwość faktur dla wierszy podumowy.
+2. Otwórz stronę **Podumowy**, otwórz podumowę, z którą chcesz pracować, a następnie otwórz wiersz podumowy o stałej cenie, dla którego chcesz utworzyć harmonogram punktów kontrolnych.
+3. Na karcie **Punkty kontrolne wiersza podumowy** wybierz opcję **Generuj okresowe punkty kontrolne**.
+4. W oknie dialogowym wprowadź lub wybierz zakres dat, liczbę punktów kontrolnych i częstotliwość faktur. Możesz wybrać datę rozpoczęcia lub wybrać liczbę punktów kontrolnych, częstotliwość faktur lub datę rozpoczęcia albo wybrać datę zakończenia i częstotliwość faktur. Nie można wybrać daty zakończenia i liczby punktów kontrolnych.
+Na podstawie tych informacji system tworzy punkty kontrolne i rekordy widoczne w siatce **Punkty kontrolne**.
+
+   - **Nazwa punktu kontrolnego** — nazwa punktu kontrolnego jest ustawiana na datę punktu kontrolnego w zależności od częstotliwości faktur.
+   - **Data punktu kontrolnego** — data na podstawie częstotliwości faktur.
+   - **Kwota punktu kontrolnego** — obliczana przez podzielenie na kwoty sumy częściowej w wierszu podumowy przez liczbę punktów kontrolnych.
+
+Jeśli wiersz podumowy ma wartość w polu **Szacowana kwota podatku**, ta wartość jest równo dodawana do każdego punktu kontrolnego podczas generowania okresowych punktów kontrolnych.
+
+Suma kwot punktów kontrolnych wiersza podumowy musi być równa wartości w wierszu podumowy. Jeśli nie są równe, wystąpi błąd. Można naprawić błąd i sprawdzić, czy suma punktów kontrolnych jest równa wartości wiersza podumowy, tworząc, edytując lub usuwając kwoty punktów kontrolnych i podatku. Po wprowadzeniu zmian zapisz i odśwież stronę, aby się upewnić, że nie ma kolejnych błędów.
+
+## <a name="manually-create-subcontract-line-milestones"></a>Ręczne tworzenie punktów kontrolnych wiersza podumowy
+
+Punkty kontrolny o stałej cenie w wierszu podumowy można tworzyć ręcznie, gdy nie są one okresowo dzielone. Aby ręcznie utworzyć punkt kontrolny wiersza podumowy, należy wykonać następujące kroki.
+
+1. W okienku nawigacji wybierz pozycję **Podumowy** i otwórz podumowę, z którą chcesz pracować.
+2. Otwórz wiersz podumowy o stałej cenie, dla którego chcesz utworzyć punkt kontrolny.
+3. Na karcie **Punkty kontrolne wiersza podumowy** na siatce podrzędnej wybierz opcję **+ Nowy punkt kontrolny wiersza podumowy**.
+4. Na stronie **Nowy punkt kontrolny wiersza podumowy** wprowadź wymagane informacje zgodnie z następującą tabelą.
+
+    | Pole | Opis |
+    | --- | --- |
+    | Nazwa punktu kontrolnego | Nazwa punktu kontrolnego. |
+    | Opis | Opis punktu kontrolnego.  |
+    | Data punktu kontrolnego | Data, od kiedy proces automatycznego tworzenia faktur powinien szukać stanu tego punktu kontrolnego i rozważyć jego użycie podczas fakturowania. Ta wartość jest dołączona do wiersza faktury dostawcy podczas fakturowania tej podumowy. |
+    | Kwota | Kwoty lub wartości punktów kontrolnych, które będą zafakturowane na klientach. Ta wartość jest dołączona do wiersza faktury dostawcy podczas fakturowania tej podumowy. |
+    | Podatek | Kwota podatku stosowana względem punktu kontrolnego. Ta wartość jest dołączona do wiersza faktury dostawcy podczas fakturowania tej podumowy. |
+    | Kwota po opodatkowaniu | To pole tylko do odczytu obliczane jako Kwota + podatek. Ta wartość jest dołączona do wiersza faktury dostawcy podczas fakturowania tej podumowy. |
+    | Stan faktury | Podczas tworzenia punktu kontrolnego dla tego stanu jest zawsze ustawiana wartość **Nieprzygotowane do fakturowania**.  Gdy stan to **Przygotowane do fakturowania**, proces tworzenia faktury dostawcy obejmuje ten punkt kontrolny na fakturze dostawcy. |
+
+5. Wybierz pozycję **Zapisz i zamknij**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
