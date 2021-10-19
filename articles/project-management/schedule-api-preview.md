@@ -2,23 +2,22 @@
 title: Używanie interfejsów API harmonogramu projektu do wykonywania operacji na encji planowania
 description: Ten temat zawiera informacje i przykłady dotyczące korzystania z interfejsów API harmonogramu projektu.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008779"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487698"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Używanie interfejsów API harmonogramu projektu do wykonywania operacji na encji planowania
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-> [!IMPORTANT] 
-> Niektóre lub wszystkie funkcje wymienione w tym temacie są dostępne w wersji zapoznawczej. Zawartość i funkcjonalność mogą ulec zmianie. 
+
 
 ## <a name="scheduling-entities"></a>Encje planowania
 

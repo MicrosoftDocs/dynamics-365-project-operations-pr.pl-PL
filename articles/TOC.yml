@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Co nowego
       items:
+        - name: Październik 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: Wrzesień 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: Sierpień 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: Lipiec 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
@@ -292,7 +296,7 @@
           items:
             - name: Projektowanie szablonów projektów przy użyciu narzędzia kopiowania projektów
               href: project-management/dev-copy-project.md
-            - name: Używanie interfejsów API planowania projektów (publiczna wersja zapoznawcza)
+            - name: Używanie interfejsów API harmonogramu projektu
               href: project-management/schedule-api-preview.md
     - name: Zarządzanie zasobami
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Zakup materiałów niemagazynowanych dla projektów przy użyciu oczekujących faktur od dostawcy
           href: procurement/pending-vendor-invoices.md
+        - name: Zamawianie materiałów niemagazynowanych dla projektów przy użyciu zamówień zakupu projektów
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Przechowywanie dostawców
+          items:
+            - name: Omówienie przechowywania dostawców
+              href: procurement/vendor-retention-overview.md
+            - name: Konfigurowanie przechowywania dostawców
+              href: procurement/set-up-vendor-retention.md
     - name: Fakturowanie
       items:
         - name: Omówienie przetwarzania faktur
@@ -528,6 +540,10 @@
       items:
         - name: "Co nowego w drugim wydaniu aktualizacji na 2021\_r. z wczesnym dostępem — wdrażanie wersji uproszczonej"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Co nowego w październiku 2021 r. — wdrażanie wersji uproszczonej
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Co nowego we wrześniu 2021 r. — wdrażanie wersji uproszczonej
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: Co nowego w sierpniu 2021 r. — wdrażanie wersji uproszczonej
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Co nowego w lipcu 2021 r. — wdrażanie wersji uproszczonej
@@ -784,7 +800,7 @@
           items:
             - name: Projektowanie szablonów projektów przy użyciu narzędzia kopiowania projektów
               href: project-management/dev-copy-project.md
-            - name: Używanie interfejsów API planowania projektów (publiczna wersja zapoznawcza)
+            - name: Używanie interfejsów API harmonogramu projektu
               href: project-management/schedule-api-preview.md
     - name: Zarządzanie zasobami
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Wiersze podumowy dla czasu
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Wiersze podumowy dla wydatku
+        - name: Wiersze podumowy dla kategorii wydatków
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Wiersze podumowy dla produktów
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Harmonogram wydań aktualizacji dla rozwiązania Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 34, V3'

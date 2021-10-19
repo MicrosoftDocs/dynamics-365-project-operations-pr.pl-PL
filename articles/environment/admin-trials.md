@@ -2,16 +2,16 @@
 title: Rejestrowanie się w celu korzystania z wersji próbnych aplikacji Project Operations
 description: W tym temacie znajdują się informacje dotyczące sposobu wdrażania wersji próbnej rozwiązania Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418470"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599226"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Rejestrowanie się w celu korzystania z wersji próbnych aplikacji Project Operations 
 
@@ -85,15 +85,9 @@ Przed rozpoczęciem należy zalogować się do przeglądarki, przy użyciu konta
 
    Po zakończeniu inicjowania aprowizacji nastąpi przekierowanie do listy środowiska w centrum administracyjnym Power Platform. W trakcie aprowizacji stan środowiska to **PreparingInstance**.
  
-  Po zakończeniu aprowizacji stan środowiska to **Ready**.
+  Po zakończeniu inicjowania obsługi administracyjnej stan środowiska jest **Gotowy**. Inicjowanie obsługi środowiska obejmuje wdrożenie danych demonstracyjnych.
  
-4.  Po zakończeniu aprowizacji wybierz odpowiedni adres URL usługi Microsoft Dataverse i adresy URL aplikacji Finance and Operations w celu weryfikacji wdrożenia.
-
-## <a name="demo-data-installation"></a>Instalacja danych pokazu
-
-Poniższe linki służą do uzyskiwania dostępu do pakietów danych pokazu zarówno dla materiałów niemagzynowanych, jak i scenariuszy wdrażania uproszczonego. 
-- [Obsługa materiałów niemagazynowanych — dane pokazu](resource-apply-pro-setup-config-data.md)
-- [Wersja uproszczona — dane pokazu](lite-apply-demo-setup-config-data.md)
+4.  Wybierz odpowiedni adres URL Microsoft Dataverse i adresy URL aplikacji Finance and Operations, aby sprawdzić poprawność wdrożenia.
 
 ## <a name="configuring-dual-write"></a>Konfigurowanie podwójnego zapisu
 Tylko w przypadku wdrożeń materiałów niemagazynowanych należy skonfigurować mapowania podwójnego zapisu. Aby uzyskać więcej informacji, zobacz temat [Wersje mapowania podwójnego zapisu w aplikacji Project Operations](resource-dual-write-maps.md).

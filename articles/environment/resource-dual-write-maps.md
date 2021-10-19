@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003829"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547122"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Wersje map podwójnego zapisu aplikacji Project Operations
 
@@ -49,8 +49,8 @@ Następujące mapy są wymaganymi warunkami wstępnymi dla rozwiązania Project 
 | Tabela integracji Project Operations dla szacowania materiałów (msdyn\_estimatelines) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. |
 | Propozycje faktury projektu V2 (invoices) | 1.0.0.3 | Nie jest wymagane do inicjowania obsługi. |
 | Wartości rzeczywiste integracji Project Operations (msdyn_actuals) | 1.0.0.14 | Nie jest wymagane do inicjowania obsługi. |
-| Punkty kontrolne pozycji kontraktu w integracji Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Nie jest wymagane do inicjowania obsługi. |
-| Encja integracji Project Operations na potrzeby oszacowania kosztów (msdyn_estimateslines) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. |
+| Punkty kontrolne pozycji kontraktu integracji rozwiązania Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Nie jest wymagane do inicjowania obsługi. |
+| Encja integracji rozwiązania Project Operations dla szacowania wydatków (msdyn_estimatelines) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. |
 | Encja integracji Project Operations na potrzeby oszacowania godzinowego (msdyn_resourceassignments) | 1.0.0.5 | Nie jest wymagane do inicjowania obsługi. |
 | Encja integracji kategorii wydatków projektowych Project Operations (msdyn_expensecategories) | 1.0.0.1 | Nie jest wymagane do inicjowania obsługi. |
 | Encja integracji wydatków projektowych Project Operations (msdyn_expenses) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. |

@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323834"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506112"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Pozycje podumowy dla kategorii wydatków
 
@@ -29,23 +29,23 @@ Aby utworzyć pozycję podumowy dla kategorii wydatków w aplikacji Project Oper
 
 W poniższej tabeli przedstawiono informacje o polach na stronie szczegółów **wiersza podumowy** oraz na stronie **Szybkie tworzenie**.
 
-| **Pole** |  **Opis** |
-| ----------| ---------------- |
-| Imię i nazwisko/nazwa | Nazwa wiersza podumowy. |
-| Opis | Krótki opis kategorii usług lub produktów zakupionych w ramach wiersza podumowy. |
-| Typ linii | Wartość domyślna tego pola to **Na podstawie ilości**.  |
-| Metoda rozliczania | Nazwa rozliczania wiersza podumowy. W oparciu o metodę rozliczania wiersza dla metody rozliczania o stałej cenie jest dostępny harmonogram faktur oparty na punktach kontrolnych.  |
-| Klasa transakcji | Wartość domyślna tego pola to **Czas**. Aby utworzyć wiersze podumowy na potrzeby zakupu produktów, w polu **Klasa transakcji** ustaw opcję **Wydatek**. Ta wartość pola oznacza, że pozycja podumowy jest używana do rejestrowania zakupu kategorii produktów lub usług do użycia w projektach. |
-| Kategoria transakcji | Wybierz kategorię transakcji. |
-| Żądane rozpoczęcie | Data, dla której kategorie zakupu muszą być dostępne od dostawcy. Żądana data rozpoczęcia służy do wyboru cennika projektu z cenników projektu dołączonych do podumowy. Koszt kategorii w pozycji umowy jest następnie domyślny dla danego cennika. |
-| Żądane zakończenie | Data, od kiedy kategorie zakupu nie są już potrzebne. Ta data wymaga ostrzeżenia, gdy menedżer projektu skojarzy tę pozycję podumowy z określonymi szacowaniami wydatków w projektach przypadających po tej dacie. |
-| Ilość zamówiona | Ilość kategorii kupowana od dostawcy. Jeśli menedżer projektu przekroczy kupowaną ilość, pojawi się ostrzeżenie.  |
-| Grupa jednostek | Ta wartość pola jest ustawiana domyślnie na podstawie domyślnej grupy jednostek ustawionej dla wybranej kategorii. |
-| Jednostka | Ta wartość pola jest ustawiana domyślnie na podstawie domyślnej jednostki ustawionej dla wybranej kategorii. Kombinacja kategorii i jednostki jest używana w celu ustawienia domyślnej ceny jednostkowej w pozycji podumowy. |
-| Cena jednostkowa | Domyślna wartość pola ceny jednostkowej pochodzi z kombinacji kategorii i jednostki z cen kategorii powiązanych z cennikiem projektu, który ma zastosowanie w przypadku żądanego rozpoczęcia pozycji podumowy.  |
-| Suma częściowa | To pole tylko do odczytu jest automatycznie obliczane jako cena jednostkowa ilości, jeśli zostanie wprowadzona zarówno wartość ilości, jak i cena jednostkowa. Jeśli dowolne lub oba pola są puste, można ręcznie wprowadzić wartość tego pola.  |
-| Podatek | Wprowadź kwotę podatku.  |
-| Łączna kwota | Łączna kwota pozycji podumowy z uwzględnieniem podatku. To pole jest obliczane jako suma częściowa + podatek.  |
+| **Pole** | **Opis** | **Wpływ funkcjonalny** |
+| --- | --- | --- |
+| Imię i nazwisko/nazwa | Nazwa wiersza podumowy, który ma pomóc w identyfikacji. | Ta kolumna będzie wyświetlana jako pierwsza we wszystkich wyszukiwaniach na podstawie wierszy podumów. |
+| Opis | Krótki opis kategorii wydatków zakupionych w wierszu podumowy. | Brak |
+|Typ linii | Wartość domyślna tego pola to **Na podstawie ilości**. |Brak |
+| Metoda rozliczania | Jest to zestaw opcji reprezentujący dwa główne modele umów obsługiwane przez program Project Operations: **Stała cena** i **Czas i materiały**. | Po wybraniu metody rozliczania stałej ceny dla wierszy podumów zostanie udostępniony harmonogram faktur opartych na punktach kontrolnych. |
+| Klasa transakcji | Wartość domyślna tego pola to **Czas**. Aby utworzyć wiersze podumowy na potrzeby zakupu produktów, w polu **Klasa transakcji** ustaw opcję **Wydatek**.  | Oznacza to, że wiersz podumowy jest używany do rejestrowanie zakupu kategorii wydatków, które mają być użyte w projektach. |
+| Kategoria transakcji | Pokazuje listę aktywnych kategorii transakcji w systemie. |Brak |
+| Żądane rozpoczęcie | Wprowadź datę, do kiedy kategorie zakupu muszą być dostępne od dostawcy. | Żądany początek służy do wyboru cennika projektu z cenników projektu dołączonych do podumowy. Koszt kategorii w wierszu podumowy pochodzi z tego cennika. |
+| Żądane zakończenie | Wprowadź datę, kiedy kategorie zakupu nie są już potrzebne. | Będzie on używany do pokazywania ostrzeżeń, gdy menedżer projektu kojarzy ten wiersz podumowy z określonymi oszacowaniami wydatków w projekcie, które są wymagane po tej dacie. |
+| Ilość zamówiona | Ilość kategorii zakupionych od dostawcy. | Będzie on używany do pokazywania ostrzeżeń, gdy menedżer projektu pobiera zbyt wiele z tej ilości.|
+| Grupa jednostek | Ta wartość domyślna jest oparta na domyślnej grupie jednostek ustawionej dla wybranej kategorii. |Brak |
+| Jednostka | Ta wartość domyślna jest oparta na domyślnej jednostce ustawionej dla wybranej kategorii.  | Kombinacja **Kategorii** i **Jednostki** zostanie użyta jako domyślna lub obliczona dla ceny jednostkowej dla wiersza podumowy.  |
+| Cena jednostkowa | Domyślna wartość wykorzystuje kombinację **Kategorii** i **Jednostki** z cen kategorii powiązanych z cennikiem projektu, która ma zastosowanie do żądanego początku wiersza podumowy. |Brak |
+| Suma częściowa | Jest to pole tylko do odczytu obliczane jako cena jednostkowa X ilość, jeśli wprowadzono zarówno wartość jednostkową, jak i ilość. Jeśli jedno lub oba pola są puste, można wprowadzić wartość w tym polu. |Brak |
+| Podatek | Wprowadź kwotę podatku. |Brak |
+| Łączna kwota | Łączna kwota pozycji podumowy z uwzględnieniem podatku. To pole jest obliczane jako Suma częściowa + Podatek. |Brak |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

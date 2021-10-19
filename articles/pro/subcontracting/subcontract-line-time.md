@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323879"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547257"
 ---
 # <a name="subcontract-lines-for-time"></a>Wiersze podumowy dla czasu
 
@@ -30,23 +30,22 @@ Aby utworzyć pozycję podumowy dla czasu w aplikacji Project Operations, wykona
 
   W poniższej tabeli przedstawiono informacje o polach na stronie **wiersza podumowy** oraz na stronie **Szybkie tworzenie**.
 
-| **Pole** | **Opis** |
-| --- | --- |
-| Imię i nazwisko/nazwa | Nazwa wiersza podumowy. |
-| Opis | Krótki opis usług kupowanych w ramach wiersza podumowy. | 
-| Typ linii | To pole jest wartością domyślną.  |
-| Metoda rozliczania | Wybierz metodę rozliczania. W oparciu o metodę rozliczania przywoływanego wiersza podumowy dla metody rozliczania o stałej cenie jest dostępny harmonogram faktur oparty na punktach kontrolnych. |
-| Klasa transakcji | To pole jest wartością domyślną wskazującą, czy wiersz podumowy jest używany do rejestrowania zakupu czasu podwykonawcy. |
-| Rola | Rola zasobów podwykonawcy, których czas jest kupowany. Rola przypisana do zasobów podwykonawcy określa koszt zakupu. |
-| Żądane rozpoczęcie | Wymagana data rozpoczęcia pracy zasobów podwykonawcy. Żądana data rozpoczęcia służy do wyboru cennika projektu z cenników projektu dołączonych do podumowy. Koszt roli w pozycji umowy jest następnie domyślny dla danego cennika. |
-| Żądane zakończenie | Data zakończenia przypisania zasobów podwykonawcy. Ta data służy do pokazywania ostrzeżeń, gdy menedżer projektu przekracza tę wydajność dla wymagań zasobów występujących po tej dacie. |
-| Ilość zamówiona | Liczba godzin roli kupowana od dostawcy. Ta wartość służy do pokazywania ostrzeżeń, gdy menedżer projektu przekracza tę wydajność dla wymagań zasobów. |
-| Grupa jednostek | Wartość tego pola jest domyślnie ustawiana na grupę jednostek czasu i nie można tego zmienić.  |
-| Jednostka | To pole jest domyślnie ustawiane na jednostkę podstawową z grupy jednostek czasu. Można zmienić tę wartość, aby kupić dowolną jednostkę z grupy jednostek czasu, na przykład dzień lub tydzień. Kombinacja roli i jednostki jest używana w celu obliczenia ceny jednostkowej w pozycji podumowy. |
-| Cena jednostkowa | Domyślne ceny jednostkowe są stosowane na podstawie kombinacji roli i jednostki z cennika projektu, który ma zastosowanie w przypadku żądanej daty rozpoczęcia dla wiersza podumowy. Jeśli dla odpowiedniego cennika projektu cena jest ustawiona w innej jednostce niż jednostka z wiersza podumowy, system używa konwersji jednostek do obliczenia ceny jednostkowej. |
-| Suma częściowa | To jest pole tylko do odczytu, automatycznie obliczane jako **ilość x cena jednostkowa**, jeśli zostanie wprowadzona zarówno wartość ilości, jak i ceny jednostkowej. Jeśli pole ilości, ceny jednostkowej lub oba te pola są puste, można wprowadzić wartość w polu. |
-| Podatek |  Wprowadź kwotę podatku. |
-| Łączna kwota | Łączna kwota pozycji podumowy po uwzględnieniu podatków. |
-
+| **Pole** | **Opis** | **Wpływ funkcjonalny** |
+| --- | --- | --- |
+| Imię i nazwisko/nazwa | Nazwa wiersza podumowy, który ma pomóc w identyfikacji. | Ta kolumna będzie wyświetlana jako pierwsza we wszystkich wyszukiwaniach na podstawie wierszy podumów. |
+| Opis | Krótki opis usług kupowanych w ramach wiersza podumowy. |Brak |
+| Typ linii |   Wartość domyślna tego pola to **Na podstawie ilości**.| Brak |
+| Metoda rozliczania | Jest to zestaw opcji reprezentujący dwa główne modele umów obsługiwane przez program Project Operations: **Stała cena** i **Czas i materiały**. | Na podstawie wybranej formy rozliczenia zostanie udostępniony harmonogram faktur opartych na punktach kontrolnych dla wierszy podumowy ze stałą ceną formy rozliczenia. |
+| Klasa transakcji | Wartość domyślna to **Czas**. | Oznacza to, że wiersz podumowy jest używany do rejestrowania zakupu czasu podwykonawcy. |
+| Rola | Wybierz rolę zasobów podumowy, których czas jest nabywany. | Rola wykonana przez zasoby podumowy określa koszt zakupu. |
+| Żądane rozpoczęcie | Wprowadź datę rozpoczęcia pracy zasobów podwykonawcy. | Służy to do wyboru cennika projektu z cenników projektu dołączonych do podumowy. Koszt roli w wierszu podumowy pochodzi z tego cennika. |
+| Żądane zakończenie | Wprowadź datę zakończenia przypisania zasobu podwykonawcy. | Będzie on używany do pokazywania ostrzeżeń, gdy menedżer projektu będzie pobierać z pojemności wymagań zasobów występujących po tej dacie. |
+| Ilość zamówiona | Wprowadź liczbę godzin roli zakupionych od dostawcy. | Będzie on używany do pokazywania ostrzeżeń, gdy menedżer projektu będzie pobierać zbyt wiele z tej pojemności wymagań zasobów. |
+| Grupa jednostek | Domyślna wartość to **Grupa jednostek czasu**, której nie można zmienić. | Brak|
+| Jednostka | Domyślną jednostką tego pola jest podstawowa jednostka godzin z **Grupy jednostek czasu**. Można zmienić tę wartość, aby kupić dowolną jednostkę z **Grupy jednostek czasu**, na przykład dzień lub tydzień. | Kombinacja **Roli** i **Jednostki** zostanie użyta jako domyślna lub obliczona dla ceny jednostkowej dla wiersza podumowy. |
+| Cena jednostkowa | Domyślna cena jednostkowa wykorzystuje kombinację **Roli** i **Jednostki** z cennika projektu, który ma zastosowanie do dany **Żądanego rozpoczęcia** wiersza podumowy. | Jeśli dla odpowiedniego cennika projektu cena jest ustawiona w innej jednostce niż jednostka z wiersza podumowy, system używa konwersji jednostek do obliczenia ceny jednostkowej. |
+| Suma częściowa |    Jest to pole tylko do odczytu obliczane jako cena jednostkowa x ilość, jeśli wprowadzono zarówno wartość jednostkową, jak i ilość. Jeśli pole ilości, ceny jednostkowej lub oba te pola są puste, można wprowadzić wartość w polu. | Brak|
+| Podatek |   Wprowadź kwotę podatku. |Brak |
+| Łączna kwota | Łączna kwota pozycji podumowy z uwzględnieniem podatku. To pole jest obliczane jako Suma częściowa + Podatek.|Brak |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
