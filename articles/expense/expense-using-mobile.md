@@ -2,7 +2,7 @@
 title: Mobilna aplikacja wydatków
 description: Ten temat zawiera informacje o mobilnym obszarze roboczym Zarządzanie wydatkami.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993209"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818196"
 ---
 # <a name="mobile-expense-app"></a>Mobilna aplikacja wydatków
 
@@ -47,42 +47,9 @@ Można również użyć następujących funkcji:
 - Wyślij raport z wydatków na potrzeby zatwierdzenia i zwrotów.
 - Zatwierdź lub odrzuć raporty o wydatkach, dla których użytkownik jest przypisaną osobą zatwierdzającą.
 
-## <a name="prerequisites"></a>Wymagania wstępne
-Te wymagania są różne, zależnie od wersji, która została wdrożona w danej organizacji.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Wymagania wstępne dotyczące korzystania z Dynamics 365 Finance
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Wymagania wstępne dotyczące korzystania z Dynamics 365 Finance 
 Jeśli w organizacji wdrożono rozwiązanie Finance, administrator systemu musi opublikować mobilny obszar roboczy **Zarządzanie wydatkami**. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Wymagania wstępne, jeśli używasz wersji 1611 z aktualizacją platformy 3 lub nowszą
-Jeśli w organizacji wdrożono wersję 1611 z aktualizacją platformy 3 lub nowszą, administrator systemu musi spełnić następujące wymagania wstępne. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Warunek wstępny</th>
-<th>Rola</th>
-<th>Opis</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Implementowanie 4019015 KB.</td>
-<td>Administrator systemu</td>
-<td>KB 4019015 to aktualizacja X ++ lub poprawka metadanych, która zawiera mobilny obszar roboczy <strong>Zarządzanie wydatkami</strong>. Aby zaimplementować KB 4019015, administrator systemu musi wykonać następujące kroki.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Pobieranie aktualizacji z Lifecycle Services</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Zainstaluj poprawkę metadanych</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Utwórz pakiet wdrożeniowy</a> zawierający <strong>ApplicationSuite</strong> i <strong>ExpenseMobile</strong>, a następnie przekaż pakiet wdrożeniowy na LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Zastosowanie pakietu, który ma zostać wdrożony</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Opublikuj obszar roboczy <strong>Zarządzanie wydatkami</strong>.</td>
-<td>Administrator systemu</td>
-<td>Zobacz <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publikowanie przestrzeni roboczej dla urządzeń przenośnych</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Pobierz i zainstaluj aplikację mobilną Dynamics 365 Unified Ops
 Pobierz i zainstaluj aplikację mobilną Dynamics 365 Unified Ops:
@@ -103,11 +70,11 @@ Pobierz i zainstaluj aplikację mobilną Dynamics 365 Unified Ops:
 3. Wybierz opcję **Zrób zdjęcie** lub **Wybierz obraz**.
 4. Wykonaj jedną z następujących czynności:
 
-   - W przypadku wybrania **Zrób zdjęcie** należy:
+    - W przypadku wybrania **Zrób zdjęcie** należy:
 
-      1. Otworzy się aparat urządzenia, aby można było zrobić zdjęcie paragonu. 
-      2. Po zakończeniu robienia zdjęcia kliknij przycisk **OK**, aby zaakceptować zdjęcie.
-      3. Opcjonalnie: Wprowadź nazwę zdjęcia i wprowadź wszelkie notatki.
+        1. Otworzy się aparat urządzenia, aby można było zrobić zdjęcie paragonu. 
+        2. Po zakończeniu robienia zdjęcia kliknij przycisk **OK**, aby zaakceptować zdjęcie.
+        3. Opcjonalnie: Wprowadź nazwę zdjęcia i wprowadź wszelkie notatki.
 
     - W przypadku wybrania **Wybierz zdjęcie** należy:
 
@@ -133,20 +100,20 @@ Pobierz i zainstaluj aplikację mobilną Dynamics 365 Unified Ops:
 
 10. Wybierz **Gotowe**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Zatwierdzanie raportu z wydatków za pośrednictwem obszaru roboczego mobilnego zarządzania wydatkami (w przypadku korzystania z aktualizacji z lipca 2017 roku)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Akceptowanie raportów z wydatków za pomocą komórkowego obszaru roboczego Zarządzanie wydatkami
 
 1. Otwórz obszar roboczy **Zarządzanie wydatkami** na swoim urządzeniu przenośnym.
 2. **Zatwierdzanie wydatków** wskazuje liczbę raportów o wydatkach przypisanych do użytkownika w celu zatwierdzenia. Liczba ta jest aktualizowana co ok. 30 minut. Wybierz **Zatwierdzenia wydatków**.
 
     Wyświetlona jest lista raportów o wydatkach przypisanych do użytkownika w celu zatwierdzenia.
-    
+
 3. Wybierz jakiś raport z wydatków, aby wyświetlić jego szczegóły.
 4. Wybierz jakiś wydatek, aby wyświetlić jego szczegóły. Informacje widoczne dla wydatku zawierają wszelkie informacje o paragonie, gościu i szczegółach podziału na pozycje.
 5. Na stronie **Raport o wydatkach** wybierz opcję zatwierdzania lub odrzucania raportu o wydatkach.
 6. Wprowadź komentarze dotyczące akcji zatwierdzania.
 7. Wybierz **Gotowe**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Tworzenie nowego raportu z wydatków za pośrednictwem obszaru roboczego mobilnego zarządzania wydatkami i przesłanie go do zatwierdzenia (w przypadku korzystania z aktualizacji z lipca 2017 roku)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Tworzenie nowego raportu z wydatków i przesyłanie go do zatwierdzenia za pomocą komórkowego obszaru roboczego Zarządzanie wydatkami
 
 1. Otwórz obszar roboczy **Zarządzanie wydatkami** na swoim urządzeniu przenośnym.
 2. Wybierz pozycję **Zapis wydatków**.
@@ -184,12 +151,12 @@ Pobierz i zainstaluj aplikację mobilną Dynamics 365 Unified Ops:
                     1. Wybrać zdjęcie z listy.
                     2. Opcjonalnie: Wprowadź nazwę zdjęcia i wprowadź wszelkie notatki.
 
-            3.  Wybierz **Gotowe**.
+            3. Wybierz **Gotowe**.
 
         - W przypadku wybrania **Dołącz paragon** należy:
 
-            1.  Z listy wybrać jeden lub więcej obrazów.
-            2.  Wybierz **Gotowe**.
+            1. Z listy wybrać jeden lub więcej obrazów.
+            2. Wybierz **Gotowe**.
 
     3. Wybierz przycisk **Wstecz**, aby powrócić do szczegółów wydatku.
 
@@ -233,7 +200,32 @@ Pobierz i zainstaluj aplikację mobilną Dynamics 365 Unified Ops:
 21. Powtarzaj powyższe kroki do momentu ukończenia dodawania wszystkich kosztów.
 22. Wybierz **Prześlij**.
 23. Wprowadź komentarze dla osoby zatwierdzającej.
-24. Wybierz **Gotowe**.
+24. Wybierz pozycję **Gotowe**.
 
+## <a name="frequently-asked-questions"></a>Często zadawane pytania
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Dlaczego mobilna aplikacja wydatków nie wprowadza domyślnie metody płatności?
+
+Organizacje mogą dostosować ustawienie **Domyślnej metody płatności** dla każdej kategorii wydatków po jej utworzeniu. Dodatkowo, podczas konfigurowania metod płatności, możesz ustawić pole **Domyślna metoda płatności** na **Tylko import**.
+
+Kiedy **Tylko import** jest włączony dla metody płatności, metoda płatności nie jest domyślnie wprowadzona. Będzie on pusty w kategoriach wydatków, w których ustawiono tę metodę płatności. Zachowanie to jest spójne zarówno w przypadku strony internetowej, jak i urządzeń mobilnych.
+    
+Jeśli **Tylko import** nie jest włączony dla metody płatności, ustawiona wartość jest wprowadzana domyślnie dla kategorii wydatków, w których ta metoda płatności jest ustawiona. Istnieje jednak znany problem, w którym wartość domyślna nie jest wprowadzana w aplikacji mobilnej wydatków. Aby obejść ten problem, należy ręcznie wybrać metodę płatności przed zapisaniem raportu wydatków. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Dlaczego nie mogę dodawać ani edytować wymiarów finansowych w aplikacji mobilnej wydatków?
+
+Wprowadzanie wymiarów i rozkładów nie jest obsługiwane. Aby obejść to ograniczenie, możesz mieć te pola ustawione domyślnie w aplikacji mobilnej, ustawiając domyślne wymiary finansowe dla projektu lub pracownika.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Dlaczego w aplikacji mobilnej Wydatki czasami jest wyświetlany błąd synchronizacji?
+
+Jeśli linie wydatków nie spełniają wymagań zasad, a użytkownik przesyła raport wydatków bez uwzględnienia ostrzeżenia dotyczącego zasad, dane mobilne nie są synchronizowane z serwerem i następuje awaria synchronizacji. Wszystkie raporty wydatków przesłane po wystąpieniu awarii synchronizacji pozostaną w stanie awarii i będą powodować kolejne awarie synchronizacji. Jedynym sposobem na naprawienie tej sytuacji jest ręczne usunięcie powiadomień o synchronizacji. Problem ten został rozwiązany poprzez wstrzymanie przesyłania raportów wydatków, gdy ostrzeżenia dotyczące zasad nie zostały uwzględnione, dzięki czemu uniknięto błędów synchronizacji.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Dlaczego walidacja projektu i kategorii nie jest poprawnie odzwierciedlona w aplikacji mobilnej wydatków?
+
+Ten scenariusz walidacji nie jest obecnie obsługiwany. Jednakże, wsparcie może zostać dodane w przyszłości. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Jakie typy dokumentów są obsługiwane w aplikacji mobilnej wydatków?
+
+Aplikacja mobilna wydatków obsługuje tylko obrazy. Nie obsługuje ona obecnie dokumentów PDF ani innych dokumentów.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

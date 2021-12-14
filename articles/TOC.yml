@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Co nowego
       items:
+        - name: Listopad 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Październik 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: Wrzesień 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Wydajność interfejsu API harmonogramu projektu
               href: project-management/project-schedule-api-performance.md
+            - name: Dzienniki planowania projektów
+              href: project-management/schedule-api-logs.md
     - name: Zarządzanie zasobami
       items:
         - name: Najważniejsze pojęcia
@@ -544,6 +548,8 @@
       items:
         - name: "Co nowego w drugim wydaniu aktualizacji na 2021\_r. z wczesnym dostępem — wdrażanie wersji uproszczonej"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Co nowego w listopadzie 2021 r. — wdrażanie wersji uproszczonej
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Co nowego w październiku 2021 r. — wdrażanie wersji uproszczonej
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Co nowego we wrześniu 2021 r. — wdrażanie wersji uproszczonej
@@ -952,6 +958,10 @@
   items:
     - name: Co nowego
       items:
+        - name: Co nowego w październiku 2021 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Co nowego we wrześniu 2021 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Co nowego w lipcu 2021 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Co nowego w maju 2021 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
@@ -1108,6 +1118,8 @@
       items:
         - name: Harmonogram wydań aktualizacji dla rozwiązania Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 36, V3'
