@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Aktualizacje aplikacji Project Operations
       href: whats-new/project-operations-updates.md
+    - name: Usunięte lub przestarzałe funkcje
+      items:
+        - name: Usunięte lub przestarzałe funkcje w aplikacji Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
   items:
     - name: Rozpocznij
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: Co nowego
       items:
+        - name: Grudzień 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: Listopad 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Październik 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Konfigurowanie przebiegu używającego warstw współczynnika przebiegu
               href: expense/set-up-mileage.md
+        - name: Podział wydatków na pozycje
+          href: prod-exp/expense-itemization.md
         - name: Wydatki osobiste
           href: expense/personal-expenses-expense-report.md
         - name: Wydatki międzyfirmowe
@@ -530,9 +538,15 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Zarządzanie szacowaniami przychodów
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Rozwiązywanie problemów
+      items:
+        - name: Proces sprzedaży projektu
+          items:
+            - name: 'Błąd niezgodności waluty podczas tworzenia projektu, kontraktu, oferty lub zasobu, który można zarezerwować'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Wdrażanie w wersji uproszczonej — od okazji do faktury pro forma
   items:
-    - name: Rozpocznij
+    - name: Wprowadzenie
       items:
         - name: Omówienie wdrażania w wersji uproszczonej
           href: pro/project-operations-overview-lite.md
@@ -548,6 +562,8 @@
       items:
         - name: "Co nowego w drugim wydaniu aktualizacji na 2021\_r. z wczesnym dostępem — wdrażanie wersji uproszczonej"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Co nowego w grudniu 2021 r. — wdrażanie wersji uproszczonej
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Co nowego w listopadzie 2021 r. — wdrażanie wersji uproszczonej
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Co nowego w październiku 2021 r. — wdrażanie wersji uproszczonej
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Punkty kontrolne wiersza podwykonawcy
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Podwykonawstwo — członkowie zespołu projektu
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Opcje podwykonawstwa dla członków zespołu projektu
+          href: pro/subcontracting/subcon-options.md
+        - name: Szacowanie kosztów przypisań zasobów w ramach podwykonawstwa
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Konfigurowanie tablicy harmonogramu do wyświetlania dyspozycyjności pracowników kontraktowych i podwykonawców
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Osadzanie projektu na podstawie dyspozycyjności pracowników kontraktowych i podwykonawców
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Rejestrowanie czasu, wydatków i użycia materiałów w przypadku składników podwykonawców'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Przejścia stanu podumowy
+          href: pro/subcontracting/subcon-states.md
     - name: Czas
       items:
         - name: Omówienie czasu
@@ -1118,6 +1148,8 @@
       items:
         - name: Harmonogram wydań aktualizacji dla rozwiązania Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 38, V3'
+          href: psa/whats-new-ur-38.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 37.5, V3'
           href: psa/whats-new-ur-37-5.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 37, V3'
@@ -1198,12 +1230,14 @@
           href: psa/implementation-guides/project-planning-tracking.md
         - name: 'Podstawowy przewodnik po sporządzaniu ofert, kalkulacji cen i fakturowaniu.'
           href: psa/implementation-guides/begin-quoting-pricing-billing.md
-        - name: 'Zaawansowany przewodnik po sporządzaniu ofert, kalkulacji cen i fakturowaniu'
+        - name: 'Zaawansowany przewodnik po sporządzaniu ofert, kalkulacji cen i rozliczeniach'
           href: psa/implementation-guides/adv-quoting-pricing-billing.md
         - name: Przewodnik menedżera zasobów
           href: psa/implementation-guides/resource-management-guide.md
         - name: Przewodnik po raportowaniu
           href: psa/implementation-guides/reporting-guide.md
+    - name: Uaktualnianie rozwiązania Project Service Automation do Project Operations — wersja uproszczona
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Aktualizacja rozwiązania Project Service Automation (aplikacja w wersji 3.x)
       items:
         - name: Aktualizacja rozwiązania Project Service Automation
