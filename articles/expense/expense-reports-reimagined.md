@@ -1,8 +1,8 @@
 ---
-title: Przebudowane raporty wydatków
+title: Raporty wydatków w nowej wersji (zawiera wideo)
 description: W tym temat wyjaśniono przeprojektowane i przebudowane środowisko wprowadzania raportu z wydatków.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997844"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941035"
 ---
 # <a name="expense-reports-reimagined"></a>Przebudowane raporty wydatków
 
@@ -58,6 +58,7 @@ Aby włączyć nową funkcję, użyj obszaru roboczego **Zarządzanie funkcjami*
 | Zapisywanie i dodawanie nowych wierszy wydatku | Przyciski **Zapisz** i **Nowe** są dostępne po wprowadzeniu nowych wydatków w celu szybkiego wprowadzenia wierszy wydatków. |
 | Lepsza widoczność podzielonych i wyszczególnionych wierszy | Wyszczególnione i podzielone wiersze są dodawane bezpośrednio do listy wydatków w celu zwiększenia widoczności i ułatwienia sprawdzania, czy występują jakiekolwiek problemy. |
 | Wyświetlanie szczegółów podkategorii w wierszach pozycjach | Poszczególne wiersze wydatku nadrzędnego pokazują etykiety podkategorii w raporcie z wydatków. Podział na pozycje pozwala szybko przejrzeć szczegółowe szczegóły.|
+|Szybki podział wydatków cyklicznych na pozycje | Obszar roboczy wydatków w nowej wersji umożliwia szybkie dzielenie wydatków cyklicznych na pozycje przez dodanie podkategorii, daty rozpoczęcia i ilości. Ilość odnosi się do liczby powtarzających się opłat w ciągłym okresie. |
 | Pokazywanie paragonów podczas podziału na pozycje | Wyświetlanie paragonów podczas podziału na pozycje jest teraz możliwe. |
 | Wybór zaliczki gotówkowej | Wybierz jedną lub więcej zaliczek gotówkowych do realizacji pojedynczej transakcji wydatków. |
 | Saldo zaliczki gotówkowej | Przejrzyj saldo zaliczki gotówkowej w czasie rzeczywistym podczas tworzenia wpisu wydatków względem zatwierdzonych i zapłaconych zaliczek gotówkowych. |

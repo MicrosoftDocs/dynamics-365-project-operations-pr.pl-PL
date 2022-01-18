@@ -2,16 +2,16 @@
 title: Tworzenie struktury podziału pracy
 description: W tym temacie wyjaśniono, jak utworzyć strukturę podziału pracy (SPP), w tym podstawowe elementy sterujące w nowym interfejsie planowania.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655430"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928628"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Tworzenie struktury podziału pracy (SPP)
 
@@ -95,7 +95,7 @@ Jako administrator można definiować pola niestandardowe w jednostce zadania. J
 
 ## <a name="staffing-attributes"></a>Atrybuty personelu
 
-Dostęp do atrybutów obsługi personelu jest możliwy za pośrednictwem pola **zasoby** w harmonogramie. Użytkownik może wyszukać istniejący zasób lub wybrać pozycję **Utwórz**, a następnie w okienku **szybkie tworzenie** dodać członka zespołu projektu jako nowy zasób.
+Dostęp do atrybutów obsługi personelu jest możliwy za pośrednictwem pola **zasoby** w harmonogramie. Użytkownik może wyszukać istniejący zasób lub wybrać pozycję **Utwórz**, a następnie w okienku **szybkie tworzenie** dodać członka zespołu projektu jako nowy zasób.  Wyszukiwanie zasobu przy użyciu selektora zasobów w siatce zadań, widoku tablicy lub na wykresie Gantta zwraca istniejących członków zespołu projektu lub aktywne zasoby, które można zarezerwować.
 
 Pola **rola**, **jednostka zasobów** i **nazwa stanowiska** są używane do opisywania wymagań dotyczących personelu dla zadania. Te atrybuty personelu wraz z harmonogramem zadań są używane do znajdowania dostępnych zasobów w celu wykonania tego zadania.
 
@@ -127,6 +127,7 @@ W przypadku korzystania ze struktury podziału pracy w Project Operations należ
 | Maksymalne całkowite zasoby na projekt              | 150                  |
 | Maksymalna łączna liczba linków (tylko następca) dla projektu | 600                  |
 | Maksymalna łączna liczba pól niestandardowych dla projektu          | 10                   |
+| Maksymalna liczba pozycji listy kontrolnej dla każdego zadania                   | 20                   |
 
 **Ograniczenia zadania**
 

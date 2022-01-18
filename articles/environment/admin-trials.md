@@ -2,16 +2,16 @@
 title: Rejestrowanie się w celu korzystania z wersji próbnych aplikacji Project Operations
 description: W tym temacie znajdują się informacje dotyczące sposobu wdrażania wersji próbnej rozwiązania Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599226"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901630"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Rejestrowanie się w celu korzystania z wersji próbnych aplikacji Project Operations 
 
@@ -90,7 +90,8 @@ Przed rozpoczęciem należy zalogować się do przeglądarki, przy użyciu konta
 4.  Wybierz odpowiedni adres URL Microsoft Dataverse i adresy URL aplikacji Finance and Operations, aby sprawdzić poprawność wdrożenia.
 
 ## <a name="configuring-dual-write"></a>Konfigurowanie podwójnego zapisu
-Tylko w przypadku wdrożeń materiałów niemagazynowanych należy skonfigurować mapowania podwójnego zapisu. Aby uzyskać więcej informacji, zobacz temat [Wersje mapowania podwójnego zapisu w aplikacji Project Operations](resource-dual-write-maps.md).
+- Aby skonfigurować role zabezpieczeń do podwójnego zapisu, zobacz temat [Aktualizowanie ustawień zabezpieczeń aplikacji Project Operations w usłudze Dataverse](resource-provision-new-environment.md).
+- Aby skonfigurować mapy podwójnego zapisu, zobacz temat [Uruchamianie map podwójnego zapisu w aplikacji Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Przypisywanie licencji
 
