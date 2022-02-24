@@ -2,6 +2,8 @@
 title: Zarządzanie projektami i rezerwacjami w kalendarzu usługi Office 365
 description: Jak zarządzać projektami i rezerwacjami w kalendarzu usługi Office 365
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985447"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144471"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Zarządzanie projektami i rezerwacjami w kalendarzu (Project Service)
 
@@ -50,7 +52,7 @@ Wyświetlaj terminy prywatne, rezerwacje pracy nad projektem i przydziały zlece
   
 - Będą konieczne poświadczenia administratora globalnego [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] lub administratora systemu.  
   
-- Administrator będzie musiał skonfigurować profil serwera poczty e-mail i każdy użytkownik będzie musiał skonfigurować swoją skrzynkę pocztową. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Skonfiguruj przetwarzanie wiadomości e-mail przez synchronizację na serwerze](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Administrator będzie musiał skonfigurować profil serwera poczty e-mail i każdy użytkownik będzie musiał skonfigurować swoją skrzynkę pocztową. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Skonfiguruj przetwarzanie wiadomości e-mail przez synchronizację na serwerze](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Włącz synchronizację dla organizacji (zadanie administratora)  
   
@@ -89,6 +91,3 @@ Wyświetlaj terminy prywatne, rezerwacje pracy nad projektem i przydziały zlece
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik dotyczący czasu, wydatków i współpracy](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

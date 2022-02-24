@@ -1,24 +1,26 @@
 ---
-title: Potwierdzenie faktury proforma projektu
-description: Ten temat zawiera informacje na temat potwierdzania faktur projektu proforma w Project Operations.
+title: Potwierdzenie faktury proforma - wersja uproszczona
+description: Ten temat zawiera informacje na temat potwierdzania faktur proforma w Project Operations.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 37efb4923cbf9696ff85dfcd6dee9aac6badd68ed74a515e5ea5598aacfa3a83
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992984"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176534"
 ---
-# <a name="confirm-a-proforma-project-invoice"></a>Potwierdzenie faktury proforma projektu 
+# <a name="confirm-a-proforma-invoice---lite"></a>Potwierdzenie faktury proforma - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
 
-Po potwierdzeniu faktury pro forma stan faktury projektu ustawiony zostanie na **Potwierdzenie**. Po potwierdzeniu faktura staje się dostępna tylko w trybie do odczytu. Odtąd fakturę można skorygować tylko wtedy, gdy występują jakiekolwiek korekty lub uznanie zainicjowane przez klienta.
+Po potwierdzeniu faktury pro forma stan faktury projektu ustawiony zostanie na **Potwierdzenie**. Po potwierdzeniu faktura staje się dostępna tylko w trybie do odczytu. Faktura może zostać skorygowana tylko wtedy, gdy istnieją zwroty lub kredytowanie zainicjowane przez klienta albo gdy faktura zostanie oznaczona jako zapłacona.
 
 Poniższa tabela zawiera listę wartości rzeczywistych tworzonych przez system. Te wartości rzeczywiste są tworzone przy wykonywaniu pewnych operacji na wersji roboczej faktury projektu przed jej potwierdzeniem.
 
@@ -229,70 +231,6 @@ Nowa nierozliczona kwota rzeczywista sprzedaży, która jest pobierana z powodu 
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Fakturowanie istotnej transakcji bez żadnych zmian w wersji roboczej faktury.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Niezafakturowane wycofanie sprzedaży dla ilości i kwoty w pierwotnym zatwierdzeniu wykorzystania materiału.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Faktyczna sprzedaż zafakturowana dla ilości i kwoty na pierwotnym zatwierdzeniu wykorzystania materiału.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Fakturowanie transakcji materiałowej, która została edytowana w celu zmniejszenia ilości.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Niezafakturowane wycofanie sprzedaży dla ilości i kwoty w pierwotnym zatwierdzeniu czasu.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Nowa nierozliczona kwota rzeczywista sprzedaży, która jest pobierana z powodu ilości i kwoty w edytowanym wierszu faktury, wycofanie rzeczywistej niezafakturowanej sprzedaży i odpowiadającą jej rzeczywista zafakturowana sprzedaż.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Nowa nierozliczona kwota rzeczywista sprzedaży, która jest nie pobierana z powodu pozostałej ilości i kwoty po odliczeniu skorygowanych wartości w edytowanym wierszu faktury, wycofanie rzeczywistej niezafakturowanej sprzedaży i odpowiadającą jej rzeczywista zafakturowana sprzedaż.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Fakturowanie transakcji materiałowej, która została edytowana w celu zwiększenia ilości.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Niezafakturowane wycofanie sprzedaży dla ilości i kwoty w pierwotnym zatwierdzeniu wykorzystania materiału.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Nowa nierozliczona kwota rzeczywista sprzedaży, która jest pobierana z powodu ilości i kwoty w edytowanym wierszu faktury, wycofanie rzeczywistej niezafakturowanej sprzedaży i odpowiadającą jej rzeczywista zafakturowana sprzedaż.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
 Fakturowanie opłaty.
                 </p>
             </td>
@@ -335,6 +273,3 @@ Rozliczona wartość rzeczywista za wiersz produktu wraz z ilością i kwotą pr
         </tr>
     </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

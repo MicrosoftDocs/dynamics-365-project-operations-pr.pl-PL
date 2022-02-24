@@ -2,17 +2,18 @@
 title: Omówienie faktury międzyfirmowej
 description: W tym temacie przedstawiono informacje i przykłady dotyczące fakturowania międzyfirmowego dla projektów.
 author: sigitac
+manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005404"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595527"
 ---
 # <a name="intercompany-invoicing-overview"></a>Omówienie faktury międzyfirmowej
 
@@ -20,9 +21,9 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 Organizacja może dysponować wieloma oddziałami, podmiotami zależnymi i innymi firmami, które przekazują sobie produkty i usługi do projektów. Podmiot prawny, który dostarcza usługę lub produkt, nosi nazwę *firmy wypożyczającej*. Podmiot prawny, który otrzymuje usługę lub produkt, nosi nazwę *firmy pożyczającej*.
 
-Poniższa ilustracja przedstawia typowy scenariusz, w którym dwa podmioty prawne, Contoso Robotics USA (podmiot prawny pożyczający) i Contoso Robotics UK (podmiot prawny wypożyczający) dzielą się zasobami w celu realizacji projektu dla klienta, firmy Adventure works. W tym scenariuszu firma Contoso Robotics USA została zakontraktowana na dostawę robót do Adventure Works.
+Na poniższej ilustracji pokazano typowy scenariusz, w którym dwie firmy, Contoso Robotics USA (firma pożyczająca) i Contoso Robotics UK (firma wypożyczająca) współużytkują zasoby w celu dostarczenia projektu dla klienta o nazwie Adventure Works. W tym scenariuszu firma Contoso Robotics USA została zakontraktowana w celu dostarczenia pracy dla firmy Adventure Works.
 
-![Faktura międzyfirmowa.](./media/IntercompanyScenario.png) 
+![Faktura międzyfirmowa](./media/IntercompanyScenario.png) 
 
 W aplikacji Dynamics 365 Project Operations do przetwarzania transakcji międzyfirmowych jest używany następujący przepływ:
 
@@ -35,13 +36,10 @@ W aplikacji Dynamics 365 Project Operations do przetwarzania transakcji międzyf
 
 Na poniższym diagramie przedstawiono fakturowanie międzyfirmowe w zależności od zdarzeń księgowania oraz oczekiwane zapisy księgowe w księdze głównej.
 
-![Przepływ międzyfirmowy.](./media/IntercompanyFlow.png)
+![Przepływ międzyfirmowy](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Dodatkowe zasoby
 
 - [Konfigurowanie faktury międzyfirmowej](configure-intercompany-invoicing.md)
 - [Rejestrowanie transakcji międzyfirmowych](create-intercompany-transactions.md)
 - [Tworzenie faktur międzyfirmowych dla klienta i dostawcy](create-intercompany-customer-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

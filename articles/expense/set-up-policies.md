@@ -2,9 +2,11 @@
 title: Definiowanie zasad wydatków
 description: W przypadku wprowadzania i przesyłania raportów o wydatkach i wniosków wyjazdowych można zdefiniować zasady dotyczące kosztów, których pracownicy muszą przestrzegać.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986369"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128431"
 ---
 # <a name="define-expense-policies"></a>Definiowanie zasad wydatków
 
@@ -51,6 +53,3 @@ Oto kilka sugestii, które mogą pomóc podczas tworzenia nowych zasad zarządza
 ## <a name="when-to-evaluate-policies"></a>Kiedy oceniać przestrzeganie zasad
 
 W ramach parametrów zarządzania wydatkami można wybrać opcję oceny pod kątem przestrzegania zasad dotyczących wydatków na: podczas zapisywania wiersza lub podczas przesyłania raportu z wydatków. W przypadku wybrania opcji oceny w trakcie zapisywania wiersza użytkownicy będą wcześniej widzieli, co należy wykonać, aby wypełnić cały raport. Można także opóźnić ocenę przez zasadę i oszczędzić czas przeprowadzając weryfikację na samym końcu, przed przesłaniem do przepływu pracy.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

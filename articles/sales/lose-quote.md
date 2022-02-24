@@ -2,16 +2,18 @@
 title: Kopiowanie ofert opartych na projekcie
 description: W tym temat zamieszczono informacje dotyczące kopiowania wierszy szansy sprzedaży opartych na produkcie w Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992174"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181825"
 ---
 # <a name="copy-project-based-quotes"></a>Kopiowanie ofert opartych na projekcie
 
@@ -43,6 +45,3 @@ Po wybraniu opcji **OK** na stronie dialogu system tworzy kopię oferty projektu
 > - Odwołanie do projektu w wierszach oferty opartej na projekcie — informacje o budżecie klienta
 >
 >Ponieważ te informacje są specyficzne dla danej oferty, te pola i rekordy nie są kopiowane. Kopiowane są wiersze oferty dotyczące projektów i produktów, oszacowania dotyczące szczegółów wiersza oferty oraz wartości graniczne nie do przekroczenia na poziomie oferty. Domyślne ustawienia cen i stawek kosztów zależą od wartości w opcji **Kopiuj kalkulację cen** wybranej na stronie **Kopiowania parametrów**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Wyłączanie wymiaru kalkulacji cen
 description: Ten temat zawiera informacje na temat wyłączenia niestandardowych wymiarów kalkulacji cen.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 986fae72c6b44b3f76281aefb81ffdaa96f71ae7
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994514"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650062"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Wyłączanie wymiaru kalkulacji cen
 
@@ -32,17 +34,14 @@ Wyłączenia wymiaru kalkulacji cen, bez względu na to, czy jest on gotowy czy 
 
 Po wykonaniu tej czynności może jednak zostać wyświetlony komunikat o błędzie pt. **Wymiar kalkulacji cen nie może być aktualizowany ani usuwany, jeśli istnieją rekordy skojarzonych rekordów cen**.
 
-![Błąd procesu biznesowego prawdopodobny podczas wyłączania wymiaru kalkulacji cen.](media/Business-Process-Error.png)
+![Błąd procesu biznesowego prawdopodobny podczas wyłączania wymiaru kalkulacji cen](media/Business-Process-Error.png)
 
 Ten komunikat o błędzie oznacza, że istnieją rekordy cen, które uprzednio skonfigurowano dla wyłączanego wymiaru. Wszystkie rekordy **Cena roli** i **Narzut na cenę dla roli** odwołujące się do wymiaru muszą zostać usunięte, zanim dla wymiaru będzie można ustawić stosowalność **Nie**. Ta reguła ma zastosowanie zarówno do gotowych wymiarów kalkulacji cen, jak i wszelkich niestandardowych wymiarów kalkulacji cen utworzonych przez użytkownika. To sprawdzanie poprawności wynika z faktu, że każdy rekord **Cena roli** musi mieć unikatową kombinację wymiarów. Na przykład w cenniku zatytułowanym **Stawki kosztów US 2018** istnieją poniższe wiersze **Cena roli**. 
 
 | Standardowe stanowisko         | Jednostka organizacyjna    |Jednostka   |Cena  |Waluta  |
 | -----------------------|-------------|-------|-------|----------|
-| Inżynier systemów|Contoso — USA|godzina| 100|USD|
-| Starszy inżynier systemów|Contoso — USA|godzina| 150| USD|
+| Inżynier systemów|Contoso US|Hour| 100|USD|
+| Starszy inżynier systemów|Contoso US|Hour| 150| USD|
 
 
-Gdy wyłączysz encję **Standardowe stanowisko** jako wymiar kalkulacji, aparat kalkulacji cen podczas wyszukiwania ceny będzie z kontekstu wejściowego używał tylko wartości **Jednostka organizacyjna**. Jeśli **Jednostka organizacyjna** kontekstu wejściowego to „Contoso US”, wynik będzie nieokreślony, ponieważ oba wiersze będą pasować. Aby uniknąć tego scenariusza, podczas tworzenia rekordów **Cena roli** program sprawdza, czy kombinacja wymiarów jest unikatowa. Jeśli wymiar zostanie wyłączony po utworzeniu rekordów **Cena roli**, może nastąpić naruszenie tego ograniczenia. Z tego powodu przed wyłączeniem wymiaru trzeba koniecznie usunąć wszystkie wiersze **Cena roli** i **Narzut na cenę dla roli**, które mają wypełnioną tę wartość wymiaru.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Gdy wyłączysz encję **Standardowe stanowisko** jako wymiar kalkulacji, aparat kalkulacji cen podczas wyszukiwania ceny będzie z kontekstu wejściowego używał tylko wartości **Jednostka organizacyjna**. Jeśli element **Jednostka organizacyjna** w kontekście wejściowym ma wartość „Contoso US”, wynik będzie niedeterministyczny, ponieważ oba wiersze będą pasowały. Aby uniknąć tego scenariusza, podczas tworzenia rekordów **Cena roli** program sprawdza, czy kombinacja wymiarów jest unikatowa. Jeśli wymiar zostanie wyłączony po utworzeniu rekordów **Cena roli**, może nastąpić naruszenie tego ograniczenia. Z tego powodu przed wyłączeniem wymiaru trzeba koniecznie usunąć wszystkie wiersze **Cena roli** i **Narzut na cenę dla roli**, które mają wypełnioną tę wartość wymiaru.

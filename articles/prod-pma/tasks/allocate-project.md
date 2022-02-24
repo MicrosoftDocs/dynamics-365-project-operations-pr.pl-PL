@@ -2,9 +2,11 @@
 title: Alokowanie budżetu projektu lub korekty budżetu w okresach
 description: W tej procedurze pokazano, jak przydzielić kwoty budżetu projektu na okresy.
 author: Yowelle
+manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -14,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e35330d1cbddea41dac7e215350252470b610a52bb05b245d7794a37415dcd3c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6b332be67ffdab0156997eb223d8a31af6ced3ef
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989384"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082070"
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Alokowanie budżetu projektu lub korekty budżetu w okresach
 
@@ -42,6 +44,3 @@ Po przydzieleniu budżetu lub zmiany budżetu można przejrzeć kwoty alokacji i
 10. Gdy alokacja jest odpowiednia, kliknij przycisk Prześlij na stronie budżetu projektu, aby wysłać budżet lub poprawki budżetu do przepływu pracy zatwierdzania.  
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

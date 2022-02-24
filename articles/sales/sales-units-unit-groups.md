@@ -1,10 +1,12 @@
 ---
 title: Jednostki i grupy jednostek
-description: W tym temacie przedstawiono informacje dotyczące sposobu tworzenia jednostek i grup jednostek w rozwiązaniu Dynamics 365 Project Operations.
+description: W tym temat zamieszczono informacje dotyczące sposobu tworzenia jednostek i grup jednostek w Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a0aec1cc32ebdea9d2dbc7cc891f82da07e044f5c5655e008068f72dd198587
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3f588e41d001befeac87bb6a4e28a83cf5cfa865
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999554"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131041"
 ---
 # <a name="units-and-unit-groups"></a>Jednostki i grupy jednostek
 
@@ -44,6 +46,3 @@ Aby wykonać czynności opisane w tym temacie należy się upewnić, że użytko
 3. W polu **Ilość** wprowadź ilość, jaką będzie zawierać dana jednostka. Na przykład jeśli pudełko zawiera dwie sztuki, należy wpisać „2”. 
 4. W polu **Jednostka podstawowa** wybierz jednostkę podstawową, aby ustanowić najmniejszą jednostkę miary w jednostce. Można na przykład wybrać pozycję „sztuka”.
 5. Wybierz pozycję **Zapisz**:
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

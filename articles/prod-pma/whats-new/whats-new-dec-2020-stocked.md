@@ -2,17 +2,19 @@
 title: Co nowego w grudniu 2020 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
 description: Ten temat zawiera informacje o aktualizacjach dotyczących jakości dostępnych w wersji Project Operations z grudnia 2020 r. w scenariuszach z magazynowaną produkcją.
 author: Yowelle
+manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008824"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4728002"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Nowości i zmiany w grudniu 2020 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
 
@@ -76,7 +78,7 @@ Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 P
 | Zarządzanie projektami i księgowanie | [480954](https://nam06.safelinks.protection.outlook.com/?url=https://fix.lcs.dynamics.com/Issue/Details/?bugId%3D480954&amp;data=04%7C01%7Cshylaw%40microsoft.com%7C30f5b585840c47e84ed708d88d6571b4%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637414814172752249%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=XGYyflVBQBG%2BxvWSHpLi37Zr%2BLgyc1iy2oTkFTalypo%3D&amp;reserved=0) | Raport **Rzeczywiste transakcje projektu** zawiera nieprawidłowe wyniki. |
 | Zarządzanie projektami i księgowanie | [481032](https://nam06.safelinks.protection.outlook.com/?url=https://fix.lcs.dynamics.com/Issue/Details/?bugId%3D481032&amp;data=04%7C01%7Cshylaw%40microsoft.com%7C30f5b585840c47e84ed708d88d6571b4%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637414814172762248%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=6LvAjAxqXQWszozB6c5/wl/hZTGJBVqusgnCCAF90Hw%3D&amp;reserved=0) | W przypadku wybrania jednoczesnej korekty wielu transakcji projektu (godzina, opłata, pozycja), tylko jedna transakcja zostanie skorygowana. |
 | Zarządzanie projektami i księgowanie | [481094](https://nam06.safelinks.protection.outlook.com/?url=https://fix.lcs.dynamics.com/Issue/Details/?bugId%3D481094&amp;data=04%7C01%7Cshylaw%40microsoft.com%7C30f5b585840c47e84ed708d88d6571b4%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637414814172772240%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=v2q4srcHE395WkNHAT3L1ui1hDfO4zCbQYVIsJqWtek%3D&amp;reserved=0) | Nie można dodać rabatu do zamówienia zakupu projektu utworzonego na podstawie zapotrzebowania na towary po dostawie. Podczas próby wyświetlany jest następujący błąd dla wiersza pozycji usługi: „Nie można zmniejszyć ilości, ponieważ znak pozostałej ilości aktualizacji zmienia się”. |
-| Zarządzanie projektami i księgowanie | [481598](https://nam06.safelinks.protection.outlook.com/?url=https://fix.lcs.dynamics.com/Issue/Details/?bugId%3D481598&amp;data=04%7C01%7Cshylaw%40microsoft.com%7C30f5b585840c47e84ed708d88d6571b4%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637414814173112093%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=OIxVHRtqRhLnvO7s0/hP3MUsXmY3fnT6XQmwqv5FuR8%3D&amp;reserved=0) | Podczas próby zaksięgowania propozycji faktury za projekt z zaliczką dla klienta pojawia się następujący błąd: „Transakcje na kuponie XXX nie są bilansowane na dzień dd/mm/rrrr”. (waluta : -0,00 — waluta raportowania: XX.XX". |
+| Zarządzanie projektami i księgowanie | [481598](https://nam06.safelinks.protection.outlook.com/?url=https://fix.lcs.dynamics.com/Issue/Details/?bugId%3D481598&amp;data=04%7C01%7Cshylaw%40microsoft.com%7C30f5b585840c47e84ed708d88d6571b4%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637414814173112093%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=OIxVHRtqRhLnvO7s0/hP3MUsXmY3fnT6XQmwqv5FuR8%3D&amp;reserved=0) | Podczas próby zaksięgowania propozycji faktury za projekt z zaliczką dla klienta pojawia się następujący błąd: „Transakcje na kuponie XXX nie są bilansowane na dzień dd/mm/rrrr. (waluta : -0,00 — waluta raportowania: XX.XX". |
 | Zarządzanie projektami i księgowanie | [481945](https://nam06.safelinks.protection.outlook.com/?url=https://fix.lcs.dynamics.com/Issue/Details/?bugId%3D481945&amp;data=04%7C01%7Cshylaw%40microsoft.com%7C30f5b585840c47e84ed708d88d6571b4%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637414814173122085%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=eJxyLyceHXDng/pndcEJbiNy6dpOL8yDx9R%2Bn06i6zA%3D&amp;reserved=0) | Po potwierdzeniu zamówienia projektu pojawia się następujący błąd: „Konwersja między XX a YY nie istnieje”. |
 | Zarządzanie projektami i księgowanie | [482209](https://nam06.safelinks.protection.outlook.com/?url=https://fix.lcs.dynamics.com/Issue/Details/?bugId%3D482209&amp;data=04%7C01%7Cshylaw%40microsoft.com%7C30f5b585840c47e84ed708d88d6571b4%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637414814173122085%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=%2Ba7wca9kIhAN2%2BU9BYxybiR8QZkvi2FJDtkmXfhB6Ok%3D&amp;reserved=0) | Komunikat o błędzie nie jest wyzwalany, gdy przyjęcie produktu jest korygowane dla pozycji serwisowych, które są skonfigurowane jako pozycje magazynowe. |
 | Zarządzanie projektami i księgowanie | [482246](https://nam06.safelinks.protection.outlook.com/?url=https://fix.lcs.dynamics.com/Issue/Details/?bugId%3D482246&amp;data=04%7C01%7Cshylaw%40microsoft.com%7C30f5b585840c47e84ed708d88d6571b4%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637414814173132084%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=Ou7GgXEAllKBxMyIoELq1Fa2Tw4M8PU%2B63/0hC3RiVE%3D&amp;reserved=0) | Komunikat ostrzegawczy „Arkusz został zablokowany przez system do przetwarzania” pojawia się, gdy nazwa arkusza jest ustawiona na **Zatwierdzenie** = **Tak** i typ konta to **Projekt** w arkuszu głównym. |
@@ -139,7 +141,4 @@ Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 P
 
 ## <a name="regulatory-updates"></a>Aktualizacje dotyczące regulacji
 
-Aby uzyskać więcej informacji na temat aktualizacji dotyczących Dynamics 365 Finance, zobacz artykuł dotyczący [Aktualizacje dotyczące regulacji](/dynamics365/finance/localizations/regulatory-updates). Innym sposobem uzyskania informacji o aktualizacjach regulacyjnych jest zalogowanie się do Lifecycle Services (LCS) i wyświetlenie planowanych aktualizacji prawnych za pomocą narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Aby uzyskać więcej informacji na temat aktualizacji dotyczących Dynamics 365 Finance, zobacz artykuł dotyczący [Aktualizacje dotyczące regulacji](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Innym sposobem uzyskania informacji o aktualizacjach regulacyjnych jest zalogowanie się do Lifecycle Services (LCS) i wyświetlenie planowanych aktualizacji prawnych za pomocą narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.

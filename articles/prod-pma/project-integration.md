@@ -2,9 +2,11 @@
 title: Integracja klienta programu Microsoft Project
 description: Planowanie i utrzymywanie harmonogramu projektu może być skomplikowane, więc kierownicy projektów muszą używać narzędzi, które pomagają im zarządzać tym zadaniem. Integracja z Microsoft Project Client zapewnia wsparcie dla otwierania i zarządzania strukturą podziału pracy w projekcie.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988034"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082073"
 ---
 # <a name="microsoft-project-client-integration"></a>Integracja klienta programu Microsoft Project
 
@@ -125,13 +127,3 @@ Aby utworzyć nową strukturę podziału pracy przy użyciu programu Microsoft P
 8.  Wybierz **Kalendarz**, który ma być używany do ponownego wyszukania.
 
 11. Kliknij przycisk **OK**.
-
-> [!NOTE]
-> Dodatek Klient projektu nie obsługuje następujących znaków w formacie identyfikatora projektu:
-> 
->   - Podkreślenie
->   - Kropka
->   - Spacja
->   - Ukośnik
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Definiowanie kalendarzy projektu
 description: Ten temat zawiera informacje na temat stosowania szablonu kalendarza projektu w celu śledzenia harmonogramu projektu.
 author: ruhercul
+manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487653"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981313"
 ---
 # <a name="define-project-calendars"></a>Definiowanie kalendarzy projektu
 
@@ -46,7 +48,7 @@ Aby utworzyć szablon kalendarza dla organizacji, należy spełnić dwa najważn
 
 1. Wybierz kolejno opcje **Zasoby** \> **Zasoby**.
 2. Utwórz nowy zasób, do który chcesz się odwoływać w szablonie kalendarza lub wybierz istniejący zasób.
-3. Wybierz kartę **Godziny pracy** zasobu i wykonaj instrukcje z [Ustawianie godzin pracy dla zasobu](/dynamics365/field-service/set-work-hours-resource) w celu skonfigurowania reguł kalendarza.
+3. Wybierz kartę **Godziny pracy** zasobu i wykonaj instrukcje z [Ustawianie godzin pracy dla zasobu](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) w celu skonfigurowania reguł kalendarza.
 
 **Utwórz nowy szablon kalendarza**
 

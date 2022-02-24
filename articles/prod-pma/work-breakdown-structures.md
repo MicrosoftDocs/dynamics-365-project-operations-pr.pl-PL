@@ -2,26 +2,28 @@
 title: Omówienie struktur podziału pracy
 description: Struktura podziału pracy (SPP) to opis pracy, która zostanie wykonana w ramach projektu. Jest hierarchią zadań, która reprezentuje zrozumienie struktury prac zespołu projektu oraz wielkości, kosztów i czasu trwania każdego ze składników i zadań.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 093f9901aec0db1fa8f920533c0084f877f26445fd07159e8e1ae0cf53849641
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998834"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081987"
 ---
 # <a name="work-breakdown-structures-overview"></a>Omówienie struktur podziału pracy
 
@@ -100,7 +102,7 @@ Obecnie nie można dostosować numeracji SPP.
 
 ### <a name="schedule-estimation"></a>Szacowanie harmonogramu
 
-Planowanie planowania to zazwyczaj drugi krok w celu utworzenia struktury SPP. Zaleca się, aby po utworzeniu wszystkich zadań oszacować harmonogram został wykonany. Strona **Struktura podziału pracy** w rozwiązaniu Finance zawiera dwie sekcje. Panel górny jest przeznaczony do szacowania planowania, a w dolnym okienku są dostępne karty **Szacowane koszty i przychody**, które mogą być używane przy szacowaniu kosztów. 
+Planowanie planowania to zazwyczaj drugi krok w celu utworzenia struktury SPP. Zaleca się, aby po utworzeniu wszystkich zadań oszacować harmonogram został wykonany. Strona **Struktura podziału pracy** w Finance zawiera dwie sekcje. Panel górny jest przeznaczony do szacowania planowania, a w dolnym okienku są dostępne karty **Szacowane koszty i przychody**, które mogą być używane przy szacowaniu kosztów. 
 **Współzależności zadań** W SPP można utworzyć poprzednią relację między zadaniami. Kiedy przypiszesz poprzednie zadania do zadania, to zadanie może zostać uruchomione dopiero po wykonaniu wszystkich poprzednich zadań. Planowana data rozpoczęcia zadania jest automatycznie ustawiana na ostatnią datę jej poprzednika. 
 
 **Planowanie zadań** następujące czynniki określają planowanie zadań węzłów liścia:
@@ -314,6 +316,3 @@ Błędy planowania można również skorygować osobno, klikając ikonę ostrze�
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

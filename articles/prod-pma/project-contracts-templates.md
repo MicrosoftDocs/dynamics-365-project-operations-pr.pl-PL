@@ -1,10 +1,12 @@
 ---
 title: Synchronizuj kontrakty projektowe i projekty bezpośrednio z Project Service Automation do Finance
-description: W tym temacie opisano szablon i podstawowe zadania, które są używane do synchronizowania umów dotyczących projektów i projektów bezpośrednio z Microsoft Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+description: Ta temat opisuje szablon i podstawowe zadanaużywane do synchronizowania kontraktów projektu i projektów bezpośrednio z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001084"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764832"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synchronizuj kontrakty projektowe i projekty bezpośrednio z Project Service Automation do Finance 
 
@@ -42,7 +44,7 @@ Rozwiązanie do integracji Project Service Automation to Finance wykorzystuje fu
 
 Na poniższej ilustracji przedstawiono sposób synchronizowania danych między Project Service Automation a Finance.
 
-[![Przepływ danych do integracji Project Service Automation z Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Przepływ danych do integracji Project Service Automation z Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Szablony i zadania
 
@@ -107,8 +109,8 @@ Po zastosowaniu rozwiązania integracji Project Service Automation z Finance skr
 ## <a name="prerequisites-and-mapping-setup"></a>Wymagania wstępne i ustawienia mapowania
 
 - Przed synchronizacją umów dotyczących projektów i projektów należy zsynchronizować konta.
-- W zestawie połączeń Dodaj mapowanie pola klucza integracji dla **msdyn\_organizationalunits** do **msdyn\_name \[Name\]**. Konieczne może być dodanie projektu do zestawu połączeń. Aby uzyskać więcej informacji, zobacz [Integrowanie danych z Common Data Service dla aplikacji](/powerapps/administrator/data-integrator).
-- W zestawie połączeń Dodaj mapowanie pola klucza integracji dla **msdyn\_projects** do **msdynce\_projectnumber \[Project Number\]**. Konieczne może być dodanie projektu do zestawu połączeń. Aby uzyskać więcej informacji, zobacz [Integrowanie danych z Common Data Service dla aplikacji](/powerapps/administrator/data-integrator).
+- W zestawie połączeń Dodaj mapowanie pola klucza integracji dla **msdyn\_organizationalunits** do **msdyn\_name \[Name\]**. Konieczne może być dodanie projektu do zestawu połączeń. Aby uzyskać więcej informacji, zobacz [Integrowanie danych z Common Data Service dla aplikacji](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- W zestawie połączeń Dodaj mapowanie pola klucza integracji dla **msdyn\_projects** do **msdynce\_projectnumber \[Project Number\]**. Konieczne może być dodanie projektu do zestawu połączeń. Aby uzyskać więcej informacji, zobacz [Integrowanie danych z Common Data Service dla aplikacji](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** w przypadku umów dotyczących projektów i projektów można zaktualizować do innej wartości lub usunąć z mapowania. Domyślna wartość szablonu to **Project Service Automation**.
 - Mapowanie **PaymentTerms** musi być aktualizowane, aby odzwierciedlać prawidłowe warunki płatności w Finance. Użytkownik może również usunąć mapowanie z zadania projektu. Domyślna mapa wartości zawiera wartości domyślne dla danych demonstracyjnych. W poniższej tabeli przedstawiono wartości w Project Service Automation.
 
@@ -129,7 +131,7 @@ Użyj dodatku Microsoft Power Query dla programu Excel do filtrowania danych, je
 Jeśli musisz użyć dodatku Power Query, postępuj zgodnie z tymi wskazówkami:
 
 - Szablon projektów i kontraktów (PSA to fin i Ops) zawiera filtr domyślny zawierający tylko zamówienia sprzedaży z typem **Work item (msdyn\_ordertype = 192350001)**. Ten filtr ułatwia zagwarantowanie, że kontrakty projektów nie są tworzone dla zamówień sprzedaży w Finance. W przypadku utworzenia własnego szablonu należy dodać ten filtr.
-- Utwórz filtr dodatku Power Query obejmujący tylko organizacje kontraktowe, które powinny być synchronizowane z firmą zestawu połączeń integracji. Na przykład umowy projektowe, które masz z kontraktową jednostką organizacyjną Contoso US powinny być zsynchronizowane z osobą prawną USSI, ale umowy projektowe, które masz z kontraktową jednostką organizacyjną Contoso Global powinny być zsynchronizowane z osobą prawną USMF. Jeśli nie dodasz tego filtru do mapowania zadań, wszystkie umowy dotyczące projektu zostaną zsynchronizowane z firmą zdefiniowaną dla zestawu połączeń, niezależnie od jednostki organizacyjnej kontraktu.
+- Utwórz filtr dodatku Power Query obejmujący tylko organizacje kontraktowe, które powinny być synchronizowane z firmą zestawu połączeń integracji. Na przykład umowy dotyczące projektów, które masz z jednostką organizacyjną kontraktu firmy Contoso US, powinny być synchronizowane z firmą USSI, ale umowy dotyczące projektów, które masz z jednostką organizacyjną kontraktu firmy Contoso Global, powinny być synchronizowane z firmą USMF. Jeśli nie dodasz tego filtru do mapowania zadań, wszystkie umowy dotyczące projektu zostaną zsynchronizowane z firmą zdefiniowaną dla zestawu połączeń, niezależnie od jednostki organizacyjnej kontraktu.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapowanie szablonów w integracji danych
 
@@ -140,17 +142,14 @@ Jeśli musisz użyć dodatku Power Query, postępuj zgodnie z tymi wskazówkami:
 
 Poniższe ilustracje przedstawiają przykłady odwzorowań zadań szablonu w integracji danych. Mapowanie przedstawia informacje o polach, które zostaną zsynchronizowane z Project Service Automation do Finance.
 
-[![Mapowanie szablonu kontraktu projektu.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Mapowanie szablonu kontraktu projektu](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Mapowanie szablonu projektu.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Mapowanie szablonu projektu](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Mapowanie szablonu pozycji kontraktu.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Mapowanie szablonu pozycji kontraktu](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Mapowanie szablonu pozycji kontraktu punktu kontrolnego.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Mapowanie szablonu pozycji kontraktu punktu kontrolnego](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Mapowanie punktów kontrolnych pozycja kontraktu projektu w szablonie projekty i kontrakty (PSA 3.x do Dynamics) - v2:
 
-[![Mapowanie pozycji kontraktu punktu kontrolnego za pomocą szablonu wersji 2.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Mapowanie pozycji kontraktu punktu kontrolnego za pomocą szablonu wersji 2](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)

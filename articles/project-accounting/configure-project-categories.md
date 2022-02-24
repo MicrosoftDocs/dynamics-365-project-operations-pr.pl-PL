@@ -2,16 +2,18 @@
 title: Konfigurowanie kategorii projektów
 description: Ten temat zawiera informacje o ustawianiu kategorii projektów.
 author: sigitac
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997124"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131941"
 ---
 # <a name="configure-project-categories"></a>Konfigurowanie kategorii projektów
 
@@ -23,11 +25,11 @@ Na poniższym diagramie przedstawiono korelację między kategoriami transakcji,
 
 Kategorie transakcji są podstawowymi grupami transakcji projektów. W ramach tego pogrupowania istnieje zestaw wspólnych kategorii, które mogą być współużytkowane w aplikacjach i modułach. Kategorie projektów to najmniejsze i najdokładniejsze poziomy kategorii. Kategorie projektów są specyficzne dla encji prawnej, modułu i aplikacji.
 
-![Korelacja między kategoriami transakcji, wspólnymi kategoriami i kategoriami projektów.](media/project-categories.png)
+![Korelacja między kategoriami transakcji, wspólnymi kategoriami i kategoriami projektów](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Kategorie transakcji
 
-Kategorie transakcji reprezentują podstawowe pogrupowanie transakcji projektu. Nie są specyficzne dla firmy lub typu transakcji. Na przykład firma Contoso Robotics używa kategorii Projektowanie, podróż, instalacja i transakcja serwisowa do grupowania transakcji związanych z projektem.
+Kategorie transakcji reprezentują podstawowe pogrupowanie transakcji projektu. Nie są specyficzne dla firmy lub typu transakcji. Na przykład firma Contoso Robotics używa kategorii „projektowanie”, „podróże”, „instalacja” i „transakcja usług” do grupowania transakcji projektów.
 
 Kategorie transakcji są definiowane w module Project Operations. 
 1. Przejdź do **Ustawienia** \> **Kategorie transakcji**, aby otworzyć formularz. 
@@ -35,7 +37,7 @@ Kategorie transakcji są definiowane w module Project Operations.
 
 ## <a name="shared-categories"></a>Udostępnione kategorie
 
-Dynamics 365 używa koncepcji Kategorie udostępnione do kategoryzowania wydatków w różnych aplikacjach, takich jak Dynamics 365 Finance, Dynamics 365 Supply Chain i Dynamics 365 Project Operations. W przypadku każdej utworzonej kategorii transakcji w ramach Project Operations są automatycznie tworzone cztery powiązane kategorie wspólne: godziny, wydatek, opłaty i przedmiot. Udostępnione kategorie można przejrzeć i dopasować, przechodząc kolejno do **Zarządzania projektem i księgowania** \> **Konfiguracji** \> **Kategorii** \> **Kategorii wspólnych**.
+Program Dynamics 365 używa koncepcji wspólnych kategorii do kategoryzowania kosztów w różnych aplikacjach, takich jak Dynamics 365 Finance, Dynamics 365 Supply Chain oraz Dynamics 365 Project Operations. W przypadku każdej utworzonej kategorii transakcji w ramach Project Operations są automatycznie tworzone cztery powiązane kategorie wspólne: godziny, wydatek, opłaty i przedmiot. Udostępnione kategorie można przejrzeć i dopasować, przechodząc kolejno do **Zarządzania projektem i księgowania** \> **Konfiguracji** \> **Kategorii** \> **Kategorii wspólnych**.
 
 ## <a name="project-categories"></a>Kategorie projektu
 
@@ -51,6 +53,3 @@ Kategorie projektu reprezentują najniższy, najbardziej dokładny poziom szczeg
 Grupy kategorii umożliwiają udostępnianie właściwości, głównie profilom księgowania, między pokrewnymi kategoriami projektów. Dla każdego typu transakcji musi istnieć co najmniej jedna grupa kategorii, a do każdej kategorii projektu jest przypisana grupa.
 
 Specyfikacje księgowania w Project Operations są definiowane przez reguły profilu koszt projektu i przychód, kategorie projektów i grupy kategorii. Grupy kategorii można skonfigurować, przechodząc do **Zarządzenie projektem i księgowanie** \> **Konfiguracja** \> **Kategorie** \> **Grupy kategorii**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987719"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993319"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Jak przypisać zasób, który można zarezerwować do zadania w aplikacji sieci Web (aplikacja Project Service, v2.x)?
 
@@ -43,7 +43,7 @@ Dzięki tej metodzie dodajesz zasób do zespołu projektu, a następnie przypisu
 3.  Wybierz daty **Od** i **Do**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Zrzut ekranu składnika Dodawanie członka zespołu.](media/FAQ-Resources-to-Tasks2-1.png "Zrzut ekranu składnika Dodawanie członka zespołu")
+    > ![Zrzut ekranu składnika Dodawanie członka zespołu](media/FAQ-Resources-to-Tasks2-1.png "Zrzut ekranu składnika Dodawanie członka zespołu")
  
 4.  Wybierz jedną z następujących metod alokacji, aby zarezerwować zasób:
     - **Pełna dyspozycyjność** rezerwuje pełną dyspozycyjność zasobu dla określonych dat Od/Do.
@@ -63,12 +63,12 @@ Dzięki tej metodzie dodajesz zasób do zespołu projektu, a następnie przypisu
     3. Wybierz pozycję **OK**. Członek zespołu teraz jest przypisany do zadania.
 
     > [!div class="mx-imgBorder"] 
-    > ![Zrzut ekranu dotyczący dodawania zasobów z SPP.](media/FAQ-Resources-to-Tasks2-2.png "Zrzut ekranu dotyczący dodawania zasobów z SPP")
+    > ![Zrzut ekranu dotyczący dodawania zasobów z SPP](media/FAQ-Resources-to-Tasks2-2.png "Zrzut ekranu dotyczący dodawania zasobów z SPP")
  
 Na siatce członków zespołu zobaczysz sumę godzin przypisanych do zasobu w obszarze Przypisane godziny. Będzie on mniejsza od liczby godzin zarezerwowanych dla zasobu lub równa z nią. 
 
 > [!div class="mx-imgBorder"] 
-> ![Zrzut ekranu z przypisanymi godzinami dla zasobu.](media/FAQ-Resources-to-Tasks2-3.png "Zrzut ekranu z przypisanymi godzinami dla zasobu")
+> ![Zrzut ekranu z przypisanymi godzinami dla zasobu](media/FAQ-Resources-to-Tasks2-3.png "Zrzut ekranu z przypisanymi godzinami dla zasobu")
  
 Jeśli zadanie, które próbujesz przypisać do zasobu rozpoczyna się dacie zakończenia rezerwacji zasobów, zasób nie będzie widoczny na liście rozwijanej.
 
@@ -92,22 +92,22 @@ Ta metoda sprawia, że zasoby mają odpowiednią ilość rezerwacji dla zadań. 
 4. Wybierz pozycję **OK**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Zrzut ekranu dotyczący użycia SPP do dodawania zasobów.](media/FAQ-Resources-to-Tasks2-4.png "Zrzut ekranu dotyczący użycia SPP do dodawania zasobów")
+    > ![Zrzut ekranu dotyczący użycia SPP do dodawania zasobów](media/FAQ-Resources-to-Tasks2-4.png "Zrzut ekranu dotyczący użycia SPP do dodawania zasobów")
  
 Po zakończeniu przypisywania ról do zadań w SPP, wybierz **Wygeneruj zespół projektu**. Usługa Project Service tworzy minimalną liczbę ogólnych członków zespołu, w oparciu o role, korzystając z jednostek organizacyjnych i kalendarza projektu agregując przypisania zadań.
 
 > [!div class="mx-imgBorder"] 
-> ![Zrzut ekranu z generowaniem zespołu projektu.](media/FAQ-Resources-to-Tasks2-5.png "Zrzut ekranu z generowaniem zespołu projektu")
+> ![Zrzut ekranu z generowaniem zespołu projektu](media/FAQ-Resources-to-Tasks2-5.png "Zrzut ekranu z generowaniem zespołu projektu")
  
 Na siatce Członek zespołu zobaczysz zasoby typu Zasób ogólny z nazwą roli i stanowiska. Jeśli dwa zasoby są potrzebne dla roli, aby zakończyć pracę, funkcja Generuj zespół tworzy dwóch członków zespołu i używa nazwy stanowiska, aby odróżnić ich od siebie.
 
 > [!div class="mx-imgBorder"] 
-> ![Zrzut ekranu pokazujący dodawanie dwóch zasobów ogólnych.](media/FAQ-Resources-to-Tasks2-6.png "Zrzut ekranu pokazujący dodawanie dwóch zasobów ogólnych")
+> ![Zrzut ekranu pokazujący dodawanie dwóch zasobów ogólnych](media/FAQ-Resources-to-Tasks2-6.png "Zrzut ekranu pokazujący dodawanie dwóch zasobów ogólnych")
  
 Można otworzyć bazowe wymagania zasobu dla ogólnego członka zespołu, wybierając łącze w obszarze Wymaganie zasobów.
 
 > [!div class="mx-imgBorder"] 
-> ![Zrzut ekranu przedstawiający otwieranie bazowego wymagania zasobu.](media/FAQ-Resources-to-Tasks2-7.png "Zrzut ekranu przedstawiający otwieranie bazowego wymagania zasobu")
+> ![Zrzut ekranu przedstawiający otwieranie bazowego wymagania zasobu](media/FAQ-Resources-to-Tasks2-7.png "Zrzut ekranu przedstawiający otwieranie bazowego wymagania zasobu")
 
 Wybierz **Zarezerwuj** dla zasobu ogólnego, a w następnym kroku będziesz mógł użyć tablicy harmonogramu, aby wyszukać i zarezerwować rzeczywisty zasób. Można również przesłać wymagania do spełnienia przez menedżera zasobu wybierając **Prześlij żądanie**.
 

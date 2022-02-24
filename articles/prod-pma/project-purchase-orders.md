@@ -2,9 +2,11 @@
 title: Zamówienia zakupu dla projektu
 description: W tym artykule opisano różne metody korzystania z programu w celu tworzenia zamówień zakupu dla projektu. Użycie metody zależy od celu zamówienia zakupu oraz wtedy, gdy zakupione towary są konsumowane i pobierane z projektu.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5de28f3844b802a980c811411cae75549c697538f89e8c3d2495ea171a188524
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bd891aec5bcab66c5801a5d9ca8abbbf632d662d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009004"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082000"
 ---
 # <a name="purchase-orders-for-a-project"></a>Zamówienia zakupu dla projektu
 
@@ -74,6 +76,3 @@ Aby utworzyć zamówienie zakupu w programie Zarządzanie projektami i ich księ
 
 Aby uzyskać więcej informacji, zobacz temat [Pobierz towary w zamówieniu zakupu z zapotrzebowania na towary](tasks/receive-items-purchase-order-item-requirement.md).
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

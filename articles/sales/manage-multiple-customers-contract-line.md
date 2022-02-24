@@ -2,16 +2,18 @@
 title: Zarządzanie wieloma klientami w pozycjach kontraktu opartego na projekcie
 description: Ten temat zawiera informacje na temat pracy z pozycjami kontraktu i kontraktami zawierającymi wielu klientów.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992129"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181915"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Zarządzanie wieloma klientami w pozycjach kontraktu opartego na projekcie
 
@@ -42,6 +44,3 @@ Poniżej znajdują się pola rekordu klienta w wierszu kontraktu opartego na pro
 Podziały procentowe dotyczące rozliczeń można edytować w siatce. Jeśli procent podziału rozliczenia nie ma sumy 100 procent, wystąpi błąd. Po wyedytowaniu procentów podziału na fakturę odśwież stronę, aby usunąć błąd.
 
 Można również spróbować wybrać **Rozłóż równomiernie** w podsiatce klientów pozycji kontraktu. Ta akcja powoduje równomierne alokowanie podziału na rozliczenia dla wszystkich klientów z pozycji kontraktu. Jeśli istnieje współczynnik zaokrąglania, zostanie on dodany do zaokrąglenia do klienta. Klient z jedną pozycją kontraktu jest zawsze oznakowany jako klient **Zaokrąglający** flagę **Zaokrąglania** ustawioną na **Tak**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

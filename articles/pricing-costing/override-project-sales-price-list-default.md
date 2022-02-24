@@ -2,17 +2,19 @@
 title: Zastępowanie cenników sprzedaży projektu
 description: Ten temat zawiera informacje na temat tworzenia niestandardowych cenników sprzedaży.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009589"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672244"
 ---
 # <a name="override-project-sales-price-lists"></a>Zastępowanie cenników sprzedaży projektu
 
@@ -50,6 +52,3 @@ Można użyć poszczególnych cenników i wprowadzić zmiany dotyczące robocizn
 W kontrakcie projektu cena projektu zawsze jest domyślnie ustawiona jako cennik niestandardowy z nazwą kontraktu i sygnaturą czasową utworzenia dołączaną do nazwy. Jest to prawdą, czy kontrakt został utworzony w czasie, gdy oferta została wykorzystana lub kiedy kontrakt został utworzony od podstaw. Jeśli jest to konieczne, można usunąć to skojarzenie z cennika niestandardowego i zamiast niego skojarzyć cennik standardowy z kontraktem dotyczącym projektu.
 
 Po skojarzeniu standardowego cennika z cennikami dotyczącymi oferty lub kontraktu wszelkie zmiany cen w cenniku będą miały wpływ na wszystkie oferty i kontrakty, w których jest używany cennik.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Nowości i zmiany w aplikacji Project Service Automation, wydanie 27.6, poprawka, wer. V3
 description: W tym temacie wymieniono funkcje i poprawki, które są dostępne w aktualizacji Project Service Automation, wydanie 27.6, poprawka, wersja V3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/17/2021
 ms.topic: article
@@ -15,16 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8754af4a500ac9c9115f06920e33bd36eba0ddc02d420041e6d8415eecc8de50
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f6576c6c5660ff6e8e53286ae226c8278a33f2be
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008509"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5481299"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-276-v3"></a>Nowości i zmiany w aplikacji Project Service Automation, wydanie aktualizacji 27.6, wer. V3
 
-Mamy przyjemność ogłosić najnowszą aktualizację aplikacji Project Service Automation dla Dynamics 365. To wydanie obejmuje znaczną poprawę jakości, wydajności i użyteczności. To wydanie jest zgodne z systemem Dynamics 365 9.x. Aby zaktualizować do tej wersji, odwiedź centrum administracyjne Dynamics 365 online i przejdź na stronę rozwiązań, aby zainstalować aktualizację. By uzyskać więcej informacji, zobacz [Instalowanie, aktualizowanie lub usuwanie preferowanego rozwiązania](/power-platform/admin/install-remove-preferred-solution).
+Mamy przyjemność ogłosić najnowszą aktualizację aplikacji Project Service Automation dla Dynamics 365. To wydanie obejmuje znaczną poprawę jakości, wydajności i użyteczności. To wydanie jest zgodne z systemem Dynamics 365 9.x. Aby zaktualizować do tej wersji, odwiedź centrum administracyjne Dynamics 365 online i przejdź na stronę rozwiązań, aby zainstalować aktualizację. By uzyskać więcej informacji, zobacz [Instalowanie, aktualizowanie lub usuwanie preferowanego rozwiązania](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 W tym temacie wymieniono funkcje i poprawki, które są nowe lub zmienione w programie Project Service Automation V3, aktualizacja wydanie 27.6. Numer tej kompilacji to V3.10.45.120 i jest on zazwyczaj dostępny za pośrednictwem samoaktualizacji w styczniu 2021 r.
 

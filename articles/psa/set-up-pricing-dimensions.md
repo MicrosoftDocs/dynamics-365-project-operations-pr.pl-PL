@@ -2,10 +2,12 @@
 title: Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen
 description: Ten temat zawiera informacje na temat konfigurowania niestandardowych wymiarów kalkulacji cen.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002344"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150366"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen 
 
@@ -41,11 +43,11 @@ Aby pole było wymiarem kalkulacji cen, musi być:
 - Utworzone jako pole w encjach **Cena roli** i **Narzut na cenę dla roli**. Aby uzyskać więcej informacji na ten temat, zobacz [Dodawanie niestandardowych pól do konfiguracji cen i encji transakcyjnych](field-references.md).
 - Utworzone jako wiersz w tabeli **Wymiar kalkulacji cen**. Na przykład dodaj wiersze wymiarów kalkulacji cen jak pokazano na poniższym rysunku. 
 
-![Wiersze wymiarów kalkulacji cen opartych na kwocie.](media/Amt-based-PD.png)
+![Wiersze wymiarów kalkulacji cen opartych na kwocie](media/Amt-based-PD.png)
 
 Zauważ, że encja Godziny pracy zasobu (**msdyn_resourceworkhours**) została dodana jako wymiar oparty na narzucie oraz dodana do siatki na karcie **Wymiar kalkulacji cen oparty na narzucie**.
 
-![Wiersze wymiaru kalkulacji cen opartego na narzucie.](media/Markup-based-PD.png)
+![Wiersze wymiaru kalkulacji cen opartego na narzucie](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Każda zmiana lub dodanie danych wymiaru kalkulacji cen w tej tabeli jest rozpowszechniana do logiki biznesowej kalkulacji cen w usłudze Project Service dopiero po odświeżeniu pamięci podręcznej. Czas odświeżania pamięci podręcznej może wynosić do 10 minut. Poczekaj ten czas, aby zobaczyć zmiany w logice ustawiania domyślnych cen, które muszą wyniknąć ze zmiany danych wymiaru kalkulacji cen.
@@ -71,9 +73,9 @@ Istnieją dwa typy wymiarów kalkulacji cen:
   
 | Rola        | Jednostka organizacyjna    |Lokalizacja pracy      |Standardowe stanowisko      |Godziny pracy zasobu      |  Narzut|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso Indie|Na miejscu            |                    |Nadgodziny                 |15     |
-|             | Contoso Indie|Lokalny             |                    |Nadgodziny                 |10     |
-|             | Contoso — USA   |Lokalny             |                    |Nadgodziny                 |20     |
+|             | Contoso India|Na miejscu            |                    |Nadgodziny                 |15     |
+|             | Contoso India|Lokalny             |                    |Nadgodziny                 |10     |
+|             | Contoso US   |Lokalny             |                    |Nadgodziny                 |20     |
 
 
 Jeśli zasób z firmy Contoso India, którego stawka podstawowa to 100 USD, pracuje na miejscu, a we wpisie czasu odnotuje 8 godzin regularnego czasu pracy i 2 godziny nadgodzin, aparat kalkulacji cen w usłudze Project Service użyje stawki podstawowej 100 dla 8 godzin i w ten sposób zarejestruje 800 USD. Dla 2 godzin nadgodzin zastosuje narzut 15% do stawki podstawowej 100 USD, uzyskując w ten sposób cenę jednostkową 115 USD i odnotowując łączny koszt 230 USD.
@@ -92,6 +94,3 @@ Ustawienie priorytetu wymiaru ułatwia aparatowi kalkulacji cen w usłudze Proje
 
 - **Priorytet kosztu**: wartość priorytetu kosztu w wymiarze wskazuje wagę tego wymiaru podczas dopasowywania do konfiguracji kosztów własnych. Wartość pola **Priorytet kosztu** musi być unikatowa wśród wymiarów z ustawionym atrybutem **Ma zastosowanie do kosztu**.
 - **Priorytet sprzedaży**: wartość priorytetu sprzedaży w wymiarze wskazuje wagę tego wymiaru podczas dopasowywania do konfiguracji cen sprzedaży lub stawek rozliczania. Wartość pola **Priorytet sprzedaży** musi być unikatowa wśród wymiarów z ustawionym atrybutem **Ma zastosowanie do sprzedaży**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

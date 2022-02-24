@@ -2,16 +2,18 @@
 title: Zarządzanie wieloma klientami w ofertach projektu - wersja uproszczona
 description: W tym temacie zamieszczono informacje dotyczące pracy z ofertami wielu klientów, którzy będą finansować dany projekt. (Sales)
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
-ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
+ms.openlocfilehash: bdda1a940e733270399d092e543c3982c47174d0
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440790"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181640"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Zarządzanie wieloma klientami w ofertach projektu - wersja uproszczona
 
@@ -37,7 +39,7 @@ Klienta oferty można utworzyć, aktualizować i usuwać z poziomu karty **Klien
 
 | **Pole** | **Lokalizacja** | **Opis** | **Wpływ zmian w dalszych etapach** |
 | --- | --- | --- | --- |
-| Konto | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Lista wszystkich aktywnych kont. To pole jest zablokowane po utworzeniu rekordu. Jeśli chcesz przeprowadzić aktualizację, usuń rekord i utwórz go ponownie. Jeśli zostały zarejestrowane jakiekolwiek wartości rzeczywiste lub jeśli rekord klienta oferty jest klientem podstawowym, nie będzie można usunąć tego rekordu. | Po wykorzystaniu oferty klienci wiersza oferty są kopiowani jako klienci w pozycji kontraktu projektu. Po wykorzystaniu oferty klienci wiersza oferty są także kopiowani jako klienci w pozycji kontraktu projektu. |
+| Konto | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Lista wszystkich aktywnych kont. To pole jest zablokowane po utworzeniu rekordu. Jeśli chcesz przeprowadzić aktualizację, usuń rekord i utwórz go ponownie. Jeśli rekord został zarejestrowany z wartościami rzeczywistymi lub rekord klienta oferty to klient podstawowy, użytkownik będzie mógł usunąć rekord. | Po wykorzystaniu oferty klienci wiersza oferty są kopiowani jako klienci w pozycji kontraktu projektu. Po wykorzystaniu oferty klienci wiersza oferty są także kopiowani jako klienci w pozycji kontraktu projektu. |
 | Procent podziału rozliczeń | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Reprezentuje procent każdej niezafakturowanej transakcji sprzedaży, która będzie przypisywana do tego klienta oferty. | Po wygraniu oferty ta wartość jest kopiowana do klienta kontraktu oraz nowych wierszy oferty. |
 | Nazwa kontaktu u płatnika | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | Jest to pole tekstowe, które ma służyć do identyfikowania osoby kontaktowej dla faktury u danego klienta. Te elementy są domyślnie pobierane z rekordu pokrewnego konta | Skopiowane do klienta kontraktu dotyczącego projektu podczas potwierdzenia oferty i do pola Nazwa płatnika kontraktu na fakturze wygenerowanej dla danego klienta. |
 | Nazwa płatnika | Edytowalna siatka na karcie **Klienci oferty**, formularz **główny** i formularze **szybkiego tworzenia** dla klienta wiersza oferty. | To pole tekstowe ma służyć do identyfikowania osoby kontaktowej dla faktury u danego klienta. | Skopiowane do klienta kontraktu dotyczącego projektu podczas potwierdzenia oferty i do pola **Nazwa płatnika kontraktu** na fakturze wygenerowanej dla danego klienta. |
@@ -50,6 +52,3 @@ Klienta oferty można utworzyć, aktualizować i usuwać z poziomu karty **Klien
 Zawartość procentową podziału rozliczeń na fakturze można edytować przy użyciu funkcji edycji siatki w wierszu. Jeśli procent podziału rozliczenia nie sumuje się do 100%, wystąpi błąd. Po aktualizacji procentów podziału na fakturze odśwież stronę, aby usunąć błąd.
 
 Można również spróbować wybrać **Rozłóż równomiernie** w podsiatce klientów z ofertą. Ta akcja spowoduje alokowanie podziału procentowego na fakturze dla wszystkich klientów oferty. Jeśli istnieje współczynnik zaokrąglenia, zostanie dodany do klienta zaokrąglającego. Jeden z klientów korzystających z oferty jest zawsze oznakowany jako klient do zaokrąglenia. oznacza to, że dany rekord klienta oferty ma ustawioną flagę **Tak** w opcji **Zaokrąglanie**. Zazwyczaj jest to główny klient oferty, ale można to zmienić.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

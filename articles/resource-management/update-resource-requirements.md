@@ -2,16 +2,18 @@
 title: Edycja wymagania zasobu
 description: W tym temacie zamieszczono informacje aktualizujące wymaganie informacji o zasobach.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999779"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128791"
 ---
 # <a name="edit-a-resource-requirement"></a>Edycja wymagania zasobu
 
@@ -35,5 +37,3 @@ Menedżer projektu może wykonać poniższe kroki, aby edytować wymagania dotyc
 ## <a name="edit-resource-assignment-contours"></a>Edytowanie rozkładów przypisania zasobów
 
 Poza edytowaniem szczegółów wymagania dotyczącego zasobów menedżer projektu może zaktualizować poszczególne przypisania wymagań dotyczących zasobu, korzystając z funkcji **Określ wzorzec**. Jeśli wybrano opcję **Określ wzorzec**, zostanie otwarta strona i będzie można wyświetlać rozkłady w ramach danego dnia, tygodnia lub miesiąca. W ramach każdego przypisania można dostosować czas rozpoczęcia, godzinę zakończenia i sumę nakładów pracy w danym okresie.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

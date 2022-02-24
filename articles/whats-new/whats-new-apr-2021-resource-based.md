@@ -2,17 +2,19 @@
 title: Nowości z kwietnia 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
 description: Ten temat zawiera informacje o aktualizacjach dotyczących jakości dostępnych w wydaniu Project Operations z kwietnia 2021 r. dla scenariuszy obejmujących zasoby/niemagazynowanie.
 author: sigitac
+manager: tfehr
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008149"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935487"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nowości z kwietnia 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
 

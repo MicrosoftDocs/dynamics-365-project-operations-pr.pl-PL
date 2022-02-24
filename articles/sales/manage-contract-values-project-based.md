@@ -2,20 +2,22 @@
 title: Praca z pozycjami kontraktu opartymi na projekcie
 description: Ten temat zawiera informacje o pozycjach kontraktów opartych na projektach.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990059"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181734"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Praca z pozycjami kontraktu opartymi na projekcie
 
-Linie umowy oparte na projekcie w rozwiązaniu Dynamics 365 Project Operations są przeznaczone do przechowywania szacunkowych i rozliczeniowych umów dla określonych komponentów pracy projektowej na zlecenie. Struktura pozycji kontraktu opartej na projekcie jest rozszerzana na oszacowania projektów i scenariusze fakturowania przy użyciu następujących koncepcji:
+Linie umowy oparte na projekcie w Dynamics 365 Project Operations są przeznaczone do przechowywania szacunkowych i rozliczeniowych umów dla określonych komponentów pracy projektowej na zlecenie. Struktura pozycji kontraktu opartej na projekcie jest rozszerzana na oszacowania projektów i scenariusze fakturowania przy użyciu następujących koncepcji:
 
 - Metoda rozliczania
 - Mapowanie projektów i zadań
@@ -49,12 +51,9 @@ Reguła: projekt i określona klasa transakcji może zawierać tylko jeden wiers
 |----------|---------------|---------|--------------|-----------------|-------------|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | C1       | CL1           | O1      | Tak          | Tak             | Tak         | Nieprawidłowe       | Narusza regułę. Godziny, wydatek i opłaty w projekcie P1 są uwzględnione zarówno na pozycjach kontraktu, jak i CL1 i CL2.                                                                                       |
 | C1       | CL2           | O1      | Tak          | Tak             | Tak         | Nieprawidłowe       | Narusza regułę. Godziny, wydatek i opłaty w projekcie P1 są uwzględnione zarówno na pozycjach kontraktu, jak i CL1 i CL2.                                                                                       |
-| C1       | CL1           | O1      | Tak          | Brak              | Tak         | Nieprawidłowe       | Narusza regułę. Godziny i  opłaty w projekcie P1 są uwzględnione zarówno na pozycjach kontraktu, jak i CL1 i CL2.                                                                                                   |
+| C1       | CL1           | O1      | Tak          | No              | Tak         | Nieprawidłowe       | Narusza regułę. Godziny i  opłaty w projekcie P1 są uwzględnione zarówno na pozycjach kontraktu, jak i CL1 i CL2.                                                                                                   |
 | C1       | CL2           | O1      | Tak          | Tak             | Tak         | Nieprawidłowe       | Narusza regułę. Godziny i  opłaty w projekcie P1 są uwzględnione zarówno na pozycjach kontraktu, jak i CL1 i CL2.                                                                                                   |
-| C1       | CL1           | O1      | Tak          | Brak              | Tak         | Prawidłowe           | Godziny i opłaty z projektu P1 są uwzględnione na CL1. Wydatki projektu P1 są zawarte w CL2. </br>   W każdym wierszu kontraktu nie ma zakładki, która jest więc ważna.  |
-| C1       | CL2           | O1      | Brak           | Tak             | Brak          | Prawidłowe           | Godziny i opłaty z projektu P1 są uwzględnione na CL1. Wydatki projektu P1 są zawarte w CL2. </br>   W każdym wierszu kontraktu nie ma zakładki, która jest więc ważna.  |
+| C1       | CL1           | O1      | Tak          | No              | Tak         | Prawidłowe           | Godziny i opłaty z projektu P1 są uwzględnione na CL1. Wydatki projektu P1 są zawarte w CL2. </br>   W każdym wierszu kontraktu nie ma zakładki, która jest więc ważna.  |
+| C1       | CL2           | O1      | No           | Tak             | No          | Prawidłowe           | Godziny i opłaty z projektu P1 są uwzględnione na CL1. Wydatki projektu P1 są zawarte w CL2. </br>   W każdym wierszu kontraktu nie ma zakładki, która jest więc ważna.  |
 | C1       | CL1           | O1      | Tak          | Tak             | Tak         | Nieprawidłowe       | Narusza regułę. Godziny, wydatek i opłaty w projekcie P1 są uwzględnione w pozycjach obu kontraktów.                                                                                               |
 | CL2      | CL2           | O1      | Tak          | Tak             | Tak         | Nieprawidłowe       | Narusza regułę. Godziny, wydatek i opłaty w projekcie P1 są uwzględnione w pozycjach obu kontraktów.                                                                                               |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

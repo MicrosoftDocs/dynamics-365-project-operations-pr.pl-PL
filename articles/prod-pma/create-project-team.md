@@ -2,9 +2,11 @@
 title: Tworzenie zespołu projektu
 description: W tym temacie zamieszczono informacje dotyczące tworzenia nowego zespołu projektu i zarządzania nim.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005809"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270871"
 ---
 # <a name="create-a-project-team"></a>Tworzenie zespołu projektu
 
@@ -33,7 +35,7 @@ Ustawienia widoku mogą być również dostosowywane w celu lepszego wyświetlen
 
 Kierownik projektu może wybrać rolę na stronie, a następnie, jeśli dostępny jest zasób, który spełnia wymagania, może zarezerwować zasób do wypełnienia roli. Należy pamiętać, że zasoby nie muszą być rezerwowane w tym punkcie etapu planowania. Podczas tworzenia SPP można zastępować role przy użyciu zasobów pracowniczych dla danego projektu. Jeśli role zostaną zamienione na zasoby służbowe w SPP, konfiguracja zasobu powoduje automatyczne zaktualizowanie listy i harmonogramu planowania zespołu projektu.
 
-[![Lista zespołu projektowego zawierająca zarówno role, jak i rzeczywiste zasoby.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Lista zespołu projektowego zawierająca zarówno role, jak i rzeczywiste zasoby](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Menedżer projektu ma różne opcje rezerwacji zasobu, takie jak **Wydajność pozostała**, **Pełna wydajność**, **Procent wydajności** i **Określona liczba godzin**. Te opcje rezerwacji można anulować w dowolnym momencie, jeśli zmienią się przydziały zasobów. Obsługiwane są dwa typy rezerwacji:
 

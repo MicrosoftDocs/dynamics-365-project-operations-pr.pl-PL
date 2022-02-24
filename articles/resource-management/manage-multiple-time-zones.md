@@ -2,16 +2,18 @@
 title: Zarządzanie strefami czasowymi
 description: Po utworzeniu projektu jego strefa czasowa jest oparta na strefie czasowej określonej w szablonie godziny pracy zastosowanym w programie.
 author: ruhercul
+manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988709"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119836"
 ---
 # <a name="manage-time-zones"></a>Zarządzanie strefami czasowymi
 
@@ -32,13 +34,13 @@ Aby uzyskać dokładne i przewidywalne wyniki podczas korzystania z **Przedłuż
 
 - Użytkownik musi skonfigurować strefę czasową swoich urządzeń, aby odpowiadała strefom czasowym zdefiniowanym w **ustawieniach personalizacji** systemu.
  
-  ![Ustawienia strefy czasowej w systemie Windows 10.](media/reconcile-assignments-03.png)
+  ![Ustawienia strefy czasowej w systemie Windows 10](media/reconcile-assignments-03.png)
 
-  ![Ustawienia strefy czasowej w ustawieniach personalizacji.](media/reconcile-assignments-04.png)
+  ![Ustawienia strefy czasowej w ustawieniach personalizacji](media/reconcile-assignments-04.png)
  
 - Zasób możliwy do zarezerwowania musi mieć co najmniej jedną minutę czasu pracy, który pokrywa się z rozkładem używanym do definiowania żądanego rozszerzenia. Na przykład następujące zasoby z godzinami pracy, które mieszczą się w zakresie 9:00 rano i 7:00 wieczorem. 
 
-  ![Porównanie rozkładów zasobów.](media/reconcile-assignments-05.png)
+  ![Porównanie rozkładów zasobów](media/reconcile-assignments-05.png)
 
 W poniższej tabeli przedstawiono:
 
@@ -47,25 +49,22 @@ W poniższej tabeli przedstawiono:
 - Zasób B: ten zasób znajduje się w innej strefie czasowej niż projekt i zaczyna pracę o 7:00 rano w swojej strefie czasowej. Jednak rezerwacje zaczynają się od godziny 9:00, która jest najwcześniejszym czasem rozpoczęcia rozkładu przydziału.
 - Zasoby C i D: zasoby znajdują się w różnych strefach czasowych, różniącymi się między sobą i projektem, a ich rezerwacje zaczynają się nie wcześniej niż ich dostęp do swoich godzin rozpoczęcia.
 
-|Entity  |Kalendarz  |
+|Encja  |Kalendarz  |
 |-|-|
-|Szablon kalendarza projektu   | ![kalendarz projektu.](media/reconcile-assignments-06.png) |
-|Zasób A  | ![Kalendarz zasobu A.](media/reconcile-assignments-06.png) |
-|Zasób B  |  ![Kalendarz zasobu B.](media/reconcile-assignments-07.png) |
-|Zasób C  |  ![Kalendarz zasobu C.](media/reconcile-assignments-08.png) |
-|Zasób D  | ![Kalendarz zasobu D.](media/reconcile-assignments-09.png)  |
+|Szablon kalendarza projektu   | ![kalendarz projektu](media/reconcile-assignments-06.png) |
+|Zasób A  | ![Kalendarz zasobu A](media/reconcile-assignments-06.png) |
+|Zasób B  |  ![Kalendarz zasobu B](media/reconcile-assignments-07.png) |
+|Zasób C  |  ![Kalendarz zasobu C](media/reconcile-assignments-08.png) |
+|Zasób D  | ![Kalendarz zasobu D](media/reconcile-assignments-09.png)  |
  
 Po przejściu do widoku **uzgodnienia** zostaną wyświetlone przydziały zasobów i skojarzone niedobory rezerwacji.
 
-![Uzgadnianie widoku przed rozszerzeniem.](media/reconcile-assignments-10.png)
+![Uzgadnianie widoku przed rozszerzeniem](media/reconcile-assignments-10.png)
 
 Po zastosowaniu funkcji przedłużenia rezerwacji dla każdego zasobu rezerwacje są pomyślnie przedłużane dla każdego zasobu, ponieważ godziny pracy poszczególnych zasobów pokrywają się z rozkładem niedoborów.
 
-![Widok Uzgodnienie po rozszerzeniu rezerwacji.](media/reconcile-assignments-11.png) 
+![Widok Uzgodnienie po rozszerzeniu rezerwacji](media/reconcile-assignments-11.png) 
 
 Należy zwrócić uwagę, że bliższe zapoznanie się z szczegółowymi informacjami dotyczącymi rezerwacji pokazuje różnice w czasie rozpoczęcia rezerwacji. Rezerwacje zaczynają się nie wcześniej niż godzina rozpoczęcia rozkładu przydziału i nie wcześniej niż jest dostępna godzina rozpoczęcia zasobu.
 
-![Nowe rezerwacje zasobów na tablicy harmonogramu.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Nowe rezerwacje zasobów na tablicy harmonogramu](media/reconcile-assignments-12.png)

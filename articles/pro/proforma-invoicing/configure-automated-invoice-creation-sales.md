@@ -1,25 +1,29 @@
 ---
-title: Skonfiguruj automatyczne tworzenie faktur
-description: Ten temat zawiera informacje o ustawianiu i konfigurowaniu automatycznego tworzenia faktur proforma.
+title: Konfigurowanie automatycznego tworzenia faktury - wersja uproszczona
+description: Ten temat zawiera informacje na temat konfigurowania automatycznego tworzenia faktur proforma.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997529"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176579"
 ---
-# <a name="set-up-automatic-invoice-creation"></a>Skonfiguruj automatyczne tworzenie faktur 
+# <a name="configure-automatic-invoice-creation---lite"></a>Konfigurowanie automatycznego tworzenia faktury - wersja uproszczona
  
-_**Ma zastosowanie do:** Wdrożenie uproszczone - zajmuje się fakturowaniem proforma, Project Operations dla scenariuszy opartych na zasobach / braku zapasów_
+_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-Można skonfigurować automatyczne tworzenie faktury w rozwiązaniu Dynamics 365 Project Operations. System utworzy roboczą fakturę pro forma na podstawie harmonogramu fakturowania dla każdej umowy dotyczącej projektu i pozycji kontraktu. Harmonogramy faktur są konfigurowane na poziomie pozycji kontraktu. Każdy wiersz kontraktu może zawierać odrębny harmonogram fakturowania lub ten sam harmonogram fakturowania może być uwzględniany w każdym wierszu kontraktu.
+Można skonfigurować automatyczne tworzenie faktur w ramach Dynamics 365 Project Operations. System utworzy roboczą fakturę pro forma na podstawie harmonogramu fakturowania dla każdej umowy dotyczącej projektu i pozycji kontraktu. Harmonogramy faktur są konfigurowane na poziomie pozycji kontraktu. Każdy wiersz kontraktu może zawierać odrębny harmonogram fakturowania lub ten sam harmonogram fakturowania może być uwzględniany w każdym wierszu kontraktu.
 
-Podczas tworzenia faktury system zawsze tworzy co najmniej jedną fakturę przypadającą na każdy kontrakt projektu. W niektórych przypadkach może być utworzonych wiele faktur. Jeśli na przykład kontrakt ma wielu klientów, zostanie utworzone tyle faktur, ilu klientów danego kontraktu projektu powinno być zafakturowanych w ramach rozliczanych transakcji.
+Podczas tworzenia faktury system zawsze tworzy co najmniej jedną fakturę przypadającą na każdy kontrakt projektu. W niektórych przypadkach może być utworzonych wiele faktur.
+
+Jeśli na przykład kontrakt ma wielu klientów, zostanie utworzone tyle faktur, ilu klientów danego kontraktu projektu powinno być zafakturowanych w ramach rozliczanych transakcji.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Rozumienie sposobu uwzględniania transakcji na fakturze 
 
@@ -87,6 +91,3 @@ Zadanie przetwarzania wsadowego umożliwiającego tworzenie faktur jest zadaniem
 
 > [!NOTE]
 > Fakturowanie wsadowe w Project Operations jest wykonywane tylko dla wierszy kontraktu projektu, które są konfigurowane przez harmonogramy faktur. Pozycja kontraktu z metodą fakturowania przy stałej cenie musi mieć skonfigurowany punkt kontrolny. Pozycja kontraktu projektu z metodą rozliczania czasu i materiału będzie wymagała konfiguracji harmonogramu fakturowania opartego na datach.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

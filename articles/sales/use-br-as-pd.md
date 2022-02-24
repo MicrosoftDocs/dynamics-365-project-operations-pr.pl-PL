@@ -2,16 +2,18 @@
 title: Używanie zasobu możliwego do zarezerwowania jako wymiaru kalkulacji cen
 description: Ten temat zawiera informacje na temat sposobu używania zasobu możliwego do zarezerwowania jako wymiaru kalkulacji cen.
 author: Rumant
+manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b0c5cb85f7c43f7b2fd9c367d7f7ac9c3250e0a1
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996269"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643096"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Używanie zasobu możliwego do zarezerwowania jako wymiaru kalkulacji cen
 
@@ -64,18 +66,15 @@ Rekord wymiaru kalkulacji cen dla pola **msdyn_bookableresource** musi zostać p
 1. Kliknij dwukrotnie wiersz w siatce **Wymiary kalkulacji**, aby otworzyć stronę wymiarów obiektu **msdyn_bookableresource**.
 2. Na stronie wymiarów na karcie **Pokrewne** wybierz pozycję **Nazwy pól wymiaru kalkulacji cen**.
 
-  ![Karta Nazwy pól wymiaru kalkulacji cen.](media/PD-fieldname.png)
+  ![Karta Nazwy pól wymiaru kalkulacji cen](media/PD-fieldname.png)
 
 3. W skojarzonym widoku, który zostanie otwarty, wybierz opcję **Dodaj nową nazwę pola wymiaru kalkulacji cen**.
 
-  ![Opcja Dodaj nową nazwę pola wymiaru kalkulacji cen.](media/Add-NewPD-fieldname.png)
+  ![Opcja Dodaj nową nazwę pola wymiaru kalkulacji cen](media/Add-NewPD-fieldname.png)
 
   Spowoduje to otwarcie strony **Nowa nazwa pola wymiaru kalkulacji cen** dla encji **msdyn_bookableresource**. 
 
 4. Na stronie **Nowa nazwa pola wymiaru kalkulacji cen** dodaj obiekt **msdyn_projectteam** do **nazwy logicznej encji**.
 5. Dodaj obiekt **msdyn_bookableresourceid** do **nazwy pola**.
 
- ![Formularz Nowa nazwa pola wymiaru kalkulacji cen.](media/PD-fieldname-Added.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Formularz Nowa nazwa pola wymiaru kalkulacji cen](media/PD-fieldname-Added.png)

@@ -2,10 +2,12 @@
 title: Używanie zasobu możliwego do zarezerwowania jako wymiaru kalkulacji cen
 description: Ten temat zawiera informacje na temat używania zasobu możliwego do zarezerwowania jako wymiaru kalkulacji cen.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988979"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145011"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Używanie zasobu możliwego do zarezerwowania jako wymiaru kalkulacji cen
 
@@ -62,18 +64,15 @@ W zasobie możliwym do zarezerwowania encja **Członkowie zespołu projektu** ma
 1. W tym celu kliknij dwukrotnie wiersz w siatce **Wymiary kalkulacji cen**, aby otworzyć stronę wymiarów encji **msdyn_bookableresource**.
 2. Na stronie wymiarów na karcie **Pokrewne** kliknij pozycję **Nazwy pól wymiaru kalkulacji cen**.
 
- ![Karta Nazwy pól wymiaru kalkulacji cen.](media/PD-fieldname.png)
+ ![Karta Nazwy pól wymiaru kalkulacji cen](media/PD-fieldname.png)
 
 4. W skojarzonym widoku, który zostanie otwarty, kliknij opcję **Dodaj nową nazwę pola wymiaru kalkulacji cen**.
 
- ![Opcja Dodaj nową nazwę pola wymiaru kalkulacji cen.](media/Add-NewPD-fieldname.png)
+ ![Opcja Dodaj nową nazwę pola wymiaru kalkulacji cen](media/Add-NewPD-fieldname.png)
 
 
 Spowoduje to otwarcie strony **Nowa nazwa pola wymiaru kalkulacji cen** dla encji **msdyn_bookableresource**. 
 
 5. Dodaj encję **msdyn_projectteam** do pola **Logiczna nazwa encji**, a encję **msdyn_bookableresourceid** do pola **Nazwa pola**. Zapisz rekord.
 
- ![Formularz Nowa nazwa pola wymiaru kalkulacji cen.](media/PD-fieldname-Added.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Formularz Nowa nazwa pola wymiaru kalkulacji cen](media/PD-fieldname-Added.png)

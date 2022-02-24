@@ -1,23 +1,25 @@
 ---
-title: Zarządzanie fakturą proforma projektu
-description: Ten temat zawiera informacje o tym, jak pracować z fakturami projektu proforma.
+title: Zarządzanie fakturą proforma - wersja uproszczona
+description: Ten temat zawiera informacje dotyczące pracy z fakturami Proforma.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997439"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181555"
 ---
-# <a name="manage-a-proforma-project-invoice"></a>Zarządzanie fakturą proforma projektu 
+# <a name="manage-a-proforma-invoice---lite"></a>Zarządzanie fakturą proforma - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-W rozwiązaniu Dynamics 365 Project Operations faktury proforma są budowane jako rozszerzenie faktur w Dynamics 365 Sales. However, there are many differences in the invoicing process between Sales i Project Operations when it comes to invoicing. Nie można na przykład utworzyć nowej faktury na stronie **Listy faktur** w Project Operations, ale może to zrobić w przypadku sprzedaży. Te różnice i rozszerzenia służą do obsługi procesów fakturowania projektów, które różnią się od typowej faktury za zamówienie sprzedaży.
+W Dynamics 365 Project Operations faktury proforma są budowane jako rozszerzenie faktur w Dynamics 365 Sales. However, there are many differences in the invoicing process between Sales i Project Operations when it comes to invoicing. Nie można na przykład utworzyć nowej faktury na stronie **Listy faktur** w Project Operations, ale może to zrobić w przypadku sprzedaży. Te różnice i rozszerzenia służą do obsługi procesów fakturowania projektów, które różnią się od typowej faktury za zamówienie sprzedaży.
 
 > [!IMPORTANT]
 > Ze względu na różnice między Sales i Project Operations nie można zamiennie używać faktur.
@@ -67,9 +69,9 @@ W Project Operations zawsze istnieje jeden wiersz faktury dla każdego wiersza u
 
 Każdy wiersz faktury na fakturze projektu zawiera szczegóły wiersza faktury. Te szczegóły wierszy są powiązane z wartościami rzeczywistymi i punktami kontrolnymi niefakturowanymi, które są powiązane z pozycją kontraktu, do której odwołuje się wiersz faktury. Wszystkie te transakcje są oznaczone jako **Przygotowane do fakturowania**.
 
-W przypadku wiersza **Faktura czasowa i materiałowa** szczegóły wiersza faktury są zgrupowane jako **Odpłatne**, **Nieodpłatne** i **Bezpłatne** na stronie **Wiersz faktury**. Szczegóły **Wypłacanego wiersza na fakturze** są dodawane do sumy wiersza faktury. **Bezpłatne** i **Rzeczywiste wartości nieodpłatne** nie są dodawane w sumie wierszy faktury.
+W przypadku wiersza **Faktura czasowa i materiałowa** szczegóły wiersza faktury są zgrupowane jako **Odpłatne**, **Niepodlegające opłatom** i **Uzupełniające** na stronie **Wiersz faktury**. Szczegóły **Wypłacanego wiersza na fakturze** są dodawane do sumy wiersza faktury. **Uzupełniające** i **Wartości rzeczywiste niepodlegające obciążeniu** nie są dodawane do sumy wiersza faktury.
 
-W przypadku wiersza **Faktura ze stalą ceną** szczegóły wiersza faktury są tworzone na podstawie punktów kontrolnych oznaczonych jako **Gotowe do zafakturowania** w powiązanym wierszu umowy. Po utworzeniu szczegółów wiersza faktury z punktu kontrolnego stan fakturowania w punktach kontrolnych zostanie zaktualizowany na podstawie **Utworzono fakturę dla klienta**.
+W przypadku wiersza **Faktury o stałej cenie** szczegóły wiersza faktury są tworzone na podstawie punktów kontrolnych oznaczonych jako **Przygotowane do fakturowania** w pokrewnej pozycji kontraktu. Po utworzeniu szczegółów wiersza faktury z punktu kontrolnego stan fakturowania w punktach kontrolnych zostanie zaktualizowany na podstawie **Utworzono fakturę dla klienta**.
 
 ### <a name="edit-invoice-line-details"></a>Edytuj szczegóły linii faktury
 
@@ -96,12 +98,8 @@ Następujące pola są dostępne w szczegółach wiersza faktury, które są pop
 | **Podatek** | Domyślnie jest ustawiona wartość z wartości źródłowej. To pole może być edytowane przez użytkownika | Pole może być edytowane przez użytkownika podczas tworzenia nowych szczegółów wiersza faktury bez potrzeby wykonywania kopii zapasowej. |
 | **Kwota rozszerzona** | Pole obliczane, które jest obliczane jako **Kwota + podatek**. Pole tylko do odczytu, które można edytować jako zablokowane. | &nbsp; |
 | **Typ rozliczeń** | Domyślnie jest ustawiona wartość z wartości źródłowej. To pole może być edytowane przez użytkownika. | Wybranie opcji **Płatny** powoduje dodanie wiersza do sumy wiersza faktury. **Uzupełniające** i **Nieodpłatne** wykluczą go z sumy wiersza faktury. |
-| **Wybierz produkt** | Ustawione domyślnie z rzeczywistego źródła, jest to pole tylko do odczytu. | Podczas tworzenia nowego szczegółu wiersza faktury bez faktycznej kopii zapasowej to pole można edytować. |
-| **Produkt** | Ustawione domyślnie z rzeczywistego źródła, jest to pole tylko do odczytu. | Podczas tworzenia nowych szczegółów wiersza faktury bez konieczności tworzenia kopii rzeczywistej to pole można edytować, jeśli w polu **Wybierz produkt** ustawiono wartość **Istniejący produkt**. |
-| **Nazwa produktu** | Ustawione domyślnie z rzeczywistego źródła, jest to pole tylko do odczytu. | W nowym szczególe linii faktury, gdzie identyfikator produktu jest wybrany z katalogu, w tym polu jest ustawiona nazwa produktu. W przypadku zapisu produktu w polu jest ustawiona wartość Imię i nazwisko. |
-| **Opis dopisanego** | Ustawione domyślnie z rzeczywistego źródła, jest to pole tylko do odczytu. | Podczas tworzenia nowego szczegółu wiersza faktury bez faktycznej kopii zapasowej można dodać opis produktu. |
 | **Typ transakcji** | Domyślnie jest ustawiona wartość z wartości źródłowej. Pole tylko do odczytu, które można edytować jako zablokowane. | Ustaw domyślnie na **Sprzedaż zafakturowaną** i zablokowane podczas tworzenia nowego **Szczegółu wiersza faktury** bez faktycznej kopii zapasowej.  |
-| **Klasa transakcji** | Domyślnie jest ustawiona wartość z wartości źródłowej. Pole tylko do odczytu, które można edytować jako zablokowane. | Ustawienie jest domyślnie oparte na tym, czy użytkownik wybierze opcję tworzenia szczegółów wiersza faktury **Czas**, **Koszt**, **Materiał** lub **Opłata**, a także tworzenie nowego **Szczegółu wiersza faktury** bez rzeczywistej kopii zapasowej. Zablokowano możliwość edycji. |
+| **Klasa transakcji** | Domyślnie jest ustawiona wartość z wartości źródłowej. Pole tylko do odczytu, które można edytować jako zablokowane. | Ustawiany domyślnie w oparciu o to, czy użytkownik zdecyduje się utworzyć szczegóły wiersza faktury **Czasu**, **Wydatków** lub **Opłat**, jednocześnie tworząc nowy **Szczegół wiersza faktury** bez faktycznego zaplecza. Zablokowano możliwość edycji. |
 
 Następujące pola są dostępne w szczegółach wiersza faktury, które są poparte punktem kontrolnym:.
 
@@ -146,6 +144,3 @@ Jeśli po utworzeniu faktury istnieją wartości rzeczywiste, na fakturze można
 W Project Operations można tworzyć wiersze faktur dla produktów, których nie stosuje się do żadnego projektu lub dla wszystkich projektów z wierszami faktur opartych na projektach. Te wiersze są tworzone jako wiersze kontraktu opartego na produktach i po ich oznaczeniu jako gotowy do zafakturowania są dodawane jako wiersze faktury opartej na produktach.
 
 Po dodaniu wierszy faktury produktów nie można ich zmienić. Można je jednak usunąć z wersji roboczej faktury.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

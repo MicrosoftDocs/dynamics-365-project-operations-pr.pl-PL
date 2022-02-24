@@ -2,22 +2,24 @@
 title: Dodawanie członków zespołu z siatki członków zespołu
 description: W tym temacie zamieszczono informacje dotyczące sposobu zarządzania zasobami członków zespołu.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008419"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121546"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Dodawanie członków zespołu z siatki członków zespołu
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Rozwiązanie Dynamics 365 Project Operations zawiera pulpit nawigacyjny Menedżer zasobów umożliwiający graficzny przegląd popytu i wykorzystania zasobów w całej organizacji. Korzystając z wykresów na tym pulpicie nawigacyjnym, można wizualizować następujące informacje:
+Dynamics 365 Project Operations zawiera pulpit nawigacyjny menedżera zasobów umożliwiający graficzne przeglądy popytu i wykorzystania zasobów w całej organizacji. Korzystając z wykresów na tym pulpicie nawigacyjnym, można wizualizować następujące informacje:
 
 - **Zapotrzebowanie na zasoby**: na wykresie **Aktywne żądania zasobów** przedstawiono zasoby, które zostały przesłane. Zasoby są agregowane według ról lub projektów.
 - **Nieprzesłane zapotrzebowanie na zasoby**: wykres **Nieprzydzielone zapotrzebowanie na zasoby** pokazuje wszystkie wymagania zasobu, które nie zostały przesłane. Ten wykres ułatwia to menedżerom zasobów wyświetlanie zapotrzebowania, które nie jest firmą i może być przesłane za pośrednictwem żądania zasobu.
@@ -198,6 +200,3 @@ Po wyświetleniu wyższych poziomów czasu na karcie **Uzgadnianie** widać wska
 W sytuacjach, gdy istnieją przypisania zadań dla zasobu, ale nie ma rezerwacji, w formularzu **Projekty** na karcie **Uzgadnianie** można wybrać niedobór rezerwacji, a następnie kliknąć przycisk **Rozszerz rezerwację**. Zostanie wyświetlone okno dialogowe **Rozszerz rezerwację**, w którym przedstawiono rezerwację potrzebną do wyeliminowania problemu niedoboru zasobu. To okno dialogowe pokazuje również istniejące rezerwacje zasobu we wszystkich projektach lub innych encjach zaplanowania. W przypadku wybrania opcji **OK**, aby utworzyć rezerwację zasobu niezależnie od dostępności tego zasobu, może wystąpić rezerwacja ponad dyspozycyjność.
 
 Następnie menedżer projektu lub menedżer zasobów może za pomocą tablicy harmonogramu rozwiązać sytuację, w której zasób został zarezerwowany ponad jego dyspozycyjność.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

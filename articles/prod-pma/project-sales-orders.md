@@ -2,9 +2,11 @@
 title: Zamówienie sprzedaży projektów dotyczące projektów typu Czas i materiały
 description: W tym temat wyjaśniono, jak tworzyć oparte na projektach zamówienia sprzedaży na potrzeby projektów typu czasu i materiałów.
 author: Yowelle
+manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992849"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081997"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Zamówienie sprzedaży projektów dotyczące projektów typu Czas i materiały
 
@@ -39,6 +41,3 @@ Zamówienia sprzedaży oparte na projektach można tworzyć na dwa sposoby:
 - Przejść do projektu. W okienku akcji wybierz pozycję **Zarządzaj > Zadania towarów > Zamówienie sprzedaży**. Informacje o projekcie będą domyślnie zamówione na zamówienie sprzedaży z projektu. Jeśli kontrakt projektu zawiera więcej niż jedno źródło finansowania, należy wybrać źródło finansowania, aby ustawić klienta dla danego zamówienia sprzedaży. Jeśli dla danego projektu istnieje tylko jedno źródło finansowania, klient zostanie ustawiony na automatyczny.
 - Przejdź do strony listy **Wszystkie zamówienia sprzedaży** i utwórz nowe zamówienie sprzedaży. Konieczne będzie wybranie projektu dla zamówienia sprzedaży. Po wybraniu projektu klient zostanie ustawiony ze źródła finansowania lub konieczne będzie wybranie źródła finansowania, jeśli kontrakt projektu zawiera wiele źródeł finansowania.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

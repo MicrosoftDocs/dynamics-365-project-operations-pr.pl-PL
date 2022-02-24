@@ -2,26 +2,28 @@
 title: Informacje o zarządzaniu projektami i ich księgowaniu
 description: Funkcja zarządzania projektami i księgowania może być używana w wielu branżach w celu zapewnienia usługi, utworzenia produktu lub osiągnięcia wyniku.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007519"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082155"
 ---
 # <a name="project-management-and-accounting-overview"></a>Informacje o zarządzaniu projektami i ich księgowaniu
 
@@ -34,14 +36,14 @@ Projekt jest grupą działań, która umożliwia świadczenie usługi, utworzeni
 ## <a name="projects-across-industries"></a>Projekty w różnych branżach
 Funkcja zarządzania projektami i księgowania może być używana w wielu branżach, jak przedstawiono na poniższej ilustracji.
 
-[![Projekty w różnych branżach.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projekty w różnych branżach](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 W call center bilet może służyć do opisu zestawu działań wymaganych do rozwiązania połączenia. Firmy konsultingowe, takie jak organizacje zarządzające lub zajmujące się doradztwem technicznym lub agencje reklamowe, określają swoją działalność jako projekty. W marketingu kampania reprezentuje zestaw prac, które należy dostarczyć. W produkcji opartej na projektach zlecenie produkcyjne dotyczy różnych prac, które należy wykonać, aby wyprodukować niektóre produkty gotowe. Bez względu na nazwę, projekty te obejmują zasoby, harmonogramy i koszty, a funkcje zarządzania projektami i księgowości mogą pomóc w planowaniu, realizacji i analizie tych projektów.
 
 ## <a name="project-phases"></a>Fazy projektu
 Mimo że następujący przepływ przebiegu procesu ma na celu tworzenie zewnętrznych projektów lub projektów wykonanych dla jednego lub większej liczby klientów, funkcjonalność ma również zastosowanie w przypadku projektów o charakterze wewnętrznym i samych kosztów. 
 
-![3 etapy projektu.](./media/3-stages-of-a-project.png) 
+![3 etapy projektu](./media/3-stages-of-a-project.png) 
 
 Jak pokazano na powyższej ilustracji, zarządzanie projektami i księgowanie można podzielić na trzy etapy:
 
@@ -50,7 +52,7 @@ Jak pokazano na powyższej ilustracji, zarządzanie projektami i księgowanie mo
 3.  Analizuj
 
 ## <a name="initiate-the-project"></a>Zainicjowanie projektu
-Podczas inicjowania projektu zachodzi kilka kluczowych procesów. Oferta w ramach projektu może służyć do informowania o szacunkowej robocizny, wydatkach i materialach do klienta. Warunki fakturowania, limity i kontrakty można zarejestrować w kontrakcie projektu. Struktury podziału pracy (SPP) można użyć do zaplanowania i oszacowania pracy. Prognozy i budżety można skonfigurować w celu ułatwienia wykonywania projektów. Na poniższym rysunku pokazano strukturę projektu.[![struktura projektu.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Podczas inicjowania projektu zachodzi kilka kluczowych procesów. Oferta w ramach projektu może służyć do informowania o szacunkowej robocizny, wydatkach i materialach do klienta. Warunki fakturowania, limity i kontrakty można zarejestrować w kontrakcie projektu. Struktury podziału pracy (SPP) można użyć do zaplanowania i oszacowania pracy. Prognozy i budżety można skonfigurować w celu ułatwienia wykonywania projektów. Na poniższym rysunku pokazano strukturę projektu.[![struktura projektu](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Tworzenie ofert w ramach projektu
 
@@ -203,7 +205,7 @@ Można zamówić towary z poziomu zapasów firmy przeznaczonych do spożycia w p
 
 Sposób zamawiania produktów zależy od tego, skąd je zamawiasz:
 
--   Aby zamówić towary w magazynie firmy, należy wprowadzić zamówienie jako zapotrzebowanie na towary. Jeśli jest używana Strona **Zapotrzebowania na towary**, możesz skonfigurować wymaganie, aby otrzymywać przedmioty jako częściowe dostawy. W związku z tym można odłożyć zużycie towarów do momentu, gdy będzie jedna ilość potrzebna.
+-   Aby zamówić towary w magazynie firmy, należy wprowadzić zamówienie jako zapotrzebowanie na towary. Jeśli jest używana Strona **Zapotrzebowania na towary**, możesz skonfigurować wymaganie, aby otrzymywać przedmioty jako częściowe dostawy. W związku z tym można odłożyć zużycie towarów do momentu, gdy będzie jedna ilość potrzebna.
 -   Aby zamówić towary od dostawcy zewnętrznego, należy utworzyć zamówienie jako zamówienie zakupu na stronie **Zamówienie zakupu**.
 
 > [!NOTE] 
@@ -225,7 +227,7 @@ Typ projektu określa metodę fakturowania, która ma zostać zastosowana. Możn
 Przed utworzeniem faktury dla klienta w projekcie można utworzyć wstępną fakturę lub propozycję faktury. W propozycji faktury można wybrać transakcje projektów, które mają zostać uwzględnione na fakturze projektu. Następnie można przejrzeć szczegóły faktury przed zaksięgowaniem faktury projektu i wysłaniem jej do klienta lub innego źródła finansowania. 
 
 
-Aby uzyskać więcej informacji na temat przetwarzania faktur w ramach projektu, zobacz [Fakturowanie projektu](/dynamics365/finance/accounts-payable/project-invoicing).
+Aby uzyskać więcej informacji na temat przetwarzania faktur w ramach projektu, zobacz [Fakturowanie projektu](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Obliczanie kosztów w celu wykonania projektu
@@ -298,7 +300,7 @@ W zależności od konfiguracji można prognozować przychody środków pienięż
 -   **Data projektu:** 5 marca, 2012.
 -   **Data fakturowania:** 31 marca, 2012. Ta data jest określana na podstawie częstotliwości faktur. W tym przykładzie wartość częstotliwości faktury jest ustawiana na bieżący miesiąc. Z tego powodu wszystkie transakcje zaksięgowane w marcu są zafakturowane ostatniego dnia miesiąca.
 -   **Termin zapłaty:** 14 kwietnia 2012. Ta data jest określana na podstawie warunków płatności ustalonych dla projektu. W tym przykładzie wybrano warunki płatności na 14 dni. W związku z tym 14 dni jest dodawane do daty faktury, aby otrzymać termin płatności 14 kwietnia 2012 r.
--   **Przewidywana data płatności za sprzedaż:** 27 kwietnia 2012. Ta data jest obliczana przez dodanie liczby dni w polu **Ogólne dni buforowe** na stronie **Zarządzanie projektem i parametry księgowe** liczby dni w polu **Indywidualne dni buforowe** na stronie **Umowy dotyczące projektów**, a następnie dodanie sumy do liczby dni w polu **Termin zapłaty**. W tym przykładzie wprowadzono **3** w polu **Ogólne dni buforowe** i **10** w polu **Indywidualne dni buforowe**. Dlatego 13 dni jest dodawane do terminu płatności, aby uzyskać oczekiwany termin płatności sprzedaży, czyli 27 kwietnia 2012 r.
+-   **Przewidywana data płatności za sprzedaż:** 27 kwietnia 2012. Ta data jest obliczana przez dodanie liczby dni w polu **Ogólne dni buforowe** na stronie **Zarządzanie projektem i parametry księgowe** do liczby dni w polu **Indywidualne dni buforowe** na stronie **Umowy dotyczące projektów**, a następnie dodanie sumy do liczby dni w polu **Termin zapłaty**. W tym przykładzie wprowadzono **3** w polu **Ogólne dni buforowe** i **10** w polu **Indywidualne dni buforowe**. Dlatego 13 dni jest dodawane do terminu płatności, aby uzyskać oczekiwany termin płatności sprzedaży, czyli 27 kwietnia 2012 r.
 
 Ogólne dni buforowe mogą albo zastąpić poszczególne dni buforowe, albo zostać dodane do indywidualnych dni buforowych:
 
@@ -438,6 +440,3 @@ Po obliczeniu zestawienia możesz wyświetlić następujące informacje na róż
 -   **Zużycie** — Informacje o zużyciu godzin, towarów, wydatków i transakcji listy płac.
 -   **Faktura** — Informacje o fakturach i fakturach akonto.
 -   **Stawka godzinowa** — stawki godzinowe dotyczące godzin, które są księgowane na przychodach i na kontach kosztów.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

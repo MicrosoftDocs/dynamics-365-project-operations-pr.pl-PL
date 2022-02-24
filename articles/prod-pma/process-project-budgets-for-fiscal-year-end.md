@@ -2,9 +2,11 @@
 title: Przeniesienie budżetów projektu na koniec roku obrachunkowego
 description: W tym artykule podano informacje o sposobie przeniesienia pozostałych w budżecie kwot na przyszłe lata oraz utworzenia szczegółowych informacji na temat rejestru budżetu.
 author: Yowelle
+manager: AnnBe
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 74b2831a19688636f5c4863036adf7043c80d49829737b56c131abb6998d6cb3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007384"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082145"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Przeniesienie budżetów projektu na koniec roku obrachunkowego
 
@@ -96,6 +98,3 @@ Podczas przetwarzania pozostałych kwot budżetu można utworzyć transakcje w k
 5. Dla każdego projektu, który ma zostać przetworzony, wybierz opcję na początku wiersza projektu. 
 6. Wybierz opcję **Przetwórz**, aby przenieść pozostałe kwoty budżetu dla wybranych projektów do wybranego rok obrachunkowy.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

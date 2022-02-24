@@ -2,9 +2,11 @@
 title: Wydajność propozycji faktury projektu
 description: Ten temat zawiera informacje o ulepszeniach wydajności propozycji faktur projektu.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
+ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005719"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920315"
 ---
 # <a name="project-invoice-proposal-performance"></a>Wydajność propozycji faktury projektu
 
@@ -44,6 +46,4 @@ Wykonaj następujące kroki, aby wyłączyć poprawę wydajności propozycji fak
 3.  Odśwież przeglądarkę.
 
 > [!NOTE]
-> Wydajności propozycji faktury nie można zastosować, jeśli włączono reguły fakturowania.
-> 
-> Podczas procesu przetwarzania wsadowego w celu utworzenia propozycji faktury liczba zadań podrzędnych będzie dzielić zadania na maksymalną liczbę w zależności od liczby kontraktów z transakcjami możliwymi do zafakturowania, niezależnie od tego, co wprowadzono. Jeśli na przykład wprowadzisz wartość **3** dla liczby zadań podrzędnych na potrzeby tworzenia propozycji faktury w partii i istnieją tylko dwa kontrakty z transakcjami do fakturowania, tworzone są tylko dwa zadania podrzędne.
+> Nie można zastosować wydajności propozycji faktury, gdy są włączone reguły rozliczeniowe lub są uruchomione procesy wsadowe.

@@ -2,11 +2,12 @@
 title: Strona główna wymiarów kalkulacji cen i kosztów
 description: Ta temat zawiera omówienie funkcjonalności wymiarów kalkulacji cen.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998474"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151311"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Strona główna wymiarów kalkulacji cen i kosztów
 
@@ -41,7 +42,7 @@ Uwzględniając typowy charakter tych atrybutów pracy i osób wymaganych do wyk
 
 Program PSA zawiera fabrycznie domyślny zestaw wymiarów kalkulacji cen. Można je obejrzeć po wybraniu kolejno opcji **Project Service** > **Parametry**. W rekordzie parametru na karcie **Wymiary kalkulacji cen oparte na kwocie** upewnij się, że rola **msdyn_resourcecategory** oraz jednostka organizacyjna zasobów **msdyn_organizationalunit** mają w polach **Ma zastosowanie do sprzedaży** i **Ma zastosowanie do kosztu** ustawioną wartość **Tak**. Pozwoli to skonfigurować cenę i koszt dla każdej kombinacji roli i jednostki organizacyjnej.
 
-![Zrzut ekranu z parametrami usługi Project Service z wyróżnioną opcją „Ma zastosowanie do sprzedaży”.](media/PS-OOB-parameters.png)
+![Zrzut ekranu z parametrami usługi Project Service z wyróżnioną opcją „Ma zastosowanie do sprzedaży”](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Jeżeli w wersji programu PSA sprzed 3 używano gotowych pól roli i jednostki organizacyjnej jako wymiarów kalkulacji cen, nie będzie żadnych zauważalnych zmian. Można nadal korzystać z usługi Project Service w zwykły sposób. 
@@ -66,16 +67,13 @@ W przykładzie pod spodem przedstawiono stawki rozliczania skonfigurowane na pod
 
 | Rola        | Jednostka organizacyjna    |Jednostka      |Cena      |Waluta  |
 | ------------|-------------|----------|----------:|----------|
-| Deweloperskie   | Contoso — USA  |godzina | 200|USD     |
-| Deweloperskie   | Contoso Indie |godzina|   112|USD     |
+| Dla deweloperów   | Contoso US  |Hour | 200|USD     |
+| Dla deweloperów   | Contoso India |Hour|   112|USD     |
 
 
 **Przykładowe stawki kosztów**
 
 | Pasmo wynagrodzenia     | Jednostka organizacyjna    |Jednostka      |Cena      |Waluta  |
 | ----------------|-------------|----------|----------:|----------|
-| Moja firma_pasmo1 | Contoso — USA  |godzina | 145|USD     |
-| Moja firma_pasmo2 | Contoso Indie |godzina|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Moja firma_pasmo1 | Contoso US  |Hour | 145|USD     |
+| Moja firma_pasmo2 | Contoso India |Hour|   67|USD     |

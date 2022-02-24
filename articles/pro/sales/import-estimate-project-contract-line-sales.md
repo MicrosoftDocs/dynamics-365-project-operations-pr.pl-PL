@@ -2,22 +2,24 @@
 title: Importowanie szacowania do pozycji kontraktu opartego na projekcie - wersja uproszczona
 description: W tym temacie zamieszczono informacje dotyczące sposobu importowania szacunków finansowych z projektu do wiersza kontraktu.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997259"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177479"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Importowanie szacowania do pozycji kontraktu opartego na projekcie - wersja uproszczona
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-W rozwiązaniu Dynamics 365 Project Operations można importować szacowania z projektu do pozycji kontraktu opartego na projekcie.
+W przypadku Dynamics 365 Project Operations można zaimportować oszacowania z projektu do pozycji kontraktu opartej na projektach.
 
 1. Sprawdź, czy pole **Projekt** w pozycji kontraktu opartej na projekcie zostało wypełnione.
 2. Na karcie **Szczegóły pozycji kontraktu karty**, w podsiatce wybierz pozycję **Importuj z oszacowania projektu**. Zostanie wyświetlona strona dialogu z opcjami podsumowania. Dostępne opcje podsumowania to: **Klasa transakcji**, **Kategoria**, **Rola** i **Zadanie projektu**.
@@ -58,6 +60,3 @@ Kiedy użytkownik wybierze opcję podsumowania według **klas transakcji**, **ka
 | Zadanie A | Opłata za przelot | 10.01.2020 | 100 | 400 | 1600 |
 | Zadanie B | Hotel | 10.01.2020 | 100 | 200 | 800 |
 | Zadanie C | Hotel | 11.01.2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

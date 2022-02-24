@@ -2,16 +2,18 @@
 title: Harmonogramy fakturowania w wierszach oferty opartej na projekcie
 description: W tym temacie zamieszczono informacje dotyczące tworzenia harmonogramów faktur i punktów kontrolnych wierszy oferty.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988619"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180835"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Harmonogramy fakturowania w wierszach oferty opartej na projekcie
 
@@ -66,6 +68,3 @@ Otwórz wiersz oferty o stałej cenie, dla którego chcesz utworzyć punkt kontr
 | Stan faktury | Szybkie tworzenie | Po utworzeniu punktu kontrolnego jego stan jest zawsze ustawiony jako **Niegotowy do fakturowania**. | Następuje skopiowanie punktów kontrolnych do pozycji kontraktu projektu i do faktury. |
 | Kwota pozycji | Szybkie tworzenie | Kwota lub wartość punktów kontrolnych, która zostanie zafakturowana klientowi. | Następuje skopiowanie punktów kontrolnych do pozycji kontraktu projektu i do faktury. |
 | Podatek | Szybkie tworzenie | Kwota podatku, która zostanie zastosowana względem punktu kontrolnego. | Następuje skopiowanie punktów kontrolnych do pozycji kontraktu projektu i do faktury. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

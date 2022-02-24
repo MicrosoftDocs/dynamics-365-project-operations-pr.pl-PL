@@ -2,16 +2,18 @@
 title: Konfigurowanie automatycznego tworzenia faktury
 description: W tym temacie zamieszczono informacje na temat pracy z systemem na żywo w celu automatycznego generowania faktur.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992669"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122446"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Konfigurowanie automatycznego tworzenia faktury
 
@@ -43,6 +45,3 @@ Zadanie przetwarzania wsadowego umożliwiającego tworzenie faktur jest zadaniem
 
 > [!NOTE]
 > Fakturowanie wsadowe jest wykonywane tylko dla wierszy kontraktu projektu, które są konfigurowane przez harmonogramy faktur. Pozycja kontraktu z metodą fakturowania przy stałej cenie musi mieć skonfigurowany punkt kontrolny. Pozycja kontraktu projektu z metodą rozliczania czasu i materiału będzie wymagała konfiguracji harmonogramu fakturowania opartego na datach. To samo dotyczy pozycji kontraktu opartej na projektach.     
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

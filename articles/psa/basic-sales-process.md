@@ -2,6 +2,8 @@
 title: Procesy sprzedaży
 description: Ta temat zawiera informacje o podstawowych procesach sprzedaży.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000544"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145191"
 ---
 # <a name="sales-processes"></a>Procesy sprzedaży
 
@@ -39,7 +41,7 @@ Procesy sprzedaży używane w organizacji opartej na projektach różnią się w
 
 Na poniższym rysunku pokazano typowy proces sprzedaży w organizacji opartej na projektach.
 
-> ![Proces sprzedaży w organizacji opartej na projektach.](media/basic-guide-1.png)
+> ![Proces sprzedaży w organizacji opartej na projektach](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Szacowanie sprzedaży
 Wartość sprzedaży może być oceniana na podstawie projektów, które zostały wcześniej dostarczone, oraz złożoności projektów. W przypadku projektów obejmujących rozszerzenia poprzednich projektów lub projektów, w których jest specjalistyczna wiedza i dobrze znane są szablony pracy, można użyć prostszego procesu szacowania. Bardziej złożone projekty mają zwykle dłuższy proces zakupu. W związku z tym w procesie szacowania sprzedaży występuje więcej etapów. Na początku procesu zespół ds. sprzedaży korzysta z pozostałej części menedżerów kont oraz specjalistów (msp) w celu utworzenia oszacowania wysokiego poziomu dla każdego odrębnego składnika pracy, który jest w ofercie. Te składniki pracy są reprezentowane przez wiersze oferty. 
@@ -50,7 +52,7 @@ Użytkownik może utworzyć wiele ofert dla projektu i pogrupować je w ramach j
 
 Można również utworzyć alternatywne oferty pod jednym typem encji szansa sprzedaży lub konfigurację systemu w taki sposób, aby kontrakt projektu był tworzony w momencie wykorzystania oferty. W takim przypadku można dołączyć dokument programu Word reprezentujący zestawienie pracy do rekordu kontraktu projektu.
 
-![Zamykanie oferty w celu utworzenia kontraktu dotyczącego projektu.](media/basic-guide-2.png)
+![Zamykanie oferty w celu utworzenia kontraktu dotyczącego projektu](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Konfigurowanie procesu sprzedaży
 Do skonfigurowania procesu sprzedaży można użyć przepływu procesów biznesowych (BPF) w Microsoft Dynamics 365. BPF dają pracownikom działu sprzedaży interfejs wizualny, za pomocą którego można przechodzić między etapami typowymi dla danej firmy.
@@ -66,7 +68,7 @@ Na przykład firma może w procesie sprzedaży mieć następujące sześć etap�
 
 Te sześć etapów są reprezentowane przez cudzysłów ostrokątny (\>), który jest wybierany w celu rozwinięcia każdego typu tworzonych encji z szansą sprzedaży.
 
-![Konfiguracja procesów biznesowych w Dynamics 365.](media/basic-guide-3.png)
+![Konfiguracja procesów biznesowych w Dynamics 365](media/basic-guide-3.png)
  
 Organizacja może używać innych obiektów do reprezentowania tej samej transakcji. Na początku procesu sprzedaży transakcja jest reprezentowana przez obiekt szansa sprzedaży. W miarę upływu czasu i przybywania szczegółów można użyć oszacowań wysokiego poziomu w celu utworzenia jednej lub większej liczby ofert. Jeśli jedna z tych ofert jest analizowana przez udziałowców wewnętrznych i klienta, encja Oferta reprezentuje transakcję. Po zaakceptowaniu oferty przez klienta kontrakt lub jego zestawienie pracy stanowią informację o transakcji. Aby obsłużyć to zachowanie, BPF ma strukturę, dzięki czemu każdy etap procesu jest połączony z inną tabelą bazy danych.
 
@@ -77,7 +79,7 @@ W miarę przechodzenia kolejnych etapów w umowach będą wyświetlane monity o 
 > [!NOTE]
 > PSA zawiera konkretne strony encji szansy sprzedaży, oferty, zamówienia i faktury. Szanse sprzedaży, oferty, zamówienia i faktury dla usługi projektów należy utworzyć na podstawie tych encji na stronach z informacjami o projekcie. Jeśli do utworzenia rekordu jest używana inna strona, nie będzie można otworzyć rekordu na stronie z **informacjami o projekcie**. Aby otworzyć rekord z poziomu strony **informacji o projekcie**, należy usunąć rekord i utworzyć go ponownie na stronie **informacji o projekcie**. Na stronie **informacje o projekcie** logika biznesowa dla każdego z tych typów encji daje gwarancję, że pole **typu** rekordu będzie poprawnie ustawione, a wszystkie obowiązkowe pojęcia są poprawnie zainicjowane.
 
-> ![Informacje o projekcie dla nowego zamówienia.](media/basic-guide-4.png)
+> ![Informacje o projekcie dla nowego zamówienia](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Różnice między rozwiązaniem Project Service Automation a sprzedażą
 Mimo że proces sprzedaży w usłudze PSA korzysta z podstawowych funkcji procesu sprzedaży w sprzedaży, istnieją pewne zasadnicze różnice w zależności od metod postępowania w organizacjach opartych na projektach. Oto kilka przykładów:
@@ -91,6 +93,3 @@ W PSA nie można śledzić poprawek wprowadzanych do oferty. Zamiast tego koniec
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Śledzenie komentarzy i zatwierdzania ofert i kontraktów projektów
 Użytkownik może zarządzać przeglądaniem i zatwierdzaniem ofert i kontraktów projektów przy użyciu tablicy rekordów i wpisów. Organizacja może tworzyć niestandardowe przepływy pracy i dodatki plug-in, aby przypisywać, przekierowywać, eskalować i zarządzać powiadomieniami o elementach pracy przeglądanie i zatwierdzenie.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

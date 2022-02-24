@@ -2,22 +2,24 @@
 title: Konfigurowanie cenników
 description: Ten temat zawiera informacje na temat konfiguracji cenników kosztów i sprzedaży.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009499"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180205"
 ---
 # <a name="set-up-price-lists"></a>Konfigurowanie cenników
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Cenniki w rozwiązaniu Dynamics 365 Project Operations reprezentują katalog stawek. Stawki wyrażają koszty, sprzedaż i stawki rozliczeń. W zależności od tego, czy cennik zawiera stawki kosztów lub stawki sprzedaży i stawki rozliczeń, kontekstem cennika jest **Sprzedaż** lub **Koszt**.
+Cenniki w Dynamics 365 Project Operations są odzwierciedleniem katalogu stawek. Stawki wyrażają koszty, sprzedaż i stawki rozliczeń. W zależności od tego, czy cennik zawiera stawki kosztów lub stawki sprzedaży i stawki rozliczeń, kontekstem cennika jest **Sprzedaż** lub **Koszt**.
 
 Poniższe rozszerzenia są specyficzne dla Project Operations i są stosowane do cenników z Dynamics 365 Sales.
 
@@ -38,6 +40,3 @@ Poniższa tabela zawiera pola na karcie **Ogólne** cennika, które są unikatow
 | Waluta | Karta **Ogólne** i formularze **Szybkie tworzenie** | To pole jest używane jako domyślna waluta w poszczególnych wierszach roli, kategorii lub cennika powiązanych z tym cennikiem. | Nie można tworzyć cenników, roli, kategorii lub wierszy pozycji cennika w **Sprzedaży** w walutach innych niż podana waluta. W przypadku cenników **Koszt** można utworzyć wiersz ceny roli w dowolnej walucie. Waluta zdefiniowana w tym miejscu jest używana jako domyślna. Zależne od konfiguracji użytkownika ceny ról mogą zastąpić tę wartość w celu włączenia konfiguracji stawki kosztów pracy w dowolnej walucie. Stawki kosztów kategorii i koszty pozycji cennika można skonfigurować wyłącznie w walucie zdefiniowanej w tym miejscu. |
 | Jednostka czasu | Karta **Ogólne** i formularze **Szybkie tworzenie** | To pole jest używane jako domyślna jednostka czasu w poszczególnych wierszach roli cennika. | Ta wartość pola jest używana tylko w pokrewnych ustawieniach cen ról. W przypadku cenników **Koszt** oraz **Sprzedaż** można utworzyć wiersz ceny w dowolnej jednostce czasu. Jednostka czasu zdefiniowana w tym miejscu jest używana jako domyślna. Zależne od konfiguracji użytkownika ceny ról mogą zastąpić tę wartość w celu włączenia konfiguracji stawki kosztów pracy i rozliczania w dowolnej jednostce czasu. |
 | Opis | Karta **Ogólne** i formularze **Szybkie tworzenie** | Jest to pole tekstowe umożliwiające wyświetlanie wielowierszowego opisu cennika. | To pole jest wyświetlane w widokach **Skojarzonych** z cennikiem w różnych encjach, w których znajdują się pokrewne cenniki. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

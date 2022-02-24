@@ -2,22 +2,24 @@
 title: Potwierdzenie kontraktu projektu
 description: Ten temat zawiera informacje na temat potwierdzenia kontraktu projektu w Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0ca43eb6005948f440fca16e98a6d05db3493c82e518441bb50f9413da91ead
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989834"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128296"
 ---
 # <a name="confirm-a-project-contract"></a>Potwierdzenie kontraktu projektu
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Kontrakt projektu w Dynamics 365 Project Operations może być aktywny z powodem **Potwierdzone** lub zamknięty z powodem **Utrata**. Podczas potwierdzania kontraktu projektu, jego stan zmienia się z **Wersji roboczej** na **Aktywna**, a przyczyna stanu to **Potwierdzony**. Nie można edytować ani ponownie otworzyć aktywnego lub zamkniętego kontraktu. 
+Kontrakt projektu w Dynamics 365 Project Operations może być aktywny i mieć powód **Potwierdzony** lub zamknięty z powodem **Utracony**. Podczas potwierdzania kontraktu projektu, jego stan zmienia się z **Wersji roboczej** na **Aktywna**, a przyczyna stanu to **Potwierdzony**. Nie można edytować ani ponownie otworzyć aktywnego lub zamkniętego kontraktu. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Finansowy wpływ potwierdzenia kontraktu dotyczącego projektu
 
@@ -32,7 +34,4 @@ Po zamknięciu kontraktu projektu jako utraconego stan kontraktu jest aktualizow
 Jeśli kontrakt projektu, który został zamknięty jako utracony, odwołuje się do wierszy projektu, projekt jest również oznaczony jako zamknięty. Wszystkie rezerwacje zasobów począwszy od danego dnia są anulowane. Wszelkie nierozliczone wartości rzeczywiste dotyczące sprzedaży w kontrakcie projektu, które nie są jeszcze zawarte w fakturze, zostaną anulowane.
 
 > [!NOTE]
-> W programie Dynamics 365 Project Operations zamknięcie kontraktu projektu jako utraconego nie wpłynie na ten stan skojarzonej szansy sprzedaży. Szansa sprzedaży pozostanie otwarta i należy ją zamknąć ręcznie.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+> W przypadku Dynamics 365 Project Operations zamknięcie kontraktu dotyczącego projektu jako utraconego nie wpłynie na stan skojarzonej szansy sprzedaży. Szansa sprzedaży pozostanie otwarta i należy ją zamknąć ręcznie.

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 205a4fbe41637be12970041ff309c0a8d206db513987c4f64610e842183ed781
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004825"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070044"
 ---
 Włączając aplikację Project Finder Mobile, umożliwiasz użytkownikom w organizacji wgląd w prace związane z projektem oraz zgłaszanie się do tych prac. Użytkownicy mogą także używać aplikacji Znajdowanie projektów w celu wyświetlania i aktualizowania swoich umiejętności. Aplikację Project Finder Mobile można włączyć w obszarze ustawiania parametrów rozwiązania Project Service, wybierając wartość Tak dla atrybutów Wymagania zasobów widoczne dla zasobów oraz Zezwalaj na aktualizowanie umiejętności przez zasób. Zmiana wartości tych atrybutów na Nie powoduje wyłączenie tej funkcji.  
   

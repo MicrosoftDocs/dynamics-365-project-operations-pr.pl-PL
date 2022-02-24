@@ -2,22 +2,24 @@
 title: Importowanie szacowania do pozycji kontraktu opartego na projekcie
 description: W tym temacie zamieszczono informacje dotyczące sposobu importowania szacunków z projektu do wiersza kontraktu.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea513ca8126eadbf563f3c6cb3e966f81703ae805d12881f865cdc1dd77e191d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
+ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990104"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4082247"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Importowanie szacowania do pozycji kontraktu opartego na projekcie
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-W rozwiązaniu Dynamics 365 Project Operations można importować szacowania z projektu do pozycji kontraktu opartego na projekcie.
+W przypadku Dynamics 365 Project Operations można zaimportować oszacowania z projektu do pozycji kontraktu opartej na projektach.
 
 1. Sprawdź, czy pole **Projekt** w pozycji kontraktu opartej na projekcie jest wypełnione.
 2. Na karcie **Szczegóły pozycji kontraktu karty**, w podsiatce wybierz pozycję **Importuj z oszacowania projektu**. Zostanie wyświetlona strona dialogu z opcjami podsumowania. Dostępne opcje podsumowania to **Klasa transakcji**, **Kategoria**, **Rola** i **Zadanie projektu**. W zależności od dokonanego wyboru do podsumowania, oszacowania projektu dotyczące wszystkich klas transakcji zawartych w tym wierszu oferty są kopiowane. 
@@ -57,6 +59,3 @@ Kiedy użytkownik wybierze opcję podsumowania według **klas transakcji**, **ka
 | Zadanie A | Opłata za przelot | 10.01.2020 | 100 | 400 | 1600 |
 | Zadanie B | Hotel | 10.01.2020 | 100 | 200 | 800 |
 | Zadanie C | Hotel | 11.01.2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

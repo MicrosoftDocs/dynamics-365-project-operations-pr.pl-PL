@@ -2,17 +2,19 @@
 title: Ustanowienie nowego środowiska
 description: W tym temacie zamieszczono informacje dotyczące tworzenia nowego środowiska w Project Operations.
 author: sigitac
-ms.date: 09/13/2021
+manager: Annbe
+ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928674"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727803"
 ---
 # <a name="provision-a-new-environment"></a>Ustanowienie nowego środowiska
 
@@ -29,16 +31,16 @@ Wykonaj poniższe kroki, aby włączyć zautomatyzowany przepływ ustanawiania P
 1. Przejdź do [LCS](https://lcs.dynamics.com/v2) i wybierz kafelek **Zarządzanie podglądem funkcji**.
 2. Na liście **Wersji zapoznawczej funkcji** wybierz **Funkcja Project Operations** i wybierz **Włącz wersje zapoznawcze funkcji**, aby włączyć Project Operations.
 
-   > [!NOTE]
-   > Ten krok jest wykonywany tylko raz dla każdego projektu LCS.
+> [!NOTE]
+> Ten krok jest wykonywany tylko raz dla każdego projektu LCS.
 
 ## <a name="provision-a-project-operations-environment"></a>Obsługiwanie środowiska Project Operations
 
-1. Otwórz nowe [środowisko pokazowe](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) Dynamics 365 Finance lub [piaskownicę/wdrożenie środowiska produkcyjnego](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Otwórz nowe [środowisko pokazowe](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) Dynamics 365 Finance lub [piaskownicę/wdrożenie środowiska produkcyjnego](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Wykonaj kroki kreatora **Inicjowania obsługi środowiska**. 
 
-   > [!IMPORTANT]
-   > Upewnij się, że wybrana wersja aplikacji to 10.0.13 lub wyższa.
+> [!IMPORTANT]
+> Upewnij się, że wybrana wersja aplikacji to 10.0.13 lub wyższa.
 
 3. Aby zainicjować obsługę Project Operations, w obszarze **Ustawienia zaawansowane** wybierz opcję **Common Data Service**. 
 4. Aby włączyć to **Ustawienie Common Data Service**, należy wybrać opcję **Tak** i wprowadzić informacje w wymaganych polach:
@@ -49,23 +51,25 @@ Wykonaj poniższe kroki, aby włączyć zautomatyzowany przepływ ustanawiania P
   - Waluta
  
 5. W polu **Szablon Common Data Service** wybierz **Project Operations** 
+
 6. Wybierz typ środowiska dla swojego wdrożenia. Wersja próbna oparta na subskrypcji umożliwia wdrożenie środowiska CDS przez 30 dni. 
 
-     ![Ustawienia wdrażania.](./media/1DeploymentSettings.png)
+![Ustawienia wdrażania](./media/1DeploymentSettings.png)
 
-    > [!IMPORTANT]
-    > Wybierz opcję **Zgoda**, aby wyrazić zgodę na potwierdzenie warunków świadczenia usługi, a następnie wybierz opcję **Gotowy**, aby powrócić do ustawień wdrażania.
-    >
-    >![Zgoda na wdrożenia.](./media/2DeploymentConsent.png)
+> [!IMPORTANT]
+> Wybierz opcję **Zgoda**, aby wyrazić zgodę na potwierdzenie warunków świadczenia usługi, a następnie wybierz opcję **Gotowy**, aby powrócić do ustawień wdrażania.
+
+![Zgoda na wdrożenia](./media/2DeploymentConsent.png)
 
 7. Opcjonalnie — zastosuj dane demonstracyjne do środowiska. Przejdź do **Ustawienia zaawansowane**, wybierz pozycję **Dostosuj konfigurację bazy danych SQL** i ustaw opcję **Określ zestaw danych dla bazy danych aplikacji** na **Demo**.
+
 8. Wykonaj pozostałe wymagane pola kreatora i potwierdź wdrożenie. Czas udostępnienia środowiska różni się w zależności od typu środowiska. Inicjowanie obsługi może potrwać do sześciu godzin.
 
-   Po pomyślnym zakończeniu wdrożenia środowisko będzie widoczne jako **Wdrożone**.
+  Po pomyślnym zakończeniu wdrożenia środowisko będzie widoczne jako **Wdrożone**.
 
 9. Aby potwierdzić pomyślne wdrożenie środowiska, wybierz pozycję **Zaloguj się** i zaloguj się do środowiska, aby potwierdzić.
 
-    ![Szczegóły środowiska.](./media/3EnvironmentDetails.png)
+![Szczegóły środowiska ](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Stosowanie aktualizacji środowiska Finance
 
@@ -75,35 +79,35 @@ W celu uzyskania tej wersji może być konieczne zastosowanie aktualizacji dotyc
 
 1. W programie LCS na stronie **Szczegóły środowiska** w sekcji **Dostępne aktualizacje** wybierz pozycję **Wyświetl aktualizacje**.
 
-    ![Wyświetl aktualizacje.](./media/5ViewUpdates.png)
+![Wyświetl aktualizacje](./media/5ViewUpdates.png)
 
 2. Na stronie **Aktualizacje binarne** wybierz pozycję **Zapisz pakiet.**
 
-    ![Zapisz pakiet.](./media/6SavePackage.png)
+![Zapisz pakiet](./media/6SavePackage.png)
 
 3. Wybierz pozycje **Wybierz wszystko**, a następnie wybierz **Zapisz pakiet**.
 
-    ![Przeglądanie i zapisywanie aktualizacji.](./media/7ReviewAndSaveUpdates.png)
+![Przeglądanie i zapisywanie aktualizacji](./media/7ReviewAndSaveUpdates.png)
 
 4. Wprowadź nazwę i opis pakietu, a następnie wybierz pozycję **Zapisz**. W zależności od jakości połączenia internetowego, proces ten może potrwać dłużej.
 
-    ![Prześlij pakiet do biblioteki zasobów.](./media/8UploadPackageToAssetsLibrary.png)
+![Prześlij pakiet do biblioteki zasobów](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Po zapisaniu pakietu wybierz opcję **Zrobione** i zapisz ten pakiet w bibliotece zasobów w projekcie programu LCS.
 
-   Zapisanie i sprawdzanie poprawności pakietu może zająć około 15 minut.
+Zapisanie i sprawdzanie poprawności pakietu może zająć około 15 minut.
 
 6. Aby zastosować aktualizację, przejdź na stronę **Szczegółów środowiska** w programie LCS i wybierz pozycję **Obsługa** > **Zastosuj aktualizacje**.
 
-    ![Obsługa środowisk.](./media/9MaintainEnvironment.png)
+![Obsługa środowisk](./media/9MaintainEnvironment.png)
 
 7. Na liście aktualizacji zaznacz utworzony pakiet i wybierz przycisk **Zastosuj**.
 
-    ![Stosowanie aktualizacji.](./media/10ApplyUpdates.png)
+![Stosowanie aktualizacji](./media/10ApplyUpdates.png)
 
-   Obsługa środowiska zajmie trochę czasu. Po zakończeniu środowisko powróci do stanu wdrożonego.
+Obsługa środowiska zajmie trochę czasu. Po zakończeniu środowisko powróci do stanu wdrożonego.
 
-    ![Wdrożone środowisko.](./media/11EnvironmentDeployed.png)
+![Wdrożone środowisko](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Ustanawianie połączenia podwójnego zapisu 
 
@@ -111,55 +115,53 @@ W celu uzyskania tej wersji może być konieczne zastosowanie aktualizacji dotyc
 2. W obszarze **Informacje o środowisku Common Data Service** wybierz pozycję **Połącz z CDS dla aplikacji**.
 3. Po zakończeniu tworzenia łącza wybierz ponownie opcję **Połącz z CDS dla aplikacji**. Nastąpi przekierowanie do podwójnego zapisu w Finance.
 
-    ![Link do systemu CDS.](./media/12LinktoCDS.png)
+![Link do systemu CDS](./media/12LinktoCDS.png)
 
 4. Wybierz opcję **Zastosuj rozwiązanie**, aby uzyskać dostęp do encji, które zostaną zamapowane na integrację.
 
-    ![Zastosuj rozwiązania.](./media/13ApplySolutions.png)
+![Zastosuj rozwiązania](./media/13ApplySolutions.png)
 
 5. Wybierz obydwa rozwiązania, **Dynamics 365 Finance and Operations — mapa encji podwójnego zapisu** i **Dynamics 365 Project Operations — mapa encji podwójnego zapisu**, a następnie wybierz przycisk **Zastosuj**.
 
-    ![Potwierdzanie rozwiązań.](./media/14ConfirmSolutions.png)
+![Potwierdzanie rozwiązań](./media/14ConfirmSolutions.png)
 
-    Po zastosowaniu rozwiązań do środowiska jest stosowana encja podwójnego zapisu.
+Po zastosowaniu rozwiązań do środowiska jest stosowana encja podwójnego zapisu.
 
-    ![Stosowanie rozwiązań.](./media/15ApplyingSolutions.png)
+![Stosowanie rozwiązań](./media/15ApplyingSolutions.png)
 
-    Po zastosowaniu encji wszystkie dostępne mapowania będą wyświetlane w środowisku.
+Po zastosowaniu encji wszystkie dostępne mapowania będą wyświetlane w środowisku.
 
-    ![Mapy podwójnego zapisu.](./media/15DWMappings.png)
+![Mapy podwójnego zapisu](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Odśwież encje danych po aktualizacji
 
 1. W Finance przejdź do obszaru roboczego **Zarządzanie danymi**.
 
-    ![Obszar roboczy Zarządzanie danymi.](./media/16DataManagement.png)
+![Obszar roboczy Zarządzanie danymi](./media/16DataManagement.png)
 
 2. Wybierz kafelek **Parametry struktury**.
 
-    ![Parametry struktury.](./media/17FrameworkParameters.png)
+![Parametry struktury](./media/17FrameworkParameters.png)
 
 3. Na stronie **Ustawienia encji** wybierz pozycję **Odśwież listę encji**.
 
-    ![Odśwież listę encji.](./media/18RefreshEntityList.png)
+![Odśwież listę encji](./media/18RefreshEntityList.png)
 
 Odświeżenie zajmie około 20 minut. Po jego zakończeniu otrzymasz alert.
 
-  ![Potwierdzenie odświeżenia.](./media/19RefreshConfirmation.png)
+![Potwierdzenie odświeżenia](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Aktualizowanie ustawień zabezpieczeń w programie Project Operations w Dataverse
 
 1. Przejdź do Project Operations w swoim środowisku Dataverse. 
 2. Przejdź do **Ustawienia** > **Zabezpieczenia** > **Role zabezpieczeń**. 
 3. Na stronie **Role zabezpieczeń** z listy ról wybierz **użytkownik aplikacji z podwójnym zapisem** i wybierz kartę **Encje niestandardowe**.  
-4. Sprawdź, czy rola ma uprawnienia **Odczyt** i **Dołącz do** dla następujących encji:
+4. Sprawdź, czy rola ma uprawnienia **Odczyt** i **Dołączanie do** dla:
       
       - **Typ kursu wymiany waluty**
       - **Plan kont**
       - **Kalendarz obrachunkowy**
       - **Księga**
-      - **Firma**
-      - **Wydatek**
 
 5. Po zaktualizowaniu rola zabezpieczeń przejdź do **Ustawienia** > **Zabezpieczenia** > **Teams** i wybierz domyślny zespół w widoku zespołu **Lokalnego właściciela firmy**.
 6. Wybierz pozycję **Zarządzaj rolami** i sprawdź, czy uprawnienie zabezpieczeń **użytkownika aplikacji z podwójnym zapisem** jest stosowane do tego zespołu.
@@ -168,10 +170,37 @@ Odświeżenie zajmie około 20 minut. Po jego zakończeniu otrzymasz alert.
 
 1. W projekcie LCS przejdź na stronę **Szczegóły środowiska**.
 2. W obszarze **Informacje o środowisku Common Data Service** wybierz pozycję **Połącz z CDS dla aplikacji.** Po wybraniu łącza nastąpi przekierowanie do listy encji w mapowaniach.
-3. Uruchom mapy. Aby uzyskać więcej informacji, zobacz temat [Wersje mapowania podwójnego zapisu w aplikacji Project Operations](resource-dual-write-maps.md#project-operations-dual-write-maps)
-4. Sprawdź poprawność wszystkich mapowań powiązanych z projektem.
+3. Uruchom mapowanie w sposób opisany w poniższej tabeli. Upewnij się, że kolejność jest zgodna z tą na liście.
 
-    ![Wszystkie mapowania uruchomione.](./media/22AllMapsRunning.png)
+| **Mapowanie encji** | **Odśwież encje** | **Synchronizacja początkowa** | **Wzorzec dla synchronizacji początkowej** | **Uruchom wymagania wstępne** | **Synchronizacja początkowa wymagań** |
+| --- | --- | --- | --- | --- | --- |
+| **Role zasobów projektu dla wszystkich firm (bookableresourcecategories)** | No | Tak | Common Data Service | No | nie dotyczy |
+| **Firmy (cdm\_companies)** | No | Tak | Aplikacje rozwiązania Finance and Operations | No | nie dotyczy |
+| **Księga (msdyn_ledgers)** | No | Tak | Aplikacje rozwiązania Finance and Operations | Tak | Tak, aplikacje Finance and Operations |
+| **Wartości rzeczywiste integracji Project Operations (msdyn\_actuals)** | No | No | nie dotyczy | Tak | No |
+| **Pozycje kontraktu w projekcie (salesorderdetails)** | No | No | nie dotyczy | No | No |
+| **Encja integrująca dla transakcji projektu relacje (msdyn\_transactionconnections)** | No | No | nie dotyczy | No | nie dotyczy |
+| **Punkty kontrolne pozycji kontraktu w integracji Project Operations (msdyn\_contractlinesscheduleofvalues)** | No | No | nie dotyczy | No | nie dotyczy |
+| **Encja integracji Project Operations na potrzeby oszacowania kosztów (msdyn\_estimateslines)** | No | No | nie dotyczy | No | nie dotyczy |
+| **Encja integracji kategorii wydatków projektowych Project Operations (msdyn\_expensecategories)** | No | No | nie dotyczy | No | nie dotyczy |
+| **Encja integracji wydatków projektowych Project Operations (msdyn\_expenses)** | Tak | No | nie dotyczy | No | nie dotyczy |
+| **Encja integracji Project Operations na potrzeby oszacowania godzinowego (msdyn\_resourceassignments)** | Tak | No | nie dotyczy | No | nie dotyczy |
+
+
+4. Aby odświeżyć encję, wybierz nazwę mapowania, a następnie wybierz opcję **Odśwież encje**. 
+
+
+![Odśwież mapowanie](./media/20RefreshMapping.png)
+
+5. Po odświeżeniu uruchom mapowanie. Przed włączeniem następnego mapowania należy sprawdzić, czy mapowanie w tabeli jest w stanie **Działającym**. Uruchamianie mapowania z większą liczbą wstępnie wymaganych programów może zająć dużo czasu.
+
+Aby uruchomić mapowanie z wymaganiami wstępnymi, włącz przełącznik **Pokaż mapowania encji pokrewnych**. Jeśli tabela wskazuje , że **Wymagana wstępna synchronizacja** ma stan **Nie** sprawdź, czy flaga **Wstępna synchronizacja** jest **wyłączona** we wszystkich mapowaniach wymagań wstępnych, zanim zostanie ono uruchomione.
+
+![Uruchom mapowanie](./media/21RunMap.png)
+
+6. Sprawdź poprawność wszystkich mapowań powiązanych z projektem.
+
+![Wszystkie mapowania uruchomione](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Stosowanie danych konfiguracyjnych w usłudze CDS do aplikacji Project Operations (opcjonalne)
@@ -180,6 +209,3 @@ Jeśli dane demonstracyjne zostały zastosowane do środowiska Finance, zobacz [
 
 
 Środowisko Project Operations jest teraz obsługiwane i konfigurowane. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

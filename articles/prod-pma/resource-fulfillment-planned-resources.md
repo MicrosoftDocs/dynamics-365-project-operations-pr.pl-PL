@@ -2,9 +2,11 @@
 title: Realizacja zasobów dla planowanych zasobów
 description: W tym temacie zamieszczono informacje dotyczące planowania zasobów w ramach projektu.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaeae9b0a4563805af61d20d6cc6709f7d697f582d4b1af2b883b292ac482af5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2d849e7bdd020b0a2f5f35a627e28434ea77e5fb
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989519"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082183"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>Realizacja zasobów dla planowanych zasobów
 
@@ -38,6 +40,3 @@ Kierownik projektu może zaplanować wymagane role zasobów dla projektu. Kierow
 7. Wybierz pracownika, a następnie opcję **Przypisz**.
 8. Sprawdź, czy wiersz dotyczący **Dewelopera oprogramowania 1** został usunięty z projektu **XYZ aktualizacja projektu faza 2**.
 9. Na karcie **Zespół projektowy i planowanie**, w odniesieniu do projektu **XYZ aktualizacja faza 2**, należy sprawdzić, czy pracownik wybrany w poprzednim kroku został dodany jako **Deweloper oprogramowania**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

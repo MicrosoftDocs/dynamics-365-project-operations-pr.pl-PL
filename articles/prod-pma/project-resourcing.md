@@ -2,26 +2,28 @@
 title: Strona główna pozyskiwania zasobów do projektów
 description: Ten temat zawiera informacje o pozyskiwaniu zasobów do projektów.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007339"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081998"
 ---
 # <a name="project-resourcing-home-page"></a>Strona główna pozyskiwania zasobów do projektów
 
@@ -38,7 +40,7 @@ Jednym ze sposobów na menedżerowie projektów i menedżerowie zasobów na etap
 - Oszacuj liczbę zasobów wymaganych przez pełny cykl życia projektu.
 - Wersja robocza struktury podziału pracy (SPP) została wykorzystana przez początkowe przydziały zasobów.
 
-[![Cykl życia projektu.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Cykl życia projektu](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 W miarę postępu planowania projektów planowane zasoby mogą zostać zamienione na zasoby personelu. Menedżer projektu może również wycofać i zaktualizować zastrzeżenia, które można pozyskać na etapie projektu.
 
@@ -47,12 +49,9 @@ Poniższe tematy zawierają informacje o zadaniach, które należy wykonać podc
 - [Skonfiguruj zasoby projektu](set-up-project-resources.md)
 - [Zarządzaj kwalifikacjami zasobów](manage-resource-competencies.md)
 - [Tworzenie nowego projektu](create-new-project.md)
-- [Konfigurowanie cen opartych na rolach](set-up-role-based-pricing.md)
+- [Skonfiguruj ceny oparte na rolach](set-up-role-based-pricing.md)
 - [Tworzenie zespołu projektu](create-project-team.md)
 - [Synchronizowanie dyspozycyjności zasobów](synchronize-resource-capacity.md)
 - [Wydajność planowania zasobów projektu](project-scheduling-performance.md)
 - [Konfigurowanie ról w szablonach struktury podziału pracy](set-up-roles-wbs-template.md)
 - [Realizacja zasobów dla planowanych zasobów](resource-fulfillment-planned-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

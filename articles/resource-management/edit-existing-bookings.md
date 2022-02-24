@@ -2,16 +2,18 @@
 title: Edytuj rezerwacje
 description: Ten temat zawiera informacje na temat aktualizowania i zmieniania rezerwacji.
 author: ruhercul
+manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008329"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841381"
 ---
 # <a name="edit-bookings"></a>Edytuj rezerwacje
 
@@ -31,6 +33,3 @@ W siatce **Członek zespołu** kierownik projektu może podświetlić określony
 ## <a name="schedule-board"></a>Tablica harmonogramu
 
 Na **Tablicy harmonogramów** menedżer zasobów ma widok portfela wszystkich rezerwacji w organizacji. Z tego widoku menedżer zasobów może rozszerzać, skracać lub przenosić istniejące rezerwacje, podobnie jak w przypadku funkcji **Utrzymaj rezerwacje**. Menedżer zasobów może także zastąpić istniejące zasoby przydzielone do określonej rezerwacji, klikając prawym przyciskiem myszy rezerwację i wybierając opcję **Podstaw zasób**. Menedżerowie zasobów mogą również edytować kontury istniejących rezerwacji, klikając prawym przyciskiem myszy rezerwację i wybierając **Edytuj**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

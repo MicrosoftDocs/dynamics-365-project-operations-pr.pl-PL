@@ -2,10 +2,12 @@
 title: Dodawanie nowych niestandardowych formularzy encji (Project Service Automation wer. 2.x)
 description: W tym temacie przedstawiono informacje na temat dodawania niestandardowych formularzy encji szans sprzedaży, ofert, zamówień lub faktur w programie Dynamics 365 Project Service Automation w wersji 2.x.
 author: makk
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
+ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995234"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144606"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Dodawanie nowych niestandardowych formularzy encji (Project Service Automation wer. 2.x)
 
@@ -57,7 +59,7 @@ Wykonaj te kroki, aby utworzyć niestandardową wersję formularza **Informacje 
     - Wyeksportuj formularz **Moje informacje o projekcie** jako część niezarządzanego rozwiązania, a następnie poszukaj wartości **formId** w pliku customization.xml wyeksportowanego rozwiązania.
     - Otwórz formularz **Moje informacje o projekcie** w edytorze formularzy, a następnie wyszukaj unikatowy identyfikator globalny (GUID) obok parametru **fromId** w adresie URL, jak przedstawiono na poniższym rysunku.
 
-    ![Wartość formId nowego formularza w adresie URL.](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Wartość formId nowego formularza w adresie URL](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Utwórz mapowanie pola **msdyn\_ordertype** dla wartości **formId**, odpowiednio modyfikując zasób internetowy msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Usuń kod z zasobu i zastąp go następującym kodem.
 
@@ -94,6 +96,3 @@ Wykonaj te kroki, aby utworzyć niestandardową wersję formularza **Informacje 
     ```
 
 6. Zapisz i opublikuj dostosowania.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

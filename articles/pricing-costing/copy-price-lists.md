@@ -2,22 +2,24 @@
 title: Kopiowanie cenników
 description: Ten temat zawiera informacje na temat kopiowania cenników produktów w Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003739"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181510"
 ---
 # <a name="copy-price-lists"></a>Kopiowanie cenników
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-W rozwiązaniu Dynamics 365 Project Operations można tworzyć kopie cenników. Na przykład można utworzyć cenniki dla nadchodzącego roku, korzystając z cennika z bieżącego roku.  Istnieje również możliwość skopiowania cennika stawek rozliczania i cen sprzedaży z cenników dla kosztu. 
+Użytkownik może tworzyć kopie cenników w Dynamics 365 Project Operations. Na przykład można utworzyć cenniki dla nadchodzącego roku, korzystając z cennika z bieżącego roku.  Istnieje również możliwość skopiowania cennika stawek rozliczania i cen sprzedaży z cenników dla kosztu. 
 
 Aby utworzyć kopię cennika, należy wykonać następujące kroki.
 
@@ -41,6 +43,3 @@ Aby utworzyć kopię cennika, należy wykonać następujące kroki.
 1. Na kartach **Cennik**, **Kategoria** i **Pozycja cennika** można wybrać opcję **Uaktualnij ceny**, aby zastosować adiustację dla wszystkich cen w podsiatce. 
 2. W otwartym oknie dialogowym, wprowadź narzut. Istnieje również możliwość wprowadzenia ujemnego narzutu procentowego w celu obniżenia cen o daną wartość procentową. 
 3. Na stronie dialogu wybierz przycisk **OK**, a następnie sprawdź, czy ceny w podsiatce odzwierciedlają wprowadzone zmiany.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

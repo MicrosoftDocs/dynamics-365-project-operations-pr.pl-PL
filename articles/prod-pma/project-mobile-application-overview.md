@@ -2,26 +2,28 @@
 title: Omówienie aplikacji mobilnych projektu
 description: Ten temat zawiera ogólne informacje o aplikacjach związanych z czasem projektu dla Microsoft Dynamics 365 Project Timesheet, Wpis czasu projektu i Moje karty czasu pracy/Grafiki, które są dostępne na urządzeniu przenośnym.
 author: Yowelle
+manager: AnnBe
 ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 742bfc7bbf90feea638d5b5759f5aa7541d14c87ed96c3ad6f074684696e0c73
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 69f44aa73b33bf55df324a71b67e0a743208b4e4
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005674"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082001"
 ---
 # <a name="project-mobile-applications-overview"></a>Omówienie aplikacji mobilnych projektu
 
@@ -47,6 +49,3 @@ Moje karty czasu pracy (Optymalizacja dla urządzeń mobilnych) i kart czasu pra
 - [Wpis czasu projektu]( project-time-entry-mobile-workspace.md)
 - [Karty czasu pracy projektu na urządzeniu mobilnym](Mobile-timesheets.md)
 - [Zaimplementuj pola niestandardowe dla aplikacji mobilnej Microsoft Dynamics 365 Project Timesheet w systemie iOS i Android](custom-fields-mobile.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

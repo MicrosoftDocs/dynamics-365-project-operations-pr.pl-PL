@@ -2,16 +2,18 @@
 title: Tryby planowania
 description: Ten temat zawiera informacje o trybach planowania.
 author: ruhercul
-ms.date: 05/28/2021
+manager: AnnBe
+ms.date: 05/04/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 41e56d01c3cfa62558b10e178085a4408a0aadb023f3f7347a61d121f542bb08
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987764"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981448"
 ---
 # <a name="scheduling-modes"></a>Tryby planowania
 
@@ -23,12 +25,12 @@ Dynamics 365 Project Operations umożliwia organizacjom definiowanie sposobu zar
 W Project Operations dostępne są trzy tryby planowania:
 
   - Stały czas trwania (jest to tryb domyślny)
-  - Stały nakład pracy (*Praca*)
+  - Stała praca
   - Stałe jednostki
 
 Wartości, na które mają wpływ definicje określonego trybu planowania, są określane za pomocą następującej formuły:
 
-  Nakład pracy = Czas trwania x jednostki
+  Nakład pracy (*Praca*) = Czas trwania x jednostki
 
 Podczas definiowania trybu planowania projektu jest ustawiana jedna z tych wartości, której nie można już zmienić. Utrzymywanie tej wartości jako stałej nadaje jej priorytet, co powiadamia system, aby nie zmieniał jej, gdy zmienią się dwie pozostałe wartości. W poniższej tabeli przedstawiono informacje o wpływie wyboru konkretnego trybu.
 

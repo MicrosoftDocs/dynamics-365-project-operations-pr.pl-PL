@@ -1,6 +1,8 @@
 ---
 title: Nowości i zmiany w programie Project Service Automation w wersji 3
 description: Niniejszy temat zawiera informacje dotyczące nowości i zmian w programie Project Service Automation w wersji 3.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987089"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150681"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Nowości i zmiany w programie Project Service Automation w wersji 3
 
@@ -36,7 +38,7 @@ W tym temat zamieszczono informacje dotyczące zmian w interfejsie użytkownika 
 ## <a name="project-scheduling"></a>Harmonogram projektu
 Zmieniono nazwę harmonogramu projektu, który w poprzednich wersjach programu był znany jako Struktura podziału pracy (SPP), na Harmonogram i teraz jest on dostępny po kliknięciu karty **Harmonogram**. 
 
-![Harmonogram projektu.](media/psa-schedule-01.png)
+![Harmonogram projektu](media/psa-schedule-01.png)
 
 Obecnie harmonogram zawiera nową powierzchnię interakcji, która jest zarówno nowoczesna, jak i łatwo dostępna. Jednak podstawowy silnik planowania usługi Project Service Automation nie uległ zmianie. Przyciski sterujące na wstążce siatki harmonogramu umożliwiają interakcję z harmonogramem podobnie jak w poprzedniej wersji Project Service Automation. Do dodatkowych zmian w harmonogramie zalicza się:
 
@@ -95,22 +97,22 @@ Po przeniesieniu harmonogramu istniejącego projektu do przodu maja miejsce nast
 ## <a name="estimates"></a>Szacunki
 Szacunki zostały podzielone na dwie karty **Przypisania zasobów** i **oszacowania**. Na karcie **Przypisanie zasobu** są wyświetlane szacowane nakłady pracy oraz przydziały zasobów dla zadań w widoku z danymi okresowymi. Można edytować oszacowania w zależności od tego, co wygenerował aparat planowania.
 
-![Karta przypisań zasobów pokazuje szacowane nakłady pracy i przypisania zasobów do zadań.](media/resource-assignments-tab-02.png)
+![Karta przypisań zasobów pokazuje szacowane nakłady pracy i przypisania zasobów do zadań](media/resource-assignments-tab-02.png)
 
 Na karcie **oszacowania** przedstawiono wyceny i kwoty sprzedaży dla przydziałów zasobów. Kwoty są tylko do odczytu. Wycena i cena sprzedaży są obecnie określane na podstawie przypisań członków zespołu w harmonogramie. Oznacza to, że jeśli użytkownik ma zadanie bez przypisania, będzie ono widoczne w nieprzypisanym zasobniku. Oznacza to również, że bez **roli**, która jest domyślnym wymiarem kalkulacji cen, koszt i sprzedaż nie będą szacowane, jeśli użytkownik ma klienta lub kontrakt/ofertę skojarzoną z danym projektem. 
 
-![Karta oszacowania pokazuje koszty i kwoty sprzedaży.](media/estimates-tab-03.png)
+![Karta oszacowania pokazuje koszty i kwoty sprzedaży](media/estimates-tab-03.png)
   
 Kategoria jest również obsługiwana w zadaniach w widoku harmonogramu. Grupowanie według kategorii w widoku okresowym oszacowań będzie zapewniało lepsze doświadczenie, szczególnie wtedy, gdy w projekcie są również szacowane koszty. Oszacowania kosztów są wprowadzane przy użyciu siatki na osobnej karcie. 
 
 Oszacowania wydatków są wprowadzane w siatce na karcie **oszacowań kosztów**. 
 
-![Karta oszacowania wydatków z siatką oszacowań wydatków.](media/expense-estimates-tab-04.png)
+![Karta oszacowania wydatków z siatką oszacowań wydatków](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Zarządzanie zasobami
 W programie Project Service Automation w wersji 3, z nowym ujednoliconym interfejsem klienta i zmianami w relacjach między rezerwacjami a przypisaniami, w porównaniu z wersjami 1 i 2 znaczącym zmianom uległ proces obsadzania zespołu projektu zasobami ogólnymi lub rzeczywistymi. Natomiast pojęcia dotyczące zasobów, które można zarezerwować, zarówno **rzeczywistych**, jak i **ogólnych**, pozostają takie same, co w przypadku członków zespołu, wymagań, przypisań i rezerwacji.   
 
-![Korzystanie z selektora zasobów.](media/resource-management-05.png)
+![Korzystanie z selektora zasobów](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Przypisywanie rzeczywistego zasobu, który można zarezerwować 
 W programie Project Service Automation w wersji 3 rezerwacje i przydziały zadań nie są tak ściśle powiązane jak w poprzednich wersjach programu Project Service Automation. Można użyć siatki zespołu do rezerwowania **rzeczywistego** członka zespołu, podobnie jak w przypadku środowiska na rynku.
@@ -151,21 +153,21 @@ W tej sekcji zamieszczono informacje dotyczące zmian czasu, wydatków i zatwier
 ### <a name="landing-page"></a>Strona docelowa
 Nierozszerzalny niestandardowy wpis czasu został wycofany w wersji 3. Zamiast tego wprowadzono rozszerzalne i dostępne funkcje siatki natywnej. Aby uzyskać dostęp do funkcji wpisu czasu, należy skorzystać z mapy witryny znajdującej się po lewej stronie. Wprowadzenie tej zmiany spowoduje, że użytkownik nie będzie mógł wprowadzić jednorazowo czasu dla jednego tygodnia. Zamiast tego konieczne będzie utworzenie wpisu czasu dla każdego dnia w siatce. Po utworzeniu kilku wpisów czasu użytkownicy mogą tworzyć zbiorczo wpisy czasu, korzystając z funkcji **Kopiuj** objaśnionej szerzej w dalszej części tego tematu. 
 
-![Strona docelowa wpisu czasu.](media/time-entry-landing-page-07.png)
+![Strona docelowa wpisu czasu](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Tworzenie nowych wpisów czasu 
 Kliknij **Nowy** na wstążce, aby otworzyć stronę szybkiego tworzenia w celu wpisania czasu, gdzie można wpisywać okres trwania w minutach, godzinach lub dniach. W tym celu należy tylko rozpocząć wpisywanie h, m lub d wraz z ilością.  
 
-![Szybkie tworzenie wpisu czasu.](media/quick-create-time-entry-08.png)
+![Szybkie tworzenie wpisu czasu](media/quick-create-time-entry-08.png)
 
 Pola wyszukiwania są obsługiwane w widokach systemowych. Na przykład po wprowadzeniu informacji o projekcie pole **zadanie projektu** będzie domyślnie ustawione na wartość **Moje otwarte zadania projektu**. Aby utworzyć wpisy czasu dla zadań, które nie są przypisane do użytkownika, kliknij **Zmień widok** w obszarze wyszukiwania i wybierz pozycję **wszystkie aktywne zadania projektu**. Po utworzeniu i wyświetleniu danego wpisu czasu w siatce można edytować wartości wierszy bezpośrednio w siatce.  
 
 ### <a name="bulk-createcopy"></a>Zbiorcze tworzenie/kopiowanie 
 Po utworzeniu kilku wpisów czasu można je kopiować i w ten sposób tworzyć dodatkowe wpisy czasu zbiorczo. Kliknij **Kopiuj**, aby otworzyć okno dialogowe **Kopiuj**. W polu **od okresu: Data rozpoczęcia** ustaw zakres dat, z którego okresy muszą zostać skopiowane. W polu **Do okresu: Data rozpoczęcia** określ datę utworzenia wpisów godzin. Kliknij przycisk **Kopiuj**, aby skopiować wpisy godzin do odpowiedniego dnia tygodnia wskazanego w polu **Do okresu**. Na przykład wpis czasu poniedziałek z ubiegłego tygodnia zostanie skopiowany na poniedziałek w tygodniu wskazanym w polu **do okresu**. 
 
-![Zbiorcze kopiowanie wpisów czasu.](media/bulk-copy-time-entry-09.png)
+![Zbiorcze kopiowanie wpisów czasu](media/bulk-copy-time-entry-09.png)
  
-### <a name="import-data"></a>Importuj dane 
+### <a name="import-data"></a>Importowanie danych 
 Przypisania i wymiana działają zgodnie ze wzorcem interfejsu użytkownika, co umożliwia użytkownikowi określenie zakresu dat, z którego należy zaimportować rezerwacje. Następnie należy wyraźnie wybrać rezerwacje, które mają zostać skopiowane do **wersji roboczych** wpisów czasu. W wersji 3 nie jest już widoczna struktura **sugerowanych** wpisów czasu w siatce i w kalendarzu.  
 
 ### <a name="change-in-calendar-control"></a>Zmiany w kalendarzu
@@ -179,7 +181,7 @@ W wersji 3 zrezygnowaliśmy z niestandardowej obsługi kalendarza i używamy ter
 
 **Przechwytuj dane w polach niestandardowych z wpisu dotyczącego czasu i wydatku i propaguj je za pośrednictwem encji obsługujących przepływ przesyłania i zatwierdzania** — typowy sposób przetwarzania wpisów czasu jest podany na poniższym diagramie.
 
-![Przetwarzanie przepływu wpisu czasu.](media/process-time-entries-10.png)
+![Przetwarzanie przepływu wpisu czasu](media/process-time-entries-10.png)
 
 Jeśli wymagania biznesowe przewidują, że obiekty typu czas i wydatki muszą przechwytywać niestandardowe wymiary kalkulacji cen i propagować wartości ustawione przez zasób typu czas i wejście w niestandardowym wymiarze kalkulacji cen za pośrednictwem wszystkich encji z poprzedniej grafiki, zobacz [Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen](set-up-pricing-dimensions.md)
 
@@ -236,7 +238,7 @@ W wersjach 1 i 2, konfiguracja odpłatności dla ról i kategorii w określonych
 
 Od wersji 3 konfiguracja opcji odpłatności według roli i kategorii kosztów będzie możliwa na poziomie oferty lub pozycji kontraktu. Ustawienia kalkulacji cen są zależne od konfiguracji odpłatności. Użytkownik będzie miał do dyspozycji **płatne role** i **płatne kategorie** jako karty **w wierszu oferty** i **w pozycji kontraktu** bez konieczności korzystania z nawigacji u góry.
 
-![Odpłatne role.](media/chargeable-12.png)
+![Odpłatne role](media/chargeable-12.png)
  
 Konfigurowanie ról odpłatnych i kategorii odpłatnych powoduje również korzystanie z edytowalnej siatki. Dla każdej roli i kategorii obsługiwane opcje dotyczące typu rozliczenia podczas faz oferty i umowy pozostają niezmienione: **Odpłatne** i **Nieodpłatne**. **Uzupełnienie** nie jest obsługiwanym typem w fazach przedstawiania oferty lub kontraktu. **Uzupełnienie** jest obsługiwane tylko podczas zatwierdzania czasu lub wydatku.  
  
@@ -247,14 +249,11 @@ W wersji 3 tworzenie i używanie niestandardowego cennika oferty Project Service
   
 Poniższy rysunek przedstawia sytuację przed utworzeniem cenników niestandardowych.
 
-![Przed cennikami niestandardowymi.](media/before-custom-price-lists-13.png)
+![Przed cennikami niestandardowymi](media/before-custom-price-lists-13.png)
 
 Poniższy rysunek przedstawia sytuację po utworzeniu cenników niestandardowych.
 
-![Po cennikach niestandardowych.](media/after-custom-price-lists-14.png)
+![Po cennikach niestandardowych](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Podczas tworzenia cennika może następować krótka zwłoka między kliknięciem przycisku **Utwórz niestandardowy cennik** a utworzeniem niestandardowego cennika. Zalecamy odświeżenie siatki zamiast wielokrotnego klikania. Niestandardowy cennik został utworzony, jeśli skojarzona z nim nazwa cennika zawiera nazwę oferty lub nazwę kontraktu projektu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

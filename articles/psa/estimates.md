@@ -2,6 +2,8 @@
 title: Szacunki
 description: Ten temat zawiera informacje o szacunkach w programie Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992399"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151446"
 ---
 # <a name="estimates"></a>Szacunki
 
@@ -83,27 +85,24 @@ Jeśli w szczegółach wiersza oferty dodano pole niestandardowe, a chcesz, aby 
 1. Otwórz narzędzie PluginRegistrationTool i nawiąż połączenie z wystąpieniem online.
 2. Wybierz opcję **Wyszukaj** i poszukaj dodatku plug-in, który ma zostać zaktualizowany.
 
-    ![Okno dialogowe Drzewo wyszukiwania.](media/basic-guide-19.png)
+    ![Okno dialogowe Drzewo wyszukiwania](media/basic-guide-19.png)
 
 3. Zaznacz dodatek plug-in, a następnie na stronie głównej kliknij opcję **Wybierz**.
 4. Zaznacz krok dodatku plug-in, który chcesz zaktualizować, kliknij prawym przyciskiem myszy, a następnie wybierz opcję **Aktualizuj**.
 
-    ![Wybieranie kroku w dodatku plug-in.](media/basic-guide-20.png)
+    ![Wybieranie kroku w dodatku plug-in](media/basic-guide-20.png)
 
 5. W oknie dialogowym **Aktualizowanie istniejącego kroku** w polu **Atrybuty filtrowania** kliknij przycisk wielokropka (**...**):
  
-    ![Okno dialogowe Aktualizowanie istniejącego kroku.](media/basic-guide-21.png)
+    ![Okno dialogowe Aktualizowanie istniejącego kroku](media/basic-guide-21.png)
 
 6. W oknie dialogowym **Wybieranie atrybutów** zaznacz pola wyboru atrybutów niestandardowych.
 
-    ![Okno dialogowe Wybieranie atrybutów.](media/basic-guide-22.png)
+    ![Okno dialogowe Wybieranie atrybutów](media/basic-guide-22.png)
 
 7. Kliknij przycisk **OK**, aby zamknąć okno dialogowe, a następnie wybierz pozycję **Aktualizuj krok**.
  
-    ![Przycisk Aktualizuj krok.](media/basic-guide-23.png)
+    ![Przycisk Aktualizuj krok](media/basic-guide-23.png)
 
 8. Powtórz kroki od 1 do 7 dla drugiego dodatku plug-in.
 9. Zamknij narzędzie PluginRegistrationTool.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

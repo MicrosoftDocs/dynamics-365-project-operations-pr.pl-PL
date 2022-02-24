@@ -2,16 +2,18 @@
 title: wRealizowanie ogólnych wymagań zasobów
 description: Ta temat zawiera informacje na temat rezerwowania nazwanych zasobów na potrzeby ogólnego wymagania zasobu.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008284"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130321"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>wRealizowanie ogólnych wymagań zasobów
 
@@ -37,6 +39,3 @@ Jest to przykład sytuacji, kiedy do zaspokojenia żądania zasobu ogólnego pot
 Główna różnica w tym scenariuszu polega na tym, że zasób ogólny pozostaje w zespole przypisanym do zadania, a członkowie zespołu będący zarezerwowanymi zasobami nazwanymi nie są przypisywani do zadania w ramach ich standardowych obowiązków. Menedżer projektu może odpowiednio przypisać pracę do nazwanych zasobów. Widok **Uzgadnianie** może pomóc menedżerowi projektu podzielić rezerwacje między wiele zasobów i przypisać im zadanie. Nie jest to wykonywane automatycznie, ponieważ w każdym scenariuszu bardziej skomplikowanym niż ten powyżej, na przykład gdy użytkownik ma pakiet zadań składających się na wymaganie lub system musi uwzględnić sposób, w jaki Menedżer projektu zamierza dokonywać przypisań. Ponieważ system nie jest w stanie zrozumieć zamierzeń, prawdopodobnie założenia mogą być inne niż zamierzone i może wystąpić nieprawidłowy lub nieprzewidywalny rezultat. Przewidywany wynik jest taki, że zasób ogólny pozostanie przypisany do czasu, aż menedżer projektu jednoznacznie utworzyć przypisania za pomocą widoku **Uzgadnianie**.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

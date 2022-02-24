@@ -2,6 +2,8 @@
 title: Proponowanie zasobów projektu
 description: W tym temacie zamieszczono informacje dotyczące proponowania zasobów do projektu.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995054"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147531"
 ---
 # <a name="propose-project-resources"></a>Proponowanie zasobów projektu
 
@@ -32,21 +34,21 @@ Menedżerowie zasobów mogą proponować zasób menedżerowi projektu za pomocą
 1. W siatce żądań lub w oknie samego żądania wybierz pozycję **Znajdź zasoby**.
 2. Na stronie **Asystent planowania** wybierz zasób, a następnie w okienku **Utwórz rezerwację zasobu** w polu **Stan rezerwacji** wybierz opcję **Zarezerwuj**.
 
-    ![Proponowany zasób wybrany.](media/Resource-Management-image62.png)
+    ![Proponowany zasób wybrany](media/Resource-Management-image62.png)
 
 Dojdzie do następujących aktualizacji stanu:
 
 - Na stronie **Asystent planowania** wskaźniki stanu zostaną zaktualizowane i będą wskazywać, że rezerwacja została zaproponowana, a nie dokonana ostatecznie.
 
-    ![Wskaźniki stanu proponowanej rezerwacje na stronie Asystent planowania.](media/Resource-Management-image63.png)
+    ![Wskaźniki stanu proponowanej rezerwacje na stronie Asystent planowania](media/Resource-Management-image63.png)
 
 - W oknie żądania zasobu stan zmieni się na **Wymaga weryfikacji**.
 
-    ![Stan żądania zasobu zmieniony na Wymaga weryfikacji.](media/Resource-Management-image64.png)
+    ![Stan żądania zasobu zmieniony na Wymaga weryfikacji](media/Resource-Management-image64.png)
 
 - W ustawieniach projektu na karcie **Zespół** wartość w polu **Stan żądania** dla ogólnego członka zespołu zmieni się na **Wymaga weryfikacji**.
 
-    ![Stan żądania na karcie Zespół dla ogólnego członka zespołu zmieniony na Wymaga weryfikacji.](media/Resource-Management-image48.png)
+    ![Stan żądania na karcie Zespół dla ogólnego członka zespołu zmieniony na Wymaga weryfikacji](media/Resource-Management-image48.png)
 
 Menedżer projektu może zaakceptować lub odrzucić propozycję.
 
@@ -70,7 +72,7 @@ Poniższe wzory służą do obliczania wykorzystania:
 
 Widok **Wykorzystanie zasobów** jest dostępny z poziomu okienka **Zasoby**.
 
-![Wyświetlanie wykorzystania zasobów.](media/Resource-Management-image65.png)
+![Widok Wykorzystanie zasobów](media/Resource-Management-image65.png)
 
 Każda komórka w siatce reprezentuje procent wykorzystania zasobu podlegający rozliczeniu w okresie, takim jak dzień, tydzień lub miesiąc. Poniższe wzory służą do kolorowania komórek:
 
@@ -84,7 +86,7 @@ Siatka wymaga skonfigurowania docelowego wykorzystania dla roli lub konkretnego 
 
 Ponadto każdemu zasobowi możliwemu do zarezerwowania musi być przypisana rola domyślna. Wybierz kolejno opcje **Zasoby** \> **Zasoby**. Na karcie **Project Service** sprawdź, czy została zdefiniowana rola zasobu, a pole **Jest domyślna** ma ustawioną wartość **Tak**. Można dodać kolejne role, w których **Jest domyślna = Nie**. Rola z atrybutem **Jest domyślna = Tak** jest używana do oceny wykorzystania zasobu w stosunku do wartości docelowej dla tej roli.
 
-![Domyślny zestaw ról.](media/Resource-Management-image67.png)
+![Domyślny zestaw ról](media/Resource-Management-image67.png)
 
 Na karcie **Project Service** można również skonfigurować konkretne docelowe wykorzystanie zasobu. Następnie aparat obliczania wykorzystania na podstawie docelowego wykorzystania ocenia wartość docelową dla zasobu, a nie dla jego domyślnej roli.
 
@@ -96,21 +98,18 @@ Bardzo ważne jest, aby menedżerowie zasobów mogli przeglądać dostępne zaso
 
 Godziny pracy zasobu są używane jako podstawa do obliczenia dostępności zasobu. Rezerwacje zasobów powodują zużywanie dyspozycyjności zasobów.
 
-![Tablica harmonogramu.](media/Resource-Management-image68.png)
+![Tablica harmonogramu](media/Resource-Management-image68.png)
 
 Tablica harmonogramu korzysta z kolorów i cieniowania w celu pokazania rezerwacji, dostępności i nakładania się rezerwacji, a także stanu rezerwacji. Opcja w ustawieniach tablicy harmonogramu umożliwia wyświetlenie legendy.
 
 Jeśli w tablicy harmonogramu obok konkretnego zasobu możliwego do zarezerwowania widać znak strzałki w prawo, można rozwinąć zasób, aby wyświetlić szczegółowe informacje o pracy, dla której zasób został zarezerwowany.
 
-![Zasoby możliwe do zarezerwowania rozwinięte w tablicy harmonogramu.](media/Resource-Management-image69.png)
+![Zasoby możliwe do zarezerwowania rozwinięte w tablicy harmonogramu](media/Resource-Management-image69.png)
 
 Program Dynamics 365 Project Service Automation korzysta z aparatu Universal Resource Scheduling, dlatego jeśli zainstalowano również aplikację Dynamics 365 Field Service, można wyświetlić szczegółowe informacje o rezerwacjach zasobów dla projektów, zleceń pracy i innych encji, na które rozszerzono planowanie.
 
-![Szczegółowe informacje o rezerwacjach zasobów do projektów i zleceń pracy.](media/Resource-Management-image70.png)
+![Szczegółowe informacje o rezerwacjach zasobów do projektów i zleceń pracy](media/Resource-Management-image70.png)
 
 Aby wyświetlić więcej informacji na temat konkretnego zasobu, kliknij go prawym przyciskiem myszy, a zostanie otwarta karta zasobu.
 
-![Karta zasobu.](media/Resource-Management-image71.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Karta zasobu](media/Resource-Management-image71.png)

@@ -2,6 +2,8 @@
 title: Harmonogramy projektów
 description: W tym temacie zamieszczono informacje dotyczące tworzenia harmonogramu.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998429"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148431"
 ---
 # <a name="project-schedules"></a>Harmonogramy projektów 
 
@@ -94,7 +96,7 @@ Siatka **harmonogramu** jest w pełni dostępna i może być używana z czytnika
 
 Nazwa zadania opisuje czynności, które należy wykonać. W usłudze PSA atrybuty skojarzone z zadaniem opisują harmonogram zadania i wymagania dotyczące jego personelu.
 
-> ![Atrybuty zadania.](media/project-2.png)
+> ![Atrybuty zadania](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Zaplanuj atrybuty
 
@@ -147,6 +149,3 @@ Domyślnie, jeśli zadanie węzła liścia nie ma poprzedników, jego data rozpo
 ### <a name="manual-scheduling"></a>Planowanie ręczne
 
 Jeśli reguły automatycznego planowania nie spełniają wymagań użytkownika, można ustawić tryb zadania na **ręczne planowanie.** Powstrzymuje to aparat planowania przed obliczaniem wartości dla innych atrybutów planowania. Bez względu na tryb zadania ustawienie poprzedników zawsze ma wpływ na datę rozpoczęcia zadania zależnego.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

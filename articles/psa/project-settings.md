@@ -2,6 +2,8 @@
 title: Ustawienia projektu
 description: Ten temat zawiera informacje o ustawieniach zarządzania projektami.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996944"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148161"
 ---
 # <a name="project-settings"></a>Ustawienia projektu
 
@@ -47,7 +49,7 @@ Aby utworzyć harmonogram projektu, należy utworzyć szablon kalendarza projekt
   - Harmonogram pracy na jeden dzień
   - Czas wolny
 
-> ![Opcje konfigurowania.](media/project-13.png)
+> ![Opcje konfigurowania](media/project-13.png)
 
 4. Zaznacz opcję **Nowy harmonogram tygodniowy**, a następnie ustaw opcje dla tego harmonogramu zasobów. Można określić cykliczny harmonogram tygodniowy, dzienne parametry godzinowe, dni wolne od pracy itd.
 5. Ustaw zakres dat, kliknij przycisk **Zapisz**, a następnie kliknij przycisk **Zamknij**. 
@@ -66,6 +68,3 @@ Każda organizacja musi skonfigurować te role na stronie **Aktywne kategorie za
 ## <a name="price-lists"></a>Cenniki
 
 Cenniki umożliwiają określanie kosztów i cen sprzedaży dla ról zasobów, kategorii wydatków, produktów i innych elementów w organizacji. Przed utworzeniem szacunków finansowych dla prac, które muszą zostać wykonane w projekcie, należy utworzyć zapasową listę kosztów i cennik sprzedaży. W sekcji parametrów należy także skonfigurować domyślną listę kosztów i cennik sprzedaży, które mają zastosowanie do wszystkich projektów tworzonych w organizacji. Na stronie **Aktywne parametry projektu** upewnij się, że skonfigurowano domyślną listę kosztów i cennik sprzedaży.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

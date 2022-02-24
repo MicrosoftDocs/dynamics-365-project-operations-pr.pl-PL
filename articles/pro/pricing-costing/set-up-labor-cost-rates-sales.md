@@ -2,16 +2,18 @@
 title: Konfigurowanie stawek kosztów robocizny — wersja uproszczona
 description: W tym temacie zamieszczono informacje dotyczące sposobu konfigurowania stawek wykonanej pracy w Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006124"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180740"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Konfigurowanie stawek kosztów robocizny — wersja uproszczona
 
@@ -36,7 +38,7 @@ Poniższa tabela zawiera pola, które są istotne podczas tworzenia stawek pracy
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Przenieś ceny i koszty zasobów poza dział lub podmiot prawny
 
-Przedsiębiorstwa oparte na projektach często używają pracowników z różnych działów firmy lub różnych podmiotów prawnych w pracy nad projektami. Projekty mogą być wykonywane w ramach określonego podmiotu prawnego, podczas gdy pracownicy lub konsultanci pracujący nad projektem mogą pochodzić z tego samego lub innego podmiotu bądź działu. Może też istnieć połączenie tych możliwości. W rozwiązaniu Dynamics 365 Project Operations podmiot prawny, który jest właścicielem dostawy projektu, jest **Firmą będącą właścicielem**, a dział, który jest właścicielem dostawy, jest **Jednostką kontraktującą**. Każdy inny podmiot prawny, który zawiera zasoby, jest zwany **Firmami zasobów**, a wydziały, które zawierają zasoby, to **Jednostki zasobów**. W większości krajów firma jest zobowiązana zapewnić, że osoba lub oddział prawny, który chce skorzystać z tej osoby, obciążą firmę będącą właścicielem oraz jednostkę zamawiającą do korzystania z zasobów.
+Przedsiębiorstwa oparte na projektach często używają pracowników z różnych działów firmy lub różnych podmiotów prawnych w pracy nad projektami. Projekty mogą być wykonywane w ramach określonego podmiotu prawnego, podczas gdy pracownicy lub konsultanci pracujący nad projektem mogą pochodzić z tego samego lub innego podmiotu bądź działu. Może też istnieć połączenie tych możliwości. W Dynamics 365 Project Operations podmiot prawny, który jest właścicielem usługi dostarczania projektu, jest nazywany **Firmą będącą właścicielem**, natomiast dział, któremu należy dostarczyć usługi to **Jednostka zamawiająca**. Każdy inny podmiot prawny, który zawiera zasoby, jest zwany **Firmami zasobów**, a wydziały, które zawierają zasoby, to **Jednostki zasobów**. W większości krajów firma jest zobowiązana zapewnić, że osoba lub oddział prawny, który chce skorzystać z tej osoby, obciążą firmę będącą właścicielem oraz jednostkę zamawiającą do korzystania z zasobów.
 
 Na przykład firma Fabrikam Corporation musi zagwarantować, że firma Fabrikam India-Robotics wynegocjowała stawkę kosztów z Fabrikam US-Robotics lub Fabrikam UK-Robotics.
 
@@ -80,6 +82,3 @@ W liście cenników dla Fabrikam UK-Robotics, stawki kosztów mogą być wyrażo
 | Developer | Fabrikam UK | 115 GBP |
 
 Lista kosztów własnych może udostępniać stawki pracy w wielu walutach. Podczas generowania oszacowania kosztów projektu są one konwertowane na walutę projektu i wyświetlane dla użytkownika. Po zatwierdzeniu wpisu czasu i utworzeniu kosztu wartości rzeczywistej koszt rzeczywisty jest wyceniany w walucie odpowiadającej tej pozycji z wiersza z ceną z listy cenników. Koszt rzeczywisty czasu w pojedynczym projekcie może być rejestrowany w wielu walutach. Jednak podczas zestawiania lub podsumowywania rzeczywistych kosztów wykonanej pracy na poziomie projektu Project Operations wykonają konwersję wszystkich kosztów pracy na walutę projektu, która może być wyświetlana przez użytkownika.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

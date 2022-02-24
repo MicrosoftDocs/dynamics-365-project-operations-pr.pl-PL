@@ -2,17 +2,19 @@
 title: 'Nowości: styczeń 2021 r. — Project Operations dla scenariuszy dotyczących zasobów/braku zapasów'
 description: Ten temat zawiera informacje o aktualizacjach dotyczących jakości dostępnych w wersji Project Operations ze stycznia 2021 r. w scenariuszach dotyczących zasobów/braku zapasów.
 author: sigitac
+manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24a6f3b49b9c67b7c2d97461ab0f23a9a704dbc7
+ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008104"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "4958939"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nowości: styczeń 2021 r. — Project Operations dla scenariuszy dotyczących zasobów/braku zapasów
 
@@ -86,7 +88,4 @@ Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 P
 
 ## <a name="regulatory-updates"></a>Aktualizacje dotyczące regulacji
 
-Aby uzyskać więcej informacji na temat aktualizacji dotyczących aplikacji Finance and Operations, zobacz artykuł dotyczący [Aktualizacje dotyczące regulacji](/dynamics365/finance/localizations/regulatory-updates). Można również zalogować się w LCS i wyświetlić planowane aktualizacje ustawodawcze, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Aby uzyskać więcej informacji na temat aktualizacji dotyczących aplikacji Finance and Operations, zobacz artykuł dotyczący [Aktualizacje dotyczące regulacji](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Można również zalogować się w LCS i wyświetlić planowane aktualizacje ustawodawcze, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.

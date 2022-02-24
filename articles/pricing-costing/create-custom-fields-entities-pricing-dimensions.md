@@ -2,9 +2,11 @@
 title: Tworzenie pól niestandardowych i encji jako wymiarów kalkulacji cen
 description: W tym temat przedstawiono informacje na temat tworzenia niestandardowych zestawów opcji lub encji.
 author: rumant
+manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003649"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642826"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Tworzenie pól niestandardowych i encji jako wymiarów kalkulacji cen
 
@@ -44,7 +46,7 @@ Aby utworzyć wymiary oparte na encjach, należy wykonać następujące kroki:
 3. Wybierz **Nowy**, aby utworzyć nową encję o nazwie **Standardowe stanowisko**. 
 4. Wprowadź pozostałe wymagane informacje, a następnie wybierz **Zapisz**.
 
-> ![Definicja encji Standardowe stanowisko.](media/Standard-Title-entity-definition.png)
+> ![Definicja encji Standardowe stanowisko](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Wymiary oparte na zestawach opcji 
 Można utworzyć dwa wymiary oparte na zestawach opcji. 
@@ -54,11 +56,11 @@ Można utworzyć dwa wymiary oparte na zestawach opcji.
 
 Poniższa ilustracja zawiera widok wymiaru **Lokalizacja pracy zasobu**. 
 
-> ![Wymiar kalkulacji cen oparty na zestawie opcji zatytułowany Lokalizacja pracy zasobu.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Wymiar kalkulacji cen oparty na zestawie opcji zatytułowany Lokalizacja pracy zasobu](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Poniższa ilustracja zawiera widok wymiaru **Godziny pracy zasobu**. 
 
-> ![Wymiar kalkulacji cen oparty na zestawie opcji zatytułowany Godziny pracy zasobu.](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Wymiar kalkulacji cen oparty na zestawie opcji zatytułowany Godziny pracy zasobu](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Przejdź kolejno do: **Ustawienia** > **Rozwiązania**, a następnie kliknij dwukrotnie opcję **Wymiary kalkulacji cen \<your organization name>**. 
 2. W Eksploratorze rozwiązań w lewym okienku nawigacji kliknij pozycję **Zestawy opcji**. 
@@ -74,7 +76,4 @@ Dane wymiarów opartych na encjach można tworzyć ręcznie, poprzez import z pr
 4. Zamyknij stronę. 
 5. Powtórz kroki 1–3, aby utworzyć kolejne nowe stanowisko „Starszy inżynier systemów”.
 
-> ![Przykładowe dane encji Standardowe stanowisko.](media/ST-data.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Przykładowe dane encji Standardowe stanowisko](media/ST-data.png)

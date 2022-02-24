@@ -2,16 +2,18 @@
 title: Kwalifikacje i certyfikacje
 description: Ten temat zawiera informacje na temat dodawania charakterystyk kwalifikacji i certyfikacji do zasobów.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990194"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128881"
 ---
 # <a name="skills-and-certifications"></a>Kwalifikacje i certyfikacje
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
@@ -41,5 +43,3 @@ Dodanie charakterystyk do wymagań zasobów pozwala na udokumentowanie umiejętn
 3. W podsiatce **Umiejętność** wybierz pozycję **+ Dodaj nową charakterystykę wymagania.**
 4. W okienku szybkiego tworzenia znajdź i wybierz wymagane charakterystyki i dodaj **Wartość oceny**.
 5. Zaznacz **Zapisz i zamknij**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

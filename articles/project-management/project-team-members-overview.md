@@ -2,17 +2,18 @@
 title: Członkowie zespołu projektu
 description: W tym temacie zamieszczono informacje dotyczące pracy z informacjami dotyczącymi członków zespołu projektu, ich atrybutami i planowaniem.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 034b39b93b7c5cb640e7dd8281e0d224d69d8adaf3eedbdff288a96e7fb9920b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994019"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127441"
 ---
 # <a name="project-team-members"></a>Członkowie zespołu projektu
 
@@ -59,6 +60,3 @@ Z poziomu siatki członków zespołu można wykonać następujące czynności:
 
 - **Nowe**: oprócz dodawania zasobów bezpośrednio z poziomu harmonogramu menedżerowie projektów mogą dodawać nowych nazwanych lub ogólnych członków zespołu z siatki członków zespołu.
 - **Usuń**: wybranie jednego lub wielu członków zespołu powoduje, że menedżer projektu może usunąć zasoby, które już nie biorą udziału w projekcie. Usunięcie członka zespołu spowoduje również usunięcie wszystkich skojarzonych przypisań zasobów i anulowanie wszystkich istniejących rezerwacji.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

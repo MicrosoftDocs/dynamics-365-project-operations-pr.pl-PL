@@ -2,9 +2,11 @@
 title: Importowanie i zarządzanie transakcjami kartami kredytowymi
 description: W tym temat przedstawiono sposób importu i utrzymywania transakcji kartą kredytową związanych z wydatkami. Te transakcje można skonfigurować w taki sposób, aby były automatycznie importowane w harmonogramie cyklicznym, lub mogą też w razie potrzeby zostać zaimportowane ręcznie.
 author: KimANelson
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
@@ -16,18 +18,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995864"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271591"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Importowanie i zarządzanie transakcjami kartami kredytowymi
 
 Transakcje związane z kartą kredytową związane z wydatkami można skonfigurować w taki sposób, aby były automatycznie importowane w harmonogramie cyklicznym. Można także importować transakcje ręcznie, zależnie od potrzeb. Transakcje kartą kredytową są importowane za pośrednictwem obiektu danych o nazwie transakcje kartą kredytową.
 
-Aby uzyskać więcej informacji o encjach danych, zobacz [Encje danych](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+Aby uzyskać więcej informacji o encjach danych, zobacz [Encje danych](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>Importowanie transakcji kartą kredytową
 

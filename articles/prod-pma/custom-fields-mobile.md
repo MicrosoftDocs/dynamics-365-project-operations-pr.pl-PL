@@ -2,9 +2,11 @@
 title: Zaimplementuj pola niestandardowe dla aplikacji mobilnej Microsoft Dynamics 365 Project Timesheet w systemie iOS i Android
 description: W tym temat przedstawiono popularne wzorce umożliwiające korzystanie z rozszerzeń w celu implementowania pól niestandardowych.
 author: Yowelle
+manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005764"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271006"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Zaimplementuj pola niestandardowe dla aplikacji mobilnej Microsoft Dynamics 365 Project Timesheet w systemie iOS i Android
 
@@ -153,13 +155,13 @@ W przypadku pól typu **Data** ta właściwość przekazuje wartość daty pola 
 
 Poniżej znajduje się zrzut ekranu z aplikacji mobilnej utworzenia wpisu karty czasu pracy. Pokazuje gotowe pola i pole niestandardowe w sekcji „Wprowadzanie czasu” o nazwie „Ciąg testowy” z już ustawioną wartością wyliczenia „Druga opcja”.
 
-![Pole niestandardowe ciągu testowego w aplikacji.](media/timesheet-entry.jpg)
+![Pole niestandardowe ciągu testowego w aplikacji](media/timesheet-entry.jpg)
 
 
 
 Poniżej znajduje się zrzut ekranu z aplikacji mobilnej użytkownika, który wybiera jedną z opcji wyliczenia dostępnych dla pola niestandardowego „Ciąg testowy”.  Dwie opcje to „Pierwsza opcja” i „Druga opcja” pokazane jako przyciski opcji. Druga opcja jest obecnie zaznaczona.
 
-![Przyciski opcji (przyciski radiowe) dla pola niestandardowego ciągu testowego.](media/enum-option.jpg)
+![Przyciski opcji (przyciski radiowe) dla pola niestandardowego ciągu testowego](media/enum-option.jpg)
 
 
 
@@ -171,7 +173,7 @@ Należy pamiętać, że pola niestandardowe nie muszą zawierać żadnych kopii 
 
 Poniżej znajduje się zrzut ekranu z Visual Studio drzewa obiektów aplikacji. Wskazuje ono rozszerzenie tabeli TSTimesheetLine z polem TestLineString dodany jako pole niestandardowe.
 
-![Ciąg wiersza.](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Ciąg wiersza](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>W celu wyświetlenia pola w sekcji wpisu grafiku Użyj łańcucha poleceń dla metody buildCustomFieldList klasy TSTimesheetSettings
 
@@ -317,11 +319,11 @@ final class TSTimesheetEntryService_Extension
 
 Poniżej znajduje się zrzut ekranu z aplikacji mobilnej użytkownika przeglądającego grafik. W prawym górnym rogu został wybrany przycisk „Więcej informacji”, aby wyświetlić opcję „Wyświetl więcej szczegółów”.  
 
-![Wyświetl więcej szczegółów polecenia.](media/show-more.png)
+![Wyświetl więcej szczegółów polecenia](media/show-more.png)
 
 Poniżej znajduje się zrzut ekranu z aplikacji mobilnej pokazujący sekcję „Więcej” grafiku. Do sekcji nagłówka grafiku dodano pole niestandardowe o nazwie „Stopień wykorzystania tego grafiku (obliczone pole niestandardowe)”. W polu niestandardowym ustawiono wartość tylko do odczytu „0,667”.
 
-![Więcej sekcji.](media/more-section.jpg)
+![Więcej sekcji](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Rozszerzanie tabeli TSTimesheetTable tak, aby zawiera pole niestandardowe
 
@@ -414,7 +416,7 @@ Istniejąca logika funkcji grafiku na poziomie bazy danych będzie nadal działa
 
 Z poziomu parametrów projektu można w aplikacji mobilnej udostępniać pola, które są tylko do odczytu lub ukryte. Ustaw opcje w sekcji **Mobilne grafiki** na karcie **Grafik** na stronie **Zarządzanie projektem i parametry księgowe**.
 
-![Parametry projektu.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Parametry projektu](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Zmiana działania, które są dostępne do wybrania za pomocą rozszerzeń
 

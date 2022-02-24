@@ -2,10 +2,12 @@
 title: Używanie kategorii transakcji jako wymiaru kalkulacji cen
 description: Ten temat zawiera informacje na temat używania kategorii transakcji jako wymiaru kalkulacji cen.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988884"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150771"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Używanie kategorii transakcji jako wymiaru kalkulacji cen
 
@@ -51,6 +53,3 @@ Poniższa tabela zawiera wyczerpującą listę gotowych formularzy i widoków, w
 2. Na stronie **Parametry** na karcie **Wymiary kalkulacji cen oparte na kwocie** zwróć uwagę, że siatka na karcie pokazuje rekordy z encji **Wymiary kalkulacji cen**.
 3. Dodaj pozycję **Kategoria transakcji** do tej listy, a w polach **Ma zastosowanie do kosztu** i **Ma zastosowanie do sprzedaży** ustaw wartość **Tak**.
 4. W polu **Typ wymiaru** zaznacz opcję **Oparty na kwocie**, a następnie dla ustawienia **Kategoria transakcji** wybierz priorytet dotyczący kosztu i sprzedaży.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

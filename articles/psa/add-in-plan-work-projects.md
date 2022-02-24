@@ -2,6 +2,8 @@
 title: Zaplanuj swoją pracę w programie Microsoft Project za pomocą dodatku Project Service
 description: W tym temacie zamieszczono informacje dotyczące sposobu używania dodatku programu Microsoft Project dla programu Microsoft Project Service.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 01/07/2021
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9628fcaf40f33d75f70ae15e37f422e65337d2c51d0d803178f8bcdfe10c7bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 87387ff870a7ef3ed0689f4ae38daad8cf220b46
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993884"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145956"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Zaplanuj swoją pracę w programie Microsoft Project za pomocą dodatku Project Service
 
@@ -240,6 +242,3 @@ W poniższej tabeli przedstawiono sposób synchronizacji danych encji Zależnoś
 
 ### <a name="additional-resources"></a>Dodatkowe zasoby
  [Przewodnik menedżera projektu](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

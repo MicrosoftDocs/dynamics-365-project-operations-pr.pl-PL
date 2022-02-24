@@ -1,10 +1,12 @@
 ---
 title: Synchronizuj dane rzeczywiste projektu bezpośrednio z programu Project Service Automation do dziennika integracji projektu w celu księgowania w Finance and Operations
-description: W tym temacie opisano szablony i podstawowe zadania, które są używane do synchronizowania danych rzeczywistych projektu bezpośrednio z Microsoft Microsoft Dynamics 365 Project Service Automation do Finance and Operations.
+description: Ta temat opisuje szablony i podstawowe zadania używane do synchronizowania wartości rzeczywiste projektu bezpośrednio z Microsoft Dynamics 365 Project Service Automation do Finance and Operations.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988124"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082144"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronizuj dane rzeczywiste projektu bezpośrednio z programu Project Service Automation do dziennika integracji projektu w celu księgowania w Finance and Operations
 
@@ -42,7 +44,7 @@ Rozwiązanie do integracji Project Service Automation to Finance wykorzystuje fu
 
 Na poniższej ilustracji przedstawiono sposób synchronizowania danych między Project Service Automation a Finance.
 
-[![Przepływ danych do integracji Project Service Automation z Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Przepływ danych do integracji Project Service Automation z Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Aktualne dane projektowe z Project Service Automation
 
@@ -93,9 +95,9 @@ Aby zaktualizować wstawioną kolumnę warunkową w szablonie, kliknij strzałk�
 
 Poniższe ilustracje przedstawiają przykład odwzorowania zadań szablonu w integracji danych. Mapowanie przedstawia informacje o polach, które zostaną zsynchronizowane z Project Service Automation do Finance.
 
-[![Mapowanie szablonu — wartości rzeczywiste.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Mapowanie szablonu — wartości rzeczywiste](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Mapowanie szablonu — połączenia transakcji.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Mapowanie szablonu — połączenia transakcji](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Importuj z tabeli przemieszczania po integracji z Project Service Automation
 
@@ -135,9 +137,6 @@ W szablonie aktualizacji danych rzeczywistych projektu należy użyć dodatku Po
 
 Poniższe ilustracje przedstawiają przykłady odwzorowań zadań szablonu w integracji danych. Mapowanie przedstawia informacje o polach, które zostaną zsynchronizowane z rozwiązania Finance do Project Service Automation.
 
-[![Mapowanie szablonu — aktualizacja wartości rzeczywistych.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Mapowanie szablonu — aktualizacja wartości rzeczywistych](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Mapowanie szablonu — aktualizacja transakcji.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Mapowanie szablonu — aktualizacja transakcji](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)

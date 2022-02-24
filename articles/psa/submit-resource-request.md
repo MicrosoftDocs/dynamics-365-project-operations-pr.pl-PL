@@ -1,6 +1,8 @@
 ---
 title: Przesyłanie żądania zasobu
 description: W tym temacie zamieszczono informacje dotyczące przesyłania wniosku o zasób do projektu.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 173572be43149aea253bf7beddb993f8c50ab337
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985019"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149736"
 ---
 # <a name="submitting-a-resource-request"></a>Przesyłanie żądania zasobu
 
@@ -34,11 +36,8 @@ Wygenerowane wymaganie zasobu można przesłać jako żądanie zasobu. Żądanie
 1. W usłudze Project Service Automation (PSA) na stronie **Projekty** kliknij kartę **Zespół**, aby wyświetlić listę zasobów możliwych do zarezerwowania. 
 2. Z listy wybierz zasób ogólny, który ma wymaganie zasobu, a następnie kliknij opcję **Prześlij żądanie**.
 
-![Przesyłanie żądania zasobu.](media/RM-how-to-18.png)
+![Przesyłanie żądania zasobu](media/RM-how-to-18.png)
 
 Stan żądania o ogólnego członka zespołu zmieni się na **"Przesłano**.
 
 Gdy menedżer zasobów zrealizuje żądanie, ogólny zasób zostanie zastąpiony nazwanym zasobem, jeśli menedżer zasobów zrealizował żądanie poprzez zarezerwowanie nazwanego zasobu. W przeciwnym razie zasób ogólny pozostanie w zespole, a stan żądania zmieni się na **Wymaga przeglądu**, jeśli menedżer zasobów zaproponował nazwany zasób.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

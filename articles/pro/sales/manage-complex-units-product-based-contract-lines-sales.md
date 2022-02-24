@@ -2,16 +2,18 @@
 title: Zarządzanie złożonymi jednostkami dla pozycji kontraktu opartej na produkcie - wersja uproszczona
 description: W tym temat zamieszczono informacje dotyczące sprzedaży produktów opartych na subskrypcji.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003379"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177389"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Zarządzanie złożonymi jednostkami dla pozycji kontraktu opartej na produkcie - wersja uproszczona
 
@@ -44,6 +46,3 @@ Aby utworzyć współczynnik ilościowy z poziomu właściwości produktu, nale�
 7. Powtórz kroki 2-6 dla wszystkich właściwości, które będą składają się na ilość w wierszu kontraktu opartego na produkcie.
 
 W przypadku, gdy użytkownik tworzy wiersz kontraktu dla tego produktu, ilość pozycji kontraktu jest zablokowana. Ilość jest następnie obliczana jako iloczyn wartości właściwości dla danej pozycji kontraktu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

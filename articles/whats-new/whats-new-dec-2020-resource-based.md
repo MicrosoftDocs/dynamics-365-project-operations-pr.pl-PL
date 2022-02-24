@@ -2,17 +2,19 @@
 title: 'Nowości: grudzień 2020 r. — Project Operations dla scenariuszy dotyczących zasobów/braku zapasów'
 description: Ten temat zawiera informacje o aktualizacjach dotyczących jakości dostępnych w wersji Project Operations z grudnia 2020 r. w scenariuszach dotyczących zasobów/braku zapasów.
 author: sigitac
+manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984884"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727893"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nowości: grudzień 2020 r. — Project Operations dla scenariuszy dotyczących zasobów/braku zapasów
 
@@ -106,7 +108,4 @@ To wydanie zawiera następujące funkcje:
 | Podróż i wydatek                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Przepływ pracy automatycznego księgowania raportu wydatków został ukończony, ale faktura nie została zaksięgowana                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Aktualizacje dotyczące regulacji
-Aby uzyskać więcej informacji na temat aktualizacji dotyczących aplikacji Finance and Operations, zobacz artykuł dotyczący [Aktualizacje dotyczące regulacji](/dynamics365/finance/localizations/regulatory-updates). Można również zalogować się w LCS i wyświetlić planowane aktualizacje ustawodawcze, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Aby uzyskać więcej informacji na temat aktualizacji dotyczących aplikacji Finance and Operations, zobacz artykuł dotyczący [Aktualizacje dotyczące regulacji](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Można również zalogować się w LCS i wyświetlić planowane aktualizacje ustawodawcze, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.

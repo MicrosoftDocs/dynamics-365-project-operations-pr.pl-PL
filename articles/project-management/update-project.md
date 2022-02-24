@@ -1,23 +1,23 @@
 ---
-title: Utwórz i zaktualizuj projekt
+title: Aktualizowanie projektu
 description: W tym temacie zamieszczono informacje o aktualizowaniu projektu w Project Operations.
 author: ruhercul
-ms.date: 10/20/2021
+ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
-ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
+ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7678362"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993384"
 ---
-# <a name="create-and-update-a-project"></a>Utwórz i zaktualizuj projekt
+# <a name="update-a-project"></a>Aktualizowanie projektu
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Poniżej znajduje się podsumowanie pól, które można zaktualizować w projekcie po jego utworzeniu. Obejmuje to również wszelkie stosowne konsekwencje wynikające z tych aktualizacji.
+Poniżej zamieszczono podsumowanie pól, które mogą być aktualizowane po utworzeniu projektu oraz wszystkich odpowiednich skutków aktualizacji.
 
 ## <a name="project-detail-fields"></a>Pola szczegółów projektu
 
@@ -25,8 +25,8 @@ Poniżej znajduje się podsumowanie pól, które można zaktualizować w projekc
 - **Opis**: Opis projektu.
 - **Klient**: firma, której będzie dostarczony projekt.
 - **Szablon kalendarza**: godziny pracy projektu. Po zmianie pola nastąpi ponowne obliczenie całego harmonogramu.
-- **Waluta**: Waluta projektu. Domyślna wartość tego pola jest oparta na walucie zdefiniowanej w jednostce umowy. Po zaktualizowaniu jednostki zamawiającej to pole jest również aktualizowane.
-- **Jednostka zamawiająca**: jednostka organizacyjna reprezentująca grupę lub oddział firmy, która jest głównie odpowiedzialna za sprzedaż i zarządzanie dostawą pracy i usług do klienta.  Jeśli jednostka organizacyjna kierownika projektu nie jest zdefiniowana, to pole domyślnie przyjmuje wartość zdefiniowaną w parametrach projektu.
+- **Waluta**: Waluta projektu. Wartość domyślna tego pola jest określana na podstawie waluty określonej w obszarze jednostki zamawiającej. Po zaktualizowaniu jednostki zamawiającej to pole jest również aktualizowane.
+- **Jednostka zamawiająca**: jednostka organizacyjna reprezentująca grupę lub oddział firmy, która jest głównie odpowiedzialna za sprzedaż i zarządzanie dostawą pracy i usług do klienta. 
 - **Menedżer projektu**: członek zespołu projektu, który ma uprawnienia do przeglądania i zatwierdzania wpisów czasu oraz wydatków.
 
 ## <a name="estimate-fields"></a>Pola oszacowań

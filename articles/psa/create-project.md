@@ -2,6 +2,8 @@
 title: Utwórz projekt
 description: Tworzenie projektu w Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f98e24d9d7abcd3dc8ef8071974d5fa8f53255a5df6704c2e166b0831a5935f1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 93958f8e7654ebc4cb038ba7ca0c5e4e02f39937
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002659"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148881"
 ---
 # <a name="create-a-project-project-service"></a>Utwórz projekt (Project Service)
 
@@ -46,6 +48,3 @@ Następnie utworzysz dla projektu strukturę podziału pracy, aby zdefiniować z
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera projektu](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

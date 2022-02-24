@@ -2,6 +2,8 @@
 title: Szablony projektów
 description: W tym temacie przedstawiono informacje na temat korzystania z szablonów projektów w celu szybkiego konfigurowania projektów.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002524"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148071"
 ---
 # <a name="project-templates"></a>Szablony projektów 
 
@@ -47,7 +49,7 @@ Istnieje kilka sposobów utworzenia projektu na podstawie szablonu projektu:
 
 - Podczas tworzenia projektu z oferty można wybrać szablon projektu w oknie dialogowym **Szybkie tworzenie: Projekt**.
 
-> ![Okno dialogowe Szybkie tworzenie: Projekt.](media/project-11.png)
+> ![Okno dialogowe Szybkie tworzenie: Projekt](media/project-11.png)
 
 - Podczas tworzenia projektu przez wybranie opcji **Nowy projekt** strona **Projektu** jest wyświetlana przed zapisaniem rekordu. W polu **Wybierz szablon** wybierz jeden ze wstępnie zdefiniowanych szablonów projektów istniejących w organizacji.
 - Użycie opcji **Utwórz projekt na podstawie szablonu** na stronie **Encja Szablon**.
@@ -67,6 +69,3 @@ Podczas kopiowania między wierszami szacowania projektu są aktualizowane cenni
 ### <a name="copying-a-project-team"></a>Kopiowanie zespołu projektu
 
 Podczas kopiowania zespołu projektu z szablonu projektu do projektu kopiowane są zasoby ogólne wraz z umiejętnościami i poziomami biegłości zdefiniowanymi w szablonie. Przypisania zasobów ogólnych są także obsługiwane jak w szablonie projektu. Nazwane zasoby nie są obsługiwane w szablonach projektów.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

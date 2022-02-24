@@ -2,38 +2,34 @@
 title: Rozwiązywanie problemów z pracą w siatce Zadanie
 description: Ten temat zawiera informacje na temat rozwiązywania problemów potrzebne podczas pracy w siatce Zadanie.
 author: ruhercul
-ms.date: 09/22/2021
+manager: tfehr
+ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 89bbad62c2a0a5693a57cf5c9a812ab644486469
+ms.sourcegitcommit: c9edb4fc3042d97cb1245be627841e0a984dbdea
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547212"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5031550"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Rozwiązywanie problemów z pracą w siatce Zadanie 
 
+_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-_**Dotyczy**: Project Operations dla scenariuszy opartych na zasobach/nieopartych na zaopatrzeniu, wdrażanie w wersji uproszczonej — od okazji do faktury pro forma, Project for the Web_
+W tym temacie opisano, jak rozwiązać problemy, które mogą wystąpić podczas pracy z zarządzaniem kosztami.
 
-Siatka Zadanie obsługiwana przez rozwiązanie Dynamics 365 Project Operations jest hostowaną ramką iframe w programie Microsoft Dataverse. W wyniku tego zastosowania, aby uwierzytelnianie i autoryzacja działały poprawnie, muszą zostać spełnione określone wymagania. Ten temat opisuje typowe problemy, które mogą mieć wpływ na możliwość renderowania siatki lub zarządzania zadaniami w strukturze podziału pracy (WBS).
+## <a name="enable-cookies"></a>Włącz obsługę plików cookie
 
-Do typowych problemów należą:
+Project Operations wymaga włączenia plików cookie innych firm w celu renderowania struktury podziału pracy. Jeśli pliki cookie innych firm nie są włączone, zamiast zadań, po wybraniu karty **Zadania** na stronie **Projekt** zobaczysz pustą stronę.
 
-- Karta **Zadanie** w siatce Zadanie jest pusta.
-- Po otwarciu projektu projekt nie zostanie załadowany, a interfejs użytkownika (UI) zatrzymał się na ładowaniu.
-- Administrowanie uprawnieniami dla **Project for the Web**.
-- Zmiany nie są zapisywane podczas tworzenia, aktualizowania lub usuwania zadania.
+![Pusta karta w przypadku, gdy nie są włączone pliki cookie innych firm](media/blankschedule.png)
 
-## <a name="issue-the-task-tab-is-empty"></a>Problem: karta Zadanie jest pusta
 
-### <a name="mitigation-1-enable-cookies"></a>Rozwiązanie 1: włącz pliki cookie
-
-Program Project Operations do renderowania struktury podziału pracy wymaga obsługi plików cookie innych firm. Jeśli pliki cookie innych firm nie są włączone, zamiast zadań, po wybraniu karty **Zadania** na stronie **Projekt** zobaczysz pustą stronę.
-
+### <a name="workaround"></a>Rozwiązanie
 W przypadku przeglądarek Microsoft Edge lub Google Chrome poniższe procedury opisują sposób aktualizacji ustawień przeglądarki, aby włączyć pliki cookie innych firm.
 
 #### <a name="microsoft-edge"></a>Microsoft Edge
@@ -42,7 +38,6 @@ W przypadku przeglądarek Microsoft Edge lub Google Chrome poniższe procedury o
 2. W prawym górnym rogu wybierz pozycję **wielokropka** (...), a następnie pozycję **Ustawienia**.
 3. W obszarze **Pliki cookie i uprawnienia witryny** wybierz pozycję **Pliki cookie i dane witryny**.
 4. Wyłącz **Blokuj wszystkie pliki cookie innych firm**.
-5. Odśwież przeglądarkę. 
 
 #### <a name="google-chrome"></a>Google Chrome
 
@@ -50,101 +45,64 @@ W przypadku przeglądarek Microsoft Edge lub Google Chrome poniższe procedury o
 2. W prawym górnym rogu zaznacz trzy pionowe kropki,, a następnie wybierz **Ustawienia**.
 3. W obszarze **Prywatność i zabezpieczenia** wybierz pozycję **Pliki cookie i inne dane witryny**.
 4. Wybierz **Zezwalaj na wszystkie pliki cookie**.
-5. Odśwież przeglądarkę. 
 
-> [!NOTE]
+> [!IMPORTANT]
 > Jeśli zablokujesz pliki cookie innych firm, wszystkie pliki cookie i dane witryn z innych witryn zostaną zablokowane, nawet jeśli witryna jest dozwolona na liście wyjątków.
 
-### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>Rozwiązanie 2: sprawdź, czy punkt końcowy PEX został poprawnie skonfigurowany
+## <a name="pex-endpoint"></a>Punkt końcowy systemu PEX
 
-Project Operations wymaga, aby parametr projektu odwoływał się do punktu końcowego PEX. Ten punkt końcowy jest wymagany do komunikacji z usługą używaną do renderowania struktury podziału pracy. Jeśli parametr nie jest włączony, pojawi się błąd „Parametr projektu jest nieprawidłowy”. Aby zaktualizować punkt końcowy PEX, należy wykonać następujące kroki.
+Project Operations wymaga, aby parametr projektu odwoływał się do punktu końcowego PEX. Ten punkt końcowy jest wymagany do komunikacji z usługą używaną do renderowania struktury podziału pracy. Jeśli parametr nie jest włączony, pojawi się błąd „Parametr projektu jest nieprawidłowy”. 
+
+### <a name="workaround"></a>Rozwiązanie
+ ![Pole PEX Endpoint w parametrze projektu](media/projectparameter.png)
 
 1. Dodaj pole **punkt końcowy PEX** do strony **Parametry projektu**.
-2. Określ typ produktu, którego używasz. Ta wartość jest używana, gdy ustawiony jest punkt końcowy PEX. Po pobraniu typ produktu jest już zdefiniowany w PEX Endpoint. Zachowaj tę wartość.
-3. Zaktualizuj pole za pomocą następującej wartości: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`. W poniższej tabeli przedstawiono parametr typu, który ma być używany na podstawie typu produktu.
+2. Zaktualizuj pole za pomocą następującej wartości: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+3. Usuń pole ze strony **Parametry projektu**.
 
-      | **Typ produktu**                     | **Typ parametru** |
-      |--------------------------------------|--------------------|
-      | Project for the Web w organizacji domyślnej   | typ=0             |
-      | Project for the Web w organizacji o nazwie CDS | typ=1             |
-      | Project Operations                   | typ=2             |
+## <a name="privileges-for-project-for-the-web"></a>Uprawnienia dotyczące projektu w sieci Web
 
-4. Usuń pole ze strony **Parametry projektu**.
+Project Operations są związane z zewnętrzną usługą planowania. W usłudze jest wymagane przypisanie użytkownikowi kilku ról do odczytu i zapisu encji związanych z strukturą zabezpieczeń pracy. Te encje obejmują zadania projektu, przydziały zasobów i zależności zadań. Jeśli użytkownik nie może wyrenderować struktury podziału pracy po przejściu do karty **Zadania**, prawdopodobnie jest to spowodowane tym, że nie włączono programu Project for Project Operations. Użytkownik może otrzymać błąd roli zabezpieczeń lub błąd związany z odmową dostępu.
 
-## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problem: projekt nie zostanie załadowany, a interfejs użytkownika zatrzymał się na ładowaniu
 
-Do celów uwierzytelniania należy włączyć wyskakujące okienka, aby siatka Zadanie się ładowała. Jeśli wyskakujące okienka nie są włączone, ekran zatrzyma się na kursorze ładowania. Na poniższej ilustracji pokazano adres URL z zablokowanym wyskakującym okienkiem na pasku adresu, przez co podczas próby ładowania strony pojawia się kursor ładowania. 
+## <a name="workaround"></a>Rozwiązanie
 
-   ![Kursor ładowania i blokada wyskakujących okienek.](media/popupsblocked.png)
+1. Przejdź do **Ustawienia > Zabezpieczenia > Użytkownicy > Użytkownicy aplikacji**.  
 
-### <a name="mitigation-1-enable-pop-ups"></a>Rozwiązanie 1: włącz wyskakujące okienka
-
-Gdy projekt zatrzyma się na kursorze ładowania, możliwe, że wyskakujące okienka są wyłączone.
-
-#### <a name="microsoft-edge"></a>Microsoft Edge
-
-Są dwa sposoby włączenia wyskakujących okienek w przeglądarce Edge.
-
-1. W przeglądarce Edge wybierz powiadomienie w prawym górnym rogu przeglądarki.
-2. Zaznacz opcję **Zawsze zezwalaj na wyskakujące okienka i przekierowywania z** określonego środowiska Dataverse.
- 
-     ![Wyskakujące okienka zablokowały okno.](media/enablepopups.png)
-
-Alternatywnie możesz też wykonać jeden z następujących kroków.
-
-1. Otwórz przeglądarkę Edge.
-2. W prawym górnym rogu wybierz z **wielokropek** (...), a następnie wybierz uprawnienia witryny **Ustawienia** > **Uprawnienia strony** > **Wyskakujące okienka i przekierowania**.
-3. Wyłącz **Wyskakujące okienka i przekierowanie** w celu blokowania wyskakujących okienek lub włącz, aby zezwolić na wyskakujące okienka na urządzeniu.
-4. Po włączeniu wyskakujących okienek odśwież przeglądarkę. 
-
-#### <a name="google-chrome"></a>Google Chrome
-1. Otwórz przeglądarkę Chrome.
-2. Przejdź do strony, na której są blokowane wyskakujące okienka.
-3. Na pasku adresu wybierz opcję **Blokowanie wyskakujących okienek**.
-4. Wybierz łącze do wyskakujących okienek, które chcesz wyświetlić.
-5. Po włączeniu wyskakujących okienek odśwież przeglądarkę. 
-
-> [!NOTE]
-> Aby zawsze zobaczyć wyskakujące okienka dla witryny, zaznacz opcję **Zawsze zezwalaj na wyskakujące okienka i przekierowywanie z [witryny]**, a następnie wybierz opcję **Wykonane**.
-
-## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Problem 3: administrowanie uprawnieniami dla Project for the Web
-
-Project Operations są związane z zewnętrzną usługą planowania. Usługa wymaga przypisania użytkownikowi kilku ról, które zezwalają mu na odczytywanie i zapis danych w encjach związanych z SPP. Te encje obejmują zadania projektu, przydziały zasobów i zależności zadań. Jeśli użytkownik nie może wyrenderować SPP podczas przechodzenia na kartę **Zadania**, dzieje się tak prawdopodobnie dlatego, że **Projekt** dla **Project Operations** nie został włączony. Użytkownik może otrzymać błąd roli zabezpieczeń lub błąd związany z odmową dostępu.
-
-### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Rozwiązanie 1: sprawdź poprawność ról zabezpieczeń użytkownika aplikacji i użytkownika końcowego
-
-1. Przejdź do **Ustawienia** > **Zabezpieczenia** > **Użytkownicy** > **Użytkownicy aplikacji**.  
-
-   ![Czytnik aplikacji.](media/applicationuser.jpg)
+   ![Czytnik aplikacji](media/applicationuser.jpg)
    
 2. Kliknij dwukrotnie rekord użytkownika aplikacji, aby sprawdzić, czy:
 
-     - Użytkownik ma dostęp do projektu. Można to zrobić, sprawdzając, czy użytkownik ma rolę zabezpieczeń **Menedżera projektu**.
-     - Użytkownik aplikacji Microsoft Project istnieje i jest poprawnie skonfigurowany.
+ - Użytkownik ma dostęp do projektu. Weryfikacja ta zwykle polega na upewnieniu się, że użytkownik ma rolę zabezpieczeń **Menedżer projektu**.
+ - Użytkownik aplikacji Microsoft Project istnieje i jest poprawnie skonfigurowany.
  
-3. Jeśli ten użytkownik nie istnieje, utwórz nowy rekord użytkownika. 
-4. Wybierz opcję **Nowi użytkownicy**, zmień formularz wprowadzania na **Użytkownik aplikacji**, a następnie dodaj **Identyfikator aplikacji**.
+3. Jeśli ten użytkownik nie istnieje, możesz utworzyć nowy rekord użytkownika. Wybierz **Nowi użytkownicy**. Zmień formularz wprowadzania na **Użytkownik aplikacji**, a następnie dodaj **Identyfikator aplikacji**.
 
-   ![Dane użytkownika aplikacji.](media/applicationuserdetails.jpg)
+   ![Dane użytkownika aplikacji](media/applicationuserdetails.jpg)
 
+4. Sprawdź, czy użytkownikowi przypisano poprawną licencję i czy usługa jest włączona w szczegółach planu usług licencji.
+5. Sprawdź, czy użytkownik może otworzyć project.microsoft.com.
+6. Sprawdź za pomocą parametrów projektu, czy system wskazuje prawidłowy punkt końcowy projektu.
+7. Sprawdź, czy utworzono użytkownika aplikacji projektu.
+8. Zastosuj następujące role zabezpieczeń do użytkownika:
 
-## <a name="issue-4-changes-arent-saved-when-you-create-update-or-delete-a-task"></a>Problem 4: zmiany nie są zapisywane podczas tworzenia, aktualizowania lub usuwania zadania
-
-Jeśli jedna lub więcej aktualizacji zostanie wprowadzonych w SPP, zmiany nie zostaną wprowadzone ani zapisane. W siatce harmonogramu pojawia się błąd z komunikatem „Nie można zapisać ostatnio wprowadzonej zmiany”.
-
-### <a name="mitigation-1-validate-the-license-assignment"></a>Rozwiązanie 1: sprawdź poprawność przypisania licencji
-
-1. Sprawdź, czy użytkownikowi przypisano poprawną licencję i czy usługa jest włączona w szczegółach planu usług licencji.  
-2. Sprawdź, czy użytkownik może otworzyć **project.microsoft.com**.
-    
-### <a name="mitigation-2-validation-configuration-of-the-project-application-user"></a>Rozwiązanie 2: konfiguracja sprawdzania poprawności użytkownika aplikacji projektu
-1. Sprawdź, czy utworzono użytkownika aplikacji projektu.
-2. Zastosuj następujące role zabezpieczeń do użytkownika:
-  
-  - Użytkownik Dataverse lub użytkownik podstawowy
+  - Użytkownik Dataverse
   - System Project Operations
   - System projektów
-  - System podwójnego zapisu rozwiązania Project Operations. Ta rola jest wymagana dla wdrożenia aplikacji Project Operations dla zasobów/scenariuszy wdrażania nieopartych na zaopatrzeniu.
 
+## <a name="error-when-updating-the-work-breakdown-structure"></a>Błąd podczas aktualizacji struktury podziału pracy
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Po wprowadzeniu co najmniej jednej aktualizacji struktury podziału pracy zmiany ostatecznie kończą się niepowodzeniem i nie są zapisywane. W siatce harmonogramu pojawia się błąd informujący, że „Nie można zapisać ostatniej wprowadzonej zmiany”.
+
+### <a name="workaround"></a>Rozwiązanie
+
+1. Sprawdź, czy użytkownikowi przypisano poprawną licencję i czy usługa jest włączona w szczegółach planu usług licencji.
+2. Sprawdź, czy użytkownik może otworzyć project.microsoft.com.
+3. Sprawdź, czy system wskazuje prawidłowy punkt końcowy projektu.
+4. Sprawdź, czy utworzono użytkownika aplikacji Project.
+5. Zastosuj następujące role zabezpieczeń do użytkownika:
+  
+  - Użytkownik Dataverse lub grupa użytkowników
+  - System Project Operations
+  - System projektów
+  - System podwójnego zapisu Project Operations (ta rola jest wymagana w przypadku wdrażania scenariusza dotyczącego zasobów/braku zapasów w ramach Project Operations).

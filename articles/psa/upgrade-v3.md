@@ -1,7 +1,9 @@
 ---
-title: Zagadnienia dotyczące uaktualniania — Microsoft Dynamics 365 Project Service Automation z wersji 2.x lub 1.x do wersji 3.x
+title: Zagadnienia dotyczące uaktualniania — Microsoft Dynamics 365 Project Service Automation z wersji 2.x lub 1.x do wersji 3
 description: W tym temat zamieszczono informacje na temat zagadnień, które należy wziąć pod uwagę podczas uaktualniania programu Project Service Automation w wersji 2.x lub 1.x do wersji 3.
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -16,12 +18,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000094"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144188"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Zagadnienia dotyczące uaktualniania — PSA z wersji 2.x lub 1.x do wersji 3.x
 
@@ -35,7 +37,7 @@ Zarówno Dynamics 365 Project Service Automation, jak i Dynamics 365 Field Servi
 ## <a name="resource-assignments"></a>Przypisania zasobów
 W programie Project Service Automation w wersji 2 i w wersji 1 przydziały zadań były przechowywane jako zadania podrzędne (nazywane również zadaniami wierszowymi) w **Encji zadanie** **i pośrednio powiązane z encją przydziału zasobu**. Zadanie wiersza było widoczne w wyskakującym okienku przypisań w strukturze podziału pracy (SPP).
 
-![Zadania związane z wierszami w SPP w programie Project Service Automation w wersji 2 i wersji 1.](media/upgrade-line-task-01.png)
+![Zadania związane z wierszami w SPP w programie Project Service Automation w wersji 2 i wersji 1](media/upgrade-line-task-01.png)
 
 W wersji 3 programu Project Service Automation wprowadzono zmiany w schemacie przypisywania zasobów, które można zarezerwować. Zadanie wierszowe nie zostało zastąpione i istnieje bezpośrednia relacja 1:1 między zadaniem w **encji zadanie** a członkiem zespołu w encji **przydział zasobu**. Zadania przypisywane członkom zespołu projektu są obecnie przechowywane bezpośrednio w encji przydział zasobu.  
 
@@ -46,26 +48,26 @@ Przy użyciu encji zadania podstawowego zadania w wersji 2 i w wersji 1 zezwala�
 
 Jeśli do zadania przypisano zasób poza rolą domyślną w wersji 2 i w wersji 1, podczas uaktualniania, nazwany zasób zostanie przypisany do domyślnej roli dla wszystkich przypisań zadania bez względu na przypisanie roli w wersji 2. Przypisanie spowoduje rozbieżności w obliczonych oszacowaniach z wersji 2 lub wersji 1 do wersji 3, ponieważ oszacowania są obliczane na podstawie roli zasobu, a nie przypisanego zadania. Na przykład w wersji 2 przypisano dwa zadania do Bogumiły Kowalczyk. Rolą zadania wierszowego dla zadania 1 jest Deweloper, a dla zadania 2 — Menedżer programu. Bogumiła Kowalczyk ma domyślną rolę menedżera programu.
 
-![Wiele ról przypisanych do jednego zasobu.](media/upgrade-multiple-roles-02.png)
+![Wiele ról przypisanych do jednego zasobu](media/upgrade-multiple-roles-02.png)
 
 Z uwagi na fakt, że role Deweloper i Menedżer programu różnią się, koszty i oszacowania sprzedaży są następujące:
 
-![Oszacowania kosztów dla ról zasobów.](media/upggrade-cost-estimates-03.png)
+![Oszacowania kosztów dla ról zasobów](media/upggrade-cost-estimates-03.png)
 
-![Oszacowania sprzedaży dla ról zasobów.](media/upgrade-sales-estimates-04.png)
+![Oszacowania sprzedaży dla ról zasobów](media/upgrade-sales-estimates-04.png)
 
 Po uaktualnieniu do wersji 3 zadania wierszy są zastępowane przydziałami zasobów na zadanie członka zespołu zasobu możliwego do zarezerwowania. Przypisanie będzie używać domyślnej roli zasobu możliwego do zarezerwowania. W poniższym rysunku Bogumiła Kowalczyk, która ma rolę Menedżer programu, jest zasobem.
 
-![Przypisania zasobów.](media/resource-assignment-v2-05.png)
+![Przypisania zasobów](media/resource-assignment-v2-05.png)
 
 Ponieważ oszacowania są oparte na domyślnej roli zasobu, oszacowania dotyczące sprzedaży i kosztów mogą ulec zmianie. Na poniższym rysunku nie jest już widoczna rola **dewelopera**, ponieważ jest ona obecnie pobierana z roli domyślnej zasobu możliwego do zarezerwowania.
 
-![Szacowana wartość sprzedaży dla ról domyślnych.](media/resource-assignment-cost-estimate-06.png)
-![Szacowana wartość sprzedaży dla ról domyślnych.](media/resource-assignment-sales-estimate-07.png)
+![Szacowana wartość sprzedaży dla ról domyślnych](media/resource-assignment-cost-estimate-06.png)
+![Szacowana wartość sprzedaży dla ról domyślnych](media/resource-assignment-sales-estimate-07.png)
 
 Po zakończeniu uaktualniania można dokonać edycji roli członka zespołu i zmienić przypisaną wartość domyślną. Jeśli jednak użytkownik zmieni rolę członka zespołu, będzie ona modyfikowana we wszystkich przydzielonych zadaniach, ponieważ członkowie zespołu nie mogą mieć przydzielonych wielu ról w wersji 3.
 
-![Aktualizowanie roli zasobu.](media/resource-role-assignment-08.png)
+![Aktualizowanie roli zasobu](media/resource-role-assignment-08.png)
 
 Ma to także zastosowanie w przypadku zadań wiersza, które przypisano do nazwanych zasobów, gdy użytkownik zmieni jednostkę organizacyjną zasobu z domyślnej na inną. Po zakończeniu uaktualniania wersji 3 przypisanie będzie używać domyślnej jednostki organizacyjnej zasobu zamiast zestawu określonego w zadaniu wierszowym.
 
@@ -83,31 +85,28 @@ W przypadku zadań przypisanych ogólnym członkom zespołu wygenerowanym podcza
 
 Na przykład w Projekcie Z kontraktującą jednostką organizacyjną jest Contoso US. W planie projektu do zadań testowania w fazie implementacji przypisano role doradców technicznych, a przypisaną jednostką organizacyjną jest Contoso India.
 
-![Przypisanie organizacyjne fazy implementacji.](media/org-unit-assignment-09.png)
+![Przypisanie organizacyjne fazy implementacji](media/org-unit-assignment-09.png)
 
 Po zakończeniu fazy implementacji zadanie testowe integracji jest przypisywane do doradcy technicznego, ale organizacja jest ustawiona jako Contoso US.  
 
-![Przypisanie organizacyjne zadania testowania integracji.](media/org-unit-generate-team-10.png)
+![Przypisanie organizacyjne zadania testowania integracji](media/org-unit-generate-team-10.png)
 
 Po wygenerowaniu zespołu dla projektu system tworzy dwóch ogólnych członków zespołu z powodu różnych jednostek organizacyjnych tych zadań. Konsultant techniczny 1 zostanie przypisany do zadania w Contoso India, a Konsultant techniczny 2 zostanie przypisany do zadania w Contoso US.  
 
-![Wygenerowani ogólni członkowie zespołu.](media/org-unit-assignments-multiple-resources-11.png)
+![Wygenerowani ogólni członkowie zespołu](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > W programie Project Service Automation w wersji 2 i wersji 1 członek zespołu nie utrzymuje jednostki organizacyjnej, która jest przechowywana w zadaniu wierszowym.
 
-![Zadania wierszowe w wersji 2 i wersji 1 w programie Project Service Automation.](media/line-tasks-12.png)
+![Zadania wierszowe w wersji 2 i wersji 1 w programie Project Service Automation](media/line-tasks-12.png)
 
 Jednostkę organizacyjną można wyświetlić w widoku oszacowania. 
 
-![Oszacowania dotyczące jednostki organizacyjnej.](media/org-unit-estimates-view-13.png)
+![Oszacowania dotyczące jednostki organizacyjnej](media/org-unit-estimates-view-13.png)
  
 Po zakończeniu uaktualniania jednostka organizacyjna w zadaniu wiersza odpowiadającemu ogólnemu członkowi zespołu jest dodawana do członka zespołu ogólnego, a zadanie wierszowe jest usuwane. Z tego powodu zaleca się, aby przed uaktualnieniem utworzyć lub ponownie wygenerować zespół dla każdego projektu, który zawiera zasoby ogólne.
 
-W przypadku zadań przydzielonych do roli w jednostce organizacyjnej innej niż jednostka organizacyjna kontraktująca i zespół nie został wygenerowany, uaktualnianie spowoduje utworzenie ogólnego członka zespołu dla roli, ale będzie używana jednostka kontraktująca projektu dla jednostki organizacyjnej członka zespołu. Odwołując się do przykładu z Projektem Z, oznacza to, że kontraktująca jednostka organizacyjna Contoso US i zadania testowania planu projektu w fazie implementacji mają przypisaną rolę konsultanta technicznego z jednostką organizacyjną przypisaną do Contoso India. Zadanie testowe integracji zakończone po fazie implementacji zostało przypisane do roli konsultanta technicznego. Jednostka organizacyjna to Contoso US, a zespół nie został wygenerowany. Uaktualnianie spowoduje utworzenie jednego ogólnego członka zespołu, konsultanta technicznego, z przypisanymi godzinami wszystkich trzech zadań oraz jednostką organizacyjną Contoso US, czyli kontraktującą jednostką organizacyjną danego projektu.   
+W przypadku zadań przydzielonych do roli w jednostce organizacyjnej innej niż jednostka organizacyjna kontraktująca i zespół nie został wygenerowany, uaktualnianie spowoduje utworzenie ogólnego członka zespołu dla roli, ale będzie używana jednostka kontraktująca projektu dla jednostki organizacyjnej członka zespołu. Odwołując się do przykładu z Projektem Z, kontraktująca jednostka organizacyjna Contoso US i zadania testowania planu projektu w fazie implementacji mają przypisaną rolę konsultanta technicznego z jednostką organizacyjną przypisaną do Contoso India. Zadanie testowe integracji zakończone po fazie implementacji zostało przypisane do roli konsultanta technicznego. Jednostka organizacyjna to Contoso US, a zespół nie został wygenerowany. Uaktualnianie spowoduje utworzenie jednego ogólnego członka zespołu, konsultanta technicznego, z przypisanymi godzinami wszystkich trzech zadań oraz jednostką organizacyjną Contoso US, czyli kontraktującą jednostką organizacyjną danego projektu.   
  
 Zmiana domyślnych ustawień w różnych jednostkach organizacyjnych zasobów dla niewygenerowanych członków zespołu jest powodem, dla którego zalecamy wygenerowanie lub ponowne wygenerowanie zespołu dla każdego projektu, zawierającego zasoby ogólne przed uaktualnieniem, aby nie utracić przypisań jednostki organizacyjnej.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
