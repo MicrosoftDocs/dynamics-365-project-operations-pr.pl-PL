@@ -2,18 +2,16 @@
 title: Wersje map podwójnego zapisu aplikacji Project Operations
 description: Ten temat zawiera listę wymaganych map podwójnego zapisu w Dynamics 365 Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 04/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa0342985f2c860cd3cb3f686f0dcaa59d8cfd41
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5939025"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025787"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Wersje map podwójnego zapisu aplikacji Project Operations
 
@@ -36,32 +34,32 @@ Następujące mapy są wymaganymi warunkami wstępnymi dla rozwiązania Project 
 
 ![Synchronizacja mapowania księgi](media/DW6.png)
 
-1. Wykonaj te same kroki dla wszystkich pozostałych map tabel wymienionych w powyższej tabeli. Podczas uruchamiania tych map nie zaznaczaj pola wyboru **Synchronizacja początkowa**.
+2. Wykonaj te same kroki dla wszystkich pozostałych map tabel wymienionych w powyższej tabeli. Podczas uruchamiania tych map nie zaznaczaj pola wyboru **Synchronizacja początkowa**.
 
 ## <a name="project-operations-dual-write-maps"></a>Project Operations — mapy podwójnego zapisu
 
-Następujące mapy są wymaganymi warunkami wstępnymi dla rozwiązania Project Operations.
+Następujące mapy są wymaganymi warunkami wstępnymi dla rozwiązania Project Operations. Wersje map z podwójnym zapisem są wymienione począwszy od aktualizacji Project Operations z maja 2021 roku, wersja 4.10.0.186.
 
 | **Mapowanie encji** | **Najnowsza wersja** | **Synchronizacja początkowa** |
 | --- | --- | --- |
 | Encja integrująca dla transakcji projektu relacje (msdyn\_transactionconnections) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. |
 | Nagłówki kontraktów projektów (sales orders) | 1.0.0.1 | Nie jest wymagane do inicjowania obsługi. |
 | Pozycje kontraktu w projekcie (salesorderdetails) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. |
-| Źródło danych projektu (msdyn_projectcontractsplitbillingrules) | 1.0.0.1 | Nie jest wymagane do inicjowania obsługi. |
+| Źródło danych projektu (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. |
 | Tabela integracji Project Operations dla szacowania materiałów (msdyn\_estimatelines) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. |
-| Propozycje faktury projektu V2 (invoices) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. |
+| Propozycje faktury projektu V2 (invoices) | 1.0.0.3 | Nie jest wymagane do inicjowania obsługi. |
 | Wartości rzeczywiste integracji Project Operations (msdyn_actuals) | 1.0.0.14 | Nie jest wymagane do inicjowania obsługi. |
 | Punkty kontrolne pozycji kontraktu w integracji Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Nie jest wymagane do inicjowania obsługi. |
 | Encja integracji Project Operations na potrzeby oszacowania kosztów (msdyn_estimateslines) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. |
 | Encja integracji Project Operations na potrzeby oszacowania godzinowego (msdyn_resourceassignments) | 1.0.0.5 | Nie jest wymagane do inicjowania obsługi. |
-| Encja integracji kategorii wydatków projektowych Project Operations (msdyn_expensecategories) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. |
+| Encja integracji kategorii wydatków projektowych Project Operations (msdyn_expensecategories) | 1.0.0.1 | Nie jest wymagane do inicjowania obsługi. |
 | Encja integracji wydatków projektowych Project Operations (msdyn_expenses) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. |
 | Integracja w Project Operations encji eksportu faktury dostawcy projektu (msdyn_projectvendorinvoices) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. |
-| Integracja w Project Operations encji eksportu wiersza faktury dostawcy projektu (msdyn_projectvendorinvoicelines) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. |
+| Integracja w Project Operations encji eksportu wiersza faktury dostawcy projektu (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Nie jest wymagane do inicjowania obsługi. |
 | Role zasobów projektu dla wszystkich firm (bookableresourcecategories) | 1.0.0.1 | Wymaga wstępnej synchronizacji mapowania tabeli w celu zsynchronizowania ról zasobów Menedżer projektu i Członek zespołu, które zostały uzupełnione w środowisku usługi Dynamics 365 Dataverse podczas inicjowania obsługi administracyjnej. Dataverse jest głównym źródłem początkowej synchronizacji. |
 | Zadania projektu (msdyn_projecttasks) | 1.0.0.4 | Nie jest wymagane do inicjowania obsługi. |
 | Kategorie transakcji projektu (msdyn_transactioncategories) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. |
-| Projekty V2 (msdyn_projects) | 1.0.0.1 | Nie jest wymagane do inicjowania obsługi. |
+| Projekty V2 (msdyn_projects) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. |
 
 Wykonaj następujące kroki, aby uruchomić wymienione mapowania.
 

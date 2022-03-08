@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
+ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009229"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6433666"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Co nowego w lipcu 2021 r. — wdrażanie wersji uproszczonej aplikacji Project Operations
 
@@ -20,7 +20,7 @@ _Zastosowane do: Wdrażanie uproszczone — od okazji do faktury pro forma_
 
 Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
 
-  - Project Operations w środowisku Dataverse w wersji 4.12.0.148 lub 4.12.0.152.
+  - Project Operations w środowisku Dataverse w wersji 4.12.0.148.
 
 ## <a name="quality-updates"></a>Aktualizacje dotyczące jakości
 | **Obszar funkcji**              | **Numer referencyjny** | **Aktualizacja dotycząca jakości**                                                                                                                                                                                             |
@@ -59,4 +59,3 @@ Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 P
 | Ogólne                       | 2296857              | Śledzenie postępu w przypadku długotrwałych zadań.                                                                                                                                                                        |
 | Ogólne                       | 2253682              | Rozwiązania do podwójnego zapisu Project Operations nie należy instalować, jeśli rdzeń podwójnego zapisu jest instalowany w środowisku bez rozwiązania do aranżacji podwójnego zapisu.                                                |
 | Ogólne                       | 2316420              | Aprowizowanie rdzenia aplikacji Project Service kończy się niepowodzeniem, jeśli zostanie zmieniona jednostka biznesowa użytkownika aplikacji.                                                                                                                     |
-| Ogólne                       | 2376405              | Rozwiązany problem z aktualizacją oparty na wydawcy (aktualizacja Quality jest dostępna w wersji 4.12.0.152)                                                                                                                     |

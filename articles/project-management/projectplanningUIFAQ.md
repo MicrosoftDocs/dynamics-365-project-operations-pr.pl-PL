@@ -2,19 +2,17 @@
 title: Rozwiązywanie problemów z pracą w siatce Zadanie
 description: Ten temat zawiera informacje na temat rozwiązywania problemów potrzebne podczas pracy w siatce Zadanie.
 author: ruhercul
-manager: tfehr
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 89bbad62c2a0a5693a57cf5c9a812ab644486469
-ms.sourcegitcommit: c9edb4fc3042d97cb1245be627841e0a984dbdea
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031550"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989114"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Rozwiązywanie problemów z pracą w siatce Zadanie 
 
@@ -26,7 +24,7 @@ W tym temacie opisano, jak rozwiązać problemy, które mogą wystąpić podczas
 
 Project Operations wymaga włączenia plików cookie innych firm w celu renderowania struktury podziału pracy. Jeśli pliki cookie innych firm nie są włączone, zamiast zadań, po wybraniu karty **Zadania** na stronie **Projekt** zobaczysz pustą stronę.
 
-![Pusta karta w przypadku, gdy nie są włączone pliki cookie innych firm](media/blankschedule.png)
+![Pusta karta w przypadku, gdy nie są włączone pliki cookie innych firm.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Rozwiązanie
@@ -54,11 +52,22 @@ W przypadku przeglądarek Microsoft Edge lub Google Chrome poniższe procedury o
 Project Operations wymaga, aby parametr projektu odwoływał się do punktu końcowego PEX. Ten punkt końcowy jest wymagany do komunikacji z usługą używaną do renderowania struktury podziału pracy. Jeśli parametr nie jest włączony, pojawi się błąd „Parametr projektu jest nieprawidłowy”. 
 
 ### <a name="workaround"></a>Rozwiązanie
- ![Pole PEX Endpoint w parametrze projektu](media/projectparameter.png)
 
 1. Dodaj pole **punkt końcowy PEX** do strony **Parametry projektu**.
-2. Zaktualizuj pole za pomocą następującej wartości: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
-3. Usuń pole ze strony **Parametry projektu**.
+2. Określ typ produktu, którego używasz. Ta wartość jest używana, gdy ustawiony jest punkt końcowy PEX. Po pobraniu typ produktu jest już zdefiniowany w PEX Endpoint. Zachowaj tę wartość. 
+   
+    ![Pole PEX Endpoint w parametrze projektu.](media/pex-endpoint.png)
+
+3. Zaktualizuj pole za pomocą następującej wartości: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Typ produktu                         | Typ parametru |
+   |--------------------------------------|----------------|
+   | Project for the Web w organizacji domyślnej   | typ=0         |
+   | Project for the Web w organizacji o nazwie CDS | typ=1         |
+   | Project Operations                   | typ=2         |
+   
+4. Usuń pole ze strony **Parametry projektu**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Uprawnienia dotyczące projektu w sieci Web
 
@@ -69,7 +78,7 @@ Project Operations są związane z zewnętrzną usługą planowania. W usłudze 
 
 1. Przejdź do **Ustawienia > Zabezpieczenia > Użytkownicy > Użytkownicy aplikacji**.  
 
-   ![Czytnik aplikacji](media/applicationuser.jpg)
+   ![Czytnik aplikacji.](media/applicationuser.jpg)
    
 2. Kliknij dwukrotnie rekord użytkownika aplikacji, aby sprawdzić, czy:
 
@@ -78,7 +87,7 @@ Project Operations są związane z zewnętrzną usługą planowania. W usłudze 
  
 3. Jeśli ten użytkownik nie istnieje, możesz utworzyć nowy rekord użytkownika. Wybierz **Nowi użytkownicy**. Zmień formularz wprowadzania na **Użytkownik aplikacji**, a następnie dodaj **Identyfikator aplikacji**.
 
-   ![Dane użytkownika aplikacji](media/applicationuserdetails.jpg)
+   ![Dane użytkownika aplikacji.](media/applicationuserdetails.jpg)
 
 4. Sprawdź, czy użytkownikowi przypisano poprawną licencję i czy usługa jest włączona w szczegółach planu usług licencji.
 5. Sprawdź, czy użytkownik może otworzyć project.microsoft.com.
@@ -106,3 +115,6 @@ Po wprowadzeniu co najmniej jednej aktualizacji struktury podziału pracy zmiany
   - System Project Operations
   - System projektów
   - System podwójnego zapisu Project Operations (ta rola jest wymagana w przypadku wdrażania scenariusza dotyczącego zasobów/braku zapasów w ramach Project Operations).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

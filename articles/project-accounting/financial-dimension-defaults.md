@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642376"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950142"
 ---
 # <a name="financial-dimension-defaults"></a>Wartości domyślne wymiaru finansowego
 
@@ -21,7 +21,7 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Aplikacja Dynamics 365 Project Operations używa struktury [wymiarów finansowych](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) w aplikacji Dynamics 365 Finance w celu uzyskiwania dodatkowych informacji na temat ksiąg i transakcji księgi głównej projektu.
+Aplikacja Dynamics 365 Project Operations używa struktury [wymiarów finansowych](/dynamics365/finance/general-ledger/financial-dimensions) w aplikacji Dynamics 365 Finance w celu uzyskiwania dodatkowych informacji na temat ksiąg i transakcji księgi głównej projektu.
 
 W przypadku klienta, źródła finansowania projektu, punktu kontrolnego, pozycji kontraktu projektu lub projektu można ustawić domyślne wymiary finansowe.
 
@@ -62,3 +62,6 @@ Kontrakty projektów są tworzone i utrzymywane w (CDS). Atrybuty obsługi kont 
 4. Ustaw wartości domyślne wymiaru finansowego. Należy zwrócić uwagę, że wymiar finansowy jest typem domyślnym na podstawie konta klienta. Jeśli projekt jest skojarzony z pozycją kontraktu, która ma wielu klientów kontraktów projektów, jest używany podstawowy klient z domyślnymi wymiarami finansowymi.
 
 Domyślne wymiary finansowe projektu służą do ustawiania wartości domyślnych wierszy arkusza dla transakcji dotyczących czasu, wydatków i opłat w **Arkusz integracji aplikacji Project Operations** oraz w powiązanych wierszach faktur projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

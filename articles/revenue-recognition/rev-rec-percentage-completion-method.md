@@ -2,18 +2,16 @@
 title: Projekty szacowanych przychodów o stałej cenie
 description: Ten temat zawiera informacje o przychodach o stałej cenie w projektach.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 80fe1d4171d80ca39e8b7ebb1eefaa524a4f2b07
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531516"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006439"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Projekty szacowanych przychodów o stałej cenie 
 
@@ -35,3 +33,6 @@ Aby przejrzeć projekty szacowanych przychodów o stałej cenie, wykonaj następ
 
   Koszt projektu, profil przychodów, szablon kosztów i kod okresu można ustawić ręcznie. Jeśli nie są one ustawione ręcznie, wartości domyślne zostaną ustawione podczas pierwszego obliczenia szacowania dla projektu przy użyciu reguł skonfigurowanych dla profilów przychodów i kosztów projektu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

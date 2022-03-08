@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c1ec99ea0951d24939463d33c64f72fce44ba5b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 55979dc8076ec2b226492060a7c034fbd62b325a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145461"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291497"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Zatwierdź czas i wydatki (Project Service)
 
@@ -47,3 +47,6 @@ Po wprowadzeniu przez konsultantów czasu i wydatków związanych z projektem, n
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera projektu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

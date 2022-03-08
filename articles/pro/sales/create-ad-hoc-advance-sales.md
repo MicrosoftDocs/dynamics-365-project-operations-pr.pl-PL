@@ -2,18 +2,16 @@
 title: Tworzenie zaliczki ad hoc w kontrakcie
 description: W tym temat zamieszczono informacje dotyczące tworzenia zaliczki na temat kontraktu w zależności od potrzeb.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596020"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999149"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Tworzenie zaliczki ad hoc w kontrakcie
 
@@ -39,3 +37,6 @@ Wykonaj poniższe kroki, aby zafakturować klienta z zaliczą na poczet oferty.
     | **Stan faktury** | Jest to ustawienie opcji, które wskazuje, czy ta zaliczka jest dodawana do wersji roboczej faktury danego klienta. Możliwe wartości to:</br>- **Nieprzygotowane do fakturowania**</br>- **Przygotowane do fakturowania** | Jeśli zaliczkowa lub przedpłata jest oznaczona jako **Przygotowane do fakturowania**, jest dodawana jako wiersz dla wersji roboczej na fakturze. Do uzgodnienia kosztów projektu z kolejnym okresem faktury można użyć tylko całkowicie zafakturowanej zaliczki. |
 
 4. Wybierz opcję **Zapisz i Zamknij** w oknie dialogowym szybkie tworzenie, aby zarejestrować zaliczkę lub przedpłatę przed realizacją.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Szacowanie sprzedaży i kosztów projektu, gdy zasób z możliwością rezerwowania pełni wiele ról w projekcie
 description: W tym temacie wyjaśniono, jak używać wymiarów cen do obsługi wyceny i szacowania kosztów dla zasobu, który pełni wiele ról w projekcie.
 author: rumant
-manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531517"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990149"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Szacowanie sprzedaży i kosztów projektu, gdy zasób z możliwością rezerwowania pełni wiele ról w projekcie 
 
@@ -106,3 +104,6 @@ Po rozwinięciu wiersza dla rekordu należącego do danego członka zespołu mog
 ### <a name="estimates-grid"></a>Siatka szacowań 
 
 W siatce **szacowań** obydwa przypisania dotyczące tego samego zasobu są wyceniane w różny sposób. Przypisanie zasobu w **zadaniu A** ma cenę ustaloną za pomocą wartości atrybutu **Rola** o wartości **Lider ds. konsultingu**. Przypisanie tego samego zasobu w **zadaniu B** ma cenę ustaloną za pomocą wartości atrybutu **Rola** o wartości **Technik sieciowy**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

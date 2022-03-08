@@ -2,24 +2,22 @@
 title: Konfigurowanie integracji aplikacji Project Operations według firm
 description: W tym temacie zamieszczono informacje dotyczące ustawienia integracji danych dotyczących podmiotu prawnego w Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122896"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999419"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurowanie integracji aplikacji Project Operations według firm 
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Ten temat zapozna użytkownika z krokami wymaganymi do skonfigurowania Dynamics 365 Project Operations dla każdego podmiotu prawnego.
+Ta temat przeprowadzi Cię przez kroki wymagane do skonfigurowania rozwiązania Dynamics 365 Project Operations dla firmy.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Uruchamianie klawiszy funkcji w Dynamics 365 Finance
 
@@ -51,3 +49,6 @@ Każdy podmiot prawny korzystający z Project Operations w Dynamics 365 Customer
   - **Domyślne ustawienia typu fakturowania**: Project Operations korzysta ze stałego zestawu wartości domyślnych typu fakturowania, które muszą być mapowane na właściwości wierszy Finance. Utwórz rekord dla każdego typu fakturowania: **nieokreślony**, **odpłatny**, **nieodpłatny**, **bezpłatny** i **niedostępny**.
   - **Wartości domyślne kategorii projektów**: należy wybrać domyślne kategorie projektów, które mają być używane dla poszczególnych typów transakcji. Te wartości domyślne będą używane w **Arkuszu integracji Project Operations** i w oszacowaniach, w których kategoria transakcji nie jest określona dla wartości rzeczywistej projektu.
   - **Prognozy**: należy wybrać model prognozy, który ma być używana na potrzeby oszacowań czasu i wydatków.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Zarządzaj zasobami
 description: W tym temacie zamieszczono informacje dotyczące sposobu zarządzania zasobami.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37377367751592fc533447748b80b124cb6548ad
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 548ee7db1c8ca14f1b88d76a534d2922549eba138659e67a84cd89e6f7ee2170
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151356"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998519"
 ---
 # <a name="manage-resources"></a>Zarządzaj zasobami
 
@@ -60,34 +58,34 @@ Wykonaj te kroki, aby określić wymagane kwalifikacje dla zasobu ogólnego w pr
 
 1. Na stronie **projekty** na karcie **zespół** wybierz opcję **nowy**, aby zarezerwować zasób ogólny.
 
-    ![Zasób ogólny zarezerwowany w zespole](media/Resource-Management-image9.png)
+    ![Zasób ogólny zarezerwowany w zespole.](media/Resource-Management-image9.png)
 
 2. W widoku **wszyscy członków zespołu** w kolumnie **wymagania dotyczące zasobu** wybierz łącze, aby dodać wymagane umiejętności dla zasobu ogólnego.
 
-    ![Łącze do wymagań](media/Resource-Management-image10.png)
+    ![Łącze do wymagań.](media/Resource-Management-image10.png)
 
 3. Na wyświetlonej stronie **Wymagania dotyczące zasobu** w siatce **umiejętności** wybierz wielokropek (**...**), a następnie wybierz opcję **Dodaj nową cechę wymagania**, aby dodać wymagane umiejętności dla swojego dewelopera.
 
-    ![Polecenie dodawania nowej cechy wymagania](media/Resource-Management-image11.png)
+    ![Polecenie dodawania nowej cechy wymagania.](media/Resource-Management-image11.png)
 
 4. W oknie dialogowym **szybkie tworzenie: cecha**, które zostanie wyświetlone, w polu **cecha** wybierz wymagane umiejętności. Następnie w polu **Wartość klasyfikacji** wybierz poziom biegłości dla tej umiejętności. Na koniec w polu **Wymaganie zasobu** należy ustawić wymagania dotyczące zasobów źródłowych z jednostek organizacyjnych lub nawet nazwanych zasobów. Kiedy skończysz, wybierz **Zapisz**.
 
-    ![Okno dialogowe Szybkie tworzenie: cecha wymagania](media/Resource-Management-image12.png)
+    ![Okno dialogowe Szybkie tworzenie: cecha wymagania.](media/Resource-Management-image12.png)
 
 5. Na stronie **Zapotrzebowania zasobu** wybierz pozycję **Rezerwuj**, aby spełnić wymagania dotyczące zasobu.
 
-    ![Przycisk Rezerwuj na stronie zapotrzebowanie zasobu](media/Resource-Management-image13.png)
+    ![Przycisk Rezerwuj na stronie zapotrzebowanie zasobu.](media/Resource-Management-image13.png)
 
     Można też wybrać zasób ogólny w siatce **wszystkie członków zespołu**, a następnie wybrać opcję **Rezerwuj**.
 
-    ![Przycisk Rezerwuj nad siatką wszystkich członków zespołu](media/Resource-Management-image14.png)
+    ![Przycisk Rezerwuj nad siatką wszystkich członków zespołu.](media/Resource-Management-image14.png)
 
     > [!NOTE]
     > W tym przykładzie jest 40 wymaganych godzin, ale nie ma rzeczywistych zarezerwowanych godzin, ponieważ zasoby ogólne nie mają rezerwacji. Oprócz tego nie ma przydzielonych godzin, ponieważ zasób ogólny został dodany bezpośrednio do zespołu. Nie został dodany przy użyciu przypisania zadania.
 
     Na stronie **asystent planowania** można filtrować dostępne zasoby według wymagań określonych w zapotrzebowaniu zasobu. Zasoby są sortowane zgodnie z parametrami sortowania określonymi na tablicy harmonogramu.
 
-    ![Strona Asystent planowania](media/Resource-Management-image15.png)
+    ![Strona Asystent planowania.](media/Resource-Management-image15.png)
 
     Oto kilka często używanych filtrów:
 
@@ -97,23 +95,23 @@ Wykonaj te kroki, aby określić wymagane kwalifikacje dla zasobu ogólnego w pr
 
 6. Jeśli wyniki pierwszego wyszukiwania wymagania nie są zadowalające, można zmienić kryteria filtrowania. Rozwiń okienko **widoku filtra** po lewej stronie, a następnie wybierz pozycję **Wyszukaj** w celu wyszukania dodatkowych zasobów.
 
-    ![Okienko widoku filtra](media/Resource-Management-image16.png)
+    ![Okienko widoku filtra.](media/Resource-Management-image16.png)
 
 7. Aby zmienić sposób sortowania wyników, wybierz **Sortuj**.
 
-    ![Polecenie Sortuj](media/Resource-Management-image17.png)
+    ![Polecenie Sortuj.](media/Resource-Management-image17.png)
 
 8. Wybierz zasoby według zapotrzebowania określonego w zapotrzebowaniu, tak jak to pokazano u górnej części siatki. Użytkownik może wyczyścić wybrane komórki siatki i zostawić otwartą dyspozycyjność zasobu. Tylko jeden zasób jednocześnie może być zaznaczony jako zarezerwowany.
 
 9. Wybierz **Rezerwuj**, aby zarezerwować wybrany zasób i pozostaw otwartą tablicę harmonogramu, aby mieć możliwość wybrania dodatkowych zasobów. Możesz również wybrać opcję **Zarezerwuj i wyjdź**, aby zarezerwować wybrany zasób i zamknąć tablicę harmonogramu.
 
-    ![Zasób do zarezerwowania](media/Resource-Management-image19.png)
+    ![Zasób do zarezerwowania.](media/Resource-Management-image19.png)
 
     Otrzymujesz powiadomienie dotyczące zarezerwowanych godzin. Wskaźniki popytu pokazują, w jakim stopniu zapotrzebowanie na rezerwację zostało spełnione oraz jaka część pozostaje. Użytkownik może również sprawdzić, jaka część dyspozycyjności wybranego zasobu jest zużywana. Wybierz opcję **rozwiń**, aby wyświetlić więcej szczegółów dotyczących rezerwacji zasobów.
 
 9. Powróć do widoku **wszystkich członków zespołu**. W siatce zauważ, że zasób ogólny został zastąpiony przez nazwany zasób, a 40 godzin zostało zarezerwowanych dla tego zasobu.
 
-    ![Zaktualizowanie siatki wszystkich członków zespołu](media/Resource-Management-image20.png)
+    ![Zaktualizowanie siatki wszystkich członków zespołu.](media/Resource-Management-image20.png)
 
     > [!NOTE]
     > Nie są wyświetlane przypisane godziny, ponieważ są one zarezerwowane bezpośrednio w zespole. Nie zostały one zarezerwowane przy użyciu przypisania zadania.
@@ -124,15 +122,15 @@ W PSA można tworzyć zadania i przypisywać im zasoby ogólne. W ten sposób za
 
 1. Na stronie **projekty** na karcie **harmonogram** wybierz pozycję **Dodaj**, aby utworzyć zadanie.
 
-    ![Utworzono nowe zadanie](media/Resource-Management-image21.png)
+    ![Utworzono nowe zadanie.](media/Resource-Management-image21.png)
 
 2. W polu **zasoby** wybierz symbol **selektora zasobów**. Zostanie wyświetlony selektor zasobów zawierający listę istniejących członków zespołu danego projektu.
 
-    ![Selektor zasobów](media/Resource-Management-image22.png)
+    ![Selektor zasobów.](media/Resource-Management-image22.png)
 
 3. Wprowadź nazwę nowego zasobu ogólnego i wybierz pozycję **Utwórz.**
 
-    ![Wprowadzona nazwa nowego zasobu ogólnego](media/Resource-Management-image23.png)
+    ![Wprowadzona nazwa nowego zasobu ogólnego.](media/Resource-Management-image23.png)
 
 4. W oknie dialogowym **szybkie tworzenie: członek zespołu projektu**, które zostanie wyświetlone, w polu **Rola** wybierz rolę dla zasobu ogólnego. W polu **Jednostka zasobów** wybierz jednostkę organizacyjną dla zasobu ogólnego. Następnie wybierz opcję **Zapisz**.
 
@@ -144,52 +142,52 @@ W PSA można tworzyć zadania i przypisywać im zasoby ogólne. W ten sposób za
 
     Na karcie **zespół** zobaczysz nowego ogólnego członka zespołu. Zauważ, że ma on tylko przypisane godziny. Te godziny to suma wszystkich zadań przydzielonych do ogólnego członka zespołu. Ogólny członek zespołu nie ma jeszcze wymaganych godzin ani wymagania zasobu.
 
-    ![Ogólny członek zespołu na karcie Zespół](media/Resource-Management-image26.png)
+    ![Ogólny członek zespołu na karcie Zespół.](media/Resource-Management-image26.png)
 
 5. Teraz możesz przypisać ogólnego członka zespołu do innych zadań za pomocą selektora zasobów.
 
-    ![Ogólny członek zespołu w selektorze zasobów](media/Resource-Management-image27.png)
+    ![Ogólny członek zespołu w selektorze zasobów.](media/Resource-Management-image27.png)
 
     Po zakończeniu przypisywania ogólnego zasobu do zadań można wygenerować zapotrzebowanie zasobu dla zasobu ogólnego.
 
 5. Na karcie **zespół** wybierz zasób ogólny i wybierz opcję **Generuj zapotrzebowanie.**
 
-    ![Polecenie Generuj wymaganie](media/Resource-Management-image28.png)
+    ![Polecenie Generuj wymaganie.](media/Resource-Management-image28.png)
 
     Kiedy zapotrzebowanie jest generowane, ogólny członek zespołu będzie dysponować godzinami i łączem dotyczącym wymagania zasobu.
 
-    ![Łącze wymaganie zasobu](media/Resource-Management-image29.png)
+    ![Łącze wymaganie zasobu.](media/Resource-Management-image29.png)
 
     Po zarezerwowaniu nazwanego zasobu zasób ogólny jest usuwany z zespołu i zastępowany zasobem o nazwie.
 
-    ![Zasób ogólny zastąpiony zasobem nazwanym](media/Resource-Management-image30.png)
+    ![Zasób ogólny zastąpiony zasobem nazwanym.](media/Resource-Management-image30.png)
 
     Na karcie **harmonogram** przydział zasobu ogólnego zostanie usunięty i zastąpiony nazwanym zasobem.
 
-    ![Przypisania zasobu ogólnego zastąpione zasobem o nazwie na karcie harmonogramu](media/Resource-Management-image31.png)
+    ![Przypisania zasobu ogólnego zastąpione zasobem o nazwie na karcie harmonogramu.](media/Resource-Management-image31.png)
 
     > [!NOTE]
     > To zachowanie występuje tylko wtedy, gdy nazwany zasób jest w pełni zarezerwowany dla wymagania zasobu ogólnego. Gdy zasób o nazwie częściowo zastępuje zapotrzebowanie na zasób ogólny lub wiele nazwanych zasobów zastępuje zapotrzebowanie na zasób ogólny, zasób ogólny pozostaje przydzielony do zadania.
 
     Na poniższym rysunku zaplanowano 80-godzinne zadanie z czasem trwania 5 dni (16 godzin dziennie) i został przypisany do zasobu ogólnego o nazwie **"funkcjonalny**".
 
-    ![80-godzinne, 5-dniowe zadanie przypisane do zasobu ogólnego Funkcjonalny](media/Resource-Management-image32.png)
+    ![80-godzinne, 5-dniowe zadanie przypisane do zasobu ogólnego Funkcjonalny.](media/Resource-Management-image32.png)
 
     W przypadku generowania wymagania będzie ono obejmowało 80 godzin w ciągu 5 dni.
 
-    ![Wygenerowane zapotrzebowanie na 80 godzin w ciągu 5 dni](media/Resource-Management-image33.png)
+    ![Wygenerowane zapotrzebowanie na 80 godzin w ciągu 5 dni.](media/Resource-Management-image33.png)
 
     Ponieważ dostępne zasoby pracują tylko po 8 godzin dziennie, do spełnienia zapotrzebowania potrzeba dwóch zasobów.
 
-    ![Drugi zasób](media/Resource-Management-image35.png)
+    ![Drugi zasób.](media/Resource-Management-image35.png)
 
     Na karcie **zespół** zobaczysz, że zasób ogólny nie ma wymaganych godzin, ale przydzielone godziny wciąż są wyświetlane razem z dwoma nazwanymi zasobami, które zrealizują zapotrzebowanie.
 
-    ![Dwa nazwane zasoby na karcie zespół](media/Resource-Management-image36.png)
+    ![Dwa nazwane zasoby na karcie zespół.](media/Resource-Management-image36.png)
 
     Na karcie **Harmonogram** zasób ogólny pozostaje przydzielony do zadania.
 
-    ![Zasoby ogólne na karcie Harmonogram](media/Resource-Management-image37.png)
+    ![Zasoby ogólne na karcie Harmonogram.](media/Resource-Management-image37.png)
 
 PSA nie przypisuje obu zasobów do zadania, ponieważ to zachowanie mogłoby spowodować wygenerowanie mniej przewidywalnego harmonogramu. W tym prostym przykładzie łatwo podzielić godziny równo na dwa zasoby. Jednak w bardziej złożonych scenariuszach obejmujących wiele zadań i wiele zasobów, PSA musi wprowadzić założenia dotyczące alokacji rezerwacji odbieranych przez wiele zasobów na wiele zadań.
 
@@ -221,13 +219,13 @@ Po dodaniu ogólnego lub nazwanego zasobu do zespołu projektu można zmienić r
 
 1. Na stronie **projekty** na karcie **zespół** wybierz opcję członka zespołu, a następnie wybierz **Obsługa rezerwacji**.
 
-    ![Tablica harmonogramu otwarta dla wybranego członka zespołu](media/Resource-Management-image40.png)
+    ![Tablica harmonogramu otwarta dla wybranego członka zespołu.](media/Resource-Management-image40.png)
 
     Zostanie wyświetlona tablica harmonogramu, która pokazuje rezerwacje członków zespołu projektu. Rozwiń rekord członka zespołu w celu wyświetlenia godzin zarezerwowanych dla tego projektu i innych projektów, które zużywają dyspozycyjność członka zespołu.
 
 2. Zaznacz i przeciągnij rezerwację, aby ją wydłużyć lub skrócić. Zostanie otwarte okno dialogowe **Utwórz rezerwację zasobu**, które umożliwia dostosowanie rezerwacji.
 
-    ![Okno dialogowe Utwórz rezerwację zasobu](media/Resource-Management-image41.png)
+    ![Okno dialogowe Utwórz rezerwację zasobu.](media/Resource-Management-image41.png)
 
 3. Kliknij prawym przyciskiem myszy rezerwację. Można użyć menu skrótów do wykonania następujących czynności:
 
@@ -239,7 +237,7 @@ Po dodaniu ogólnego lub nazwanego zasobu do zespołu projektu można zmienić r
 
 Można zmienić domyślny lub niestandardowy stan rezerwacji.
 
-![Polecenie Zmień stan](media/Resource-Management-image42.png)
+![Polecenie Zmień stan.](media/Resource-Management-image42.png)
 
 W PSA dostępne są trzy stany:
 
@@ -259,25 +257,25 @@ W PSA dostępne są trzy stany:
 
 Po wygenerowaniu wymagania zasobu Menedżer projektu może przesłać żądanie zasobu ogólnego, wybierając zasób, a następnie wybierając opcję **przesyłania żądania.**
 
-![Przycisk PRZEŚLIJ ŻĄDANIE](media/Resource-Management-image45.png)
+![Przycisk Prześlij żądanie.](media/Resource-Management-image45.png)
 
 Komentarze dotyczące zasobu można podać menedżerowi zasobów, który realizuje realizację żądania. Po przesłaniu żądania pole **stanu** dla członka zespołu zostanie zmienione na **przesłane.**
 
-![Wprowadzanie opcjonalnych komentarzy](media/Resource-Management-image46.png)
+![Wprowadzanie opcjonalnych komentarzy.](media/Resource-Management-image46.png)
 
 Gdy Menedżer zasobów realizuje żądanie, ogólny członek zespołu zostaje zastąpiony zasobem nazwanym w siatce **wszystkich członków zespołu**.
 
-![Ogólny członek zespołu został zastąpiony przez nazwany zasób na siatce wszystkich członków zespołu](media/Resource-Management-image47.png)
+![Ogólny członek zespołu został zastąpiony przez nazwany zasób na siatce wszystkich członków zespołu.](media/Resource-Management-image47.png)
 
 #### <a name="use-a-resource-proposal-for-resource-requests"></a>Korzystanie z propozycji zasobów na potrzeby żądań zasobów
 
 Zamiast bezpośredniego zarezerwowania zasobu dla żądania zasobu Menedżer zasobów może zaproponować zasób menedżerowi projektu. Menedżer zasobów może użyć tej opcji, jeśli dokładne dopasowania dotyczące zapotrzebowań nie są dostępne. Gdy Menedżer zasobów proponuje dany zasób, Menedżer projektu widzi, że pole **stanu** dla ogólnego członka zespołu jest zmienione na **Wymaga weryfikacji**.
 
-![Stan ogólnego członka zespołu zmieniono na Wymaga weryfikacji](media/Resource-Management-image48.png)
+![Stan ogólnego członka zespołu zmieniono na Wymaga weryfikacji.](media/Resource-Management-image48.png)
 
 Aby wyświetlić zaproponowany zasób wraz z wizualizacją skutków rezerwacji proponowanego zasobu, kliknij dwukrotnie członka zespołu o stanie **Wymaga weryfikacji**. Następnie wybierz kartę **proponowane zasoby**.
 
-![Karta Proponowane zasoby](media/Resource-Management-image49.png)
+![Karta Proponowane zasoby.](media/Resource-Management-image49.png)
 
 Zaznacz pole wyboru **Zaakceptuj wszystkie propozycje**, aby zaakceptować wszystkie proponowane zasoby, lub **Odrzuć wszystkie propozycje**, aby je odrzucić. Jeśli zaakceptujesz zaproponowane zasoby, są one zarezerwowane w projekcie jako członkowie zespołu i zastępują zasoby ogólne.
 
@@ -291,30 +289,30 @@ Czasami Menedżer projektu musi zastąpić zarezerwowanego członka zespołu w p
 1. Na stronie **projekty** na karcie **zespół** wybierz zasób, który wymaga zastąpienia, a następnie wybierz **Obsługa rezerwacji**.
 2. Rozwiń zasób, aby wyświetlić projekty, do których jest przypisany.
 
-    ![Zasób rozwinięty w celu pokazania przydzielonych projektów](media/Resource-Management-image50.png)
+    ![Zasób rozwinięty w celu pokazania przydzielonych projektów.](media/Resource-Management-image50.png)
 
 3. Kliknij prawym przyciskiem myszy projekt, a następnie wybierz polecenie **Zastąp zasób**.
 4. Jeśli znasz zasób, którym chcesz zastąpić bieżący zasób, wybierz lub wpisz nazwę, a następnie wybierz opcję **ponowne przypisanie.**
 
-    ![Określanie zastępstwa zasobu](media/Resource-Management-image51.png)
+    ![Określanie zastępstwa zasobu.](media/Resource-Management-image51.png)
 
     Można również wykonać następujące kroki, aby wyszukać zasób:
 
     1. Wybierz pozycję **Znajdź zastępstwo**.
 
-        ![Wyszukiwanie zastępstwa zasobu](media/Resource-Management-image52.png)
+        ![Wyszukiwanie zastępstwa zasobu.](media/Resource-Management-image52.png)
 
         Asystent harmonogramu zwraca listę dostępnych zastępców. W Asystencie planowania można dalej filtrować dostępne zasoby, aby znaleźć odpowiednie zastępstwo.
 
-        ![Lista dostępnych zastępców](media/Resource-Management-image53.png)
+        ![Lista dostępnych zastępców.](media/Resource-Management-image53.png)
 
     2. Aby zastąpić zasób, wybierz żądany zasób, a następnie wybierz **Zastąp**.
 
-        ![Wybrany zasób na zastępstwo](media/Resource-Management-image54.png)
+        ![Wybrany zasób na zastępstwo.](media/Resource-Management-image54.png)
 
     Rezerwacje i przypisania są zastępowane nowym zasobem.
 
-    ![Rezerwacje i przypisania są zastępowane nowym zasobem](media/Resource-Management-image55.png)
+    ![Rezerwacje i przypisania są zastępowane nowym zasobem.](media/Resource-Management-image55.png)
 
 ## <a name="reconcile-team-member-bookings-and-assignments"></a>Uzgadnianie rezerwacji i przypisań członka zespołu
 
@@ -322,7 +320,7 @@ Członkowie zespołu, rezerwacje i przydziały są luźno sprzężone. Innymi s�
 
 PSA oferuje kartę **Uzgadnianie**, która pozwala menedżerom projektu uzgadniać rezerwacje członków zespołu i ich przypisania w zespołach projektów.
 
-![Karta Uzgadnianie](media/Resource-Management-image56.png)
+![Karta Uzgadnianie.](media/Resource-Management-image56.png)
 
 Na karcie **Uzgadnianie** są wyświetlane rezerwacje i przypisania na wszystkich poziomach szczegółowości, aż do poszczególnych zadań. W komórkach widać godziny, które reprezentują okresy od miesięcy aż po dni.
 
@@ -337,10 +335,13 @@ W niektórych przypadkach, kiedy oglądasz czas na wyższym poziomie niż poziom
 
 Po wyświetleniu wyższych poziomów czasu na karcie **Uzgadnianie** widać wskaźnik komórki informujący o różnicach na niższych poziomach czasu. Dwukrotne kliknięcie komórki umożliwia powiększenie i wyświetlenie różnicy. Następnie kliknij prawym przyciskiem myszy, aby pomniejszyć. Zaznaczając zasób, a następnie korzystając z przycisku **Następna różnica** z paska narzędzi siatki można przejść do następnej różnicy między rezerwacjami a przydziałami danego zasobu. Następnie można skorzystać z opcji **Poprzednia różnica**, aby wrócić. Istnieje również możliwość wyłączenia wskaźnika różnic i zachowania nawigacji w obszarze **ustawienia.**
 
-![Wskaźnik różnic](media/Resource-Management-image57.png)
+![Wskaźnik różnic.](media/Resource-Management-image57.png)
 
 W sytuacjach, gdy istnieją przypisania zadań dla zasobu, ale nie ma rezerwacji, na stronie **Projekty** na karcie **Uzgadnianie** można wybrać niedobór rezerwacji, a następnie kliknąć przycisk **Rozszerz rezerwację**. Zostanie wyświetlone okno dialogowe **Rozszerz rezerwację**, w którym przedstawiono rezerwację potrzebną do wyeliminowania problemu niedoboru zasobu. Okno to pokazuje również istniejące rezerwacje zasobu we wszystkich projektach lub innych encjach zaplanowania. W przypadku wybrania opcji **OK**, aby utworzyć rezerwację zasobu niezależnie od dostępności tego zasobu, może wystąpić rezerwacja ponad dyspozycyjność.
 
-![Okno dialogowe Rozszerz rezerwację](media/Resource-Management-image58.png)
+![Okno dialogowe Rozszerz rezerwację.](media/Resource-Management-image58.png)
 
 Następnie menedżer projektu lub menedżer zasobów może za pomocą tablicy harmonogramu rozwiązać sytuację, w której zasób został zarezerwowany ponad jego dyspozycyjność.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

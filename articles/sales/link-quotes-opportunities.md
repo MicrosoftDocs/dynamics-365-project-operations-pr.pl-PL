@@ -2,18 +2,16 @@
 title: Tworzenie ofert projektu na podstawie szans sprzedaży
 description: Ta temat zawiera informacje na temat tworzenia ofert z poziomu szans sprzedaży.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118126"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999644"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Tworzenie ofert projektu na podstawie szans sprzedaży
 
@@ -56,3 +54,6 @@ Istniejącą ofertę można połączyć z szansą sprzedaży. Wykonaj poniższe 
    Po przeniesieniu szansy sprzedaży do danego etapu można wybrać tę ofertę z listy ofert skojarzonych z daną szansą sprzedaży. Zaznaczenie tej oferty oznacza, że jest ona wybrana do dalszego przetwarzania.
 
    Wszystkie pozostałe oferty skojarzone z szansą sprzedaży będą nadal dostępne i aktywne do chwili wygrania jednej z nich. Użytkownik może przenieść proces sprzedaży z powrotem na poprzedni etap **Kwalifikowanie** i wybrać inną ofertę.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

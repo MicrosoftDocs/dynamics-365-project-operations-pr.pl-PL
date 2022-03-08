@@ -2,18 +2,17 @@
 title: Omówienie asystenta planowania
 description: W tym temacie zamieszczono informacje dotyczące pracy z asystentem planowania zasobów w celu ich rezerwowania.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: 309cb94ea30c525daccf032c625004c42fb408dada4b337b65d8f36d76219669
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081868"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990239"
 ---
 # <a name="schedule-assistant-overview"></a>Omówienie asystenta planowania
 
@@ -25,7 +24,7 @@ Po zidentyfikowaniu odpowiednich zasobów, menedżer zasobów lub menedżer proj
 
 ## <a name="prerequisites"></a>Wymagania wstępne
 
-Asystent planowania jest częścią rozwiązania Universal Resource Scheduling. To rozwiązanie jest dołączone i instalowane wraz z Dynamics 365 Project Operations, Dynamics 365 Field Service i Dynamics 365 Customer Service.
+Asystent planowania jest częścią rozwiązania Universal Resource Scheduling. To rozwiązanie jest dołączone i instalowane z rozwiązaniami Dynamics 365 Project Operations, Dynamics 365 Field Service oraz Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Dopasowywanie wymagań i zasobów
 
@@ -57,3 +56,6 @@ W okienku filtru są wyświetlane opcje związane z pracą, w tym:
 -   Firma zasobów
 -   Typy zasobów
 -   Preferowane zasoby
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

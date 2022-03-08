@@ -2,6 +2,8 @@
 title: Rezerwacje zasobów i ich powiązania z przypisaniami zadań
 description: W tym temacie zamieszczono informacje dotyczące sposobu zarządzania nazwanymi zasobami, rezerwacjami zasobów i przypisaniami zadań oraz relacji między tymi encjami.
 author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -16,16 +18,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 72c741d8a0644589004ba20afbcd0baff7cfcb06
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 03285d324e855ecf933b155559e5a4826420ab25
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993204"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082199"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Rezerwacje zasobów i ich powiązania z przypisaniami zadań
 
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Istnieją dwa sposoby rezerwowania nazwanych zasobów do zespołu projektu oraz przypisywania im zadań projektu:
 
@@ -66,6 +67,3 @@ Ponieważ rezerwacje i przypisania nie są ściśle powiązane, istnieje możliw
 > [!NOTE]
 > Po przeniesieniu zadania, dla którego użytkownik sam sporządził rozkład, rozkłady nie zostaną zachowane. Zarysy są generowane według kalendarza projektu, aby uwzględniać zmiany wprowadzone w godzinach pracy i dniach wolnych od pracy. Jest to ustawienie fabryczne, ponieważ system nie zna przeznaczenia oryginalnego rozkładu i nie może określić, czy warto zachować ten rozkład dla nowego przedziału czasu. Ponieważ rezerwacje i przypisania nie są połączone, rezerwacje zachowują oryginalne rozkłady rezerwacji. W tym przypadku będziesz musiał anulować i ponownie zarezerwować dla nowego zarysu przypisania.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

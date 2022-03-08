@@ -2,19 +2,17 @@
 title: Omówienie wydatków
 description: Ta temat zawiera informacje na temat funkcji Wydatków w Project Operations.
 author: stsporen
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 2a26b321e15080cc6a4a6a3ed410be175e790a1b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764922"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995409"
 ---
 # <a name="expense-home-page"></a>Strona główna wydatku
 
@@ -44,3 +42,6 @@ Aby uzyskać więcej informacji, zobacz temat [Pozycja wydatek (uproszczone)](ba
 
 ## <a name="determine-your-expense-deployment"></a>Określenie typu wdrażania wydatków
 Aby sprawdzić, czy uruchomiono podstawowe wdrożenie zarządzania wydatkami, należy sprawdzić, czy adres URL programu kończy się rozszerzeniem **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

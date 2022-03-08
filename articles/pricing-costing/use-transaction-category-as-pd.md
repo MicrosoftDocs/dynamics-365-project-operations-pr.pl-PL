@@ -2,18 +2,16 @@
 title: Używanie kategorii transakcji jako wymiaru kalkulacji cen
 description: Ten temat zawiera informacje na temat sposobu używania pola kategorii transakcji jako wymiaru kalkulacji cen.
 author: rumant
-manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514012"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996134"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Używanie kategorii transakcji jako wymiaru kalkulacji cen
 
@@ -50,3 +48,6 @@ W poniższej tabeli wymieniono wszystkie gotowe formularze i widoki według encj
 2. Na stronie **Parametry** na karcie **Wymiary kalkulacji cen oparte na kwocie** sprawdź, czy siatka pokazuje rekordy z encji **Wymiary kalkulacji cen**.
 3. Dodaj pozycję **Kategoria transakcji** do tej listy, a w polach **Ma zastosowanie do kosztu** i **Ma zastosowanie do sprzedaży** ustaw wartość **Tak**.
 4. W polu **Typ wymiaru** zaznacz opcję **Oparty na kwocie**, a następnie dla ustawienia **Kategoria transakcji** wybierz priorytet powiązany z kosztem i sprzedażą.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

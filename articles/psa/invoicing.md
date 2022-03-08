@@ -2,12 +2,10 @@
 title: Fakturowanie w Project Service Automation
 description: Ten temat zawiera informacje o fakturowaniu.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151401"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985514"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturowanie w Project Service Automation
 
@@ -52,7 +50,7 @@ Wykonaj ten krok, aby utworzyć fakturę dla konkretnego kontraktu dotyczącego 
 
 - Na stronie listy **kontrakty projektów** otwórz kontrakt projektu, a następnie wybierz pozycję **Utwórz fakturę**.
 
-    ![Tworzenie faktur projektu dla konkretnego kontraktu dotyczącego projektu](media/CreateProjectInvoicesOneByOne.png)
+    ![Tworzenie faktur projektu dla konkretnego kontraktu dotyczącego projektu.](media/CreateProjectInvoicesOneByOne.png)
 
     Faktura jest generowana dla wszystkich transakcji w ramach wybranego kontraktu dotyczącego projektu mających status **gotowe do zafakturowania**. Do tych transakcji należą między innymi pozycje czas, wydatki, punkty kontrolne i wiersze kontraktu opartego na produktach.
 
@@ -60,7 +58,7 @@ Wykonaj te kroki, aby utworzyć zbiorczo faktury.
 
 1. Na stronie listy **kontrakty projektów** wybierz co najmniej jeden kontrakt projektu, dla którego chcesz utworzyć fakturę, a następnie wybierz pozycję **Utwórz faktury projektu**.
 
-    ![Tworzenie zbiorczych faktur projektów](media/CreateProjectInvoicesBulk.png)
+    ![Tworzenie zbiorczych faktur projektów.](media/CreateProjectInvoicesBulk.png)
 
     Komunikat ostrzegawczy informuje, że podczas tworzenia faktur może nastąpić opóźnienie. Proces również jest widoczny.
 
@@ -117,3 +115,6 @@ Po potwierdzeniu faktury korygującej oryginalna rozliczona wartość rzeczywist
 
 - Rozliczona wartość rzeczywista za sześć godzin.
 - Nierozliczona sprzedaż za pozostałe dwie godziny. Ta transakcja może być rozliczona później lub oznakowana jako niepłatna, w zależności od ustaleń z klientem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

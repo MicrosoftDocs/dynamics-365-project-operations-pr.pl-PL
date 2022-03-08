@@ -2,8 +2,6 @@
 title: Kalkulacja cen w katalogu produktów
 description: W tym temacie przedstawiono informacje na temat sposobu funkcjonowania aparatu kalkulacji cen w katalogu produktów w programie Dynamics 365 Project Service Automation (PSA).
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151221"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000184"
 ---
 # <a name="product-catalog-pricing"></a>Kalkulacja cen w katalogu produktów 
 
@@ -46,7 +44,7 @@ Produkty z katalogu produktów można dodawać do różnych cenników. Pozycje c
 
 Program PSA obsługuje różne opcje zaokrąglania, gdy ceny są skonfigurowane jako funkcje ceny katalogowej, kosztu standardowego lub kosztu bieżącego. W odniesieniu do pozycji cenników można nie tylko stosować wiele metod kalkulacji cen i opcji zaokrąglania, ale również łączyć z nimi listy rabatów. 
 
-> ![Dodawanie produktów z katalogu do różnych cenników](media/basic-guide-16.png)
+> ![Dodawanie produktów z katalogu do różnych cenników.](media/basic-guide-16.png)
 
 Podczas tworzenia nowego cennika niestandardowego dla oferty poprzez wybranie opcji **Utwórz niestandardową kalkulację cen** na stronie **Oferta projektu** program PSA tworzy kopię cennika, a w polu **Encja** w nagłówku nowego cennika ustawia wartość **Encja sprzedaży**. Do nazwy nowego cennika jest dołączana nazwa oferty oraz sygnatura czasowa. Nazwy nowego cennika i nazwy oferty można również używać w niestandardowych przepływach pracy w celu inicjowania dodatkowej weryfikacji i zatwierdzania ofert korzystających z niestandardowej kalkulacji cen.
 
@@ -64,3 +62,6 @@ Encje Szansa sprzedaży, Oferta i Kontrakt projektu używają następującej kol
 Domyślnie w polu **Produkt** w wierszu oferty znajduje się lista wszystkich aktywnych produktów z cennika produktów w ofercie. Jeśli produkt został zdezaktywowany lub jest wersją roboczą, nie jest on wymieniony na tej liście, nawet jeśli znajduje się w cenniku. 
 
 Wiersze katalogu produktów są dodawane jako wiersze faktury w pierwszej fakturze tworzonej dla kontraktu na projekt. W fakturze w wersji roboczej te wiersze faktury można usuwać. W takim przypadku wiersze będą wyświetlane na kolejnej fakturze do momentu ich zafakturowania lub do chwili wysłania faktury do klienta. W rozwiązaniu PSA nie można zafakturować częściowej ilości w wierszu faktury za produkt. Podczas fakturowania wierszy produktów z kontraktu na projekt są tworzone wartości rzeczywiste. Jednak te wartości rzeczywiste nie są łączone z pokrewną encją projektu. Innymi słowy pozycje kontraktu projektu oparte na produktach są niezależne od jakiegokolwiek użycia opartego na projekcie. Program PSA nie śledzi zużycia materiałów w projektach.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

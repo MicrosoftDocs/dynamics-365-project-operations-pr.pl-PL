@@ -1,5 +1,5 @@
 ---
-title: Kontrakty oparte na zaliczkach i zatrzymaniach
+title: Kontrakty oparte na zaliczkach i zatrzymaniach — wersja uproszczona
 description: Ten temat zawiera informacje na temat modeli kontraktowania opartych na zatrzymaniach lub zaliczkach w Project Operations.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e098d25a3e96adf2a1b8e43a19da3a14f446fba9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272356"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180880"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Kontrakty oparte na zaliczkach i zatrzymaniach
+# <a name="advances-and-retainer-based-contracts---lite"></a>Kontrakty oparte na zaliczkach i zatrzymaniach — wersja uproszczona
 
 
-_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
+_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-Aplikacja Dynamics 365 Project Operations obsługuje kontrakty oparte na zatrzymaniach. Kontrakt oparty na zatrzymania jest wynegocjowanym zestawem równych płatności, które będą zafakturowane klientowi w czasie trwania projektu. Ten typ kontraktu jest zwykle używany w przypadku modeli fakturowania typu czas i materiały lub modelach rozliczania opartych na zużyciu, w przypadku których istnieje konieczność nadania klientowi prognozowanego harmonogramu fakturowania i płatności. Rzeczywiste przychody za każdy okres są uzgadniane względem płatności otrzymanej od klienta na początku okresu. W zależności od koncepcji modelu fakturowania czasu i materiału wartości przychodów naliczane w każdym okresie mogą być różne od poniesionych kosztów. Jeśli naliczany przychód wynosi więcej niż przyjęta kwota na początku okresu, firma dostarczająca projekt może:
+Dynamics 365 Project Operations obsługuje kontrakty oparte na zatrzymaniach. Kontrakt oparty na zatrzymania jest wynegocjowanym zestawem równych płatności, które będą zafakturowane klientowi w czasie trwania projektu. Ten typ kontraktu jest zwykle używany w przypadku modeli fakturowania typu czas i materiały lub modelach rozliczania opartych na zużyciu, w przypadku których istnieje konieczność nadania klientowi prognozowanego harmonogramu fakturowania i płatności. Rzeczywiste przychody za każdy okres są uzgadniane względem płatności otrzymanej od klienta na początku okresu. W zależności od koncepcji modelu fakturowania czasu i materiału wartości przychodów naliczane w każdym okresie mogą być różne od poniesionych kosztów. Jeśli naliczany przychód wynosi więcej niż przyjęta kwota na początku okresu, firma dostarczająca projekt może:
 
 - Wystawić klientowi fakturę za kwotę ponad limit 
 - Odroczyć uzgodnienie przychodu do następnego okresu fakturowania, a następnie wykonać jedną końcową fakturę na końcu projektu w odniesieniu do pozostałych nieuzgodnionych przychodów
@@ -37,6 +37,3 @@ Operacja zatrzymania w Project Operations jest niedostępna do momentu zafakturo
 | --- | --- | --- |
 | Dostępna kwota | Kwota, która jest dostępna do użycia w odniesieniu do rekordu zatrzymania lub zaliczki. | Do momentu zafakturowania zaliczki lub zatrzymania nie będzie można tego korzystać, co oznacza, że dostępna kwota będzie wynosić zero. |
 | Kwota użyta | Kwota, która jest już użyta w odniesieniu do rekordu zatrzymania lub zaliczki. | Zaliczka lub zatrzymanie na fakturze z kosztami rzeczywistymi, które będą stanowić część oznaczoną jako już wykorzystana lub zużyta, może zostać częściowo uzgodniona. Pozostała część kwoty zaliczki lub zatrzymania jest dostępna do uzgodnienia na przyszłej fakturze z kosztami rzeczywistymi. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

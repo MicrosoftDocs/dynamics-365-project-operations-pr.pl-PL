@@ -2,11 +2,9 @@
 title: Przechwytywanie potwierdzenia za pomocą funkcji OCR
 description: W tym temat przedstawiono informacje na temat przetwarzania paragonów za pomocą technologii OCR.
 author: suvaidya
-manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499864"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798053"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Przechwytywanie potwierdzenia za pomocą funkcji OCR
 
@@ -87,7 +85,18 @@ Nie, firma Microsoft opracowała ogólny model uczenia maszynowego na potrzeby u
 
 **Gdzie jest udostępniona ta funkcja i gdzie można przetwarzać dane?**
 
-Obecnie obsługiwana lokalizacja to Stany Zjednoczone.
+Dostępność tej funkcji w różnych regionach przedstawiono w poniższej tabeli. Jeśli Twój region nie jest obecnie obsługiwany, prześlij prośbę o nadanie priorytetu dostępności usługi OCR w Twoim regionie. 
+
+| Region | Obsługiwane                         |
+|--------|-----------------------------------|
+| USA    | Tak                               |
+| CAN    | Tak                               |
+| Zjednoczone Królestwo     | Tak                               |
+| AUS    | Tak                               |
+|  EU     | Częściowo. Tylko rachunki w języku angielskim. |
+| Azja   | Nie.                                |
+| Japonia  | Nie.                                |
+| Afryka | Nie.                                |
 
 **Gdzie przesyłane są moje paragony?**
 

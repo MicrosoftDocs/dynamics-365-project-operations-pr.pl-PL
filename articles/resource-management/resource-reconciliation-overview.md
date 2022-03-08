@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
-ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
+ms.openlocfilehash: 0416e93944e7b6686a0e4da1d633188dd51e590b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "4849637"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279376"
 ---
 # <a name="resource-reconciliation-overview"></a>Omówienie uzgadniania zasobów
 
@@ -48,3 +48,6 @@ W sytuacjach, gdy istnieją przypisania zadań dla zasobu, ale nie ma rezerwacji
 Rezerwacje tworzone w ramach akcji **Rozszerzanie rezerwacji** są związane z podstawowymi wymaganiami projektu. Po zainicjowaniu rozszerzenia nie można określić konkretnego wymagania, które musi zostać rozszerzone, ponieważ zasób może być powiązany z więcej niż jednym wymaganiem projektu.
 
 Następnie menedżer projektu lub menedżer zasobów może za pomocą tablicy harmonogramu rozwiązać sytuację, w której zasób został zarezerwowany ponad jego dyspozycyjność.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

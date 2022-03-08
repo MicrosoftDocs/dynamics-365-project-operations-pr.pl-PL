@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 25f1af15c03001a92f96689ff36a3159a5352a46
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147666"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283246"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Praca z modelem danych rozwiązania Project Service Automation
 
@@ -123,3 +123,6 @@ Pracując z encją **Rzeczywiste**, ważne jest, aby rozumieć, jakie transakcje
 Encja **Początkowy rekord transakcji** rejestruje źródło rekordu **Rzeczywiste**, a encja **Połączenie transakcji** rejestruje pokrewne rekordy dla rekordu **Rzeczywiste**. Ponadto rekord **Rzeczywiste** zawiera odwołania do projektu, kontraktu projektu (zamówienia), zasobu, który można zarezerwować oraz klienta.
 
 ![Diagram przedstawiający połączenie transakcji, źródło i rzeczywistą relacje](media/PS-Reporting-image6.png "Diagram przedstawiający połączenie transakcji, źródło i rzeczywistą relacje")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

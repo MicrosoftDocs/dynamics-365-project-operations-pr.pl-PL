@@ -2,18 +2,16 @@
 title: Cenniki domyślne
 description: Ten temat zawiera informacje na temat domyślnych cenników sprzedaży i kosztów w Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c204a8f0364a4be39974b101e834d4465b99f769
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130951"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000494"
 ---
 # <a name="default-price-lists"></a>Cenniki domyślne
 
@@ -21,7 +19,7 @@ _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i 
 
 ## <a name="sales-price-lists"></a>Cenniki sprzedaży
 
-Każda oferta i kontrakt w projekcie w Dynamics 365 Project Operations zawiera domyślny cennik sprzedaży. 
+Każda oferta projektu i umowa w rozwiązaniu Dynamics 365 Project Operations zawiera domyślny cennik sprzedaży. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Domyślny cennik dla ofert projektu
 System ukończy następujący proces w celu określenia, które cenniki są obowiązujące w ofercie:
@@ -57,3 +55,6 @@ Listy kosztów własnych nie są domyślnymi obiektami w Project Operations. Ust
 5. Następnie program analizuje datę obowiązywania cenników odpowiadającą dacie nachodzącego oszacowania lub rzeczywistego wiersza. 
 6. Jeśli istnieje wiele cenników, które obowiązują dla daty oszacowania przychodzącego lub wartości rzeczywistej, wybierany jest cennik utworzony jako ostatni.
 7. Jeśli nie dołączono żadnych list kosztów własnych do parametrów projektu, które pasowałyby do waluty i daty obowiązywania, system domyślnie ustawia stawkę kosztu na zero (0) dla wiersza rzeczywistego lub przychodzącego oszacowania.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

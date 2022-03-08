@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 28890238f9debb96786a31f66dd9a219f88a5338
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679222"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293150"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co nowego w czerwcu 2021 r. — Project Operations dla scenariuszy obejmujących zasoby/nieobejmujących magazynowania
 
@@ -30,7 +30,6 @@ To wydanie zawiera następujące funkcje:
 - Możliwość usuwania [wierszy propozycji faktury projektu dla scenariuszy korekty](../invoicing/correct-project-invoice-proposals.md).
 - Elementy pozycji wydatków odzwierciedlają nazwy podkategorii w raporcie wydatków [Przeprojektowane raporty wydatków — nowe funkcje](../expense/expense-reports-reimagined.md#new-features).
 - Metoda płatności jest dostępna w nowym okienku wydatków podczas tworzenia nowego wydatku.
-- Ogólna dostępność interfejsów API harmonogramu projektów. Ta nowa funkcja umożliwia klientom programowe wykonywanie operacji tworzenia, aktualizowania i usuwania zadań projektu, przydziałów zasobów, zależności zadań i rekordów członków zespołu projektowego. Aby uzyskać więcej informacji, zobacz [Użyj interfejsów API harmonogramu projektu do wykonywania operacji z encjami planowania](../project-management/schedule-api-preview.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations — mapy podwójnego zapisu — aktualizacje
 

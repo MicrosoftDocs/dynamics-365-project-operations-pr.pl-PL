@@ -2,18 +2,16 @@
 title: Rezerwacja do projektu
 description: W tym temacie zamieszczono informacje dotyczące sposobu rezerwowania zasobów do projektu.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 15de5735ba6d25994a68192ebdf80aefec772d6e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131086"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998829"
 ---
 # <a name="book-to-a-project"></a>Rezerwacja do projektu
 
@@ -66,3 +64,6 @@ Jako menedżer projektu być może będziesz musiał zarezerwować zasób do pro
 
 > [!NOTE]
 > W tej metodzie nie są tworzone żadne rezerwacje danego zasobu. Zamiast tego, rezerwacja dodaje go po prostu do zespołu projektu. Po dodaniu członka zespołu do projektu menedżer projektu może użyć funkcji utrzymania rezerwacji lub przedłużenia rezerwacji, aby dodać wymagane rezerwacje do zasobu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

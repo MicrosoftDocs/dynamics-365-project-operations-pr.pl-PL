@@ -2,17 +2,17 @@
 title: Konfigurowanie materiałów niemagazynowanych i oczekujących faktur od dostawcy
 description: W tym temacie wyjaśniono, jak włączyć obsługę materiałów niebędących na stanie magazynowym i oczekujących na faktury dostawcy.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993924"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003244"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurowanie materiałów niemagazynowanych i oczekujących faktur od dostawcy
 
@@ -59,11 +59,11 @@ Jeśli korzystasz ze standardowych danych demonstracyjnych, podczas początkowej
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktywowanie przepływu pracy w celu utworzenia kont na podstawie encji dostawcy
 
-Rozwiązanie Aranżacji podwójnego zapisu zapewnia [Integracja główną dostawców](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Warunkiem działania tej funkcji jest utworzenie danych sprzedawcy w encji **Konta**. Aktywuj proces przepływu pracy szablonu, aby utworzyć dostawców w tabeli **Konta** w sposób opisany w temacie [Przełączanie się pomiędzy projektami dostawców](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Rozwiązanie Aranżacji podwójnego zapisu zapewnia [Integracja główną dostawców](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Warunkiem działania tej funkcji jest utworzenie danych sprzedawcy w encji **Konta**. Aktywuj proces przepływu pracy szablonu, aby utworzyć dostawców w tabeli **Konta** w sposób opisany w temacie [Przełączanie się pomiędzy projektami dostawców](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
 
 ### <a name="set-products-to-be-created-as-active"></a>Ustawianie produktów, które mają być utworzone jako aktywne
 
-Materiały nie magazynowane muszą być skonfigurowane jako **Produkty wydane** w programie Finance. Rozwiązanie Aranżacji podwójnego zapisu daje gotową opcję [integracji wydanych produktów z katalogiem produktów Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Domyślnie produkty z programu Finance są synchronizowane z Dataverse w stanie roboczym. Aby zsynchronizować produkt ze stanem aktywnym, który może być bezpośrednio używany w dokumentach użycia materiałów lub oczekujących fakturach od dostawcy, przejdź do menu **System** > **Administracja** > **Administracja systemu** > **Ustawienia systemowe** i na karcie **Sprzedaż** ustaw opcję **Tworzenie produktów w stanie aktywnym** na **Tak**.
+Materiały nie magazynowane muszą być skonfigurowane jako **Produkty wydane** w programie Finance. Rozwiązanie Aranżacji podwójnego zapisu daje gotową opcję [integracji wydanych produktów z katalogiem produktów Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Domyślnie produkty z programu Finance są synchronizowane z Dataverse w stanie roboczym. Aby zsynchronizować produkt ze stanem aktywnym, który może być bezpośrednio używany w dokumentach użycia materiałów lub oczekujących fakturach od dostawcy, przejdź do menu **System** > **Administracja** > **Administracja systemu** > **Ustawienia systemowe** i na karcie **Sprzedaż** ustaw opcję **Tworzenie produktów w stanie aktywnym** na **Tak**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Konfigurowanie wymagań wstępnych w Finance
 
@@ -88,7 +88,7 @@ W Project Operations można rejestrować szacowanie materiałów i użycie produ
 2. W polu **Typ produktu** wybierz opcję **Element**, a w polu **Podtyp produktu** wybierz opcję **Produkt**.
 3. Wprowadź numer produktu (WRITEIN) i nazwę produktu (Write-in Product).
 4. Wybierz grupę modeli elementów. Upewnij się, że dla wybranej grupy modeli elementów pole **Zasady magazynowe — produkt w magazynie** ma ustawioną wartość **False**.
-5. Wybierz wartości w polach **grupy elementów**, **Grupa rozmiarów magzynowych** i **Śledzenie grupy rozmiarów**. **Rozmiar magazynowania** można stosować tylko dla **placówki** i nie należy ustawiać żadnych rozmiarów śledzenia.
+5. Wybierz wartości w polach **grupy elementów**, **Grupa rozmiarów magzynowych** i **Śledzenie grupy rozmiarów**. Użyj opcji **Wymiar magazynu** tylko dla wartości **Witryna**, a w polu **Śledzenie wymiarów** wybierz opcję **Brak**.
 6. Wybierz wartości w polu **Jednostka magazynowa**, **Jednostka zakupu** i **Jednostka sprzedaży**, a następnie zapisz zmiany.
 7. Na karcie **Plan** ustaw domyślne ustawienia zamówienia, a następnie na karcie **Zapasy** ustaw domyślną witrynę i magazyn.
 8. Przejdź do strony **Zarządzanie projektami i księgowanie** > **Konfiguracja** > **Zarządzanie parametrami projektów i księgowania** oraz otwórz **Project Operations w Dynamics 365 Dataverse**. 

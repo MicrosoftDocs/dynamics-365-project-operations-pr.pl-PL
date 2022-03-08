@@ -2,18 +2,16 @@
 title: Zarządzanie propozycjami faktur projektu
 description: Ten temat zawiera szczegółowe informacje na temat przetwarzania faktur wystawianych dla klientów za pomocą Project Operations dla scenariuszy opartych na zasobach / braku zapasów.
 author: sigitac
-manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089284"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989924"
 ---
 # <a name="manage-project-invoice-proposals"></a>Zarządzanie propozycjami faktur projektu
 
@@ -80,7 +78,8 @@ Wartości **Grupa podatków** i **Grupa podatku towaru** są domyślnie ustawion
     - **Klient** zawsze będzie domyślną grupą podatku fakturowania dla klienta.
     - **Wyszukiwanie**:przeszuka wszystkie powyższe encje na tej liście i wybierz pierwszą dostępną wartość. Wyszukiwanie rozpoczyna się od encji **Projekt**, encji **Kontrakt projektu** oraz encji **Klient**.
 
-- **Grupa podatku produktu o stałej cenie punktów kontrolnych** jest używana, aby domyślna wartość pola wynosiła **Grupa podatku towaru do rozliczania**.
+- **Grupa podatku od sprzedaży — Pozycja etapu o stałej cenie** jest używana jako wartość domyślna w polu **Grupa podatku od sprzedaży** dla punktu kontrolnego rozliczenia. Księgowy może przejrzeć i zmodyfikować tę wartość na stronie **Transakcje na rachunku**. Podczas tworzenia wiersza propozycji sprzedaży na fakturze projektu system używa wartości z transakcji konta.
+ 
 
 ### <a name="financial-dimensions"></a>Wymiary finansowe
 
@@ -132,7 +131,7 @@ Strona **Formatowanie ofert faktur** umożliwia wyświetlanie niestandardowych t
 
 Zarządzanie drukowaniem wykorzystuje różne pliki raportów do drukowania, określania miejsc docelowych i dostosowywania tekstu stopki faktury. Zarządzanie drukowaniem można skonfigurować na poziomie modułu, jednak ustawienia te można zastąpić dla konkretnego klienta, umowy lub propozycji faktury. Aby uzyskać dostęp do tej funkcji na stronie **Propozycji fakturowania projektu**, wybierz **Drukuj** > **Zarządzanie drukowaniem**.
 
-Konfiguracja zarządzania drukowaniem jest wyświetlana jako widok drzewa, w którym na każdym poziomie węzła są wyświetlane dokumenty dostępne do dostosowania. Możesz przypisać niestandardowe wydruki na poziomie modułu, klienta, umowy lub dokumentu propozycji faktury. Aby zmodyfikować wydruk oryginalnego dokumentu, rozwiń żądany węzeł i wybierz **Oryginalny element**. W polu **Format raportu** wybierz format raportu, który ma być używany do drukowania. Możesz użyć niestandardowych formatów raportów, używając [struktury zarządzania dokumentami biznesowymi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Konfiguracja zarządzania drukowaniem jest wyświetlana jako widok drzewa, w którym na każdym poziomie węzła są wyświetlane dokumenty dostępne do dostosowania. Możesz przypisać niestandardowe wydruki na poziomie modułu, klienta, umowy lub dokumentu propozycji faktury. Aby zmodyfikować wydruk oryginalnego dokumentu, rozwiń żądany węzeł i wybierz **Oryginalny element**. W polu **Format raportu** wybierz format raportu, który ma być używany do drukowania. Możesz użyć niestandardowych formatów raportów, używając [struktury zarządzania dokumentami biznesowymi](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Księgowanie propozycji faktur
 
@@ -143,3 +142,6 @@ Aby wyświetlić fakturę przed opublikowaniem, wyczyść pole wyboru **Księgow
 Oprócz strony **Propozycja faktury** można także wystawić propozycję faktury, uruchamiając zadanie okresowe **Księgowanie propozycji faktur**. Aby znaleźć to zadanie, przejdź do **Zarządzanie projektami i księgowanie** > **Okresowe** > **Faktury projektów** > **Zaksięguj propozycje faktur**.
 
 Ta strona zawiera wszystkie propozycje faktur, które są gotowe do zaksięgowania. Ofertę na fakturę można zaplanować, wybierając opcję **Partia**. Ustaw parametr **Przetwarzanie wsadowe** na wartość **Tak** i ustaw cykl przetwarzania wsadowego, wybierając opcję **Cykl**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Odzyskiwanie podatku VAT w zarządzaniu wydatkami
 description: W tym temacie wyjaśniono, jak otrzymywać zwroty od kwalifikujących się transakcji podatkowych (VAT).
 author: suvaidya
-manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 64e9f4091fdf40cc702e83a165fe0a5be5043359348210bbe4afcd8a18055133
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081880"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999374"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Odzyskiwanie podatku VAT w zarządzaniu wydatkami
 
@@ -35,25 +33,25 @@ Po spełnieniu wymagań wstępnych należy wykonać następujące czynności, ab
 4. Wyślij dane zwrotu podatku VAT do dostawcy strony trzeciej, aby wystąpić o międzynarodowy zwrot.
 5. Przetwarzanie wydatków na potrzeby krajowego zwrotu VAT.
 
-W poniższej sekcji zamieszczono przykłady pokazujące sposób wykonywania poszczególnych czynności przez pracowników firmy Contoso.
+Poniższe sekcje zawierają przykłady, które pokazują, jak pracownicy Contoso wykonują poszczególne kroki.
 
 ## <a name="enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Wprowadź informacje podatkowe dotyczące transakcji kartą kredytową, aby zidentyfikować kwalifikujące się do zwrotu transakcje VAT
 
-Nancy jest pracownikiem działu sprzedaży firmy Contoso, który jest zlokalizowany w Stanach Zjednoczonych, ale ostatnio wróciła z podróży służbowej do Zjednoczonego Królestwa. Podczas podróży, Nancy musiałą zapłacić kartą kredytową za posiłki. Nancy musi teraz utworzyć raport wydatków, aby odzyskać koszty.
+Nancy, przedstawicielka handlowa firmy Contoso pracująca w Stanach Zjednoczonych, wróciła niedawno z podróży handlowej do Wielkiej Brytanii. Podczas podróży, Nancy musiałą zapłacić kartą kredytową za posiłki. Nancy musi teraz utworzyć raport wydatków, aby odzyskać koszty.
 
 Kiedy Nancy wprowadza informacje w raporcie wydatków, wybiera **Zjednoczone Królestwo** w polu **Kraju/regionu** na stronie **Edytowanie raportu wydatków**. Lista grup podatku jest następnie filtrowana w taki sposób, aby pokazywała tylko grupy mające zastosowanie do Zjednoczonego Królestwa. Nancy wybiera grupę podatkową **Zjednoczone Królestwo 001**, a następnie wybiera grupę podatkową **Posiłki**. Następnie Nancy dodaje nową transakcję do przetworzenia. Ponieważ w Zjednoczonym Królestwie istnieje tylko jedna grupa podatkowa i grupa podatkowa dla towarów, te informacje są automatycznie wypełniane w raporcie z wydatków Nancy.
 
-Dla każdej zasady z firmy Contoso wszystkie wydatki muszą mieć pasujący przychód. Z tego powodu przy zapisywaniu raportu z wydatków jest wyświetlany komunikat informujący o tym, że musi dołączyć potwierdzenie dla każdej transakcji, która jest wymieniona w raporcie z wydatków. Nancy potwierdza, że dołączyła cyfrowe zdjęcie paragonu każdej transakcji do raportu i przesyła go do zatwierdzenia. Następnie wysyła paragony do zespołu back-office, zajmującego się przetworzeniem zgłoszenia. Ten zespół prześle dane związane ze zwrotem VAT dostawcom strony trzeciej, którzy obsługują zwrot międzynarodowego podatku VAT dla firmy Contoso.
+Zgodnie z zasadami firmy Contoso wszystkie wydatki muszą mieć odpowiedni paragon. Z tego powodu przy zapisywaniu raportu z wydatków jest wyświetlany komunikat informujący o tym, że musi dołączyć potwierdzenie dla każdej transakcji, która jest wymieniona w raporcie z wydatków. Nancy potwierdza, że dołączyła cyfrowe zdjęcie paragonu każdej transakcji do raportu i przesyła go do zatwierdzenia. Następnie wysyła paragony do zespołu back-office, zajmującego się przetworzeniem zgłoszenia. Zespół ten prześle dane dotyczące odzyskiwania podatku VAT do zewnętrznego dostawcy, który składa międzynarodowe deklaracje VAT dla Contoso.
 
 ## <a name="verify-tax-information-and-post-an-expense-report"></a>Sprawdzanie poprawności informacji podatkowych i księgowanie raportu z wydatków
 
-Zanim April, koordynator ds. rozrachunków z dostawcami firmy Contoso będzie mogła zaksięgować raport wydatków, musi podać w nim informacje podatkowe, których póki co brakuje. Otwiera stronę **Szczegółów raportu z wydatków** i widzi zatwierdzony raport o wydatkach Nancy. April otworzy raport wydatków, aby wyświetlić szczegółowe informacje o transakcjach. Widzi, że Nancy nie wprowadziła grupy podatku dla towaru w jednej z transakcji. Ponieważ te informacje nie są dostępne, April nie może opublikować raportu z wydatków. Sprawdza więc stronę **Konfiguracje podatku** w zarządzaniu wydatkami i znajduje grupę podatku dla towaru dla danego kraju/regionu oraz typu transakcji. April może teraz zaksięgować raport z wydatków w księdze głównej.
+Zanim April, koordynator ds. zobowiązań w firmie Contoso, będzie mogła zaksięgować raport wydatków, musi wprowadzić brakujące informacje podatkowe. Otwiera stronę **Szczegółów raportu z wydatków** i widzi zatwierdzony raport o wydatkach Nancy. April otworzy raport wydatków, aby wyświetlić szczegółowe informacje o transakcjach. Widzi, że Nancy nie wprowadziła grupy podatku dla towaru w jednej z transakcji. Ponieważ te informacje nie są dostępne, April nie może opublikować raportu z wydatków. Sprawdza więc stronę **Konfiguracje podatku** w zarządzaniu wydatkami i znajduje grupę podatku dla towaru dla danego kraju/regionu oraz typu transakcji. April może teraz zaksięgować raport z wydatków w księdze głównej.
 
 Po zaksięgowaniu przez April raportu z wydatków tworzony jest element roboczy odzyskiwania VAT. Ten element roboczy jest przypisany do członka zespołu back-office, zajmującego się przetwarzaniem. April otrzymuje komunikat potwierdzający, że księgowanie zakończyło się powodzeniem. W tym komunikacie znajduje się również liczba transakcji VAT zidentyfikowanych podczas zwrotu.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Przetwarzanie wydatku, który może kwalifikować się do międzynarodowego zwrotu podatku VAT
 
-Arnie, członek zespołu back-office w Contoso odpowiedzialny za przetwarzanie wniosków o zwrot potwierdza, czy wszystkie wymagane informacje dotyczące zwrotu podatku VAT są zawarte w raportach wydatków. Otwiera stronę **Zwrotu podatku z wydatków** i wybiera raport o wydatkach, który Nancy przedłożyła. Arnie następnie sprawdza, czy zostały dołączone wszystkie wymagane paragony oraz czy wprowadzono poprawne kody podatku i kodów podatku towaru.
+Arnie, członek zespołu Back-office w Contoso, jest odpowiedzialny za sprawdzanie, czy na raportach wydatków znajdują się wszystkie informacje wymagane do odzyskania podatku VAT. Otwiera stronę **Zwrotu podatku z wydatków** i wybiera raport o wydatkach, który Nancy przedłożyła. Arnie następnie sprawdza, czy zostały dołączone wszystkie wymagane paragony oraz czy wprowadzono poprawne kody podatku i kodów podatku towaru.
 
 Kiedy Arnie otrzymuje papierowe paragony od Nancy, weryfikuje je względem tych cyfrowych, a następnie zmienia stan raportu z wydatków na **Gotowe do zwrotu**.
 
@@ -66,3 +64,6 @@ Kiedy Arnie jest gotowy do wysłania danych z raportu o wydatkach do dostawcy st
 Arnie musi sprawdzić, czy transakcje raportu z wydatków są objęte zwrotem podatku VAT, oraz czy paragony cyfrowe są dołączone do raportów. Aby rozpocząć przetwarzanie kwalifikujących się kosztów dla celów krajowych, Arnie otwiera stronę **Zwrotu podatku od wydatków** i wybiera raport o wydatkach, który wymaga weryfikacji. Weryfikuje, że paragony są wystawione na firmę, nie na pracownika. (Na potrzeby zwrotu VAT paragony muszą być wystawione na firmę.) Arnie następnie sprawdza, czy zostały dołączone wszystkie wymagane paragony oraz czy wprowadzono poprawne kody podatku i kodów podatku towaru.
 
 Kiedy Arnie otrzymuje paragony na papierze, zmienia stan raportu z wydatków na **Gotowy do zwrotu**. Następnie może zgłosić zwrot w odpowiednim urzędzie skarbowym. W tym przypadku odpowiednim urzędem skarbowym w Stanach Zjednoczonych jest Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

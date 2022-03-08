@@ -2,8 +2,6 @@
 title: Proponowanie zasobów projektu
 description: W tym temacie zamieszczono informacje dotyczące proponowania zasobów do projektu.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147531"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997974"
 ---
 # <a name="propose-project-resources"></a>Proponowanie zasobów projektu
 
@@ -113,3 +111,6 @@ Program Dynamics 365 Project Service Automation korzysta z aparatu Universal Res
 Aby wyświetlić więcej informacji na temat konkretnego zasobu, kliknij go prawym przyciskiem myszy, a zostanie otwarta karta zasobu.
 
 ![Karta zasobu](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

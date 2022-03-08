@@ -2,8 +2,6 @@
 title: Oferty i wiersze ofert
 description: Ta temat zawiera informacje o ofertach i wierszach oferty.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145146"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995459"
 ---
 # <a name="quotes-and-quote-lines"></a>Oferty i wiersze ofert
 
@@ -86,7 +84,7 @@ Profesjonalne organizacje obsługi klienta zazwyczaj składają oferty i wystawi
 
 Jedną lub więcej klasyfikacji transakcji można skojarzyć z każdym wierszem oferty. Po wygraniu oferty mapowanie między wierszem klasyfikacji transakcji a pozycją oferty jest przenoszone do pozycji kontraktu.
  
-> ![Zrzut ekranu z mapowaniami typów transakcji na oferty i pozycje kontraktu](media/basic-guide-5.png)
+> ![Zrzut ekranu z mapowaniami typów transakcji na oferty i pozycje kontraktu.](media/basic-guide-5.png)
   
 Na przykład oferta może zawierać następujące dwa wiersze: 
 - Konsultacja, w której stosowana jest metoda fakturowania czasu i materiałów, w której stosuje się klasyfikacje dotyczące godzin i transakcji opłat. Na przykład wszystkie transakcje czasu i opłaty dotyczące przykładowego projektu **implementacji systemu Dynamics AX** są zafakturowane na klienta na podstawie użytego czasu i materiałów. 
@@ -131,3 +129,6 @@ W przypadku wiersza oferty o stałej cenie można użyć siatki **harmonogramu f
 - Aby utworzyć zestawienia faktur, które są równo podzielone, wybierz częstotliwość faktur, wprowadź datę rozpoczęcia fakturowania w wierszu oferty i wybierz **żądaną datę wykonania** dla oferty w sekcji **podsumowania** nagłówka oferty. Następnie należy wybrać opcję **generowania okresowych punktów kontrolnych** w celu utworzenia równo podziału punktów kontrolnych na podstawie wybranej częstotliwości faktur. 
 - Aby utworzyć ryczałtowy punkt kontrolny, utwórz punkt kontrolny, a następnie wprowadź wartość w wierszu oferty jako wartość pola punkt kontrolny.
 - W celu utworzenia punktów kontrolnych na podstawie określonych zadań w planie projektu utwórz punkt kontrolny i zamapuj go na element harmonogramu projektu w interfejsie użytkownika punktów kontrolnych fakturowania.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

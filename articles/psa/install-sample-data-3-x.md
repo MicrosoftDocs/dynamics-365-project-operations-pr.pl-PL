@@ -3,7 +3,6 @@ title: Instalacja przykładowych danych
 description: W tym temacie zamieszczono informacje dotyczące instalowania danych przykładowych w programie Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144516"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985559"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalowanie danych przykładowych dla aplikacji Project Service
 
@@ -87,7 +86,7 @@ Należy zaplanować, że komputer będzie podłączony do sieci a instalacja bę
 Komputer powinien mieć wyłączoną funkcję wygaszacza ekranu. W przeciwnym razie poświadczenia sesji podczas instalacji mogą zostać utracone po uruchomieniu wygaszacza ekranu (chyba że zachowasz przez cały czas aktywną sesję).
 
 > [!div class="mx-imgBorder"]
-> ![Zrzut ekranu przedstawiający ustawienia wygaszacza ekranu, z wygaszaczem ekranu wyłączonym](media/sample-data-1.png)
+> ![Zrzut ekranu przedstawiający ustawienia wygaszacza ekranu, z wygaszaczem ekranu wyłączonym.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Pobierz i rozpakuj
 
@@ -143,13 +142,13 @@ Pakiet danych demonstracyjnych wymaga sześciu użytkowników. Aby pakiet zosta�
 3. Otwórz **PkgFolder** i znajdź i otwórz **ImportUserMapFile.xml**. Zaktualizuj pola **Nowy=** do adresów e-mail odpowiednich użytkowników w systemie.
 
    > [!div class="mx-imgBorder"]
-   > ![Zrzut ekranu UserMapFile](media/sample-data-7.png)
+   > ![Zrzut ekranu UserMapFile.](media/sample-data-7.png)
 
 4. Jeśli użytkownik "Spencer Low" ma Identyfikator użytkownika inny niż **"spencerl"**, musisz zaktualizować dodatkowy plik. Otwórz **DemoDataPreImportConfig.xml**, a następnie znajdź znacznik **userstocreateandconfigure**. Zaktualizuj znacznik **\<login\>** za pomocą loginId (wielkość liter jest uwzględniana). 
 
 5. Kalendarz pierwszego użytkownika (w znaczniku **userstocreateandconfigure**) jest używany do wypełnienia godzin pracy dla wszystkich zasobów, które można zarezerwować przy importowaniu danych demonstracyjnych. Przejdź do **Ustawienia** > **Zabezpieczenia** > **Użytkownicy**, znajdź użytkownika "Spencer Low" i otwórz opcję "Godziny pracy". Edytuj istniejące godziny pracy, wybierając opcję **Cały cykliczny harmonogram tygodniowy - od początku do końca**. Zapewnij **Godziny pracy są ustawione na 8:00 - 17:00 (9 godzin), od poniedziałku do piątku dla strefy czasowej ustawionej na czas pacyficzny (Stany Zjednoczone i Kanada)**. Jest to niezbędne do zapewnienia, że tablice Projekt i Harmonogram prezentują dane zgodne z oczekiwaniami.
 
-**Rekomendacja:** Rozważ utworzenie kopii zapasowej organizacji teraz, na wypadek wystąpienia konieczność powrotu do punktu początkowego, jeśli wystąpią problemy podczas na instalowania danych przykładowych. Aby uzyskać więcej informacji, zobacz [Kopia zapasowa i przywracanie wystąpień](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Rekomendacja:** Rozważ utworzenie kopii zapasowej organizacji teraz, na wypadek wystąpienia konieczność powrotu do punktu początkowego, jeśli wystąpią problemy podczas na instalowania danych przykładowych. Aby uzyskać więcej informacji, zobacz [Kopia zapasowa i przywracanie wystąpień](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Uruchom Package Deployer
 
@@ -173,7 +172,7 @@ Pakiet danych demonstracyjnych wymaga sześciu użytkowników. Aby pakiet zosta�
 5. Wybierz **Dalej** aż pojawi się dialog **Instalator danych pokazowych**.
 
    > [!div class="mx-imgBorder"]
-   > ![Zrzut ekranu przedstawiający okno statusu Instalatora danych przykładowych](media/sample-data-3.png)
+   > ![Zrzut ekranu przedstawiający okno statusu Instalatora danych przykładowych.](media/sample-data-3.png)
 
 6. Zanim przejdziesz dalej, pamiętaj, że instalowanie danych przykładowych może trwać maksymalnie godzinę (zwykle ~ 10 min). Należy się upewnić, że komputer pozostaje włączony i podłączony do sieci w trakcie procesu instalowania, i że sesja pozostaje aktywna.   
 
@@ -192,10 +191,10 @@ Po całkowitym pobraniu danych przykładowych zaloguj się jako użytkownik Spen
 - Jeśli zainstalowana jest aplikacja Field Service, przejdź do **Project Service** > **Ustawienia** > **Cenniki**. Upewnij się, istnieją stawki kosztów i rachunków. Przejdź do **Field Service** > **Ustawienia** > **Cenniki** i sprawdź, czy istnieją stawki kosztów i rachunków, w odpowiedniej walucie, dla każdego kraju/regionu w zestawie danych.
 
   > [!div class="mx-imgBorder"]
-  > ![Zrzut ekranu przedstawiający aktywne cenniki](media/sample-data-4.png)
+  > ![Zrzut ekranu przedstawiający aktywne cenniki.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Zrzut ekranu przedstawiający aktywne jednostki organizacyjne](media/sample-data-5.png)
+  > ![Zrzut ekranu przedstawiający aktywne jednostki organizacyjne.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Uwagi techniczne
 
@@ -296,4 +295,7 @@ Jeśli zachodzi konieczność zmiany godzin pracy dla przykładowych zasobów, k
 Wybierz użytkownika (na przykład Spencer Low) i zmień godzin pracy użytkownika Spencer na godziny, które chcesz zastosować do wielu użytkowników. Przejdź do **Universal Resource Scheduling** > **Ustawienia** > **Szablony godzin pracy** i edytuj rekord **Domyślny szablon pracy**. W polu **Szablon zasobu** wybierz użytkownika z godzinami pracy, które chcesz zastosować dla innych zasobów. Przejdź do **Universal Resource Scheduling** > **Planowanie** > **Zasoby** > **Aktywne zasoby, które można zarezerwować**. Wybierz zasoby, które chcesz zmienić, a następnie wybierz **Ustaw kalendarz**. Z listy rozwijanej **Szablon pracy** wybierz szablon **Domyślne godziny pracy** lub inny szablon z poprawnym zasobem szablonu. Po przejściu do tablicy harmonogramu, powinieneś zobaczyć, że zasoby mają zaktualizowane godziny pracy.
 
 > [!div class="mx-imgBorder"]
-> ![Zrzut ekranu przedstawiający aktywne zasoby, które można zarezerwować](media/sample-data-6.png)
+> ![Zrzut ekranu przedstawiający aktywne zasoby, które można zarezerwować.](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

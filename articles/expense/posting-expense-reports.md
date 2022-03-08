@@ -2,11 +2,9 @@
 title: Księgowanie raportów wydatków
 description: W tym temacie przedstawiono sposób księgowania raportów o wydatkach.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfae54933f07d60ff52f29af45af239ea7c06f3d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d799fd8d87ea254bfa288d210d203760f9347248006cdb644e79bcfd9e1aa678
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124291"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007699"
 ---
 # <a name="post-expense-reports"></a>Księgowanie raportów wydatków
 
@@ -31,3 +29,6 @@ Jeśli wydatki w raporcie obciążają inną firmę niż ta, zatrudniająca prac
 W celu zaksięgowania raportu z wydatków na stronie **Zatwierdzone raporty o wydatkach** wybierz raport o wydatkach, a następnie w okienku akcji wybierz pozycję **Księguj**.
 
 Można również zaksięgować wszystkie raporty o wydatkach na liście w tym samym czasie. Zaznacz wszystkie raporty o wydatkach, a następnie wybierz pozycję **Księguj**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

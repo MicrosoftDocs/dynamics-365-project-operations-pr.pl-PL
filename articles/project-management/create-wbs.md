@@ -2,18 +2,16 @@
 title: Tworzenie struktury podziału pracy
 description: W tym temacie wyjaśniono, jak utworzyć strukturę podziału pracy (SPP), w tym podstawowe elementy sterujące w nowym interfejsie planowania.
 author: ruhercul
-manager: tfehr
 ms.date: 01/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841382"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998744"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Tworzenie struktury podziału pracy (SPP)
 
@@ -93,6 +91,8 @@ W poniższej tabeli przedstawiono dodatkowe atrybuty harmonogramu.
 | Nazwa/nazwisko | Nazwa zadania. |
 | IDENTYFIKATOR | Identyfikator zadania w strukturze podziału pracy. |
 
+Jako administrator można definiować pola niestandardowe w jednostce zadania. Jednak pola nie mogą być wyświetlane w siatce harmonogramu. Aby wyświetlić pola niestandardowe, dodaj je do strony szczegółów **Zadania projektu**.
+
 ## <a name="staffing-attributes"></a>Atrybuty personelu
 
 Dostęp do atrybutów obsługi personelu jest możliwy za pośrednictwem pola **zasoby** w harmonogramie. Użytkownik może wyszukać istniejący zasób lub wybrać pozycję **Utwórz**, a następnie w okienku **szybkie tworzenie** dodać członka zespołu projektu jako nowy zasób.
@@ -116,3 +116,6 @@ Tryb zadania nie ma wpływu na aktualizacje wprowadzane do dat rozpoczęcia i za
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Skróty klawiaturowe i ułatwienia dostępu
 
 Siatka **harmonogramu** jest w pełni dostępna i może być używana z czytnikami ekranu, takimi jak Narrator, JAWS lub NVDA. Aby przechodzić między obszarem siatki za pomocą klawiszy strzałek (jak w Microsoft Excel), można użyć klawisza Tab w celu przechodzenia między elementami interaktywnego interfejsu użytkownika i można użyć klawisza strzałki w dół, klawisza Enter lub klawisza spacji w celu wybrania i otwarcia menu rozwijanego.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

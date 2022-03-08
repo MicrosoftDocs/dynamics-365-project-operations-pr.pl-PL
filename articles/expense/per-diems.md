@@ -2,18 +2,16 @@
 title: Każdego dnia
 description: Ta temat zawiera informacje na temat reguł na dzień, które są używane w zarządzaniu wydatkami.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128521"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986414"
 ---
 # <a name="per-diems"></a>Każdego dnia
 
@@ -31,3 +29,6 @@ Stawka dzienna jest przyznawana pracownikowi, który podróżuje do pracy. W prz
     
 ## <a name="submit-expenses-using-per-diem"></a>Prześlij koszty przy użyciu diety na dzień
 Aby przesyłać wydatki umożliwiające korzystanie z diet na dzień, należy skorzystać z kategorii wydatków **Na dzień** podczas tworzenia raportu z wydatków. Wprowadź **Datę diety na dzień**, **Datę końcową diety na dzień** i **Lokalizację diety na dzień**. Kwota będzie obliczana na podstawie stawek diety na dzień dla wybranej lokalizacji, a redukcja za posiłki będzie obliczana na podstawie warstw stawek diety.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

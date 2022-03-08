@@ -2,8 +2,6 @@
 title: Scenariusze obsługi wielu walut (wersja 3.x)
 description: Ten temat zawiera informacje na temat scenariuszy wielowalutowych.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145686"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005134"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenariusze obsługi wielu walut
 
@@ -105,3 +103,6 @@ Usługa Dynamics 365 automatycznie przetwarza zestawienia kwot w różnych walut
 | Wydatek           | Nierozliczona sprzedaż   | 17-cze | Jakub  | Wypożyczenie samochodu           | 1 szt.     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Aby obliczyć wartość łącznej nierozliczonej sprzedaży w projekcie, można utworzyć pole zestawienia dla pola **Kwota** we wszystkich pokrewnych wartościach rzeczywistych nierozliczonej sprzedaży. Pole zestawienia to konstrukcja w usłudze Dynamics 365, która umożliwia stosowanie szybkich formuł do pokrewnych rekordów.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

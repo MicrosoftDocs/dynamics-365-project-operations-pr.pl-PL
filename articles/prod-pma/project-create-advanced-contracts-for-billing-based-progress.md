@@ -2,11 +2,9 @@
 title: Tworzenie zaawansowanych kontraktów dotyczących rozliczeń na podstawie postępu
 description: W tym temacie wyjaśniono, jak tworzyć kontrakty projektów, tak aby można było generować faktury dla klientów na podstawie procentu wykonanej pracy.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082141"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000994"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Tworzenie zaawansowanych kontraktów dotyczących rozliczeń na podstawie postępu
 [!include [banner](../includes/banner.md)]
@@ -103,3 +101,6 @@ kategorie budżetowe automatycznie obliczają kwoty faktur dla procentu pracy wy
 8. Opcjonalnie: Przypisz regułę fakturowania do dodatkowych projektów. Na skróconej karcie **Projekt**, w sekcji **Dostępne projekty** wybierz projekt, a następnie wybierz przycisk strzałki w prawo, aby dodać projekt do sekcji **Wybrane projekty**.
 9. Opcjonalnie: należy obliczyć kwotę procentową zatrzymania przez klienta na fakturze. Na skróconej karcie **Warunki zatrzymania płatności** wybierz źródło finansowania, a następnie w polu **Procent zatrzymania** wprowadź wartość procentową zatrzymania.
 10. Powtórz te kroki, aby utworzyć dodatkowe reguły fakturowania dla kontraktu dotyczącego projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

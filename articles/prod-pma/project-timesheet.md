@@ -2,11 +2,9 @@
 title: Aplikacja mobilna grafik projektu
 description: Ten temat zawiera informacje o aplikacji mobilnej Microsoft Dynamics 365 Project Timesheet. Aplikacja mobilna Project Timesheet umożliwia użytkownikom przesyłanie i zatwierdzanie kart czasu pracy dla projektów na ich urządzeniu przenośnym.
 author: abruer
-manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082185"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997214"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplikacja mobilna grafik projektu
 
@@ -96,3 +94,6 @@ Kliknij przycisk **Prześlij**, aby wysłać grafik do przepływu pracy zatwierd
 ## <a name="review-timesheets"></a>Przeglądanie grafików
 
 Lista grafików, które należy przejrzeć, jest dostępna w menu. Ta opcja jest dostępna tylko wtedy, gdy została wyznaczona osoba zatwierdzająca przepływ pracy. Obsługiwane jest zarówno zatwierdzanie nagłówków, jak i wierszy. Zatwierdzanie na poziomie wiersza umożliwia oznaczenie jednego lub większej liczby wierszy do zatwierdzenia. Po przejrzeniu informacji z grafiku kliknij przycisk **Zatwierdź**, **Deleguj** lub **Wróć**, aby kontynuować przepływ pracy.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Jednostki organizacyjne
 description: Ten temat zawiera informacje o jednostkach organizacyjnych w programie Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145642"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005089"
 ---
 # <a name="organizational-units"></a>Jednostki organizacyjne 
 
@@ -55,7 +53,7 @@ Jednostka organizacyjna pełni dwie role w PSA:
 - **Jednostka zamawiająca** — jednostka organizacyjna reprezentująca grupę lub oddział firmy, która jest głównie odpowiedzialna za sprzedaż i zarządzanie dostawą pracy i usług do klienta. Jednostka zamawiająca jest identyfikowana za pomocą pola **Jednostka zamawiająca** w sekcji nagłówka na stronach **Szansa sprzedaży**, **Oferta**, **Umowa na projekt** i **Projekt**.
 - **Jednostka zasobów** jednostka organizacyjna, do której należy zasób lub która jest przypisana do danego zasobu. Dana jednostka organizacyjna może dostarczać swoich zasobów rolom w instrukcjach akcji pracy (SOW) i projektach, których właścicielem jest jednostka zamawiająca.
 
-> ![Jednostki zamawiające i jednostki zasobów](media/advanced-1.png)
+> ![Jednostki zamawiające i jednostki zasobów.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Jednostka organizacyjna — często zadawane pytania
 
@@ -79,7 +77,7 @@ W przypadku implementacji Dynamics 365 należy zoptymalizować autoryzację zabe
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Przykład jednostek organizacyjnych i jednostek biznesowych
 
-Firma Contoso Ltd. w praktyce stosuje technologię firmy Microsoft. Jakub i Emilia są projektantami C\#, ale Emilia jest w Stanach Zjednoczonych, podczas gdy Jakub znajduje się w Indiach. Większość zakontraktowań projektów wymaga zasobów firmy Contoso Indie i contoso US, a Jakub i Emilia wymagają takiego samego poziomu zabezpieczeń w stosunku do projektów w tym obszarze. Jednak koszty deweloperów z firmy Contoso Indie różnią się znacznie od kosztów deweloperów w firmie Contoso US.
+Firma Contoso Ltd. w praktyce stosuje technologię firmy Microsoft. Jakub i Emilia są projektantami C\#, ale Emilia jest w Stanach Zjednoczonych, podczas gdy Jakub znajduje się w Indiach. Większość zakontraktowań projektów wymaga zasobów firmy Contoso Indie i Contoso US, a Jakub i Emilia wymagają takiego samego poziomu zabezpieczeń w stosunku do projektów w tym obszarze. Jednak koszty deweloperów z firmy Contoso Indie różnią się znacznie od kosztów deweloperów w firmie Contoso US.
 
 Oto optymalny sposób projektowania w tym scenariuszu przy użyciu aplikacji Dynamics 365 i PSA.
 
@@ -96,7 +94,7 @@ Jednostka organizacyjna jest grupą wewnętrzną lub działem w firmie, która �
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Przykład jednostek organizacyjnych i obszarów sprzedaży
 
-Contoso, Ltd. ma dwa centra opracowywania: Contoso US i Contoso Indie. Koszty zasobów różnią się znacząco między tymi dwoma centrami rozwoju.
+Contoso Ltd. ma dwa centra opracowywania: Contoso US i Contoso Indie. Koszty zasobów różnią się znacząco między tymi dwoma centrami rozwoju.
 
 Contoso sprzedaje usługi IT na wielu międzynarodowych rynkach, takich jak Ameryka Łacińska, Ameryka Północna, Azja, Pacyfik, Europa Zachodnia i Bliski Wschód. Stawka rozliczania za te same role projektów mogą się znacznie różnić między tymi rynkami.
 
@@ -124,7 +122,7 @@ Nr W bieżącej wersji PSA jednostki organizacyjne nie są hierarchiczne. Oznacz
 Jeśli istnieje złożona hierarchia centrów kosztów, działy, oddziały fakturowania itd., jako odrębne jednostki organizacyjne należy skonfigurować węzły liści z tej hierarchii.
 W poniższym przykładzie przedstawiono typową hierarchię:
 
-**Contoso India**
+**ContosoIndie**
 
   - Praktyka SAP 
 
@@ -167,3 +165,6 @@ Jeśli firma ma jeden oddział z jednym cennikiem, nie trzeba konfigurować żad
 W przypadku tworzenia projektu jego domyślna jednostka jest określana na podstawie użytkownika, który ją utworzył. Taki użytkownik jest również domyślnym menedżerem projektu. Jeśli projekt jest zamapowany na encję sprzedaży, taki jak oferta lub kontrakt dotyczący projektu, jednostka zamawiająca w projekcie jest oparta na encji sprzedaży. W takim przypadku oszacowania projektów mogą być obliczane ponownie, ponieważ lista kosztów kosztu jest używana do obliczania oszacowania kosztów w przypadku zmiany jednostki zamawiającej. Cennik jest używany do obliczania oszacowań sprzedaży, które zostaną zmienione w taki sposób, aby były zsynchronizowane z cennikiem projektu na ofercie.
 
 Pola **Jednostka kontraktująca** i **Waluta** w projekcie są zablokowane do edycji, ponieważ muszą być zsynchronizowane z wartościami w kontrakcie dotyczącym sprzedaży (oferta lub kontrakt projektu), na które ma zostać zamapowany projekt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

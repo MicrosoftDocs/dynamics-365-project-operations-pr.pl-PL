@@ -2,18 +2,16 @@
 title: Oferty - Kluczowe pojęcia - wersja uproszczona
 description: Ta temat zawiera informacje na temat używania ofert w Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97488f8be003099210ed58dd5b609c8416474cd
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 279e7dd47d3d61b02227b307a5833ca0bac66f4a774b5ff23cb69aac417e2f0e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663972"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009454"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Pojęcia unikalne dla ofert Projektu
 

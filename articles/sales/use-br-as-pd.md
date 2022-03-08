@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0c5cb85f7c43f7b2fd9c367d7f7ac9c3250e0a1
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 7b9fb7732f677a04272a556238b6c2acc1dcdfb9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643096"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277306"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Używanie zasobu możliwego do zarezerwowania jako wymiaru kalkulacji cen
 
@@ -78,3 +78,6 @@ Rekord wymiaru kalkulacji cen dla pola **msdyn_bookableresource** musi zostać p
 5. Dodaj obiekt **msdyn_bookableresourceid** do **nazwy pola**.
 
  ![Formularz Nowa nazwa pola wymiaru kalkulacji cen](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

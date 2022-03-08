@@ -2,11 +2,9 @@
 title: Tworzenie nowego projektu
 description: W tym temacie zamieszczono informacje dotyczące tworzenia nowego projektu.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270736"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985964"
 ---
 # <a name="create-a-new-project"></a>Tworzenie nowego projektu
 
@@ -53,9 +51,9 @@ Kategorie zasobu można również przypisać w zależności od potrzeb. Kategori
 
 Menedżer projektu może używać funkcji zasobów projektu do tworzenia ról wymaganych w projekcie. Role mogą być używane, jeśli potwierdzone zasoby są nadal nieznane podczas rezerwowania zasobów. Role mogą być tymczasowo rezerwowane jako planowane zasoby, aby można było kontynuować etapy planowania projektów.
 
-[![Przykład roli](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Przykład roli.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Scenariusz:** Contoso zostało zatrudnione w celu ukończenia projektu typu czas i materiały, dla którego istnieje zatwierdzona karta projektu. Młodszy kierownik projektu nadal kończy zakres projektu. Menedżer zasobów obecnie identyfikuje konkretne zasoby, które będą zastrzeżone do pracy nad nowym projektem. Ze względu na krytyczny charakter projektu, sponsor projektu poprosił starszego kierownika projektu jako jedną z ról. Menedżer zasobów musi nabyć nowy zasób i zdefiniować rolę w systemie na wypadek, gdyby młodszy kierownik projektu potrzebował informacji o zasobach podczas planowania projektu.
+**Scenariusz:** Contoso zostało zatrudnione do realizacji projektu typu Czas i materiał, który posiada zatwierdzoną kartę projektu. Młodszy kierownik projektu nadal kończy zakres projektu. Menedżer zasobów obecnie identyfikuje konkretne zasoby, które będą zastrzeżone do pracy nad nowym projektem. Ze względu na krytyczny charakter projektu, sponsor projektu poprosił starszego kierownika projektu jako jedną z ról. Menedżer zasobów musi nabyć nowy zasób i zdefiniować rolę w systemie na wypadek, gdyby młodszy kierownik projektu potrzebował informacji o zasobach podczas planowania projektu.
 
 Poniższe kroki pokazują, jak menedżer zasobów może skonfigurować rolę starszego kierownika projektu i skojarzyć z nią cechy zasobu. Później roli można użyć do wyszukiwania dostępnych zasobów, które pasują do wymaganych kompetencji zasobów.
 

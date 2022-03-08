@@ -2,18 +2,16 @@
 title: Rezerwacje i przypisania
 description: Ten temat zawiera informacje o różnicach między księgami zasobów a przydziałami zasobów.
 author: ruhercul
-manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841185"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008464"
 ---
 # <a name="bookings-vs-assignments"></a>Rezerwacje i przypisania
 
@@ -26,3 +24,6 @@ W przeciwieństwie do rezerwacji, przydziały to przydział zasobów do zadań p
 Zazwyczaj suma księgowań zasobu jest równa sumie przydziałów zasobu w jednym lub wielu zadaniach. Jednak Project Operations nie wymusza takiej zgodności. Widok **Uzgadnianie** pokazuje menedżerowi projektu miejsca, w których rezerwacje i przypisania zasobów są niezgodne.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

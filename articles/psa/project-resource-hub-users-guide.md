@@ -2,8 +2,6 @@
 title: Przewodnik użytkownika dla Centrum zasobów projektu
 description: Przewodnik użytkownika końcowego dla Centrum zasobów projektu dla Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948161"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987269"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Przewodnik użytkownika dla Centrum zasobów projektu
 
@@ -54,28 +52,28 @@ Zanim zaczniesz używać aplikacji Centrum zasobów projektu, musisz zainstalowa
 1.  Po zalogowaniu do aplikacji mobilnej zobaczysz stronę MyApps z listą aplikacji, do których możesz uzyskać dostęp. 
 2.  Wybierz **Centrum zasobów projektu**.
 
-![Wybierz aplikację](media/chooseApp_1.png "Wybierz aplikację")
+![Wybierz aplikację.](media/chooseApp_1.png "Wybierz aplikację")
 
 **Pasek nawigacyjny**
 
-Użyj paska nawigacyjnego, aby uzyskać dostęp do swojego obszaru roboczego, utworzyć nowe wyszukiwanie rekordów lub wykonać inne zadania. Aby uzyskać więcej poleceń, naciśnij ![przycisk Więcej](media/MoreButton.png "Przycisk Więcej")
+Użyj paska nawigacyjnego, aby uzyskać dostęp do swojego obszaru roboczego, utworzyć nowe wyszukiwanie rekordów lub wykonać inne zadania. Aby uzyskać więcej poleceń, naciśnij ![przycisk Więcej.](media/MoreButton.png "Przycisk Więcej")
 
-![Pasek nawigacyjny](media/NavBar_2.png "Pasek nawigacyjny")
+![Pasek nawigacyjny.](media/NavBar_2.png "Pasek nawigacyjny")
 
 **Ulubione i ostatnio używane rekordy.**
 
 Sekcja Ulubione i ostatnio używane zapewnia szybki dostęp do rekordów, widoków i pulpitów nawigacyjnych. 
 
-- Aby uzyskać dostęp do tych sekcji, naciśnij **Menu** ![Przycisk Menu](media/MenuButton.png "Przycisk Menu") na pasku nawigacyjnym, a następnie naciśnij **Ulubione i ostatnio używane** ![Przycisk Ulubione](media/FavButton.png "Przycisk Ulubione").
+- Aby uzyskać dostęp do tych sekcji, naciśnij **Menu** ![przycisk Menu.](media/MenuButton.png "Przycisk Menu") Na pasku dalej, a następnie naciśnij przycisk **Ulubione i Ostatnio** ![Przycisk Ulubione](media/FavButton.png "Przycisk Ulubione").
 
 - Aby przypiąć element jako ulubiony, z listy elementów **Ostatnio używane** wybierz opcję Przypnij. Spowoduje to przypięcie i przeniesienie elementu do Ulubione.
 
-  ![Ulubione i ostatnio używane elementy](media/Favs_3.png "Ulubione i ostatnio używane elementy")
+  ![Ulubione i Ostatnio używane elementy.](media/Favs_3.png "Ulubione i ostatnio używane elementy")
  
-## <a name="enter-time"></a>Wprowadź godzinę
+## <a name="enter-time"></a>Wprowadzanie czasu
 Wprowadzaj swoje godziny co najmniej raz w tygodniu — lub z częstotliwością wymaganą przez menedżerów — aby się upewnić, że klienci otrzymują faktury, a na Twoje konto zaliczane są zrealizowane zadania.
 
-1. Wybierz przycisk menu ![Przycisk Menu](media/MenuButton.png "Przycisk Menu"), a następnie naciśnij **Wpisy czasu**. Pojawi się kalendarz.
+1. Naciśnij menu ![przycisk menu.](media/MenuButton.png "Przycisk Menu") I naciśnij opcję **Wpisy czasu**. Pojawi się kalendarz.
 
 2. Aby zobaczyć harmonogram dla poprzedniego lub następnego tygodnia, naciśnij przycisk **Poprzedni** lub **Następny**, . Naciśnij **Dziś**, aby wrócić do bieżącego tygodnia.
 

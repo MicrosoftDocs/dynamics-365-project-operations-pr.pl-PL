@@ -2,11 +2,9 @@
 title: Dodawanie wymaganych pól niestandardowych do ustawień cen i encji transakcyjnych
 description: W tym temat zamieszczono informacje dotyczące sposobu dodawania wymaganych odwołań do encji, formularzy oraz widoków.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
-ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
+ms.openlocfilehash: 36c95913cc72e293c3015e1b9d3055aac476eebb4cf7d7993741d3cb61de0e13
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4590914"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006174"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Dodawanie wymaganych pól niestandardowych do ustawień cen i encji transakcyjnych
 
@@ -49,7 +47,7 @@ Kiedy niestandardowy wymiar kalkulacji cen jest oparty na zestawie opcji, należ
 > [!IMPORTANT]
 > W przypadku dodawania pola do więcej niż jednej encji należy użyć tej samej nazwy pola we wszystkich encjach. 
 
-> ![Dodawanie lokalizacji pracy zasobu do ceny roli](media/RWL-Field.png)
+> ![Dodawanie lokalizacji pracy zasobu do ceny roli.](media/RWL-Field.png)
 
 W fazach sprzedaży i szacunkowej projektu prognozy nakładu pracy wymagane do ukończenia pracy **lokalnej** i **na miejscu** w **zwykłych godzinach** i **nadgodzinach** są używane w celu oszacowania wartość oferty/projektu. Pola **Lokalizacje pracy zasobu** i **Godziny pracy zasobu** zostaną dodane do encji oszacowania, **Szczegóły wiersza oferty**, **Szczegóły wiersza umowy**, **Członek zespołu projektu** oraz **Wiersz szacowania**.
 
@@ -61,7 +59,7 @@ W fazach sprzedaży i szacunkowej projektu prognozy nakładu pracy wymagane do u
 6. Powtórz kroki 1-5, aby dodać to pole do encji **Szczegóły pozycji kontraktu projektu**, **Członek zespołu projektu** i **Wiersz szacowania**.
 7. Powtórz kroki 1-6 dla zestaw opcji **Godziny pracy zasobu**. 
 
-> ![Dodawanie lokalizacji pracy zasobu do Wiersza szacowania](media/RWL-Default-Value.png)
+> ![Dodawanie lokalizacji pracy zasobu do Wiersza szacowania.](media/RWL-Default-Value.png)
 
 W celu dostarczenia i fakturowania ukończona praca powinna być dokładnie wyceniona, aby wybrać czy została wykonana **Lokalnie** lub **Na miejscu** i czy została ukończona w **godzinach pracy** czy w **nadgodzinach** w wartościach rzeczywistych projektu. Pola **Lokalizacja pracy zasobu** i **Godziny pracy zasobu** zostaną dodane do encji **Wpis czasu**, **Rzeczywiste**, **Szczegóły wiersza faktury** oraz **Wiersz dziennika**.
 
@@ -73,7 +71,7 @@ W celu dostarczenia i fakturowania ukończona praca powinna być dokładnie wyce
 6. Powtórz kroki 1-5 w celu dodania tego pola do encji **Rzeczywiste**, **Szczegóły wiersza faktury** i **Wiersz dziennika**.
 7. Powtórz kroki 1-6 dla zestaw opcji **Godziny pracy zasobu**. 
 
-> ![Dodawanie lokalizacji pracy zasobu do Wpisu czasu](media/RWL-time-entry.png)
+> ![Dodawanie lokalizacji pracy zasobu do Wpisu czasu.](media/RWL-time-entry.png)
 
 Spowoduje to ukończenie zmian schematu wymaganych dla niestandardowych wymiarów opartych na zestawie opcji.
 
@@ -86,7 +84,7 @@ Kiedy niestandardowym wymiarem kalkulacji cen jest encja, dodasz relację 1:N mi
 3. Rozwiń encję **Standardowe stanowisko** i wybierz **Relacje 1:N**.
 4. Wybierz **Nowa**, aby utworzyć nową relację 1:N o nazwie **Standardowe stanowisko do Zasobu, który można zaksięgować**. Wprowadź wymagane informacje, a następnie wybierz **Zapisz**.
 
-> ![Dodawanie standardowego stanowiska jako pola odwołania do zasobu, który można zarezerwować](media/ST-BR.png)
+> ![Dodawanie standardowego stanowiska jako pola odwołania do zasobu, który można zarezerwować.](media/ST-BR.png)
 
 Standardowe stanowisko musi również zostać dodane do encji kalkulacji cen **Cena roli** oraz **Narzut na cenę dla roli**. Te dane są również uzupełniane przy użyciu relacji 1:N między encjami **Standardowe stanowisko** a **Cena roli** i encjami **Standardowe stanowisko** i **Narzut na cenę dla roli**.
 
@@ -104,13 +102,13 @@ W fazach sprzedaży i oszacowania projektu, do kalkulacji cen oferty/projektu ko
 
 5. Powtórz kroki 1-5, aby utworzyć relacje 1:N z encji **Standardowe stanowisko** do encji **Szczegóły wiersza oferty**, **Szczegóły pozycji kontraktu projektu**, **Członek zespołu projektu** oraz **Wiersz szacowania**.
 
-> ![Dodawanie standardowego stanowiska jako pola odwołania do wiersza szacowania](media/ST-Estimate-Line.png)
+> ![Dodawanie standardowego stanowiska jako pola odwołania do wiersza szacowania.](media/ST-Estimate-Line.png)
 
   W fazach dostarczania i fakturowania praca wykonana przez każde standardowe stanowisko musi być dokładnie wyceniona w wartościach rzeczywistych projektu. To oznacza, że musi być relacja 1:N z encji **Standardowe stanowisko** do encji **Wpis czasu**, **Rzeczywiste**, **Szczegóły wiersza faktury** oraz **Wiersz arkusza**.
 
 6. Powtórz kroki 1-6, aby utworzyć relacje 1:N z encji **Standardowe stanowisko** do encji **Wpis czasu**, **Rzeczywiste**, **Szczegóły wiersza faktury** oraz **Wiersz arkusza**.
 
-> ![Dodawanie standardowego stanowiska jako pola odwołania do wpisu czasu](media/ST-Mapping.png)
+> ![Dodawanie standardowego stanowiska jako pola odwołania do wpisu czasu.](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Konfigurowanie ustawiania domyślnych wartości wymiaru przy użyciu funkcji mapowania platformy
 W przypadku encji Wpis czasu pomocne jest, kiedy system domyślnie ustawia ustawienie standardowe stanowisko na Wpis czas z Zasobu, który można zarezerwować, który rejestruje wpis czasu. Wykonaj poniższe kroki, aby dodać mapowania do relacji 1:N z encji **Zasób, który można zarezerwować** do encji **Wpis czasu**.
@@ -146,3 +144,6 @@ Poniższa tabela zawiera wyczerpującą listę gotowych formularzy i widoków, w
 |  Wartość rzeczywista|• Informacja<br>• Aktywne wartości rzeczywiste|• Widok skojarzony wartości rzeczywistej|
 
 Pola niestandardowe mogą być również dodawane w regułach biznesowych w zależności od zdefiniowanych opcji. Jednym z wbudowanych przykładów jest wprowadzenie reguły **możliwość edycji wpisu czasu na podstawie stanu**. Ta reguła określa, które pola muszą być zablokowane, gdy wpis czasu będzie mieć stan, który nie jest edytowalny, np. **Zatwierdzony**. Dodaj pola do tej reguły biznesowej, aby były zablokowane do edycji, kiedy wpis czasu ma status inny niż **Wersja robocza** lub **Zwrócony**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

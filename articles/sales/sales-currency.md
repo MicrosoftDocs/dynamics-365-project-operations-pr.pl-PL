@@ -2,11 +2,9 @@
 title: Waluta
 description: W tym temat zamieszczono informacje dotyczące sposobu dodawania i usuwania typów waluty w Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 9c2c6f98e48c5ee251d44131d0c05c705faf1459
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642286"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011294"
 ---
 # <a name="currency"></a>Waluta
 
@@ -71,3 +69,6 @@ Przed przystąpieniem do rozpoczęcia tej procedury należy sprawdzić, czy Twoj
 
 > [!IMPORTANT]
 >  Nie możesz usunąć walut używanych przez inne rekordy, możesz je jedynie dezaktywować. Dezaktywowanie rekordów walutowych nie powoduje usunięcia informacji o walutach przechowywanych w istniejących rekordach, takich jak szanse sprzedaży czy zamówienia. Jednakże nie będziesz mógł wybrać dezaktywowanej waluty dla nowych transakcji.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

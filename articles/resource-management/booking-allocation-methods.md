@@ -2,11 +2,9 @@
 title: Metody rezerwowania alokacji
 description: Ta temat zawiera informacje na temat sposobu działania metod alokacji zaliczania w Project Operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: cc539a376088627aa8d3e9678b2aec4bd5d0edc3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 294cc39624723f9eb069aa36067a015c0b708f83a9e0183416655f9bd874fa9a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121501"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004144"
 ---
 # <a name="booking-allocation-methods"></a>Metody rezerwowania alokacji
 
@@ -81,3 +79,6 @@ Podsumowując, poniższe metody alokacji prowadzą do nakładania się rezerwacj
 - Godziny — rozłóż równomiernie
 
 Korzystając z jednej z tych trzech metod alokacji nie zostaniesz powiadomiony, że zasób został nadmiarowo zarezerwowany. Aby rozwiązać problem nakładania się rezerwacji, należy użyć tablicy harmonogramu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

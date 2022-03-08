@@ -1,6 +1,6 @@
 ---
-title: Zarządzanie zaległością rozliczenia - wersja uproszczona
-description: W tym temat zamieszczono informacje dotyczące różnych widoków dostępnych podczas zarządzania zaległościami na fakturę.
+title: Zarządzanie zaległościami rozliczania projektu
+description: Ten temat zawiera informacje o różnych widokach, których można używać podczas zarządzania zaległościami rozliczeniowymi w projektach.
 author: rumant
 manager: Annbe
 ms.date: 10/26/2020
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 25dc9cff6aeb6daed9a27ba843a74b892ca4751c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176984"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867009"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>Zarządzanie zaległością rozliczenia - wersja uproszczona
+# <a name="manage-project-billing-backlog"></a>Zarządzanie zaległościami rozliczania projektu 
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-Dynamics 365 Project Operations są dedykowanymi widokami ułatwiającymi zarządzanie zaległościami na fakturę. Aby zarządzać zaległościami na fakturę, należy wybrać łącza w obszarze **Sprzedaż** w obszarze **Fakturowanie**. 
+Rozwiązanie Dynamics 365 Project Operations ma dedykowane widoki ułatwiające zarządzanie zaległościami na fakturę. Aby zarządzać zaległościami na fakturę, należy wybrać łącza w obszarze **Sprzedaż** w obszarze **Fakturowanie**. 
 
 Dostępne są następujące widoki:
 
@@ -60,3 +60,6 @@ Nie można oznaczyć stanu **Nieprzekraczalny** wynoszącego **Niepowodzenie** n
 Jeśli istnieje metoda fakturowania dla wielu klientów, podczas zatwierdzania typu czasu i wydatku dla każdego klienta w pozycji kontraktu jest tworzona jedna niefakturowana wartość sprzedaży w zależności od podziału procentowego rozliczenia określonego dla każdego z klientów. W widoku **Zaległości dotyczące rozliczeń czasu i materiału** będą widoczne poszczególne specyficzne dla konkretnego klienta informacje o niefakturowanych wartościach sprzedaży. Każdy z tych nierozliczonych rekordów rzeczywistych wartości sprzedaży może być oznaczony jako **Gotowy do fakturowania**, z poziomu tego widoku.
 
 W tym widoku jest wyświetlana niezafakturowana faktyczna sprzedaż, która znajduje się na roboczej fakturze wraz ze stanem fakturowania **Utworzono fakturę dla klienta**. Po potwierdzeniu wersji roboczej faktury stan fakturowania w tym rekordzie jest aktualizowany na **Faktura klienta zaksięgowana**. Nie należy aktualizować tej wartości stanu przy użyciu kodu niestandardowego. Project Operations nie funkcjonują poprawnie, gdy te wartości stanu są aktualizowane za pomocą kodu niestandardowego.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

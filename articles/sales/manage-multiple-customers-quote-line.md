@@ -2,18 +2,16 @@
 title: Zarządzanie wieloma klientami w wiersza oferty opartej na projekcie
 description: W tym temacie zamieszczono informacje dotyczące zarządzania wieloma klientami w wierszach oferty opartej na projekcie.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118576"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992039"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Zarządzanie wieloma klientami w wiersza oferty opartej na projekcie
 
@@ -44,3 +42,6 @@ W poniższej tabeli przedstawiono pola rekordu nabywcy w wierszu oferty opartej 
 Procent podziału rozliczeń można edytować w wierszu. Jeśli procent podziału rozliczenia nie sumuje się do 100%, wystąpi błąd. Po wyedytowaniu procentów podziału na fakturze odśwież stronę w wierszu oferty, aby usunąć błąd.
 
 Skorzystaj z siatki rozdzielenia równomiernego pomiędzy klientami wiersza oferty, aby przydzielić wszystkie procenty podziału rozliczeń pomiędzy wszystkich klientów wiersza. Jeśli istnieje współczynnik zaokrąglenia, zostanie dodany do klienta zaokrąglającego. Jeden z klientów wierszy oferty jest zawsze oznakowany jako klient zaokrąglający, co oznacza, że rekord klienta wiersza oferty ma ustawioną flagę zaokrąglania równą **Tak**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

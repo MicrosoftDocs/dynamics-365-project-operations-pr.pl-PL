@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3895f06c6a401f200cf832940ef85eaa8d66fbb2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d99906b11b0189fc8227accd68bd0457f6baa42c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151176"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281176"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a>Nowości i zmiany w programie Project Service Automation, wydanie wczesnego dostępu 1 2021, wersja 3
 
@@ -43,3 +43,6 @@ Rozwiązano następujące problemy:
 
 - Daty zakończenia są wypełniane automatycznie po utworzeniu pozycji czasu, jeśli czas trwania jest pusty.
 - Użytkownicy mogą zmienić zadanie we wpisie czasu, który został zatwierdzony lub przesłany.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

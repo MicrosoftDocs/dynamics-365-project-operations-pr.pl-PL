@@ -2,18 +2,16 @@
 title: Kopiowanie kontraktów projektu - wersja uproszczona
 description: W tym temacie zamieszczono informacje o kopiowaniu kontraktów projektu w Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181420"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006034"
 ---
 # <a name="copy-project-contracts---lite"></a>Kopiowanie kontraktów projektu - wersja uproszczona
 
@@ -45,3 +43,6 @@ Poniższe informacje nie są kopiowane z lokalizacji **źródłowej** do **kontr
   - Informacje o budżecie klienta
 
 Ponieważ te informacje są specyficzne dla danego kontraktu, te pola i rekordy nie są kopiowane. Kopiowane są wiersze oferty dotyczące projektów i produktów, oszacowania dotyczące szczegółów wierszy kontraktu oraz wartości graniczne nie do przekroczenia na poziomie kontraktu. Domyślne ustawienia cen i stawek kosztów zależą od wartości w polu **Kopiuj kalkulację cen** wybranej na stronie **Kopiowania parametrów**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Planowanie czasu wolnego
 description: Planowanie czasu wolnego w Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c3f5dfe846c4accb485de5213e1635e65e77fc5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 76589470b1391226ea2a35143daf0b18b16286dfcd2829e748b0984397cb25ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144336"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984626"
 ---
 # <a name="schedule-time-off-project-service"></a>Zaplanuj czas wolny (Project Service)
 
@@ -57,3 +55,6 @@ Zaplanuj swój urlop lub zwolnienie w taki sam sposób, jak podczas wprowadzania
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik dotyczący czasu, wydatków i współpracy](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

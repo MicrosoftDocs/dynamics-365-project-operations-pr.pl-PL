@@ -2,8 +2,6 @@
 title: Modele umiejętności i biegłości
 description: Ten temat zawiera informacje na temat korzystania z modeli umiejętności i biegłości.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c7da8b2a7eda51b2aa7cf04e325a92f33d834efc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147486"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990509"
 ---
 # <a name="skills-and-proficiency-models"></a>Modele umiejętności i biegłości
 
@@ -35,7 +33,7 @@ Umiejętności to cechy zasobów, które są współdzielone między programami 
 
 Aby zarządzać repozytorium umiejętności w rozwiązaniu Project Service Automation, wybierz kolejno opcje **Zasoby** \> **Umiejętności zasobu**. 
 
-> ![Umiejętności zasobu](media/Resource-Management-image84.png)
+> ![Umiejętności zasobu.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Używanie modeli biegłości do oceniania zasobów
 
@@ -45,6 +43,9 @@ Umiejętności zasobów są oceniane za pomocą modeli biegłości. Poszczególn
 2. W nowym modelu oceniania określ minimalną wartość oceny, maksymalną wartość oceny oraz ocenianą encję.
 3. W podsiatce **Wartości oceny** można zdefiniować różne wartości ocen, od minimalnej do maksymalnej.
 
-> ![Zdefiniowane oceny minimalna i maksymalna](media/Resource-Management-image85.png)
+> ![Zdefiniowane oceny minimalna i maksymalna.](media/Resource-Management-image85.png)
 
 Te wartości ocen są wyświetlane w filtrach **Wymagania zasobów**, **Tablica harmonogramu** i **Asystent planowania**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

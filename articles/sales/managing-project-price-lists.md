@@ -2,11 +2,9 @@
 title: Zarządzanie cennikami projektu w ofercie
 description: Ta temat zawiera informacje na temat encji lista cen w projekcie.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177209"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003919"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Zarządzanie cennikami projektu w ofercie
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Dynamics 365 Project Operations rozszerzają encję lista cen w Dynamics 365 Sales. 
+Dynamics 365 Project Operations rozszerza encję cennika w Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Kluczowe encje
 
@@ -120,3 +118,6 @@ Podobnie jak stawki naliczania, stawki kosztów dla zasobów ludzkich są równi
     1. Lista kosztów własnych dołączonych do jednostki organizacyjnej.
     2. Lista kosztów własnych dołączonych do parametrów usługi Project Operations. Ponieważ z parametrami usługi projektów można łączyć listy kosztów własnych w wielu różnych walutach, system dopasowuje walutę kontraktującą jednostki organizacyjnej, kontrakt lub ofertę z walutą z listą kosztów własnych.
     3. W przypadku kosztów metody kalkulacji po kosztach i z marżą nie są stosowane do list kosztów własnych. Nawet w przypadku, gdy te metody kalkulacji cen są używane w wierszach list kosztów własnych w celu skonfigurowania kosztów kategorii transakcji, system zignoruje je i nie zostanie wprowadzony domyślny koszt własny.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

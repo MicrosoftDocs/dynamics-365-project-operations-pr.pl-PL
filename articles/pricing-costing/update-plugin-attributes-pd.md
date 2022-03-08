@@ -2,18 +2,16 @@
 title: Aktualizowanie atrybutów dodatków plug-in przy użyciu nowych wymiarów kalkulacji cen
 description: W tym temacie zamieszczono informacje dotyczące sposobu aktualizowania atrybutów dodatków plug-in o wymiary kalkulacji cen.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b0cf48318d0b9e94c4be0d3775b54e83832c1b7
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 54b87a993929edbf89ef48741ba0a06c6c42ec4e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643231"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004634"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Aktualizowanie atrybutów dodatków plug-in przy użyciu nowych wymiarów kalkulacji cen
 
@@ -52,3 +50,6 @@ Wykonaj poniższe kroki, aby zaktualizować i ponownie zarejestrować dodatki pl
 7. Wybierz przycisk **OK**, aby zamknąć stronę, a następnie wybierz pozycję **Aktualizuj krok**.
 8. Powtórz kroki 2–7 dla drugiego dodatku plug-in, **PreOperationQuoteLineDetail**. Dla tego dodatku plug-in musisz zaktualizować krok **Aktualizuj obiekt msdyn_quotelinetransaction**.
 9. Zamknij narzędzie **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Utwórz umowę dotycząca projektu
 description: Tworzenie umowy dotyczącej projektu w Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e26e5193353d7bbb594f9f31d95c18130d614517
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fb1cb4567caf212f8a05c47450ee1eb37e74ebb2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150861"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997389"
 ---
 # <a name="create-a-project-contract-project-service"></a>Utwórz umowę dotyczącą projektu (Project Service)
 
@@ -47,3 +45,6 @@ Teraz, gdy wygrałeś ofertę dla projektu, nadszedł czas utworzyć umowę z kl
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera kont](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

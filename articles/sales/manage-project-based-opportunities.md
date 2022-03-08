@@ -2,18 +2,16 @@
 title: Zarządzanie szansami sprzedaży opartymi na projektach
 description: W tym temacie zamieszczono informacje dotyczące pracy z szansami sprzedaży związanymi z projektami.
 author: rumant
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ce9ad1458d338d63469c3d6fddb98b9cbbced31
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: d640bda1f325c283e591eb8d1a100d4e6b09d76ae847833e9664c3631eabd154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948433"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991904"
 ---
 # <a name="manage-project-based-opportunities"></a>Zarządzanie szansami sprzedaży opartymi na projektach
 

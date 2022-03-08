@@ -2,18 +2,16 @@
 title: Fakturowanie płatności opartej na zatrzymaniu lub zaliczce
 description: Ten temat zawiera informacje na temat fakturowania zatrzymania lub zaliczki w Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596205"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997484"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Fakturowanie płatności opartej na zatrzymaniu lub zaliczce
 
@@ -51,3 +49,6 @@ Można to zobaczyć na siatce **Zastosowane zaliczki i zatrzymania** na stronie 
 | Kwota użyta | Siatka **Zastosowane zaliczki i zatrzymania** na stronie **Faktura projektu**  | To pole przeznaczone tylko do odczytu zawiera obliczoną wartość, która podsumowuje ilość wykorzystanego zatrzymania lub zaliczki. | To pole może być wyświetlane klientowi na wydrukowanej fakturze w celu wskazania kwoty tego zatrzymania lub zaliczki, która już została użyta. |
 | Kwota rozszerzona | Siatka **Zastosowane zaliczki i zatrzymania** na stronie **Faktura projektu**  | To edytowalne pole zawiera kwotę zatrzymania lub zaliczki używanych na tej fakturze projektu. Nie może być to więcej, niż dostępne w zaliczce. System automatycznie oblicza, jako różnicę pomiędzy polami siatki **Kwota** i **Kwota użyta**. Można zmniejszyć tę kwotę, aby użyć mniej niż jest dostępnych środków, ale nie można zwiększyć kwoty, która ma być używana ponad dostępną wartość. | To pole może być wyświetlane klientowi na wydrukowanej fakturze w celu wskazania kwoty tego zatrzymania lub zaliczki, która jest użyta na tej fakturze. |
 | Kwota salda na zatrzymaniu. | Siatka **Zastosowane zaliczki i zatrzymania** na stronie **Faktura projektu**  | To pole jest tylko do odczytu i wskazuje, jaka część danego zatrzymania lub zaliczki pozostanie do użycia po potwierdzeniu faktury. | To pole może być wyświetlane klientowi na wydrukowanej fakturze w celu wskazania kwoty tego zatrzymania lub zaliczki, która zostanie do użycia po potwierdzeniu i zapłaceniu faktury. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

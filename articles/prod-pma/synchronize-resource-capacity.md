@@ -2,11 +2,9 @@
 title: Synchronizowanie dyspozycyjności zasobów
 description: W tym temacie zamieszczono informacje dotyczące sposobu synchronizowania wydajności zasobu w kalendarzach i projektach.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 006ebbfea42572f17663fab324a20a10321b78f0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081990"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005629"
 ---
 # <a name="synchronize-resource-capacity"></a>Synchronizowanie dyspozycyjności zasobów
 
@@ -31,7 +29,7 @@ ms.locfileid: "4081990"
 
 Procesy synchronizacji zasobów pomagają zagwarantować, że informacje z kalendarza i kalendarza podstawowego trafiają do planowania zasobów projektu. Jeśli zostanie zmieniony kalendarz, procesy będą wymagały aktualizacji planowania zasobów projektów. Procesy pomagają również zwiększyć wydajność, ponieważ informacje o zasobach kalendarza są z góry synchronizowane. Z tego powodu aktualizacje informacji o harmonogramach zasobów są wykonywane szybciej. Zaleca się, aby zamiast pojedynczych procesów zaplanować przetwarzanie w postaci partii. W przeciwnym razie istnieje ryzyko, że użytkownik zapamiętał datę utworzenia ostatniej synchronizacji informacji. Jeśli nie są używane daty łączne, podczas synchronizacji między datami mogą następować przerwy.
 
-![Synchronizacja kalendarza](./media/projectresourcing04-1024x471.jpg)
+![Synchronizacja kalendarza.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Synchronizuj podsumowania pojemności zasobów
 
@@ -48,4 +46,7 @@ Zalecamy użycie partii. Te opcje są dostępne podczas synchronizowania rezerwa
     | Data rozpoczęcia  | Wprowadź datę rozpoczęcia procesu synchronizacji dotyczącego zestawienia wydajności zasobów. |
     | Data zakończenia    | Wprowadź datę zakończenia procesu synchronizacji dotyczącego zestawienia wydajności zasobów. |
 
-[![Proces synchronizacji](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Proces synchronizacji.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

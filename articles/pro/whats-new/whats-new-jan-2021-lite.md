@@ -2,17 +2,19 @@
 title: Co nowego w styczniu 2021 r. — Wdrożenie Project Operations lite
 description: Ten temat zawiera informacje o aktualizacjach dotyczących jakości dostępnych w uproszczonym wdrożeniu Project Operations ze stycznia 2021 r.
 author: sigitac
+manager: tfehr
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d302b3870e99467ba2e22cd98719b94a48c1fcf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28035a26529c9eb7e5a805c4e47c1958e30436bb
+ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993969"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "4958938"
 ---
 # <a name="whats-new-january-2021---project-operations-lite-deployment"></a>Co nowego w styczniu 2021 r. — Wdrożenie Project Operations lite
 
@@ -39,6 +41,3 @@ Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 P
 | **Zarządzanie szansami sprzedaży** | 2040713 | Rozwiązano błąd skryptu wyświetlany podczas tworzenia faktury z kontraktu i zainstalowanej usługi Field Service. |
 | **Planowanie i śledzenie projektu** | 2090202 | Oznaczone reguły biznesowe, które nie są już używane jako **Przestarzałe**. |
 | **Czas i wydatek** | 2091249 | Kontrolki z przechowanem widać, że użytkownicy nie mogą zmieniać zadania w przesłanym lub zatwierdzonym wpisie czasu. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

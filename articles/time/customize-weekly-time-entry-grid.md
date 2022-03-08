@@ -2,24 +2,22 @@
 title: Rozszerzanie wpisów czasu
 description: W tym temacie przedstawiono informacje na temat sposobu, w jaki deweloperzy mogą rozszerzyć kontrolę wpisów czasu.
 author: stsporen
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124651"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993344"
 ---
 # <a name="extending-time-entries"></a>Rozszerzanie wpisów czasu
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Dynamics 365 Project Operations obejmuje formant niestandardowego wprowadzanego wpisu czasu. Obejmuje on następujące funkcje:
+Rozwiązaniu Dynamics 365 Project Operations zawiera rozszerzaną kontrolę niestandardową wpisu czasu. Obejmuje on następujące funkcje:
 
 - Wprowadzanie czasu w ciągu tygodnia
 - Podsumowanie według dni, wierszy lub tygodni
@@ -144,3 +142,6 @@ Użyj sprawdzania poprawności do wszystkich walidacji, które wymagają więcej
 
 ### <a name="copying-time-entries"></a>Kopiowanie wpisów czasu
 Użyj widoku **Kopiuj kolumny wpisów czasu** w celu zdefiniowania listy pól, które mają zostać skopiowane podczas wpisywania czasu. Pola **Data** oraz **Czas trwania** są wymagane i nie można ich usunąć z widoku.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

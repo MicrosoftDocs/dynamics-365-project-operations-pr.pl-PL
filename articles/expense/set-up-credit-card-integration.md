@@ -2,11 +2,9 @@
 title: Konfigurowanie integracji z kartą kredytową
 description: W tym temacie wyjaśniono, jak pracować z transakcjami kartą kredytową związanymi z wydatkami.
 author: suvaidya
-manager: AnnBe
-ms.date: 04/02/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
+ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866696"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "7826269"
 ---
 # <a name="set-up-credit-card-integration"></a>Konfigurowanie integracji z kartą kredytową
 
@@ -52,10 +50,18 @@ Wybierz jedną lub kilka transakcji kartą kredytową, a następnie wybierz opcj
 
 ## <a name="delete-credit-card-transactions"></a>Usuwanie transakcji kartą kredytową 
 
-Czasami po zaimportowaniu transakcji kartą kredytową niektóre transakcje mogą wymagać usunięcia. Może tak być, jeśli transakcje są duplikatami lub ponieważ dane mogą być niedokładne. Administratorzy mogą używać funkcji **Usuwanie transakcji kart kredytowych**, aby wybierać i usuwać transakcje kartą kredytową, które **nie są dołączone** do raportu wydatków. 
+Czasami po zaimportowaniu transakcji kartą kredytową niektóre transakcje mogą wymagać usunięcia. Może to wynikać z faktu, że transakcje są duplikatami lub dane nie są dokładne. Administratorzy mogą używać funkcji **Usuwanie transakcji kart kredytowych**, aby wybierać i usuwać transakcje kartą kredytową, które **nie są dołączone** do raportu wydatków. 
 
 1. Przejdź do **Zadania okresowe** > **Usuń transakcje kartą kredytową**.
 2. Wybierz opcję **Filtruj** i podaj informacje służące do identyfikacji uwzględnianych rekordów.
 3. Wybierz **OK**, aby usunąć rekordy. 
+
+## <a name="storing-credit-card-numbers"></a>Przechowywanie numerów kart kredytowych
+
+Dostępne są trzy opcje przechowywania numerów kart kredytowych. Numery kart kredytowych są przechowywane na stronie **Parametry zarządzania wydatkami**.
+
+- **Zapobieganie wprowadzaniu numeru karty** – Numery kart kredytowych nie są przechowywane.
+- **Hashowanie numerów kart (przechowywanie ostatnich czterech cyfr)** – Ostatnie cztery cyfry numerów kart kredytowych są przechowywane w zaszyfrowanym formacie.
+- **Przechowuj numery kart** – Numery kart kredytowych są przechowywane w niezaszyfrowanym formacie. Ta opcja nie jest zgodna z normą Payment Card Industry (PCI) Data Security Standard (DSS). Dlatego, aby zachować zgodność organizacji z przepisami PCI DSS, administratorzy organizacji powinni zdecydować się albo na nieprzechowywanie numerów kart kredytowych, albo na przechowywanie numerów kart po hashowaniu.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

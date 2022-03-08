@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
-ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
+ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7558515"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323789"
 ---
 # <a name="subcontract-line-milestones"></a>Punkty kontrolne wiersza podumowy
 
@@ -50,15 +50,15 @@ Punkty kontrolny o stałej cenie w wierszu podumowy można tworzyć ręcznie, gd
 3. Na karcie **Punkty kontrolne wiersza podumowy** na siatce podrzędnej wybierz opcję **+ Nowy punkt kontrolny wiersza podumowy**.
 4. Na stronie **Nowy punkt kontrolny wiersza podumowy** wprowadź wymagane informacje zgodnie z następującą tabelą.
 
-    | Pole | Opis |Wpływ funkcjonalny|
-    | --- | --- |----------------------|
-    | Nazwa punktu kontrolnego | Nazwa punktu kontrolnego. |Ta kolumna będzie wyświetlana jako pierwsza we wszystkich wyszukiwaniach na podstawie punktów kontrolnych wierszy podumów. Wiersz faktury od dostawcy utworzony na podstawie tego punktu kontrolnego będzie również używać nazwy punktów kontrolnych wiersza podumowy jako nazwy domyślnej wiersza faktury od dostawcy.|
-    | Opis | Opis punktu kontrolnego. |Wiersz faktury od dostawcy utworzony na podstawie tego punktu kontrolnego będzie również używać opisu punktów kontrolnych wiersza podumowy jako opisu domyślnej wiersza faktury od dostawcy.|
-    | Data punktu kontrolnego | Data, od kiedy proces automatycznego tworzenia faktur powinien szukać stanu tego punktu kontrolnego i rozważyć jego użycie podczas fakturowania.| Ta wartość będzie używana jako domyślna data w wierszu faktury od dostawcy podczas fakturowania tego wiersza podumowy. |
-    | Kwota | Kwoty lub wartości punktów kontrolnych, które będą zafakturowane na klientach. |Ta wartość jest używana jako domyślna kwota w wierszu faktury od dostawcy podczas fakturowania tego wiersza podumowy. |
-    | Podatek | Kwota podatku stosowana względem punktu kontrolnego.| Ta wartość jest używana jako domyślna kwota podatku w wierszu faktury od dostawcy podczas fakturowania tego wiersza podumowy. |
-    | Kwota po opodatkowaniu | To pole tylko do odczytu jest obliczane jako Kwota + Podatek.|Ta wartość jest używana jako domyślna wartość w wierszu faktury od dostawcy podczas fakturowania tego wiersza podumowy. |
-    | Stan faktury | Podczas tworzenia punktu kontrolnego dla tego stanu jest zawsze ustawiana wartość **Nieprzygotowane do fakturowania**.|  Gdy stan to **Przygotowane do fakturowania**, proces tworzenia faktury dostawcy obejmuje ten punkt kontrolny na fakturze dostawcy. |
+    | Pole | Opis |
+    | --- | --- |
+    | Nazwa punktu kontrolnego | Nazwa punktu kontrolnego. |
+    | Opis | Opis punktu kontrolnego.  |
+    | Data punktu kontrolnego | Data, od kiedy proces automatycznego tworzenia faktur powinien szukać stanu tego punktu kontrolnego i rozważyć jego użycie podczas fakturowania. Ta wartość jest dołączona do wiersza faktury dostawcy podczas fakturowania tej podumowy. |
+    | Kwota | Kwoty lub wartości punktów kontrolnych, które będą zafakturowane na klientach. Ta wartość jest dołączona do wiersza faktury dostawcy podczas fakturowania tej podumowy. |
+    | Podatek | Kwota podatku stosowana względem punktu kontrolnego. Ta wartość jest dołączona do wiersza faktury dostawcy podczas fakturowania tej podumowy. |
+    | Kwota po opodatkowaniu | To pole tylko do odczytu obliczane jako Kwota + podatek. Ta wartość jest dołączona do wiersza faktury dostawcy podczas fakturowania tej podumowy. |
+    | Stan faktury | Podczas tworzenia punktu kontrolnego dla tego stanu jest zawsze ustawiana wartość **Nieprzygotowane do fakturowania**.  Gdy stan to **Przygotowane do fakturowania**, proces tworzenia faktury dostawcy obejmuje ten punkt kontrolny na fakturze dostawcy. |
 
 5. Wybierz pozycję **Zapisz i zamknij**.
 

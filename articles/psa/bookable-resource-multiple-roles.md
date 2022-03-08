@@ -2,12 +2,10 @@
 title: Szacowanie sprzedaży i kosztów projektu, gdy zasób z możliwością rezerwowania pełni wiele ról w projekcie
 description: Ten temat zawiera informacje o tym, jak wymiary wyceny mogą służyć do obsługi cen i kalkulacji kosztów dla zasobu, który wypełnia wiele ról w projekcie.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: be24bb3bdf2f3c8351fc396ae67457b5213e1cd800e9d2ad23d59d0d038f22b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145056"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987494"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Szacowanie sprzedaży i kosztów projektu, gdy zasób z możliwością rezerwowania pełni wiele ról w projekcie 
 
@@ -74,3 +72,6 @@ Po rozwinięciu wiersza rekordu tego członka zespołu można wyraźnie zobaczy�
 Kiedy przechodzisz do siatki **Szacowań**, zauważysz, że oba przypisania dotyczące tego samego zasobu będą w różny sposób wycenione.
 Przypisanie zasobu w zadaniu A ma cenę ustaloną za pomocą wartości atrybutu **Rola** **Potencjalnego klienta konsultingowego**. Przypisanie tego samego zasobu w zadaniu B ma cenę ustaloną za pomocą wartości atrybutu **Rola** **Technika sieciowego**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

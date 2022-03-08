@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992979"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987629"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Tworzenie rezerwacji projektu z tablicy harmonogramu
 
@@ -43,7 +43,7 @@ Możesz utworzyć zasób ogólny i przypisać go do jednego lub wielu zadań w r
 
 1.  W tablicy harmonogramu ten zasób będzie widoczny na karcie **Otwarte wymagania**. Może zaistnieć konieczność użycia filtrów kolumny w siatce, jeśli masz wiele otwartych wymagań. 
 
-    ![Otwórz kartę wymagań na tablicy harmonogramu](media/FAQ-Project-Booking-Schedule-Board-1.png "Zrzut ekranu ukazujący tabelę z rezerwacjami i przypisaniami")
+    ![Otwórz kartę wymagań na tablicy harmonogram.u](media/FAQ-Project-Booking-Schedule-Board-1.png "Zrzut ekranu ukazujący tabelę z rezerwacjami i przypisaniami")
 
 2. Wybierz wymaganie. Karta **Znajdź dostępność** pojawi się w górnej części wybranego wiersza,
  
@@ -53,7 +53,7 @@ Możesz utworzyć zasób ogólny i przypisać go do jednego lub wielu zadań w r
 
     Wybranie **Rezerwuj** rezerwuje zasób dla zespołu projektu.
 
-![Panel Utwórz rezerwację zasobu](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Panel Utwórz rezerwację zasobu.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Rezerwuj z wymagania podstawowego
@@ -62,7 +62,7 @@ Tworzenie projektu w Project Service powoduje automatyczne tworzenie wymagania z
 
 1. Aby zarezerwować zasób za pomocą wymagania podstawowego, na tablicy harmonogramu wybierz kartę **Projekt**. Jeśli masz wiele projektów, być może będzie trzeba skorzystać z filtru kolumny w kolumnie **Projekt**.
 
-   ![Filtry kolumn na tablicy harmonogramu](media/FAQ-Project-Booking-Schedule-Board-2.png "Zrzut ekranu ukazujący tabelę z rezerwacjami i przypisaniami")
+   ![Filtry kolumn na tablicy harmonogramu.](media/FAQ-Project-Booking-Schedule-Board-2.png "Zrzut ekranu ukazujący tabelę z rezerwacjami i przypisaniami")
 
 2. Wybierz wymaganie, które ma tylko nazwę projektu jako nazwę i czas trwania równy zero (0).
 

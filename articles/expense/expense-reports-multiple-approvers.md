@@ -2,11 +2,9 @@
 title: Raporty wydatków i różne osoby zatwierdzające
 description: Ta temat zawiera informacje na temat raportów z wydatków, które wymagają zatwierdzenia przez więcej niż jedną osobę.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfa8677f38e9468aa3236f587d2e9bd5af839054
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2acae2d518a02539f01d5498450236999fe609d1e8f26b5f90e18b986b83cab1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121006"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988439"
 ---
 # <a name="expense-reports-and-multiple-approvers"></a>Raporty wydatków i różne osoby zatwierdzające
 
@@ -41,3 +39,6 @@ Jeśli zachodzi konieczność pracy przez wiele osób zatwierdzających raporty 
 
     1. Kierownik pracownika zatwierdza raport o wydatkach.
     2. Właściciel budżetu zatwierdza raport o wydatkach.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

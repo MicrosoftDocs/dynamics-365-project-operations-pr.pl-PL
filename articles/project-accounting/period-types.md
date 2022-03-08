@@ -2,18 +2,16 @@
 title: Typy okresów
 description: Ten temat zawiera informacje dotyczące sposobów konfigurowania typów okresów na potrzeby szacowania przychodów.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6bcd988fbd074c66d64f7e327b4329d3de27e950
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 07cc9cde5fab10accb1fd6efede58926918f614c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531515"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013499"
 ---
 # <a name="period-types"></a>Typy okresów
 
@@ -34,3 +32,6 @@ Aby utworzyć typy okresów i pracować z nimi, wykonaj następujące czynności
 4. Wybierz rekord typu okresu, a następnie wybierz pozycję **Generuj okresy**, aby utworzyć okresy dla typu okresu. Na podstawie wybranej częstotliwości okresu może być dostępna opcja określenia daty rozpoczęcia lub liczby okresów do wygenerowania.
 5. Wybierz pozycję **Okresy**, aby przejrzeć wygenerowane okresy.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Wdrażanie środowisk
           items:
+            - name: Ręczne wdrażanie aplikacji Project Operations usługi Dataverse z obsługą podwójnego zapisu
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Ustanowienie nowego środowiska
               href: environment/resource-provision-new-environment.md
             - name: Model zabezpieczeń
@@ -52,6 +54,12 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Co nowego
       items:
+        - name: Lipiec 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Czerwiec 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-june-2021-resource-based.md
+        - name: Maj 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: Kwiecień 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Marzec 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
@@ -280,7 +288,7 @@
           items:
             - name: Projektowanie szablonów projektów przy użyciu narzędzia kopiowania projektów
               href: project-management/dev-copy-project.md
-            - name: Używanie planowanych interfejsów API (publiczna wersja zapoznawcza)
+            - name: Używanie interfejsów API planowania projektów (publiczna wersja zapoznawcza)
               href: project-management/schedule-api-preview.md
     - name: Zarządzanie zasobami
       items:
@@ -372,8 +380,10 @@
               href: expense/configure-expense-management-parameters.md
             - name: Konfigurowanie integracji z kartą kredytową
               href: expense/set-up-credit-card-integration.md
-            - name: Ustawianie kategorii wydatków
+            - name: Konfigurowanie kategorii wydatków
               href: expense/set-up-expense-categories.md
+            - name: Konfigurowanie przebiegu używającego warstw współczynnika przebiegu
+              href: expense/set-up-mileage.md
         - name: Wydatki osobiste
           href: expense/personal-expenses-expense-report.md
         - name: Wydatki międzyfirmowe
@@ -432,8 +442,6 @@
       items:
         - name: Omówienie przetwarzania faktur
           href: invoicing/post-project-invoices.md
-        - name: Zarządzanie propozycjami faktury projektu
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Fakturowanie proforma
           items:
             - name: Zarządzanie zaległościami rozliczania opartymi na projekcie
@@ -452,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Konfiguracja automatyzacji fakturowania opartego na projekcie
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Zarządzanie propozycjami faktury projektu
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Faktury dla klientów
+          items:
+            - name: Zarządzanie propozycjami faktury projektu
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Poprawianie księgowania propozycji faktur dla projektów wersji roboczej
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Faktura międzyfirmowa
+          items:
+            - name: Omówienie faktury międzyfirmowej
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konfigurowanie faktury międzyfirmowej
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Tworzenie transakcji międzyfirmowych
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Tworzenie faktur międzyfirmowych dla klienta i dostawcy
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Księgowanie projektu
       items:
         - name: Wartości domyślne wymiaru finansowego
@@ -466,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Arkusz integracji w aplikacji Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Faktura międzyfirmowa
-          items:
-            - name: Omówienie faktury międzyfirmowej
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Konfigurowanie faktury międzyfirmowej
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Tworzenie transakcji międzyfirmowych
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Tworzenie faktur międzyfirmowych dla klienta i dostawcy
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Ujmowanie przychodów
       items:
         - name: Omówienie ujmowania przychodów
@@ -508,6 +520,12 @@
           href: environment/security-model.md
     - name: Co nowego
       items:
+        - name: Co nowego w lipcu 2021 r. — wdrażanie wersji uproszczonej
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Co nowego w czerwcu 2021 r. — wdrażanie wersji uproszczonej
+          href: pro/whats-new/whats-new-june-2021-lite.md
+        - name: Co nowego w maju 2021 r. — wdrażanie wersji uproszczonej
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Co nowego w kwietniu 2021 r. — wdrażanie wersji uproszczonej
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Co nowego w marcu 2021 r. — wdrażanie wersji uproszczonej
@@ -756,7 +774,7 @@
           items:
             - name: Projektowanie szablonów projektów przy użyciu narzędzia kopiowania projektów
               href: project-management/dev-copy-project.md
-            - name: Używanie planowanych interfejsów API (publiczna wersja zapoznawcza)
+            - name: Używanie interfejsów API planowania projektów (publiczna wersja zapoznawcza)
               href: project-management/schedule-api-preview.md
     - name: Zarządzanie zasobami
       items:
@@ -876,6 +894,10 @@
   items:
     - name: Co nowego
       items:
+        - name: Co nowego w lipcu 2021 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: Co nowego w maju 2021 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Co nowego w kwietniu 2021 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Co nowego w marcu 2021 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
@@ -992,7 +1014,7 @@
           href: expense/configure-expense-management-parameters.md
         - name: Konfigurowanie integracji z kartą kredytową
           href: expense/set-up-credit-card-integration.md
-        - name: Ustawianie kategorii wydatków
+        - name: Konfigurowanie kategorii wydatków
           href: expense/set-up-expense-categories.md
     - name: Wydatki osobiste
       href: expense/personal-expenses-expense-report.md
@@ -1028,6 +1050,12 @@
       items:
         - name: Harmonogram wydań aktualizacji dla rozwiązania Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 30, V3'
@@ -1266,6 +1294,8 @@
               href: psa/time-entry-calendar.md
             - name: Dostosowywanie wpisu czasu tygodniowego
               href: psa/time-entry-extensibility-v3.md
+            - name: Zestawy zatwierdzenia
+              href: psa/approval-set.md
     - name: Często zadawane pytania i rozwiązywanie problemów (3.x)
       items:
         - name: Dlaczego cena domyślnie jest równa zero w wartościach rzeczywistych kosztu wydatków?

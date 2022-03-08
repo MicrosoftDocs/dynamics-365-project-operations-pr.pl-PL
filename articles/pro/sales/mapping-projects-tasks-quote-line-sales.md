@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d714304f408050babae1a6ba74268979e0b6ea4b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272761"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081904"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapowanie projektów i zadań do wiersza oferty opartej na projekcie
 
@@ -90,6 +90,3 @@ Skojarzenia zadań projektu można także anulować odnośnie do wierszy oferty 
 
 >[!NOTE]
 > Ta procedura nie powoduje usunięcia zadania z projektu. Usuwane jest tylko powiązanie zadania z wiersza oferty opartej na projekcie.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

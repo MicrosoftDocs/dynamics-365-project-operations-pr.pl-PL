@@ -2,8 +2,6 @@
 title: Anulowanie zatwierdzonych wcześniej wpisów czasu i wydatku
 description: Ten temat zawiera informacje o sposobie anulowania zatwierdzonej transakcji rozliczanej według czasu i wydatku.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150591"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987449"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Anulowanie zatwierdzonych wcześniej wpisów czasu lub wydatku
 
@@ -62,3 +60,6 @@ Anulowanie zatwierdzenia wpływa również finansowo na projekt. Najpierw odnoś
 Następnie w tabeli Wartości rzeczywiste są tworzone wpisy wycofania. Aby utworzyć wpisy wycofania, system kopiuje wartości pól z pierwotnych wartości rzeczywistych. Jedyne wartości, które nie są kopiowane, to wartości ilości. Zamiast tego te wartości są wycofywane. Wycofane wartości rzeczywiste są tworzone dla wartości rzeczywistych **Koszt** i **Nierozliczona sprzedaż**. Pole **Stan korekty** w wycofanych wartościach rzeczywistych otrzymuje wartość **Nie można skorygować**, a stan rozliczania otrzymuje wartość **Anulowano**.
 
 Po wprowadzeniu tych zmian kwota zarejestrowana jako wydana w projekcie oraz zaległości przychodów w projekcie nie będą już uwzględniały kwot reprezentowanych przez te wartości rzeczywiste.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

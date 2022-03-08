@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082155"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950457"
 ---
 # <a name="project-management-and-accounting-overview"></a>Informacje o zarządzaniu projektami i ich księgowaniu
 
@@ -205,7 +205,7 @@ Można zamówić towary z poziomu zapasów firmy przeznaczonych do spożycia w p
 
 Sposób zamawiania produktów zależy od tego, skąd je zamawiasz:
 
--   Aby zamówić towary w magazynie firmy, należy wprowadzić zamówienie jako zapotrzebowanie na towary. Jeśli jest używana Strona **Zapotrzebowania na towary**, możesz skonfigurować wymaganie, aby otrzymywać przedmioty jako częściowe dostawy. W związku z tym można odłożyć zużycie towarów do momentu, gdy będzie jedna ilość potrzebna.
+-   Aby zamówić towary w magazynie firmy, należy wprowadzić zamówienie jako zapotrzebowanie na towary. Jeśli jest używana Strona **Zapotrzebowania na towary**, możesz skonfigurować wymaganie, aby otrzymywać przedmioty jako częściowe dostawy. W związku z tym można odłożyć zużycie towarów do momentu, gdy będzie jedna ilość potrzebna.
 -   Aby zamówić towary od dostawcy zewnętrznego, należy utworzyć zamówienie jako zamówienie zakupu na stronie **Zamówienie zakupu**.
 
 > [!NOTE] 
@@ -227,7 +227,7 @@ Typ projektu określa metodę fakturowania, która ma zostać zastosowana. Możn
 Przed utworzeniem faktury dla klienta w projekcie można utworzyć wstępną fakturę lub propozycję faktury. W propozycji faktury można wybrać transakcje projektów, które mają zostać uwzględnione na fakturze projektu. Następnie można przejrzeć szczegóły faktury przed zaksięgowaniem faktury projektu i wysłaniem jej do klienta lub innego źródła finansowania. 
 
 
-Aby uzyskać więcej informacji na temat przetwarzania faktur w ramach projektu, zobacz [Fakturowanie projektu](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Aby uzyskać więcej informacji na temat przetwarzania faktur w ramach projektu, zobacz [Fakturowanie projektu](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Obliczanie kosztów w celu wykonania projektu
@@ -300,7 +300,7 @@ W zależności od konfiguracji można prognozować przychody środków pienięż
 -   **Data projektu:** 5 marca, 2012.
 -   **Data fakturowania:** 31 marca, 2012. Ta data jest określana na podstawie częstotliwości faktur. W tym przykładzie wartość częstotliwości faktury jest ustawiana na bieżący miesiąc. Z tego powodu wszystkie transakcje zaksięgowane w marcu są zafakturowane ostatniego dnia miesiąca.
 -   **Termin zapłaty:** 14 kwietnia 2012. Ta data jest określana na podstawie warunków płatności ustalonych dla projektu. W tym przykładzie wybrano warunki płatności na 14 dni. W związku z tym 14 dni jest dodawane do daty faktury, aby otrzymać termin płatności 14 kwietnia 2012 r.
--   **Przewidywana data płatności za sprzedaż:** 27 kwietnia 2012. Ta data jest obliczana przez dodanie liczby dni w polu **Ogólne dni buforowe** na stronie **Zarządzanie projektem i parametry księgowe** do liczby dni w polu **Indywidualne dni buforowe** na stronie **Umowy dotyczące projektów**, a następnie dodanie sumy do liczby dni w polu **Termin zapłaty**. W tym przykładzie wprowadzono **3** w polu **Ogólne dni buforowe** i **10** w polu **Indywidualne dni buforowe**. Dlatego 13 dni jest dodawane do terminu płatności, aby uzyskać oczekiwany termin płatności sprzedaży, czyli 27 kwietnia 2012 r.
+-   **Przewidywana data płatności za sprzedaż:** 27 kwietnia 2012. Ta data jest obliczana przez dodanie liczby dni w polu **Ogólne dni buforowe** na stronie **Zarządzanie projektem i parametry księgowe** liczby dni w polu **Indywidualne dni buforowe** na stronie **Umowy dotyczące projektów**, a następnie dodanie sumy do liczby dni w polu **Termin zapłaty**. W tym przykładzie wprowadzono **3** w polu **Ogólne dni buforowe** i **10** w polu **Indywidualne dni buforowe**. Dlatego 13 dni jest dodawane do terminu płatności, aby uzyskać oczekiwany termin płatności sprzedaży, czyli 27 kwietnia 2012 r.
 
 Ogólne dni buforowe mogą albo zastąpić poszczególne dni buforowe, albo zostać dodane do indywidualnych dni buforowych:
 
@@ -440,3 +440,6 @@ Po obliczeniu zestawienia możesz wyświetlić następujące informacje na róż
 -   **Zużycie** — Informacje o zużyciu godzin, towarów, wydatków i transakcji listy płac.
 -   **Faktura** — Informacje o fakturach i fakturach akonto.
 -   **Stawka godzinowa** — stawki godzinowe dotyczące godzin, które są księgowane na przychodach i na kontach kosztów.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

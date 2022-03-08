@@ -2,11 +2,9 @@
 title: Konfigurowanie i korzystanie z płatności dla dostawcy po uiszczonej opłacie
 description: W tym temacie przedstawiono sposób tworzenia terminów płatnych po uiszczonej opłacie (PWP), aby można było zwolnić częściowe płatności dostawcy na podstawie płatności klientów.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081991"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008869"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Konfigurowanie i korzystanie z płatności dla dostawcy po uiszczonej opłacie
 
@@ -80,3 +78,6 @@ Gdy dostawca wykona swoją pracę nad projektem i prześle fakturę, należy prz
 2. Na stronie **Faktura dostawcy z opcją płać po otrzymaniu zapłaty**, w polu wyszukiwania wprowadź wartości, aby znaleźć fakturę zakupu, którą chcesz przejrzeć, a następnie wybierz pozycję **Wyszukaj**.
 3. Na skróconej karcie **Wiersze faktury dostawcy** zaznacz wiersze, które chcesz zmienić.
 4. Jeśli wartości **Zapłać po uiszczeniu zapłaty** są spełnione, wybierz **Zwolnij płatność dla dostawcy**. Opcja **Zapłać po otrzymaniu zapłaty** jest wyczyszczona, a wartość pola **Gotowe do zapłaty** jest zamieniana na **Tak**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
