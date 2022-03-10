@@ -2,18 +2,16 @@
 title: Zarządzanie wieloma klientami w kontraktach projektu - wersja uproszczona
 description: Ten temat zawiera informacje o zarządzaniu wieloma klientami w umowach dotyczących projektu.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181330"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001759"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Zarządzanie wieloma klientami w kontraktach projektu - wersja uproszczona
 
@@ -52,3 +50,6 @@ Klienta kontraktowego można utworzyć, zaktualizować lub usunąć, korzystają
 Wartości procentowe podziału płatności można edytować za pomocą narzędzia do edycji siatki w linii. Gdy wartości procentowe podziału płatności nie osiągną 100 procent, pojawi się błąd. Po wyedytowaniu procentów podziału na fakturę odśwież stronę, aby odrzucić błąd.
 
 Można również wybrać **Równo rozpowszechnianie** w podsiatce **Klienci kontraktów**, aby podzielić rozliczenia na różne pozycje. Jeśli istnieje współczynnik zaokrąglania, zostanie on dodany do zaokrąglenia do klienta. Jeden z klientów kontraktowych jest zawsze oznakowany jako klient **zaokrąglający**, co oznacza, że flaga zaokrąglania rekordu klienta w kontrakcie jest ustawiona na **Tak**. Zazwyczaj jest to główny klient kontraktu, ale można go również zmienić.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

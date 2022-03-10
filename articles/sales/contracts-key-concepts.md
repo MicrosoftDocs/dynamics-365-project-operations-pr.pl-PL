@@ -2,24 +2,24 @@
 title: Kontrakty projektu - Kluczowe pojęcia
 description: W tym temat zamieszczono informacje dotyczące podstawowych pojęć w kontraktach projektu w Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175544"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986954"
 ---
-# <a name="project-contracts---key-concepts"></a>Kontrakty projektu - Kluczowe pojęcia
+# <a name="concepts-unique-to-project-based-contracts"></a>Pojęcia unikalne dla Kontraktów opartych na projekcie
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-W tym temacie można znaleźć podstawowe pojęcia przed rozpoczęciem korzystania z ofert projektów w ramach Dynamics 365 Project Operations.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+W tym temacie przedstawiono kluczowe pojęcia dotyczące korzystania z kontraktów projektów w aplikacji Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Firma będąca właścicielem
 
@@ -86,3 +86,6 @@ Harmonogramy fakturowania są specyficzne dla poszczególnych pozycji kontraktu 
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Zmiany z zamówień w Dynamics 365 Sales
 
 Kontrakty w Project Operations są oparte na zamówieniach w Dynamics 365 Sales. Istnieją jednak poważne różnice w działaniu tych funkcji. Kontrakty mają własne elementy formularzy i UI, reguły biznesowe, logikę biznesową w dodatkach plug-in oraz skrypty po stronie klienta, które sprawiają, że różnią się od ofert Orders. Z tych powodów nie należy używać zamiennych zamówień typu Sales i Project Operations wymiennie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

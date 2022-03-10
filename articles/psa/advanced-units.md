@@ -2,8 +2,6 @@
 title: Grupy jednostek i jednostki
 description: Ten temat zawiera informacje o grupach jednostek i jednostkach.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145596"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987584"
 ---
 # <a name="unit-groups-and-units"></a>Grupy jednostek i jednostki
 
@@ -46,7 +44,7 @@ Jeśli na przykład w grupie jednostek **Czas** jednostka **Godzina** zostanie u
 
 Na poniższej ilustracji przedstawiono przykładową konfigurację jednostki **Dzień**, gdzie w polu **Ilość** jest wyświetlana liczba dni istniejących w dniu, oraz jednostki **Tydzień**, gdzie pole **Ilość** zawiera liczbę dni w tygodniu.
 
-> ![Grupa jednostek: strona Informacje](media/advanced-2.png)
+> ![Grupa jednostek: strona Informacje.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Używanie jednostek i grup jednostek
 
@@ -88,7 +86,7 @@ W poniższym przykładzie pokazano, jak system PSA używa grupy jednostek, jedno
 
 | Rola      | Grupa jednostek | Jednostka | Jednostka organizacyjna | Cena   |
 |-----------|------------|------|---------------------|---------|
-| Dla deweloperów | Time       | Day  | Contoso UK          | 800 GBP |
+| Deweloperskie | Czas       | dzień  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Wpis czasu
 
@@ -112,3 +110,6 @@ Nr Szacowanie harmonogramów można obecnie wykonywać tylko w godzinach.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Czy jednostki i grupy jednostek można edytować, usuwać i dodawać?
 Tak. Z wyjątkiem grupy jednostek **Czasu** i jednostki **Godzina** można usuwać i edytować wszystkie jednostki, a także dodawać nowe jednostki. W usłudze PSA nie można usuwać grupy jednostek **Czas** ani jednostki **Godzina**. Można je jednak aktualizować o przetłumaczony tekst w polu **Nazwa**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

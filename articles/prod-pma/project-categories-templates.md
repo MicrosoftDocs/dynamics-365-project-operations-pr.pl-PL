@@ -2,11 +2,9 @@
 title: Synchronizacja kategorii wydatku projektu między Finance and Operations i Project Service Automation
 description: W tym temacie opisano szablony i podstawowe zadania, które są używane do synchronizowania kategorii wydatków projektu między Microsoft Dynamics 365 Finance do Dynamics 365 Project Service Automation.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082151"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001129"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synchronizacja kategorii wydatku projektu między Finance and Operations i Project Service Automation
 
@@ -58,7 +56,7 @@ Jeśli kategorie wydatków projektu są opanowane w Project Service Automation, 
 
 Na poniższej ilustracji przedstawiono sposób synchronizowania danych między Project Service Automation a Finance.
 
-[![Przepływ danych do integracji Project Service Automation z Finance](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Przepływ danych do integracji Project Service Automation z Finance.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>Synchronizacja kategorii wydatków projektu z Finance do Project Service Automation
 
@@ -95,7 +93,7 @@ Przy synchronizowaniu z Project Service Automation należy użyć Microsoft Powe
 
 Na poniższym rysunku pokazano przykład mapowania zadań szablonów w zakresie integracji danych. Mapowanie przedstawia informacje o polach, które zostaną zsynchronizowane z rozwiązania Finance do Project Service Automation.
 
-[![Synchronizacja kategorii wydatków projektu z mapowaniem szablonów Project Service Automation](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Synchronizacja kategorii wydatków projektu z mapowaniem szablonów Project Service Automation.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>Synchronizacja kategorii wydatków projektu z Project Service Automation do Finance
 
@@ -123,4 +121,7 @@ Na poniższym rysunku pokazano przykład mapowania zadań szablonów w zakresie 
 > [!NOTE]
 > Mapowanie przedstawia informacje o polach, które zostaną zsynchronizowane z Project Service Automation do Finance.
 
-[![Mapowanie szablonu Project Service Automation z Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![Mapowanie szablonu Project Service Automation z Finance.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

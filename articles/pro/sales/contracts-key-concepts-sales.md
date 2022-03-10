@@ -2,20 +2,18 @@
 title: Kontrakty projektów - Kluczowe pojęcia - wersja uproszczona
 description: Ten temat zawiera informacje na temat kluczowych pojęć w kontraktach projektu.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3381707457ef35ff604c716592afd8382b98ad5d
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: a797a4fef6276f6ed008b0e58eed4c7480ba3492bcc166a362d4ff2816acf777
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643051"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991454"
 ---
-# <a name="project-contracts---key-concepts---lite"></a>Kontrakty projektów - Kluczowe pojęcia - wersja uproszczona
+# <a name="concepts-unique-to-project-contracts"></a>Pojęcia unikalne dla Project Contracts
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
@@ -93,3 +91,6 @@ Kontrakty w Project Operations są oparte na kontraktach w Dynamics 365 Sales. N
 - Kontrakty Project Operations mają własne elementy formularzy i UI, reguły biznesowe, logikę biznesową w dodatkach plug-in oraz skrypty po stronie klienta, które sprawiają, że różnią się od kontraktów z Sales.
 
 Z tych powodów nie należy używać wymiennie kontraktów typu Sales i Project Operations.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

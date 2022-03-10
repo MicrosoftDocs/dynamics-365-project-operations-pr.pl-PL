@@ -2,27 +2,25 @@
 title: Konfigurowanie stawek rozliczania wykonanej pracy
 description: W tym temacie zamieszczono informacje dotyczące konfigurowania stawek rozliczania wykonanej pracy w Project Operations.
 author: rumant
-manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 0fee2c98713f4d1f8da85a0b60fb3fc2a873e5f82a64cf350ebeb68fe65fab35
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180719"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003559"
 ---
 # <a name="set-up-labor-bill-rates"></a>Konfigurowanie stawek weksli robocizny
 
 **Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
 
-Każdy cennik ma zestaw stawek pracy, inaczej cen ról, które obowiązują w ramach kontekstu i daty obowiązywania z nagłówka danego cennika. Stawki za koszty fakturowania w Dynamics 365 Project Operations można skonfigurować tylko w jednej walucie, która jest walutą w nagłówku cennika.
+Każdy cennik ma zestaw stawek pracy, inaczej cen ról, które obowiązują w ramach kontekstu i daty obowiązywania z nagłówka danego cennika. Stawki faktur w rozwiązaniu Dynamics 365 Project Operations można skonfigurować tylko w jednej walucie, która jest walutą w nagłówku Cennik.
 
-1. Aby skonfigurować stawki sprzedaży wykonanej pracy w cenniku, należy utworzyć Cennik na podstawie nagłówka cennika. 
-2. Na karcie **Ceny ról**. w podsiatce, wybierz pozycję **+ Nowa cena roli**. 
+1. Aby skonfigurować opłaty za robocizna dla cennika sprzedaży, przejdź do **Sprzedaż** > **Klienci** > **Cenniki** i wybierz **Nowy**, aby utworzyć nowy cennik. 
+2. Na karcie **Ceny ról**. w podsiatce, wybierz pozycję **Nowa cena roli**. 
 3. W okienku **Szybkie tworzenie** wprowadź kombinację roli i jednostka organizacyjnej, dla której konieczne jest skonfigurowanie stawki rozliczenia.
 
    W poniższej tabeli podano pola na karcie **Ogólne** oraz w okienku **Szybkie tworzenie** z wiersza cen z rolami, o których trzeba pamiętać, podczas tworzenia cen ról w cenniku sprzedaży:
@@ -55,3 +53,6 @@ Na przykład deweloper z działu robotyki firmy Fabrikam Indie pracujący w rama
     | Developer | Fabrikam US | Fabrikam US - Robotics | 150 USD |
 
 3. Dołącz cennik sprzedaży **Stawki rozliczania Fabrikam US** do cennika projektu lub kontraktu projektu bądź danego konta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

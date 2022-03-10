@@ -2,18 +2,16 @@
 title: Zarządzanie zaległościami rozliczania projektu
 description: Ten temat zawiera informacje o różnych widokach, których można używać podczas zarządzania zaległościami rozliczeniowymi w projektach.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25dc9cff6aeb6daed9a27ba843a74b892ca4751c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867009"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988304"
 ---
 # <a name="manage-project-billing-backlog"></a>Zarządzanie zaległościami rozliczania projektu 
 

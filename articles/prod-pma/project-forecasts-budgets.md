@@ -2,11 +2,9 @@
 title: Prognozy i budżety projektów
 description: Microsoft Dynamics 365 Finance zapewnia prognozy projektów i budżety projektów umożliwiające zarządzanie projektami i kontrolowanie ich.
 author: Yowelle
-manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f99c00effbb0678f1f55e5068a7128cbfb86f5ce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 47ea4c49a76a2bb0a1855fce2e9a874b4044e429d963c08392ec0ab471f89329
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082125"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988079"
 ---
 # <a name="project-forecasts-and-budgets"></a>Prognozy i budżety projektów
 
@@ -81,3 +79,6 @@ Jeśli używasz prognozowania projektu, możesz identyfikować modele jako model
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

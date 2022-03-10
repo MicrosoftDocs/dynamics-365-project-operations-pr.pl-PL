@@ -2,18 +2,17 @@
 title: Zastępowanie cenników sprzedaży projektu
 description: Ten temat zawiera informacje na temat tworzenia niestandardowych cenników sprzedaży.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
+ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130861"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009589"
 ---
 # <a name="override-project-sales-price-lists"></a>Zastępowanie cenników sprzedaży projektu
 
@@ -21,13 +20,13 @@ _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i 
 
 ## <a name="customer-specific-project-price-lists"></a>Cenniki projektów dostosowane do potrzeb klienta
 
-Umowy cenowe specyficzne dla klienta można skonfigurować jako cenniki projektu w rekordzie konta w Dynamics 365 Project Operations.
+Umowy cenowe specyficzne dla klienta można skonfigurować jako cenniki projektu w rekordzie konta w aplikacji Dynamics 365 Project Operations.
 
 W celu skonfigurowania cennika projektu specyficznego dla klienta w obszarze **Sprzedaż** przejdź do rekordu klienta.
 
 1. Otwórz stronę listy **Konta**.
 2. Znajdź i kliknij dwukrotnie rekord klienta, aby otworzyć stronę szczegóły **Konta**.
-3. Na karcie **Cenniki projektów** wybierz **+ Nowy cennik projektu^^.
+3. Na karcie **Cenniki projektów** wybierz **+ Nowy cennik projektu**.
 4. Na stronie **Nowy cennik projektu** wybierz cennik z listy rozwijanej. Uwzględnione zostaną tylko te cenniki, dla których ustawiono wartość **Sprzedaż** i z której walutą jest zgodna waluta klienta.
 5. Nazwij powiązanie, a następnie wybierz **Zapisz**. Tworzony jest cennik projektu dla klienta. Ten cennik będzie używany do domyślnych cen projektu w ofertach projektu lub umowach utworzonych dla tego klienta, jeśli data utworzenia oferty lub umowy dotyczącej projektu przypada w okresie obowiązywania cennika.
 
@@ -51,3 +50,6 @@ Można użyć poszczególnych cenników i wprowadzić zmiany dotyczące robocizn
 W kontrakcie projektu cena projektu zawsze jest domyślnie ustawiona jako cennik niestandardowy z nazwą kontraktu i sygnaturą czasową utworzenia dołączaną do nazwy. Jest to prawdą, czy kontrakt został utworzony w czasie, gdy oferta została wykorzystana lub kiedy kontrakt został utworzony od podstaw. Jeśli jest to konieczne, można usunąć to skojarzenie z cennika niestandardowego i zamiast niego skojarzyć cennik standardowy z kontraktem dotyczącym projektu.
 
 Po skojarzeniu standardowego cennika z cennikami dotyczącymi oferty lub kontraktu wszelkie zmiany cen w cenniku będą miały wpływ na wszystkie oferty i kontrakty, w których jest używany cennik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

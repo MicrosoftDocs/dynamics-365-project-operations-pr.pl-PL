@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025787"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547122"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Wersje map podwójnego zapisu aplikacji Project Operations
 
@@ -32,7 +32,7 @@ Następujące mapy są wymaganymi warunkami wstępnymi dla rozwiązania Project 
 
 1. Z listy map wybierz mapowanie Księga **(msdyn\_ledgers)** ze wszystkimi wymaganiami wstępnymi i zaznacz pole wyboru **Synchronizacja początkowa**. W polu **Główny dla początkowej synchronizacji** wybierz **aplikacje Finance and Operations** zarówno dla mapy księgi głównej, jak i dla wszystkich map warunkowych. Wybierz **Uruchom**.
 
-![Synchronizacja mapowania księgi](media/DW6.png)
+![Synchronizacja mapowania księgi.](media/DW6.png)
 
 2. Wykonaj te same kroki dla wszystkich pozostałych map tabel wymienionych w powyższej tabeli. Podczas uruchamiania tych map nie zaznaczaj pola wyboru **Synchronizacja początkowa**.
 
@@ -49,8 +49,8 @@ Następujące mapy są wymaganymi warunkami wstępnymi dla rozwiązania Project 
 | Tabela integracji Project Operations dla szacowania materiałów (msdyn\_estimatelines) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. |
 | Propozycje faktury projektu V2 (invoices) | 1.0.0.3 | Nie jest wymagane do inicjowania obsługi. |
 | Wartości rzeczywiste integracji Project Operations (msdyn_actuals) | 1.0.0.14 | Nie jest wymagane do inicjowania obsługi. |
-| Punkty kontrolne pozycji kontraktu w integracji Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Nie jest wymagane do inicjowania obsługi. |
-| Encja integracji Project Operations na potrzeby oszacowania kosztów (msdyn_estimateslines) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. |
+| Punkty kontrolne pozycji kontraktu integracji rozwiązania Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Nie jest wymagane do inicjowania obsługi. |
+| Encja integracji rozwiązania Project Operations dla szacowania wydatków (msdyn_estimatelines) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. |
 | Encja integracji Project Operations na potrzeby oszacowania godzinowego (msdyn_resourceassignments) | 1.0.0.5 | Nie jest wymagane do inicjowania obsługi. |
 | Encja integracji kategorii wydatków projektowych Project Operations (msdyn_expensecategories) | 1.0.0.1 | Nie jest wymagane do inicjowania obsługi. |
 | Encja integracji wydatków projektowych Project Operations (msdyn_expenses) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. |
@@ -65,7 +65,7 @@ Wykonaj następujące kroki, aby uruchomić wymienione mapowania.
 
 1. Włącz role zasobów projektu dla **wszystkich firm (bookableresourcecategories)**, ponieważ to mapowanie wymaga początkowej synchronizacji. W polu **Główny dla początkowej synchronizacji** wybierz usługę **Common Data Service**. 
 
- ![Synchronizacja mapowania tabeli ról zasobów](media/6ResourceInitialSync.jpg)
+ ![Synchronizacja mapowania tabeli ról zasobów.](media/6ResourceInitialSync.jpg)
 
  Przed przejściem do następnego kroku poczekaj, aż stan mapy zmieni się na **Uruchomione**.
 

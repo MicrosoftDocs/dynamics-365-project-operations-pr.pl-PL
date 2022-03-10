@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008009"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995234"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Dodawanie nowych niestandardowych formularzy encji (Project Service Automation wer. 2.x)
 
@@ -57,7 +57,7 @@ Wykonaj te kroki, aby utworzyć niestandardową wersję formularza **Informacje 
     - Wyeksportuj formularz **Moje informacje o projekcie** jako część niezarządzanego rozwiązania, a następnie poszukaj wartości **formId** w pliku customization.xml wyeksportowanego rozwiązania.
     - Otwórz formularz **Moje informacje o projekcie** w edytorze formularzy, a następnie wyszukaj unikatowy identyfikator globalny (GUID) obok parametru **fromId** w adresie URL, jak przedstawiono na poniższym rysunku.
 
-    ![Wartość formId nowego formularza w adresie URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Wartość formId nowego formularza w adresie URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Utwórz mapowanie pola **msdyn\_ordertype** dla wartości **formId**, odpowiednio modyfikując zasób internetowy msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Usuń kod z zasobu i zastąp go następującym kodem.
 

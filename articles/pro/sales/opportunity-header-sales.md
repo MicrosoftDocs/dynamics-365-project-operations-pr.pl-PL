@@ -2,18 +2,16 @@
 title: Ustawienia szansy sprzedaży - wersja uproszczona
 description: Ta temat zawiera informacje na temat transakcji opartych na projektach oraz wierszach szans sprzedaży opartych na projektach.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ed82cb511337d9f6286e13b244d049022a184eef
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 6a9a1ea9dacdb3aa2dbc8a0500481b204ff14eddfc1138e3db43ff568d7cd48b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950637"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994469"
 ---
 # <a name="header-details-for-project-opportunities"></a>Szczegóły nagłówka dla szans sprzedaży projektu
 

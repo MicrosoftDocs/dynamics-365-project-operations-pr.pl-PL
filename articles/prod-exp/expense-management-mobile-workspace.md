@@ -2,12 +2,8 @@
 title: Mobilny obszar roboczy zarządzania wydatkami
 description: Ten temat zawiera informacje o mobilnym obszarze roboczym Zarządzanie wydatkami. Ten obszar roboczy umożliwia zapisywanie i przesyłanie paragonów, dzięki czemu mogą być dołączone do raportu o wydatkach w późniejszym terminie. Użytkownicy mogą również szybko tworzyć wiersze wydatków, korzystając z dołączonego paragonu i tworząc raporty dotyczące wydatków i zarządzając nimi.
 author: suvaidya
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -17,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2d257ced3dadb320c501bfd5f64dcd8f21c1a4d3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272041"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001489"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobilny obszar roboczy zarządzania wydatkami
 
@@ -58,7 +54,7 @@ Można również użyć następujących funkcji:
 Te wymagania są różne, zależnie od wersji, która została wdrożona w danej organizacji.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Wymagania wstępne dotyczące korzystania z Dynamics 365 Finance 
-Jeśli w organizacji wdrożono rozwiązanie Finance, administrator systemu musi opublikować mobilny obszar roboczy **Zarządzanie wydatkami**. Aby uzyskać instrukcje, zobacz [Publikowanie przestrzeni roboczej dla urządzeń przenośnych](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Jeśli w organizacji wdrożono rozwiązanie Finance, administrator systemu musi opublikować mobilny obszar roboczy **Zarządzanie wydatkami**. Aby uzyskać instrukcje, zobacz [Publikowanie przestrzeni roboczej dla urządzeń przenośnych](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Wymagania wstępne, jeśli używasz wersji 1611 z aktualizacją platformy 3 lub nowszą
 Jeśli w organizacji wdrożono wersję 1611 z aktualizacją platformy 3 lub nowszą, administrator systemu musi spełnić następujące wymagania wstępne. 
@@ -77,16 +73,16 @@ Jeśli w organizacji wdrożono wersję 1611 z aktualizacją platformy 3 lub nows
 <td>Administrator systemu</td>
 <td>KB 4019015 to aktualizacja X ++ lub poprawka metadanych, która zawiera mobilny obszar roboczy <strong>Zarządzanie wydatkami</strong>. Aby zaimplementować KB 4019015, administrator systemu musi wykonać następujące kroki.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Pobierz poprawkę metadanych z Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Zainstaluj poprawkę metadanych</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Utwórz pakiet wdrożeniowy</a> zawierający <strong>ApplicationSuite</strong> i <strong>ExpenseMobile</strong>, a następnie przekaż pakiet wdrożeniowy na LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Zastosowanie pakietu, który ma zostać wdrożony</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Pobierz poprawkę metadanych z Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Zainstaluj poprawkę metadanych</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Utwórz pakiet wdrożeniowy</a> zawierający <strong>ApplicationSuite</strong> i <strong>ExpenseMobile</strong>, a następnie przekaż pakiet wdrożeniowy na LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Zastosowanie pakietu, który ma zostać wdrożony</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Opublikuj obszar roboczy <strong>Zarządzanie wydatkami</strong>.</td>
 <td>Administrator systemu</td>
-<td>Zobacz <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publikowanie przestrzeni roboczej dla urządzeń przenośnych</a>.</td>
+<td>Zobacz <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publikowanie przestrzeni roboczej dla urządzeń przenośnych</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -104,7 +100,7 @@ Pobierz i zainstaluj aplikację mobilną Dynamics 365 Unified Ops:
 5. Po zalogowaniu się zostaną wyświetlone dostępne obszary robocze dla firmy. Należy pamiętać, że jeśli system Administrator opublikuje nowy obszar roboczy później, konieczne będzie odświeżenie listy obszarów roboczych urządzeń przenośnych.
 
 
-[![Przeciągnij, aby odświeżyć](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Przeciągnij, aby odświeżyć.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Zapisywanie paragonów za pomocą mobilnego obszaru roboczego zarządzania wydatkami
 
@@ -128,11 +124,11 @@ Pobierz i zainstaluj aplikację mobilną Dynamics 365 Unified Ops:
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Szybkie zapisywanie paragonów za pomocą mobilnego obszaru roboczego zarządzania wydatkami
 1. Otwórz obszar roboczy **Zarządzanie wydatkami** na swoim urządzeniu przenośnym.
 2. Wybierz pozycję **Szybki zapis wydatków**.
-3. Wybierz kategorię wydatku. Zobaczysz kategorie wydatków, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jeśli kategoria nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według kategorii wydatków lub przejdź do wyszukiwania według typu wydatków.
+3. Wybierz kategorię wydatku. Zobaczysz kategorie wydatków, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jeśli kategoria nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według kategorii wydatków lub przejdź do wyszukiwania według typu wydatków.
 4. Wprowadź datę transakcji wydatkowej.
 5. Opcjonalnie: Wprowadź nazwę handlową dla wydatku.
 6. Wprowadź pieniężną wartość wydatku.
-7. Wybierz walutę i wydatek. Zobaczysz kody walut, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 400 walut, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jeśli waluta nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według waluty lub przejdź do wyszukiwania według nazwy.
+7. Wybierz walutę i wydatek. Zobaczysz kody walut, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 400 walut, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jeśli waluta nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według waluty lub przejdź do wyszukiwania według nazwy.
 8. Wybierz opcję **Zrób zdjęcie** lub **Wybierz obraz**.
 9. Wykonaj jedną z następujących czynności:
 
@@ -163,11 +159,11 @@ Pobierz i zainstaluj aplikację mobilną Dynamics 365 Unified Ops:
 7. Z listy wybierz jeden lub więcej wydatków.
 8. Wybierz **Gotowe**.
 9. W celu dodania nowego wydatku do raportu z wydatków wybierz opcję **Nowy wydatek**.
-10. Wybierz kategorię wydatku. Zobaczysz kategorie wydatków, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jeśli kategoria nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według kategorii wydatków lub przejdź do wyszukiwania według typu wydatków.
+10. Wybierz kategorię wydatku. Zobaczysz kategorie wydatków, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jeśli kategoria nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według kategorii wydatków lub przejdź do wyszukiwania według typu wydatków.
 11. Opcjonalnie: Wprowadź nazwę handlową dla wydatku.
 12. Wprowadź datę transakcji wydatkowej.
 13. Wprowadź pieniężną wartość wydatku.
-14. Wybierz walutę i wydatek. Zobaczysz kody walut, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 400 walut, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jeśli waluta nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według waluty lub przejdź do wyszukiwania według nazwy.
+14. Wybierz walutę i wydatek. Zobaczysz kody walut, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 400 walut, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jeśli waluta nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według waluty lub przejdź do wyszukiwania według nazwy.
 15. Wybierz **Gotowe**.
 16. Aby dodać więcej szczegółów do wydatku, wybierz pozycję **Dodaj więcej szczegółów**. Dostępne pola zależą od konfiguracji zarządzania wydatkami w firmie użytkownika.
 17. Jeśli zasady firmy wymagają otrzymania paragonu na wydatek, wybierz pozycję **Paragony**, a następnie wykonaj następujące kroki:
@@ -213,12 +209,12 @@ Pobierz i zainstaluj aplikację mobilną Dynamics 365 Unified Ops:
 
         - W przypadku wybrania **Poprzedni gość** należy:
 
-            1. Z listy wybierz jednego lub więcej poprzednich gości. Zostanie wyświetlona lista poprzednich gości, których dodano do poprzednich raportów z wydatków załadowanych do aplikacji w celu korzystania z nich w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jeśli poprzedni gość nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według nazwy lub przejdź do wyszukiwania według organizacji, kraju lub tytułu.
+            1. Z listy wybierz jednego lub więcej poprzednich gości. Zostanie wyświetlona lista poprzednich gości, których dodano do poprzednich raportów z wydatków załadowanych do aplikacji w celu korzystania z nich w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jeśli poprzedni gość nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według nazwy lub przejdź do wyszukiwania według organizacji, kraju lub tytułu.
             2. Wybierz **Gotowe**.
 
         - W przypadku wybrania **Współpracownicy** należy:
 
-            1. Z listy wybierz jednego lub większą liczbę współpracowników. Zobaczysz kategorie współpracowników, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jeśli współpracownik nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według nazwy lub przejdź do wyszukiwania według firmy lub tytułu.
+            1. Z listy wybierz jednego lub większą liczbę współpracowników. Zobaczysz kategorie współpracowników, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jeśli współpracownik nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według nazwy lub przejdź do wyszukiwania według firmy lub tytułu.
             2. Wybierz **Gotowe**.
 
     3. Wybierz przycisk **Wstecz**, aby powrócić do szczegółów wydatku.
@@ -227,7 +223,7 @@ Pobierz i zainstaluj aplikację mobilną Dynamics 365 Unified Ops:
 
     1. Wybierz pierwszą datę do podziału na pozycje.
     2. Wybierz pozycję **Dodaj podział na pozycje**.
-    3. Wybierz podkategorię podziału na pozycje. Zobaczysz podkategorie wydatków, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jeśli podkategoria nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według nazwy podkategorii wydatku.
+    3. Wybierz podkategorię podziału na pozycje. Zobaczysz podkategorie wydatków, które są ładowane do aplikacji do użytku w trybie offline. Domyślnie ładowanych jest 50 elementów, ale programista może zmienić tę liczbę. Aby uzyskać więcej informacji, zobacz [Platforma mobilna](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jeśli podkategoria nie znajduje się na liście, wybierz pozycję **Wyszukaj**, aby dokonać wyszukiwania online. Wyszukaj według nazwy podkategorii wydatku.
     4. Wprowadź kwotę transakcji do podziału na pozycje.
     5. Jeśli trzeba, zmień datę transakcji.
     6. Wybierz **Gotowe**.

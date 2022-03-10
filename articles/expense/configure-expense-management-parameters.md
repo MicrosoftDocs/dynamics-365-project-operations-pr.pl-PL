@@ -2,18 +2,16 @@
 title: Konfigurowanie parametrów zarządzania wydatkami
 description: W tym temacie opisano parametry, które kontrolują ogólny sposób zarządzania wydatkami.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8ecbd0abc16d0a29eea47d6bd1653a204a83de4c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081894"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007789"
 ---
 # <a name="configure-expense-management-parameters"></a>Konfigurowanie parametrów zarządzania wydatkami
 
@@ -83,3 +81,6 @@ W tym temacie opisano parametry, które kontrolują ogólny sposób zarządzania
 | Wyświetlanie zaświadczeń przeciwdziałających korupcji   | Wybierz tę opcję, aby podczas tworzenia raportu z wydatkami był wyświetlany tekst antykorupcyjny. Następnie można włączyć określoną kategorię wydatków, która wymagać będą złożenia w raporcie oświadczeń antykorupcyjnych. Na przykład kategoria upominkowa powiązana z oficjalnymi wydatkami dla urzędnika administracji rządowej może wymagać, aby pracownik zatwierdził, że wydatek przestrzega zasad firmy dotyczących urzędników administracji rządowej. |
 | Komunikat antykorupcyjny dla osoby przesyłającej | Wprowadź tekst, który ma być wyświetlany pracownikowi tworzącemu raport o wydatkach. Aby wprowadzić odpowiedni dla języka tekst, który będzie widoczny na podstawie języka użytkownika, wybierz pozycję **Tłumaczenia**. |
 | Komunikat antykorupcyjny dla osoby zatwierdzającej  | Wprowadź tekst, który ma być wyświetlany pracownikowi zatwierdzającemu raport o wydatkach podczas tworzenia raportu. Aby wprowadzić odpowiedni dla języka tekst, który będzie widoczny na podstawie języka użytkownika, wybierz pozycję **Tłumaczenia**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

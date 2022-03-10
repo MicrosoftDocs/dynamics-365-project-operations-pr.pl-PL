@@ -2,12 +2,10 @@
 title: Zmiany w zarządzaniu zasobami (Project Service Automation wer. 3.x)
 description: Ten temat zawiera informacje o zmianach w obszarze Zarządzanie zasobami.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/18/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,14 +14,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bc293e7686b7fd7d50d232cb8b26bfc03eb29c8911b52536d2b0a3a4929730c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082203"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000319"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Zmiany w zarządzaniu zasobami (Project Service Automation wer. 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Sekcje tego tematu zawierają informacje o zmianach wprowadzonych w obszarze Zarządzanie zasobami w programie Dynamics 365 Project Service Automation w wersji 3.x.
 
@@ -168,3 +168,6 @@ W encji **msdyn\_projecttask** nie zmieniono następujących pól kosztu ani spr
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

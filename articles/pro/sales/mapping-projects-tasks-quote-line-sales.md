@@ -2,18 +2,16 @@
 title: Mapowanie projektów i zadań do wiersza oferty opartej na projekcie
 description: W tym temacie zamieszczono informacje dotyczące sposobu mapowania projektów i zadań na pozycje zadań oparte na projektach.
 author: rumant
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6ad46f3636d749740115b11584eb81977c73cb30b63ef1092c0c2aac97cbc647
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081904"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988259"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapowanie projektów i zadań do wiersza oferty opartej na projekcie
 
@@ -90,3 +88,6 @@ Skojarzenia zadań projektu można także anulować odnośnie do wierszy oferty 
 
 >[!NOTE]
 > Ta procedura nie powoduje usunięcia zadania z projektu. Usuwane jest tylko powiązanie zadania z wiersza oferty opartej na projekcie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

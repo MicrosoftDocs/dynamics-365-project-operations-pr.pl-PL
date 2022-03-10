@@ -2,16 +2,16 @@
 title: Tworzenie struktury podziału pracy
 description: W tym temacie wyjaśniono, jak utworzyć strukturę podziału pracy (SPP), w tym podstawowe elementy sterujące w nowym interfejsie planowania.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998744"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928628"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Tworzenie struktury podziału pracy (SPP)
 
@@ -95,7 +95,7 @@ Jako administrator można definiować pola niestandardowe w jednostce zadania. J
 
 ## <a name="staffing-attributes"></a>Atrybuty personelu
 
-Dostęp do atrybutów obsługi personelu jest możliwy za pośrednictwem pola **zasoby** w harmonogramie. Użytkownik może wyszukać istniejący zasób lub wybrać pozycję **Utwórz**, a następnie w okienku **szybkie tworzenie** dodać członka zespołu projektu jako nowy zasób.
+Dostęp do atrybutów obsługi personelu jest możliwy za pośrednictwem pola **zasoby** w harmonogramie. Użytkownik może wyszukać istniejący zasób lub wybrać pozycję **Utwórz**, a następnie w okienku **szybkie tworzenie** dodać członka zespołu projektu jako nowy zasób.  Wyszukiwanie zasobu przy użyciu selektora zasobów w siatce zadań, widoku tablicy lub na wykresie Gantta zwraca istniejących członków zespołu projektu lub aktywne zasoby, które można zarezerwować.
 
 Pola **rola**, **jednostka zasobów** i **nazwa stanowiska** są używane do opisywania wymagań dotyczących personelu dla zadania. Te atrybuty personelu wraz z harmonogramem zadań są używane do znajdowania dostępnych zasobów w celu wykonania tego zadania.
 
@@ -117,5 +117,27 @@ Tryb zadania nie ma wpływu na aktualizacje wprowadzane do dat rozpoczęcia i za
 
 Siatka **harmonogramu** jest w pełni dostępna i może być używana z czytnikami ekranu, takimi jak Narrator, JAWS lub NVDA. Aby przechodzić między obszarem siatki za pomocą klawiszy strzałek (jak w Microsoft Excel), można użyć klawisza Tab w celu przechodzenia między elementami interaktywnego interfejsu użytkownika i można użyć klawisza strzałki w dół, klawisza Enter lub klawisza spacji w celu wybrania i otwarcia menu rozwijanego.
 
+## <a name="project-limitations"></a>Ograniczenia projektu 
+W przypadku korzystania ze struktury podziału pracy w Project Operations należy pamiętać o następujących ograniczeniach. Te ograniczenia dotyczą projektów i zadań. Aby uzyskać więcej informacji, zobacz temat [Limity i ograniczenia Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Pole**                                          |  **Limit**           |
+|----------------------------------------------------|----------------------|
+| Maksymalna łączna liczba zadań projektu                  | 500                  |
+| Maksymalny całkowity czas trwania projektu               | 3650 dni (10 lat) |
+| Maksymalne całkowite zasoby na projekt              | 150                  |
+| Maksymalna łączna liczba linków (tylko następca) dla projektu | 600                  |
+| Maksymalna łączna liczba pól niestandardowych dla projektu          | 10                   |
+| Maksymalna liczba pozycji listy kontrolnej dla każdego zadania                   | 20                   |
+
+**Ograniczenia zadania**
+
+| **Pole**                               |   **Limit**           |
+|-----------------------------------------|-----------------------|
+| Maksymalny poziom hierarchii                 | 10 poziomów             |
+| Maksymalna liczba linków (następca + poprzednik) | 20                    |
+| Maksymalny czas trwania zadania podczas realizacji           | 1250 dni             |
+| Maksymalny czas trwania zadania podsumowującego      | 3650 dni (10 lat)  |
+| Maksymalne zasoby przypisane do zadania    | 20 zasobów          |
+| Obsługiwany zakres dat dla zadania         | 1/1/2000 - 31/12/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

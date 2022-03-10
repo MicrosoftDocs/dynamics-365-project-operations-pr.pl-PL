@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007154"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987944"
 ---
 # <a name="integration-journal-in-project-operations"></a>Arkusz integracji w aplikacji Project Operations
 
@@ -19,14 +19,14 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 Wpisy czasu i wydatku tworzą **Rzeczywiste** transakcje reprezentujące praktyczny widok pracy wykonanej nad projektem. Rozwiązanie Dynamics 365 Project Operations zapewnia księgowym narzędzie do przeglądania transakcji i dostosowywania atrybutów księgowych zgodnie z potrzebami. Po zakończeniu przeglądu i dostosowań transakcje są księgowane w księgach i księdze głównej projektu. Te działania można wykonać przy użyciu arkusza **integracji Project Operations** (**Dynamics 365 Finance** > **Zarządzanie projektami i ich księgowanie** > **Arkusze** > **Arkusz integracji aplikacji Project Operations**.
 
-![Przepływ dziennika integracji](./media/IntegrationJournal.png)
+![Przepływ dziennika integracji.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Utwórz rekordy w dzienniku Integracja operacji projektu
 
 Rekordy w dzienniku integracji Project Operations są tworzone przy użyciu procesu okresowego **Import z tabeli przemieszczania**. Aby uruchomić ten proces, należy przechodząc do obszaru **Dynamics 365 Finance** > **Zarządzanie projektami i ich księgowanie** > **Okresowe** > **Integracja Project Operations** > **Import z tabeli przemieszczania**. Proces można uruchomić interakcyjnie lub skonfigurować go tak, aby uruchamiał się w tle w zależności od potrzeb.
 
 Podczas przebiegu procesu okresowego można znaleźć wartości rzeczywiste, które nie zostały jeszcze dodane do arkusza integracji Project Operations. Zostanie utworzony wiersz dziennika dla każdej transakcji rzeczywistej.
-Wiersze dziennika z grupami systemowymi jako oddzielne dzienniki na podstawie wartości wybranej w polu **Jednostka okresu w dzienniku Integracja operacji projektu** (**Finance** > **Zarządzanie projektami i ich księgowanie** > **Ustawienia** > **Zarządzanie projektem i parametry księgowe**, **Project Operations na karcie Dynamics 365 Customer Engagement**). Dopuszczalne wartości tego pola to:
+System grupuje wiersze dziennika jako oddzielne dzienniki na podstawie wartości wybranej w polu **Jednostka okresu w dzienniku integracji aplikacji Project Operations** (**Finance** > **Zarządzanie projektami i ich księgowanie** > **Ustawienia** > **Zarządzanie projektem i parametry księgowe**, karta **Project Operations w aplikacji Dynamics 365 Customer Engagement**). Dopuszczalne wartości tego pola to:
 
   - **Dni**: wartości rzeczywiste są pogrupowane według daty transakcji. Dla każdego dnia jest tworzony osobny arkusz.
   - **Miesiące**: wartości rzeczywiste są pogrupowane według miesięcy kalendarzowych. Dla każdego miesiąca jest tworzony osobny arkusz.

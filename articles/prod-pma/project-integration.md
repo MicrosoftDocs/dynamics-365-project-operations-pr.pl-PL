@@ -2,7 +2,7 @@
 title: Integracja klienta programu Microsoft Project
 description: Planowanie i utrzymywanie harmonogramu projektu może być skomplikowane, więc kierownicy projektów muszą używać narzędzi, które pomagają im zarządzać tym zadaniem. Integracja z Microsoft Project Client zapewnia wsparcie dla otwierania i zarządzania strukturą podziału pracy w projekcie.
 author: Yowelle
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999459"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988034"
 ---
 # <a name="microsoft-project-client-integration"></a>Integracja klienta programu Microsoft Project
 
@@ -126,5 +126,12 @@ Aby utworzyć nową strukturę podziału pracy przy użyciu programu Microsoft P
 
 11. Kliknij przycisk **OK**.
 
+> [!NOTE]
+> Dodatek Klient projektu nie obsługuje następujących znaków w formacie identyfikatora projektu:
+> 
+>   - Podkreślenie
+>   - Kropka
+>   - Spacja
+>   - Ukośnik
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

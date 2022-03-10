@@ -2,28 +2,26 @@
 title: Informacje o zarządzaniu projektami i ich księgowaniu
 description: Funkcja zarządzania projektami i księgowania może być używana w wielu branżach w celu zapewnienia usługi, utworzenia produktu lub osiągnięcia wyniku.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950457"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007519"
 ---
 # <a name="project-management-and-accounting-overview"></a>Informacje o zarządzaniu projektami i ich księgowaniu
 
@@ -36,14 +34,14 @@ Projekt jest grupą działań, która umożliwia świadczenie usługi, utworzeni
 ## <a name="projects-across-industries"></a>Projekty w różnych branżach
 Funkcja zarządzania projektami i księgowania może być używana w wielu branżach, jak przedstawiono na poniższej ilustracji.
 
-[![Projekty w różnych branżach](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projekty w różnych branżach.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 W call center bilet może służyć do opisu zestawu działań wymaganych do rozwiązania połączenia. Firmy konsultingowe, takie jak organizacje zarządzające lub zajmujące się doradztwem technicznym lub agencje reklamowe, określają swoją działalność jako projekty. W marketingu kampania reprezentuje zestaw prac, które należy dostarczyć. W produkcji opartej na projektach zlecenie produkcyjne dotyczy różnych prac, które należy wykonać, aby wyprodukować niektóre produkty gotowe. Bez względu na nazwę, projekty te obejmują zasoby, harmonogramy i koszty, a funkcje zarządzania projektami i księgowości mogą pomóc w planowaniu, realizacji i analizie tych projektów.
 
 ## <a name="project-phases"></a>Fazy projektu
 Mimo że następujący przepływ przebiegu procesu ma na celu tworzenie zewnętrznych projektów lub projektów wykonanych dla jednego lub większej liczby klientów, funkcjonalność ma również zastosowanie w przypadku projektów o charakterze wewnętrznym i samych kosztów. 
 
-![3 etapy projektu](./media/3-stages-of-a-project.png) 
+![3 etapy projektu.](./media/3-stages-of-a-project.png) 
 
 Jak pokazano na powyższej ilustracji, zarządzanie projektami i księgowanie można podzielić na trzy etapy:
 
@@ -52,7 +50,7 @@ Jak pokazano na powyższej ilustracji, zarządzanie projektami i księgowanie mo
 3.  Analizuj
 
 ## <a name="initiate-the-project"></a>Zainicjowanie projektu
-Podczas inicjowania projektu zachodzi kilka kluczowych procesów. Oferta w ramach projektu może służyć do informowania o szacunkowej robocizny, wydatkach i materialach do klienta. Warunki fakturowania, limity i kontrakty można zarejestrować w kontrakcie projektu. Struktury podziału pracy (SPP) można użyć do zaplanowania i oszacowania pracy. Prognozy i budżety można skonfigurować w celu ułatwienia wykonywania projektów. Na poniższym rysunku pokazano strukturę projektu.[![struktura projektu](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Podczas inicjowania projektu zachodzi kilka kluczowych procesów. Oferta w ramach projektu może służyć do informowania o szacunkowej robocizny, wydatkach i materialach do klienta. Warunki fakturowania, limity i kontrakty można zarejestrować w kontrakcie projektu. Struktury podziału pracy (SPP) można użyć do zaplanowania i oszacowania pracy. Prognozy i budżety można skonfigurować w celu ułatwienia wykonywania projektów. Na poniższym rysunku pokazano strukturę projektu.[![struktura projektu.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Tworzenie ofert w ramach projektu
 

@@ -2,10 +2,9 @@
 title: Omówienie wartości rzeczywistych
 description: Ten temat zawiera informacje o wartościach rzeczywistych w projektach.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -18,20 +17,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129781"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992489"
 ---
 # <a name="actuals-overview"></a>Omówienie wartości rzeczywistych
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Wartości rzeczywiste określają ilość pracy wykonanej w projekcie. Wartości rzeczywiste projektu mogą być śledzone z powrotem do ich dokumentów źródłowych. Dokumentami mogą być wpisy czasu, wydatków i arkusza oraz faktury.
 
-![Śledzenie wartości rzeczywistych projektu do dokumentów źródłowych](media/basic-guide-18.png)
+![Śledzenie wartości rzeczywistych projektu do dokumentów źródłowych.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Przesyłanie wpis czasu
 
@@ -328,3 +329,6 @@ Rozwiązanie PSA rejestruje transakcje finansowe zaistniałe w trakcie projektu.
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Wydatki międzyfirmowe
 description: Ten temat zawiera informacje o tym, jak używać wydatków międzyfirmowych do przypisywania wydatków pracownika do podmiotu prawnego, dla którego praca została wykonana.
-author: ShylaThompson
-ms.date: 05/20/2020
+author: Surya Vaidyanathan
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2cdba8d5368a8b26bf4d98226bda76a58261cf0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005084"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001219"
 ---
 # <a name="intercompany-expenses"></a>Wydatki międzyfirmowe
 
@@ -34,5 +34,17 @@ Zanim pracownik będzie mógł tworzyć i przesyłać wydatki międzyfirmowe, na
 Zanim będzie można użyć grup podatków, które są skojarzone z firmą wypożyczającą (źródłową) zamiast firmy pożyczającej (docelowej) w raporcie z wydatków, należy włączyć tę funkcję w konfiguracji podatku od sprzedaży księgi głównej. Gdy parametr **Firma dla księgowania podatku międzyfirmowego** jest ustawiony na **Źródło**, a **Reguły opodatkowania podatku** są ustawione na **Nie**, używana jest kombinacja podatków dla firmy wypożyczającej. Jeśli ten sam parametr ma ustawioną wartość **Docelowy**, będzie używana kombinacja podatku dla podmiotu prawnego wypożyczającego. W przypadku podmiotów prawnych w Stanach Zjednoczonych, gdy parametr jest ustawiony na wartość **Źródło**, to w polu **Należny podatek od sprzedaży** musi być skonfigurowana nowa strona **Grup księgowania w rejestrze**. Silnik do księgowania użyje informacji z tego pola do prowadzania rachunków związanych z podatkami.   
 Zachowanie to jest spójne w przypadku wierszy wydatków zaksięgowanych z użyciem projektu lub bez niego.  
 
+## <a name="new-expense-expression-builder"></a>Nowy konstruktor wyrażenia wydatków
+
+Nowy Konstruktor wyrażeń wydatków rozwiązuje problemy ze scenariuszami wydatków międzyfirmowych, które korzystają z projektów. Ta funkcja zapewnia, że podczas tworzenia wydatku międzyfirmowego zasady wydatków są prawidłowo sprawdzane względem projektu wybranego w wierszu wydatków, a raport z wydatków może zostać pomyślnie przesłany.
+
+Aby funkcja konstruktora wyrażeń wydatków działała, musi być włączona. Ponadto należy skonfigurować politykę wydatków, która ma identyfikator projektu.
+
+Jeśli masz już skonfigurowane zasady, które weryfikują identyfikator projektu w wierszu wydatków, te zasady muszą zostać wycofane. Następnie możesz włączyć tę funkcję i ponownie skonfigurować zasady.
+
+Aby włączyć tę funkcję, wykonaj następujące kroki.
+
+1. Wybierz kolejno pozycje **Obszary robocze** \> **Zarządzanie funkcjami**.
+2. Na liście wybierz **Nowy konstruktor wyrażeń wydatków, aby rozwiązać problemy ze scenariuszami wydatków międzyfirmowych, które korzystają z projektów**. Następnie wybierz opcję **Włącz teraz**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

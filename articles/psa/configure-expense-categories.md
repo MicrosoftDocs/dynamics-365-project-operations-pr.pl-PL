@@ -2,8 +2,6 @@
 title: Konfiguruj kategorie wydatków
 description: Konfigurowanie kategorii wydatków w Project Service
 author: revathiMuthiah
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 82522c0ba8587446c5038a9cf38fcadfdcb6ba8d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c363b712fceda93c45e58eea4d5e711ef8405252e252061022590bdc506691c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081984"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008734"
 ---
 # <a name="configure-expense-categories-project-service"></a>Konfiguruj kategorie wydatków (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -53,3 +53,6 @@ Każda kategoria wydatków może mieć własną grupę jednostek i jednostkę. M
   
 ### <a name="see-also"></a>Zobacz także  
  [Skonfiguruj Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

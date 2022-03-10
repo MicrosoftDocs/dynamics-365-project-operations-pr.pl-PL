@@ -2,27 +2,25 @@
 title: Omówienie uzgadniania zasobów
 description: Ten temat zawiera informacje, które pomogą Ci upewnić się, że rezerwacje zasobów i przydziały dla projektów są wyrównane.
 author: ruhercul
-manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0416e93944e7b6686a0e4da1d633188dd51e590b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1542e97955902486d22ca637514e4e121fae70e2b227cafc7020c031061b5f98
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279376"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994784"
 ---
 # <a name="resource-reconciliation-overview"></a>Omówienie uzgadniania zasobów
 

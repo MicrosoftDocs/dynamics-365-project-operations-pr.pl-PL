@@ -2,8 +2,6 @@
 title: Zatwierdzaniu czasu i wydatków
 description: Zatwierdzanie czasu i wydatków w Project Service
 author: revathiMuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55979dc8076ec2b226492060a7c034fbd62b325a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0c4ea0393b961d444a65c3ea50287b922ff95a322645844927ce9379fdb7e6b1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291497"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005044"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Zatwierdź czas i wydatki (Project Service)
 

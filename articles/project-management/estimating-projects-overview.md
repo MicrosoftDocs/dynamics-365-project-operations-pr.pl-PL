@@ -1,31 +1,40 @@
 ---
-title: Omówienie szacowania projektu
-description: Ten temat zawiera informacje o szacunkach w programie Dynamics 365 Project Operations.
-author: ruhercul
-manager: AnnBe
-ms.date: 10/06/2020
+title: Pojęcia dotyczące szacowania finansowego
+description: Ten temat zawiera informacje o szacunkach finansowych projektów w Project Operations.
+author: rumant
+ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.custom: intro-internal
+ms.openlocfilehash: 74b2499cc706e03658cadeb088df154100051cbc7cce386b2e4d50dbdb5c197f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286891"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989204"
 ---
-# <a name="estimate-projects-overview"></a>Omówienie szacowania projektu
+# <a name="financial-estimation-concepts"></a>Pojęcia dotyczące szacowania finansowego
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
+W Dynamics 365 Project Operations można oszacować finansowo swoje projekty w dwóch etapach: 
+1. Na etapie przedsprzedaży, zanim umowa zostanie zawarta. 
+2. Na etapie realizacji po utworzeniu umowy w sprawie projektu. 
+
+Możesz utworzyć kosztorys pracy opartej na projektach, korzystając z dowolnej z następujących 3 stron:
+- Strona **Wiersz oferty** z zastosowaniem szczegółów wiersza oferty.  
+- Strona **Wiersz kontraktu projektu** z zastosowaniem szczegółów wiersza kontraktu. 
+- Strona **Projekt** przy użyciu stron na kartach **Zadania** lub **Szacowanie wydatków**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Korzystanie z oferty projektu w celu utworzenia szacowania
 W ofercie opartej na projekcie można za pomocą encji **Szczegóły wiersza** oferty oszacować pracę wymaganą do zrealizowania projektu. Następnie ten szacunek można udostępnić klientowi.
 
 Wiersze oferty opartej na projekcie mogą mieć zero szczegółów wierszy oferty. Szczegóły wierszy oferty służą do szacowania czasu, wydatków lub opłat. W rozwiązaniu Microsoft Dynamics 365 Project Operations nie są dozwolone oszacowania materiału w szczegółach wierszy oferty. Takie szacunki są nazywane klasami transakcji. W klasach transakcji można również wprowadzać szacowane kwoty podatków.
 
 Oprócz klas transakcji szczegóły wierszy oferty mają także typ transakcji. Istnieją dwa obsługiwane typy transakcji w szczegółach wierszy oferty: **Koszt** i **Kontrakt projektu**.
 
-## <a name="estimate-by-using-a-contract"></a>Szacowanie za pomocą kontraktu
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Korzystanie z kontraktu projektu w celu utworzenia szacowania
 
 Jeśli podczas tworzenia kontraktu opartego na projekcie użyto oferty z systemu, oszacowanie wykonane dla każdego wiersza oferty w ofercie jest kopiowane do kontraktu na projekt. Struktura kontraktu projektu przypomina strukturę oferty na projekt z wierszami, szczegółami wierszy i harmonogramami fakturowania.
 
@@ -35,23 +44,17 @@ Szczegóły pozycji kontraktu mogą służyć do szacowania czasu, wydatków lub
 
 Nie są dozwolone oszacowania materiału w szczegółach pozycji kontraktu.
 
-W kontrakcie na projekt są obsługiwane procesy tworzenia i potwierdzania faktur. Tworzenie faktury polega na utworzeniu wersji roboczej faktury opartej na projekcie, która obejmuje wszystkie nierozliczone wartości rzeczywiste sprzedaży aż do bieżącego dnia.
+## <a name="use-a-project-to-create-an-estimate"></a>Korzystanie z projektu w celu utworzenia szacowania 
 
-Potwierdzenie powoduje, że kontrakt staje się tylko do odczytu i zmienia stan z **Wersja robocza** na **Potwierdzony**. Po wykonaniu tej czynności nie można jej cofnąć. Ponieważ ta operacja jest nieodwracalna, najlepszym rozwiązaniem jest utrzymywanie kontraktu w stanie **Wersja robocza**.
-
-Jedyna różnica między kontraktami w wersji roboczej i potwierdzonymi to ich status oraz fakt, że kontrakty w wersji roboczej można edytować, a kontraktów potwierdzonych nie. Tworzenie faktur i śledzenie wartości rzeczywistych można wykonywać zarówno wobec kontraktów w wersji roboczej, jak i kontraktów potwierdzonych.
-
-Project Operations nie obsługuje zleceń zmian w kontraktach ani projektach.
-
-## <a name="estimating-projects"></a>Szacowanie projektów
-
-W projektach można szacować czas i wydatki. Project Operations nie pozwala na szacowanie materiałów ani opłat w projektach.
+W projektach można szacować czas i wydatki. Project Operations nie obsługują szacunków materiałów ani opłat w projektach.
 
 Oszacowania czasu są generowane podczas tworzenia zadania i identyfikowania atrybutów standardowego zasobu wymaganego do wykonania zadania. Szacunki czasu są generowane na podstawie zadań planowania. Szacunki czasu nie są tworzone w przypadku tworzenia ogólnych członków zespołu poza kontekstem harmonogramu.
 
-Oszacowania wydatków są wprowadzane w siatce na stronie **Szacunki**.
+Oszacowania wydatków są wprowadzane w siatce na stronie **Szacunki wydatków**.
 
-## <a name="understanding-estimation"></a>Informacje o szacowaniu
+Tworzenie oszacowania projektu jest uważane za najlepszą praktykę, ponieważ można tworzyć szczegółowe szacunki dotyczące pracy lub czasu i wydatków w odniesieniu do każdego zadania w planie projektu. Następnie można wykorzystać te szczegółowe oszacowania do tworzenia szacunków dla każdego wiersza oferty i tworzenia bardziej wiarygodnej oferty dla klienta. Podczas importowania lub tworzenia szczegółowego oszacowania w wierszu oferty przy użyciu planu Project Operations projektowe importują wartości sprzedaży i wartości kosztów tych szacunków. Po zaimportowaniu można wyświetlić rentowność, marże i wskaźniki wykonalności w ofercie projektu.
+
+## <a name="understanding-estimates"></a>Informacje o szacowaniu
 
 Poniższa tabela pomoże zrozumieć logikę biznesową stosowaną w fazie szacowania.
 

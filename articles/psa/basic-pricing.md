@@ -2,8 +2,6 @@
 title: Cennik projektu
 description: Ten temat zawiera informacje o funkcjonowaniu cennika w Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082209"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000589"
 ---
 # <a name="project-pricing"></a>Cennik projektu 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -46,7 +46,7 @@ Encja cennika składa się z trzech tabel pokrewnych przechowujących ceny:
   - **Cena kategorii transakcji** — w tej tabeli są przechowywane ceny według kategorii transakcji i są używane do konfigurowania cen kategorii wydatków.
   - **Pozycje cennika** — w tej tabeli są przechowywane ceny na produkty z katalogu.
 
-> ![Konfigurowanie cen za pomocą cennika](media/basic-guide-12.png)
+> ![Konfigurowanie cen za pomocą cennika.](media/basic-guide-12.png)
  
 Cennik jest kartą stawki. Stawka jest kombinacją encji cennika i pokrewnych wierszy w tabelach cena roli, Cena kategorii transakcji i pozycje cennika.
 
@@ -58,7 +58,7 @@ Czas zasobów ludzkich jest zwykle podawany na podstawie roli, którą dany zas�
 
 Grupa jednostek **czasu** jest tworzona po zainstalowaniu PSA. Jego domyślna jednostka **Godzina**. Nie można usuwać, zmieniać nazw ani edytować atrybutów grupy jednostek **Czas** lub jednostki **Godzina**. Do grupy jednostek **Czas** można jednak dodać inne jednostki. Jeśli użytkownik próbuje usunąć grupę jednostek **czasu** lub jednostkę **godzinową**, może wystąpić awaria logiki biznesowej PSA.
 
-> ![Konfigurowanie cen według ról](media/basic-guide-13.png)
+> ![Konfigurowanie cen według ról.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategorie transakcji i kategorie wydatków
 
@@ -68,7 +68,7 @@ Koszty podróży i inne wydatki, które ponosi konsultant projektu, zazwyczaj s�
 - **Procent narzutu** — procent ponad rzeczywisty koszt jest naliczany klientowi. 
 - **Cena jednostkowa** — cena na fakturze jest ustalana dla każdej jednostki w kategorii wydatków. Kwota, która jest naliczana klientowi, jest obliczana na podstawie liczby jednostek wydatku zgłoszonych przez konsultanta. W przebiegu stosowana jest metoda kalkulacji cen na jednostkę. Na przykład kategoria wydatków przebiegu może być skonfigurowana jako 30 USD na dobę lub na 2 USD za jeden kilometr. Kiedy konsultant raportuje mile w projekcie, kwota do rozliczenia jest obliczana na podstawie liczby mil zgłoszonych przez konsultanta.
 
-> ![Konfigurowanie cen dla kategorii wydatków](media/basic-guide-14.png)
+> ![Konfigurowanie cen dla kategorii wydatków.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Ceny sprzedaży i zastąpienia projektu
 
@@ -114,7 +114,7 @@ W przypadku oferty można jednak skorzystać z cennika głównego. Alternatywnie
 
 Po utworzeniu niestandardowego cennika projektu kopiowane są tylko składniki projektu wymienione w cenniku. Innymi słowy — nowy Cennik utworzony jako kopia istniejącego cennika projektu jest dołączony do oferty, a nowy Cennik ma tylko pokrewne ceny ról i ceny w kategoriach transakcji.
 
-> ![Wyświetlanie i konfigurowanie niestandardowych cen w kontrakcie dotyczącym projektu](media/basic-guide-15.png)
+> ![Wyświetlanie i konfigurowanie niestandardowych cen w kontrakcie dotyczącym projektu.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Śledzenie kosztów
 
@@ -129,3 +129,6 @@ Podobnie jak stawki naliczania, stawki kosztów dla zasobów ludzkich są równi
     1. Lista kosztów własnych dołączonych do jednostki organizacyjnej.
     2. Lista kosztów własnych dołączonych do parametrów usługi projektów. Ponieważ z parametrami usługi projektów można łączyć listy kosztów własnych w wielu różnych walutach, PSA dopasowuje waluty kontraktującej jednostki organizacyjnej, kontraktu lub oferty z także walutą z listy kosztów własnych.
     3. W przypadku kosztów metody kalkulacji po kosztach i z marżą nie są stosowane do list kosztów własnych. Nawet w przypadku, gdy te metody kalkulacji cen są używane w wierszach list kosztów własnych w celu skonfigurowania kosztów kategorii transakcji, system zignoruje je i nie zostanie wprowadzony domyślny koszt własny.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

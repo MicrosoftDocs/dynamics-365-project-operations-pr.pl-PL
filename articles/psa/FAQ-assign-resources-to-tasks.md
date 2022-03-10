@@ -2,8 +2,6 @@
 title: Przypisywanie zasobu do zadania
 description: W tym temacie zamieszczono informacje dotyczące sposobu przypisywania zasobów do zadań.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3f96344b917f088f1d5782c5cee1d84f1aff47bc1bad7c8f6b33307d1df340fa
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082201"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987674"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Przypisywanie zasobu do zadania
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Istnieją trzy sposoby przypisywania zasobu do zadania w programie Microsoft Dynamics 365 Project Service Automation.
 
@@ -80,3 +80,6 @@ Zasoby przypisane w ten sposób zostaną dodane do zespołu bez żadnych rezerwa
 
 3. Zaznacz zasób, który chcesz przypisać do zadania.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

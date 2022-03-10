@@ -1,28 +1,19 @@
 ---
 title: Przegląd wymiarów kalkulacji cen
-description: W tym temacie zamieszczono informacje na temat wymiarów kalkulacji cen w Dynamics 365 Project Operations.
+description: Ten temat zawiera informacje o wymiarach kalkulacji cen w aplikacji Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.custom: intro-internal
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128476"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001984"
 ---
 # <a name="pricing-dimensions-overview"></a>Przegląd wymiarów kalkulacji cen
 
@@ -40,9 +31,21 @@ Z tego powodu są dostępne dwa typy wartości wymiarów kalkulacji cen:
 
 ## <a name="pricing-dimensions"></a>Wymiary kalkulacji cen
 
-Dynamics 365 Project Operations zawiera domyślny zestaw wymiarów kalkulacji cen. Można obejrzeć te wymiary kalkulacji cen po wybraniu kolejno opcji **Project Operations** > **Parametry**. W rekordzie parametru na karcie **Wymiary kalkulacji cen oparte na kwocie** upewnij się, że rola **msdyn_resourcecategory** oraz jednostka organizacyjna zasobów **msdyn_organizationalunit** mają w polach **Ma zastosowanie do sprzedaży** i **Ma zastosowanie do kosztu** ustawioną wartość **Tak**. Po uruchomieniu tych pól, pozwoli to skonfigurować cenę i koszt dla każdej kombinacji roli i jednostki organizacyjnej.
+Aplikacja Dynamics 365 Project Operations oferuje wbudowany domyślny zestaw wymiarów kalkulacji cen. Można obejrzeć te wymiary kalkulacji cen po wybraniu kolejno opcji **Project Operations** > **Parametry**. W rekordzie parametru na karcie **Wymiary kalkulacji cen oparte na kwocie** upewnij się, że rola **msdyn_resourcecategory** oraz jednostka organizacyjna zasobów **msdyn_organizationalunit** mają w polach **Ma zastosowanie do sprzedaży** i **Ma zastosowanie do kosztu** ustawioną wartość **Tak**. Po uruchomieniu tych pól, pozwoli to skonfigurować cenę i koszt dla każdej kombinacji roli i jednostki organizacyjnej.
 
-Jeśli trzeba określić ceny lub koszty zasobów przy użyciu dodatkowych atrybutów, można utworzyć niestandardowe pola, encje i wymiary.
+![Zrzut ekranu z parametrami usługi Project Service z wyróżnioną opcją „Ma zastosowanie do sprzedaży”.](media/PS-OOB-parameters.png)
+
+Jeśli trzeba określić ceny lub koszty zasobów przy użyciu dodatkowych atrybutów, można utworzyć niestandardowe pola, encje i wymiary. Aby uzyskać więcej informacji, zobacz następujące tematy. 
+  
+  > [!NOTE]
+  > Procedury muszą być wykonane w kolejności, w jakiej są umieszczone na liście.
+
+1. [Tworzenie rozwiązania dla niestandardowych wymiarów kalkulacji cen](../sales/create-solution-custompd.md)
+2. [Tworzenie niestandardowych pól i encji](create-custom-fields-entities-pricing-dimensions.md)
+3. [Dodawanie pól niestandardowych do ustawień cen i encji transakcyjnych ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen ](set-up-custom-fields-pricing-dimensions.md)
+5. [Aktualizowanie atrybutów dodatków plug-in w celu dołączenia nowych wymiarów kalkulacji cen](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Wycena pracy personelu
 Sposób wyceny czasu pracy personelu w organizacji jest często ważnym strategicznym aspektem, który wpływa na rentowność organizacji. Gdy organizacja jest gotowa do określenia, jak chce skonfigurować stawki rozliczania i kosztów dla czasu pracy ludzi, administrator systemu informatycznego powinien to zrobić wspólnie z zespołami finansowymi i szefami działów.
@@ -57,13 +60,16 @@ W przykładzie pod spodem przedstawiono stawki rozliczania skonfigurowane na pod
 
 | Rola        | Jednostka organizacyjna    |Jednostka      |Cena      |Waluta  |
 | ------------|-------------|----------|----------:|----------|
-| Dla deweloperów   | Contoso US  |Hour | 200|USD     |
-| Dla deweloperów   | Contoso India |Hour|   112|USD     |
+| Deweloperskie   | Contoso — USA  |godzina | 200|USD     |
+| Deweloperskie   | Contoso Indie |godzina|   112|USD     |
 
 
 **Przykładowe stawki kosztów**
 
 | Pasmo wynagrodzenia     | Jednostka organizacyjna    |Jednostka      |Cena      |Waluta  |
 | ----------------|-------------|----------|----------:|----------|
-| Moja firma_pasmo1 | Contoso US  |Hour | 145|USD     |
-| Moja firma_pasmo2 | Contoso India |Hour|   67|USD     |
+| Moja firma_pasmo1 | Contoso — USA  |godzina | 145|USD     |
+| Moja firma_pasmo2 | Contoso Indie |godzina|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

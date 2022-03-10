@@ -2,8 +2,6 @@
 title: Koszty i przychody w projekcie
 description: Ten temat zawiera informacje o szacowaniu kosztów i przychodów w projekcie.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148341"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002569"
 ---
 # <a name="project-costs-and-revenue"></a>Koszty i przychody w projekcie
 
@@ -33,7 +31,7 @@ ms.locfileid: "5148341"
 
 Szacowania projektu zapewniają widok finansowy dla prac oszacowanych i zaplanowanych w harmonogramie projektu. Karta **Szacunki** na stronie **Projekty** pokazuje wpływ planowanej pracy na koszty i przychody. Zawiera także informacje o wielu wstępnie zdefiniowanych wymiarach. 
 
-> ![Karta Szacunki](media/project-5.png)
+> ![Karta Szacunki.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Wartości kosztu i sprzedaży w projekcie
 
@@ -68,13 +66,13 @@ Jeśli system nie znajdzie ceny dla roli, w polu ceny sprzedaży w wierszu szaco
 
 Karta **Szacunki** zawiera widok siatki, który pokazuje wiersze szacowania. Siatka zawiera kolumny dla jednostki, łączny koszt własny oraz łączną cenę sprzedaży, jak przedstawiono na poniższej ilustracji. 
 
-> ![Widok siatki na karcie Szacunki](media/project-6.png)
+> ![Widok siatki na karcie Szacunki.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Widok faz czasowych oszacowań projektu
 
 Widok faz czasowych oszacowań projektu pokazuje dane szacunkowe w widoku siatki na osi czasu, według skali czasu wybranej przez użytkownika. Domyślnie dane szacunkowe są prezentowane względem wymiaru **Rola**.
 
-> ![Widok faz czasowych oszacowań projektu](media/project-7.png)
+> ![Widok faz czasowych oszacowań projektu.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Alokacja szacowania nakładu pracy w oparciu o tryb zadania
 
@@ -97,3 +95,6 @@ W obu rodzajach widoków — siatki i faz czasowych — można wybrać pola, kt�
 ## <a name="expense-estimates"></a>Szacowanie wydatków
 
 Przycisk **Dodaj nowe szacowanie wydatków** dostępny w widoku siatki umożliwia rejestrowanie wszystkich wydatków, które zostały poniesione w projekcie, ale nie są bezpośrednio związane z robocizną. Szacunki wydatków można rejestrować dla określonego zadania lub dla całego projektu. Należy wybrać kategorię wydatków i datę wstępną, kiedy jest spodziewane poniesienie wydatku. Jeśli na powiązanej liście kosztów własnych i w cenniku sprzedaży znajdują się ceny domyślne (lub jeśli dla kategorii wydatków zdefiniowano wartości procentowe narzutu), zostaną one automatycznie wprowadzone w wierszu szacowania po zaistnieniu powiązania.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

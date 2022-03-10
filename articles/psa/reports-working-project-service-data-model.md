@@ -2,8 +2,6 @@
 title: Praca z modelem danych rozwiązania Project Service Automation
 description: W tym temacie zamieszczono informacje dotyczące pracy z modelem danych.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25f1af15c03001a92f96689ff36a3159a5352a46
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283246"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002434"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Praca z modelem danych rozwiązania Project Service Automation
 
@@ -55,7 +53,7 @@ PSA dodaje również nowe encje powiązane z ofertą do modelu danych Dynamics 3
 
 Inne encje, które PSA dodaje do ofert to **Cennik projektu wiersza oferty**, **Kategoria zasobów wiersza oferty** oraz **Kategoria transakcji wiersza oferty**.
 
-![Diagram przedstawiający oferty, wiersz oferty i relacje projektu](media/PS-Reporting-image2.png "Diagram przedstawiający oferty, wiersz oferty i relacje projektu")
+![Diagram przedstawiający oferty, wiersz oferty i relacje projektu.](media/PS-Reporting-image2.png "Diagram przedstawiający oferty, wiersz oferty i relacje projektu")
 
 ## <a name="reporting-on-project-contracts"></a>Raportowanie dotyczące kontraktów projektów
 
@@ -71,7 +69,7 @@ PSA dodaje również nowe encje zaprojektowane z myślą o kontraktach projektó
 
 Inne encje, które PSA dodaje do kontraktu to **Cennik projektu pozycji kontraktu projektu**, **Kategoria zasobów pozycji kontraktu projektu** oraz **Kategoria transakcji pozycji kontraktu projektu**.
 
-![Diagram przedstawiający zamówienie, wiersz zamówienia i relacje projektu](media/PS-Reporting-image3.png "Diagram przedstawiający zamówienie, wiersz zamówienia i relacje projektu")
+![Diagram przedstawiający zamówienie, wiersz zamówienia i relacje projektu.](media/PS-Reporting-image3.png "Diagram przedstawiający zamówienie, wiersz zamówienia i relacje projektu")
 
 ## <a name="reporting-on-projects"></a>Raportowanie dotyczące projektów
 
@@ -83,7 +81,7 @@ Encja **Projekty** i encje z nią związane mogą występować tylko w PSA. Encj
 - **Wymaganie zasobów** – ta encja zawiera wymagania dla dowolnych wszystkich członków zespołu zasobów ogólnych.
 - **Szacowanie** i **Wiersz szacowania** – te encje mają relację nagłówek/wiersz i zawierają oszacowania wydatków dla projektu. Szacowania zadań są przechowywane w encji **Szacowanie zasobu**.
 
-![Diagram przedstawiający wymagania zasobu, wiersz zamówienia i relacje projektu](media/PS-Reporting-image4.png "Diagram przedstawiający wymagania zasobu, wiersz zamówienia i relacje projektu")
+![Diagram przedstawiający wymagania zasobu, wiersz zamówienia i relacje projektu.](media/PS-Reporting-image4.png "Diagram przedstawiający wymagania zasobu, wiersz zamówienia i relacje projektu")
 
 ## <a name="reporting-on-resources"></a>Raportowanie zasobów
 
@@ -94,7 +92,7 @@ Zasoby projektu używają encji **Zasób, który można zarezerwować** z Univer
 - **Kategoria zasobów, które można zarezerwować** – ta encja reprezentuje rolę zasobu, który można zarezerwować.
 - **Rezerwacje zasobów, które można zarezerwować** – ta encja reprezentuje czas, który jest rezerwowany w projektach dla zasobu. Każda rezerwacja zawiera zarówno encję nagłówka, jak i encje wiersze, a każdy wiersz ma stan odpowiadający stanowi rezerwacji.
 
-![Diagram przedstawiający możliwe do zaksięgowania relacje charakterystyk zasobów](media/PS-Reporting-image5.png "Diagram przedstawiający możliwe do zaksięgowania relacje charakterystyk zasobów")
+![Diagram przedstawiający możliwe do zaksięgowania relacje charakterystyk zasobów.](media/PS-Reporting-image5.png "Diagram przedstawiający możliwe do zaksięgowania relacje charakterystyk zasobów")
 
 ## <a name="reporting-on-actual-transactions"></a>Raportowanie rzeczywistych transakcji
 
@@ -122,7 +120,7 @@ Pracując z encją **Rzeczywiste**, ważne jest, aby rozumieć, jakie transakcje
 
 Encja **Początkowy rekord transakcji** rejestruje źródło rekordu **Rzeczywiste**, a encja **Połączenie transakcji** rejestruje pokrewne rekordy dla rekordu **Rzeczywiste**. Ponadto rekord **Rzeczywiste** zawiera odwołania do projektu, kontraktu projektu (zamówienia), zasobu, który można zarezerwować oraz klienta.
 
-![Diagram przedstawiający połączenie transakcji, źródło i rzeczywistą relacje](media/PS-Reporting-image6.png "Diagram przedstawiający połączenie transakcji, źródło i rzeczywistą relacje")
+![Diagram przedstawiający połączenie transakcji, źródło i rzeczywistą relacje.](media/PS-Reporting-image6.png "Diagram przedstawiający połączenie transakcji, źródło i rzeczywistą relacje")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

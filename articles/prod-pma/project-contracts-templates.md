@@ -2,11 +2,9 @@
 title: Synchronizuj kontrakty projektowe i projekty bezpośrednio z Project Service Automation do Finance
 description: W tym temacie opisano szablon i podstawowe zadania, które są używane do synchronizowania umów dotyczących projektów i projektów bezpośrednio z Microsoft Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950412"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001084"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synchronizuj kontrakty projektowe i projekty bezpośrednio z Project Service Automation do Finance 
 
@@ -44,7 +42,7 @@ Rozwiązanie do integracji Project Service Automation to Finance wykorzystuje fu
 
 Na poniższej ilustracji przedstawiono sposób synchronizowania danych między Project Service Automation a Finance.
 
-[![Przepływ danych do integracji Project Service Automation z Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Przepływ danych do integracji Project Service Automation z Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Szablony i zadania
 
@@ -142,17 +140,17 @@ Jeśli musisz użyć dodatku Power Query, postępuj zgodnie z tymi wskazówkami:
 
 Poniższe ilustracje przedstawiają przykłady odwzorowań zadań szablonu w integracji danych. Mapowanie przedstawia informacje o polach, które zostaną zsynchronizowane z Project Service Automation do Finance.
 
-[![Mapowanie szablonu kontraktu projektu](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Mapowanie szablonu kontraktu projektu.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Mapowanie szablonu projektu](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Mapowanie szablonu projektu.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Mapowanie szablonu pozycji kontraktu](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Mapowanie szablonu pozycji kontraktu.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Mapowanie szablonu pozycji kontraktu punktu kontrolnego](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Mapowanie szablonu pozycji kontraktu punktu kontrolnego.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Mapowanie punktów kontrolnych pozycja kontraktu projektu w szablonie projekty i kontrakty (PSA 3.x do Dynamics) - v2:
 
-[![Mapowanie pozycji kontraktu punktu kontrolnego za pomocą szablonu wersji 2](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![Mapowanie pozycji kontraktu punktu kontrolnego za pomocą szablonu wersji 2.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

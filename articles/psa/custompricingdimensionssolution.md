@@ -2,12 +2,10 @@
 title: Tworzenie niestandardowych rozwiązań dla wymiarów kalkulacji cen
 description: W tym temat wyjaśniono sposób tworzenia niestandardowego rozwiązania podczas tworzenia niestandardowych wymiarów kalkulacji cen.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d8117d6f6bcedc97264401fc941470f34efb1ae
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285001"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995279"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Tworzenie niestandardowych rozwiązań dla wymiarów kalkulacji cen
 
@@ -34,7 +32,7 @@ ms.locfileid: "5285001"
 1. Wybierz przycisk **Ustawienia** > **Rozwiązania**, a następnie wybierz pozycję **Nowe**. 
 2. Nazwij rozwiązanie **\<your organization name>nazwa Twojej organizacji> — wymiary kalkulacji cen**, wprowadź pozostałe wymagane informacje, a następnie wybierz **Zapisz**.
 
-> ![Tworzenie niestandardowego rozwiązania dla wymiarów kalkulacji cen](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Tworzenie niestandardowego rozwiązania dla wymiarów kalkulacji cen.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Dodawanie wszystkich wymaganych encji i pokrewnych składników do rozwiązania wymiarami cen
 Następujące encje usługi Project Service trzeba będzie dodać do rozwiązania do zarządzania wymiarami kalkulacji cen. Czynności opisane w tej procedurze umożliwiają wprowadzenie pewnych istotnych zmian w schemacie rozwiązania do zarządzania kalkulacjami cen, tak aby encje dowiedziały się o nowych wymiarach kalkulacji cen.
@@ -56,16 +54,16 @@ Następujące encje usługi Project Service trzeba będzie dodać do rozwiązani
 - Cena roli 
 - Wpis czasu 
 
-> ![Dodawanie istniejących encji do rozwiązania do zarządzania wymiarami kalkulacji cen](media/Existing-entities-to-PD-solution.png)
+> ![Dodawanie istniejących encji do rozwiązania do zarządzania wymiarami kalkulacji cen.](media/Existing-entities-to-PD-solution.png)
 
-> ![Wybieranie składników rozwiązania](media/Dimension-Components.png)
+> ![Wybieranie składników rozwiązania.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Upewnić się, dla każdej wybranej encji dołączono wszystkie formularze i widoki.
 
 4. Gdy zobaczysz monit o dodanie wszelkich encji zależnych od zaznaczonych encji, wybierz opcję **Nie**.
 
-> ![Opcja niedołączania pokrewnych składników](media/Do-not-include-required.png)
+> ![Opcja niedołączania pokrewnych składników.](media/Do-not-include-required.png)
 
 
 

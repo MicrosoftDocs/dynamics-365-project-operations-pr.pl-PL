@@ -2,8 +2,6 @@
 title: Typy etapów projektu
 description: Ten temat zawiera informacje o etapach projektów.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: aa423979a794b07a8bd27440f47a29480b74b518
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e4f50d12b4f0bf1586d0a5702bcd38b891590bffe0d3f9661d7f5d170877b54e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123075"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996899"
 ---
 # <a name="project-stage-types"></a>Typy etapów projektu 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -63,3 +63,6 @@ Po zakończeniu prac w projekcie menedżer projektu może zaktualizować etap na
 ## <a name="close"></a>Zamknij
 
 Po zarejestrowaniu wszystkich transakcji w projekcie menedżer projektu może zaktualizować etap na **Zamknięto**. Odtąd nie można rejestrować żadnych transakcji, a projekt jest ustawiany jako tylko do odczytu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

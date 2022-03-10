@@ -2,11 +2,9 @@
 title: Skonfiguruj zasoby projektu
 description: W tym temacie zamieszczono informacje dotyczące ustalania lub żądania zasobów w ramach projektu.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c8e4373da50999a0cc57f4eab672a98e7cf21edcfa5a5589d87691603a777de
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082184"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995729"
 ---
 # <a name="set-up-project-resources"></a>Skonfiguruj zasoby projektu
 
@@ -75,3 +73,6 @@ Po wykonaniu powyższych czynności można wykonać następujące zadania, któr
 - Realizowanie żądań zasobów.
 - Zażądanie zasobu pracowniczego z SPP.
 - Zarezerwuj zasoby do projektu bez żądania zasobu pracowniczego.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

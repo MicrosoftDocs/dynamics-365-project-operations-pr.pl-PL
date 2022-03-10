@@ -2,18 +2,16 @@
 title: Nawigacja po aplikacji Project Operations
 description: Ten temat zawiera informacje o tym, jak uzyskać dostęp do Project Operations z Lifecycle Services.
 author: sigitac
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50b44b014fcbb730b273322390227ae82cbdcefc
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290012"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994604"
 ---
 # <a name="navigate-project-operations"></a>Nawigacja po aplikacji Project Operations
 
@@ -30,11 +28,11 @@ Po udostępnieniu operacji projektowych zgodnie z opisem w tym temacie strona **
 
 Aby przechodzić do Project Operations na środowisku CDS, należy użyć nazwy środowiska znajdującej się w sekcji **Nazwa środowiska Common Data Service**. 
 
-  ![Nazwa środowiska Common Data Service](./media/environment-name.PNG)
+  ![Nazwa środowiska Common Data Service.](./media/environment-name.PNG)
 
 Wybierz opcję **Logowanie** > **Zaloguj się do środowiska**, aby przejść do modułu **Zarządzanie projektami i ich księgowanie** w Finance.  
 
-   ![Zalogować się do Finance](./media/environment-login.PNG)
+   ![Zalogować się do Finance.](./media/environment-login.PNG)
 
 > [!NOTE]
 > Dostęp do operacji projektu można uzyskać w usłudze Common Data Service oraz w module **Zarządzania projektami i księgowością** bezpośrednio za pomocą odpowiednich adresów URL. 

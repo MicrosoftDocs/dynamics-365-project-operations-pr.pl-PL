@@ -2,18 +2,16 @@
 title: Wartości domyślne wymiaru finansowego
 description: Ta temat zawiera informacje na temat konfigurowania wartości domyślnych wymiarów finansowych.
 author: sigitac
-manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950142"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922951"
 ---
 # <a name="financial-dimension-defaults"></a>Wartości domyślne wymiaru finansowego
 
@@ -62,6 +60,15 @@ Kontrakty projektów są tworzone i utrzymywane w (CDS). Atrybuty obsługi kont 
 4. Ustaw wartości domyślne wymiaru finansowego. Należy zwrócić uwagę, że wymiar finansowy jest typem domyślnym na podstawie konta klienta. Jeśli projekt jest skojarzony z pozycją kontraktu, która ma wielu klientów kontraktów projektów, jest używany podstawowy klient z domyślnymi wymiarami finansowymi.
 
 Domyślne wymiary finansowe projektu służą do ustawiania wartości domyślnych wierszy arkusza dla transakcji dotyczących czasu, wydatków i opłat w **Arkusz integracji aplikacji Project Operations** oraz w powiązanych wierszach faktur projektu.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Stosowanie wymiarów finansowych dla wpisów czasu projektu
+Aby zastosować wymiary finansowe dla wpisów czasu projektu, należy pamiętać, że domyślna wartość wymiaru jest oparta na następującej kolejności:
+
+1. Zasób
+2. Project
+3. Źródło finansowania
+
+Jeśli na przykład zostanie określony wymiar domyślny zasobu, będzie on stosowany zamiast wymiaru domyślnego określonego w projekcie. Podobnie, domyślny wymiar projektu zostanie zastosowany zamiast domyślnego wymiaru określonego w źródle finansowania.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Zarządzaj żądaniami zasobów
 description: Zarządzanie żądaniami zasobów w Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129016"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985154"
 ---
 # <a name="manage-resource-requests-project-service"></a>Zarządzaj żądaniami zasobów (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -43,9 +43,12 @@ Menedżerowie projektów i menedżerowie kont regularnie składają wnioski z ż
   
    -   Kliknij **Filtruj**, aby wyświetlić okienko **Filtr**, które pozwala na filtrowanie wyników dla jednostki organizacyjnej, roli, umiejętności lub innych atrybutów.  
   
-       ![Ekran żądania zasobów programu Project Service](../psa/media/project-service-resource-request-screen.png "Ekran żądania zasobów programu Project Service")  
+       ![Ekran żądania zasobów programu Project Service.](../psa/media/project-service-resource-request-screen.png "Ekran żądania zasobów programu Project Service")  
   
 3. W kalendarzu dla zasobu, który chcesz zarezerwować, wybierz okres czasu, aby zarezerwować zasób, a następnie kliknij **Zarezerwuj**, aby zarezerwować zasób, lub **Zaproponuj rezerwację**, aby zaproponować rezerwację i poczekać na zatwierdzenie przez osobę żądającą. Rezerwacja zasobu może być rezerwacją wstępną lub rezerwacją ostateczną.  
   
 ### <a name="see-also"></a>Zobacz także  
  [Przewodnik menedżera zasobów](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

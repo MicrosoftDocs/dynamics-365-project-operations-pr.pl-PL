@@ -2,8 +2,6 @@
 title: Najważniejsze pojęcia
 description: W tym temacie zamieszczono informacje o podstawowych pojęciach dotyczących zarządzania zasobami w programie Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e5e78bbeb1086fada799cf7ac66173e5a563e2d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082236"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995099"
 ---
 # <a name="key-concepts"></a>Najważniejsze pojęcia
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -46,3 +46,6 @@ W poniższej tabeli przedstawiono najważniejsze pojęcia używane w aplikacji D
 | Rozkład                    | Godziny zadania, wymagania lub przydziału w rozbiciu na dzienną dystrybucję. Na przykład zadanie przewidziane na pięć dni i 40 godzin można rozłożyć na 8 godzin dziennie przez pięć dni. |
 | Widok Uzgadnianie        | Widok, w którym są pokazywane rezerwacje i przypisania dla każdego członka zespołu projektu. W tym widoku menedżer projektu może wyszukiwać wszelkie niezgodności między rezerwacjami i przypisaniami, a w razie stwierdzenia niezgodności podejmować działania naprawcze. |
 | Godziny pracy                 | Encja służąca do identyfikowania dyspozycyjności zasobu oraz godzin pracy i wolnych. Ta encja jest również nazywana kalendarzem zasobu. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
