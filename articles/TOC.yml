@@ -62,6 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Co nowego
       items:
+        - name: Maj 2022 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: Kwiecień 2022 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: Marzec 2022 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: Luty 2022 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: Grudzień 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: Listopad 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Waluta
               href: sales/sales-currency.md
+            - name: Jednostki organizacyjne
+              href: sales/OrgUnits.md
         - name: Zarządzanie potencjalnymi klientami projektu
           href: sales/manage-leads.md
         - name: Zarządzanie szansami sprzedaży projektu
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: Śledzenie przychodów robocizny w projektach
               href: project-management/project-sales-tracking.md
-            - name: Aktualizacja szacowania przy zakończeniu
-              href: project-management/update-completed-estimate.md
         - name: Członkowie zespołu projektu
           items:
             - name: Omówienie członków zespołu projektu
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: Używanie interfejsów API harmonogramu projektu
               href: project-management/schedule-api-preview.md
+            - name: Używanie interfejsów API harmonogramu projektu z programem Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Wydajność interfejsu API harmonogramu projektu
               href: project-management/project-schedule-api-performance.md
             - name: Dzienniki planowania projektów
@@ -426,8 +436,8 @@
           href: expense/travel-requisition.md
         - name: Zaliczka gotówkowa
           href: expense/cash-advance.md
-        - name: Każdego dnia
-          href: expense/per-diems.md
+        - name: Wydatki diet
+          href: expense/per-diem-expenses.md
         - name: Mobilna aplikacja wydatków
           href: expense/expense-using-mobile.md
         - name: Zarządzanie finansami
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: Zestawy zatwierdzenia
           href: approvals/approval-sets.md
+        - name: Anulowanie zatwierdzania dla uprzednio zatwierdzonych wpisów
+          href: approvals/cancelapproval.md
+        - name: Odwołanie uprzednio zatwierdzonych wpisów
+          href: approvals/recall-cancel.md
         - name: Uwagi dotyczące deweloperów
           items:
             - name: Uwagi dotyczące deweloperów na temat zatwierdzeń
               href: approvals/dev-notes-approvals.md
     - name: Wartości rzeczywiste
       items:
+        - name: Transakcje biznesowe w rozwiązaniu Project Operations
+          href: actuals/businesstransactions.md
         - name: Omówienie wartości rzeczywistych
           href: actuals/actuals-overview.md
-        - name: Łączenie wartości rzeczywistych z oryginalnymi rekordami
+        - name: Pochodzenie transakcji — łączenie wartości rzeczywistych ze źródłem
           href: actuals/linkingactuals.md
-        - name: Arkusze korekt
+        - name: Połączenia transakcji — łączenie wartości rzeczywistych różnych typów transakcji
+          href: actuals/connectingactuals.md
+        - name: Arkusze
           items:
+            - name: Tworzenie i potwierdzanie arkuszy wpisów
+              href: actuals/create-confirm-entry-journals.md
             - name: Tworzenie i potwierdzanie arkuszy korekcyjnych
               href: actuals/create-confirm-correction-journals.md
     - name: Zaopatrzenie
       items:
         - name: Konfigurowanie materiałów niemagazynowanych i oczekujących faktur od dostawcy
           href: procurement/configure-materials-nonstocked.md
-        - name: Zakup materiałów niemagazynowanych dla projektów przy użyciu oczekujących faktur od dostawcy
+        - name: Konfigurowanie kategorii zaopatrzenia dla projektów
+          href: procurement/configure-procurement-categories.md
+        - name: Zakup towarów i usług dla projektów przy użyciu oczekujących faktur od dostawcy
           href: procurement/pending-vendor-invoices.md
-        - name: Zamawianie materiałów niemagazynowanych dla projektów przy użyciu zamówień zakupu projektów
+        - name: Zamawianie towarów i usług dla projektów przy użyciu zamówień zakupu projektów
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: Przechowywanie dostawców
           items:
@@ -534,10 +556,22 @@
               href: revenue-recognition/rev-rec-cost-templates.md
         - name: Szacowane projekty przychodów o stałej cenie
           href: revenue-recognition/rev-rec-percentage-completion-method.md
-        - name: Metody dotyczące kosztów wykonania
+        - name: Sposoby dotyczące kosztów wykonania
           href: revenue-recognition/cost-complete-methods.md
         - name: Zarządzanie szacowaniami przychodów
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Konfiguracja zaawansowana
+      items:
+        - name: Migrowanie w pełni zafakturowanych punktów kontrolnych rozliczania podczas przełączania
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Uaktualnienie
+      items:
+        - name: Uwagi dotyczące uaktualniania nowoczesnych zatwierdzeń
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Aplikacje Project Operations
+      items:
+        - name: Aplikacja członka zespołu usługi Project Operations
+          href: team-member/project-operations-team-member.md
     - name: Rozwiązywanie problemów
       items:
         - name: Proces sprzedaży projektu
@@ -562,6 +596,14 @@
       items:
         - name: "Co nowego w drugim wydaniu aktualizacji na 2021\_r. z wczesnym dostępem — wdrażanie wersji uproszczonej"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Co nowego w maju 2022 r. — wdrażanie wersji uproszczonej
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: Co nowego w kwietniu 2022 r. — wdrażanie wersji uproszczonej
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: Co nowego w marcu 2022 r. — wdrażanie wersji uproszczonej
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: Co nowego w lutym 2022 r. — wdrażanie wersji uproszczonej
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: Co nowego w grudniu 2021 r. — wdrażanie wersji uproszczonej
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Co nowego w listopadzie 2021 r. — wdrażanie wersji uproszczonej
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Waluta
               href: sales/sales-currency.md
+            - name: Jednostki organizacyjne
+              href: sales/OrgUnits.md
         - name: Zarządzanie potencjalnymi klientami projektu
           href: pro/sales/managing-leads-sales.md
         - name: Zarządzanie szansami sprzedaży projektu
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: Śledzenie przychodów robocizny w projektach
               href: project-management/project-sales-tracking.md
-            - name: Aktualizacja szacowania przy zakończeniu
-              href: project-management/update-completed-estimate.md
         - name: Członkowie zespołu projektu
           items:
             - name: Omówienie członków zespołu projektu
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: Używanie interfejsów API harmonogramu projektu
               href: project-management/schedule-api-preview.md
+            - name: Używanie interfejsów API harmonogramu projektu z programem Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Wydajność interfejsu API harmonogramu projektu
               href: project-management/project-schedule-api-performance.md
     - name: Zarządzanie zasobami
@@ -886,12 +930,10 @@
           items:
             - name: Omówienie wykorzystania zasobów
               href: resource-management/resource-utilization-overview.md
-    - name: Zarządzanie podumowami w rozwiązaniu Project Operations
+    - name: Zarządzanie podumowami
       items:
         - name: Zarządzanie podumowami w rozwiązaniu Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: "Podwykonawstwo — październik 2021\_r., wczesny dostęp"
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Kluczowe pojęcia związane z podwykonawstwem
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Zarządzanie dostawcami i cennikami projektów
@@ -924,6 +966,28 @@
           href: pro/subcontracting/recording-subcon-actuals.md
         - name: Przejścia stanu podumowy
           href: pro/subcontracting/subcon-states.md
+    - name: Faktury od dostawcy projektu
+      items:
+        - name: Fakturowanie od dostawcy — koncepcja i tworzenie
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: Szczegóły nagłówka faktur od dostawcy
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: Wiersze faktury od dostawcy dla czasu
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: Wiersze faktury od dostawcy dla produktów
+          href: pro/subcontracting/vi-line-material.md
+        - name: Wiersze faktury od dostawcy dla punktów kontrolnych
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: Wiersze faktury od dostawcy dla kategorii wydatków
+          href: pro/subcontracting/vi-line-expense.md
+        - name: Weryfikacja faktur od dostawców przy użyciu zatwierdzonych wartości rzeczywistych
+          href: pro/subcontracting/VI-Verification.md
+        - name: Anulowanie faktury od dostawcy projektu
+          href: pro/subcontracting/cancel-vi.md
+        - name: Potwierdzenie faktury od dostawcy projektu
+          href: pro/subcontracting/confirm-vi.md
+        - name: Przejścia stanu na fakturze od dostawcy
+          href: pro/subcontracting/vi-state-model.md
     - name: Czas
       items:
         - name: Omówienie czasu
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: Zestawy zatwierdzenia
           href: approvals/approval-sets.md
+        - name: Anulowanie zatwierdzania dla uprzednio zatwierdzonych wpisów
+          href: approvals/cancelapproval.md
+        - name: Odwołanie uprzednio zatwierdzonych wpisów
+          href: approvals/recall-cancel.md
         - name: Uwagi dotyczące deweloperów
           items:
             - name: Uwagi dotyczące deweloperów na temat zatwierdzeń
               href: approvals/dev-notes-approvals.md
     - name: Wartości rzeczywiste
       items:
+        - name: Transakcje biznesowe w rozwiązaniu Project Operations
+          href: actuals/businesstransactions.md
         - name: Omówienie wartości rzeczywistych
           href: actuals/actuals-overview.md
-        - name: Łączenie wartości rzeczywistych z oryginalnymi rekordami
+        - name: Pochodzenie transakcji — łączenie wartości rzeczywistych ze źródłem
           href: actuals/linkingactuals.md
-        - name: Arkusze korekt
+        - name: Połączenia transakcji — łączenie wartości rzeczywistych różnych typów transakcji
+          href: actuals/connectingactuals.md
+        - name: Arkusze
           items:
+            - name: Tworzenie i potwierdzanie arkuszy wpisów
+              href: actuals/create-confirm-entry-journals.md
             - name: Tworzenie i potwierdzanie arkuszy korekcyjnych
               href: actuals/create-confirm-correction-journals.md
     - name: Fakturowanie proforma
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Konfiguracja automatyzacji fakturowania projektu
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: Uaktualnienie
+      items:
+        - name: Uwagi dotyczące uaktualniania nowoczesnych zatwierdzeń
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Aplikacje Project Operations
+      items:
+        - name: Aplikacja członka zespołu usługi Project Operations
+          href: team-member/project-operations-team-member.md
 - name: Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
   items:
     - name: Co nowego
@@ -1010,43 +1092,39 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Omówienie zarządzania projektami i księgowania
       href: prod-pma/overview-project-management-accounting.md
-    - name: Faktura międzyfirmowa
-      href: prod-pma/intercompany-invoicing.md
-    - name: Konfigurowanie międzyfirmowego fakturowania projektu
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: Konfigurowanie kosztów standardowych na robociznę i wydatki
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: Tworzenie i stosowanie warunków zatrzymania płatności u dostawcy
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: Konfigurowanie i korzystanie z płatności dla dostawcy po uiszczonej opłacie
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: Naliczanie kosztów projektu na przyjęcia zakupu
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: Fakturowanie projektu
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: Wydajność propozycji faktury projektu
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: Kontrakty projektów
-      href: prod-pma/project-contracts.md
-    - name: Tworzenie zaawansowanych kontraktów dotyczących rozliczeń na podstawie postępu
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: Prognozy i budżety projektów
-      href: prod-pma/project-forecasts-budgets.md
-    - name: Tworzenie modeli prognoz dla budżetów projektów
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: Przeniesienie budżetów projektu na koniec roku obrachunkowego
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: Zamówienia sprzedaży projektu
-      href: prod-pma/project-sales-orders.md
-    - name: Zamówienia zakupu dla projektu
-      href: prod-pma/project-purchase-orders.md
-    - name: Oferty projektu
-      href: prod-pma/project-quotations.md
-    - name: 'Potwierdzanie, aktualizowanie i wysyłanie oferty projektu'
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: Przenoszenie oferty do projektu
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: Pozyskiwanie zasobów projektu
+    - name: Proces sprzedaży projektu
+      items:
+        - name: Oferty projektu
+          href: prod-pma/project-quotations.md
+        - name: 'Potwierdzanie, aktualizowanie i wysyłanie oferty projektu'
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: Przenoszenie oferty do projektu
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: Kontrakty projektów
+          href: prod-pma/project-contracts.md
+        - name: Granty projektu
+          href: prod-pma/project-grants.md
+    - name: Kalkulacja cen i wycena
+      items:
+        - name: Konfigurowanie kosztów standardowych na robociznę i wydatki
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Zarządzanie projektem
+      items:
+        - name: Omówienie struktur podziału pracy
+          href: prod-pma/work-breakdown-structures.md
+        - name: Integracja programu Microsoft Project Client
+          href: prod-pma/project-integration.md
+        - name: Omówienie aplikacji mobilnych Project
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Mobilny obszar roboczy wpisu czasu projektu
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Aplikacja mobilna grafiku projektu
+          href: prod-pma/project-timesheet.md
+        - name: Grafiki projektu na urządzeniu mobilnym
+          href: prod-pma/mobile-timesheets.md
+        - name: Implementowanie pól niestandardowych dla aplikacji mobilnej Project Timesheet
+          href: prod-pma/custom-fields-mobile.md
+    - name: Zarządzanie zasobami
       items:
         - name: Omówienie pozyskiwania zasobów projektu
           href: prod-pma/project-resourcing.md
@@ -1068,28 +1146,106 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: Realizacja zasobów dla planowanych zasobów
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: Pobieranie pozycji w zamówieniu zakupu z zapotrzebowania na pozycje
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: Struktury podziału pracy
+    - name: Budżety i prognozy projektów
       items:
-        - name: Omówienie struktur podziału pracy
-          href: prod-pma/work-breakdown-structures.md
-        - name: Integracja programu Microsoft Project Client
-          href: prod-pma/project-integration.md
-        - name: Omówienie aplikacji mobilnych Project
-          href: prod-pma/project-mobile-application-overview.md
-        - name: Mobilny obszar roboczy wpisu czasu projektu
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Aplikacja mobilna grafiku projektu
-          href: prod-pma/project-timesheet.md
-        - name: Grafiki projektu na urządzeniu mobilnym
-          href: prod-pma/mobile-timesheets.md
-        - name: Implementowanie pól niestandardowych dla aplikacji mobilnej grafiku Project
-          href: prod-pma/custom-fields-mobile.md
-    - name: Granty projektu
-      href: prod-pma/project-grants.md
-    - name: Eliminowanie oszacowania projektu
-      href: prod-pma/eliminate-project-estimate.md
+        - name: Prognozy i budżety projektów
+          href: prod-pma/project-forecasts-budgets.md
+        - name: Tworzenie modeli prognoz dla budżetów projektów
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: Przeniesienie budżetów projektu na koniec roku obrachunkowego
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Czas
+      items:
+        - name: Domyślne rozmiary finansowe dla wpisów czasu projektu
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: Wydatek
+      items:
+        - name: Omówienie wydatków
+          href: expense/expense-overview.md
+        - name: Środowisko nowego wydatku
+          items:
+            - name: Przebudowane raporty wydatków
+              href: expense/expense-reports-reimagined.md
+            - name: Przechwytywanie potwierdzenia za pomocą funkcji OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: Konfiguracja i ustawianie
+          items:
+            - name: Konfigurowanie zasad
+              href: expense/set-up-policies.md
+            - name: Konfigurowanie przepływów pracy
+              href: expense/set-up-workflows.md
+            - name: Zarządzanie delegacją
+              href: expense/manage-delegation.md
+            - name: Konfigurowanie parametrów zarządzania wydatkami
+              href: expense/configure-expense-management-parameters.md
+            - name: Konfigurowanie integracji z kartą kredytową
+              href: expense/set-up-credit-card-integration.md
+            - name: Konfigurowanie kategorii wydatków
+              href: expense/set-up-expense-categories.md
+            - name: Konfigurowanie przebiegu używającego warstw współczynnika przebiegu
+              href: expense/set-up-mileage.md
+        - name: Podział wydatków na pozycje
+          href: prod-exp/expense-itemization.md
+        - name: Wydatki osobiste
+          href: expense/personal-expenses-expense-report.md
+        - name: Wydatki międzyfirmowe
+          href: prod-exp/intercompany-expense.md
+        - name: Tworzenie raportów wydatków
+          items:
+            - name: Dystrybucje w raporcie wydatków
+              href: expense/distributions-expense-report.md
+        - name: Zatwierdzanie raportów wydatków
+          items:
+            - name: Raporty wydatków i różne osoby zatwierdzające
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Księgowanie raportów wydatków
+          href: expense/posting-expense-reports.md
+        - name: Wnioski wyjazdowe
+          href: expense/travel-requisition.md
+        - name: Zaliczka gotówkowa
+          href: expense/cash-advance.md
+        - name: Wydatki diet
+          href: expense/per-diem-expenses.md
+        - name: Mobilna aplikacja wydatków
+          href: expense/expense-using-mobile.md
+        - name: Zarządzanie finansami
+          items:
+            - name: Odzyskiwanie podatku VAT
+              href: expense/vat-recovery.md
+    - name: Zaopatrzenie
+      items:
+        - name: Zamówienia zakupu dla projektu
+          href: prod-pma/project-purchase-orders.md
+        - name: Naliczanie kosztów projektu na przyjęcia zakupu
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: Pobieranie pozycji w zamówieniu zakupu z zapotrzebowania na pozycje
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: Konfigurowanie i korzystanie z płatności dla dostawcy po uiszczonej opłacie
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: Tworzenie i stosowanie warunków zatrzymania płatności u dostawcy
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Fakturowanie projektu
+      items:
+        - name: Fakturowanie projektu
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: Wydajność propozycji faktury projektu
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: Tworzenie zaawansowanych kontraktów dotyczących rozliczeń na podstawie postępu
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: Zamówienia sprzedaży projektu
+          href: prod-pma/project-sales-orders.md
+        - name: Wymagania pozycji dla kontraktów projektów z wieloma źródłami finansowania
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: Faktura międzyfirmowa
+      items:
+        - name: Faktura międzyfirmowa
+          href: prod-pma/intercompany-invoicing.md
+        - name: Konfigurowanie międzyfirmowego fakturowania projektu
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Ujmowanie przychodów
+      items:
+        - name: Eliminowanie oszacowania projektu
+          href: prod-pma/eliminate-project-estimate.md
 - name: Zarządzanie wydatkami
   items:
     - name: Omówienie zarządzania wydatkami
@@ -1148,6 +1304,16 @@
       items:
         - name: Harmonogram wydań aktualizacji dla rozwiązania Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 43, V3'
+          href: psa/whats-new-ur43.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 42, V3'
+          href: psa/whats-new-ur-42.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 41, V3'
+          href: psa/whats-new-ur-41.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 40, V3'
+          href: psa/whats-new-ur-40.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 39, V3'
+          href: psa/whats-new-ur-39.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 38, V3'
           href: psa/whats-new-ur-38.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 37.5, V3'
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: Uaktualnianie rozwiązania Project Service Automation do Project Operations — wersja uproszczona
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: Zmiany funkcji z rozwiązania Project Service Automation do Project Operations
+      href: psa/psa-project-operations-changes.md
     - name: Aktualizacja rozwiązania Project Service Automation (aplikacja w wersji 3.x)
       items:
         - name: Aktualizacja rozwiązania Project Service Automation
