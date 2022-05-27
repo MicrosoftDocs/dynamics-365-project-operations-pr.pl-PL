@@ -2,18 +2,16 @@
 title: Zestawy zatwierdzenia
 description: W tym temacie omówiono sposób pracy z zestawami zatwierdzeń, żądaniami i podzestawami tych operacji.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323249"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576237"
 ---
 # <a name="approval-sets"></a>Zestawy zatwierdzenia
 
@@ -27,6 +25,18 @@ Zestawy zatwierdzeń wskazują ogólny stan przetwarzania powiązanych z nimi re
 Zatwierdzenia oczekujące w kolejce do przetwarzania widoczne są w widoku **Opracowywanie zatwierdzeń**. W systemie wszystkie wpisy są przetwarzane wiele razy asynchronicznie, co obejmuje ponawianie prób, jeśli poprzednie próby zakończyły się niepowodzeniem.
 
 Pole **Próby zatwierdzenia ogółem** określa ilość prób, które pozostały do przetworzenia zestawu, zanim zostanie on oznaczony jako nieudany.
+
+Zestawy zatwierdzeń są przetwarzane w ramach okresowej aktywacji na podstawie przepływu **w chmurze** o nazwie **Project Service — Recurrently Schedule Project Approval Sets**. Można go znaleźć w **rozwiązaniu** o nazwie **Project Operations**. 
+
+Upewnij się, że przepływ jest aktywowany, wykonując następujące kroki.
+
+1. Jako Administrator zaloguj się do [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. W prawym górnym rogu przejdź do środowiska, w którym jest włączana zmiana na Dynamics 365 Project Operations.
+3. Wybierz **pozycję** Rozwiązania, aby wyświetlić listę rozwiązań zainstalowanych w środowisku.
+4. Z listy rozwiązań wybierz pozycję **Project Operations**.
+5. Zmień filtr ze **Wszystkich** na **Przepływy w chmurze**.
+6. Sprawdź, czy przepływ **Project Service projektu w usłudze projektów — harmonogram** cyklicznie jest ustawiony na **Wł**. Jeśli nie, wybierz przepływ, a następnie wybierz opcję **Włącz**.
+7. Sprawdź, czy przetwarzanie odbywa się co pięć minut, **przeglądając listę Zadań systemowych** w obszarze **Ustawienia** w środowisku Project Operations Dataverse.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Nieudane zatwierdzenia i zestawy zatwierdzeń
 Widok **Zatwierdzenia zakończone niepowodzeniem** zawiera listę wszystkich zatwierdzeń wymagających interwencji użytkownika. Otwórz dzienniki powiązanych zestawów zatwierdzeń, aby zidentyfikować przyczynę niepowodzenia.

@@ -2,16 +2,16 @@
 title: Konfigurowanie kosztów i stawek sprzedaży na potrzeby materiałów
 description: Ten temat zawiera informacje dotyczące konfigurowania kosztów i stawek sprzedaży materiałów używanych w projektach.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999194"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576881"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Konfigurowanie kosztów i stawek sprzedaży na potrzeby materiałów
 
@@ -25,6 +25,9 @@ Aby skonfigurować koszt i stawki sprzedaży dla produktów, wykonaj następują
 2. W **Pozycje cennika** w menu podsiatki wybierz pozycję **Nowa pozycja cennika**. 
 3. Na stronie **Szybkie tworzenie** wprowadź produkt i jednostkę, dla których tworzysz nową cenę.
 
-Aby uzyskać więcej informacji na temat definiowania cen towarów z katalogu, zobacz [Skonfiguruj ceny produktów](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) i [Dziesiętna dokładność w walucie i cenach](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Aby uzyskać więcej informacji na temat definiowania cen pozycji katalogu, zobacz [Definiowanie cen produktów za pomocą cenników i pozycji cenników](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) i [Dokładność dziesiętna w walucie i cenach](/dynamics365/sales/decimal-precision-currency-pricing).
+> [!NOTE]
+> Dynamics 365 Project Operations nie obsługuje wszystkich metod kalkulacji cen produktów jako Dynamics 365 Sales. Jedyna metoda kalkulacji cen obsługiwana w przypadku produktów używanych w projektach to *kwota w walucie*.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

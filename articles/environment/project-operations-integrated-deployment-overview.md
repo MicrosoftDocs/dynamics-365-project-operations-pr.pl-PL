@@ -3,16 +3,15 @@ title: Omówienie wdrożenia aplikacji Project Operations dla zasobów/scenarius
 description: Ten temat zawiera informacje o typie wdrożenia, Project Operations dla scenariuszy opartych na zasobach / niezamieszczonych.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009724"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575134"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Omówienie wdrożenia aplikacji Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
 
@@ -32,7 +31,7 @@ Typ wdrożenia, Dynamics 365 Project Operations dla scenariuszy opartych na zaso
 - Rozpoznawanie przychodów z projektu
 - Rozszerzalności dzięki Power Platform
 
-Ten typ wdrożenia zapewnia rozszerzenie funkcjonalności zapewnianej przez aplikacje Dynamics 365 Finance i Dynamics 365 Supply Chain Management.
+Ten typ wdrożenia udostępnia rozszerzenie funkcji, które są dostępne w aplikacjach Dynamics 365 Finance i Dynamics 365 Supply Chain Management.
 
 To wdrożenie powinno zostać wybrane, ponieważ oczekuje się, że Project Operations będą wykorzystywać pełny cykl życia projektu, który obejmuje następujące wymagania:
 

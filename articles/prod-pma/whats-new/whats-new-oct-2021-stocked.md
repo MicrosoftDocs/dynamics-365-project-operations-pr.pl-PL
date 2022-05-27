@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 449cab5880c29cf110c9c5a266cbb4b102b5fc83
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818477"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576053"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Co nowego i zmienionego w październiku 2021 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
 
@@ -20,7 +20,7 @@ _**Dotyczy:** Project Operations dla scenariuszy obejmujących magazynowanie/zle
 
 Ten temat dotyczy następujących składników i wersji oprogramowania Microsoft Dynamics 365 Project Operations:
 
-- Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance wersja 10.0.22
+- Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.22
  
 ## <a name="quality-updates"></a>Aktualizacje dotyczące jakości
 
@@ -80,6 +80,6 @@ Ten temat dotyczy następujących składników i wersji oprogramowania Microsoft
 
 ### <a name="regulatory-updates"></a>Aktualizacje dotyczące regulacji
 
-Aby uzyskać więcej informacji na temat aktualizacji dotyczących aplikacji Finance and Operations, zobacz artykuł dotyczący [Aktualizacje dotyczące regulacji](/dynamics365/finance/localizations/regulatory-updates). Można również zalogować się do Microsoft Dynamics Lifecycle Services (LCS) i skorzystać z narzędzia wyszukiwania zagadnień, aby wyświetlić planowane aktualizacje przepisów. Wyszukiwanie według zagadnień umożliwia wyszukiwanie według kraju lub regionu, typu elementu i wydania.
+Aby uzyskać informacje na temat aktualizacji przepisów prawnych dotyczących aplikacji finansowych i operacyjnych, zobacz [Aktualizacje prawne](/dynamics365/finance/localizations/regulatory-updates). Można również zalogować się do Microsoft Dynamics Lifecycle Services (LCS) i skorzystać z narzędzia wyszukiwania zagadnień, aby wyświetlić planowane aktualizacje przepisów. Wyszukiwanie według zagadnień umożliwia wyszukiwanie według kraju lub regionu, typu elementu i wydania.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

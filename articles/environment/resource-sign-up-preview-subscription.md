@@ -4,20 +4,20 @@ description: W tym temacie zamieszczono informacje dotyczące sposobu subskrypcj
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323429"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575823"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Rejestracja w przeglądzie subskrypcji Project Operations w ramach scenariuszy zasobów / zasobów niemagazynowanych
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Ten temat wyjaśnia, jak subskrybować ofertę wersji próbnej i wdrożyć środowisko aplikacji Project Operations dla scenariuszy obejmujących zasoby/nieobejmujących magazynowania.
 
@@ -40,7 +40,7 @@ Przed rozpoczęciem pracy należy się upewnić, że użytkownik jest zalogowany
 
   Zobaczysz, że oferta potwierdzenia została zrealizowana pomyślnie.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance — próbna wersja zapoznawcza
+### <a name="dynamics-365-finance-preview-trial"></a>Wersja próbna usługi Dynamics 365 Finance
 
 Przejdź do [wersji próbnej aplikacji Dynamics 365 for Finance w wersji zapoznawczej](https://aka.ms/trypoche) i powtórz kroki z poprzedniej sekcji wraz z ofertą. Zarejestruj się w środowisku hostowanym w chmurze.  
 

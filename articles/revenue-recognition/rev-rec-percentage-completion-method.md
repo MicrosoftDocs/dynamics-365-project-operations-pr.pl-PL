@@ -4,14 +4,14 @@ description: Ten temat zawiera informacje o przychodach o stałej cenie w projek
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006439"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578721"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Projekty szacowanych przychodów o stałej cenie 
 
@@ -26,7 +26,7 @@ Podczas tworzenia pozycji kontraktu projektu z następującymi atrybutami w apli
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Przeglądanie projektów szacowanych przychodów o stałej cenie
 Aby przejrzeć projekty szacowanych przychodów o stałej cenie, wykonaj następujące czynności:
 
-1. W środowisku aplikacji Dynamics 365 Finance przejdź do pozycji **Zarządzanie projektami i księgowanie** > **Projekty** > **Projekty szacowanych przychodów o stałej cenie**.
+1. W środowisku Dynamics 365 Finance przejdź do **Zarządzanie projektami i księgowość** > **Projekty** > **Projekty szacowania przychodów ze stałą ceną**.
 2. Wybierz projekt, który chcesz wyświetlić, i kliknij dwukrotnie **identyfikator projektu szacowania**, aby otworzyć rekord i przejrzeć szczegóły projektu.
 3. Rozwiń kartę **Projekt**. Jeden projekt zostanie wyświetlony w siatce **Wybrane projekty**. System używa tego jako projektu domyślnego, ponieważ jest to projekt skojarzony z pozycją kontraktu projektu. 
 4. Aby zmienić skojarzenie, wybierz dodatkowe projekty i dodaj je do siatki **Wybrane projekty**. Jeśli w tej siatce wybrano wiele projektów, procent wykonania projektu i szacowane przychody są obliczane razem dla wszystkich wybranych projektów.

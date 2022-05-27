@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984884"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579871"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nowości: grudzień 2020 r. — Project Operations dla scenariuszy dotyczących zasobów/braku zapasów
 
@@ -21,7 +21,7 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
 
 - Project Operations w środowisku Dataverse w wersji 4.5.0.134
-- Zarządzanie projektami i ich księgowanie w wersji 10.0.15 środowiska Dynamics 365 Finance
+- Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.15
 
 Aby uzyskać informacje na temat aktualizacji do tego wydania, zobacz temat [Zaktualizuj Project Operations w swoim środowisku Finance](ur5-nonstocked-installation.md).
 
@@ -61,12 +61,12 @@ To wydanie zawiera następujące funkcje:
 | Planowanie i śledzenie projektu | 2057197          | Kopiowanie wiersza oszacowania za pomocą odwołania do zadania nie jest obsługiwane                                                                                                     |
 | Planowanie i śledzenie projektu | 2060687          | Ostrzeżenie dotyczące strefy czasowej będzie teraz znikać po określonym czasie trwania                                                                                                      |
 | Zarządzanie zasobami           | 1832887          | Aby można było ładować powtarzalne dane dla środowisk usług Dataverse i Finance, domyślny identyfikator kategorii zasobów musi być statyczny                                                 |
-| Czas i wydatek              | 2081793          | **Nazwa kategorii wydatków** musi być mapowana na pole **Opis kategorii wydatków** w aplikacjach Finance and Operations                                                  |
+| Czas i wydatek              | 2081793          | **Nazwa kategorii wydatków musi** być zamapowana na pole opisu **kategorii wydatków** w aplikacjach finansowych i operacyjnych                                                  |
 | Czas i wydatek              | 2034882          | Przycisk **Nowy** jest wyświetlany dwukrotnie na pasku poleceń w przypadku wpisów czasu po zainstalowaniu aplikacji Dynamics 365 Field Service                                          |
 | Czas i wydatek              | 2056028          | Aktualizacja strony **edytowania czasu** w celu dołączenia osi czasu                                                                                                              |
 | Czas i wydatek              | 1983747          | Na wykresie wpisów czasu są wyświetlane dodatkowe dane                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Omówienie zarządzania projektami i księgowania w Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance
 
 | Obszar funkcji                        | Numer referencyjny | Aktualizacja dotycząca jakości                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ To wydanie zawiera następujące funkcje:
 | Podróż i wydatek                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Przepływ pracy automatycznego księgowania raportu wydatków został ukończony, ale faktura nie została zaksięgowana                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Aktualizacje dotyczące regulacji
-Aby uzyskać więcej informacji na temat aktualizacji dotyczących aplikacji Finance and Operations, zobacz artykuł dotyczący [Aktualizacje dotyczące regulacji](/dynamics365/finance/localizations/regulatory-updates). Można również zalogować się w LCS i wyświetlić planowane aktualizacje ustawodawcze, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
+Aby uzyskać informacje na temat aktualizacji przepisów prawnych dotyczących aplikacji finansowych i operacyjnych, zobacz [Aktualizacje prawne](/dynamics365/finance/localizations/regulatory-updates). Można również zalogować się w LCS i wyświetlić planowane aktualizacje ustawodawcze, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

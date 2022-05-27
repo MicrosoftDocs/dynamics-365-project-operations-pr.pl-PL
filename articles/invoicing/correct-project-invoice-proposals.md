@@ -2,16 +2,16 @@
 title: Poprawianie księgowania propozycji faktur dla projektów wersji roboczej
 description: W tym temacie wyjaśniono sposób dopasowywania informacji księgowych do wersji roboczej propozycji faktury.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999329"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575087"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Poprawianie księgowania propozycji faktur dla projektów wersji roboczej
 
@@ -27,12 +27,21 @@ Domyślne grupy podatku dla rozliczeń i grupy podatku dla pozycji można dostos
 
 ## <a name="adjust-financial-dimensions"></a>Korekta wymiarów finansowych
 
+### <a name="header-dimensions"></a>Rozmiary nagłówka
+
+Domyślnie rozmiary finansowe faktur są uzyskiwane z rekordów transakcji projektów, które są zafakturowane. Ustawienia systemowe umożliwiają jednak użycie rozmiarów finansowych w nagłówku ofert faktur projektów w celu zasyłania salda klientów. Aby włączyć tę funkcję, wybierz opcję **Zezwalaj na aktualizacje rozmiarów projektu dla należności** na karcie **Finanse** na stronie **Zarządzanie projektami i parametry księgowe**.
+
+Wymiary finansowe w nagłówkach faktur można edytować przed zakturturowania faktury. Na stronie **propozycje faktury projektu** przejdź do **widoku Nagłówek**, a następnie zedytuj wartości na karcie **Wymiary finansowe**.
+
+Widok **Nagłówek** jest dostępny dopiero wtedy, gdy system Administrator za pomocą formularzy **Użyj faktury projektu oraz formularzy faktur** w widoku **Nagłówek** i Wiersze w obszarze roboczym zarządzania funkcjami. Ta funkcja wymaga aktualizacji Finance 10.0.25 lub nowszej.
+
+### <a name="line-dimensions"></a>Wymiary wierszy
+
 Nie można edytować wymiarów finansowych bezpośrednio w wierszu propozycji faktury projektu. Zamiast tego należy wykonać poniższe kroki w celu dostosowania wymiarów finansowych w propozycji faktury projektu.
 
 1. W propozycji faktury projektu wybierz opcję **Usuń wszystko**, aby usunąć wiersze propozycji faktury projektu.
 
-    > [!NOTE]
-    > Przycisk **Usuń wszystko** jest dostępny tylko wtedy, gdy administrator systemu włączy funkcję **Usuń wierszy propozycji faktury w przypadku korzystania z aplikacji Project Operations dla scenariuszy obejmujących zasobów/nieobejmujących magazynowania** w obszarze roboczym **Zarządzanie funkcjami**.
+    Przycisk **Usuń wszystko** jest dostępny tylko wtedy, gdy administrator systemu włączy funkcję **Usuń wierszy propozycji faktury w przypadku korzystania z aplikacji Project Operations dla scenariuszy obejmujących zasobów/nieobejmujących magazynowania** w obszarze roboczym **Zarządzanie funkcjami**.
 
 2. Korekta wymiarów finansowych:
 

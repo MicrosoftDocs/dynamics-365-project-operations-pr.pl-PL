@@ -1,25 +1,25 @@
 ---
 title: Aktualizowanie Project Operations w środowisku Finance
-description: Ten temat zawiera informacje o tym, jak zaktualizować Project Operations w środowisku Dynamics 365 Finance.
+description: To temat zawiera informacje na temat aktualizowania Project Operations w środowisku Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986774"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579957"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Aktualizowanie Project Operations w środowisku Finance
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
 
-Ten temat zawiera informacje o tym, jak zaktualizować Dynamics 365 Project Operations w środowisku Dynamics 365 Finance. Istnieją trzy procedury, które są wymagane do aktualizacji Project Operations do aktualizacji 5 (UR5):
+To temat zawiera informacje na temat aktualizowania Dynamics 365 Project Operations w środowisku Dynamics 365 Finance. Istnieją trzy procedury, które są wymagane do aktualizacji Project Operations do aktualizacji 5 (UR5):
 
 - [Importowanie pakietu do projektu w wersji zapoznawczej](#import)
 - [Stosowanie aktualizacji](#apply)
@@ -119,7 +119,7 @@ W ramach aktualizacji UR5 są wymagane następujące aktualizacje uprawnień zab
 4. Na stronie **Wersja mapowania tabeli** można zastosować nową wersję mapowania do każdej z trzech encji.
 5. Na stronie **Podwójny zapis** wybierz opcję Uruchom, aby ponownie uruchomić mapowania.
 6. Z listy map wybierz mapowanie **Księga (msdyn_ledgers)** ze wszystkimi wymaganiami wstępnymi i zaznacz pole wyboru **Synchronizacja początkowa**. 
-7. W polu **Wzorzec dla synchronizacji początkowej** wybierz **aplikacje Finance and Operations**, a następnie wybierz opcję **Uruchom**.
+7. W polu **Główny dla początkowej synchronizacji** wybierz **aplikacje finansowe i operacyjne**, a następnie wybierz opcję **Uruchom**.
  
  ![Synchronizacja mapowania księgi.](media/DW6.png)
  

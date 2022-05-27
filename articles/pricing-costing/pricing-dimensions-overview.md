@@ -3,17 +3,16 @@ title: Przegląd wymiarów kalkulacji cen
 description: Ten temat zawiera informacje o wymiarach kalkulacji cen w aplikacji Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001984"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579273"
 ---
 # <a name="pricing-dimensions-overview"></a>Przegląd wymiarów kalkulacji cen
 
@@ -60,16 +59,16 @@ W przykładzie pod spodem przedstawiono stawki rozliczania skonfigurowane na pod
 
 | Rola        | Jednostka organizacyjna    |Jednostka      |Cena      |Waluta  |
 | ------------|-------------|----------|----------:|----------|
-| Deweloperskie   | Contoso — USA  |godzina | 200|USD     |
-| Deweloperskie   | Contoso Indie |godzina|   112|USD     |
+| Dla deweloperów   | Contoso US  |Hour | 200|USD     |
+| Dla deweloperów   | Contoso India |Hour|   112|USD     |
 
 
 **Przykładowe stawki kosztów**
 
 | Pasmo wynagrodzenia     | Jednostka organizacyjna    |Jednostka      |Cena      |Waluta  |
 | ----------------|-------------|----------|----------:|----------|
-| Moja firma_pasmo1 | Contoso — USA  |godzina | 145|USD     |
-| Moja firma_pasmo2 | Contoso Indie |godzina|   67|USD     |
+| Moja firma_pasmo1 | Contoso US  |Hour | 145|USD     |
+| Moja firma_pasmo2 | Contoso India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
