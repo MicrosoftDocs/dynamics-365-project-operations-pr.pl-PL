@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005314"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727971"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Użyj dodatku Project Service Automation do planowania pracy w programie Microsoft Project
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005314"
 ## <a name="download-and-install-the-add-in"></a>Pobierz i zainstaluj dodatek  
  Przygotuj swoje dane do logowania w [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Informacje te będą Ci potrzebne, aby połączyć [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] z [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  Korzystając z Centrum Pobierania można pobrać dodatek dla używanej wersji programu Project Service — [wer. 2.X](https://go.microsoft.com/fwlink/?linkid=828268) lub [wer. 3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  Korzystając z Centrum Pobierania można pobrać dodatek dla używanej wersji programu Project Service — [wer. 2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) lub [wer. 3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Kliknij łącze pobierania.  
 
@@ -87,9 +88,8 @@ Po zakończeniu planowania projektu, następnym krokiem jest importowanie i publ
 
 Projektu zostanie zaimportowany do [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Zastosowano proces generowania cen i zespołu. Otwórz projekt w [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], aby zobaczyć, że zespół, oszacowania projektu i struktura podziału pracy zostały wygenerowane. W poniższej tabeli pokazano, gdzie można znaleźć wyniki:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Details |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Wykres Gantt**   | Importuje do ekranu [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Struktura podziału pracy**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Arkusz zasobów** |   Importuje do ekranu [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Członkowie zespołu projektu**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Użyj użycia**    |    Importuje do ekranu [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Szacowania projektów**.     |

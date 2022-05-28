@@ -1,32 +1,31 @@
 ---
 title: Parametry integracji Project Service Automation z Finance
-description: W tym temacie wyjaśniono, jak skonfigurować sposób wprowadzania danych domyślnych podczas integracji Microsoft Dynamics 365 for Project Service Automation z Microsoft Dynamics 365 Finance.
+description: W tym temacie wyjaśniono, jak skonfigurować sposób wprowadzania domyślnych danych podczas integrowania Microsoft Dynamics 365 for Project Service Automation z Microsoft Dynamics 365 Finance.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: b58f34cb74be531a98518100158f39d74f136afc34444468d666cd4e9394af6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 70dcf44c0948bfb8f17c51e052b6c76e029d35fd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005854"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683689"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Parametry integracji Project Service Automation z Finance
 
 [!include[banner](../includes/banner.md)]
 
-Na stronie **parametry integracji rozwiązania Project Service Automation** można skonfigurować sposób wprowadzania danych domyślnych podczas integracji Dynamics 365 Project Service Automation z Dynamics 365 Finance. Aby projekty zostały pomyślnie zsynchronizowane z Project Service Automation do Finance, należy skonfigurować następujące pola.
+Na stronie **Parametry integracji aplikacji Project Service Automation** można skonfigurować sposób wprowadzania domyślnych danych podczas integrowania programu Dynamics 365 Project Service Automation z programem Dynamics 365 Finance. Aby projekty zostały pomyślnie zsynchronizowane z Project Service Automation do Finance, należy skonfigurować następujące pola.
 
 Aby otworzyć stronę **parametry integracji z Project Service Automation**, wybierz **Zarządzanie projektami i księgowanie** \> **Ustawienia** \> **Parametry integracji Dynamics 365 for Project Service Automation**. 
 

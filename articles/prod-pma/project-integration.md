@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988034"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684998"
 ---
 # <a name="microsoft-project-client-integration"></a>Integracja klienta programu Microsoft Project
 
 [!include [banner](../includes/banner.md)]
 
-Planowanie i utrzymywanie harmonogramu projektu może być skomplikowane, więc kierownicy projektów muszą używać narzędzi, które pomagają im zarządzać tym zadaniem. Integracja z Microsoft Project Client zapewnia wsparcie dla otwierania i zarządzania strukturą podziału pracy w projekcie. Kierownik projektu może opublikować wszystkie zmiany wprowadzone z powrotem w strukturze podziału prac projektu Dynamics 365 Finance.
+Planowanie i utrzymywanie harmonogramu projektu może być skomplikowane, więc kierownicy projektów muszą używać narzędzi, które pomagają im zarządzać tym zadaniem. Integracja z Microsoft Project Client zapewnia wsparcie dla otwierania i zarządzania strukturą podziału pracy w projekcie. Menedżer projektu może publikować wszelkie zmiany z powrotem w strukturze podziału pracy projektu w Dynamics 365 Finance.
 
 > [!NOTE]
 > W przypadku korzystania z aktualizacji z lipca (wersja 10.0.4) należy zainstalować program KB 4054797 i 4055884.
@@ -40,7 +39,7 @@ Aby umożliwić integrację z Microsoft Project Client, dodatek Microsoft Dynami
 •   Kliknij przycisk **Otwórz**, a następnie kliknij opcję **Uruchom** po wyświetleniu monitu.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Otwórz i edytuj istniejącą roboczą strukturę podziału pracy w programie Microsoft Project Client
-Jeśli projekt w Dynamics 365 Finance ma już utworzoną strukturę podziału pracy, strukturę podziału pracy można otworzyć w aplikacji Microsoft Project Client, jeśli struktura podziału pracy ma status wersji roboczej. Aby otworzyć ze strony **Projektu**, kliknij łącze **Otwórz w programie Microsoft Project** na karcie **Plan**. Tę stronę można również otworzyć z poziomu aplikacji Microsoft Project Client, klikając **Otwórz** na karcie **Microsoft Dynamics 365**. Wybierz **Firma** i **Projekt** z listy.
+Jeżeli projekt w Dynamics 365 Finance ma już utworzoną strukturę podziału pracy, można ją otworzyć w aplikacji Microsoft Project Client, o ile tylko struktura jest wersją roboczą. Aby otworzyć ze strony **Projektu**, kliknij łącze **Otwórz w programie Microsoft Project** na karcie **Plan**. Tę stronę można również otworzyć z poziomu aplikacji Microsoft Project Client, klikając **Otwórz** na karcie **Microsoft Dynamics 365**. Wybierz **Firma** i **Projekt** z listy.
 
 > [!NOTE]
 > Jeśli używasz przeglądarki Internet Explorer jako przeglądarki, musisz kliknąć przycisk **Zapisz**, aby ręcznie otworzyć plik z lokalizacji, do której został pobrany plik. Lub kliknij przycisk **Zapisz i Otwórz**, aby otworzyć plik w programie Microsoft Project Client. Nie zmieniaj nazwy pliku przy zapisywaniu.

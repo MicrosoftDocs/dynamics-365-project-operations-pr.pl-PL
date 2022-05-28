@@ -4,14 +4,14 @@ description: Ten temat zawiera informacje o aktualizacjach dotyczących jakości
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007969"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600387"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nowości Listopad 2020 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
 
@@ -20,7 +20,7 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
 
 - Project Operations w środowisku CDS w wersji 4.4.0.70
-- Zarządzanie projektami i ich księgowanie w wersji 10.0.14 środowiska Dynamics 365 Finance
+- Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Aktualizacje Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
 
@@ -42,7 +42,7 @@ Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 P
 | Czas i szybki wpis wydatków | 2059859          | Nieoczekiwane podręczne otwieranie podczas tworzenia wpisu wydatku.                                                                                                                         |
 | Inny powód                        | 2044181          | (Odinstalowywanie zamówienia zakupu) Podczas próby odinstalowania msdyn_ProjectServiceCore_Patch i msdyn Project Service core rozwiązań pojawia się błąd „Rekord jest niedostępny”.  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Omówienie zarządzania projektami i księgowania w Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance
 
 | Obszar funkcji        | Numer referencyjny | Aktualizacja dotycząca jakości                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 P
 | Księgowanie projektu  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Włączenie tej funkcji, Wiele linii kontraktu nie jest możliwe bez integracji CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Aktualizacje dotyczące regulacji
-Aby uzyskać więcej informacji na temat aktualizacji dotyczących aplikacji Finance and Operations, zobacz artykuł dotyczący [Aktualizacje dotyczące regulacji](/dynamics365/finance/localizations/regulatory-updates). Można również zalogować się w LCS i wyświetlić planowane aktualizacje ustawodawcze, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
+Aby uzyskać informacje na temat aktualizacji przepisów prawnych dotyczących aplikacji finansowych i operacyjnych, zobacz [Aktualizacje prawne](/dynamics365/finance/localizations/regulatory-updates). Można również zalogować się w LCS i wyświetlić planowane aktualizacje ustawodawcze, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

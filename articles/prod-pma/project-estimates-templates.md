@@ -1,32 +1,31 @@
 ---
-title: Synchronizowanie szacowań projektu bezpośrednio z rozwiązania Project Service Automation do Finance and Operations
-description: W tym temacie opisano szablony i podstawowe zadania, które są używane do synchronizowania szacunków godzin projektu i szacunków kosztów projektu bezpośrednio z Microsoft Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+title: Synchronizowanie szacunków projektu bezpośrednio z programu Project Service Automation do Finance and Operations
+description: Ten temat zawiera opis szablonów i podstawowych zadań, które są używane do synchronizowania szacunków czasu projektu i szacunków wydatków projektów bezpośrednio między Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988214"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684609"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizowanie szacowań projektu bezpośrednio z rozwiązania Project Service Automation do Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizowanie szacunków projektu bezpośrednio z programu Project Service Automation do Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-W tym temacie opisano szablony i podstawowe zadania, które są używane do synchronizowania szacunków godzin projektu i szacunków kosztów projektu bezpośrednio z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+Ten temat zawiera opis szablonów i podstawowych zadań, które są używane do synchronizowania szacunków czasu projektu i szacunków wydatków projektów bezpośrednio między Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
 > [!NOTE]
 > - W wersji 8,0 udostępniono integrację zadań projektu, kategorie transakcji wydatkowej, oszacowania godzin, oszacowania kosztów i blokadę funkcji.
@@ -70,7 +69,7 @@ Zanim będzie można synchronizować oszacowania godzin projektu, należy zsynch
 
 ### <a name="power-query"></a>Power Query
 
-W szablonie szacunków godzin projektu należy użyć dodatku Microsoft Power Query dla programu Excel, aby wykonać następujące zadania:
+W szablonie szacunków godzinowych projektu należy za pomocą dodatku Microsoft Power Query dla programu Excel wykonać następujące zadania:
 
 - Ustaw domyślny identyfikator modelu prognozy, który będzie używany podczas integracji tworzenia nowych prognoz godzinowych.
 - Odfiltruj wszystkie rekordy specyficzne dla zasobów w zadaniu, których integracja nie powiedzie się, do prognoz godzinowych.
@@ -81,7 +80,7 @@ W szablonie szacunków godzin projektu należy użyć dodatku Microsoft Power Qu
 Aby zaktualizować domyslny identyfikator modelu prognozy w szablonie, kliknij strzałkę na **mapie**, aby otworzyć mapowanie. Zaznacz łącze **Zaawansowane zapytania i filtrowania**.
 
 - Jeśli używasz domyślnego szablonu szacowania godzin projektu (PSA do Fin i Ops), wybierz opcję **Wstawiony warunek** z listy **zastosowanych kroków**. We wpisie **Funkcja** zamień **O\_forecast** na nazwę identyfikatora modelu prognozy, która ma być używana podczas integracji. Szablon domyślny ma identyfikator modelu prognozy z danych demonstracyjnych.
-- Jeśli tworzysz nowy szablon, musisz dodać tę kolumnę. W Power Query wybierz opcję **Dodaj kolumnę warunkową** i wprowadź nazwę nowej kolumny, na przykład **ModelID**. Wprowadź warunek dla kolumny, gdzie, jeśli zadanie projektowe nie ma wartości null, wtedy \<enter the forecast model ID\>. W przeciwnym razie ma wartość null.
+- Jeśli tworzysz nowy szablon, musisz dodać tę kolumnę. W narzędziu Power Query wybierz opcję **Dodaj kolumnę warunkową**, a następnie nadaj nowej kolumnie nazwę, taką jak **ModelID**. Wprowadź warunek dla kolumny, gdzie, jeśli zadanie projektowe nie ma wartości null, wtedy \<enter the forecast model ID\>. W przeciwnym razie ma wartość null.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrowanie rekordów specyficznych dla zasobu
 
@@ -126,7 +125,7 @@ Zanim będzie można synchronizować oszacowania wydatków projektu, należy zsy
 
 ### <a name="power-query"></a>Power Query
 
-W szablonie szacowania wydatków projektu należy użyć dodatku Power Query do wykonania następujących zadań:
+W szablonie szacunków wydatków projektu należy użyć programu Power Query w celu wykonania następujących zadań:
 
 - Filtr, w którym znajdują się tylko rekordy wierszy szacowanego wydatku.
 - Ustaw domyślny identyfikator modelu prognozy, który będzie używany podczas integracji tworzenia nowych prognoz godzinowych.
@@ -141,8 +140,8 @@ Szablon Szacunki wydatków projektu (PSA do Fin i Ops) ma domyślny filtr, któr
 
 Aby zaktualizować domyslny identyfikator modelu prognozy w szablonie, wybierz zadanie **Szacowanie wydatków**, a potem kliknij strzałkę **Mapa**, aby otworzyć mapowanie. Wybierz łącze **Zaawansowane zapytania i filtrowania**.
 
-- Jeśli są używane szablony domyślne szacowania wydatków projektów (PSA do Fin i Ops), w Power Query wybierz najpierw **Wstawiony warunek** z sekcji **Zastosowane kroki**. We wpisie **Funkcja** zamień **O\_forecast** na nazwę identyfikatora modelu prognozy, która ma być używana podczas integracji. Szablon domyślny ma identyfikator modelu prognozy z danych demonstracyjnych.
-- Jeśli tworzysz nowy szablon, musisz dodać tę kolumnę. W Power Query wybierz opcję **Dodaj kolumnę warunkową** i wprowadź nazwę nowej kolumny, na przykład **ModelID**. Wprowadź warunek dla kolumny, gdzie, jeśli identyfikator linii oszacowania nie ma wartości null, wtedy \<enter the forecast model ID\>. W przeciwnym razie ma wartość null.
+- Jeśli używasz domyślnego szablonu Szacunki wydatków w projekcie (PSA do Fin and Ops), w programie Power Query w sekcji **Zastosowane kroki** zaznacz pierwszy element na liście **Wstawiony warunek**. We wpisie **Funkcja** zamień **O\_forecast** na nazwę identyfikatora modelu prognozy, która ma być używana podczas integracji. Szablon domyślny ma identyfikator modelu prognozy z danych demonstracyjnych.
+- Jeśli tworzysz nowy szablon, musisz dodać tę kolumnę. W narzędziu Power Query wybierz opcję **Dodaj kolumnę warunkową**, a następnie nadaj nowej kolumnie nazwę, taką jak **ModelID**. Wprowadź warunek dla kolumny, gdzie, jeśli identyfikator linii oszacowania nie ma wartości null, wtedy \<enter the forecast model ID\>. W przeciwnym razie ma wartość null.
 
 #### <a name="transform-the-billing-types"></a>Przekształć typy fakturowania
 

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679222"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600801"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co nowego w czerwcu 2021 r. — Project Operations dla scenariuszy obejmujących zasoby/nieobejmujących magazynowania
 
@@ -21,7 +21,7 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
 
 - Aplikacja Project Operations w środowisku usługi Dynamics 365 Dataverse w wersji 4.11.0.156 lub 4.11.0.164.
-- Zarządzanie projektami i księgowanie w środowiskach aplikacji Finance and Operations w wersji 10.0.19.
+- Zarządzanie projektami i księgowymi w środowiskach aplikacji finansowe i operacyjne wersja 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Funkcje uwzględnione w tym wydaniu
 
@@ -38,7 +38,7 @@ W tym wydaniu nie ma żadnych aktualizacji map podwójnego zapisu w aplikacji Pr
 
 Aktualną listę i wersje map podwójnego zapisu w aplikacji Project Operations można znaleźć w części [Wersje map podwójnego zapisu aplikacji Project Operations](../environment/resource-dual-write-maps.md).
 
-Zawsze należy uruchomić najnowszą wersję mapy w środowisku i włączyć wszystkie mapowania tabel pokrewnych podczas aktualizowania rozwiązania Project Operations Dataverse i wersji rozwiązania aplikacji Finance and Operations. Niektóre funkcje i możliwości mogą nie działać poprawnie, jeśli najnowsza wersja mapy nie zostanie aktywowana. Aktywna wersja mapy jest dostępna na stronie **Podwójny zapis** w kolumnie **Wersja**. Aktywuj nową wersję mapowania, wybierając **Wersje mapowania tabeli**, wybierając najnowszą wersję, a następnie zapisując wybraną wersję. Jeśli dostosowałeś niestandardową mapę tabeli, będziesz trzeba ponownie zastosować zmiany. Więcej informacji: [Zarządzanie cyklem życia aplikacji](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Zawsze uruchamiaj najnowszą wersję mapy w swoim środowisku i włączaj wszystkie powiązane mapy tabelaryczne podczas aktualizacji rozwiązania Project Operations Dataverse i wersji rozwiązania aplikacji finansowych i operacyjnych. Niektóre funkcje i możliwości mogą nie działać poprawnie, jeśli najnowsza wersja mapy nie zostanie aktywowana. Aktywna wersja mapy jest dostępna na stronie **Podwójny zapis** w kolumnie **Wersja**. Aktywuj nową wersję mapowania, wybierając **Wersje mapowania tabeli**, wybierając najnowszą wersję, a następnie zapisując wybraną wersję. Jeśli dostosowałeś niestandardową mapę tabeli, będziesz trzeba ponownie zastosować zmiany. Więcej informacji: [Zarządzanie cyklem życia aplikacji](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Jeśli wystąpi problem z uruchomieniem mapy, postępuj zgodnie z instrukcjami w sekcji [Problem z brakującymi kolumnami na mapie w tabeli](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) w przewodniku rozwiązywania problemów z podwójnym zapisem.
 
@@ -62,7 +62,7 @@ Jeśli wystąpi problem z uruchomieniem mapy, postępuj zgodnie z instrukcjami w
 | Czas i wydatek | 2194431 | Siatka **wprowadzania czasu** musi uznawać początek tygodnia zgodnie z **ustawieniami systemowymi**. |
 | Czas i wydatek | 2277311 | Po usunięciu wartości w komórce w siatce **wprowadzania czasu** kursor pozostaje w siatce. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Omówienie zarządzania projektami i księgowania w Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance
 
 | Obszar funkcji | Numer referencyjny | Aktualizacja dotycząca jakości |
 | --- | --- | --- |

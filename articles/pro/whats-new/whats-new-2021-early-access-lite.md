@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323924"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723689"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Co nowego w drugim wydaniu aktualizacji na 2021 r. z wczesnym dostępem — wdrażanie aplikacji Project Operations w wersji uproszczonej
 
@@ -26,7 +26,7 @@ Wydanie jest stosowane tylko wtedy, gdy środowisko [zostanie uwzględnione w op
 
 ## <a name="features-included-in-this-release"></a>Funkcje uwzględnione w tym wydaniu
 
-[Zarządzanie podumowami](../subcontracting/subcontracting_EA_scope.md) — ta funkcja zapewnia lepszą widoczność i kontrolę nad wszystkimi aspektami pracy nad projektem. Wersja zapoznawcza zarządzania kontraktami podumowami zawiera następujące możliwości:
+[Zarządzanie podumowami](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) — ta funkcja zapewnia lepszą widoczność i kontrolę nad wszystkimi aspektami pracy nad projektem. Wersja zapoznawcza zarządzania kontraktami podumowami zawiera następujące możliwości:
 
   - Menedżer projektu może utworzyć podumowę z dostawcą. Domyślnie dla umowy podwykonawczej używane są cenniki dołączone do rekordu dostawcy. Konto dostawcy ma typ relacji **Dostawca** lub **Dostawca (producent)**.
   - Menedżer projektu może wyszczególnić wszystkie zakupy jako pozycje w podumowie. Wiersze podwykonawstwa mogą dotyczyć czasu, wydatków lub produktów. Klasa transakcji w pozycji podumowy określa, do czego służy wiersz.

@@ -1,46 +1,42 @@
 ---
-title: Zakup materiałów niemagazynowanych za pomocą oczekujących faktur od dostawcy
+title: Kupuj materiały lub kategorie zaopatrzenia, których nie ma w magazynie, korzystając z oczekującej faktury od dostawcy
 description: W tym temacie wyjaśniono, jak rejestrować oczekujące faktury od dostawcy.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547302"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612670"
 ---
-# <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Zakup materiałów niemagazynowanych za pomocą oczekujących faktur od dostawcy
+# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Kupuj materiały lub kategorie zaopatrzenia, których nie ma w magazynie, korzystając z oczekującej faktury od dostawcy
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-W związku z tym, że firma nabywa niezabezpieczone materiały dla projektu, można od razu zarejestrować koszty związane z projektem. 
+W związku z tym, że firma nabywa materiały niezabezpieczone lub kategorie, które są kwalifikowane do projektu, można od razu zarejestrować koszty związane z projektem. 
 
-Na przykład firma Contoso Robotics US wykonuje projekt odnowienia sprzętu i potrzebuje licencji na oprogramowanie. Te licencje można uzyskać od innych dostawców.  Korzystając z funkcji Dynamics 365 Finance, pracownik odpowiedzialny za rozrachunki z dostawcami dodaje fakturę od dostawcy i przypisuje koszty licencji bezpośrednio w ramach projektu odnowienia sprzętu. 
+Na przykład firma Contoso Robotics US wykonuje projekt odnowienia sprzętu i potrzebuje licencji na oprogramowanie. Te licencje można uzyskać od innych dostawców.  Korzystając z Dynamics 365 Finance, pracownik działu rozrachunków z dostawcami rejestruje oczekujący dokument faktury od dostawcy i przypisuje koszty licencji bezpośrednio do projektu odnowienia sprzętu. 
 
 > [!IMPORTANT]
-> Przed użyciem funkcji opisanych w tym temacie należy przejrzeć i zastosować wymagane konfiguracje. Aby uzyskać więcej informacji, zobacz [jak włączyć obsługę materiałów niebędących na stanie magazynowym i oczekujących na faktury dostawcy.](configure-materials-nonstocked.md). 
+> Przed użyciem funkcji opisanych w tym temacie należy przejrzeć i zastosować wymagane konfiguracje. Aby uzyskać więcej informacji, zobacz [włączanie materiałów niezabędowych](configure-materials-nonstocked.md) i [oczekujących faktur od dostawcy oraz używanie kategorii materiałów i kategorii materiałów, które oczekują na dostawcy, w przypadku zamówień zakupu projektu i oczekujących faktur od dostawcy](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Publikowanie oczekującej faktury związanej z projektem 
 
 Oczekujące faktury dostawcy można zarejestrować na stronie **Oczekujące faktury dostawcy** (**Rozrachunki z dostawccami** > **Faktury** > **Oczekujące faktury od dostawców**). Wykonaj następujące kroki, aby opublikować oczekującą fakturę od dostawcy związaną z projektem:
 
 1. Wybierz opcję **Rozrachunki z dostawcami** > **Faktury** i wybierz opcję **Nowa**. 
-2. W polu **Konto faktury** wybierz dostawcę, a następnie w polu **Numer** wprowadź identyfikator faktury dostawcy.
-3. Dodaj wiersz do faktury dostawcy i w polu **Numer pozycji** wybierz pozycję zakupioną od dostawcy, której brak w magazynie. 
-
-    > [!NOTE]
-    > W ramach projektu nie można rejestrować wierszy faktur dostawcy opartych na kategorii. 
-    
-5. Dodaj ilość kupionego towaru. System wypełni cenę jednostkową w zależności od konfiguracji ceny produktu, którego nie ma w magazynie. 
-6. Sprawdź łączną kwotę i inne wymagane szczegóły dotyczące wiersza.
-7. W szczegółach wiersza na karcie **Projekt** wybierz identyfikator projektu, do którego zostanie zarejestrowany element.
-8. Opcjonalnie wybierz numer działania i zaktualizuj właściwość kategorii i wiersza projektu.
-9. Opublikuj oczekującą fakturę dostawcy. Po zaksięgowaniu faktury system zapisuje:
+1. W polu **Konto faktury** wybierz dostawcę, a następnie w polu **Numer** wprowadź identyfikator faktury dostawcy.
+1. Dodaj wiersz do faktury dostawcy, a następnie w polu **Numer pozycji** wybierz pozycję niezabędową, która została zakupiona od dostawcy. Alternatywnie, w polu **Kategoria kategorii Kategorię** postępowania wybierz kategorię, która została zakupiona od dostawcy.   
+1. Dodaj ilość zakupionych produktów. System uzupełnia cenę jednostkową na podstawie konfiguracji ceny towaru niemagazynowanego. 
+1. Sprawdź łączną kwotę i inne wymagane szczegóły dotyczące wiersza.
+1. W szczegółach wiersza na karcie **Projekt** wybierz identyfikator projektu, do który zostanie zarejestrowany element.
+1. Opcjonalnie: wybierz numer działania i zaktualizuj właściwość kategorii i wiersza projektu.
+1. Zaksięguj oczekującą fakturę od dostawcy. Podczas fakturowania faktura jest rejestrowana przez system następujące informacje:
     
     - Kwotę salda dostawcy.
     - Kwotę podatku od sprzedaży.

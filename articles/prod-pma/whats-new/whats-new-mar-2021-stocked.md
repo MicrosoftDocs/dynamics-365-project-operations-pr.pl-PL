@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991184"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723735"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Nowości i zmiany w Project Operations, marzec 2021, dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
 
@@ -20,7 +20,7 @@ _**Dotyczy:** Project Operations dla scenariuszy obejmujących magazynowanie/zle
 
 Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
 
-- Zarządzanie projektami i ich księgowanie w wersji 10.0.17 środowiska Dynamics 365 Finance
+- Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Funkcje uwzględnione w tym wydaniu
 To wydanie zawiera następujące funkcje:
@@ -121,7 +121,7 @@ To wydanie zawiera następujące funkcje:
 | Zarządzanie projektami i księgowanie | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Starsza metoda klasy struktury podziału pracy **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** jest przestarzała.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Aktualizacje dotyczące regulacji
-Aby uzyskać więcej informacji na temat aktualizacji dotyczących aplikacji Finance and Operations, zobacz artykuł dotyczący [Aktualizacje dotyczące regulacji](/dynamics365/finance/localizations/regulatory-updates.md). Można również zalogować się w LCS i wyświetlić planowane aktualizacje ustawodawcze, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
+Aby uzyskać informacje na temat aktualizacji przepisów prawnych dotyczących aplikacji finansowych i operacyjnych, zobacz [Aktualizacje prawne](/dynamics365/finance/localizations/regulatory-updates). Można również zalogować się w LCS i wyświetlić planowane aktualizacje ustawodawcze, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

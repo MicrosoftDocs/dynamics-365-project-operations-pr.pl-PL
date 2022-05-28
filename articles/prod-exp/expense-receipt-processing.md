@@ -1,24 +1,23 @@
 ---
 title: Przetwarzanie paragonów związanych z wydatkami
-description: W tym temat przedstawiono informacje na temat przetwarzania paragonów za pomocą technologii OCR. Ta funkcja ma na celu usprawnienie pracy użytkownika podczas tworzenia raportów o wydatkach w Microsoft Dynamics 365 Finance.
+description: W tym temat przedstawiono informacje na temat przetwarzania paragonów za pomocą technologii OCR. Ta funkcja ma na celu zwiększenie komfortu pracy użytkownika podczas tworzenia raportów z wydatków w Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001399"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684333"
 ---
 # <a name="expense-receipt-processing"></a>Przetwarzanie paragonów związanych z wydatkami
 
@@ -51,7 +50,7 @@ W celu utworzenia wydatku lub dopasowania go do paragonu należy wykonać nastę
 
 Ta funkcja działa wraz z funkcją **Przebudowane raporty wydatków** w celu uproszczenia pracy z wydatkami. Ta funkcja jest dostępna tylko dla środowisk w warstwie 2 +, które są piaskownicami lub produkcją.
 
-Aby wykorzystać te zaawansowane funkcje wydatkowe, należy zainstalować dodatek usługi zarządzania wydatkami (Expense Management Service) dla programu Microsoft Dynamics 365 Finance i włączyć funkcje w wystąpieniu użytkownika. Użytkownik może uzyskać dostęp do dodatku z poziomu projektu, korzystając z Microsoft Dynamics Lifecycle Services (LCS).
+Aby skorzystać z tych zaawansowanych funkcji wydatków, należy zainstalować dodatek usługi zarządzania wydatkami dla rozwiązania Microsoft Dynamics 365 Finance i włączyć funkcje w wystąpieniu. Użytkownik może uzyskać dostęp do dodatku z poziomu projektu, korzystając z Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Zaloguj się do programu LCS i otwórz wybrane środowisko.
 2. Wybierz pozycję **Wszystkie szczegóły**.

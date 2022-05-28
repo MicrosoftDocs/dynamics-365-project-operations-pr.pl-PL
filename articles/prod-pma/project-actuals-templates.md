@@ -1,32 +1,31 @@
 ---
-title: Synchronizuj dane rzeczywiste projektu bezpośrednio z programu Project Service Automation do dziennika integracji projektu w celu księgowania w Finance and Operations
-description: W tym temacie opisano szablony i podstawowe zadania, które są używane do synchronizowania danych rzeczywistych projektu bezpośrednio z Microsoft Microsoft Dynamics 365 Project Service Automation do Finance and Operations.
+title: Synchronizowanie wartości rzeczywistych bezpośrednio z programu Project Service Automation do arkusza integracji projektu w celu zaksięgowania w obszarze Finance and Operations
+description: W tym temacie omówiono szablony i podstawowe zadania, które są używane do synchronizowania wartości rzeczywistych projektu bezpośrednio z Microsoft Dynamics 365 Project Service Automation do Finance and Operations.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988124"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683551"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronizuj dane rzeczywiste projektu bezpośrednio z programu Project Service Automation do dziennika integracji projektu w celu księgowania w Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronizowanie wartości rzeczywistych bezpośrednio z programu Project Service Automation do arkusza integracji projektu w celu zaksięgowania w obszarze Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-W tym temacie opisano szablony i podstawowe zadania, które są używane do synchronizowania danych rzeczywistych projektu bezpośrednio z Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Finance.
+W tym temacie opisano szablony i podstawowe zadania, które są używane do synchronizacji danych rzeczywistych projektu bezpośrednio z Dynamics 365 Project Service Automation do Dynamics 365 Finance.
 
 Szablon synchronizuje transakcje z rozwiązania Project Service Automation w tabeli tymczasowych w Finance. Po zakończeniu synchronizacji dane z tabeli tymczasowej **muszą** zostać zaimportowane do arkusza integracji.
 
@@ -42,7 +41,7 @@ Rozwiązanie do integracji Project Service Automation to Finance wykorzystuje fu
 
 Na poniższej ilustracji przedstawiono sposób synchronizowania danych między Project Service Automation a Finance.
 
-[![Przepływ danych do integracji Project Service Automation z Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Przepływ danych w integracji programu Project Service Automation z programem Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Aktualne dane projektowe z Project Service Automation
 
@@ -75,7 +74,7 @@ Przed synchronizacją danych rzeczywistych należy skonfigurować parametry inte
 
 ### <a name="power-query"></a>Power Query
 
-Aby wykonać te zadania, należy użyć Microsoft Power Query dla Excel w szablonie wartości rzeczywiste:
+W szablonie danych projektu należy za pomocą dodatku Microsoft Power Query dla programu Excel wykonać następujące zadania:
 
 - Przekształć typ transakcji w Project Service Automation na prawidłowy typ transakcji w Finance. Ta transformacja jest już zdefiniowana w szablonie wartości rzeczywiste projektu (PSA do Fin and Ops).
 - Przekształć typ rozliczenia w Project Service Automation na właściwy typ rozliczenia w Finance. Ta transformacja jest już zdefiniowana w szablonie wartości rzeczywiste projektu (PSA do Fin and Ops). Typ fakturowania jest mapowany na właściwość wiersza w zależności od konfiguracji na stronie **parametrów integracji rozwiązania Project Service Automation**.
@@ -84,9 +83,9 @@ Aby wykonać te zadania, należy użyć Microsoft Power Query dla Excel w szablo
 - Jeśli międzyfirmowe lub międzyfirmowe wartości rzeczywiste wydatków nie zostaną zsynchronizowane z programem Finance, należy usunąć z szablonu ostatnią wstawioną kolumnę warunkową. W przeciwnym razie może wystąpić błąd integracji lub nieprawidłowe rzeczywiste transakcje mogą zostać zaimportowane do Finance.
 
 #### <a name="contract-organizational-unit"></a>Jednostka organizacyjna kontraktowa
-Aby zaktualizować wstawioną kolumnę warunkową w szablonie, kliknij strzałkę na **mapie**, aby otworzyć mapowanie. Zaznacz łącze **Zaawansowane zapytania i filtrowania**, aby otworzyć Power Query.
+Aby zaktualizować wstawioną kolumnę warunkową w szablonie, kliknij strzałkę na **mapie**, aby otworzyć mapowanie. Wybierz łącze **Zaawansowane zapytania i filtrowanie**, aby otworzyć aplikację Power Query.
 
-- Jeśli są używane szablony domyślne projektów rzeczywistych (PSA do Fin lub Ops), w Power Query wybierz ostatnio **Wstawiony warunek** z sekcji **Zastosowane kroki**. We wpisie **Funkcja** zamień **USSI** na nazwę firmy, która ma być używana podczas integracji. Dodaj dodatkowe warunki do wpisu **Funkcji**, gdy jest to wymagane, i zaktualizuj warunek **else** z **USMF** do właściwej firmy.
+- Jeśli używasz domyślnego szablonu danych w projekcie (PSA do Fin and Ops), w programie Power Query w sekcji **Zastosowane kroki** zaznacz ostatni element na liście **Wstawiony warunek**. We wpisie **Funkcja** zamień **USSI** na nazwę firmy, która ma być używana podczas integracji. Dodaj dodatkowe warunki do wpisu **Funkcji**, gdy jest to wymagane, i zaktualizuj warunek **else** z **USMF** do właściwej firmy.
 - Jeśli tworzysz nowy szablon, musisz dodać kolumnę, aby wspierać czas i koszty międzyfirmowe. Wybierz opcję **Dodaj kolumnę warunkową** i wprowadź nazwę kolumny, na przykład **LegalEntity**. Wprowadź warunek dla kolumny, gdzie, jeśli **msdyn\_contractorganizationalunitid.msdyn\_name** to \<organizational unit\>, wtedy \<enter the legal entity\>. W przeciwnym razie ma wartość null.
 
 ### <a name="template-mapping-in-data-integration"></a>Mapowanie szablonów w integracji danych
@@ -126,7 +125,7 @@ Dane rzeczywiste projektu są zarządzane w Project Service Automation i synchro
 
 ### <a name="power-query"></a>Power Query
 
-W szablonie aktualizacji danych rzeczywistych projektu należy użyć dodatku Power Query, aby wykonać następujące zadania:
+W szablonie aktualizacji danych rzeczywistych projektu musisz użyć dodatku Power Query, aby wykonać następujące zadania:
 
 - Przekształć typ transakcji w Finance na prawidłowy typ transakcji w Project Service Automation. Ta transformacja jest już zdefiniowana w szablonie Aktualizacja danych rzeczywistych projektu (Fin Ops to PSA).
 - Przekształć typ rozliczenia w Finance na właściwy typ rozliczenia w Project Service Automation. Ta transformacja jest już zdefiniowana w szablonie Aktualizacja danych rzeczywistych projektu (Fin Ops to PSA).

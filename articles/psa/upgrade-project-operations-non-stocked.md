@@ -3,7 +3,7 @@ title: Uaktualnianie rozwiązania Project Service Automation do Project Operatio
 description: Ten temat zawiera omówienie procesu uaktualniania z aplikacji Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/05/2022
+ms.date: 01/13/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9363fd5a06b6b1ba023961b03228e13a53a82002
-ms.sourcegitcommit: 5789766efae1e0cb513ea533e4f9ac1e553158a5
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
+ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952846"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626721"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Uaktualnianie rozwiązania Project Service Automation do Project Operations
 
@@ -28,7 +29,7 @@ Z przyjemnością ogłaszamy rozpoczęcie pierwszej z trzech faz uaktualnienia z
 
 Program dostarczania uaktualnienia zostanie podzielony na trzy fazy.
 
-| Dostarczanie uaktualnienia | Faza 1 (styczeń 2022 r.) | Faza 2 (kwiecień 2022 r) | Faza 3 (kwiecień 2022 r) |
+| Dostarczanie uaktualnienia | Faza 1 (styczeń 2022 r.) | Faza 2 (kwiecień 2022 r) | Faza 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Brak zależności od struktury podziału pracy (WBS) dla projektów | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | SPP w ramach obsługiwanych obecnie limitów aplikacji Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -38,11 +39,11 @@ Program dostarczania uaktualnienia zostanie podzielony na trzy fazy.
 
 W ramach procesu uaktualniania do mapy witryny dodano dzienniki uaktualnienia, aby administratorzy mogli łatwiej diagnozować błędy. Oprócz nowego interfejsu zostaną dodane nowe reguły walidacji, które zapewnią integralność danych po uaktualnieniu. Do procesu uaktualniania zostaną dodane następujące walidacje.
 
-| Walidacje | Faza 1 (styczeń 2022 r.) | Faza 2 (kwiecień 2022 r) | Faza 3 (kwiecień 2022 r) |
+| Walidacje | Faza 1 (styczeń 2022 r.) | Faza 2 (kwiecień 2022 r) | Faza 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | SPP zostanie sprawdzona pod kątem typowych naruszeń integralności danych (na przykład przypisania zasobów skojarzone z tym samym zadaniem nadrzędnym, ale które mają różne projekty nadrzędne). | | :heavy_check_mark: | :heavy_check_mark: |
 | SPP zostanie sprawdzona pod kątem [znanych limitów rozwiązania Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
-| SPP zostanie sprawdzona pod kątem znanych limitów rozwiązania Project Desktop Client. | | :heavy_check_mark: | :heavy_check_mark: |
+| SPP zostanie sprawdzona pod kątem znanych limitów rozwiązania Project Desktop Client. | |  | :heavy_check_mark: |
 | Możliwe do rezerwacji zasoby i kalendarze projektów będą sprawdzane pod kątem typowych wyjątków polegających na niezgodności z regułami kalendarza. | | :heavy_check_mark: | :heavy_check_mark: |
 
 W fazie 2. projekty klientów, którzy uaktualnią aplikację do wersji Project Operations, zostaną uaktualnione do środowiska tylko do odczytu na potrzeby planowania projektów. W tym środowisku tylko do odczytu pełna SPP będzie widoczna w siatce śledzenia. Aby edytować SPP, menedżerowie projektów mogą wybrać pozycję **Konwertuj** na głównej stronie **Projekty**. Proces w tle zaktualizuje projekt w taki sposób, aby go obsługiwał nowe funkcje planowania projektów z rozwiązania Project for the Web. Ta faza jest odpowiednia dla klientów, którzy mają projekty mieszczące się w znanych limitach rozwiązania [Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
@@ -56,7 +57,7 @@ Aby zakwalifikować się do 1. fazy uaktualnienia, klient musi spełniać nastę
 - Środowisko docelowe nie może zawierać żadnych rekordów w encji **msdyn_projecttask**.
 - Prawidłowe licencje aplikacji Project Operations muszą być przypisane do wszystkich aktywnych użytkowników klienta. 
 - Klient musi zweryfikować procesu uaktualniania w co najmniej jednym środowisku nieprodukcyjnym, w którym znajduje się reprezentatywny zestaw danych dopasowany do danych produkcyjnych.
-- Środowisko docelowe należy zaktualizować do wersji Project Service Automation Update Release 38 lub nowszej.
+- Środowisko docelowe należy zaktualizować do wersji Project Service Automation Update Release 41 (3.10.62.162) lub nowszej.
 
 Wymagania wstępne dla faz 2. i 3. będą aktualizowane w miarę zbliżania się dat ogólnej dostępności.
 
@@ -72,14 +73,14 @@ Oto zagadnienia, które należy obserwować:
 
 - Importowanie może się nie powieść z powodu brakujących zależności. Innymi słowy, dostosowania odwołują się do pól lub innych składników, które zostały usunięte w aplikacji Project Operations. W tym przypadku należy usunąć te zależności ze środowiska developmentu.
 - Jeśli rozwiązania zarządzane i niezarządzane zawierają składniki, które nie są dostosowane, należy je usunąć z rozwiązania. Na przykład podczas dostosowywania encji **Projekt** należy dodać do rozwiązania tylko nagłówek encji. Nie dodawaj wszystkich pól. Jeśli wszystkie składniki zostały wcześniej dodane, może być konieczne ręczne utworzenie nowego rozwiązania i dodanie do niego odpowiednich składników.
-- Formularze i widoki mogą wyglądać niezgodnie z oczekiwaniami. W pewnych okolicznościach dostosowanie gotowych formularzy lub widoków może uniemożliwić stosowanie nowych aktualizacji w aplikacji Project Operations. W celu zidentyfikowania tych problemów zaleca się dokładne czystej instalacji aplikacji Project Operations i instalacji aplikacji Project Operations z dostosowaniami. Porównaj formularze najczęściej używane w firmie, aby upewnić się, że wersja formularza nadal ma sens i nie brakuje w niej niczego z czystej wersji formularza. Wykonaj ten sam typ przeglądania strona po stronie dla wszystkich dostosowanych widoków.
+- Formularze i widoki mogą nie być wyświetlane zgodnie z oczekiwaniami. W pewnych okolicznościach dostosowanie gotowych formularzy lub widoków może uniemożliwić stosowanie nowych aktualizacji w aplikacji Project Operations. W celu zidentyfikowania tych problemów zaleca się dokładne czystej instalacji aplikacji Project Operations i instalacji aplikacji Project Operations z dostosowaniami. Porównaj formularze najczęściej używane w firmie, aby upewnić się, że wersja formularza nadal ma sens i nie brakuje w niej niczego z czystej wersji formularza. Wykonaj ten sam typ przeglądania strona po stronie dla wszystkich dostosowanych widoków.
 - Logika biznesowa może nie działać w czasie wykonywania. Ponieważ odwołania do pól w dodatkach nie są weryfikowane podczas importowania, logika biznesowa może nie zadziałać z powodu odwołań do pól, które już nie istnieją, i może zostać wyświetlony komunikat o błędzie przypominający następujący przykład: „Encja <Projekt> nie zawiera atrybutu Name = „msdyn_plannedhours” ani NameMapping = „Logiczne”. W tym przypadku należy zmodyfikować dostosowania, tak aby wykorzystywały nowe pola. Jeśli w logice dodatku są automatycznie generowane klasy serwera proxy i silne odwołania do typów, rozważ ponowne wygenerowanie tych serwerów proxy z czystej instalacji. W ten sposób można łatwo zidentyfikować wszystkie miejsca, w których dodatki są zależne od przestarzałych pól.
 
 Po zaktualizowaniu dostosowań w celu czystego zaimportowania aplikacji Project Operations przejdź do kolejnych kroków.
 
-## <a name="end-to-end-testing-in-lower-environments"></a>Kompleksowe testowanie w środowiskach na niższym poziomie
+## <a name="end-to-end-testing-in-development-environments"></a>Testowanie end-to-end w środowiskach programistycznych
 
-### <a name="run-the-upgrade-in-production"></a>Uruchamianie uaktualnienia w środowisku produkcyjnym
+### <a name="initiate-upgrade"></a>Zainicjowanie uaktualnienia 
 
 1. W centrum administracyjnym Power Platform znajdź i wybierz środowisko. Następnie w aplikacjach znajdź i wybierz pozycję **Dynamics 365 Project Operations**.
 2. Wybierz pozycję **Zainstaluj**, aby zacząć uaktualnianie. Centrum administracyjne platformy Power Platform przedstawi tę instalację jako nową instalację. Zostanie jednak wykryta obecność wcześniejszej wersji rozwiązania Project Service Automation i istniejąca instalacja zostanie uaktualniona.
@@ -93,6 +94,10 @@ Po zaktualizowaniu dostosowań w celu czystego zaimportowania aplikacji Project 
 4. Przejdź do pozycji **Ustawienia** \> **Rozwiązania** i wybierz opcję odinstalowania rozwiązania **Przestarzałe składniki aplikacji Project Operations**.
 
     To rozwiązanie jest rozwiązaniem tymczasowym, które zawiera istniejący model danych i składniki obecne podczas uaktualnienia. Usunięcie tego rozwiązania powoduje usunięcie wszystkich pól i składników, które nie są już używane. Pozwala to uprościć interfejs oraz ułatwić integrację i stosowanie rozszerzeń.
+    
+### <a name="validate-common-scenarios"></a>Sprawdź poprawność typowych scenariuszy
+
+Po zweryfikowaniu określonych dostosowań zaleca się przejrzenie procesów biznesowych obsługiwanych w aplikacjach. Te procesy biznesowe obejmują między innymi tworzenie encji sprzedaży, takich jak oferty i kontrakty, oraz tworzenie projektów takich jak WBS i zatwierdzenie wartości rzeczywistych.
 
 ## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Główne zmiany między aplikacjami Project Service Automation i Project Operations
 
@@ -119,7 +124,7 @@ W ramach ciągłych inwestycji w aplikację Project Operations w obszarach rozli
 | Lokalizacja źródłowa                                                 | Target                                                    | Status                  |
 |--------------------------------------------------------|-----------------------------------------------------------|-------------------------|
 | Automatyzacja usługi projektów                             | Wdrożenie aplikacji Project Operations w wersji uproszczonej                        | Obsługiwane               |
-| Zarządzanie projektami i księgowanie w aplikacji Dynamics 365 Finance | Wdrożenie aplikacji Project Operations w wersji uproszczonej                        | Obecnie nieobsługiwane |
+| Zarządzanie projektami i księgowość w Dynamics 365 Finance | Wdrożenie aplikacji Project Operations w wersji uproszczonej                        | Obecnie nieobsługiwane |
 | Zarządzanie projektami i księgowanie w aplikacji Finance              | Project Operations — zasoby / scenariusze nieobejmujące magazynowania     | Obecnie nieobsługiwane |
 | Zarządzanie projektami i księgowanie w aplikacji Finance              | Project Operations — scenariusze obejmujące magazynowanie / zlecenia produkcyjne | Obecnie nieobsługiwane |
 | Project Service Automation 3.x                         | Project Operations — zasoby / scenariusze nieobejmujące magazynowania     | Obecnie nieobsługiwane |

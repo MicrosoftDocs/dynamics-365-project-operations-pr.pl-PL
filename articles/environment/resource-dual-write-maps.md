@@ -4,14 +4,14 @@ description: Ten temat zawiera listę wymaganych map podwójnego zapisu w Dynami
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547122"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612777"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Wersje map podwójnego zapisu aplikacji Project Operations
 
@@ -25,12 +25,12 @@ Następujące mapy są wymaganymi warunkami wstępnymi dla rozwiązania Project 
 
 | Mapowanie tabeli | Synchronizacja początkowa |
 | --- | --- |
-| Księga (msdyn_ledgers) | Wymaga wstępnej synchronizacji mapy tabeli i wszystkich wymagań wstępnych. Wzorzec dla synchronizacji początkowej to aplikacje Finance and Operations. |
+| Księga (msdyn_ledgers) | Wymaga wstępnej synchronizacji mapy tabeli i wszystkich wymagań wstępnych. Główne aplikacje do wstępnej synchronizacji to aplikacje finansowe i operacyjne. |
 | Firmy (cdm_companies) | Niewymagane. System wypełnia tę encję automatycznie, gdy środowiska są połączone przy użyciu funkcji podwójnego zapisu. |
 | Klienci V3 (accounts) | Nie jest wymagane do inicjowania obsługi. |
 | Vendors V2 (msdyn_vendors) | Nie jest wymagane do inicjowania obsługi. |
 
-1. Z listy map wybierz mapowanie Księga **(msdyn\_ledgers)** ze wszystkimi wymaganiami wstępnymi i zaznacz pole wyboru **Synchronizacja początkowa**. W polu **Główny dla początkowej synchronizacji** wybierz **aplikacje Finance and Operations** zarówno dla mapy księgi głównej, jak i dla wszystkich map warunkowych. Wybierz **Uruchom**.
+1. Z listy map wybierz mapowanie Księga **(msdyn\_ledgers)** ze wszystkimi wymaganiami wstępnymi i zaznacz pole wyboru **Synchronizacja początkowa**. W polu **Główny dla początkowej synchronizacji** wybierz **aplikacje finansowe i operacyjne** zarówno dla mapy księgowej, jak i wszystkich wstępnie wstępnych map. Wybierz **Uruchom**.
 
 ![Synchronizacja mapowania księgi.](media/DW6.png)
 
@@ -40,26 +40,26 @@ Następujące mapy są wymaganymi warunkami wstępnymi dla rozwiązania Project 
 
 Następujące mapy są wymaganymi warunkami wstępnymi dla rozwiązania Project Operations. Wersje map z podwójnym zapisem są wymienione począwszy od aktualizacji Project Operations z maja 2021 roku, wersja 4.10.0.186.
 
-| **Mapowanie encji** | **Najnowsza wersja** | **Synchronizacja początkowa** |
-| --- | --- | --- |
-| Encja integrująca dla transakcji projektu relacje (msdyn\_transactionconnections) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. |
-| Nagłówki kontraktów projektów (sales orders) | 1.0.0.1 | Nie jest wymagane do inicjowania obsługi. |
-| Pozycje kontraktu w projekcie (salesorderdetails) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. |
-| Źródło danych projektu (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. |
-| Tabela integracji Project Operations dla szacowania materiałów (msdyn\_estimatelines) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. |
-| Propozycje faktury projektu V2 (invoices) | 1.0.0.3 | Nie jest wymagane do inicjowania obsługi. |
-| Wartości rzeczywiste integracji Project Operations (msdyn_actuals) | 1.0.0.14 | Nie jest wymagane do inicjowania obsługi. |
-| Punkty kontrolne pozycji kontraktu integracji rozwiązania Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Nie jest wymagane do inicjowania obsługi. |
-| Encja integracji rozwiązania Project Operations dla szacowania wydatków (msdyn_estimatelines) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. |
-| Encja integracji Project Operations na potrzeby oszacowania godzinowego (msdyn_resourceassignments) | 1.0.0.5 | Nie jest wymagane do inicjowania obsługi. |
-| Encja integracji kategorii wydatków projektowych Project Operations (msdyn_expensecategories) | 1.0.0.1 | Nie jest wymagane do inicjowania obsługi. |
-| Encja integracji wydatków projektowych Project Operations (msdyn_expenses) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. |
-| Integracja w Project Operations encji eksportu faktury dostawcy projektu (msdyn_projectvendorinvoices) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. |
-| Integracja w Project Operations encji eksportu wiersza faktury dostawcy projektu (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Nie jest wymagane do inicjowania obsługi. |
-| Role zasobów projektu dla wszystkich firm (bookableresourcecategories) | 1.0.0.1 | Wymaga wstępnej synchronizacji mapowania tabeli w celu zsynchronizowania ról zasobów Menedżer projektu i Członek zespołu, które zostały uzupełnione w środowisku usługi Dynamics 365 Dataverse podczas inicjowania obsługi administracyjnej. Dataverse jest głównym źródłem początkowej synchronizacji. |
-| Zadania projektu (msdyn_projecttasks) | 1.0.0.4 | Nie jest wymagane do inicjowania obsługi. |
-| Kategorie transakcji projektu (msdyn_transactioncategories) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. |
-| Projekty V2 (msdyn_projects) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. |
+| Mapowanie encji | Najnowsza wersja | Synchronizacja początkowa | Wymagana wersja Dynamics 365 Finance |
+| --- | --- | --- | --- |
+| Encja integrująca dla transakcji projektu relacje (msdyn\_transactionconnections) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. ||
+| Nagłówki kontraktów projektów (sales orders) | 1.0.0.1 | Nie jest wymagane do inicjowania obsługi. ||
+| Pozycje kontraktu w projekcie (salesorderdetails) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. ||
+| Źródło danych projektu (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. ||
+| Tabela integracji Project Operations dla szacowania materiałów (msdyn\_estimatelines) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. ||
+| Propozycje faktury projektu V2 (invoices) | 1.0.0.3 | Nie jest wymagane do inicjowania obsługi. ||
+| Wartości rzeczywiste integracji Project Operations (msdyn_actuals) | 1.0.0.14 | Nie jest wymagane do inicjowania obsługi. ||
+| Punkty kontrolne pozycji kontraktu integracji rozwiązania Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Nie jest wymagane do inicjowania obsługi. ||
+| Encja integracji rozwiązania Project Operations dla szacowania wydatków (msdyn_estimatelines) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. ||
+| Encja integracji Project Operations na potrzeby oszacowania godzinowego (msdyn_resourceassignments) | 1.0.0.5 | Nie jest wymagane do inicjowania obsługi. ||
+| Encja integracji kategorii wydatków projektowych Project Operations (msdyn_expensecategories) | 1.0.0.1 | Nie jest wymagane do inicjowania obsługi. ||
+| Encja integracji wydatków projektowych Project Operations (msdyn_expenses) | 1.0.0.3 | Nie jest wymagane do inicjowania obsługi. ||
+| Integracja w Project Operations encji eksportu faktury dostawcy projektu (msdyn_projectvendorinvoices) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. ||
+| Integracja w Project Operations encji eksportu wiersza faktury dostawcy projektu (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Nie jest wymagane do inicjowania obsługi. | 10.0.26 lub nowsza |
+| Role zasobów projektu dla wszystkich firm (bookableresourcecategories) | 1.0.0.1 | Wymaga wstępnej synchronizacji mapowania tabeli w celu zsynchronizowania ról zasobów Menedżer projektu i Członek zespołu, które zostały uzupełnione w środowisku usługi Dynamics 365 Dataverse podczas inicjowania obsługi administracyjnej. Dataverse jest głównym źródłem początkowej synchronizacji. ||
+| Zadania projektu (msdyn_projecttasks) | 1.0.0.4 | Nie jest wymagane do inicjowania obsługi. ||
+| Kategorie transakcji projektu (msdyn_transactioncategories) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. ||
+| Projekty V2 (msdyn_projects) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. ||
 
 Wykonaj następujące kroki, aby uruchomić wymienione mapowania.
 
