@@ -4,20 +4,20 @@ description: Ten temat zawiera informacje na temat definiowania lub szacowania m
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992624"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737315"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Szacowania finansowe dotyczące materiałów w projektach
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Dynamics 365 Project Operations umożliwia kierownikom projektów definiowanie kosztów materiałów opartych na projektach dla każdego projektu lub zadania. Każdy kosztorys materiałowy można powiązać z konkretnym zadaniem projektowym. Wydatki są podzielone na różne kategorie wydatków, które są definiowane na poziomie organizacyjnym. Ceny i kosztorysowanie dla każdej kategorii wydatków są określone w cenniku. 
+Dynamics 365 Project Operations umożliwia kierownikom projektów definiowanie kosztów materiałów opartych na projektach dla każdego projektu lub zadania. Każdy kosztorys materiałowy można powiązać z konkretnym zadaniem projektowym. Materiały używane w projektach mogą być produktami do zapisu lub produktami z katalogu produktów. Dla każdej kombinacji produktu i jednostki można zdefiniować cenę w cennikach projektów dla sprzedaży i cenników projektów dla kosztów.  
 
 Każdy kosztorys materiałowy można powiązać z konkretnym projektemowym.
 
