@@ -5,14 +5,14 @@ author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008824"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594959"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Nowości i zmiany w grudniu 2020 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
 
@@ -20,7 +20,7 @@ _Dotyczy: Project Operations dla scenariuszy obejmujących magazynowanie/zleceni
 
 Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
 
-  - Zarządzanie projektami i ich księgowanie w wersji 10.0.15 środowiska Dynamics 365 Finance
+  - Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.15
 
 ## <a name="quality-updates"></a>Aktualizacje dotyczące jakości
 
@@ -139,7 +139,7 @@ Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 P
 
 ## <a name="regulatory-updates"></a>Aktualizacje dotyczące regulacji
 
-Aby uzyskać więcej informacji na temat aktualizacji dotyczących Dynamics 365 Finance, zobacz artykuł dotyczący [Aktualizacje dotyczące regulacji](/dynamics365/finance/localizations/regulatory-updates). Innym sposobem uzyskania informacji o aktualizacjach regulacyjnych jest zalogowanie się do Lifecycle Services (LCS) i wyświetlenie planowanych aktualizacji prawnych za pomocą narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
+Aby uzyskać informacje na temat aktualizacji przepisów prawnych dotyczących aplikacji Dynamics 365 Finance, zobacz [Aktualizacje prawne](/dynamics365/finance/localizations/regulatory-updates). Innym sposobem uzyskania informacji o aktualizacjach regulacyjnych jest zalogowanie się do Lifecycle Services (LCS) i wyświetlenie planowanych aktualizacji prawnych za pomocą narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

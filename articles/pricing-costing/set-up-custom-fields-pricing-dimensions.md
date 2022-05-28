@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003604"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599421"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen
 
@@ -73,12 +73,12 @@ Istnieją dwa typy wymiarów kalkulacji cen:
   
 | Rola        | Jednostka organizacyjna    |Lokalizacja pracy      |Standardowe stanowisko      |Godziny pracy zasobu      |  Narzut|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso Indie|Na miejscu            |                    |Nadgodziny                 |15     |
-|             | Contoso Indie|Lokalny             |                    |Nadgodziny                 |10     |
-|             | Contoso — USA   |Lokalny             |                    |Nadgodziny                 |20     |
+|             | Contoso India|Na miejscu            |                    |Nadgodziny                 |15     |
+|             | Contoso India|Lokalny             |                    |Nadgodziny                 |10     |
+|             | Contoso US   |Lokalny             |                    |Nadgodziny                 |20     |
 
 
-Jeśli zasób z firmy Contoso India, którego stawka podstawowa to 100 USD, pracuje na miejscu, a we wpisie czasu odnotuje 8 godzin regularnego czasu pracy i 2 godziny nadgodzin, aparat kalkulacji cen w usłudze Project Service użyje stawki podstawowej 100 dla 8 godzin i w ten sposób zarejestruje 800 USD. Dla 2 godzin nadgodzin zastosuje narzut 15% do stawki podstawowej 100 USD, uzyskując w ten sposób cenę jednostkową 115 USD i odnotowując łączny koszt 230 USD.
+Jeśli zasób z firmy Contoso India, którego stawka podstawowa to 100 USD, pracuje na miejscu, a we wpisie czasu odnotuje 8 godzin regularnego czasu pracy i 2 godziny nadgodzin, aparat kalkulacji cen użyje stawki podstawowej 100 dla 8 godzin i w ten sposób zarejestruje 800 USD. Dla 2 godzin nadgodzin zastosuje narzut 15% do stawki podstawowej 100 USD, uzyskując w ten sposób cenę jednostkową 115 USD i odnotowując łączny koszt 230 USD.
 
 ### <a name="applicable-to-cost"></a>Ma zastosowanie do kosztu 
 Zaznaczenie wartości **Tak** oznacza, że wartość wymiaru z kontekstu wejściowego powinna być dopasowywana do wartości w encjach **Cena roli** i **Narzut na cenę dla roli** podczas pobierania stawek kosztów i narzutów.

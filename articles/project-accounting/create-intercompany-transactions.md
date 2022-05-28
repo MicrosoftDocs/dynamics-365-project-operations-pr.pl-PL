@@ -4,14 +4,14 @@ description: W tym temacie przedstawiono informacje dotyczące sposobu tworzenia
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005494"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600003"
 ---
 # <a name="create-intercompany-transactions"></a>Tworzenie transakcji międzyfirmowych
 
@@ -30,14 +30,14 @@ Po zatwierdzeniu transakcji międzyfirmowej są tworzone następujące transakcj
 
 Koszt, koszt jednostkowy zasobów oraz cena i waluta transakcji sprzedaży między jednostkami organizacyjnymi są określane przez **jednostkę organizacyjną**. Jest to ważna kwestia, o której należy pamiętać podczas decydowania o strukturze firm i jednostek organizacyjnych w implementacji.
 
-Podczas tworzenia rekordów szansy sprzedaży, oferty, kontraktu projektu i projektu weryfikuje, czy waluta jednostki kontraktującej jest zgodna z walutą rozliczeniową firmy zawierającej kontrakt. Jeśli nie są one identyczne, nie można utworzyć tych rekordów. Waluta jednostki organizacyjnej jest definiowana w aplikacji Dynamics 365 Project Operations przez przejście do pozycji **Dataverse** > **Ustawienia** > **Jednostki organizacyjne**. Waluta rozliczeniowa firmy jest definiowana w aplikacji Dynamics 365 Finance przez przejście do pozycji **Księga główna** > **Ustawienia księgi** > **Księga**. Waluta jest synchronizowana ze środowiskiem Dataverse przy użyciu mapy podwójnego zapisu w księgach.
+Podczas tworzenia rekordów szansy sprzedaży, oferty, kontraktu projektu i projektu weryfikuje, czy waluta jednostki kontraktującej jest zgodna z walutą rozliczeniową firmy zawierającej kontrakt. Jeśli nie są one identyczne, nie można utworzyć tych rekordów. Waluta jednostki organizacyjnej jest definiowana w aplikacji Dynamics 365 Project Operations przez przejście do pozycji **Dataverse** > **Ustawienia** > **Jednostki organizacyjne**. Walutę księgowej firmy definiuje się w programie Dynamics 365 Finance, przechodząc do **Księga główna** > **Ustawienia księgi** > **Księga**. Waluta jest synchronizowana ze środowiskiem Dataverse przy użyciu mapy podwójnego zapisu w księgach.
 
 System tworzy wartości rzeczywiste kosztu jednostkowego zasobów oraz sprzedaży jednostki organizacyjnej w następujących sytuacjach:
 
   - Kiedy jednostka zasobów jest inna niż jednostka kontraktująca
   - Kiedy firma zasobów jest inna niż firma kontraktująca
 
-Jednak tylko transakcje z firmą zasobów inną niż firma zamawiająca będą transferowane do środowiska aplikacji Dynamics 365 Finance w celu przeprowadzenia dodatkowego księgowania.
+Jednak tylko transakcje, w których firma kontraktowa ma inną firmę, która zawiera kontrakt, zostanie przeniesiona do środowiska Dynamics 365 Finance na dodatkową księgę.
 
 Księgowanie wartości rzeczywistych w projekcie jest rejestrowane w arkuszu integracji aplikacji Project Operations w aplikacji Finance. W systemie są tworzone poniższe wiersze arkusza.
 
@@ -60,7 +60,7 @@ Molly Clark zatrudniona jako deweloper w firmie GBPM rejestruje 10 godzin pracy 
     4. Ustaw walutę na **USD**.
     5. Zapisz rekord.
 3. Wybierz kolejno **Sprzedaż** > **Kontrakty projektu** i utwórz nowy kontrakt dotyczący firmy Adventure Works.
-    1. Ustaw firmę, która jest właścicielem na **USPM**, a jednostkę kontraktującą na **Contoso Robotics US**.
+    1. Ustaw firmę będącą właścicielem na **USPM**, a jednostkę kontraktującą na **Contoso Robotics US**.
     2. Wybierz opcję Adventure Works jako klienta.
     3. Wybierz cennik produktów i zapisz rekord.
     4. Na karcie **Pozycje kontraktu** utwórz nową pozycję kontraktu. Ustaw dowolną nazwę i wybierz pozycję **Czas i materiały** jako metodę rozliczania.

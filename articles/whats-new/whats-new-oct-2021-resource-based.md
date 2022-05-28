@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753305"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598501"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co nowego, październik 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753305"
 Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
 
    - Project Operations w środowisku Microsoft Dataverse w wersji 4.25.0.91
-   - Zarządzanie projektami i ich księgowanie w wersji 10.0.21 środowiska Dynamics 365 Finance
+   - Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Funkcje uwzględnione w tym wydaniu
 
@@ -49,7 +49,7 @@ Jeśli wystąpi problem z uruchomieniem mapy, postępuj zgodnie z instrukcjami w
 | Rozliczenia i ceny | 2338357 | Waluta w dzienniku użycia materiałów musi być domyślna z waluty projektu podczas wyboru projektu. |
 | Czas i wydatek | 2414777 | Musi być możliwe anulowanie zatwierdzania, gdy wydatek lub wpis czasu ma ponad jedno skojarzone zatwierdzenie projektu. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Omówienie zarządzania projektami i księgowania w Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance
 
 | Obszar funkcji | Numer referencyjny | Aktualizacja dotycząca jakości |
 | --- | --- | --- |

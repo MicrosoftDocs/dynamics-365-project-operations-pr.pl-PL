@@ -4,14 +4,14 @@ description: Ten temat zawiera informacje o pozycjach kontraktów opartych na pr
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f67c0447c0b2a23d6f7d03dfc5ac7800943bbf36
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990059"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595189"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Praca z pozycjami kontraktu opartymi na projekcie
 

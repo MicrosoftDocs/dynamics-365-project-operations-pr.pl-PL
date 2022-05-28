@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 5788378c7e015c4b11182aaf427aca7d1da48b40
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987404"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598961"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Twórz szablon godzin pracy (Project Service)
 
@@ -49,7 +50,7 @@ Aby utworzyć szablon kalendarza dla organizacji, należy spełnić dwa najważn
 
 1. Wybierz kolejno opcje **Zasoby** \> **Zasoby**.
 2. Utwórz nowy zasób, do który chcesz się odwoływać w szablonie kalendarza lub wybierz istniejący zasób.
-3. Wybierz kartę **Godziny pracy** zasobu i wykonaj instrukcje z [Ustawianie godzin pracy dla zasobu](/dynamics365/field-service/set-work-hours-resource.md) w celu skonfigurowania reguł kalendarza.
+3. Wybierz kartę **Godziny pracy** zasobu i wykonaj instrukcje z [Ustawianie godzin pracy dla zasobu](/dynamics365/field-service/set-work-hours-resource) w celu skonfigurowania reguł kalendarza.
 
 **Utwórz nowy szablon kalendarza**
 

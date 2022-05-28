@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: dadcf3e9fa8432fb66f76b7c2f0fdb98bc00511d93984ea98fa30b4fc03fa426
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992714"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597075"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Co nowego lub co się zmieniło w aplikacji Project Operations w lipcu 2021 r. dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
 
@@ -20,7 +20,7 @@ _**Dotyczy:** Project Operations dla scenariuszy obejmujących magazynowanie/zle
 
 Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
 
-- Zarządzanie projektami i ich księgowanie w wersji 10.0.20 środowiska Dynamics 365 Finance
+- Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.20
  
 ### <a name="quality-updates"></a>Aktualizacje dotyczące jakości
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 P
 | Podróże i wydatki                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Jeśli stan przepływu pracy nie został znaleziony, narzędzie **Resetuj stan dokumentu wydatku** powinien zresetować stan raportu wydatków do stanu **Wersja robocza**. 
 
 ### <a name="regulatory-updates"></a>Aktualizacje dotyczące regulacji
-Aby uzyskać więcej informacji na temat aktualizacji dotyczących aplikacji Finance and Operations, zobacz artykuł dotyczący [Aktualizacje dotyczące regulacji](/dynamics365/finance/localizations/regulatory-updates). Możesz również zalogować się w usługach Lifecycle Services (LCS) i wyświetlić planowane aktualizacje prawne, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
+Aby uzyskać informacje na temat aktualizacji przepisów prawnych dotyczących aplikacji finansowych i operacyjnych, zobacz [Aktualizacje prawne](/dynamics365/finance/localizations/regulatory-updates). Możesz również zalogować się w usługach Lifecycle Services (LCS) i wyświetlić planowane aktualizacje prawne, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

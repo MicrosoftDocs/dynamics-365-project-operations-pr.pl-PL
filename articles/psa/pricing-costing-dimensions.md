@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998474"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593625"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Strona główna wymiarów kalkulacji cen i kosztów
 
@@ -66,16 +67,16 @@ W przykładzie pod spodem przedstawiono stawki rozliczania skonfigurowane na pod
 
 | Rola        | Jednostka organizacyjna    |Jednostka      |Cena      |Waluta  |
 | ------------|-------------|----------|----------:|----------|
-| Deweloperskie   | Contoso — USA  |godzina | 200|USD     |
-| Deweloperskie   | Contoso Indie |godzina|   112|USD     |
+| Dla deweloperów   | Contoso US  |Hour | 200|USD     |
+| Dla deweloperów   | Contoso India |Hour|   112|USD     |
 
 
 **Przykładowe stawki kosztów**
 
 | Pasmo wynagrodzenia     | Jednostka organizacyjna    |Jednostka      |Cena      |Waluta  |
 | ----------------|-------------|----------|----------:|----------|
-| Moja firma_pasmo1 | Contoso — USA  |godzina | 145|USD     |
-| Moja firma_pasmo2 | Contoso Indie |godzina|   67|USD     |
+| Moja firma_pasmo1 | Contoso US  |Hour | 145|USD     |
+| Moja firma_pasmo2 | Contoso India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

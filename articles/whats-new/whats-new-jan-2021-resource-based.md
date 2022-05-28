@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008104"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599559"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nowości: styczeń 2021 r. — Project Operations dla scenariuszy dotyczących zasobów/braku zapasów
 
@@ -22,7 +22,7 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
 
   - Project Operations w środowisku Dataverse w wersji 4.6.0.154
-  - Zarządzanie projektami i ich księgowanie w wersji 10.0.16 środowiska Dynamics 365 Finance
+  - Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.16
 
 ## <a name="quality-updates"></a>Aktualizacje dotyczące jakości
 
@@ -43,7 +43,7 @@ Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 P
 | **Planowanie i śledzenie projektu** | 2090202 | Oznaczone reguły biznesowe, które nie są już używane jako **Przestarzałe**. |
 | **Czas i wydatek** | 2091249 | Kontrolki z przechowanem widać, że użytkownicy nie mogą zmieniać zadania w przesłanym lub zatwierdzonym wpisie czasu. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Omówienie zarządzania projektami i księgowania w Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance
 
 | **Obszar funkcji** | **Numer referencyjny** | **Aktualizacja dotycząca jakości** |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 P
 
 ## <a name="regulatory-updates"></a>Aktualizacje dotyczące regulacji
 
-Aby uzyskać więcej informacji na temat aktualizacji dotyczących aplikacji Finance and Operations, zobacz artykuł dotyczący [Aktualizacje dotyczące regulacji](/dynamics365/finance/localizations/regulatory-updates). Można również zalogować się w LCS i wyświetlić planowane aktualizacje ustawodawcze, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
+Aby uzyskać informacje na temat aktualizacji przepisów prawnych dotyczących aplikacji finansowych i operacyjnych, zobacz [Aktualizacje prawne](/dynamics365/finance/localizations/regulatory-updates). Można również zalogować się w LCS i wyświetlić planowane aktualizacje ustawodawcze, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

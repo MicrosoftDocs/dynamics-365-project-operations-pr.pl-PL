@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928674"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594867"
 ---
 # <a name="provision-a-new-environment"></a>Ustanowienie nowego środowiska
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Ten temat zawiera informacje o sposobach ustanawiania nowego środowiska aplikacji Dynamics 365 Project Operations dla scenariuszy opartych na zasobach/braku zapasów.
 
@@ -34,7 +34,7 @@ Wykonaj poniższe kroki, aby włączyć zautomatyzowany przepływ ustanawiania P
 
 ## <a name="provision-a-project-operations-environment"></a>Obsługiwanie środowiska Project Operations
 
-1. Otwórz nowe [środowisko pokazowe](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) Dynamics 365 Finance lub [piaskownicę/wdrożenie środowiska produkcyjnego](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Otwórz nowe środowisko [demonstracyjne usługi Dynamics 365 Finance](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) lub [piaskownicę/wdrożenie środowiska produkcyjnego](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Wykonaj kroki kreatora **Inicjowania obsługi środowiska**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ W celu uzyskania tej wersji może być konieczne zastosowanie aktualizacji dotyc
 
     ![Zastosuj rozwiązania.](./media/13ApplySolutions.png)
 
-5. Wybierz obydwa rozwiązania, **Dynamics 365 Finance and Operations — mapa encji podwójnego zapisu** i **Dynamics 365 Project Operations — mapa encji podwójnego zapisu**, a następnie wybierz przycisk **Zastosuj**.
+5. Wybierz oba rozwiązania **Mapowanie encji podwójnych zapisu Dynamics 365 Finance and Operations** oraz **Mapowanie encji podwójnych zapisu Dynamics 365 Project Operations**, a następnie wybierz opcję **Zastosuj**.
 
     ![Potwierdzanie rozwiązań.](./media/14ConfirmSolutions.png)
 

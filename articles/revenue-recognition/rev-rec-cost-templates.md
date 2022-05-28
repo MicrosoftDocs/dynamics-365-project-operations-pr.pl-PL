@@ -4,14 +4,14 @@ description: Ten temat zawiera informacje o tym, jak skonfigurować utworzyć sz
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993569"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594223"
 ---
 # <a name="set-up-cost-templates"></a>Konfigurowanie szablonów kosztów
 
@@ -56,7 +56,7 @@ Decydowanie o sposobie tworzenia szablonu kosztów może zależeć od kilku kwes
 ## <a name="create-cost-templates"></a>Tworzenie szablonów kosztów
 Aby utworzyć szablon kosztów, wykonaj następujące kroki:
 
-1. Aby uzyskać dostęp do szablonów kosztów, w środowisku aplikacji Dynamics 365 Finance przejdź do pozycji **Zarządzanie projektami i ich księgowanie** > **Ustawienia** > **Szacowania** > **Szablon kosztów**.
+1. Aby uzyskać dostęp do szablonów kosztów, w środowisku Dynamics 365 Finance przejdź do **Zarządzanie projektami i księgowość** > **Konfiguracja** > **Szacunki** > **Szablon kosztów**.
 2. Wybierz pozycję **Nowy**, aby utworzyć nowy szablon kosztów. Wprowadź nazwę i opis.
 3. Podaj identyfikator wiersza kosztu dla każdego typu transakcji.
 4. Wybierz domyślną metodę obliczania wartości wykonania:

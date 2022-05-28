@@ -4,27 +4,27 @@ description: W tym temacie zamieszczono informacje dotyczące ustawienia i zasto
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986639"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594729"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Skonfiguruj i zastosuj dane konfiguracyjne w usłudze Common Data Service 
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Wymagania wstępne
 
 Przed rozpoczęciem konfigurowania danych w ramach Common Data Service (CDS) należy spełnić następujące warunki wstępne:
 
-1.  Udostępnij środowisko CDS i środowisko Dynamics 365 Finance na potrzeby Project Operations.
-2.  Informacje o osobach prawnych z Dynamics 365 Finance są udostępniane środowisku CDS. Oznacza to, że **Firma** z CDS zawiera następujące rekordy firm:
+1.  Zaimprowizuj środowisko CDS i środowisko Finanse usługi Dynamics 365 Finance na przykład dla Project Operations.
+2.  Informacje prawne dotyczące encji z usługi Dynamics 365 Finance są udostępniane w środowisku CDS. Oznacza to, że **Firma** z CDS zawiera następujące rekordy firm:
   - THPM
   - USPM
   - GBPM

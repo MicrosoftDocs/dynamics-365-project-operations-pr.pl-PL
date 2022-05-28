@@ -2,17 +2,16 @@
 title: Śledzenie nakładu pracy projektu
 description: Ten temat zawiera informacje dotyczące śledzenia nakładu pracy i postępu pracy w ramach projektu.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993974"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593809"
 ---
 # <a name="project-effort-tracking"></a>Śledzenie nakładu pracy projektu
 
@@ -46,7 +45,8 @@ Nakład pracy na zadania sumaryczne lub zadania kontenera można zaprojektować 
 - Obliczana jest nowa wartość SPZ w każdym z zadań w dół względem poszczególnych węzłów typu liść. 
 - Zadania podrzędne, których dotyczy problem, aż do węzłów liści, pozostały wysiłek i procent postępu są ponownie obliczane na podstawie wartości SPZ. W wyniku tego powstaje nowa projekcja odchylenia nakładu pracy nad zadaniem. 
 - System ponownie oblicza EAC zadań sumarycznych na całej drodze do węzła głównego.
-
+- Zatwierdzony nakład pracy w zakresie zadania podsumowującego jest sumą zatwierdzonych działań dla wszystkich zadań podrzędnych oraz zatwierdzonym nakładem pracy w przypadku zadania podsumowującego.
+- Pozostały nakład pracy na zadanie sumaryczne to suma pozostałego nakładu pracy na wszystkie zadania podrzędne minus zatwierdzony nakład pracy na zadanie sumaryczne.
 
 ## <a name="project-status-summary"></a>Podsumowanie statusu projektu
 

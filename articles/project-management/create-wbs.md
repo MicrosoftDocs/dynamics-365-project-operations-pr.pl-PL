@@ -4,14 +4,14 @@ description: W tym temacie wyjaśniono, jak utworzyć strukturę podziału pracy
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928628"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597811"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Tworzenie struktury podziału pracy (SPP)
 
@@ -124,7 +124,7 @@ W przypadku korzystania ze struktury podziału pracy w Project Operations należ
 |----------------------------------------------------|----------------------|
 | Maksymalna łączna liczba zadań projektu                  | 500                  |
 | Maksymalny całkowity czas trwania projektu               | 3650 dni (10 lat) |
-| Maksymalne całkowite zasoby na projekt              | 150                  |
+| Maksymalne całkowite zasoby na projekt              | 300                  |
 | Maksymalna łączna liczba linków (tylko następca) dla projektu | 600                  |
 | Maksymalna łączna liczba pól niestandardowych dla projektu          | 10                   |
 | Maksymalna liczba pozycji listy kontrolnej dla każdego zadania                   | 20                   |

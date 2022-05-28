@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cba1f9915087f7910a9aa93378cb861983ca36ab
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994514"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600341"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Wyłączanie wymiaru kalkulacji cen
 
@@ -38,11 +38,11 @@ Ten komunikat o błędzie oznacza, że istnieją rekordy cen, które uprzednio s
 
 | Standardowe stanowisko         | Jednostka organizacyjna    |Jednostka   |Cena  |Waluta  |
 | -----------------------|-------------|-------|-------|----------|
-| Inżynier systemów|Contoso — USA|godzina| 100|USD|
-| Starszy inżynier systemów|Contoso — USA|godzina| 150| USD|
+| Inżynier systemów|Contoso US|Hour| 100|USD|
+| Starszy inżynier systemów|Contoso US|Hour| 150| USD|
 
 
-Gdy wyłączysz encję **Standardowe stanowisko** jako wymiar kalkulacji, aparat kalkulacji cen podczas wyszukiwania ceny będzie z kontekstu wejściowego używał tylko wartości **Jednostka organizacyjna**. Jeśli **Jednostka organizacyjna** kontekstu wejściowego to „Contoso US”, wynik będzie nieokreślony, ponieważ oba wiersze będą pasować. Aby uniknąć tego scenariusza, podczas tworzenia rekordów **Cena roli** program sprawdza, czy kombinacja wymiarów jest unikatowa. Jeśli wymiar zostanie wyłączony po utworzeniu rekordów **Cena roli**, może nastąpić naruszenie tego ograniczenia. Z tego powodu przed wyłączeniem wymiaru trzeba koniecznie usunąć wszystkie wiersze **Cena roli** i **Narzut na cenę dla roli**, które mają wypełnioną tę wartość wymiaru.
+Gdy wyłączysz encję **Standardowe stanowisko** jako wymiar kalkulacji, aparat kalkulacji cen podczas wyszukiwania ceny będzie z kontekstu wejściowego używał tylko wartości **Jednostka organizacyjna**. Jeśli element **Jednostka organizacyjna** w kontekście wejściowym ma wartość „Contoso US”, wynik będzie niedeterministyczny, ponieważ oba wiersze będą pasowały. Aby uniknąć tego scenariusza, podczas tworzenia rekordów **Cena roli** program sprawdza, czy kombinacja wymiarów jest unikatowa. Jeśli wymiar zostanie wyłączony po utworzeniu rekordów **Cena roli**, może nastąpić naruszenie tego ograniczenia. Z tego powodu przed wyłączeniem wymiaru trzeba koniecznie usunąć wszystkie wiersze **Cena roli** i **Narzut na cenę dla roli**, które mają wypełnioną tę wartość wymiaru.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
