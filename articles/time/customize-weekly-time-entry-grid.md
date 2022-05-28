@@ -2,16 +2,16 @@
 title: Rozszerzanie wpisów czasu
 description: W tym temacie przedstawiono informacje na temat sposobu, w jaki deweloperzy mogą rozszerzyć kontrolę wpisów czasu.
 author: stsporen
-ms.date: 10/08/2020
+ms.date: 01/27/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993344"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582999"
 ---
 # <a name="extending-time-entries"></a>Rozszerzanie wpisów czasu
 
@@ -43,7 +43,7 @@ Wpisy czasu są obiektami podstawowymi używanymi w wielu scenariuszach. W 1. wy
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Wpisy czasu i encja źródła czasu
-Każdy wpis czasu jest skojarzony z rekordem źródła czasu. Ten rekord określa, które aplikacje mają przetwarzać wpis czasu i w jaki sposób.
+Każdy wpis czasu jest skojarzony z rekordem źródła czasu. Ten rekord określa, które aplikacje powinny przetwarzać wprowadzanie czasu i jak to zrobić.
 
 Wpisy czasu są zawsze jednym ciągłym blokiem czasowym z połączonym początkiem, końcem i czasem trwania.
 
@@ -55,7 +55,7 @@ W ramach tej reguły rekord wpisu czasu będzie automatycznie aktualizowany w na
     - **msdyn_end**
     - **msdyn_duration**
 
-- Pola **msdyn_start** i **msdyn_end** są oparte na strefach czasowych.
+- Pola **msdyn_start** i **msdyn_end** są strefy czasowej.
 - Wpisy godzin utworzone tylko z określonymi wartościami **msdyn_date** i **msdyn_duration** zaczynają się od północy. Pola **msdyn_start** i **msdyn_end** zostaną odpowiednio zaktualizowane.
 
 #### <a name="time-entry-types"></a>Typy wpisu czasu
@@ -72,73 +72,63 @@ Rekordy wpisów czasu są powiązane ze skojarzonym typem, który definiuje zach
 |Urlop   | 192,350,002|
 
 
-
 ## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Dostosowywanie formantu kontroli wpisu czasu
 Deweloperzy mogą dodawać dodatkowe pola i wyszukiwania do innych encji, a także implementować niestandardowe reguły biznesowe, które będą obsługiwały ich scenariusze biznesowe.
 
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Dodawanie pól niestandardowych, posiadających wyszukiwania w innych encjach
 Aby dodać pole niestandardowe do siatki jednotygodniowego zapisu czasu, należy wykonać trzy podstawowe kroki.
 
-1. Dodaj pole niestandardowe do okna dialogowego szybkie tworzenie.
+1. Dodaj pole niestandardowe do okna dialogowego **szybkie tworzenie**.
 2. Skonfiguruj siatkę, tak aby pokazywała pole niestandardowe.
-3. Dodaj pole niestandardowe do przepływu zadań edycji wierszy albo przepływu zadań edycji komórki.
+3. Dodaj pole niestandardowe do strony **edycji wiersza** lub **edycji wpisu czasu**.
 
-Należy się upewnić, że nowe pole zawiera wymagane sprawdzanie poprawności w przepływie zadań edycji komórki lub wiersza. W ramach tego kroku należy zablokować pole na podstawie stanu wpisu czasu.
+Upewnij się, że nowe pole ma wymagane walidacje na stronie **Edycja wiersza** lub **Edycja wpisu czasu**. W ramach tego zadania zablokuj pole na podstawie statusu wpisu czasu.
+
+Po dodaniu pola niestandardowego do siatki **wprowadzania czasu** i utworzeniu wpisów czasu bezpośrednio w siatce pole niestandardowe tych pozycji jest automatycznie ustawiane tak, aby odpowiadało wierszowi. 
 
 ### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Dodaj pole niestandardowe do okna dialogowego szybkie tworzenie
-Pole niestandardowe dodaj do okna dialogowego **szybkiego tworzenia wpisu czasu**. Następnie użytkownicy mogą wprowadzić wartość podczas dodawania wpisów czasu, wybierając opcję **Nowy**.
+Dodaj pole niestandardowe do okna dialogowego **Szybkie tworzenie: Utwórz wpis czasu**. Użytkownicy mogą następnie wprowadzić wartość podczas dodawania wpisów czasu, wybierając opcję **Nowy**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Skonfiguruj siatkę, tak aby pokazywała pole niestandardowe
-Istnieją dwa sposoby, aby dodać pole niestandardowe do siatki jednotygodniowego zapisu czasu:
+Istnieją dwa sposoby, aby dodać pole niestandardowe do siatki **jednotygodniowego zapisu czasu**.
 
-  - Dostosowywanie widoku i Dodawanie pola niestandardowego
-  - Tworzenie nowego domyślnego wpisu czasu 
+- Dostosuj widok **Moje tygodniowe wpisy czasu** i dodaj do niego pole niestandardowe. Możesz określić położenie i rozmiar pola niestandardowego w siatce, edytując właściwości w widoku.
+- Utwórz nowy niestandardowy widok wprowadzania czasu i ustaw go jako widok domyślny. Ten widok powinien zawierać pola **opis** i **Komentarze zewnętrzne** oprócz kolumn, które mają być zawarte w siatce. Możesz określić położenie, rozmiar i domyślną kolejność sortowania siatki, edytując właściwości w widoku. Następnie skonfiguruj formant niestandardowy dla tego widoku tak, aby był formantem **siatki wpisu czasu**. Dodaj ten formant do widoku i wybierz go dla sieci **Web**, **telefonu** i **tabletu**. Następnie skonfiguruj parametry siatki **jednotygodniowego wpisu czasu**. W polu **Data rozpoczęcia** wybierz wartość **msdyn\_date**, ustaw pole **Czas trwania** jako **msdyn\_duration**, a następnie w polu **Stan** ustaw wartość **msdyn\_entrystatus**. W **polu Lista stanu tylko do odczytu** jest ustawiona wartość **192350002 (Zatwierdzony)**, **192350003 (Przesłane)** lub **192350004 (Prośba o cofnięcie)**.
 
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Dodaj pole niestandardowe do odpowiedniej strony edycji
+Strony używane do edycji wpisów czasu lub wiersza czasu można znaleźć w obszarze **Formularze**. Przycisk **Edytuj wpis w** siatce otwiera **stronę wprowadzania edycja**, a przycisk **Edytuj wiersz** otwiera stronę **edycji** wiersza. Strony te można edytować w taki sposób, aby zawierały pola niestandardowe.
 
-#### <a name="customize-a-view-and-add-a-custom-field"></a>Dostosowywanie widoku i Dodawanie pola niestandardowego
+Obie opcje spowodują usunięcie gotowego filtrowania w encjach **Projekt** i **Zadania projektu**, dzięki czemu będą dostępne wszystkie widoki wyszukiwania encji. W gotowym rozwiązaniu są dostępne tylko odpowiednie widoki wyszukiwania.
 
-Dostosuj widok **Moje tygodniowe wpisy czasu** i dodaj do niego pole niestandardowe. Można wybrać pozycję i rozmiar pola niestandardowego w siatce, edytując te właściwości w widoku.
+Należy określić odpowiednią stronę dla pola niestandardowego. Najprawdopodobniej po dodaniu pola do siatki, powinno zostać uwzględnione w przepływie zadań **edycji wiersza** używanym dla pól dotyczących całego wiersza wpisów czasu. Jeśli pole niestandardowe ma unikalną wartość w wierszu każdego dnia (na przykład jeśli jest to pole niestandardowe dla godziny zakończenia), powinno znaleźć się na stronie **Edycja wpisu czasowego**.
 
-#### <a name="create-a-new-default-custom-time-entry"></a>Tworzenie nowego domyślnego wpisu czasu
-
-Ten widok powinien zawierać pola **opis** i **Komentarze zewnętrzne** oprócz kolumn, które mają być zawarte w siatce. 
-
-1. Wybierz pozycję, rozmiar i domyślną kolejność sortowania w siatce, edytując te właściwości w widoku. 
-2. Skonfiguruj formant niestandardowy dla tego widoku tak, aby był formantem **siatki wpisu czasu**. 
-3. Dodaj ten formant do widoku i wybierz go dla sieci Web, telefonu i tabletu. 
-4. Skonfiguruj parametry siatki jednotygodniowego wpisu czasu. 
-5. W polu **Data rozpoczęcia** wybierz wartość **msdyn_date**, ustaw pole **Czas trwania** jako **msdyn_duration**, a następnie w polu **Stan** ustaw wartość **msdyn_entrystatus**. 
-6. W przypadku widoku domyślnego pole **Tylko do odczytu** ma ustawioną wartość **192350002,192350003,192350004**. Pole **Edycji przepływu zadań w wierszu** ma ustawioną wartość **msdyn_timeentryrowedit**. Pole **Edycji przepływu zadań w komórce** ma ustawioną wartość **msdyn_timeentryedit**. 
-7. Te pola można dostosować w taki sposób, aby dodać lub usunąć stan tylko do odczytu albo użyć innego sposobu opartego na zadaniu (TBX) podczas edycji wierszy lub komórek. Te pola są teraz ograniczone wartością statyczną.
-
-
-> [!NOTE] 
-> Obie opcje spowodują usunięcie gotowego filtrowania w encjach **Projekt** i **Zadania projektu**, dzięki czemu będą dostępne wszystkie widoki wyszukiwania encji. W gotowym rozwiązaniu są dostępne tylko odpowiednie widoki wyszukiwania.
-
-Ustal odpowiedni przepływ zadań dla pola niestandardowego. Po dodaniu pola do siatki, powinno zostać uwzględnione w przepływie zadań edycji wiersza używanym dla pól dotyczących całego wiersza wpisów czasu. Jeśli w polu niestandardowym każdy dzień ma unikatową wartość, na przykład pole niestandardowe **Godzina zakończenia**, powinno zostać uwzględnione w przepływie zadań edycji komórki.
-
-Aby dodać pole niestandardowe do przepływu zadań, przeciągnij element **pola** na odpowiednie miejsce na stronie, a następnie ustaw właściwości pola. Ustaw właściwość **Źródło** jako **wpis czasu** i ustaw właściwość **pole danych** jako pole niestandardowe. Właściwość **Pole** określa wyświetlana nazwa na stronie TBX. Wybierz opcję **Zastosuj**, aby zapisać zmiany w polu, a następnie wybierz pozycję **Aktualizuj**, aby zapisać zmiany na stronie.
-
-Aby zamiast tego skorzystać z nowej niestandardowej strony TBX, należy utworzyć nowy proces. Ustaw kategorię na **przepływ procesów biznesowych**, ustaw encję jako **wpis czasu** i ustaw typ procesu biznesowego jako **uruchom proces jako przepływ zadań**. W obszarze **właściwości** właściwość **nazwa strony** powinna być ustawiona jak wyświetlana nazwa strony. Dodaj wszystkie odpowiednie pola na stronie TBX. Zapisz i aktywuj proces. Zaktualizuj właściwość niestandardowego formantu dla odpowiedniego przepływu zadań jako wartość **nazwy** w procesie.
+Aby dodać pole niestandardowe do strony, przeciągnij element **pola** na odpowiednie miejsce na stronie, a następnie ustaw jego właściwości.
 
 ### <a name="add-new-option-set-values"></a>Dodawanie wartości nowego zestawu opcji
-Aby dodać wartości zestawu opcji do gotowego pola, otwórz stronę edycji pola, a następnie w obszarze **typ** wybierz opcję **edycja** obok zestawu opcji. Dodaj nową opcję o niestandardowej etykiecie i kolorze. Jeśli chcesz dodać nowy stan wpisu czasu, gotowe pole jest nazwane **Stan wpisu**, a nie **Stan**.
+Aby dodać wartości zestawu opcji do pola nieobsługiwanego, wykonaj poniższe kroki.
+
+1. Otwórz stronę edycji pola, a następnie w obszarze **typ** wybierz opcję **edycja** obok zestawu opcji.
+2. Dodaj nową opcję o niestandardowej etykiecie i kolorze. Jeśli chcesz dodać nowy stan wpisu czasu, gotowe pole jest nazwane **Stan wpisu**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Oznaczanie nowego stanu wpisu czasu jako tylko do odczytu
-Aby wyznaczyć nowy stan wpisu czasu jako tylko do odczytu, należy dodać nową wartość wpisu czasu do właściwości **lista tylko do odczytu**. Edytowalna część siatki wpisu czasu zostanie zablokowana w przypadku wierszy mających nowy stan.
-Następnie dodaj reguły biznesowe, aby zablokować wszystkie pola na stronach TBX **edycji wiersza wpisu czasu** i **edycji wpisu czasu**. Aby uzyskać dostęp do reguł biznesowych tych stron, należy otworzyć edytor przepływu procesów biznesowych strony, a następnie wybrać **reguły biznesowe**. Nowy stan można dodać do warunku w istniejących regułach biznesowych lub dodać nową regułę biznesową dla nowego stanu.
+Aby wyznaczyć nowy stan wpisu czasu jako tylko do odczytu, należy dodać nową wartość wpisu czasu do właściwości **lista tylko do odczytu**. Należy dodać numer, a nie etykietę. Edytowalna część siatki wpisu czasu zostanie teraz zablokowana w przypadku wierszy mających nowy stan. Aby ustawić właściwość **Lista stanu tylko do odczytu** inaczej dla różnych widoków **wprowadzania czasu**, dodaj siatkę **wprowadzania czasu** w sekcji **Niestandardowe formanty** widoku i skonfiguruj odpowiednie parametry.
+
+Następnie dodaj reguły biznesowe, aby zablokować wszystkie pola na stronach **Edycja wiersza** i **Edycja wpisu czasu**. Aby uzyskać dostęp do reguł biznesowych dla tych stron, otwórz edytor formularzy dla każdej strony, a następnie wybierz **reguły biznesowe**. Nowy stan można dodać do warunku w istniejących regułach biznesowych lub dodać nową regułę biznesową dla nowego stanu.
 
 ### <a name="add-custom-validation-rules"></a>Dodawanie niestandardowych reguł sprawdzania poprawności
-Istnieją dwa typy reguł sprawdzania poprawności, które można dodać do siatki wpisu czasu tygodniowego:
+Dla siatki wprowadzania **tygodniowego wpisu** można dodać dwa typy reguł sprawdzania poprawności:
 
-- Reguły biznesowe po stronie klienta, które działają w szybkich oknach dialogowych i na stronach TBX.
-- Sprawdzanie poprawności dodatków plug-in po stronie serwera, które dotyczą wszystkich aktualizacji wpisów czasu.
+- Reguły biznesowe po stronie klienta, które działają na stronach.
+- Sprawdzanie poprawności dodatków plug-in po stronie serwera, które dotyczą wszystkich aktualizacji wpisów czasu
 
-#### <a name="business-rules"></a>Reguły biznesowe
-Używaj reguł biznesowych do blokowania i odblokowywania pól, wprowadzania wartości domyślnych w polach i definiowania sprawdzania poprawności wymagającego informacji tylko z bieżącego rekordu wpisu czasu. Aby uzyskać dostęp do reguł biznesowych strony TBX, należy otworzyć edytor przepływu procesów biznesowych strony, a następnie wybrać **reguły biznesowe**. Następnie można dokonać edycji istniejących reguł biznesowych lub dodać nową regułę biznesową. Aby jeszcze bardziej dostosować sprawdzanie poprawności, można użyć reguły biznesowej w celu uruchomienia skryptów języka JavaScript.
+#### <a name="client-side-business-rules"></a>Reguły biznesowe po stronie klienta
+Używaj reguł biznesowych do blokowania i odblokowywania pól, wprowadzania wartości domyślnych w polach i definiowania sprawdzania poprawności wymagającego informacji tylko z bieżącego rekordu wpisu czasu. Aby uzyskać dostęp do reguł biznesowych dla strony, otwórz edytor formularzy, a następnie wybierz **reguły biznesowe**. Następnie można dokonać edycji istniejących reguł biznesowych lub dodać nową regułę biznesową.
 
-#### <a name="plug-in-validations"></a>Sprawdzanie poprawności plug-inów
-Użyj sprawdzania poprawności do wszystkich walidacji, które wymagają więcej kontekstu niż jest do dyspozycji w pojedynczym wpisie czasu lub do walidacji, które chcesz przeprowadzić na aktualizacjach w trakcie edycji w siatce. Aby ukończyć walidację, należy utworzyć niestandardowy plug-in dla encji **Wpis czasu**.
+#### <a name="server-side-plug-in-validations"></a>Sprawdzanie poprawności dodatku plug-in po stronie serwera
+Sprawdzania poprawności plug-inów należy używać do wszystkich walidacji, które wymagają więcej kontekstu niż jest do dyspozycji w pojedynczym wpisie czasu. Należy ich także używać do sprawdzania poprawności, które mają być uruchamiane na aktualizacjach w tekście w siatce. Aby ukończyć walidacje, należy utworzyć niestandardowy plug-in dla encji **Wpis czasu**.
+
+### <a name="limits"></a>Limity
+Obecnie siatka **wprowadzania godziny** ma ograniczenie rozmiaru do 500 wierszy. Jeśli jest więcej niż 500 wierszy, nie zostaną one pokazywane. Nie można zwiększyć tego limitu rozmiaru.
 
 ### <a name="copying-time-entries"></a>Kopiowanie wpisów czasu
 Użyj widoku **Kopiuj kolumny wpisów czasu** w celu zdefiniowania listy pól, które mają zostać skopiowane podczas wpisywania czasu. Pola **Data** oraz **Czas trwania** są wymagane i nie można ich usunąć z widoku.

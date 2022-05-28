@@ -3,19 +3,19 @@ title: Instalacja przykładowych danych
 description: W tym temacie zamieszczono informacje dotyczące instalowania danych przykładowych w programie Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
 author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 952f3c3c037bb8459bdd1400288c4ea8604ce282
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985559"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581849"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalowanie danych przykładowych dla aplikacji Project Service
 

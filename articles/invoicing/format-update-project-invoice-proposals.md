@@ -4,14 +4,14 @@ description: Ten temat zawiera szczegółowe informacje na temat przetwarzania f
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989924"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585621"
 ---
 # <a name="manage-project-invoice-proposals"></a>Zarządzanie propozycjami faktur projektu
 
@@ -22,7 +22,7 @@ Propozycje faktur projektu mogą być przetwarzane przez dział rozliczeń, jeś
   - Menedżer projektu potwierdza fakturę proforma w Microsoft Dataverse.
   - Wszystkie nierozliczone transakcje sprzedaży i materiały zawarte na fakturze proforma są publikowane przy użyciu arkusza **integracji aplikacji Project Operations** usługi Dynamics 365.
 
-Aby dokończyć propozycje faktury projektu w programie Dynamics 365 Finance, wykonaj następujące kroki.
+Wykonaj następujące kroki, aby dokończyć propozycje faktury projektu w u prognozie sprzedaży usługi Dynamics 365 Finance.
 
 1. Przeglądanie informacji dotyczących fakturowania dotyczących transakcji czasowych i materiałowych oraz publikowane w arkuszu **integracji aplikacji Project Operations**.
 2. Przeglądanie informacji o fakturowaniu dla punktów kontrolnych rozliczania o stałej cenie.

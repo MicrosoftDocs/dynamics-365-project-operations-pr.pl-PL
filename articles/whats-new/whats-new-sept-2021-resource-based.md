@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547167"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582907"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co nowego, wrzesień 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547167"
 Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
 
    - Project Operations w środowisku Microsoft Dataverse w wersji 4.14.0.99.
-   - Zarządzanie projektami i ich księgowanie w wersji 10.0.20 środowiska Dynamics 365 Finance.
+   - Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations — mapy podwójnego zapisu — aktualizacje
 
@@ -45,7 +45,7 @@ Jeśli wystąpi problem z uruchomieniem mapy, postępuj zgodnie z instrukcjami w
 | Rozliczenia i ceny | 2385802 | Naprawiony błąd, który występuje przy ujemnych godzinach rzeczywistych, gdy są odświeżane łączne wartości projektu. |
 | Rozliczenia i ceny | 2389675 | Udoskonalone zachowanie potwierdzenia faktury proforma. Encja długotrwałego zadania musi uwzględniać działanie wymagane do zapisu wyników potwierdzenia dla księgowania. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Omówienie zarządzania projektami i księgowania w Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance
 
 | Obszar funkcji | Numer referencyjny | Aktualizacja dotycząca jakości |
 | --- | --- | --- |

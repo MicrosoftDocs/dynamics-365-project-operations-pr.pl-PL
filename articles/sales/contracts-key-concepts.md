@@ -4,26 +4,26 @@ description: W tym temat zamieszczono informacje dotyczące podstawowych pojęć
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986954"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582953"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Pojęcia unikalne dla Kontraktów opartych na projekcie
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 W tym temacie przedstawiono kluczowe pojęcia dotyczące korzystania z kontraktów projektów w aplikacji Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Firma będąca właścicielem
 
-Firma będąca właścicielem to to samo, co koncept osoby prawnej w module **Zarządzanie projektami i księgowaniem** dla Project Operations w Dynamics 365 Finance. Firma reprezentuje podmiot prawny, który będzie rozliczał koszty i przychody wynikające z transakcji.
+Firma jest prawnie encjami z modułem **zarządzania projektami i księgowym** dla Project Operations z usługi Dynamics 365 Finance. Firma reprezentuje podmiot prawny, który będzie rozliczał koszty i przychody wynikające z transakcji.
 
 ## <a name="contracting-unit"></a>Jednostka kontraktująca
 

@@ -4,14 +4,14 @@ description: W tym temacie zamieszczono informacje dotyczące tworzenia nowych p
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 425cd38c204a67cda9ce03bdc96b728e03499c87aeddd6f62924b57e16b21167
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 842ccaeed53f8829b7520a420972c2e31ebf4821
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989969"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584195"
 ---
 # <a name="start-a-new-lcs-project"></a>Rozpoczęcie nowego projektu LCS
 
@@ -27,7 +27,7 @@ Użyj usług Lifecycle Services (LCS), aby zarządzać środowiskami Dynamics 36
   ![Wybierz typ projektu LCS.](./media/create-lcs-1.png)
 
 5. Nazwij projekt. 
-6. Wybierz **Finance and Operations** jako nazwę produktu i wybierz branżę i metodologię. 
+6. Jako nazwę produktu wybierz **Finance and Operations** oraz wybierz branżę i metody. 
 7. Wybierz pozycję **Utwórz**.
 
 ![Utwórz projekt LCS.](./media/create-lcs-2.png)

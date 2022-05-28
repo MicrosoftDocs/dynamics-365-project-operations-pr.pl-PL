@@ -2,22 +2,22 @@
 title: Rejestrowanie się w celu korzystania z wersji próbnych aplikacji Project Operations
 description: W tym temacie znajdują się informacje dotyczące sposobu wdrażania wersji próbnej rozwiązania Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901630"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584287"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Rejestrowanie się w celu korzystania z wersji próbnych aplikacji Project Operations 
 
 _**Ma zastosowanie do:** Project Operations dla scenariuszy opartych na zasobach/braku zapasów, wdrożenie w wersji uproszczonej — fakturowanie proforma dla transakcji i Project Operations dla scenariuszy magazynowych/opartych na produkcji_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 W tym temacie wyjaśniono sposób subskrybowania oferty dla partnera w wersji zapoznawczej i wdrażania środowiska aplikacji Dynamics 365 Project Operations.
 
@@ -36,7 +36,6 @@ W poniższej tabeli przedstawiono szczegóły nowej oferty wersji próbnej.
 | Korzystanie z oferty                    | Jeden raz na dzierżawcę                          |
 | Czas trwania oferty               | 30 dni kalendarzowych                             |
 | Realizacje na dzierżawcę       | 1                                            |
-| Liczba użytkowników              | 25                                           |
 | Numer wewnętrzny                    | 1 rozszerzenie, 30 dni kalendarzowych               |
 | Liczba środowisk wersji próbnej | 3                                            |
 
@@ -87,7 +86,7 @@ Przed rozpoczęciem należy zalogować się do przeglądarki, przy użyciu konta
  
   Po zakończeniu inicjowania obsługi administracyjnej stan środowiska jest **Gotowy**. Inicjowanie obsługi środowiska obejmuje wdrożenie danych demonstracyjnych.
  
-4.  Wybierz odpowiedni adres URL Microsoft Dataverse i adresy URL aplikacji Finance and Operations, aby sprawdzić poprawność wdrożenia.
+4.  Wybierz odpowiedni adres URL Microsoft Dataverse oraz adresy URL aplikacji finansowych i operacyjnych, aby zatwierdzić obraz stanowiska.
 
 ## <a name="configuring-dual-write"></a>Konfigurowanie podwójnego zapisu
 - Aby skonfigurować role zabezpieczeń do podwójnego zapisu, zobacz temat [Aktualizowanie ustawień zabezpieczeń aplikacji Project Operations w usłudze Dataverse](resource-provision-new-environment.md).
@@ -97,7 +96,7 @@ Przed rozpoczęciem należy zalogować się do przeglądarki, przy użyciu konta
 
 Aby wykonać poniższe kroki, potrzebny jest dostęp administracyjny do portalu Microsoft 365 swojej organizacji.
 
-1. Przejdź do [centrum administracyjnego usługi Microsoft 365](https://portal.office.com/), aby przypisać licencje do użytkowników.
+1. Przejdź do [Centrum administracyjnego Microsoft 365](https://portal.office.com/), aby przypisać licencje do użytkowników.
 
    ![Strona Centrum administracyjnego](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ Poniższe zasoby zawierają wskazówki pomocne podczas rozpoczynania pracy z apl
 
 ## <a name="frequently-asked-questions"></a>Często zadawane pytania
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Co zrobić, jeśli w środowisku aplikacji Finance and Operations jest wymagane rozwiązanie ALM lub ELM?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Co zrobić, jeśli potrzebuję ALM lub ELM dla mojego środowiska aplikacji finansowych i operacyjnych?
 
 - Dla partnerów, którzy wymagają pełnych funkcji zarządzania cyklem życia środowiska, zobacz temat [Żądanie licencji w piaskownicy partnerów](https://experience.dynamics.com/requestlicense) w celu przejrzenia nowej oferty dla partnerów. 
 - Aby uzyskać więcej informacji na temat praw do użytku wewnętrznego, zobacz temat [Korzyści z oprogramowania i chmury praw do użytku wewnętrznego (microsoft.com)](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +124,7 @@ Poniższe zasoby zawierają wskazówki pomocne podczas rozpoczynania pracy z apl
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Czy mogę przedłużyć okres mojej wersji próbnej poza 30 dni?
 Aby przedłużyć okres próbny, należy wykonać następujące czynności.
 
-1. W **centrum administracyjnym Microsoft 365** przejdź do pozycji **Rozliczenia** > **Twoje produkty**.
+1. W **Centrum administracyjnym Microsoft 365** przejdź do strony **Rozliczenia** > **Twoje produkty**.
 2. Wybierz **Dynamics 365 Project Operations (CE) — wersja próbna w wersji zapoznawczej**.
 3. W obszarze **Data wygaśnięcia** wybierz opcję **Przesuń datę**.
 

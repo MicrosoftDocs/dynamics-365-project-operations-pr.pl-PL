@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986594"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585805"
 ---
 # <a name="expense-management-integration"></a>Integracja zarządzania wydatkami
 
@@ -22,19 +22,19 @@ Ten temat zawiera informacje na temat integracji raportu wydatków w Project Ope
 
 ## <a name="expense-categories"></a>Kategorie wydatków
 
-W przypadku pełnego wdrożenia wydatków kategorie wydatków są tworzone i utrzymywane w aplikacjach Finance and Operations. Aby utworzyć nową kategorię wydatków, należy wykonać następujące kroki:
+W przypadku pełnego wdrożenia systemu wydatków kategorie wydatków są tworzone i utrzymywane w aplikacjach finansowych i operacyjnych. Aby utworzyć nową kategorię wydatków, należy wykonać następujące kroki:
 
-1. W Microsoft Dataverse utwórz kategorię **transakcja**. Integracja z podwójnym zapisem zsynchronizuje kategorię transakcji z aplikacjami Finance and Operations. Aby uzyskać więcej informacji, zobacz [konfigurowanie kategorii projektu](/dynamics365/project-operations/project-accounting/configure-project-categories) oraz [konfigurowanie Project Operations i konfiguracja integracji danych](resource-dual-write-setup-integration.md). W wyniku tej integracji system tworzy cztery rekordy kategorii udostępnionych w aplikacjach Finance and Operations.
+1. W Microsoft Dataverse utwórz kategorię **transakcja**. Integracja typu podwójny zapis pozwoli zsynchronizować tę kategorię transakcji z aplikacjami finansowymi i operacyjnymi. Aby uzyskać więcej informacji, zobacz [konfigurowanie kategorii projektu](/dynamics365/project-operations/project-accounting/configure-project-categories) oraz [konfigurowanie Project Operations i konfiguracja integracji danych](resource-dual-write-setup-integration.md). W wyniku tej integracji system tworzy cztery wspólne rekordy kategorii w aplikacjach finansowych i operacyjnych.
 2. W Finance wybierz **Zarządzanie wydatkami** > **Konfiguracja** > **Kategorie współdzielone** i wybierz kategorię współdzieloną z klasą transakcji **Wydatek**. Ustaw parametr **Może być używany wydatkach** na wartość **True** i zdefiniuj typ wydatku, który ma być używany.
 3. Przy użyciu tego rekordu kategorii udostępnionej utwórz nową kategorię wydatków, przechodząc do **Zarządzanie kosztami** > **Konfiguracja** > **Kategorie wydatków** i wybierz opcję **Nowa**. Po zapisaniu rekordu podwójny zapis używa mapowania tabeli, **Kategorii wydatków integracji Project Operations — encji eksportowania (msdyn\_expensecategories)** w celu synchronizacji tego rekordu z rekordem Dataverse.
 
   ![Integracja kategorii wydatków.](./media/DW6ExpenseCategories.png)
 
-Kategorie wydatków w aplikacjach Finance and Operations są specyficzne dla firmy lub podmiotu prawnego. Są dostępne oddzielne, specyficzne dla podmiotu prawnego rekordy Dataverse. Kiedy kierownik projektu szacuje wydatki, nie może wybrać kategorii wydatków, które zostały utworzone dla projektu należącego do innej firmy niż ta, która jest właścicielem projektu, nad którym pracuje. 
+Kategorie wydatków w aplikacjach finansowych i operacyjnych są specyficzne dla danej firmy lub osoby prawnej. Są dostępne oddzielne, specyficzne dla podmiotu prawnego rekordy Dataverse. Kiedy kierownik projektu szacuje wydatki, nie może wybrać kategorii wydatków, które zostały utworzone dla projektu należącego do innej firmy niż ta, która jest właścicielem projektu, nad którym pracuje. 
 
 ## <a name="expense-reports"></a>Raporty z wydatków
 
-Raporty o wydatkach są tworzone i zatwierdzone w aplikacjach Finance and Operations. Aby uzyskać więcej informacji, zobacz temat [Tworzenie i przetwarzanie raportów o wydatkach w programie Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Po zatwierdzeniu raportu wydatków przez menedżera projektu jest on publikowany w księdze głównej. W Project Operations wiersze raportu dotyczące wydatków związane z projektem są publikowane przy użyciu specjalnych reguł publikowania:
+Raporty wydatków są tworzone i zatwierdzane w aplikacjach finansowych i operacyjnych. Aby uzyskać więcej informacji, zobacz temat [Tworzenie i przetwarzanie raportów o wydatkach w programie Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Po zatwierdzeniu raportu wydatków przez menedżera projektu jest on publikowany w księdze głównej. W Project Operations wiersze raportu dotyczące wydatków związane z projektem są publikowane przy użyciu specjalnych reguł publikowania:
 
   - Koszty związane z projektem (w tym podatek niepodlegający zwrotowi) nie są natychmiast księgowane na koncie kosztów projektu w księdze głównej, lecz na koncie integracji kosztów. To konto jest skonfigurowane w **Zarządzanie projektami i księgowanie** > **Konfiguracja** > **Zarządzanie parametrami projektów i księgowania**, **Project Operations w Dynamics 365 Customer Engagement**.
   - Funkcja podwójnego zapisu synchronizuje z Dataverse za pomocą mapowania tabeli **Integrowania wydatków projektu w Project Operations z encjami eksportu (msdyn \_expenses)**.

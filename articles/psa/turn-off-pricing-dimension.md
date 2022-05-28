@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: f308104246efe671d2001e660aa8c0ab9ef44c7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006799"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581711"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Wyłączanie wymiaru kalkulacji cen
 
@@ -39,11 +40,11 @@ Ten komunikat o błędzie oznacza, że istnieją rekordy cen, które uprzednio s
 
 | Standardowe stanowisko         | Jednostka organizacyjna    |Jednostka   |Cena  |Waluta  |
 | -----------------------|-------------|-------|-------|----------|
-| Inżynier systemów|Contoso — USA|godzina| 100|USD|
-| Starszy inżynier systemów|Contoso — USA|godzina| 150| USD|
+| Inżynier systemów|Contoso US|Hour| 100|USD|
+| Starszy inżynier systemów|Contoso US|Hour| 150| USD|
 
 
-Gdy wyłączysz encję **Standardowe stanowisko** jako wymiar kalkulacji, aparat kalkulacji cen w usłudze Project Service podczas wyszukiwania ceny będzie z kontekstu wejściowego używał tylko wartości **Jednostka organizacyjna**. Jeśli **Jednostka organizacyjna** kontekstu wejściowego to „Contoso US”, wynik będzie nieokreślony, ponieważ oba wiersze będą pasować. Aby uniknąć tego scenariusza, podczas tworzenia rekordów **Cena roli** program Project Service sprawdza, czy kombinacja wymiarów jest unikatowa. Jeśli wymiar zostanie wyłączony po utworzeniu rekordów **Cena roli**, może nastąpić naruszenie tego ograniczenia. Z tego powodu przed wyłączeniem wymiaru trzeba koniecznie usunąć wszystkie wiersze **Cena roli** i **Narzut na cenę dla roli**, które mają wypełnioną tę wartość wymiaru.
+Gdy wyłączysz encję **Standardowe stanowisko** jako wymiar kalkulacji, aparat kalkulacji cen w usłudze Project Service podczas wyszukiwania ceny będzie z kontekstu wejściowego używał tylko wartości **Jednostka organizacyjna**. Jeśli element **Jednostka organizacyjna** w kontekście wejściowym ma wartość „Contoso US”, wynik będzie niedeterministyczny, ponieważ oba wiersze będą pasowały. Aby uniknąć tego scenariusza, podczas tworzenia rekordów **Cena roli** program Project Service sprawdza, czy kombinacja wymiarów jest unikatowa. Jeśli wymiar zostanie wyłączony po utworzeniu rekordów **Cena roli**, może nastąpić naruszenie tego ograniczenia. Z tego powodu przed wyłączeniem wymiaru trzeba koniecznie usunąć wszystkie wiersze **Cena roli** i **Narzut na cenę dla roli**, które mają wypełnioną tę wartość wymiaru.
 
 
 

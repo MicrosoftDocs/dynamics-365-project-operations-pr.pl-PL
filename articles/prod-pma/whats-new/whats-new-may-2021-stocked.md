@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c4f58842c33ec5f45a6cd9ea4bd0e73b0aa693b7cecf63bfa8889a5671840d7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 701ed791dce2dd0f7d196810de7538c65cb99d93
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991139"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586311"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Co nowego lub co się zmieniło w aplikacji Project Operations w maju 2021 r. dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
 
@@ -20,7 +20,7 @@ _ **Dotyczy:** Project Operations dla scenariuszy obejmujących magazynowanie/zl
 
 Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
 
-- Zarządzanie projektami i ich księgowanie w wersji 10.0.19 środowiska Dynamics 365 Finance
+- Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.19
  
 ### <a name="quality-updates"></a>Aktualizacje dotyczące jakości
                                                                                                                                                                                   
@@ -93,7 +93,7 @@ Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 P
 | Podróże i wydatki                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Występują problemy z synchronizacją aplikacji mobilnej do obsługi wydatków. 
 
 ### <a name="regulatory-updates"></a>Aktualizacje dotyczące regulacji
-Aby uzyskać więcej informacji na temat aktualizacji dotyczących aplikacji Finance and Operations, zobacz artykuł dotyczący [Aktualizacje dotyczące regulacji](/dynamics365/finance/localizations/regulatory-updates). Możesz również zalogować się w usługach Lifecycle Services (LCS) i wyświetlić planowane aktualizacje prawne, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
+Aby uzyskać informacje na temat aktualizacji przepisów prawnych dotyczących aplikacji finansowych i operacyjnych, zobacz [Aktualizacje prawne](/dynamics365/finance/localizations/regulatory-updates). Możesz również zalogować się w usługach Lifecycle Services (LCS) i wyświetlić planowane aktualizacje prawne, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

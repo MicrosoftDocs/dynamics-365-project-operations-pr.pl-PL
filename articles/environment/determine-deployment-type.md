@@ -4,14 +4,14 @@ description: W tym temacie zamieszczono informacje pozwalające wybrać odpowied
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994649"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584149"
 ---
 # <a name="determine-your-deployment-type"></a>Określenie typu wdrażania
 
@@ -25,7 +25,7 @@ _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Istniejący klienci systemu Dynamics — korzystając z Dynamics 365 Project Service Automation
 Project Operations obejmuje funkcje dostarczone z automatyzacją usługi Project Service Automation. Ścieżka aktualizacji zostanie wydana dla tych klientów w pierwszej fazie wydania 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Obecni klienci Dynamics 365 Finance korzystający z programu Project Management and Accounting 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Istniejący klienci usługi Dynamics 365 Finance za pomocą funkcji zarządzania projektami i księgowości 
 
 Obecni klienci Finance, którzy używają funkcji zarządzania projektami i księgowości, mogą nadal korzystać z niej w obecnej postaci. Zobacz [Project Operations — scenariusze obejmujące magazynowanie / zlecenia produkcyjne](#pma).
 
@@ -42,9 +42,9 @@ Nasz [kwestionariusz wdrażania](https://aka.ms/provisionprojectoperations) pomo
 - [Project Operations — zasoby / scenariusze nieobejmujące magazynowania](#integrated)
 - [Project Operations — scenariusze obejmujące magazynowanie / zlecenia produkcyjne](#pma)
 
-Project Operations obsługuje scenariusze dotyczące zleceń magazynowania / zlecenia produkcyjnego i scenariusze oparte na zasobach / zasobach niemagazynowanych w tym samym środowisku za pośrednictwem konfiguracji na poziomie firmy. Na przykład firma Contoso może korzystać z możliwości magazynowania / zleceń produkcyjnych w swoim zakładzie produkcyjnym w USA (firma = Contoso Manufacturing United States). Firma Contoso może używać niedostępnych / opartych na zasobach możliwości w swoim ośrodku serwisowym Contoso Robotics Arms w Wielkiej Brytanii (firma = Contoso Robotics w Wielkiej Brytanii).
+Project Operations obsługuje scenariusze dotyczące zleceń magazynowania / zlecenia produkcyjnego i scenariusze oparte na zasobach / zasobach niemagazynowanych w tym samym środowisku za pośrednictwem konfiguracji na poziomie firmy. Firma Contoso może na przykład użyć funkcji zarządzania stanami magazynowymi/zleceniami produkcyjnymi swojej placówki w Stanach Zjednoczonych (osoba prawna = Contoso Manufacturing United States). Firma Contoso może użyć funkcji zarządzania stanami magazynowymi/zleceniami produkcyjnymi swojej placówki w Wielkiej Brytanii (osoba prawna = Contoso Robotics United Kingdom).
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Wdrażanie w wersji uproszczonej — od okazji do faktury pro forma
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Wdrożenie uproszczone — od okazji do faktury pro forma
 
 We wdrożeniu uproszczonym dostępne są następujące możliwości:
 

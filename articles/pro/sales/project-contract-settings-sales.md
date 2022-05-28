@@ -2,16 +2,16 @@
 title: Ustawienia kontraktu projektu - wersja uproszczona
 description: W tym temacie zamieszczono informacje na temat pól mających wpływ na pozycje kontraktu i informacje o podsumowywanym kontrakcie we wszystkich pozycjach.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995954"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586403"
 ---
 # <a name="header-details-for-project-contracts"></a>Szczegóły nagłówka dla kontraktów projektu
 
@@ -32,12 +32,15 @@ W poniższej tabeli wymieniono pola informacji podsumowującej w kontrakcie proj
 | Nieprzekraczalny limit | Karta **Podsumowanie** | To pole zawiera wynegocjowany limit wartości końcowej, który został potwierdzony przez klienta podczas negocjowania warunków transakcji. | Ten limit jest oceniany podczas wykonywania i ma zastosowanie we wszystkich pozycjach i projektach skojarzonych z tą transakcją. |
 | Żądana data dostawy | Karta **Podsumowanie** | Gdy kontrakt jest tworzony z oferty projektowej, to pole jest kopiowane z odpowiedniego pola w ofercie projektowej. | Ta data jest używana jako data zakończenia na potrzeby tworzenia harmonogramów fakturowania. |
 
-Poniższe wskaźniki KPI są dostępne na karcie **Wydajność kontraktu** w kontrakcie projektu.
+Poniższe wskaźniki KPI są dostępne na karcie **Wydajność kontraktu** w kontrakcie projektu. 
 
-| Pole | Lokalizacja | Opis |
+>[!NOTE]
+>Wszystkie kwoty na karcie **Wydajność kontraktu** są wyrażane w domyślnej walucie środowiska.
+
+| Pole | Lokalizacja | Description |
 | --- | --- | --- |
-| Wartość kontraktu | Kontrakt ogólny | Łączna wartość kontraktu dotyczącego projektu. |
-| Rozliczona kwota | Kontrakt ogólny | Suma kwot na wszystkich fakturach objętych tym kontraktem. |
+| Wartość kontraktu | Kontrakt ogólny | Łączna wartość kontraktu dotyczącego projektu.|
+| Rozliczona kwota | Kontrakt ogólny | Suma kwot na wszystkich fakturach objętych tym kontraktem.|
 | Koszt poniesiony | Kontrakt ogólny | Suma wszystkich wartości rzeczywistych kosztów zarejestrowanych we wszystkich projektach, które są zamapowane na dany kontrakt. |
 | Marża brutto | Kontrakt ogólny | Kwota na fakturze — koszt poniesiony do dnia / koszt rozliczony |
 | Oczekiwana marża | Kontrakt ogólny | (Wartość kontraktu — koszty szacowane) / wartość kontraktu szacowane koszty = suma wszystkich kosztów szacunkowych dla wszystkich projektów zamapowanych na dany kontrakt.|

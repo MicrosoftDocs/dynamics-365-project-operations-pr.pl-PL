@@ -3,16 +3,15 @@ title: Omówienie faktury międzyfirmowej
 description: W tym temacie przedstawiono informacje i przykłady dotyczące fakturowania międzyfirmowego dla projektów.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005404"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586265"
 ---
 # <a name="intercompany-invoicing-overview"></a>Omówienie faktury międzyfirmowej
 
@@ -20,7 +19,7 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 Organizacja może dysponować wieloma oddziałami, podmiotami zależnymi i innymi firmami, które przekazują sobie produkty i usługi do projektów. Podmiot prawny, który dostarcza usługę lub produkt, nosi nazwę *firmy wypożyczającej*. Podmiot prawny, który otrzymuje usługę lub produkt, nosi nazwę *firmy pożyczającej*.
 
-Poniższa ilustracja przedstawia typowy scenariusz, w którym dwa podmioty prawne, Contoso Robotics USA (podmiot prawny pożyczający) i Contoso Robotics UK (podmiot prawny wypożyczający) dzielą się zasobami w celu realizacji projektu dla klienta, firmy Adventure works. W tym scenariuszu firma Contoso Robotics USA została zakontraktowana na dostawę robót do Adventure Works.
+Na poniższej ilustracji pokazano typowy scenariusz, w którym dwie firmy, Contoso Robotics USA (firma pożyczająca) i Contoso Robotics UK (firma wypożyczająca) współużytkują zasoby w celu dostarczenia projektu dla klienta o nazwie Adventure Works. W tym scenariuszu firma Contoso Robotics USA została zakontraktowana w celu dostarczenia pracy dla firmy Adventure Works.
 
 ![Faktura międzyfirmowa.](./media/IntercompanyScenario.png) 
 

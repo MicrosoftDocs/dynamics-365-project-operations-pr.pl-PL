@@ -2,362 +2,42 @@
 title: Wartości rzeczywiste
 description: Ten temat zawiera informacje dotyczące pracy z wartościami rzeczywistymi w rozwiązaniu Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 04/01/2021
-ms.topic: article
+ms.date: 02/22/2022
+ms.topic: overview
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a086fe0be67c21ed73793b6f3b58b47ad08eaa4e8a4c98870b4b2264562e3dce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991814"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581297"
 ---
-# <a name="actuals"></a>Wartości rzeczywiste 
+# <a name="actuals"></a>Wartości rzeczywiste
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Dane rzeczywiste reprezentują sprawdzony i zatwierdzony postęp finansowy i harmonogram projektu. Są one tworzone w wyniku zatwierdzania czasu, wydatków, wpisów użycia materiałów oraz wpisów i faktur.
-
-## <a name="journal-lines-and-time-submission"></a>Wiersze arkusza i przesyłanie czasu
-
-Aby uzyskać więcej informacji o wprowadzaniu godziny, zobacz temat [Przegląd wpisów czasu](../time/time-entry-overview.md).
-
-### <a name="time-and-materials"></a>Rozliczanie według czasu i materiałów
-
-W przypadku połączenia przesłanego wpisu czasu do projektu zamapowanego na pozycję dotyczącą czasu i materiałów, system tworzy dwa wiersze arkusza, jeden dla kosztów i drugi dla niezafakturowanych transakcji.
-
-### <a name="fixed-price"></a>Stała cena
-
-Podczas przesyłania wpisu czasu dla projektu, który jest połączony z projektem zamapowanym do kontraktu o stałej cenie, system tworzy tylko wiersz arkusza dotyczący kosztu.
-
-### <a name="default-pricing"></a>Cena domyślna
-
-Logika tworzenia cen domyślnych jest przechowywana w wierszu arkusza. Wartości pól z wpisu czasu są kopiowane do wiersza arkusza. Te wartości zawierają datę transakcji, pozycję kontraktu, do której jest mapowany projekt, oraz wynik obliczania waluty z odpowiedniego cennika.
-
-Pola wpływające na domyślne ceny, takie jak **Rola** i **Jednostka zasobów**, służą do określenia odpowiedniej ceny w wierszu arkusza. We wpisie czasu można dodać pole niestandardowe. Aby wartość pola była propagowana do wartości rzeczywistych, należy utworzyć pole w tabelach **Wartości rzeczywiste** i **Wiersz arkusza**. Użyj kodu niestandardowego, aby propagować wybraną wartość pola od wpisu czasu do wartości rzeczywistych w wierszu arkusza przy użyciu źródeł transakcji. Aby uzyskać więcej informacji o pochodzenia transakcji i połączeniach, zobacz temat [Łączenie wartości rzeczywistych z oryginalnymi rekordami](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
-
-## <a name="journal-lines-and-basic-expense-submission"></a>Wiersze arkusza i przesyłanie podstawowych kosztów
-
-Aby uzyskać więcej informacji o wprowadzaniu wydatków, zobacz temat [Przegląd wydatków](../expense/expense-overview.md).
-
-### <a name="time-and-materials"></a>Rozliczanie według czasu i materiałów
-
-W przypadku połączenia przesłanego wpisu wydatku podstawowego do projektu zamapowanego na pozycję dotyczącą czasu i materiałów, system tworzy dwa wiersze arkusza, jeden dla kosztów i drugi dla niezafakturowanych transakcji.
-
-### <a name="fixed-price"></a>Stała cena
-
-Gdy przesłany wpis podstawowego wydatku jest połączony z projektem, który jest mapowany do wiersza umowy o stałej cenie, system tworzy jeden wiersz arkusza dla kosztu.
-
-### <a name="default-pricing"></a>Cena domyślna
-
-Logika wprowadzania cen domyślnych wydatków jest oparta na kategorii wydatków. Do wyznaczenia odpowiedniego cennika są używane wartości daty transakcji, pozycji kontraktu, do której jest mapowany projekt, i waluty. Pola wpływające na domyślne ceny, takie jak **Kategoria transakcji** i **Jednostka**, służą do określenia odpowiedniej ceny w wierszu arkusza. Działa to jednak tylko wtedy, gdy metoda kalkulacji cen w cenniku to **Cena jednostkowa**. Jeśli metoda kalkulacji cen to **Koszt** lub **Narzut na koszcie**, cena wprowadzona podczas tworzenia wpisu wydatku jest używana dla kosztu, a cena w wierszu sprzedaży jest obliczana na podstawie metody kalkulacji ceny. 
-
-Niestandardowe pole można dodać do wpisu wydatków. Aby wartość pola była propagowana do wartości rzeczywistych, należy utworzyć pole w tabelach **Wartości rzeczywiste** i **Wiersz arkusza**. Użyj kodu niestandardowego, aby propagować wybraną wartość pola od wpisu czasu do wartości rzeczywistych w wierszu arkusza przy użyciu źródeł transakcji. Aby uzyskać więcej informacji o pochodzenia transakcji i połączeniach, zobacz temat [Łączenie wartości rzeczywistych z oryginalnymi rekordami](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
-
-## <a name="journal-lines-and-material-usage-log-submission"></a>Wiersze dziennika i przesyłanie dziennika zużycia materiałów
-
-Aby uzyskać więcej informacji na temat wprowadzania wydatków, zobacz [Dziennik użycia materiałów](../material/material-usage-log.md).
-
-### <a name="time-and-materials"></a>Rozliczanie według czasu i materiałów
-
-Gdy przesłany wpis dziennika zużycia materiałów jest połączony z projektem, który jest mapowany do wiersza kontraktu dotyczącego czasu i materiałów, system tworzy dwa wiersze arkusza, jeden dla kosztów, a drugi dla niezafakturowanej sprzedaży.
-
-### <a name="fixed-price"></a>Stała cena
-
-Gdy przesłany wpis dziennika zużycia materiałów jest połączony z projektem, który jest mapowany do wiersza umowy o stałej cenie, system tworzy jeden wiersz arkusza dla kosztu.
-
-### <a name="default-pricing"></a>Cena domyślna
-
-Logika wprowadzania domyślnych cen materiałów jest oparta na kombinacji produktu i jednostki. Do wyznaczenia odpowiedniego cennika są używane wartości daty transakcji, pozycji kontraktu, do której jest mapowany projekt, i waluty. Pola wpływające na domyślne ceny, takie jak **Identyfikator produktu** i **Jednostka**, służą do określenia odpowiedniej ceny w wierszu arkusza. Działa to jednak tylko w przypadku produktów z katalogu. W przypadku produktów podlegających zapisowi cena wprowadzona podczas tworzenia wpisu dziennika zużycia materiału jest używana jako koszt i cena sprzedaży w wierszach arkusza. 
-
-Niestandardowe pole można dodać do wpisu **Dziennik użycia materiałów**. Aby wartość pola była propagowana do wartości rzeczywistych, należy utworzyć pole w tabelach **Wartości rzeczywiste** i **Wiersz arkusza**. Użyj kodu niestandardowego, aby propagować wybraną wartość pola od wpisu czasu do wartości rzeczywistych w wierszu arkusza przy użyciu źródeł transakcji. Aby uzyskać więcej informacji o pochodzenia transakcji i połączeniach, zobacz temat [Łączenie wartości rzeczywistych z oryginalnymi rekordami](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
-
-## <a name="use-entry-journals-to-record-costs"></a>Używanie dzienników do rejestrowania kosztów
-
-Arkusze umożliwiają rejestrowanie kosztów lub przychodów w klasach materiałów, opłat, czasu, wydatków lub transakcji podatkowych. Arkusze mogą być używane w produkcji.
-
-- Przenieś wartości rzeczywiste transakcji z innego systemu do rozwiązaniu Microsoft Dynamics 365 Project Operations.
-- Zarejestrowania kosztów, które wystąpiły w innym systemie. Koszty te mogą zawierać koszty zakupu lub podwykonawców.
+Dane rzeczywiste reprezentują sprawdzony i zatwierdzony postęp finansowy i harmonogram projektu. Są one tworzone w momencie zatwierdzenia pozycji czasu, wydatków i użycia materiałów, wpisy i faktury.
 
 > [!IMPORTANT]
-> Aplikacja nie sprawdza poprawności typu wiersza arkusza lub powiązanej kalkulacji cen wprowadzonych w wierszu dziennika. Z tego powodu tylko użytkownik, który jest w pełni świadomi skutków związanych z księgowaniem w projekcie powinien używać dzienników wpisów do tworzenia wartości rzeczywistych. Ze względu na wpływ danego typu arkusza należy starannie wybrać osoby, które mają mieć dostęp do tworzenia arkuszy zapisu.
+> Nie należy edytować ani usuwać wartości rzeczywistych z systemu. W przeciwnym razie integralność finansowa i integracja z innymi systemami finansowymi i księgowymi może mieć niekorzystny wpływ na spójność. Microsoft Dynamics 365 Project Operations umożliwia zamianę i zamianę wartości rzeczywistych na potrzeby edycji wartości rzeczywistych w różnych punktach cyklu życia procesu biznesowego projektów.
 
-## <a name="record-actuals-based-on-project-events"></a>Rejestrowanie wartości rzeczywistych na podstawie zdarzeń projektu
+## <a name="recording-actuals-based-on-project-events"></a>Rejestrowanie wartości rzeczywistych na podstawie zdarzeń projektu
 
-Project Operations rejestruje transakcje finansowe zaistniałe w trakcie projektu. Te transakcje są zapisywane jako wartości rzeczywiste. W poniższych tabelach przedstawiono różne typy wartości rzeczywistych, które są tworzone w zależności od tego, czy projekt jest rozliczany według czasu i materiałów czy też jest projektem o stałej cenie, czy znajduje się na etapie przedsprzedaży lub czy jest projektem wewnętrznym.
+Project Operations rejestruje wartości rzeczywiste transakcji finansowych, które występują w cyklu życia zobowiązania w ramach projektu. Tworzenie wartości rzeczywistych w różnych zdarzeniach w cyklu życia zależy od tego, czy w ramach zobowiązania w ramach projektu jest używany model rozliczania czasu i materiałów, czy modelu rozliczania stałej ceny, oraz od tego, czy jest to etap przed sprzedażą, czy projekt wewnętrzny.
 
-### <a name="the-resource-belongs-to-same-organizational-unit-as-the-projects-contracting-unit"></a>Zasób należy do tej samej jednostki organizacyjnej, co jednostka kontraktująca projektu
+W poniższych tematach przedstawiono wpływ tabeli wartości rzeczywistych na różne zdarzenia dla różnych odmian:
 
-<table>
-<thead>
-<tr>
-<th rowspan="3">Zdarzenie</th>
-<th colspan="4">Projekt do rozliczenia lub sprzedany</th>
-<th rowspan="3">Projekt na etapie przedsprzedaży</th>
-<th rowspan="3">Projekt wewnętrzny</th>
-</tr>
-<tr>
-<th colspan="2">Rozliczanie według czasu i materiałów</th>
-<th colspan="2">Stała cena</th>
-</tr>
-<tr>
-<th>Wartości rzeczywiste</th>
-<th>Waluta transakcji</th>
-<th>Stała cena</th>
-<th>Waluta transakcji</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Jest tworzony wpis czasu.</td>
-<td colspan="6">Brak działania w encji Wartości rzeczywiste</td>
-</tr>
-<tr>
-<td>Jest przesyłany wpis czasu.</td>
-<td colspan="6">Brak działania w encji Wartości rzeczywiste</td>
-</tr>
-<tr>
-<td rowspan="2">Godzina jest zatwierdzana, a podczas zatwierdzania nie ma żadnych zmian ani zwiększenia liczby godzin podlegających rozliczeniu.</td>
-<td>Wartość rzeczywista kosztu</td>
-<td>Waluta jednostki kontraktującej</td>
-<td rowspan="2">Wartość rzeczywista kosztu</td>
-<td rowspan="2">Waluta jednostki kontraktującej
-<td rowspan="2">Wartość rzeczywista kosztu</td>
-<td rowspan="2">Wartość rzeczywista kosztu</td>
-</tr>
-<tr>
-<td>Wartość rzeczywista nierozliczonej sprzedaży — odpłatna</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td rowspan="3">Godzina jest zatwierdzana, a podczas zatwierdzania następuje zmniejszenie liczby godzin podlegających rozliczeniu.</td>
-<td>Wartość rzeczywista kosztu</td>
-<td>Waluta jednostki kontraktującej</td>
-<td rowspan="3">Wartość rzeczywista kosztu</td>
-<td rowspan="3">Waluta jednostki kontraktującej</td>
-<td rowspan="3">Wartość rzeczywista kosztu</td>
-<td rowspan="3">Wartość rzeczywista kosztu</td>
-</tr>
-<tr>
-<td>Wartość rzeczywista nierozliczonej sprzedaży — odpłatna w zakresie nowej ilości</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td>Wartość rzeczywista nierozliczonej sprzedaży — nieodpłatna w zakresie różnicy</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td rowspan="2">Faktura jest potwierdzania, nie ma żadnych zmian ani zwiększenia liczby godzin podlegających rozliczeniu.</td>
-<td>Wycofanie nierozliczonej sprzedaży</td>
-<td>Waluta kontraktu projektu</td>
-<td rowspan="2">Rozliczona sprzedaż w punkcie kontrolnym</td>
-<td rowspan="2">Waluta kontraktu projektu</td>
-<td rowspan="2">Nie dotyczy</td>
-<td rowspan="2">Nie dotyczy</td>
-</tr>
-<tr>
-<td>Rozliczona sprzedaż</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td rowspan="3">Faktura jest potwierdzania, następuje zmniejszenie liczby godzin podlegających rozliczeniu.</td>
-<td>Wycofanie nierozliczonej sprzedaży</td>
-<td>Waluta kontraktu projektu</td>
-<td rowspan="3">Nie dotyczy</td>
-<td rowspan="3">Nie dotyczy</td>
-<td rowspan="3">Nie dotyczy</td>
-<td rowspan="3">Nie dotyczy</td>
-</tr>
-<tr>
-<td>Rozliczona sprzedaż — odpłatna w zakresie nowej ilości</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td>Rozliczona sprzedaż — nieodpłatna w zakresie różnicy</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td rowspan="2">Faktura jest korygowana w celu zwiększenia ilości odpłatnej.</td>
-<td>Rozliczona sprzedaż — wycofanie</td>
-<td>Waluta kontraktu projektu</td>
-<td rowspan="5">
-<ul>
-<li>Wycofanie rozliczonej sprzedaży w punkcie kontrolnym</li>
-<li>Zmiana stanu punktu kontrolnego z <strong>Zafakturowano</strong> na <strong>Gotowe do zafakturowania</strong></li>
-</ul>
-</td>
-<td rowspan="5">Waluta kontraktu projektu</td>
-<td rowspan="5">Nie dotyczy</td>
-<td rowspan="5">Nie dotyczy</td>
-</tr>
-<tr>
-<td>Rozliczona sprzedaż</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td rowspan="3">Faktura jest korygowana w celu zmniejszenia ilości odpłatnej.</td>
-<td>Rozliczona sprzedaż — wycofanie</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td>Rozliczona sprzedaż w zakresie nowej ilości</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td>Nierozliczona sprzedaż — odpłatna w zakresie różnicy</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-</tbody>
-</table>
-
-### <a name="the-resource-belongs-to-an-organizational-unit-that-differs-from-the-projects-contracting-unit"></a>Zasób należy do jednostki organizacyjnej innej niż jednostka kontraktująca projektu
-
-<table>
-<thead>
-<tr>
-<th rowspan="3">Zdarzenie</th>
-<th colspan="4">Projekt do rozliczenia lub sprzedany</th>
-<th rowspan="3">Projekt na etapie przedsprzedaży</th>
-<th rowspan="3">Projekt wewnętrzny</th>
-</tr>
-<tr>
-<th colspan="2">Rozliczanie według czasu i materiałów</th>
-<th colspan="2">Stała cena</th>
-</tr>
-<tr>
-<th>Wartości rzeczywiste</th>
-<th>Waluta transakcji</th>
-<th>Stała cena</th>
-<th>Waluta transakcji</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Jest tworzony wpis czasu.</td>
-<td colspan="6">Brak działania w encji Wartości rzeczywiste</td>
-</tr>
-<tr>
-<td>Jest przesyłany wpis czasu.</td>
-<td colspan="6">Brak działania w encji Wartości rzeczywiste</td>
-</tr>
-<tr>
-<td rowspan="4">Godzina jest zatwierdzana, a podczas zatwierdzania nie ma żadnych zmian ani zwiększenia liczby godzin podlegających rozliczeniu.</td>
-<td>Wartość rzeczywista kosztu</td>
-<td>Waluta jednostki kontraktującej</td>
-<td rowspan="4">Wartość rzeczywista kosztu</td>
-<td rowspan="4">Waluta jednostki kontraktującej</td>
-<td rowspan="4">Wartość rzeczywista kosztu</td>
-<td rowspan="4">Wartość rzeczywista kosztu</td>
-</tr>
-<tr>
-<td>Wartość rzeczywista nierozliczonej sprzedaży — odpłatna</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td>Koszt jednostkowy zasobów</td>
-<td>Waluta jednostki zasobów</td>
-</tr>
-<tr>
-<td>Sprzedaż międzyorganizacyjna</td>
-<td>Waluta jednostki kontraktującej</td>
-</tr>
-<tr>
-<td rowspan="5">Godzina jest zatwierdzana, a podczas zatwierdzania następuje zmniejszenie liczby godzin podlegających rozliczeniu.</td>
-<td>Wartość rzeczywista kosztu</td>
-<td>Waluta jednostki kontraktującej</td>
-<td rowspan="5">Wartość rzeczywista kosztu</td>
-<td rowspan="5">Waluta jednostki kontraktującej</td>
-<td rowspan="5">Wartość rzeczywista kosztu</td>
-<td rowspan="5">Wartość rzeczywista kosztu</td>
-</tr>
-<tr>
-<td>Koszt jednostkowy zasobów</td>
-<td>Waluta jednostki zasobów</td>
-</tr>
-<tr>
-<td>Sprzedaż międzyorganizacyjna</td>
-<td>Waluta jednostki kontraktującej</td>
-</tr>
-<tr>
-<td>Wartość rzeczywista nierozliczonej sprzedaży — odpłatna w zakresie nowej ilości</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td>Wartość rzeczywista nierozliczonej sprzedaży — nieodpłatna w zakresie różnicy</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td rowspan="2">Faktura jest potwierdzania, nie ma żadnych zmian ani zwiększenia liczby godzin podlegających rozliczeniu.</td>
-<td>Wycofanie nierozliczonej sprzedaży</td>
-<td>Waluta kontraktu projektu</td>
-<td rowspan="2">Rozliczona sprzedaż w punkcie kontrolnym</td>
-<td rowspan="2">Waluta kontraktu projektu</td>
-<td rowspan="2">Nie dotyczy</td>
-<td rowspan="2">Nie dotyczy</td>
-</tr>
-<tr>
-<td>Rozliczona sprzedaż</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td rowspan="3">Faktura jest potwierdzania, następuje zmniejszenie liczby godzin podlegających rozliczeniu.</td>
-<td>Wycofanie nierozliczonej sprzedaży</td>
-<td>Waluta kontraktu projektu</td>
-<td rowspan="3">Nie dotyczy</td>
-<td rowspan="3">Nie dotyczy</td>
-<td rowspan="3">Nie dotyczy</td>
-<td rowspan="3">Nie dotyczy</td>
-</tr>
-<tr>
-<td>Rozliczona sprzedaż — odpłatna w zakresie nowej ilości</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td>Rozliczona sprzedaż — nieodpłatna w zakresie różnicy</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td rowspan="2">Faktura jest korygowana w celu zwiększenia ilości odpłatnej.</td>
-<td>Rozliczona sprzedaż — wycofanie</td>
-<td>Waluta kontraktu projektu</td>
-<td rowspan="5">
-<ul>
-<li>Wycofanie rozliczonej sprzedaży w punkcie kontrolnym</li>
-<li>Zmiana stanu punktu kontrolnego z <strong>Zafakturowano</strong> na <strong>Gotowe do zafakturowania</strong></li>
-</ul>
-</td>
-<td rowspan="5">Waluta kontraktu projektu</td>
-<td rowspan="5">Nie dotyczy</td>
-<td rowspan="5">Nie dotyczy</td>
-</tr>
-<tr>
-<td>Rozliczona sprzedaż</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td rowspan="3">Faktura jest korygowana w celu zmniejszenia ilości odpłatnej.</td>
-<td>Rozliczona sprzedaż — wycofanie</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td>Rozliczona sprzedaż w zakresie nowej ilości</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-<tr>
-<td>Nierozliczona sprzedaż — odpłatna w zakresie różnicy</td>
-<td>Waluta kontraktu projektu</td>
-</tr>
-</tbody>
-</table>
-
+- [Wartości rzeczywiste mają wpływ na czas i zaangażowanie materiałów](ActualsonTM.md)
+- [Wartości rzeczywiste mają wpływ na zaangażowanie w stałą cenę](ActualonFP.md)
+- [Wartość rzeczywista ma wpływ na etapie przed sprzedażą zobowiązania](ActualonPreSales.md)
+- [Rzeczywisty wpływ na projekt wewnętrzny](ActualonInternal.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

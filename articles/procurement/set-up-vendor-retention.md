@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9511da6212aafbf5b173efc6eb1ceaacbc8264a2
-ms.sourcegitcommit: 098ea345ecfaf4445520094c32f5511b67e7953c
+ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594616"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583717"
 ---
 # <a name="set-up-vendor-retention"></a>Konfigurowanie przechowywania dostawców
 
@@ -22,7 +22,7 @@ W tym temacie podano informacje dotyczące konfigurowania przechowywania dostawc
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Konfigurowanie konta przechowywania dostawców w księdze głównej
 
-1. W rozwiązaniu Dynamics 365 Finance wybierz kolejno opcje **Księga główna** > **Ustawienia księgowania** > **Konta dla transakcji automatycznych**.
+1. W Dynamics 365 Finance przejdź do **Księga główna** > **Konfiguracja księgowania** > **Konta dla transakcji automatycznych**.
 2. Dodaj nowy wiersz.
 3. W polu **Typ publikowania** wybierz pozycję **Przechowywanie dostawcy**.
 4. Wybierz konto główne dla księgowania przechowywania dostawcy.

@@ -4,29 +4,29 @@ description: Ta temat zawiera informacje na temat pracy z arkuszem integracji w 
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987944"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582447"
 ---
 # <a name="integration-journal-in-project-operations"></a>Arkusz integracji w aplikacji Project Operations
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Wpisy czasu i wydatku tworzą **Rzeczywiste** transakcje reprezentujące praktyczny widok pracy wykonanej nad projektem. Rozwiązanie Dynamics 365 Project Operations zapewnia księgowym narzędzie do przeglądania transakcji i dostosowywania atrybutów księgowych zgodnie z potrzebami. Po zakończeniu przeglądu i dostosowań transakcje są księgowane w księgach i księdze głównej projektu. Te działania można wykonać przy użyciu arkusza **integracji Project Operations** (**Dynamics 365 Finance** > **Zarządzanie projektami i ich księgowanie** > **Arkusze** > **Arkusz integracji aplikacji Project Operations**.
+Wpisy czasu i wydatku tworzą **Rzeczywiste** transakcje reprezentujące praktyczny widok pracy wykonanej nad projektem. Rozwiązanie Dynamics 365 Project Operations zapewnia księgowym narzędzie do przeglądania transakcji i dostosowywania atrybutów księgowych zgodnie z potrzebami. Po zakończeniu przeglądu i dostosowań transakcje są księgowane w księgach i księdze głównej projektu. Księgowy może wykonywać te czynności za pomocą **Project Operations Integration** dziennika (**Dynamics 365 Finance** > **Zarządzanie projektami i księgowość** > **Dzienniki** > **Projekt Dziennik integracji operacyjnej**.
 
 ![Przepływ dziennika integracji.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Utwórz rekordy w dzienniku Integracja operacji projektu
 
-Rekordy w dzienniku integracji Project Operations są tworzone przy użyciu procesu okresowego **Import z tabeli przemieszczania**. Aby uruchomić ten proces, należy przechodząc do obszaru **Dynamics 365 Finance** > **Zarządzanie projektami i ich księgowanie** > **Okresowe** > **Integracja Project Operations** > **Import z tabeli przemieszczania**. Proces można uruchomić interakcyjnie lub skonfigurować go tak, aby uruchamiał się w tle w zależności od potrzeb.
+Rekordy w dzienniku integracji Project Operations są tworzone przy użyciu procesu okresowego **Import z tabeli przemieszczania**. Możesz uruchomić ten proces, przechodząc do **Dynamics 365 Finance** > **Zarządzanie projektami i księgowość** > **Okresowo** > **Integracja Project Operations** > **Import ze stołu inscenizacyjnego**. Proces można uruchomić interakcyjnie lub skonfigurować go tak, aby uruchamiał się w tle w zależności od potrzeb.
 
 Podczas przebiegu procesu okresowego można znaleźć wartości rzeczywiste, które nie zostały jeszcze dodane do arkusza integracji Project Operations. Zostanie utworzony wiersz dziennika dla każdej transakcji rzeczywistej.
-System grupuje wiersze dziennika jako oddzielne dzienniki na podstawie wartości wybranej w polu **Jednostka okresu w dzienniku integracji aplikacji Project Operations** (**Finance** > **Zarządzanie projektami i ich księgowanie** > **Ustawienia** > **Zarządzanie projektem i parametry księgowe**, karta **Project Operations w aplikacji Dynamics 365 Customer Engagement**). Dopuszczalne wartości tego pola to:
+System grupuje wiersze dziennika w oddzielne dzienniki na podstawie wartości wybranej w polu **Jednostka okresu w dzienniku Project Operations Integration** (**Finance** > **Zarządzanie projektami i księgowość** > **Konfiguracja** > **Zarządzanie projektem i parametry księgowe**, **Project Operations na karcie Dynamics 365 Customer Engagement**). Dopuszczalne wartości tego pola to:
 
   - **Dni**: wartości rzeczywiste są pogrupowane według daty transakcji. Dla każdego dnia jest tworzony osobny arkusz.
   - **Miesiące**: wartości rzeczywiste są pogrupowane według miesięcy kalendarzowych. Dla każdego miesiąca jest tworzony osobny arkusz.
@@ -40,10 +40,10 @@ Wiersze arkusza są tworzone na podstawie wartości rzeczywistych projektu. Poni
   - Pole **Załącznik** zawiera numer załącznika dla każdej transakcji rzeczywistej. Seria numerów załączników jest definiowana na karcie **Sekwencje numerów** na stronie **Parametry zarządzania projektami i parametrów księgowania**. Każdemu wierszowi przypisano nowy numer. Po zaksięgowaniu załącznika można sprawdzić, jak koszty i niezafakturowane transakcje sprzedaży są z nimi powiązane, wybierając **Pokrewne załączniki** na stronie **Transakcji załączników**.
   - Pole **Kategoria** reprezentuje transakcję projektu i wartości domyślne na podstawie kategorii transakcji dla pokrewnej wartości rzeczywistej projektu.
     - Jeśli **Kategoria transakcji** została ustawiona w wartości rzeczywistej projektu, a w danej firmie istnieje pokrewna **Kategoria projektu**, kategorią domyślną jest ta kategoria projektu.
-    - Jeśli **Kategoria transakcji** nie jest ustawiona w polu wartość rzeczywista w projekcie, system użyje wartości pola **Domyślna kategoria projektu** na karcie **Project Operations w Dynamics 365 Customer Engagement** nastronie **Parametry zarządzania projektami i parametrów księgowania**.
+    - Jeśli **Kategoria transakcji** nie jest ustawiona w rzeczywistym projekcie, system użyje wartości z pola **Domyślne wartości kategorii projektu** na karcie **Project Operations na Dynamics 365 Customer Engagement** na karcie **Zarządzanie projektem i parametry księgowe** strona.
   - Pole **Zasób** reprezentuje zasób projektu związany z daną transakcją. Zasób jest używany jako odwołanie w propozycjach faktur projektu dla klientów.
-  - Domyślne pole **Kurs wymiany** na podstawie **Kurs wymiany waluty** ustawionego w Dynamics 365 Finance. Jeśli brakuje ustawienia kursu wymiany, proces okresowy **Importu z przemieszczania** nie spowoduje dodania rekordu do dziennika, a do dziennika wykonania zadania zostanie dodany komunikat o błędzie.
-  - Pole **Właściwości wiersza** reprezentuje typ fakturowania w wartościach rzeczywistych projektu. Właściwości wierszy i mapowanie typów fakturowania są definiowane na karcie **Project Operations na Dynamics 365 Customer Engagement** na stronie **Parametry zarządzania projektami i parametrów księgowania**.
+  - Wartość domyślna pola **Kurs wymiany** jest ustawiana w Dynamics 365 Finance na **Kurs wymiany walut**. Jeśli brakuje ustawienia kursu wymiany, proces okresowy **Importu z przemieszczania** nie spowoduje dodania rekordu do dziennika, a do dziennika wykonania zadania zostanie dodany komunikat o błędzie.
+  - Pole **Właściwości wiersza** reprezentuje typ fakturowania w wartościach rzeczywistych projektu. Mapowania właściwości wiersza i typu rozliczeń są definiowane na karcie **Project Operations na karcie Dynamics 365 Customer Engagement** na stronie **Zarządzanie projektami i parametry księgowe**.
 
 W wierszach arkusza integracji Project Operations można aktualizować tylko następujące atrybuty księgowe:
 
