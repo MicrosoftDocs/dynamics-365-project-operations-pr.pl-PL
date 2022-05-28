@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996809"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587369"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Zaplanuj projekt ze strukturą podziału pracy (Project Service)
 
@@ -63,7 +64,7 @@ Harmonogram projektu komunikuje, co jest niezbędne do wykonania pracy, które z
 ## <a name="task-types"></a>Typy zadań  
 Tworząc swoje struktury podziału pracy, będziesz używać następujących typów zadań:  
 
-| | | 
+| Zadanie | Description | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Węzeł główny projektu** | Najwyższy poziom podsumowania dla projektu. Wszystkie inne zadania projektu są tworzone na jego podstawie. Nazwa zadania głównego jest nazwą projektu. Nakład pracy, daty i czas trwania węzła głównego wynikają z wartości w hierarchii znajdującej się pod nim. Nie możesz edytować właściwości węzła głównego ani go usunąć. | 
 | **Zadania sumaryczne lub zadania typu kontener** | Zadanie sumaryczne to zadanie, które składa się z podzadań. Zadanie sumaryczne nie wiąże się z żadnym nakładem pracy, ani nie posiada kosztów własnych. Jego nakład pracy i koszt są podsumowaniem jego podzadań. Można zmienić nazwę zadania sumarycznego, ale nie można zmienić nakładu pracy, dat ani czasu trwania, ponieważ te są obliczane automatycznie. Usunięcie zadania sumarycznego usuwa zadanie i wszystkie jego podzadania.|  

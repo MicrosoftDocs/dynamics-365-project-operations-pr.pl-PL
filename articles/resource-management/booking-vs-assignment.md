@@ -4,14 +4,14 @@ description: Ten temat zawiera informacje o różnicach między księgami zasob�
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b06555ec48e50f88c11872336539ca88c5cef34a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008464"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591280"
 ---
 # <a name="bookings-vs-assignments"></a>Rezerwacje i przypisania
 

@@ -4,14 +4,14 @@ description: W tym temacie opisano sposób ręcznego wdrażania aplikacji Projec
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986459"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591233"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Ręczne wdrażanie aplikacji Project Operations usługi Dataverse z obsługą podwójnego zapisu
 
@@ -37,7 +37,7 @@ Aby wykonać tę procedurę, należy zalogować się jako administrator.
 3. Wybierz typ środowiska. Jeśli utworzono konto oferty wersji próbnej, wybierz **Wersja próbna (oparta na subskrypcji)**.
 4. Potwierdź region wdrożenia.
 5. Włącz opcję **Utwórz bazę danych dla tego środowiska**. 
-6. Potwierdź język, a następnie potwierdź, że waluta odpowiada walucie w Twoich aplikacjach Finance and Operations.
+6. Potwierdź język, a następnie upewnij się, że waluta jest zgodna z walutą aplikacji finansowych i operacyjnych.
 7. Włącz opcję **Aplikacje Dynamics 365** i sprawdź, czy pole **Automatycznie wdrażaj te aplikacje** ma wartość **Brak**.
 8. Jeśli jest wymagana grupa zabezpieczeń, dodaj tę grupę.
 9. Wybierz **Zapisz**, aby utworzyć nowe środowisko.
@@ -62,4 +62,4 @@ Tę procedurę można wykonać tylko wtedy, gdy zostały wykonane poprzednie pro
 
 ## <a name="link-your-environments"></a><a name="link"></a>Łączenie środowisk
 
-Po wdrożeniu środowiska usługi Dataverse można skonfigurować link w swoich aplikacjach Finance and Operations. Wykonaj kroki z tematu [Łączenie środowisk za pomocą kreatora podwójnego zapisu](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Po wdrożeniu Dataverse środowiska można skonfigurować łącze w aplikacjach finansowych i operacyjnych.. Wykonaj kroki z tematu [Łączenie środowisk za pomocą kreatora podwójnego zapisu](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

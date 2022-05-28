@@ -1,24 +1,24 @@
 ---
 title: Stosowanie danych demonstracyjnych do środowiska hostowanego w chmurze rozwiązania Finance
-description: W tym temacie wyjaśniono, jak stosować dane demonstracyjne pochodzące z Project Operations w środowisku w chmurze Dynamics 365 Finance.
+description: W tym temacie wyjaśniono, jak zastosować dane demonstracyjne z narzędzia Project Operations w środowisku Dynamics 365 Finance w chmurze.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009679"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588979"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Stosowanie danych demonstracyjnych do środowiska hostowanego w chmurze rozwiązania Finance
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
 > [!IMPORTANT]
-> Ten temat ma zastosowanie tylko do Microsoft Dynamics 365 Finance w wersji 10.0.13 i dotyczy tylko środowiska hostowanego w chmurze. Wykonaj czynności opisane w tym temacie **PRZED** zastosowaniem aktualizacji dotyczących jakości w środowisku.
+> Ten temat dotyczy tylko wersji 10.0.13 Microsoft Dynamics 365 Finance i może być wykonywany tylko w środowisku opartym na chmurze. Wykonaj czynności opisane w tym temacie **PRZED** zastosowaniem aktualizacji dotyczących jakości w środowisku.
 
 1. W projekcie LCS otwórz stronę **Szczegóły środowiska**. Należy zwrócić uwagę, że informacje wymagane do łączenia się ze środowiskiem za pomocą protokołu RDP (Remote Desktop Protocol) są także zawarte.
 

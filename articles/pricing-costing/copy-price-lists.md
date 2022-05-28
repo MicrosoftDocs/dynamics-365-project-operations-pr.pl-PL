@@ -4,14 +4,14 @@ description: Ten temat zawiera informacje na temat kopiowania cenników produkt�
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e5d6e46af2eef47246b677494fd3503c838560d1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003739"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587967"
 ---
 # <a name="copy-price-lists"></a>Kopiowanie cenników
 

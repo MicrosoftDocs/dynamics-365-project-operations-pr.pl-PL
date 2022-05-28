@@ -4,14 +4,14 @@ description: Ten temat zawiera informacje o ustawianiu kategorii projektów.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997124"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591555"
 ---
 # <a name="configure-project-categories"></a>Konfigurowanie kategorii projektów
 
@@ -27,7 +27,7 @@ Kategorie transakcji są podstawowymi grupami transakcji projektów. W ramach te
 
 ## <a name="transaction-categories"></a>Kategorie transakcji
 
-Kategorie transakcji reprezentują podstawowe pogrupowanie transakcji projektu. Nie są specyficzne dla firmy lub typu transakcji. Na przykład firma Contoso Robotics używa kategorii Projektowanie, podróż, instalacja i transakcja serwisowa do grupowania transakcji związanych z projektem.
+Kategorie transakcji reprezentują podstawowe pogrupowanie transakcji projektu. Nie są specyficzne dla firmy lub typu transakcji. Na przykład firma Contoso Robotics używa kategorii „projektowanie”, „podróże”, „instalacja” i „transakcja usług” do grupowania transakcji projektów.
 
 Kategorie transakcji są definiowane w module Project Operations. 
 1. Przejdź do **Ustawienia** \> **Kategorie transakcji**, aby otworzyć formularz. 
@@ -35,7 +35,7 @@ Kategorie transakcji są definiowane w module Project Operations.
 
 ## <a name="shared-categories"></a>Udostępnione kategorie
 
-Dynamics 365 używa koncepcji Kategorie udostępnione do kategoryzowania wydatków w różnych aplikacjach, takich jak Dynamics 365 Finance, Dynamics 365 Supply Chain i Dynamics 365 Project Operations. W przypadku każdej utworzonej kategorii transakcji w ramach Project Operations są automatycznie tworzone cztery powiązane kategorie wspólne: godziny, wydatek, opłaty i przedmiot. Udostępnione kategorie można przejrzeć i dopasować, przechodząc kolejno do **Zarządzania projektem i księgowania** \> **Konfiguracji** \> **Kategorii** \> **Kategorii wspólnych**.
+Usługa Dynamics 365 używa pojęcia Kategorie udostępnione w celu kategoryzowania wydatków w różnych aplikacjach, takich jak Dynamics 365 Finance, Dynamics 365 Supply Chain i Dynamics 365 Project Operations. W przypadku każdej utworzonej kategorii transakcji w ramach Project Operations są automatycznie tworzone cztery powiązane kategorie wspólne: godziny, wydatek, opłaty i przedmiot. Udostępnione kategorie można przejrzeć i dopasować, przechodząc kolejno do **Zarządzania projektem i księgowania** \> **Konfiguracji** \> **Kategorii** \> **Kategorii wspólnych**.
 
 ## <a name="project-categories"></a>Kategorie projektu
 

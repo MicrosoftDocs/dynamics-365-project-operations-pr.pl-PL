@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008149"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589117"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nowości z kwietnia 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
 
@@ -21,7 +21,7 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
 
 - Project Operations w środowisku Dataverse w wersji 4.9.0.221
-- Zarządzanie projektami i ich księgowanie w wersji 10.0.17 środowiska Dynamics 365 Finance
+- Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Funkcje uwzględnione w tym wydaniu
 
@@ -42,13 +42,13 @@ Następująca lista zawiera mapowania podwójnego zapisu, które zostały zmodyf
 | **Mapowanie encji** | **Wersja zaktualizowana** | **Komentarze** |
 | --- | --- | --- |
 | Wartości rzeczywiste integracji Project Operations (msdyn\_actuals) | 1.0.0.14 | Mapowanie zmodyfikowane w celu zsynchronizowania rzeczywistych wartości projektu materiałów. |
-| Encja integracji Project Operations na potrzeby oszacowania kosztów (msdyn\_estimateslines) | 1.0.0.2 | Dodano synchronizację wiersza kontraktu projektu do aplikacji Finance and Operations w celu do obsługi rozliczeń w oparciu o zadania. |
-| Encja integracji Project Operations na potrzeby oszacowania godzinowego (msdyn\_resourceassignments) | 1.0.0.5 | Dodano synchronizację wiersza kontraktu projektu do aplikacji Finance and Operations w celu do obsługi rozliczeń w oparciu o zadania. |
-| Tabela integracji Project Operations dla szacowania materiałów (msdyn\_estimatelines) | 1.0.0.0 | Nowe mapowanie tabel służące do synchronizowania szacowania materiałów z Dataverse do aplikacji Finance and Operations. |
-| Integracja w Project Operations encji eksportu faktury dostawcy projektu (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nowe mapowanie tabel służące do synchronizowania nagłówków faktur dostawców z aplikacji Finance and Operations do Dataverse. |
-| Integracja w Project Operations encji eksportu wiersza faktury dostawcy projektu (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nowe mapowanie tabel służące do synchronizowania wierszy faktur dostawców z aplikacji Finance and Operations do Dataverse. |
+| Encja integracji Project Operations na potrzeby oszacowania kosztów (msdyn\_estimateslines) | 1.0.0.2 | Dodano synchronizację wiersza kontraktu projektu z aplikacjami finansowymi i operacyjnymi na rzecz pomocy dotyczącej rozliczeń opartych na zadaniach. |
+| Encja integracji Project Operations na potrzeby oszacowania godzinowego (msdyn\_resourceassignments) | 1.0.0.5 | Dodano synchronizację wiersza kontraktu projektu z aplikacjami finansowymi i operacyjnymi na rzecz pomocy dotyczącej rozliczeń opartych na zadaniach. |
+| Tabela integracji Project Operations dla szacowania materiałów (msdyn\_estimatelines) | 1.0.0.0 | Nowa mapa tabeli umożliwiająca synchronizację szacunków materiałowych z Dataverse do aplikacji finansowych i operacyjnych. |
+| Integracja w Project Operations encji eksportu faktury dostawcy projektu (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nowa mapa tabeli umożliwiająca synchronizację nagłówków faktur dostawców z aplikacji finansowych i operacyjnych do Dataverse. |
+| Integracja w Project Operations encji eksportu wiersza faktury dostawcy projektu (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nowa mapa tabeli umożliwiająca synchronizację wierszy faktur dostawców z aplikacji finansowych i operacyjnych do Dataverse. |
 
-Zawsze należy uruchomić najnowszą wersję mapy w środowisku i włączyć wszystkie mapowania tabel pokrewnych podczas aktualizowania rozwiązania Project Operations Dataverse i wersji rozwiązania Finance and Operations. Niektóre funkcje i możliwości mogą nie działać poprawnie, jeśli najnowsza wersja mapy nie zostanie aktywowana. Aktywną wersję mapy można zobaczyć w kolumnie **Wersja** na stronie **Zapis podwójny**. Aby uaktywnić nową wersję mapy, należy wybrać **Wersję mapowania tabeli**, a następnie zapisać wybraną wersję po wybraniu najnowszej wersji. Jeśli dostosowałeś niestandardową mapę tabeli, będziesz trzeba ponownie zastosować zmiany. Więcej informacji: [Zarządzanie cyklem życia aplikacji](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Zawsze uruchamiaj najnowszą wersję mapy w swoim środowisku i włączaj wszystkie powiązane mapy tabelaryczne podczas aktualizacji rozwiązania Project Operations Dataverse i wersji rozwiązania Finance and Operations. Niektóre funkcje i możliwości mogą nie działać poprawnie, jeśli najnowsza wersja mapy nie zostanie aktywowana. Aktywną wersję mapy można zobaczyć w kolumnie **Wersja** na stronie **Zapis podwójny**. Aby uaktywnić nową wersję mapy, należy wybrać **Wersję mapowania tabeli**, a następnie zapisać wybraną wersję po wybraniu najnowszej wersji. Jeśli dostosowałeś niestandardową mapę tabeli, będziesz trzeba ponownie zastosować zmiany. Więcej informacji: [Zarządzanie cyklem życia aplikacji](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Jeśli wystąpi problem z uruchomieniem mapy, postępuj zgodnie z instrukcjami w sekcji [Problem brakujących kolumn tabeli na mapach](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) w przewodniku rozwiązywania problemów związanych z podwójnym zapisem.
 
@@ -79,7 +79,7 @@ Jeśli wystąpi problem z uruchomieniem mapy, postępuj zgodnie z instrukcjami w
 | Czas i wydatek | 2204377 | Skopiowane czaskopiki muszą być wyświetlane automatycznie po wybraniu opcji **Kopiuj tydzień** podczas wprowadzania czasu. |
 | Czas i wydatek | 2209059 | Pole **Stan** można edytować dla wpisów czasu Dynamics 365 Field Service. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Omówienie zarządzania projektami i księgowania w Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance
 
 | **Obszar funkcji** | **Numer referencyjny** | **Aktualizacja dotycząca jakości** |
 | --- | --- | --- |

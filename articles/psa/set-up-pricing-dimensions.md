@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002344"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591923"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen 
 
@@ -71,9 +72,9 @@ Istnieją dwa typy wymiarów kalkulacji cen:
   
 | Rola        | Jednostka organizacyjna    |Lokalizacja pracy      |Standardowe stanowisko      |Godziny pracy zasobu      |  Narzut|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso Indie|Na miejscu            |                    |Nadgodziny                 |15     |
-|             | Contoso Indie|Lokalny             |                    |Nadgodziny                 |10     |
-|             | Contoso — USA   |Lokalny             |                    |Nadgodziny                 |20     |
+|             | Contoso India|Na miejscu            |                    |Nadgodziny                 |15     |
+|             | Contoso India|Lokalny             |                    |Nadgodziny                 |10     |
+|             | Contoso US   |Lokalny             |                    |Nadgodziny                 |20     |
 
 
 Jeśli zasób z firmy Contoso India, którego stawka podstawowa to 100 USD, pracuje na miejscu, a we wpisie czasu odnotuje 8 godzin regularnego czasu pracy i 2 godziny nadgodzin, aparat kalkulacji cen w usłudze Project Service użyje stawki podstawowej 100 dla 8 godzin i w ten sposób zarejestruje 800 USD. Dla 2 godzin nadgodzin zastosuje narzut 15% do stawki podstawowej 100 USD, uzyskując w ten sposób cenę jednostkową 115 USD i odnotowując łączny koszt 230 USD.

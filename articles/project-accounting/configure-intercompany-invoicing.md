@@ -4,14 +4,14 @@ description: W tym temacie przedstawiono informacje i przykłady dotyczące konf
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994064"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591601"
 ---
 # <a name="configure-intercompany-invoicing"></a>Konfigurowanie fakturowania międzyfirmowego
 
@@ -21,11 +21,11 @@ Wykonaj następujące kroki, aby skonfigurować fakturowanie międzyfirmowe dla 
 
 ## <a name="example-configure-intercompany-invoicing"></a>Przykład: konfigurowanie fakturowania międzyfirmowego
 
-W poniższym przykładzie Contoso Robotics USA (USPM) jest podmiotem prawnym zaciągającym pożyczkę, a Contoso Robotics UK (GBPM) jest podmiotem prawnym udzielającym pożyczki. 
+W poniższym przykładzie Contoso Robotics USA (USPM) jest firmą pożyczającą, a Contoso Robotics UK (GBPM) jest firmą wypożyczającą. 
 
 1. **Konfigurowanie księgowania międzyfirmowego między firmami**. Każda para firm wypożyczających i pożyczających musi zostać skonfigurowana na stronie [Księgowanie międzyfirmowe](/dynamics365/finance/general-ledger/intercompany-accounting-setup) księgi głównej.
     
-    1. W rozwiązaniu Dynamics 365 Finance wybierz pozycję **Księga główna** > **Konfiguracja księgowania** > **Księgowanie międzyfirmowe**. Utwórz rekord zawierający następujące informacje:
+    1. W programie Dynamics 365 Finance przejdź do **Księga główna** > **Ustawienia księgowania** > **Księgowanie międzyfirmowe**. Utwórz rekord zawierający następujące informacje:
 
         - **Firma źródłowa** = **GBPM**
         - **Firma docelowa** = **USPM**
@@ -35,13 +35,13 @@ W poniższym przykładzie Contoso Robotics USA (USPM) jest podmiotem prawnym zac
      1. W aplikacji Finanse wybierz firmę **GBPM**.
      2. Przejdź do obszaru **Rozrachunki z odbiorcami** > **Klient** > **Wszyscy klienci**. Utwórz nowy rekord dla firmy **USPM**.
      3. Rozwiń pole **Nazwa**, odfiltruj rekordy według **typu** i wybierz pozycję **Firmy**. 
-     4. Znajdź i wybierz rekord klienta dla **Contoso Robotics USA (USPM)**.
+     4. Znajdź i wybierz rekord klienta dla firmy **Contoso Robotics USA (USPM)**.
      5. Wybierz opcję **Użyj dopasowania**. 
      6. Wybierz grupę klientów **50 — klienci międzyfirmowi**, a następnie zapisz rekord.
      7. Wybierz firmę **USPM**.
      8. Przejdź do pozycji **Rozrachunki z dostawcami** > **Dostawcy** > **Wszyscy dostawcy**. Utwórz nowy rekord dla firmy **GBPM**.
      9. Rozwiń pole **Nazwa**, odfiltruj rekordy według **typu** i wybierz pozycję **Firmy**. 
-     10. Znajdź i wybierz rekord klienta dla **Contoso Robotics UK (GBPM)**.
+     10. Znajdź i wybierz rekord klienta dla firmy **Contoso Robotics UK (GBPM)**.
      11. Wybierz opcję **Użyj dopasowania**, wybierz grupę dostawców, a następnie zapisz rekord.
      12. W rekordzie dostawcy wybierz pozycję **Ogólne** > **Konfiguruj** > **Międzyfirmowe**.
      13. Na karcie **Relacja handlowa** ustaw pozycję **Aktywna** na **Tak**.
@@ -80,23 +80,23 @@ W poniższym przykładzie Contoso Robotics USA (USPM) jest podmiotem prawnym zac
 
 5. **Skonfiguruj kalkulację cen przeniesienia na robociznę**. Kalkulacja cen przeniesienia międzyfirmowego jest konfigurowana w aplikacji Project Operations w usłudze Dataverse. Skonfiguruj [stawki kosztów robocizny](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) i [stawki rozliczania robocizny](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) na potrzeby fakturowania międzyfirmowego. Ceny przeniesienia nie są obsługiwane w międzyfirmowych transakcjach dotyczących wydatków. Cena sprzedaży między jednostkami organizacyjnymi będzie zawsze ustawiona na wartość identycznej jak koszt własny jednostki zasobów.
 
-      Koszt zasobu dla deweloperów w Contoso Robotics UK to 88 GBP na godzinę. Contoso Robotics UK wystawi Contoso Robotics USA rachunek w wysokości 120 USD za każdą godzinę pracy tego zasobu nad projektami w USA. Contoso Robotics USA wystawi klientowi Adventure Works rachunek w wysokości 200 USD za pracę wykonaną przez zasoby programistyczne Contoso Robotics UK.
+      Koszt zasobów dotyczący deweloperów w firmie Contoso Robotics UK to 88 GBP za godzinę. Contoso Robotics UK wystawi fakturę dla firmy Contoso Robotics USA na 120 USD za każdą godzinę, przez którą zasób pracował nad projektami dla Stanów Zjednoczonych. Firma Contoso Robotics USA wystawia fakturę dla klienta Adventure Works na 200 USD za pracę wykonaną zasobu dewelopera Robotics UK.
 
-      1. W aplikacji Project Operations w usłudze Dataverse przejdź do obszaru **Sprzedaż** > **Cenniki**. Utwórz nowy cennik kosztów o nazwie **Contoso Robotics UK — ceny kosztów.** 
+      1. W aplikacji Project Operations w usłudze Dataverse przejdź do obszaru **Sprzedaż** > **Cenniki**. Utwórz nową listę kosztów własnych o nazwie **Stawki kosztów firmy Contoso Robotics UK**. 
       2. Na liście kosztów własnych utwórz rekord zawierający następujące informacje:
          - **Rola** = **Deweloper**
          - **Koszt** = **88 GBP**
-      3. Przejdź do strony **Ustawienia** > **Jednostki organizacyjne** i dołącz ten cennik kosztów do jednostki organizacyjnej **Contoso Robotics UK**.
-      4. Wybierz kolejno pozycje **Sprzedaż** > **Cenniki**. Utwórz nowy cennik kosztów o nazwie **Contoso Robotics USA — ceny kosztów**. 
+      3. Wybierz kolejno pozycje **Ustawienia** > **Jednostki organizacyjne** i dołącz tę listę kosztów własnych do jednostki organizacyjnej **Contoso Robotics UK**.
+      4. Wybierz kolejno pozycje **Sprzedaż** > **Cenniki**. Utwórz listę kosztów własnych o nazwie **Stawki kosztów firmy Contoso Robotics USA**. 
       5. Na liście kosztów własnych utwórz rekord zawierający następujące informacje:
           - **Rola** = **Deweloper**
-          - **Firma zasobów** = **Contoso Robtics UK**
+          - **Firma zasobów** = **Contoso Robotics UK**
           - **Koszt** = **120 USD**
-      6. Przejdź do strony **Ustawienia** > **Jednostki organizacyjne** i dołącz cennik kosztów **Contoso Robotics USA** do jednostki organizacyjnej **Contoso Robotics UK**.
+      6. Wybierz kolejno pozycje **Ustawienia** > **Jednostki organizacyjne** i dołącz listę kosztów własnych **Stawki kosztów firmy Contoso Robotics USA** do jednostki organizacyjnej **Contoso Robotics USA**.
       7. Wybierz kolejno pozycje **Sprzedaż** > **Cenniki**. Utwórz cennik sprzedaży o nazwie **Stawki rozliczeń Adventure Works**. 
       8. W cenniku sprzedaży utwórz rekord zawierający następujące informacje:
           - **Rola** = **Deweloper**
-          - **Firma zasobów** = **Contoso Robtics UK**
+          - **Firma zasobów** = **Contoso Robotics UK**
           - **Stawka rozliczania** = **200 USD**
       9. Przejdź do pozycji **Sprzedaż** > **Kontrakty sprzedaży** i dołącz cennik **Stawki rozliczeń Adventure Works** do cennika projektu Adventure Works w kontrakcie projektu.
 

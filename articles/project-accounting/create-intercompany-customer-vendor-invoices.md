@@ -4,14 +4,14 @@ description: W tym temacie przedstawiono informacje dotyczące sposobu tworzenia
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989278"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591509"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Tworzenie faktur międzyfirmowych dla klienta i dostawcy
 
@@ -27,7 +27,7 @@ Ta procedura służy do ręcznego tworzenia faktury międzyfirmowej dla klienta 
 
 Następujące czynności muszą być wykonane w podmiocie prawnym udzielającym pożyczki. 
 
-1. W rozwiązaniu Dynamics 365 Finance wybierz kolejno pozycje **Zarządzanie projektami i księgowość** > **Faktury projektu** > **Międzyfirmowe faktury dla odbiorcy**. Na stronie listy **Międzyfirmowe faktury dla odbiorcy** w okienku akcji wybierz pozycję **Nowy**.
+1. W programie Dynamics 365 Finance **Zarządzanie projektami i księgowość** > **Faktury projektów** > **Międzyfirmowe faktury dla odbiorcy**. Na stronie listy **Międzyfirmowe faktury dla odbiorcy** w okienku akcji wybierz pozycję **Nowy**.
 2. Na stronie **Tworzenie faktury międzyfirmowej** w polu **Firma** wybierz firmę pożyczającą.
 3. Opcjonalnie: wprowadź konkretny kontrakt dotyczący projektu i numer projektu.
 4. Zawęź wyniki wyszukiwania, wybierając zakres dat. Wprowadź określone daty w polach **Data rozpoczęcia** i **Data zakończenia**. W wynikach wyszukiwania będą wyświetlane tylko transakcje międzyfirmowe zaksięgowane w tym zakresie dat.

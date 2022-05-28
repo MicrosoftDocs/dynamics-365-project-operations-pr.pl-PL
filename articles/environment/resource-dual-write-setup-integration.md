@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986549"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586909"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Integracja danych instalacji i konfiguracji aplikacji Project Operations
 
@@ -22,34 +22,34 @@ Ten temat zawiera informacje na temat integracji podwójnego zapisu w Project Op
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Kontrakty projektu, wiersze kontraktu i projekty
 
-Kontrakty projektów, wiersze kontraktu i projekty są tworzone w Dataverse i synchronizowane z aplikacjami Finance and Operations na potrzeby dodatkowego rozliczenia. Rekordy w tych encjach można tworzyć i usuwać tylko w programie Dataverse. Można jednak dodać do tych rekordów w aplikacjach Finance and Operations atrybuty księgowe, takie jak domyślne ustawienia grupy podatku sprzedaży oraz rozmiary finansowe.
+Umowy projektowe, linie kontraktowe i projekty są tworzone w Dataverse i synchronizowane z aplikacjami finansowymi i operacyjnymi w celu dodatkowego księgowania. Rekordy w tych encjach można tworzyć i usuwać tylko w programie Dataverse. Jednak atrybuty księgowe, takie jak domyślne grupy podatku od sprzedaży i wymiary finansowe, można dodać do tych rekordów w aplikacjach finansowych i operacyjnych.
 
   ![Pojęcia integracji kontraktu projektu.](./media/1ProjectContract.jpg)
 
-Potencjalni klienci w sprzedaży, szanse sprzedaży i oferty są śledzone w Dataverse i te dane nie są synchronizowane z aplikacjami Finance and Operations, ponieważ z tym działaniem nie jest skojarzona żadna księgowa wartość.
+Potencjalni klienci działań sprzedaży, szanse sprzedaży i oferty są śledzone w Dataverse i nie są synchronizowane z aplikacjami finansowymi i operacyjnymi, ponieważ z tymi działaniami nie jest związana żadna księgowość.
 
-Funkcja kontraktu projektu w Dataverse umożliwia utworzenie rekordu kontraktu projektu w aplikacjach Finance and Operations przy użyciu mapowania tabeli **nagłówków kontraktu projektu (salesorders)**. Zapisanie kontraktu projektu w Dataverse także rozpoczyna tworzenie rekordu encji klienta kontraktu projektu. Ten rekord jest synchronizowany z aplikacjami Finance and Operations, używając mapowania tabeli **źródła finansowania w projekcie (msdyn\_projectcontractsspbillingrules)**. Na tym mapowaniu są również synchronizowane dodatki, aktualizacje i usunięcia klientów kontraktu projektu. Podział wartości procentowych rozliczania między klientów kontraktów projektów jest opanowany tylko w Dataverse i nie jest synchronizowany z aplikacjami Finance and Operations.
+Funkcja umowy projektowej w Dataverse tworzy rekord umowy projektowej w aplikacjach finansowych i operacyjnych przy użyciu mapy tabeli **Nagłówki umów projektowych (zamówienia sprzedaży)**. Zapisanie kontraktu projektu w Dataverse także rozpoczyna tworzenie rekordu encji klienta kontraktu projektu. Ten rekord jest synchronizowany z aplikacjami finansowymi i operacyjnymi za pomocą mapy tabeli **Źródło finansowania projektu (msdyn\_projectcontractssplitbillingbrules)**. Na tym mapowaniu są również synchronizowane dodatki, aktualizacje i usunięcia klientów kontraktu projektu. Podział procentowy rozliczeń między klientów kontraktu projektowego jest dostępny tylko w Dataverse i nie jest synchronizowany z aplikacjami finansowymi i operacyjnymi.
 
-Po utworzeniu umowy projektowej w Dataverse, księgowy projektu może zaktualizować atrybuty księgowe dla tej umowy projektowej w aplikacjach Finance and Operations przechodząc do **zarządzanie projektem i księgowość** > **Kontrakty projektu** > **Ustawienie** > **Pokaż domyślne wartości księgowe**. Księgowy może przejrzeć operacyjne atrybuty umowy projektowej, takie jak żądana data dostawy i kwota umowy, wybierając identyfikator umowy projektowej w aplikacji Finance and Operations, która otwiera powiązany rekord umowy projektowej w Dataverse.
+Po utworzeniu umowy dotyczącej projektu w Dataverse księgowy projektu może zaktualizować atrybuty księgowe dla tej umowy w aplikacjach finansowych i operacyjnych, przechodząc do **Zarządzanie projektami i księgowość** > **Umowy dotyczące projektów** > **Konfiguracja** > **Pokaż domyślną księgowość**. Księgowy może przejrzeć atrybuty operacyjne umowy projektowej, takie jak żądana data dostawy i kwota umowy, wybierając identyfikator umowy projektowej w aplikacjach finansowych i operacyjnych, co powoduje otwarcie powiązanego rekordu umowy projektowej w Dataverse.
 
-Encja projektu jest synchronizowana z aplikacjami Finance and Operations, używając mapowania tabeli **Projektów V2 (msdyn\_** projects). Konto klienta projektu może:
+Encja projektu jest synchronizowana z aplikacjami finansowymi i operacyjnymi przy użyciu mapowania tabeli **projektów V2 (msdyn\_projects)**. Konto klienta projektu może:
 
-  - Przejrzyj projekty w aplikacjach Finance and Operations, przechodząc do **Zarządzanie projektami i księgowość** > **Wszystkie projekty**. 
-  - Aktualizuj atrybuty księgowe projektu w aplikacjach Finance and Operations, przechodząc do **Zarządzanie projektami i księgowość** > **Wszystkie projekty** > **Konfigurowanie** > **Pokaż domyślne ustawienia księgowe**.  
-  - Przejrzyj atrybuty operacyjne projektu, takie jak szacowane daty rozpoczęcia i zakończenia, wybierając identyfikator projektu w aplikacjach Finance and Operations, które otwierają rekord pokrewny projektu w chmurze w Dataverse.
+  - Przejrzyj projekty w aplikacjach finansowych i operacyjnych, przechodząc do **Zarządzanie projektami i księgowość** > **Wszystkie projekty**. 
+  - Zaktualizuj atrybuty księgowe dla projektu w aplikacjach finansowych i operacyjnych, przechodząc do **Zarządzanie projektem i księgowość** > **Wszystkie projekty** > **Ustaw** > **Pokaż domyślną księgowość**.  
+  - Przejrzyj atrybuty operacyjne projektu, takie jak szacowane daty rozpoczęcia i zakończenia, wybierając identyfikator projektu w aplikacjach finansowych i operacyjnych, które otwierają powiązany rekord projektu w chmurze Dataverse.
 
 Projekt jest skojarzony z kontraktem projektu za pośrednictwem encji **Wiersz kontraktu projektu**.
 
-Wiersze kontraktu projektu w Dataverse umożliwiają utworzenie zasady rozliczania w aplikacjach Finance and Operations przy użyciu mapowania tabeli **Wierszy kontraktu projektu (salesordersdetails)**. Metoda rozliczania definiuje typ reguły rozliczania kontraktu projektu w aplikacjach Finance and Operations:
+Linie umowy projektowej w Dataverse tworzy regułę rozliczania umowy projektowej w aplikacjach finansowych o operacyjnych przy użyciu mapy tabeli **Project contract lines (salesorderdetails)**. Metoda rozliczania definiuje typ reguły rozliczania kontraktu projektu w aplikacjach finansowych i operacyjnych:
 
   - Wiersze kontraktu projektu z metodą rozliczania czasu i materiałów tworzą regułę rozliczania typu czas i materiał.
   - Linie kontraktowe metody rozliczeń wg stałej ceny tworzą regułę rozliczeń wg etapów.
 
-Linie umów projektowych mogą być przeglądane przez księgowego projektu w aplikacji Finance and Operations poprzez przejście do **Zarządzanie projektem i księgowość** > **Kontrakty projektowe** > **Ustawianie** > **Pokaż domyślne księgowanie**, a następnie przegląd szczegółów na zakładce **Linie umów**. Na tej zakładce księgowy może również ustawić domyślne wymiary finansowe dla linii umów rozliczanych metodą stałej ceny.
+Linie umów projektu mogą być przeglądane przez księgowego projektu w aplikacjach finansowych i operacyjnych poprzez przejście do **Zarządzanie projektem i księgowość** > **Kontrakty projektu** > **Ustawianie** > **Pokaż domyślne księgowanie** i przejrzenie szczegółów na karcie **Linie umów**. Na tej karcie księgowy może również ustawić domyślne wymiary finansowe dla linii umów rozliczanych metodą stałej ceny.
 
 ## <a name="billing-milestones"></a>Punkty kontrolne rozliczenia
 
-Wiersze kontraktu projektu przy użyciu metody rozliczania o stałej cenie są zafakturowane za pośrednictwem punktów kontrolnych rozliczania. Punkty kontrolne rozliczania są synchronizowane z transakcjami konta projektu w aplikacjach Finance and Operations przy użyciu mapowania tabeli **punktów kontrolnych integracji Project Operations z linią kontraktów (msdyn\_contractlinescheduleofvalues)**.
+Wiersze kontraktu projektu przy użyciu metody rozliczania o stałej cenie są zafakturowane za pośrednictwem punktów kontrolnych rozliczania. Punkty kontrolne rozliczeń są synchronizowane z transakcjami na koncie w aplikacjach finansowych i operacyjnych przy użyciu mapy tabeli **punkty kontrolne wiersza kontraktu Project Operations Integration (msdyn\_contractlinescheduleofvalues)**.
 
   ![Integracja punktów kontrolnych rozliczenia.](./media/2Milestones.jpg)
 
@@ -59,21 +59,21 @@ Podczas pierwszego tworzenia etapu rozliczeniowego dla danej linii kontraktowej 
 
 ### <a name="project-tasks"></a>Zadania projektu
 
-Zadania projektu są synchronizowane z aplikacjami Finance and Operations za pośrednictwem tabeli zadań projektu **(msdyn\_projecttasks)** wyłącznie dla celów referencyjnych. Operacje tworzenia, aktualizowania i usuwania nie są obsługiwane za pośrednictwem aplikacji Finance and Operations.
+Zadania projektowe są zsynchronizowane z aplikacjami finansowymi i operacyjnymi za pośrednictwem **Zadania projektowe (msdyn\_projecttasks)** mapa tabeli tylko do celów referencyjnych. Tworzenie, aktualizowanie i usuwanie operacji nie jest obsługiwane przez aplikacje finansowe i operacyjne.
 
   ![Integracja zadań projektowych.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Zasoby projektu
 
-Encja **Role zasobów projektu** jest synchronizowana z aplikacjami Finance and Operations, używając **Role zasobów projektowych dla wszystkich firm (bookableresourcecategories)** tylko dla celów referencyjnych. Ponieważ role zasobów w Dataverse nie są specyficzne dla firmy, system automatycznie tworzy w aplikacjach Finance and Operations rekordy odpowiednich ról zasobów specyficznych dla firmy dla wszystkich podmiotów prawnych uwzględnianych w zakresie integracji podwójnego zapisu.
+Podmiot **Role zasobów projektu** jest zsynchronizowany z aplikacjami finansowymi i operacyjnymi za pomocą mapy tabeli **Role zasobów projektu dla wszystkich firm (bookableresourcecategories)** tylko do celów referencyjnych. Ponieważ role zasobów w Dataverse nie są specyficzne dla firmy, system automatycznie tworzy odpowiednie rekordy ról zasobów specyficznych dla firmy w aplikacjach finansowych i operacyjnych dla wszystkich osób prawnych objętych zakresem integracji podwójnego zapisu.
 
 ![Integracja ról zasobów.](./media/5Resources.jpg)
 
-Zasoby projektu w Project Operations są utrzymywane w Dataverse i nie są synchronizowane z aplikacjami Finance and Operations.
+Zasoby projektu w Project Operations są utrzymywane w Dataverse i nie są synchronizowane z aplikacjami finansowymi i operacyjnymi.
 
 ### <a name="transaction-categories"></a>Kategorie transakcji
 
-Kategorie transakcji są zachowywane w Dataverse i synchronizowane z aplikacjami Finance and Operations przy użyciu kategorii transakcji projektu **(msdyn\_transactioncategories)**. Po zsynchronizowaniu rekordu kategorii transakcji system automatycznie tworzy cztery rekordy kategorii udostępnionych. Każdy rekord odpowiada typowi transakcji w aplikacjach Finance and Operations i łączy je z rekordem kategorii transakcji.
+Kategorie transakcji są przechowywane w Dataverse i synchronizowane z aplikacjami finansowymi i operacyjnymi za pomocą mapy tabelarycznej **Kategorie transakcji projektu (msdyn\_transactioncategories)**. Po zsynchronizowaniu rekordu kategorii transakcji system automatycznie tworzy cztery rekordy kategorii udostępnionych. Każdy rekord odpowiada typowi transakcji w aplikacjach finansowych i operacyjnych i łączy je z rekordem kategorii transakcji.
 
 ![Integracja kategorii transakcji.](./media/4TransactionCategories.jpg)
 

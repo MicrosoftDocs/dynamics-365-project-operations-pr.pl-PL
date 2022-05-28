@@ -4,14 +4,14 @@ description: Ten temat zawiera informacje o wyświetlaniu umów opartych na proj
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64e81593065d97272af6261e17175c76bd8dca7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001849"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590511"
 ---
 # <a name="manage-project-contracts"></a>Zarządzanie kontraktami projektu
 
@@ -31,6 +31,9 @@ Listę wszystkich kontraktów projektów można zobaczyć na stronie listy **Kon
 2. Wybierz **Przełącznik widoku** (strzałkę w dół obok nazwy widoku), aby wybrać inne widoki filtrowane. Użytkownik może tworzyć własne widoki z kryteriami filtrowania niestandardowego.
 
 Kontrakty można tworzyć i usuwać na tej stronie listy lub na stronach szczegółów.
+
+> [!NOTE]
+> Kontraktów, z których są skojarzone projekty, zadania, prognozy, wartości rzeczywiste i/lub wartości rzeczywiste, nie można usuwać. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

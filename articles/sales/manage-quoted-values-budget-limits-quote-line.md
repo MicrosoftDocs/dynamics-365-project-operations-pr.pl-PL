@@ -3,16 +3,15 @@ title: Omówienie wierszy oferty projektu
 description: Ten temat zawiera informacje o używaniu wierszy oferty projektu do pracy nad projektem.
 author: rumant
 ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: c0a4d2d4b9e958ba14badda5a945e0522abba336c82128bfe7539663e0b90f1e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07ee2e6a7823b25eacb1c7ad6180f8af571348bb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997934"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587047"
 ---
 # <a name="project-quote-lines-overview"></a>Omówienie wierszy oferty projektu
 
@@ -216,7 +215,7 @@ Tak </p>
             </td>
             <td width="48" valign="top">
                 <p>
-No </p>
+Nie. </p>
             </td>
             <td width="42" valign="top">
                 <p>
@@ -305,7 +304,7 @@ Tak </p>
             </td>
             <td width="48" valign="top">
                 <p>
-No </p>
+Nie. </p>
             </td>
             <td width="42" valign="top">
                 <p>
@@ -342,7 +341,7 @@ O1 </p>
             </td>
             <td width="48" valign="top">
                 <p>
-No </p>
+Nie. </p>
             </td>
             <td width="48" valign="top">
                 <p>
@@ -350,7 +349,7 @@ Tak </p>
             </td>
             <td width="42" valign="top">
                 <p>
-No </p>
+Nie. </p>
             </td>
         </tr>
         <tr>

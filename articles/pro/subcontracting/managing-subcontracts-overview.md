@@ -3,15 +3,15 @@ title: Zarządzanie podumowami w rozwiązaniu Project Operations
 description: Ten temat zawiera omówienie procesu kompleksowego zarządzania podumowami stosowanego przeważnie w organizacjach działających w oparciu o projekty.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323609"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593027"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Zarządzanie podumowami w rozwiązaniu Project Operations
 
@@ -46,7 +46,7 @@ Pozycja podumowy może opierać się na ilości lub na pracy.
 
 Gdy pozycja podumowy jest **oparta na ilości**, ilość zakupiona w pozycji podumowy dla czasu, wydatku lub materiałów może być wykorzystana w dowolnym projekcie.
 
-Jeśli pozycja podumowy jest **oparta na pracy**, jest ona mapowana na treść pracy reprezentowaną przez węzeł w planie projektu. Wartość pozycji podumowy jest sumą wszystkich składników wymaganych do dostarczenia wymaganej pracy. Są one modelowane jako szczegóły pozycji podumowy i mogą być kolekcją czasu, wydatków lub materiałów. W przypadku pozycji podumowy opartej na pracy pozycja podumowy jest także dedykowana dla pojedynczego projektu.
+Jeśli pozycja podumowy jest **oparta na pracy**, jest ona mapowana na treść pracy reprezentowaną przez węzeł w planie projektu. Wartość pozycji podumowy jest sumą wszystkich składników wymaganych do dostarczenia wymaganej pracy. Są one modelowane jako szczegóły pozycji podumowy i mogą być kolekcją czasu, wydatków lub materiałów. W przypadku pozycji podumowy opartej na pracy pozycja podumowy jest także dedykowana dla pojedynczego projektu. Te typy kontraktów nie są obsługiwane przez Project Operations.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

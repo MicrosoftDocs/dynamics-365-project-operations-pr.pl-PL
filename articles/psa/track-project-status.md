@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996719"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593395"
 ---
 # <a name="track-a-projects-status-project-service"></a>Śledź stan projektu (Project Service)
 
@@ -33,14 +34,13 @@ Użyj [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-
 
 Wraz z postępem zaangażowania etapy projektu są aktualizowane, aby odzwierciedlić etap zaangażowania:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Nowy**    | Podczas tworzenia projektu etap jest określany jako **Nowy**. Jeżeli projekt został utworzony z szablonu, na tym etapie projekt może posiadać harmonogram, szacunki i dane zespołu. W przeciwnym razie będzie to konspekt projektu i będziesz musiał ręcznie wprowadzić pozostałe elementy projektu. |
-|  **Oferta**   |      Podczas kojarzenia projektu z ofertą lub tworzenia go z oferty, etap projektu jest określany jako **Oferta**, a szacunkowe daty rozpoczęcia i zakończenia są również aktualizowane. Gdy projekt jest w fazie oferty, szczegóły dotyczące ofert są wyświetlane na karcie **Sprzedaż** na stronie **Projekt**.      |
-|   **Planowanie**   |                                     Gdy wygrywasz ofertę związaną z projektem, i kiedy zaangażowanie przechodzi na etap umowy, etap projektu zostaje aktualizowany do **Plan**. Szczegóły dotyczące umowy są wyświetlane na karcie **Sprzedaż** na stronie **Projekt**.                                      |
-| **Zakończony** |                    Po zakończeniu pracy nad projektem można przełączyć etap na **Zakończ**. Gdy etapu projektu jest określany jako zakończony, rozumiemy, że praca została wykonana w 100%, ale projekt pozostaje otwarty przez czas oczekiwania lub do czasu zarejestrowania wpisów dotyczących wydatków.                     |
-|  **Zamknij**   |           Gdy wszystkie transakcje zostały zarejestrowane w projekcie i nie spodziewasz rejestrowania żadnych innych, możesz ręcznie ustawić etap na **Zamknij**. Gdy projekt jest na etapie **Zamknij**, nie możesz zarejestrować żadnych więcej transakcji w ramach tego projektu i projektu jest w trybie tylko do odczytu.           |
+| Zadanie | Description | 
+|------------|----------|
+| **New** | Podczas tworzenia projektu etap jest określany jako **Nowy**. Jeżeli projekt został utworzony z szablonu, na tym etapie projekt może posiadać harmonogram, szacunki i dane zespołu. W przeciwnym razie będzie to konspekt projektu i będziesz musiał ręcznie wprowadzić pozostałe elementy projektu. |
+| **Oferta** |  Podczas kojarzenia projektu z ofertą lub tworzenia go z oferty, etap projektu jest określany jako **Oferta**, a szacunkowe daty rozpoczęcia i zakończenia są również aktualizowane. Gdy projekt jest w fazie oferty, szczegóły dotyczące ofert są wyświetlane na karcie **Sprzedaż** na stronie **Projekt**. |
+| **Planowanie** |  Gdy wygrywasz ofertę związaną z projektem, i kiedy zaangażowanie przechodzi na etap umowy, etap projektu zostaje aktualizowany do **Plan**. Szczegóły dotyczące umowy są wyświetlane na karcie **Sprzedaż** na stronie **Projekt**. |
+| **Zakończony** | Po zakończeniu pracy nad projektem można przełączyć etap na **Zakończ**. Gdy etapu projektu jest określany jako zakończony, rozumiemy, że praca została wykonana w 100%, ale projekt pozostaje otwarty przez czas oczekiwania lub do czasu zarejestrowania wpisów dotyczących wydatków. |
+| **Zamknij** | Gdy wszystkie transakcje zostały zarejestrowane w projekcie i nie spodziewasz rejestrowania żadnych innych, możesz ręcznie ustawić etap na **Zamknij**. Gdy projekt jest na etapie **Zamknij**, nie możesz zarejestrować żadnych więcej transakcji w ramach tego projektu i projektu jest w trybie tylko do odczytu. |
 
 ## <a name="to-track-a-projects-status"></a>Aby śledzić stan projektu  
 
