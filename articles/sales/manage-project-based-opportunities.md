@@ -1,17 +1,17 @@
 ---
 title: Zarządzanie szansami sprzedaży opartymi na projektach
-description: W tym temacie zamieszczono informacje dotyczące pracy z szansami sprzedaży związanymi z projektami.
+description: W tym artykule przedstawiono informacje na temat pracy z szansami sprzedaży powiązanymi z projektami.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933229"
 ---
 # <a name="manage-project-based-opportunities"></a>Zarządzanie szansami sprzedaży opartymi na projektach
 
@@ -19,7 +19,7 @@ _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i 
 
 Przedsiębiorstwa oparte na projektach zwykle mają swoje działania w wielu krajach i lokalizacjach. Koszty wykonania i dostawy projektu mogą się różnić zależnie od tego, gdzie projekt jest wykonywany, i który oddział się nim zajmuje. Może to wpłynąć na marże transakcji. Dostarczanie usług opartych na projektach zwykle polega na dużym poziomie zasobów ludzkich, znaczących kosztach podróży, kosztach materiałowych i innych kosztach.
 
-Możliwości oparte na projekcie w rozwiązaniu Dynamics 365 Project Operations są zaprojektowane z rozszerzeniami do systemu Dynamics 365 Sales. Temat zawiera szczegółowe informacje o różnych polach i regułach biznesowych dołączonych do dodatkowych funkcji wymaganych przez firmy oparte na projektach, aby zarządzać szansami sprzedaży opartymi na projektach.
+Możliwości oparte na projekcie w rozwiązaniu Dynamics 365 Project Operations są zaprojektowane z rozszerzeniami do systemu Dynamics 365 Sales. W artykule przedstawiono szczegółowe informacje na temat różnych pól i logiki biznesowej, które są dostępne w ramach dodatkowych funkcji wymaganych przez firmy korzystające z projektów w celu zarządzania szansami sprzedaży opartymi na projektach.
 
 ## <a name="view-all-project-based-opportunities"></a>Wyświetlanie wszystkich szans sprzedaży opartych na projektach
 

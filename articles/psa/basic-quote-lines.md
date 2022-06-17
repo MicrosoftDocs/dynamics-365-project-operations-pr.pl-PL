@@ -1,6 +1,6 @@
 ---
 title: Oferty i wiersze ofert
-description: Ta temat zawiera informacje o ofertach i wierszach oferty.
+description: Ten artykuł zawiera informacje o ofertach i wierszach oferty.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933367"
 ---
 # <a name="quotes-and-quote-lines"></a>Oferty i wiersze ofert
 
@@ -39,7 +39,7 @@ W Dynamics 365 Project Service Automation istnieją dwa typy ofert: oferty proje
 - Oferta sprzedaży nie zawiera żadnych pól i koncepcji zawartych w ofercie projektu. Pola obejmują **jednostkę kontraktującą**, **menedżera klienta** oraz **Imię i nazwisko kontaktu u płatnika**.  
 - Oferty sprzedaży i oferty projektu są również identyfikowane za pośrednictwem pola opartego na zestawie opcji pod nazwą **Typ**. W przypadku oferty sprzedaży w tym polu jest określana wartość **na podstawie towaru**. W przypadku oferty projektu jest to wartość **na podstawie pracy**.
 
-Temat ten będzie ukierunkowany na szczegółowe informacje o ofertach projektów.
+Ten artykuł będzie ukierunkowany na szczegółowe informacje o ofertach projektów.
 
 Oferta projektu w programie PSA może zawierać wiele pozycji lub wierszy oferty. W rzeczywistości oferta projektu zawiera dwie siatki dla pozycji w wierszu. Jedna siatka jest oparta na wierszach opartych na projekcie, które umożliwiają szczegółowe oszacowanie. Druga siatka dotyczy wierszy opartych na produktach, które używają jednej ceny jednostkowej i podejścia opartego na ilościach.
 

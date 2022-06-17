@@ -1,17 +1,17 @@
 ---
 title: Rejestrowanie się w celu korzystania z wersji próbnych aplikacji Project Operations
-description: W tym temacie znajdują się informacje dotyczące sposobu wdrażania wersji próbnej rozwiązania Dynamics 365 Project Operations.
+description: Z tego artykułu dowiesz się, jak zaprojektować wdrożyć wersję próbną aplikacji Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584287"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959483"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Rejestrowanie się w celu korzystania z wersji próbnych aplikacji Project Operations 
 
@@ -19,9 +19,9 @@ _**Ma zastosowanie do:** Project Operations dla scenariuszy opartych na zasobach
 
 
 
-W tym temacie wyjaśniono sposób subskrybowania oferty dla partnera w wersji zapoznawczej i wdrażania środowiska aplikacji Dynamics 365 Project Operations.
+W tym artykule wyjaśniono sposób subskrybowania oferty dla partnerów w wersji zapoznawczej i wdrażania środowiska aplikacji Dynamics 365 Project Operations.
 
-W nowej wersji próbnej aplikacji Project Operations można automatycznie wdrożyć dowolny z trzech obsługiwanych scenariuszy wdrażania, wykonując kwestionariusz zalecający najlepsze podejście do wdrażania. Ten temat zawiera informacje o sposobach wykonywania następujących czynności:
+W nowej wersji próbnej aplikacji Project Operations można automatycznie wdrożyć dowolny z trzech obsługiwanych scenariuszy wdrażania, wykonując kwestionariusz zalecający najlepsze podejście do wdrażania. Z tego artykułu dowiesz się, jak wykonać następujące czynności:
 
 - Realizowanie oferty wersji próbnej.
 - Inicjowanie obsługi.
@@ -89,7 +89,8 @@ Przed rozpoczęciem należy zalogować się do przeglądarki, przy użyciu konta
 4.  Wybierz odpowiedni adres URL Microsoft Dataverse oraz adresy URL aplikacji finansowych i operacyjnych, aby zatwierdzić obraz stanowiska.
 
 ## <a name="configuring-dual-write"></a>Konfigurowanie podwójnego zapisu
-- Aby skonfigurować role zabezpieczeń do podwójnego zapisu, zobacz temat [Aktualizowanie ustawień zabezpieczeń aplikacji Project Operations w usłudze Dataverse](resource-provision-new-environment.md).
+- Aby skonfigurować role zabezpieczeń do podwójnego zapisu, zobacz temat [Aktualizowanie ustawień zabezpieczeń aplikacji Project Operations w usłudze Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Aby uzyskać dostęp do konfiguracji podwójnego zapisu, przejdź do wystąpienia aplikacji do obsługi finansów i operacji, a następnie przejdź do pozycji **Zarządzanie danymi** > **Podwójny zapis**.
 - Aby skonfigurować mapy podwójnego zapisu, zobacz temat [Uruchamianie map podwójnego zapisu w aplikacji Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Przypisywanie licencji

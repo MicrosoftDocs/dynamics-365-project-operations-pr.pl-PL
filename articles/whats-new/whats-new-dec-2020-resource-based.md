@@ -1,24 +1,24 @@
 ---
 title: 'Nowości: grudzień 2020 r. — Project Operations dla scenariuszy dotyczących zasobów/braku zapasów'
-description: Ten temat zawiera informacje o aktualizacjach dotyczących jakości dostępnych w wersji Project Operations z grudnia 2020 r. w scenariuszach dotyczących zasobów/braku zapasów.
+description: Ten artykuł zawiera informacje o aktualizacjach jakości dostępnych w wydaniu Project Operations w grudniu 2020 r. dla scenariuszy opartych na zasobach/nieopartych na zaopatrzeniu.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579871"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933045"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nowości: grudzień 2020 r. — Project Operations dla scenariuszy dotyczących zasobów/braku zapasów
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
+Ten artykuł dotyczy następujących składników i wersji oprogramowania Dynamics 365 Project Operations:
 
 - Project Operations w środowisku Dataverse w wersji 4.5.0.134
 - Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.15

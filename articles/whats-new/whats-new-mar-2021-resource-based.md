@@ -1,24 +1,24 @@
 ---
 title: 'Nowości: marzec 2021 r. — Project Operations dla scenariuszy dotyczących zasobów/braku zapasów'
-description: Ten temat zawiera informacje o aktualizacjach dotyczących jakości dostępnych w wersji Project Operations z marca 2021 r. w scenariuszach dotyczących zasobów/braku zapasów.
+description: Ten artykuł zawiera informacje o aktualizacjach jakości dostępnych w wydaniu Project Operations w marcu 2021 r. dla scenariuszy opartych na zasobach/nieopartych na zaopatrzeniu.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fbdcb01117c39f879f80319b01d278c91a56e8f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599467"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932953"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nowości: marzec 2021 r. — Project Operations dla scenariuszy dotyczących zasobów/braku zapasów
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
+Ten artykuł dotyczy następujących składników i wersji oprogramowania Dynamics 365 Project Operations:
 
 - Project Operations w środowisku Dataverse w wersji 4.8.0.91 
 - Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.16 

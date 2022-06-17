@@ -1,6 +1,6 @@
 ---
 title: Harmonogram wydań aktualizacji dla rozwiązania Project Service 3.x
-description: W tym temat zamieszczono informacje o dostępnych i przyszłych wydaniach programu Dynamics 365 Project Service Automation.
+description: Ten artykuł zawiera informacje o dostępnych i zbliżających się wersjach aplikacji Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5be7327999b4f29801a8ba3826524c66b04be8fa
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
+ms.openlocfilehash: 07bc494d6e2650673f664ef13a38cf50bebf11c9
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732899"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959462"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Harmonogram wydań aktualizacji dla rozwiązania Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "8732899"
 
 | Rozwiązanie  | Najnowsza wersja |
 |-------|----|
-| Automatyzacja usługi projektów    | 3.10.74.200 |
+| Automatyzacja usługi projektów    | 3.10.75.142 |
 | Dodatek rozwiązania Project Service Automation na komputery                | 3.60          |
 
 Aby uzyskać informacje na temat aktualizacji usługi Project Service, odwiedź [Plany wydań Dynamics 365](/dynamics365/release-plans/). 
@@ -45,30 +45,30 @@ Aby uzyskać informacje na temat aktualizacji usługi Project Service, odwiedź 
 | Stacja  | Region | Bieżąca wersja | Następna wersja |  Zaplanowana data
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stacja 1</strong> | |  |  | |
-| | <i>Pierwsze wydanie</i> | [3.10.74.200](whats-new-ur43.md) | Do ustalenia | 27 maja 2022
+| | <i>Pierwsze wydanie</i> | [3.10.75.142](whats-new-ur-44.md) | Do ustalenia | 01 lipca 2022 roku
 |<strong>Stacja 2</strong> | |  |  | |
-| | <i>Ameryka Południowa</i> | [3.10.74.200](whats-new-ur43.md) | Do ustalenia | 03 czerwca 2022 roku
-| | <i>Kanada</i> | [3.10.74.200](whats-new-ur43.md) | Do ustalenia | 03 czerwca 2022 roku
-| | <i>Indie</i> | [3.10.74.200](whats-new-ur43.md) | Do ustalenia | 03 czerwca 2022 roku
-| | <i>Francja</i> | [3.10.74.200](whats-new-ur43.md) | Do ustalenia | 03 czerwca 2022 roku
-| | <i>Republika Południowej Afryki</i> | [3.10.74.200](whats-new-ur43.md) | Do ustalenia | 03 czerwca 2022 roku
-| | <i>Niemcy</i> | [3.10.74.200](whats-new-ur43.md) | Do ustalenia | 03 czerwca 2022 roku
-| | <i>Szwajcaria</i> | [3.10.74.200](whats-new-ur43.md) | Do ustalenia | 03 czerwca 2022 roku
-| | <i>Korea Południowa</i> | [3.10.74.200](whats-new-ur43.md) | Do ustalenia | 03 czerwca 2022 roku
-| | <i>Norwegia</i> | [3.10.74.200](whats-new-ur43.md) | Do ustalenia | 03 czerwca 2022 roku
+| | <i>Ameryka Południowa</i> | [3.10.75.142](whats-new-ur-44.md) | Do ustalenia | 08 lipca 2022 roku
+| | <i>Kanada</i> | [3.10.75.142](whats-new-ur-44.md) | Do ustalenia | 08 lipca 2022 roku
+| | <i>Indie</i> | [3.10.75.142](whats-new-ur-44.md) | Do ustalenia | 08 lipca 2022 roku
+| | <i>Francja</i> | [3.10.75.142](whats-new-ur-44.md) | Do ustalenia | 08 lipca 2022 roku
+| | <i>Republika Południowej Afryki</i> | [3.10.75.142](whats-new-ur-44.md) | Do ustalenia | 08 lipca 2022 roku
+| | <i>Niemcy</i> | [3.10.75.142](whats-new-ur-44.md) | Do ustalenia | 08 lipca 2022 roku
+| | <i>Szwajcaria</i> | [3.10.75.142](whats-new-ur-44.md) | Do ustalenia | 08 lipca 2022 roku
+| | <i>Korea Południowa</i> | [3.10.75.142](whats-new-ur-44.md) | Do ustalenia | 08 lipca 2022 roku
+| | <i>Norwegia</i> | [3.10.75.142](whats-new-ur-44.md) | Do ustalenia | 08 lipca 2022 roku
 |<strong>Stacja 3</strong> | |  |  | |
-| | <i>Japonia</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 maja 2022
-| | <i>Azja/Pacyfik</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 maja 2022
-| | <i>Wielka Brytania</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 maja 2022
-| | <i>Oceana</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 maja 2022
-| | <i>Zjednoczone Emiraty Arabskie</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 maja 2022
+| | <i>Japonia</i> | [3.10.75.142](whats-new-ur-44.md) | Do ustalenia | 15 lipca 2022 roku
+| | <i>Azja/Pacyfik</i> | [3.10.75.142](whats-new-ur-44.md) | Do ustalenia | 15 lipca 2022 roku
+| | <i>Wielka Brytania</i> | [3.10.75.142](whats-new-ur-44.md) | Do ustalenia | 15 lipca 2022 roku
+| | <i>Oceana</i> | [3.10.75.142](whats-new-ur-44.md) | Do ustalenia | 15 lipca 2022 roku
+| | <i>Zjednoczone Emiraty Arabskie</i> | [3.10.75.142](whats-new-ur-44.md) | Do ustalenia | 15 lipca 2022 roku
 |<strong>Stacja 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 20 maja 2022
+| | <i>Europa</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 17 czerwca 2022 roku
 |<strong>Stacja 5</strong> | |  |  | |
-| | <i>Ameryka Północna</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 29 maja 2022
+| | <i>Ameryka Północna</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 24 czerwca 2022 roku
 |<strong>Stacja 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 29 maja 2022
-| | <i>Dedykowane grupy skalowania</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 03 czerwca 2022 roku
+| | <i>Government Community Cloud</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 24 czerwca 2022 roku
+| | <i>Dedykowane grupy skalowania</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 01 lipca 2022 roku
 
 
 

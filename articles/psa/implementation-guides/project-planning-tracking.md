@@ -1,6 +1,6 @@
 ---
 title: Planowanie i śledzenie projektu
-description: Ten temat zawiera łącza do informacji o funkcjach planowania i śledzenia w programie Project Service Automation.
+description: Ten artykuł zawiera link do informacji o funkcjach planowania i śledzenia w programie Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589899"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933275"
 ---
 # <a name="project-planning-and-tracking"></a>Planowanie i śledzenie projektu
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589899"
 
 Aplikacja Project Service pomaga organizacjom usługowym identyfikować szanse sprzedaży, składać oferty w przetargach, zawierać umowy, zarządzać zasobami, śledzić czas i wydatki, fakturować klientów oraz realizować projekty terminowo i bez przekraczania budżetu. 
 
-Łącze do pliku PDF, które było wcześniej w tym temacie, zostało usunięte, a zawartość przeniesiono do następujących tematów:
+Link do pliku PDF, który był wcześniej w tym artykule, został usunięte, a zawartość przeniesiono do następujących artykułów:
 
 - [Harmonogramy projektów](../project-creating.md)
 - [Koszty i przychody w projekcie](../project-estimating.md)
@@ -43,7 +43,7 @@ Aplikacja Project Service pomaga organizacjom usługowym identyfikować szanse s
 - [Ustawienia projektu](../project-settings.md)
 
 > [!NOTE]
-> Ten temat zostanie usunięty w przyszłej aktualizacji dokumentacji. 
+> Ten artykuł zostanie usunięty w przyszłej aktualizacji dokumentacji. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

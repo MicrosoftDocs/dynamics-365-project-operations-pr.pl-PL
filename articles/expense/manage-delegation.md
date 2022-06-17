@@ -1,6 +1,6 @@
 ---
 title: Zarządzanie delegacją
-description: W tym temacie zamieszczono informacje dotyczące sposobu tworzenia raportów o wydatkach dla innego pracownika i zarządzania nimi.
+description: W tym artykule przedstawiono informacje na temat sposobu tworzenia raportami o wydatkach i zarządzania nimi dla innego pracownika przez użytkownika delegowanego wydatków.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c2bb7ea9d93d7b60e639f2fe6dd37c466737157b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2796aca572eb0a239b6a23ef735e87a8aa46fbbc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575756"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934609"
 ---
 # <a name="manage-delegation"></a>Zarządzanie delegacją
 Pełnomocnik ds. wydatków może tworzyć raporty o wydatkach dla innego pracownika i zarządzać nimi.

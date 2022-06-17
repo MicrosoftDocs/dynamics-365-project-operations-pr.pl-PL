@@ -1,17 +1,17 @@
 ---
 title: Wersje map podwójnego zapisu aplikacji Project Operations
-description: Ten temat zawiera listę wymaganych map podwójnego zapisu w Dynamics 365 Project Operations.
+description: W tym artykule przedstawiono listę map podwójnego zapisu wymaganych dla aplikacji Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612777"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959447"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Wersje map podwójnego zapisu aplikacji Project Operations
 
@@ -54,7 +54,7 @@ Następujące mapy są wymaganymi warunkami wstępnymi dla rozwiązania Project 
 | Encja integracji Project Operations na potrzeby oszacowania godzinowego (msdyn_resourceassignments) | 1.0.0.5 | Nie jest wymagane do inicjowania obsługi. ||
 | Encja integracji kategorii wydatków projektowych Project Operations (msdyn_expensecategories) | 1.0.0.1 | Nie jest wymagane do inicjowania obsługi. ||
 | Encja integracji wydatków projektowych Project Operations (msdyn_expenses) | 1.0.0.3 | Nie jest wymagane do inicjowania obsługi. ||
-| Integracja w Project Operations encji eksportu faktury dostawcy projektu (msdyn_projectvendorinvoices) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. ||
+| Integracja w Project Operations encji eksportu faktury dostawcy projektu (msdyn_projectvendorinvoices) | 1.0.0.1 | Nie jest wymagane do inicjowania obsługi. |10.0.26 lub nowsza|
 | Integracja w Project Operations encji eksportu wiersza faktury dostawcy projektu (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Nie jest wymagane do inicjowania obsługi. | 10.0.26 lub nowsza |
 | Role zasobów projektu dla wszystkich firm (bookableresourcecategories) | 1.0.0.1 | Wymaga wstępnej synchronizacji mapowania tabeli w celu zsynchronizowania ról zasobów Menedżer projektu i Członek zespołu, które zostały uzupełnione w środowisku usługi Dynamics 365 Dataverse podczas inicjowania obsługi administracyjnej. Dataverse jest głównym źródłem początkowej synchronizacji. ||
 | Zadania projektu (msdyn_projecttasks) | 1.0.0.4 | Nie jest wymagane do inicjowania obsługi. ||

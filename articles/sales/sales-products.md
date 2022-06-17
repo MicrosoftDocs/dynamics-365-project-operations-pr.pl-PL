@@ -1,6 +1,6 @@
 ---
 title: Produkty
-description: Ta temat zawiera informacje o katalogu produktów, za pomocą którego można dostarczać klientom informacje o produktach i cenach oferowanych przez organizację.
+description: W tym artykule przedstawiono informacje o katalogu produktów, których można użyć, aby dostarczyć klientom informacje o produktach i cenach oferowanych w organizacji.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5c57b2596e1d480ff59591618f073ceb8f70a289
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d45a705c48df84a8f5b3f60121fbcc25e225e6e5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574121"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933091"
 ---
 # <a name="products"></a>Produkty
 

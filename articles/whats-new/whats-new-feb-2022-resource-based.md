@@ -1,24 +1,24 @@
 ---
 title: 'Nowości: luty 2022 r. — Project Operations dla scenariuszy dotyczących zasobów/braku zapasów'
-description: Ten temat zawiera informacje o aktualizacjach jakości, które są dostępne w wydaniu Project Operations z lutego 2022 r. dla scenariuszy opartych na zasobach/niemagazynowanych.
+description: Ten artykuł zawiera informacje o aktualizacjach jakości, które są dostępne w wydaniu Project Operations z lutego 2022 r. dla scenariuszy opartych na zasobach/niemagazynowanych.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600847"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932999"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nowości: luty 2022 r. — Project Operations dla scenariuszy dotyczących zasobów/braku zapasów
 
 *Dotyczy: Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu*
 
-Ten temat dotyczy następujących składników i wersji oprogramowania Microsoft Dynamics 365 Project Operations:
+Ten artykuł dotyczy następujących składników i wersji oprogramowania Microsoft Dynamics 365 Project Operations:
 
 - Project Operations w środowisku Dataverse w wersji 4.28.0.120
 - Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.24
@@ -76,11 +76,11 @@ Jeśli wystąpi problem z uruchomieniem mapy, postępuj zgodnie z instrukcjami w
 
 ## <a name="removed-and-deprecated-features"></a>Usunięte i przestarzałe funkcje
 
-Funkcje [Usunięte lub przestarzałe w programie Project Operations](removed-depreciated-features-project.md) temat opisano funkcje, które zostały usunięte lub przestarzałe w programie Dynamics 365 Project Operations.
+W artykule [Usunięte lub przestarzałe funkcje w aplikacji Project Operations](removed-depreciated-features-project.md) opisano funkcje, które zostały usunięte lub uznane za przestarzałe w aplikacji Dynamics 365 Project Operations.
 
 - Usunięta funkcja nie jest już dostępna w produkcie.
 - Przestarzała funkcja nie jest aktywnie tworzona i może zostać usunięta w przyszłej aktualizacji.
 
-Ogłoszenie o wycofaniu pojawi się w temacie [Usunięte lub wycofane funkcje w Project Operations](removed-depreciated-features-project.md) 12 miesięcy przed usunięciem jakiejkolwiek funkcji z produktu .
+Ogłoszenie o wycofaniu pojawi się w artykule [Usunięte lub przestarzałe funkcje w aplikacji Project Operations](removed-depreciated-features-project.md) 12 miesięcy przed usunięciem jakiejkolwiek funkcji z produktu.
 
 W przypadku zmian, które wpływają tylko na czas kompilacji, ale są zgodne z trybem piaskownicy i środowiskami produkcyjnymi, czas niezgodności będzie krótszy niż 12 miesięcy. Zazwyczaj te zmiany są aktualizacjami funkcjonalnymi, które należy wprowadzić w kompilatorze.

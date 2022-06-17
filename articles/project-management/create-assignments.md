@@ -1,24 +1,24 @@
 ---
 title: Tworzenie przypisanych zasobów
-description: W tym temacie zamieszczono informacje dotyczące tworzenia ogólnych i nazwanych przydziałów zasobów.
+description: W tym artykule przedstawiono informacje o tworzeniu przypisań zasobów ogólnych i nazwanych.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933505"
 ---
 # <a name="create-resource-assignments"></a>Tworzenie przypisanych zasobów
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
 
-Przydział zasobu jest bezpośrednim skojarzeniem członka zespołu projektu z zadaniem węzła liścia. W tym temacie zamieszczono informacje dotyczące różnych sposobów przypisywania zasobów.
+Przydział zasobu jest bezpośrednim skojarzeniem członka zespołu projektu z zadaniem węzła liścia. Ten artykuł zawiera informacje na temat różnych sposobów przypisywania zasobów.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Tworzenie ogólnego członka zespołu za pośrednictwem przypisania zadania
 

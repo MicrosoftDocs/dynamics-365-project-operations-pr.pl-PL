@@ -1,6 +1,6 @@
 ---
 title: Potwierdzanie, aktualizowanie i wysyłanie oferty projektu
-description: W tym temacie zamieszczono informacje dotyczące wysyłania oferty do klienta, modyfikowania jej w zależności od opinii zwrotnej, a następnie ponownego jej wysyłania.
+description: Ten artykuł zawiera informacje dotyczące wysyłania oferty do odbiorcy w celu potwierdzenia, modyfikowania na podstawie informacji zwrotnych, a następnie ponownego wysyłania oferty.
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec8a000bea7d80827e2e63b03ed9229b1ecbe1c9
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 445362523b7e38e8543cbc89f9dacf4aca048f0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684149"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932263"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Potwierdzanie, aktualizowanie i wysyłanie oferty projektu
 

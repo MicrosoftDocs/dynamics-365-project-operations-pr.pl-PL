@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710009"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934011"
 ---
 # <a name="configure-expense-management"></a>Konfiguracja zarządzania wydatkami
 
-W tym temacie opisano kwestie i decyzje, które należy wziąć pod uwagę w procesie planowania, zanim użytkownik skonfiguruje Zarządzanie wydatkami. W zarządzaniu wydatkami są przechowywane informacje o metodach płatności, zapotrzebowaniach na wyjazdy raportach o wydatkach, zasadach itp.
+W tym artykule opisano zagadnienia i decyzje, które należy uwzględnić w procesie planowania przed skonfigurowaniem modułu Zarządzanie wydatkami. W zarządzaniu wydatkami są przechowywane informacje o metodach płatności, zapotrzebowaniach na wyjazdy raportach o wydatkach, zasadach itp.
 
 Z uwagi na fakt, że podczas planowania konfiguracji w celu zarządzania wydatkami wiele decyzji jest opartych na hierarchiach organizacji i strukturze finansowej, należy odwołać się do tych obszarów w dokumentach planowania.
 

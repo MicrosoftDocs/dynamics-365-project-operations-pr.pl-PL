@@ -1,17 +1,17 @@
 ---
 title: Kontrakty projektów - Kluczowe pojęcia - wersja uproszczona
-description: Ten temat zawiera informacje na temat kluczowych pojęć w kontraktach projektu.
+description: W tym artykule przedstawiono informacje na temat kluczowych pojęć dotyczących kontraktów dla projektu.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e92edadc49469ad5f541be8bce7b7a8043b981e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580607"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932677"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Pojęcia unikalne dla Project Contracts
 
@@ -19,7 +19,7 @@ _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
 
 
-W tym temacie przedstawiono kluczowe pojęcia dotyczące korzystania z kontraktów projektów w aplikacji Dynamics 365 Project Operations:
+W tym artykule przedstawiono kluczowe pojęcia, o których należy pamiętać przed rozpoczęciem korzystania z kontraktów projektu w aplikacji Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Jednostka kontraktująca
 

@@ -1,24 +1,24 @@
 ---
 title: Co nowego lub co się zmieniło w aplikacji Project Operations w lipcu 2021 r. dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
-description: To temat zawiera informacje o istotnych aktualizacjach dostępnych w wydaniu aplikacji Project Operations z lipca 2021 r. dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne.
+description: Ten artykuł zawiera informacje o aktualizacjach jakości dostępnych w wydaniu Project Operations w lipcu 2021 r. dla scenariuszy opartych na zasobach/produkcji.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597075"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933643"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Co nowego lub co się zmieniło w aplikacji Project Operations w lipcu 2021 r. dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
 
 _**Dotyczy:** Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne_
 
-Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
+Ten artykuł dotyczy następujących składników i wersji oprogramowania Dynamics 365 Project Operations:
 
 - Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.20
  

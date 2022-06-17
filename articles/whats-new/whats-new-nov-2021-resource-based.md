@@ -1,24 +1,24 @@
 ---
 title: Nowości Listopad 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
-description: To temat zawiera informacje o aktualizacjach jakości dostępnych w wydaniu Project Operations we listopadzie 2021 r. dla scenariuszy opartych na zasobach/nieopartych na zaopatrzeniu.
+description: Ten artykuł zawiera informacje o aktualizacjach jakości dostępnych w wydaniu Project Operations w listopadzie 2021 r. dla scenariuszy opartych na zasobach/nieopartych na zaopatrzeniu.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d5b58965f728321cc30d4e476b0dacf621fdec71
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932907"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nowości Listopad 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
 
 *Dotyczy: Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu*
 
-Ten temat dotyczy następujących składników i wersji oprogramowania Microsoft Dynamics 365 Project Operations:
+Ten artykuł dotyczy następujących składników i wersji oprogramowania Microsoft Dynamics 365 Project Operations:
 
 - Project Operations w środowisku Dataverse w wersji 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
 - Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.22

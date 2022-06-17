@@ -1,17 +1,17 @@
 ---
 title: Obsługa członków zespołu
-description: Ten temat zawiera informacje o rezerwowaniu nazwanych zasobów dla zespołów projektów oraz o przypisywaniu ich do zadań.
+description: Ten artykuł zawiera informacje o rezerwowaniu nazwanych zasobów dla zespołów projektów oraz o przypisywaniu ich do zadań.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7c7b2f45c56289c46cfa8f79c0704a7085f6db3a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6ab1541cc79870fcab9dbce45073e6b5a7bb0133
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933459"
 ---
 # <a name="maintain-team-members"></a>Obsługa członków zespołu
 

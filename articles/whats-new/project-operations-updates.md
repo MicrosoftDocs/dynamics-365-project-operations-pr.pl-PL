@@ -1,18 +1,18 @@
 ---
 title: Aktualizacje aplikacji Project Operations
-description: W tym temat zamieszczono informacje na temat wydanych wersji aplikacji Dynamics 365 Project Operations.
+description: Ten artykuł zawiera informacje o wydanych wersjach aplikacji Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0dfcd47e0c8ac2d9edd45049ffefb6e364c8aa4b
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
+ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732944"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959498"
 ---
 # <a name="project-operations-updates"></a>Aktualizacje aplikacji Project Operations
 
@@ -36,7 +36,7 @@ Aplikacja Dynamics 365 Project Operations składa się z dwóch składników:
 
 | Project Operations w środowisku Dataverse | Zarządzanie projektami i księgowymi w środowiskach aplikacji finansowych i operacyjnych | 
 | --- | --- |
-| 4.42.0.70 | 10.0.26 |
+| 4.43.0.77 | 10.0.26 |
 
 W przypadku scenariusza zasobów/nie magazynowanych zasobów Project Operations zaleca się korzystanie z orkiestracji podwójnego zapisu w wersji 2.3.1.15 lub nowszej.
 
@@ -47,24 +47,24 @@ Aktualizacje dotyczące Project Operations w środowisku Dataverse są dostępne
 | Stacja | Region | Aktualny numer wersji | Automatyczne aktualizacje w przypadku wdrożenia Lite | Automatyczne aktualizacje w przypadku wdrożenia zawierającego zasoby lub nie zawierającego zapasów | Następny numer wersji | Następna wersja ogólnie dostępna |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stacja 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pierwsze wydanie         |  4.42.0.70      | Zakończony           | Zakończony            | Do ustalenia                 | 27 maja 2022        |
+|   &nbsp;  | Pierwsze wydanie         |  4.43.0.77      | Zakończony           | Zakończony            | Do ustalenia                 | 01 lipca 2022 roku       |
 | Stacja 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ameryka Południowa         |  4.42.0.70      | Zakończony           | Zakończony            | Do ustalenia                 | 27 maja 2022        |
-|   &nbsp;  | Kanada                |  4.42.0.70      | Zakończony           | Zakończony            | Do ustalenia                 | 27 maja 2022        |
-|   &nbsp;  | Indie                 |  4.42.0.70      | Zakończony           | Zakończony            | Do ustalenia                 | 27 maja 2022        |
-|   &nbsp;  | Francja                |  4.42.0.70      | Zakończony           | Zakończony            | Do ustalenia                 | 27 maja 2022        |
-|   &nbsp;  | Republika Południowej Afryki          |  4.42.0.70      | Zakończony           | Zakończony            | Do ustalenia                 | 27 maja 2022        |
-|   &nbsp;  | Szwajcaria           |  4.42.0.70      | Zakończony           | Zakończony            | Do ustalenia                 | 27 maja 2022        |
+|   &nbsp;  | Ameryka Południowa         |  4.43.0.77      | Zakończony           | Zakończony            | Do ustalenia                 | 01 lipca 2022 roku       |
+|   &nbsp;  | Kanada                |  4.43.0.77      | Zakończony           | Zakończony            | Do ustalenia                 | 01 lipca 2022 roku       |
+|   &nbsp;  | Indie                 |  4.43.0.77      | Zakończony           | Zakończony            | Do ustalenia                 | 01 lipca 2022 roku       |
+|   &nbsp;  | Francja                |  4.43.0.77      | Zakończony           | Zakończony            | Do ustalenia                 | 01 lipca 2022 roku       |
+|   &nbsp;  | Republika Południowej Afryki          |  4.43.0.77      | Zakończony           | Zakończony            | Do ustalenia                 | 01 lipca 2022 roku       |
+|   &nbsp;  | Szwajcaria           |  4.43.0.77      | Zakończony           | Zakończony            | Do ustalenia                 | 01 lipca 2022 roku       |
 | Stacja 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonia                 |  4.42.0.70      | 13 maja 2022       | 13 maja 2022        | Do ustalenia                 | 03 czerwca 2022 roku       |
-|   &nbsp;  | Azja i Pacyfik          |  4.42.0.70      | 13 maja 2022       | 13 maja 2022        | Do ustalenia                 | 03 czerwca 2022 roku       |
-|   &nbsp;  | Wielka Brytania         |  4.42.0.70      | 13 maja 2022       | 13 maja 2022        | Do ustalenia                 | 03 czerwca 2022 roku       |
-|   &nbsp;  | Oceania               |  4.42.0.70      | 13 maja 2022       | 13 maja 2022        | Do ustalenia                 | 03 czerwca 2022 roku       |
-|   &nbsp;  | Zjednoczone Emiraty Arabskie  |  4.42.0.70      | 13 maja 2022       | 13 maja 2022        | Do ustalenia                 | 03 czerwca 2022 roku       |
+|   &nbsp;  | Japonia                 |  4.43.0.77      | 03 czerwca 2022 roku      | 03 czerwca 2022 roku       | Do ustalenia                 | 08 lipca 2022 roku       |
+|   &nbsp;  | Azja i Pacyfik          |  4.43.0.77      | 03 czerwca 2022 roku      | 03 czerwca 2022 roku       | Do ustalenia                 | 08 lipca 2022 roku       |
+|   &nbsp;  | Wielka Brytania         |  4.43.0.77      | 03 czerwca 2022 roku      | 03 czerwca 2022 roku       | Do ustalenia                 | 08 lipca 2022 roku       |
+|   &nbsp;  | Oceania               |  4.43.0.77      | 03 czerwca 2022 roku      | 03 czerwca 2022 roku       | Do ustalenia                 | 08 lipca 2022 roku       |
+|   &nbsp;  | Zjednoczone Emiraty Arabskie  |  4.43.0.77      | 03 czerwca 2022 roku      | 03 czerwca 2022 roku       | Do ustalenia                 | 08 lipca 2022 roku       |
 | Stacja 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.41.0.45      | Zakończony           | Zakończony            | 4.42.0.70           | 13 maja 2022        |
+|   &nbsp;  | Europa                |  4.42.0.70      | Zakończony           | Zakończony            | 4.43.0.77           | 10 czerwca 2022 roku       |
 | Stacja 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ameryka Północna         |  4.41.0.45      | Zakończony           | Zakończony            | 4.42.0.70           | 20 maja 2022        |
+|   &nbsp;  | Ameryka Północna         |  4.42.0.70      | Zakończony           | Zakończony            | 4.43.0.77           | 17 czerwca 2022 roku       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Harmonogram wydawania aplikacji do zarządzania projektami i księgowości w środowisku aplikacji finansowych i operacyjnych
 
