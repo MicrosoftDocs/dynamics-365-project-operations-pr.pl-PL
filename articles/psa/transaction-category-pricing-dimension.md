@@ -1,6 +1,6 @@
 ---
 title: Używanie kategorii transakcji jako wymiaru kalkulacji cen
-description: Ten temat zawiera informacje na temat używania kategorii transakcji jako wymiaru kalkulacji cen.
+description: Ten artykuł zawiera informacje na temat używania kategorii transakcji jako wymiaru kalkulacji cen.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593349"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915749"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Używanie kategorii transakcji jako wymiaru kalkulacji cen
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-W tym temacie pokazano, jak używać kategorii transakcji w roli wymiaru kalkulacji cen. Jeśli przed rozpoczęciem pracy jeszcze nie utworzono rozwiązania do zarządzania wymiarami kalkulacji cen, trzeba je utworzyć. Jeśli istnieje już rozwiązanie do zarządzania wymiarami kalkulacji cen, można wprowadzić w nim zmiany. Jeśli w organizacji nie utworzono nowego rozwiązania do zarządzania wymiarami kalkulacji cen, należy wykonać procedury opisane w temacie [Tworzenie niestandardowych pól i encji](create-custom-fields-entities.md).
+W tym artykule pokazano, jak używać kategorii transakcji w roli wymiaru kalkulacji cen. Jeśli przed rozpoczęciem pracy jeszcze nie utworzono rozwiązania do zarządzania wymiarami kalkulacji cen, trzeba je utworzyć. Jeśli istnieje już rozwiązanie do zarządzania wymiarami kalkulacji cen, można wprowadzić w nim zmiany. Jeśli w organizacji nie utworzono nowego rozwiązania do zarządzania wymiarami kalkulacji cen, należy wykonać procedury opisane w artykule [Tworzenie niestandardowych pól i encji](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Dodawanie kategorii transakcji do formularzy i widoków
 Aby kategoria transakcji była widoczna w interfejsie użytkownika w rozwiązaniu do zarządzania wymiarami kalkulacji cen, należy przejść przez wszystkie formularze i widoki kluczowych encji oraz dodać te pola do formularzy i widoków tych encji.

@@ -1,6 +1,6 @@
 ---
 title: Tworzenie zaawansowanych kontraktów dotyczących rozliczeń na podstawie postępu
-description: W tym temacie wyjaśniono, jak tworzyć kontrakty projektów, tak aby można było generować faktury dla klientów na podstawie procentu wykonanej pracy.
+description: W tym artykule opisano sposób tworzenia umów dotyczących projektów, dzięki czemu można generować faktury dla odbiorców na podstawie procentu ukończonej pracy.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683176"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913679"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Tworzenie zaawansowanych kontraktów dotyczących rozliczeń na podstawie postępu
 [!include [banner](../includes/banner.md)]
 
-W tym temacie wyjaśniono, jak tworzyć kontrakty projektów, tak aby można było tworzyć faktury dla klientów na podstawie procentu wykonanej pracy. Kwoty na fakturze są obliczane automatycznie w odniesieniu do kategorii budżetu pracy skonfigurowanej dla projektu. Harmonogram faktury jest ustawiany podczas negocjowania kontraktu dotyczącego projektu z klientem.
+W tym artykule opisano sposób tworzenia umów dotyczących projektów, dzięki czemu można generować tworzyć faktury dla odbiorców na podstawie procentu ukończonej pracy. Kwoty na fakturze są obliczane automatycznie w odniesieniu do kategorii budżetu pracy skonfigurowanej dla projektu. Harmonogram faktury jest ustawiany podczas negocjowania kontraktu dotyczącego projektu z klientem.
 
-Procedury opisane w tym temacie służą do konfigurowania kontraktu, skojarzonego projektu oraz reguł fakturowania, które obliczają kwoty faktur dla kategorii budżetów pracy skonfigurowanych dla danego projektu.
+Użyj tych procedur w tym artykuł, aby skonfigurować umowę, skojarzony projekt i reguły fakturowania używane do obliczania kwot faktury dla kategorii budżetu, które należy utworzyć dla projektu.
 
 Po utworzeniu kontraktu i projektu można skonfigurować szczegółowe informacje o projekcie. Na przykład można zdefiniować działania i przypisać pracowników do projektu.
 

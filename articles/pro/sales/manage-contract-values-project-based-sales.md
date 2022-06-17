@@ -1,17 +1,17 @@
 ---
 title: Omówienie pozycji kontraktu opartego na projekcie
-description: Ten temat zawiera informacje o pracy z pozycjami kontraktów opartych na projektach.
+description: W tym artykule przedstawiono informacje na temat pracy z pozycjami kontraktu opartymi na projekcie.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 436079a166b102590863c5df6734d21dd83b83fe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d32edac6537a4b0f51e9d2f72cb4a7342606d2c5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593165"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931435"
 ---
 # <a name="project-based-contract-lines-overview"></a>Omówienie pozycji kontraktu opartego na projekcie
 

@@ -1,6 +1,6 @@
 ---
 title: Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen
-description: Ten temat zawiera informacje na temat konfiguracji niestandardowych wymiarów kalkulacji cen.
+description: Ten artykuł zawiera informacje na temat sposobów konfigurowania wymiarów kalkulacji cen za pomocą pól niestandardowych.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599421"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917589"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Założono, że przed rozpoczęciem tej procedury użytkownik wykonał procedury opisane w tematach [Tworzenie niestandardowych pól i encji](create-custom-fields-entities-pricing-dimensions.md) i [Dodawanie wymaganych niestandardowych pól do konfiguracji cen i encji transakcyjnych](add-custom-fields-price-setup-transactional-entities.md). Jeśli tych procedur jeszcze nie wykonano, wróć, wykonaj je, a następnie wróć do tego tematu. 
+W tym artykule założono, że przed rozpoczęciem tej procedury użytkownik wykonał procedury opisane w artykułach [Tworzenie niestandardowych pól i encji](create-custom-fields-entities-pricing-dimensions.md) i [Dodawanie wymaganych pól niestandardowych do konfiguracji cen i encji transakcyjnych](add-custom-fields-price-setup-transactional-entities.md). Jeśli tych procedur jeszcze nie wykonano, wróć, wykonaj je, a następnie wróć do tego artykułu. 
 
-Ten temat zawiera informacje na temat konfigurowania niestandardowych wymiarów kalkulacji cen. Na stronie **Parametry** na karcie **Wymiary kalkulacji cen oparte na kwocie** zwróć uwagę, że pokazywane są encje wymiarów kalkulacji cen. Na tej karcie domyślnie istnieją dwa wiersze siatki:
+Ten artykuł zawiera informacje na temat konfigurowania niestandardowych wymiarów kalkulacji cen. Na stronie **Parametry** na karcie **Wymiary kalkulacji cen oparte na kwocie** zwróć uwagę, że pokazywane są encje wymiarów kalkulacji cen. Na tej karcie domyślnie istnieją dwa wiersze siatki:
 
 - **msdyn_resourcecategory** (Rola)
 - **msdyn_OrganizationalUnit** (Jednostka organizacyjna)

@@ -1,6 +1,6 @@
 ---
 title: Strona główna uaktualnienia
-description: W tym temacie przedstawiono miejsca, w których można znaleźć ważne informacje dotyczące nowych i zmienionych funkcji w programie Dynamics 365 Project Service Automation, oraz proces uaktualniania do najnowszej wersji.
+description: W tym artykule przedstawiono miejsca, w których można znaleźć ważne informacje dotyczące nowych i zmienionych funkcji w programie Dynamics 365 Project Service Automation, oraz proces uaktualniania do najnowszej wersji.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591416"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926651"
 ---
 # <a name="upgrade-home-page"></a>Strona główna uaktualnienia
 
@@ -48,14 +48,14 @@ Wcześniej klienci, którzy mieli wystąpienie programu PSA w wersji 2.x i chcie
 Zalecamy, aby przed rozpoczęciem procesu uaktualniania wykonać następujące zadania:
 
 - Sprawdź, czy na wybranym urządzeniu są zainstalowane programy Dynamics 365 Field Service i Project Service Automation. Jeśli są zainstalowane oba rozwiązania, należy zaplanować ich uaktualnienie przed wznowieniem regularnego korzystania z wystąpienia.
-- Uważnie przejrzyj poniższe tematy. Znajomość i zrozumienie zmian dokonanych między wersjami pomogą w prawidłowym uaktualnieniu. Te tematy zawierają informacje o zasadniczych zmianach w programie PSA oraz uwagi i zalecenia dotyczące planowania uaktualnienia do wersji 3.x.
+- Uważnie przejrzyj poniższe artykuły. Znajomość i zrozumienie zmian dokonanych między wersjami pomogą w prawidłowym uaktualnieniu. Te artykuły zawierają informacje o zasadniczych zmianach w programie PSA oraz uwagi i zalecenia dotyczące planowania uaktualnienia do wersji 3.x.
 
     - [Nowości i zmiany w programie Project Service Automation w wersji 3](whats-new-changed-v3.md)
     - [Zagadnienia dotyczące uaktualniania — Project Service Automation z wersji 2.x lub 1.x do wersji 3.x](upgrade-v3.md)
 
 - Uaktualnij wystąpienie piaskownicy, aby ocenić zmiany w posiadanej implementacji przed uaktualnieniem wystąpienia produkcyjnego.
 
-Gdy już przejrzysz tematy wspomniane wcześniej i przygotujesz wszystko do uaktualnienia do programu PSA w wersji 3.x lub innej wersji z interfejsem UCI, prześlij do działu pomocy technicznej Microsoft prośbę o dodanie opcji uaktualnienia do Centrum administracyjnego. We wniosku wprowadź szczegółowe informacje o swoim wystąpieniu.
+Gdy już przejrzysz artykuły wspomniane wcześniej i przygotujesz wszystko do uaktualnienia do programu PSA w wersji 3.x lub innej wersji z interfejsem UCI, prześlij do działu pomocy technicznej Microsoft prośbę o dodanie opcji uaktualnienia do Centrum administracyjnego. We wniosku wprowadź szczegółowe informacje o swoim wystąpieniu.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Starsze wersje rozwiązania PSA (PSA 2.x) w nowo utworzonym wystąpieniu
 

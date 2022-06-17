@@ -1,17 +1,17 @@
 ---
-title: Konfigurowanie stawek rozliczania wykonanej pracy
-description: W tym temacie zamieszczono informacje dotyczące konfigurowania stawek rozliczania wykonanej pracy w Project Operations.
+title: Konfigurowanie stawek weksli robocizny
+description: W tym artykule przedstawiono informacje dotyczące sposobu konfigurowania stawek rozliczeń robocizny w aplikacji Project Operations.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ffb947533a42ace3615e7755c12a5ab69491f747
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0ad83e899030be480baed95597e1ccfc0e560e24
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585529"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924351"
 ---
 # <a name="set-up-labor-bill-rates"></a>Konfigurowanie stawek weksli robocizny
 

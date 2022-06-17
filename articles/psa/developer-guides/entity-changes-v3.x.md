@@ -1,6 +1,6 @@
 ---
 title: Zmiany dotyczące encji, kontrolek i interfejsu użytkownika (Project Service Automation wer. 3.x)
-description: Ten temat opisuje zmiany wprowadzone w rozwiązaniu Microsoft Dynamics Project Service Automation w wersji 3.x.
+description: Ten artykuł opisuje zmiany wprowadzone w rozwiązaniu Microsoft Dynamics Project Service Automation w wersji 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597581"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926881"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Zmiany dotyczące encji, kontrolek i interfejsu użytkownika (Project Service Automation wer. 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Wraz z wydaniem wersji 3.x rozwiązania Microsoft Dynamics Project Service Automation (PSA) wprowadzono wiele zmian w encjach, kontrolkach, widokach i interfejsie użytkownika. Ten temat zawiera informacje o tych istotnych zmianach.
+Wraz z wydaniem wersji 3.x rozwiązania Microsoft Dynamics Project Service Automation (PSA) wprowadzono wiele zmian w encjach, kontrolkach, widokach i interfejsie użytkownika. Ten artykuł zawiera informacje o tych istotnych zmianach.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Relacje nadrzędny-podrzędny dla encji Dokument sprzedaży, Wiersz dokumentu sprzedaży i Szczegóły wiersza dokumentu sprzedaży
 W wersjach programu Dynamics 365 Project Service Automation (PSA) starszych niż 3.0 niektóre relacje między encjami Dokument sprzedaży, Wiersz dokumenty sprzedaży i Szczegółowy wiersza dokumentu sprzedaży zostały zaimplementowane za pośrednictwem pól ciągów, które zawierają ciąg reprezentujący identyfikator GUID pokrewnej encji. Wynikało to z ograniczeń platformy, które powodowały konieczność utworzenia rozbudowanego niestandardowego kodu na serwerze i kliencie rozwiązania, aby te relacje działały podobnie do typowych relacji między encjami w usłudze Dynamics CRM oraz aby pola ciągów działały jak pola wyszukiwania.

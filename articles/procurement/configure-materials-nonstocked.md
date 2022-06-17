@@ -1,18 +1,18 @@
 ---
 title: Konfigurowanie materiałów niemagazynowanych i oczekujących faktur od dostawcy
-description: W tym temacie wyjaśniono, jak włączyć obsługę materiałów niebędących na stanie magazynowym i oczekujących na faktury dostawcy.
+description: W tym artykule wyjaśniono sposób włączania materiałów niezafakturowanych i oczekujących faktur od dostawcy.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592981"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913771"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurowanie materiałów niemagazynowanych i oczekujących faktur od dostawcy
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Uruchom mapy podwójnego zapisu dla materiałów nie będących na stanie magazynowym oraz integrację faktur dostawców
 
-W tej sekcji przedstawiono informacje na temat map wymaganych dla materiałów nie będących w magazynie oraz na fakturach od dostawców. Sprawdź, czy mapy warunków wstępnych wymienione w temacie [Konfiguracja nowego środowiska](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) są uruchomione w twoim środowisku.
+W tej sekcji przedstawiono informacje na temat map wymaganych dla materiałów nie będących w magazynie oraz na fakturach od dostawców. Sprawdź, czy w środowisku działają mapy wymagań wstępnych przedstawione w artykule [Ustanowienie nowego środowiska](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 1. Przejdź do Lifecycle Services (LCS), przejdź do swojego projektu LCS i przejdź do strony **szczegółów środowiska**.
 2. W sekcji **Informacje o środowisku Common Data Service** wybierz pozycję **Łącze do CDS dla aplikacji**. Po wybraniu łącza nastąpi przekierowanie do listy encji w mapowaniach.

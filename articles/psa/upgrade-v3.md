@@ -1,6 +1,6 @@
 ---
 title: Zagadnienia dotyczące uaktualniania — Microsoft Dynamics 365 Project Service Automation z wersji 2.x lub 1.x do wersji 3.x
-description: W tym temat zamieszczono informacje na temat zagadnień, które należy wziąć pod uwagę podczas uaktualniania programu Project Service Automation w wersji 2.x lub 1.x do wersji 3.
+description: W tym artykule zamieszczono informacje na temat zagadnień, które należy wziąć pod uwagę podczas uaktualniania programu Project Service Automation w wersji 2. x lub 1. x do wersji 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601767"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918923"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Zagadnienia dotyczące uaktualniania — PSA z wersji 2.x lub 1.x do wersji 3.x
 
@@ -40,7 +40,7 @@ W programie Project Service Automation w wersji 2 i w wersji 1 przydziały zada�
 
 W wersji 3 programu Project Service Automation wprowadzono zmiany w schemacie przypisywania zasobów, które można zarezerwować. Zadanie wierszowe nie zostało zastąpione i istnieje bezpośrednia relacja 1:1 między zadaniem w **encji zadanie** a członkiem zespołu w encji **przydział zasobu**. Zadania przypisywane członkom zespołu projektu są obecnie przechowywane bezpośrednio w encji przydział zasobu.  
 
-Te zmiany wpływają na uaktualnianie istniejących projektów, które mają przydziały zasobów dla nazwanych zasobów i zasobów ogólnych w zespole projektu. W tym temacie przedstawiono kwestie, które należy wziąć pod uwagę podczas uaktualniania do wersji 3. 
+Te zmiany wpływają na uaktualnianie istniejących projektów, które mają przydziały zasobów dla nazwanych zasobów i zasobów ogólnych w zespole projektu. W tym artykule przedstawiono kwestie, które należy wziąć pod uwagę podczas uaktualniania do wersji 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Zadania przypisane do nazwanych zasobów
 Przy użyciu encji zadania podstawowego zadania w wersji 2 i w wersji 1 zezwalały członkom zespołu na przedstawianie roli innej niż ich domyślna zdefiniowana rola. Na przykład Hanna Krawczyk z domyślnie przypisaną rolą Menedżer programu można było przypisać do zadania z rolą dewelopera. W wersji 3 rola nazwanego członka zespołu jest zawsze domyślna, więc każde zadanie, do którego jest przypisana Hanna Krawczyk, używa jej domyślnej roli Menedżer programu.

@@ -1,17 +1,17 @@
 ---
 title: Omówienie zarządzania projektem
-description: Ten temat zawiera informacje o ustawieniach zarządzania projektami w rozwiązaniu Dynamics 365 Project Operations.
+description: Ten artykuł zawiera informacje o zarządzaniu projektami w aplikacji Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/06/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2e23c6d5290a89fe599273a985962477215bf00b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e2784020cdf20e47cc8d3b14be03f93e250e5da2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925639"
 ---
 # <a name="project-management-overview"></a>Omówienie zarządzania projektem
 

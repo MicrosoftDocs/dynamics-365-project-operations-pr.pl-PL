@@ -1,6 +1,6 @@
 ---
 title: Strona główna wymiarów kalkulacji cen i kosztów
-description: Ta temat zawiera omówienie funkcjonalności wymiarów kalkulacji cen.
+description: Ten artykuł zawiera omówienie funkcjonalności wymiarów kalkulacji cen.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593625"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925455"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Strona główna wymiarów kalkulacji cen i kosztów
 
@@ -47,7 +47,7 @@ Program PSA zawiera fabrycznie domyślny zestaw wymiarów kalkulacji cen. Można
 > [!IMPORTANT]
 > Jeżeli w wersji programu PSA sprzed 3 używano gotowych pól roli i jednostki organizacyjnej jako wymiarów kalkulacji cen, nie będzie żadnych zauważalnych zmian. Można nadal korzystać z usługi Project Service w zwykły sposób. 
 
-Jeśli trzeba określić ceny lub koszty zasobów przy użyciu dodatkowych atrybutów, można utworzyć niestandardowe pola, encje i wymiary. Aby uzyskać więcej informacji, zobacz następujące tematy. Należy jednak pamiętać, że procedury trzeba wykonywać w poniższej kolejności:
+Jeśli trzeba określić ceny lub koszty zasobów przy użyciu dodatkowych atrybutów, można utworzyć niestandardowe pola, encje i wymiary. Aby uzyskać więcej informacji, zobacz następujące artykuły. Należy jednak pamiętać, że procedury trzeba wykonywać w poniższej kolejności:
 
 - [Tworzenie niestandardowych pól i encji](create-custom-fields-entities.md)
 - [Dodawanie pól niestandardowych do ustawień cen i encji transakcyjnych](field-references.md)

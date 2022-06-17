@@ -1,17 +1,17 @@
 ---
 title: Poprawianie księgowania propozycji faktur dla projektów wersji roboczej
-description: W tym temacie wyjaśniono sposób dopasowywania informacji księgowych do wersji roboczej propozycji faktury.
+description: W tym artykule wyjaśniono sposób dopasowywania informacji dotyczących księgowania do wersji roboczej propozycji faktury.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575087"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921223"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Poprawianie księgowania propozycji faktur dla projektów wersji roboczej
 
@@ -19,7 +19,7 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 *Szczegóły operacyjne* faktur projektów są obsługiwane przez menedżera projektu na fakturze pro forma. Szczegółowe informacje to m.in. decyzja o godzinach, kosztach, materiałach lub kamieniach milowych, które muszą być zafakturowane, kursach oraz stosowaniu kwot z góry i pozostałych kwot. Po potwierdzeniu oryginalnej faktury pro forma możesz dostosować szczegóły operacyjne, tworząc i potwierdzając [korygującą fakturę pro forma](../proforma-invoicing/corrective-invoices.md).
 
-*Szczegóły księgowania* faktur projektów są zachowywane w dokumencie faktury dostępnej dla klienta. Szczegóły te obejmują obliczenia podatku sprzedaży oraz wymiary finansowe stosowane do faktury. Ten temat zawiera szczegółowe informacje dotyczące sposobu dostosowania tych szczegółów księgowych w wersji roboczej propozycji faktury projektu.
+*Szczegóły księgowania* faktur projektów są zachowywane w dokumencie faktury dostępnej dla klienta. Szczegóły te obejmują obliczenia podatku sprzedaży oraz wymiary finansowe stosowane do faktury. W tym artykule przedstawiono szczegółowe informacje dotyczące sposobu dostosowania tych szczegółów księgowych w wersji roboczej propozycji faktury projektu.
 
 ## <a name="adjust-sales-tax"></a>Korekta podatku
 

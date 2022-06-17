@@ -1,6 +1,6 @@
 ---
 title: Nowości i zmiany w aplikacji Project Service Automation, wydanie 37, V3
-description: W tym temacie przedstawiono funkcje i poprawki, które są dostępne w programie Microsoft Dynamics 365 Project Service Automation, aktualizacja 37, V3.
+description: W tym artykule przedstawiono funkcje i poprawki, które są dostępne w programie Microsoft Dynamics 365 Project Service Automation, aktualizacja 37, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 11/01/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e8696d84aaca019c2e12d852e669df71146484b3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdbb125b4f41bb9970f5bd8a01cf0bb863c34738
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593487"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922511"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-37-v3"></a>Nowości i zmiany w aplikacji Project Service Automation, wydanie 37, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8593487"
 
 Z zadowoleniem informujemy, że jest to najnowsza aktualizacja aplikacji Microsoft Dynamics 365 Project Service Automation. To wydanie obejmuje znaczną poprawę jakości, wydajności i użyteczności. Jest ona kompatybilna z Dynamics 365 9.x. Aby dokonać aktualizacji do tego wydania, należy odwiedzić stronę Centrum administracyjnego dla rozwiązań Dynamics 365 online i zainstalować aktualizację. By uzyskać więcej informacji, zobacz [Instalowanie, aktualizowanie lub usuwanie preferowanego rozwiązania](/power-platform/admin/install-remove-preferred-solution).
 
-W tym temacie przedstawiono funkcje i poprawki, które są nowe lub zostały zmienione w programie Project Service Automation, wydanie aktualizacji 37, V3. Ta wersja ma numer kompilacji V3.10.58.120 i jest ogólnie dostępna po samodzielnej aktualizacji w listopadzie 2021 r.
+W tym artykule przedstawiono funkcje i poprawki, które są nowe lub zostały zmienione w programie Project Service Automation, wydanie aktualizacji 37, V3. Ta wersja ma numer kompilacji V3.10.58.120 i jest ogólnie dostępna po samodzielnej aktualizacji w listopadzie 2021 r.
 
 ## <a name="update-release-37"></a>Wydanie 37
 

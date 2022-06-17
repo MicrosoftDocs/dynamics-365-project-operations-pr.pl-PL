@@ -1,17 +1,17 @@
 ---
 title: Zarządzanie podumowami w rozwiązaniu Project Operations
-description: Ten temat zawiera omówienie procesu kompleksowego zarządzania podumowami stosowanego przeważnie w organizacjach działających w oparciu o projekty.
+description: W tym artykule przedstawiono omówienie całego procesu zarządzania podwykonawcami, zwykle w organizacjach opartych na projektach.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593027"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911518"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Zarządzanie podumowami w rozwiązaniu Project Operations
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593027"
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-Ten temat zawiera omówienie procesu kompleksowego zarządzania podumowami stosowanego w organizacjach działających w oparciu o projekty. Podwykonawcy usług zwykle działają zgodnie z przepływem procesów biznesowych, który przedstawiono na poniższym diagramie.
+W tym artykule przedstawiono omówienie całego procesu zarządzania podwykonawcami w organizacjach opartych na projektach. Podwykonawcy usług zwykle działają zgodnie z przepływem procesów biznesowych, który przedstawiono na poniższym diagramie.
 
 ![Przepływ procesu podrzędnego](../media/SubcontractingProcessFlow.png)
 

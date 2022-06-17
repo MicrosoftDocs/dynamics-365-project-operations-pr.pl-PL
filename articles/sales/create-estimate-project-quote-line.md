@@ -1,17 +1,17 @@
 ---
 title: Szacowanie wiersza oferty projektu
-description: Ten temat zawiera informacje o tworzeniu wyceny w wierszu oferty projektu.
+description: W tym artykule przedstawiono informacje na temat sposobu tworzenia szacowanej wartości wiersza oferty dotyczącej projektu.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 96a83bb51864297098db28588e22197d78462fa2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9fd387da51da6e85e740aef529d488adcdf27c9a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580009"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912642"
 ---
 # <a name="estimate-a-project-quote-line"></a>Szacowanie wiersza oferty projektu
 

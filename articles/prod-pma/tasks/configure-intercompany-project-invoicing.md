@@ -1,6 +1,6 @@
 ---
 title: Konfigurowanie międzyfirmowego fakturowania projektu
-description: W tym temat pokazano, jak skonfigurować sposób fakturowania projektów między dwiema firmami w organizacji.
+description: W tym artykule pokazano sposób konfigurowania fakturowania projektów między dwoma firmami w tej samej organizacji.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683288"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916623"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Konfigurowanie międzyfirmowego fakturowania projektu
 
 [!include [banner](../../includes/banner.md)]
 
-W tym temat pokazano, jak skonfigurować sposób fakturowania projektów między dwiema firmami w organizacji. W tym zadaniu jest używany zestaw danych USSI.
+W tym artykule pokazano sposób konfigurowania fakturowania projektów między dwoma firmami w tej samej organizacji. W tym zadaniu jest używany zestaw danych USSI.
 
 1. W okienku nawigacji wybierz kolejno pozycje **Moduły > Rozrachunki z dostawcami > Sprzedawcy > Wszyscy sprzedawcy**.
 2. Na liście **Wszyscy sprzedawcy** znajdź i wybierz żądany rekord.

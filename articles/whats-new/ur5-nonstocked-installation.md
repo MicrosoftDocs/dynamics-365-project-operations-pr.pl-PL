@@ -1,25 +1,25 @@
 ---
 title: Aktualizowanie Project Operations w środowisku Finance
-description: To temat zawiera informacje na temat aktualizowania Project Operations w środowisku Dynamics 365 Finance.
+description: Ten artykuł zawiera informacje na temat aktualizowania Project Operations w środowisku Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579957"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912483"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Aktualizowanie Project Operations w środowisku Finance
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
 
-To temat zawiera informacje na temat aktualizowania Dynamics 365 Project Operations w środowisku Dynamics 365 Finance. Istnieją trzy procedury, które są wymagane do aktualizacji Project Operations do aktualizacji 5 (UR5):
+Ten artykuł zawiera informacje na temat aktualizowania Dynamics 365 Project Operations w środowisku Dynamics 365 Finance. Istnieją trzy procedury, które są wymagane do aktualizacji Project Operations do aktualizacji 5 (UR5):
 
 - [Importowanie pakietu do projektu w wersji zapoznawczej](#import)
 - [Stosowanie aktualizacji](#apply)

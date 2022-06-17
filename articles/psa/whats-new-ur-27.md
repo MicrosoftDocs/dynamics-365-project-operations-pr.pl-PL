@@ -1,6 +1,6 @@
 ---
 title: Nowości i zmiany w Project Service Automation, wydanie aktualizacji 27, wer. 3
-description: W tym temacie wymieniono funkcje i poprawki, które są dostępne w aktualizacji Project Service Automation, wydanie 27, wersja 3.
+description: W tym artykule przedstawiono funkcje i poprawki dostępne w programie Project Service Automation, wydanie aktualizacji 27, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: aab77411760c3d64daa377bffc06391c8e4ed54a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6c8f4f736f0659f9b6db25f4685ef1278c45d034
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912943"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-27-v3"></a>Nowości i zmiany w Project Service Automation, wydanie aktualizacji 27, wer. 3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8599605"
 
 Mamy przyjemność ogłosić najnowszą aktualizację aplikacji Project Service Automation dla Dynamics 365. To wydanie obejmuje znaczną poprawę jakości, wydajności i użyteczności. To wydanie jest zgodne z systemem Dynamics 365 9.x. Aby zaktualizować do tej wersji, odwiedź centrum administracyjne Dynamics 365 online i przejdź na stronę rozwiązań, aby zainstalować aktualizację. By uzyskać więcej informacji, zobacz [Instalowanie, aktualizowanie lub usuwanie preferowanego rozwiązania](/power-platform/admin/install-remove-preferred-solution).
 
-W tym temacie wymieniono funkcje i poprawki, które są nowe lub zmienione w programie Project Service Automation V3, aktualizacja wydanie 27. Numer tej kompilacji to V3.10.45.98 i jest on zazwyczaj dostępny za pośrednictwem samoaktualizacji w styczniu 2021 r.
+W tym artykule przedstawiono funkcje i poprawki, które są nowe lub zostały zmienione w programie Project Service Automation V3, wydanie aktualizacji 27. Numer tej kompilacji to V3.10.45.98 i jest on zazwyczaj dostępny za pośrednictwem samoaktualizacji w styczniu 2021 r.
 
 ## <a name="update-release-27"></a>Wydanie 27
 

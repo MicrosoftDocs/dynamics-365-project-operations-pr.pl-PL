@@ -1,6 +1,6 @@
 ---
 title: Konfigurowanie i korzystanie z płatności dla dostawcy po uiszczonej opłacie
-description: W tym temacie przedstawiono sposób tworzenia terminów płatnych po uiszczonej opłacie (PWP), aby można było zwolnić częściowe płatności dostawcy na podstawie płatności klientów.
+description: W tym artykule wyjaśniono, jak tworzyć warunki płatności po zapłaceniu (PWP), dzięki którym można zwolnić częściowe płatności dostawcy na podstawie płatności odbiorców.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 71f7b1db58c0d6aacc4f47920e5ad39dbb35ec51
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 10e8e57695caece6c4b6ba4c2ddb52395dad1218
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683926"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920763"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Konfigurowanie i korzystanie z płatności dla dostawcy po uiszczonej opłacie
 

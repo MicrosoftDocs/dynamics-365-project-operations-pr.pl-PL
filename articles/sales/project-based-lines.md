@@ -1,17 +1,17 @@
 ---
 title: Wiersze szansy sprzedaży opartej na projekcie
-description: Ten temat zawiera informacje na temat pracy z wierszami szans sprzedaży opartych na projekcie.
+description: W tym artykule przedstawiono informacje na temat pracy z wierszami szans sprzedaży opartymi na projekcie.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: cceb175210f7b597d682e9e4e910c79280211293
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f4b8d80a7e3ec06c4089d7c5c32fdb41ac86fb76
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918279"
 ---
 # <a name="project-based-opportunity-lines"></a>Wiersze szansy sprzedaży opartej na projekcie
 

@@ -1,24 +1,24 @@
 ---
 title: Integracja danych instalacji i konfiguracji aplikacji Project Operations
-description: Ten temat zawiera informacje dotyczące ustawienia i konfigurowania mapowania podwójnego zapisu w Project Operations.
+description: W tym artykule przedstawiono informacje dotyczące ustawiania i konfigurowania map podwójnego zapisu w aplikacji Project Operations.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586909"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914553"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Integracja danych instalacji i konfiguracji aplikacji Project Operations
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Ten temat zawiera informacje na temat integracji podwójnego zapisu w Project Operations dla encji konfiguracji i ustawień.
+W tym artykule przedstawiono informacje dotyczące integracji podwójnego zapisu w aplikacji Project Operations na potrzeby encji ustawiania i konfiguracji.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Kontrakty projektu, wiersze kontraktu i projekty
 

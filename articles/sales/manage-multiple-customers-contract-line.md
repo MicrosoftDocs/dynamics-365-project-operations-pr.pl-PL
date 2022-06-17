@@ -1,17 +1,17 @@
 ---
 title: Zarządzanie wieloma klientami w pozycjach kontraktu opartego na projekcie
-description: Ten temat zawiera informacje na temat pracy z pozycjami kontraktu i kontraktami zawierającymi wielu klientów.
+description: W tym artykule podano informacje na temat pracy z pozycjami kontraktów i kontraktami obejmującymi wielu klientów.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f1efa9e5b5ad432e1564fb3d8db0405134a4dc73
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0e0652d4b9cdb0489d4f191ef0f3b251e39262f5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584931"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914875"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Zarządzanie wieloma klientami w pozycjach kontraktu opartego na projekcie
 

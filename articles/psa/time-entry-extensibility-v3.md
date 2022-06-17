@@ -1,6 +1,6 @@
 ---
 title: Dostosowywanie wpisu czasu tygodniowego
-description: Ten temat zawiera informacje na temat implementowania niestandardowych reguł biznesowych, które wspierają praktyki stosowane w organizacjach.
+description: Ten artykuł zawiera informacje na temat implementowania niestandardowych reguł biznesowych, które wspierają praktyki stosowane w organizacjach.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918969"
 ---
 # <a name="customize-weekly-time-entry"></a>Dostosowywanie wpisu czasu tygodniowego 
 
@@ -46,9 +46,9 @@ Sekcja **Wymiary** zawiera nagłówki kolumn, w których wszystkie wymiary mogą
 - Typ
 - Stan wpisu
 
-W sekcji **Wymiary** niedozwolona jest edycja w tekście. Ta sekcja jest oparta na widoku, który umożliwia dodawanie niestandardowych pól do tygodniowej siatki wpisów czasu. Aby uzyskać informacje na temat dodawania pól niestandardowych, zobacz sekcję „Możliwości rozszerzania” dalej w tym temacie.
+W sekcji **Wymiary** niedozwolona jest edycja w tekście. Ta sekcja jest oparta na widoku, który umożliwia dodawanie niestandardowych pól do tygodniowej siatki wpisów czasu. Aby uzyskać informacje na temat dodawania pól niestandardowych, zobacz sekcję „Możliwości rozszerzania” dalej w tym artykule.
 
-### <a name="duration"></a>Czas trwania
+### <a name="duration"></a>Duration
 Sekcja Czas trwania pokazuje dni tygodnia jako nagłówki kolumn. Ta sekcja zezwala na edycję w tekście. Po utworzeniu wiersza wpisu o odpowiednich wymiarach użytkownicy mogą szybko wprowadzić i edytować w tekście czas spędzony na tych wymiarach.
 
 ## <a name="create-a-new-time-entry"></a>Tworzenie nowego wpisu czasu

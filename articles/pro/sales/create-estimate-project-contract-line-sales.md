@@ -1,17 +1,17 @@
 ---
 title: Szacowanie pozycji kontraktu opartego na projekcie - wersja uproszczona
-description: Ta temat zawiera informacje na temat oszacowań w pozycji kontraktu opartej na projekcie.
+description: W tym artykule przedstawiono informacje na temat szacowania pozycji kontraktu opartych na projekcie.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 179994a2515686bce2370964121cbdca08a9d085
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597351"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914415"
 ---
 # <a name="estimate-a-projectbased-contract-line---lite"></a>Szacowanie pozycji kontraktu opartego na projekcie - wersja uproszczona
 

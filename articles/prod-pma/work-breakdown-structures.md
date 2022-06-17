@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920671"
 ---
 # <a name="work-breakdown-structures-overview"></a>Omówienie struktur podziału pracy
 
@@ -35,7 +35,7 @@ Stopień szczegółowości struktury SPP jest uzależniony od wymaganego poziomu
 
 Z drugiej strony projekty w branżach takich jak media i reklama, oprogramowanie i infrastruktura IT wydają się być jedyne w swoim rodzaju, a produktywność zależy od doświadczenia i kompetencji osoby wykonującej zadanie. Dlatego branże te używają SPP do uzyskania przybliżonej wielkości projektu, a nie do szczegółowego śledzenia postępu tego projektu. 
 
-Konstruowanie SPP jest procesem intensywnie wykonywanym na czas dłuższym niż długi czas, który wymaga współpracy i informacji z wielu różnych osób. Niniejsza temat opisuje sposób korzystania z ulepszeń SPP w celu spełnienia wymagań dotyczących oszacowań i śledzenia.
+Konstruowanie SPP jest procesem intensywnie wykonywanym na czas dłuższym niż długi czas, który wymaga współpracy i informacji z wielu różnych osób. W tym artykule opisujemy, jak można wykorzystać udoskonalenia wprowadzone do funkcji SPP, aby ułatwić sobie szacowanie i monitorowanie w projekcie.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Wymagania wstępne dla tworzenia zasad SPP
 Aby utworzyć SPP, należy utworzyć harmonogram pracy i oszacować koszt pracy.
@@ -166,7 +166,7 @@ Finansowanie ma trzy widoki dla struktury SPP projektu: widok planowania, widok 
 
 ### <a name="planning-view"></a>Widok planowania
 
-W widoku planowania jest wyświetlane planowane i szacowane według planu bazowego informacje o harmonogramie i koszcie. Mimo że nie istnieją żadne funkcje umożliwiające śledzenie wersji i planu bazowego projektu SPP, wartości w tym widoku są przeznaczone do reprezentowania wersji planu bazowego. Sekcje szacowanie i szacowanie kosztów w tym temat opisują ten widok oraz sposób jego użycia w celu tworzenia SPP.
+W widoku planowania jest wyświetlane planowane i szacowane według planu bazowego informacje o harmonogramie i koszcie. Mimo że nie istnieją żadne funkcje umożliwiające śledzenie wersji i planu bazowego projektu SPP, wartości w tym widoku są przeznaczone do reprezentowania wersji planu bazowego. Sekcje szacowania harmonogramu i kosztów sekcje w tym artykule opisują ten widok i pokazują, jak jest używany do tworzenia SPP.
 
 ### <a name="effort-tracking-view"></a>Widok Śledzenie nakładu pracy
 

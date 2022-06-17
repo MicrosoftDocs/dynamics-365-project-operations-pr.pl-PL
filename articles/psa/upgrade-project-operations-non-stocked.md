@@ -1,6 +1,6 @@
 ---
 title: Uaktualnianie rozwiązania Project Service Automation do Project Operations
-description: Ten temat zawiera omówienie procesu uaktualniania z aplikacji Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Project Operations.
+description: Ten artykuł zawiera omówienie procesu uaktualniania z aplikacji Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626721"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912989"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Uaktualnianie rozwiązania Project Service Automation do Project Operations
 
-Z przyjemnością ogłaszamy rozpoczęcie pierwszej z trzech faz uaktualnienia z aplikacji Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Project Operations. Ten temat zawiera przegląd procesu dla klientów, którzy chcą rozpocząć tę ekscytującą podróż. Przyszłe tematy będą zawierać zagadnienia dla deweloperów i szczegółowe informacje na temat ulepszeń funkcji. Będą nie tylko zawierać wskazówki pomocne przy przygotowywaniu do uaktualnienia do wersji Project Operations, ale także wyjaśnienia, czego można się spodziewać po uaktualnieniu.
+Z przyjemnością ogłaszamy rozpoczęcie pierwszej z trzech faz uaktualnienia z aplikacji Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Project Operations. Ten artykuł zawiera przegląd procesu dla klientów, którzy chcą rozpocząć tę ekscytującą podróż. Przyszłe artykuły będą zawierać zagadnienia dla deweloperów i szczegółowe informacje na temat ulepszeń funkcji. Będą nie tylko zawierać wskazówki pomocne przy przygotowywaniu do uaktualnienia do wersji Project Operations, ale także wyjaśnienia, czego można się spodziewać po uaktualnieniu.
 
 Program dostarczania uaktualnienia zostanie podzielony na trzy fazy.
 
@@ -90,7 +90,7 @@ Po zaktualizowaniu dostosowań w celu czystego zaimportowania aplikacji Project 
     > [!NOTE]
     > W zależności od ilości danych w środowisku uaktualnienie może zająć kilka godzin. Podstawowy zespół zarządzający uaktualnieniem powinien odpowiednio zaplanować i uruchomić uaktualnienie poza godzinami pracy. W niektórych przypadkach, jeśli ilość danych jest duża, uaktualnienie należy przeprowadzić w weekend. Decyzja o planowaniu powinna być oparta na wynikach testowania w środowiskach na niższym poziomie.
 
-3. Uaktualnij odpowiednio rozwiązania niestandardowe. W tym momencie należy wdrożyć wszystkie zmiany wprowadzone w dostosowaniach w sekcji [Testowanie i refaktoryzowanie dostosowań](#testing-and-refactoring-customizations) tego tematu.
+3. Uaktualnij odpowiednio rozwiązania niestandardowe. W tym momencie należy wdrożyć wszystkie zmiany wprowadzone w dostosowaniach w sekcji [Testowanie i refaktoryzowanie dostosowań](#testing-and-refactoring-customizations) tego artykułu.
 4. Przejdź do pozycji **Ustawienia** \> **Rozwiązania** i wybierz opcję odinstalowania rozwiązania **Przestarzałe składniki aplikacji Project Operations**.
 
     To rozwiązanie jest rozwiązaniem tymczasowym, które zawiera istniejący model danych i składniki obecne podczas uaktualnienia. Usunięcie tego rozwiązania powoduje usunięcie wszystkich pól i składników, które nie są już używane. Pozwala to uprościć interfejs oraz ułatwić integrację i stosowanie rozszerzeń.
@@ -126,7 +126,6 @@ W ramach ciągłych inwestycji w aplikację Project Operations w obszarach rozli
 | Automatyzacja usługi projektów                             | Wdrożenie aplikacji Project Operations w wersji uproszczonej                        | Obsługiwane               |
 | Zarządzanie projektami i księgowość w Dynamics 365 Finance | Wdrożenie aplikacji Project Operations w wersji uproszczonej                        | Obecnie nieobsługiwane |
 | Zarządzanie projektami i księgowanie w aplikacji Finance              | Project Operations — zasoby / scenariusze nieobejmujące magazynowania     | Obecnie nieobsługiwane |
-| Zarządzanie projektami i księgowanie w aplikacji Finance              | Project Operations — scenariusze obejmujące magazynowanie / zlecenia produkcyjne | Obecnie nieobsługiwane |
 | Project Service Automation 3.x                         | Project Operations — zasoby / scenariusze nieobejmujące magazynowania     | Obecnie nieobsługiwane |
 | Project for the Web (środowisko dedykowane)            | Wdrożenie aplikacji Project Operations w wersji uproszczonej                        | Obecnie nieobsługiwane |
 

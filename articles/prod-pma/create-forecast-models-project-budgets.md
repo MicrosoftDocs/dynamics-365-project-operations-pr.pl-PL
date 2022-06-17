@@ -1,6 +1,6 @@
 ---
 title: Tworzenie modeli prognoz dla budżetów projektów
-description: W tym temacie opisano sposób tworzenia modelu prognozy dla pozostałego budżetu.
+description: W tym artykule opisano sposób tworzenia modelu prognozy dla pozostałych budżetów.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683643"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916715"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Tworzenie modeli prognoz dla budżetów projektów 
 
 [!include [banner](../includes/banner.md)]
 
-W tym temacie opisano sposób tworzenia modelu prognozy dla pozostałego budżetu. W projekcie, który jest objęty kontrolą budżetu, są używane dwa typy budżetów: początkowy i pozostały. Podczas tworzenia budżetu projektu należy określić modele prognoz budżetu pierwotnego i pozostałego utworzone na stronie **Modele prognozy**. Budżety projektu oparte na określonych modelach są tworzone podczas zatwierdzania budżetu projektu.
+W tym artykule opisano sposób tworzenia modelu prognozy dla pozostałych budżetów. W projekcie, który jest objęty kontrolą budżetu, są używane dwa typy budżetów: początkowy i pozostały. Podczas tworzenia budżetu projektu należy określić modele prognoz budżetu pierwotnego i pozostałego utworzone na stronie **Modele prognozy**. Budżety projektu oparte na określonych modelach są tworzone podczas zatwierdzania budżetu projektu.
 
 > [!NOTE]
 > Model prognozy używany w przypadku kontroli budżetu nie może mieć pod-modelu ani być używanym w ramach pod-modelu.

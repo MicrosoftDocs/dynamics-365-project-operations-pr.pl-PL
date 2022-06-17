@@ -1,23 +1,23 @@
 ---
 title: Omówienie rozpoznawania przychodów
-description: W tym temacie zamieszczono informacje dotyczące rozpoznawania przychodów w aplikacji Project Operations.
+description: W tym artykule przedstawiono informacje na temat rozpoznawania przychodów w aplikacji Project Operations.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601445"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926283"
 ---
 # <a name="revenue-recognition-overview"></a>Omówienie rozpoznawania przychodów
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-W aplikacji Dynamics 365 Project Operations zasady rozpoznawania przychodów różnią się w zależności od wybranej metody fakturowania dla projektu lub części projektu. W tym temacie zamieszczono informacje dotyczące rozpoznawania przychodów w aplikacji Project Operations.
+W aplikacji Dynamics 365 Project Operations zasady rozpoznawania przychodów różnią się w zależności od wybranej metody fakturowania dla projektu lub części projektu. W tym artykule przedstawiono informacje na temat rozpoznawania przychodów w aplikacji Project Operations.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Transakcje rozliczane za pomocą metody rozliczania transakcji czasu i materiałów
 

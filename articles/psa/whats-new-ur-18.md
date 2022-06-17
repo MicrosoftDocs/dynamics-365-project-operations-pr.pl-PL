@@ -1,6 +1,6 @@
 ---
 title: Nowości i zmiany w aplikacji Project Service Automation, wydanie 18, wer. 3
-description: W tym temacie przedstawiono funkcje i poprawki, które są dostępne w programie Project Service Automation, aktualizacja 18, wer. 3.
+description: W tym artykule przedstawiono funkcje i poprawki dostępne w programie Project Service Automation, wydanie aktualizacji 18, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8c76672e63fc4b01d5c6f8cce2831782b9c22326
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e8d423c550d9aa09c9cbb7d4f7c277c43bbe10ae
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598777"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918877"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Project Service Automation, wydanie 18, wer. 3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8598777"
 
 Mamy przyjemność ogłosić najnowszą aktualizację aplikacji Project Service Automation dla Dynamics 365. To wydanie obejmuje znaczną poprawę jakości, wydajności i użyteczności. To wydanie jest zgodne z systemem Dynamics 365 9.x. Aby zaktualizować do tej wersji, odwiedź Centrum administracyjne Dynamics 365 online i przejdź na stronę rozwiązań, aby zainstalować aktualizację. By uzyskać więcej informacji, zobacz [Instalowanie, aktualizowanie lub usuwanie preferowanego rozwiązania](/power-platform/admin/install-remove-preferred-solution).
 
-W tym temacie przedstawiono funkcje i poprawki, które są nowe lub zostały zmienione w programie Project Service Automation, wer. 3, aktualizacja 18. Ta wersja ma numer kompilacji V3.10.8.12 i zazwyczaj jest dostępna za pośrednictwem samoaktualizacji w kwietniu 2020 r.
+W tym artykule przedstawiono funkcje i poprawki, które są nowe lub zostały zmienione w programie Project Service Automation V3, wydanie aktualizacji 18. Ta wersja ma numer kompilacji V3.10.8.12 i zazwyczaj jest dostępna za pośrednictwem samoaktualizacji w kwietniu 2020 r.
 
 ## <a name="update-release-18"></a>Wydanie 18
 

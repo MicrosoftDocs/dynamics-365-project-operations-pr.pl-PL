@@ -1,23 +1,23 @@
 ---
 title: Ustawienia kontraktu projektu - wersja uproszczona
-description: W tym temacie zamieszczono informacje na temat pól mających wpływ na pozycje kontraktu i informacje o podsumowywanym kontrakcie we wszystkich pozycjach.
+description: W tym artykule przedstawiono informacje o polach, które mają wpływ na pozycje kontraktu, oraz informacje dotyczące kontraktu sumowane dla wszystkich pozycji.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586403"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917083"
 ---
 # <a name="header-details-for-project-contracts"></a>Szczegóły nagłówka dla kontraktów projektu
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-Ten temat zawiera informacje o polach mających zastosowanie do całego kontraktu dotyczącego projektu. Omawia też ustawienia, które mają wpływ na wszystkie pozycje kontraktu. Dołączone są również informacje na temat kontraktu, który został podsumowany we wszystkich sumach pozycji w celu tworzenia wskaźników KPI kontraktu projektu.
+W tym artykule opisano pola dotyczące całego kontraktu projektu, w tym ustawienia, które mają wpływ na wszystkie pozycję kontraktu. Dołączone są również informacje na temat kontraktu, który został podsumowany we wszystkich sumach pozycji w celu tworzenia wskaźników KPI kontraktu projektu.
 
 W poniższej tabeli wymieniono pola informacji podsumowującej w kontrakcie projektu, które są unikatowe dla rozwiązania Dynamics 365 Project Operations lub zawierają pewne istotne zmiany w zachowaniu z zamówień sprzedaży w systemie Dynamics 365 Sales.
 

@@ -1,24 +1,24 @@
 ---
 title: Co nowego w kwietniu 2021 r. — wdrażanie wersji uproszczonej Project Operations
-description: Ten temat zawiera informacje o aktualizacjach dotyczących jakości dostępnych w wersji uproszczonej Project Operations z kwietnia 2021 r.
+description: Ten artykuł zawiera informacje o aktualizacjach jakości dostępnych w wydaniu Project Operations — wersja uproszczona w kwietniu 2021 r.
 author: sigitac
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 10d9498636d8c5f72b7544be4ec30f399d5e0311
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 987eeaf2e57659a6facae6b0a3688f15992e8bb9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931252"
 ---
 # <a name="whats-new-april-2021---project-operations-lite-deployment"></a>Co nowego w kwietniu 2021 r. — wdrażanie wersji uproszczonej Project Operations
 
 _Zastosowane do: Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
+Ten artykuł dotyczy następujących składników i wersji oprogramowania Dynamics 365 Project Operations:
 
   - Project Operations w środowisku Dataverse w wersji 4.9.0.221 
 

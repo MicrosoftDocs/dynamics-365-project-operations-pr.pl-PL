@@ -1,17 +1,17 @@
 ---
 title: Weryfikacja faktur dostawców przy użyciu zatwierdzonych wartości rzeczywistych
-description: W tym temacie wyjaśniono, w jaki sposób Microsoft Dynamics 365 Project Operations umożliwia kierownikom projektów weryfikację faktur od dostawców z wartościami rzeczywistymi, które zostały zatwierdzone jako wykonawcy wykonali pracę i zarejestrowany czas, oraz wydatki i materiały, które były używane przez członków zespołu projektowego.
+description: W tym artykule wyjaśniono, w jaki sposób Microsoft Dynamics 365 Project Operations umożliwia kierownikom projektów weryfikację faktur od dostawców z wartościami rzeczywistymi, które zostały zatwierdzone jako wykonawcy wykonali pracę i zarejestrowany czas, oraz wydatki i materiały, które były używane przez członków zespołu projektowego.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3350a51bde2872036b79a789fae23ea6790fb21a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585483"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914231"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Weryfikacja faktur dostawców przy użyciu zatwierdzonych wartości rzeczywistych
 

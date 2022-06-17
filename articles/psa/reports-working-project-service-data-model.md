@@ -1,6 +1,6 @@
 ---
 title: Praca z modelem danych rozwiązania Project Service Automation
-description: W tym temacie zamieszczono informacje dotyczące pracy z modelem danych.
+description: W tym artykule zamieszczono informacje dotyczące pracy z modelem danych.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e0849e5b2ab144814fe5310b11a758475ef56ef5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67932eea78048c09f5f836d1330f412466622c6a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587553"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926697"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Praca z modelem danych rozwiązania Project Service Automation
 
@@ -31,7 +31,7 @@ ms.locfileid: "8587553"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation rozszerza inne encje aplikacji i wprowadza własne encje w modelu danych Common Data Service. W tym temacie opisano niektóre encje, które będą spotykane podczas typowych scenariuszy raportowania PSA.
+Dynamics 365 Project Service Automation rozszerza inne encje aplikacji i wprowadza własne encje w modelu danych Common Data Service. W tym artykule opisano niektóre encje, które będą spotykane podczas typowych scenariuszy raportowania PSA.
 
 ## <a name="reporting-on-opportunities"></a>Raportowanie szans sprzedaży
 

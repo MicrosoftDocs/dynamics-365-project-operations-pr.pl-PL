@@ -1,6 +1,6 @@
 ---
 title: Przewodnik po podstawach sporządzania ofert, kalkulacji cen i fakturowania
-description: Ten temat zawiera łącza do informacji o podstawowych funkcjach sporządzania ofert, kalkulacji cen i rozliczania w programie Project Service Automation.
+description: Ten artykuł zawiera linki do informacji o podstawowych funkcjach sporządzania ofert, kalkulacji cen i rozliczania w programie Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592245"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910827"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Przewodnik po podstawach sporządzania ofert, kalkulacji cen i fakturowania
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592245"
 
 Możliwość znalezienia odpowiednich zasobów we właściwym czasie, zarezerwowania tych zasobów do projektów oraz maksymalnego wykorzystania zasobów pomaga organizacjom osiągnąć cele w zakresie przychodów i zadowolenia klientów. 
 
-Łącze do pliku PDF, które było wcześniej w tym temacie, zostało usunięte, a zawartość przeniesiono do następujących tematów:
+Link do pliku PDF, który był wcześniej w tym artykule, został usunięte, a zawartość przeniesiono do następujących artykułów:
 
 - [Sporządzanie ofert, kalkulacja cen i rozliczanie](../quote-bill-price.md)
 - [Procesy sprzedaży](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Możliwość znalezienia odpowiednich zasobów we właściwym czasie, zarezerwow
 - [Rejestrowanie wartości rzeczywistych](../advanced-actuals.md)
 
 > [!NOTE]
-> Ten temat zostanie usunięty w przyszłej aktualizacji dokumentacji. 
+> Ten artykuł zostanie usunięty w przyszłej aktualizacji dokumentacji. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

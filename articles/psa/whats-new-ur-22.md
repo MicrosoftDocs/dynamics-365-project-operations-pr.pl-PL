@@ -1,6 +1,6 @@
 ---
 title: Nowości i zmiany w Project Service Automation, wydanie 22, wer. 3
-description: W tym temacie przedstawiono funkcje i poprawki, które są dostepne w Project Service Automation, aktualizacja 22, wer. 3.
+description: W tym artykule przedstawiono funkcje i poprawki dostępne w programie Project Service Automation, wydanie aktualizacji 22, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2718509a21c76c12427ec1d78e287df2274f4d72
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 733ee6e0d3583f21d0f58f9651920be3e3fd8cb0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930653"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Project Service Automation, wydanie 22, wer. 3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588795"
 
 Mamy przyjemność ogłosić najnowszą aktualizację aplikacji Project Service Automation dla Dynamics 365. To wydanie obejmuje znaczną poprawę jakości, wydajności i użyteczności. To wydanie jest zgodne z systemem Dynamics 365 9.x. Aby zaktualizować do tej wersji, odwiedź centrum administracyjne Dynamics 365 online i przejdź na stronę rozwiązań, aby zainstalować aktualizację. By uzyskać więcej informacji, zobacz [Instalowanie, aktualizowanie lub usuwanie preferowanego rozwiązania](/power-platform/admin/install-remove-preferred-solution).
 
-W tym temacie przedstawiono funkcje i poprawki, które są nowe lub zostały zmienione w Project Service Automation, wer. 3, aktualizacja 22. Ta wersja ma numer kompilacji wer. 3.10.33.48 i zazwyczaj jest dostępna za pośrednictwem samoaktualizacji w czerwcu 2020 r.
+W tym artykule przedstawiono funkcje i poprawki, które są nowe lub zostały zmienione w programie Project Service Automation V3, wydanie aktualizacji 22. Ta wersja ma numer kompilacji wer. 3.10.33.48 i zazwyczaj jest dostępna za pośrednictwem samoaktualizacji w czerwcu 2020 r.
 
 ## <a name="update-release-22"></a>Wydanie 22
 

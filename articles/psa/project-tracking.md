@@ -1,6 +1,6 @@
 ---
 title: Postęp projektu i poniesione koszty
-description: W tym temacie zamieszczono informacje dotyczące śledzenia postępu i zużycia kosztów w projekcie.
+description: W tym artykule zamieszczono informacje dotyczące śledzenia postępu projektu i zużycia kosztów.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575271"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921775"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Postęp projektu i poniesione koszty
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575271"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Konieczność śledzenia postępu w harmonogramie zależy od branży. Niektóre branże są śledzone na niższym poziomie szczegółowości, podczas gdy inne branże śledzone są na wyższym poziomie. W tym temat pokazano, jak planować w celu spełnienia wymagań organizacji.
+Konieczność śledzenia postępu w harmonogramie zależy od branży. Niektóre branże są śledzone na niższym poziomie szczegółowości, podczas gdy inne branże śledzone są na wyższym poziomie. W tym artykule pokazano, jak planować w celu spełnienia wymagań organizacji.
 
 ## <a name="effort-tracking-view"></a>Widok Śledzenie nakładu pracy
 

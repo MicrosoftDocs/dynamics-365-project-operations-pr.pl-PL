@@ -1,6 +1,6 @@
 ---
 title: Fakturowanie w Project Service Automation
-description: Ten temat zawiera informacje o fakturowaniu.
+description: Ten artykuł zawiera informacje o fakturowaniu.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579319"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926835"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturowanie w Project Service Automation
 
@@ -94,7 +94,7 @@ Kiedy **ProcessRunner** zakończy działanie, wywołuje **ProcessRunCaller**, do
 Zadanie przetwarzania wsadowego umożliwiającego tworzenie faktur jest zadaniem powtarzanym. Jeśli ten proces wsadowy jest wykonywany wiele razy, system tworzy wiele wystąpień zadania i powoduje to wystąpienie błędów. Z tego powodu proces przetwarzania wsadowego powinien być uruchamiany tylko raz. Aby uruchomić go tylko wtedy, gdy zakończy się jego działanie.
 
 > [!NOTE]
-> Księgowanie w partii w Project Service Automation jest wykonywane tylko dla pozycji kontraktu projektu, które są konfigurowane przez harmonogramy faktur. Pozycja kontraktu z metodą fakturowania przy stałej cenie musi mieć skonfigurowany punkt kontrolny. Pozycja kontraktu projektu z metodą rozliczania czasu i materiału będzie wymagała konfiguracji harmonogramu fakturowania opartego na datach. Informacje o konfigurowaniu częstotliwości fakturowania w kontekście projektu opartego na wierszu oferty są dostępne w temacie [Oferty i wiersze ofert](basic-quote-lines.md#invoice-schedule). To samo dotyczy pozycji kontraktu opartej na projektach.      
+> Księgowanie w partii w Project Service Automation jest wykonywane tylko dla pozycji kontraktu projektu, które są konfigurowane przez harmonogramy faktur. Pozycja kontraktu z metodą fakturowania przy stałej cenie musi mieć skonfigurowany punkt kontrolny. Pozycja kontraktu projektu z metodą rozliczania czasu i materiału będzie wymagała konfiguracji harmonogramu fakturowania opartego na datach. Informacje na temat konfigurowania częstotliwości fakturowania w kontekście projektu opartego na wierszu oferty są zawarte w artykule [Oferty i wiersze oferty](basic-quote-lines.md#invoice-schedule). To samo dotyczy pozycji kontraktu opartej na projektach.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Edytuj roboczą fakturę z PSA
 

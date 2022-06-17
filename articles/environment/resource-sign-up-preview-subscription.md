@@ -1,17 +1,17 @@
 ---
 title: Rejestracja w przeglądzie subskrypcji Project Operations w ramach scenariuszy zasobów / zasobów niemagazynowanych
-description: W tym temacie zamieszczono informacje dotyczące sposobu subskrypcji i wdrożenia Project Operations do obsługi zasobów i zasobów niemagazynowanych.
+description: W tym artykule podano informacje o tym, jak subskrybować i wdrożyć aplikację Project Operations w scenariuszach opartych na zasobach lub nieopartych na zaopatrzeniu.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575823"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920119"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Rejestracja w przeglądzie subskrypcji Project Operations w ramach scenariuszy zasobów / zasobów niemagazynowanych
 
@@ -19,7 +19,7 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 
 
-Ten temat wyjaśnia, jak subskrybować ofertę wersji próbnej i wdrożyć środowisko aplikacji Project Operations dla scenariuszy obejmujących zasoby/nieobejmujących magazynowania.
+W tym artykule wyjaśniono, jak subskrybować ofertę w wersji próbnej i wdrożyć środowisko aplikacji Project Operations w scenariuszach opartych na zasobach lub nieopartych na zaopatrzeniu.
 
 ## <a name="prerequisites"></a>Wymagania wstępne
 - Użytkownik wdrażający wersję zapoznawczą musi posiadać prawa administratora globalnego dzierżawy Azure. Dzierżawcę można utworzyć podczas realizowania pierwszej oferty. 
@@ -60,19 +60,19 @@ Przejdź do [wersji próbnej aplikacji Dynamics 365 for Finance w wersji zapozna
 
 ## <a name="start-a-new-project-in-lcs"></a>Rozpoczęcie nowego projektu w LCS
 
-Utwórz nowy projekt LCS, tak jak to opisano w temacie [Rozpoczynanie nowego projektu w LCS](create-lcs-project.md)
+Tworzenie nowego projektu LCS w sposób opisany w artykule [Rozpoczynanie nowego projektu w aplikacji LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Dodaj subskrypcję Azure do projektu LCS
 
-Aby wykonać to zadanie, należy wykonać kroki opisane w temacie [Dodawanie subskrypcji Azure do projektu LCS](resource-add-azure-subscription-lcs-project.md).
+Aby wykonać to zadanie, wykonaj kroki opisane w artykule [Dodawanie subskrypcji platformy Azure do projektu LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Wdrażanie środowiska demonstracyjnego Finance z Project Operations dla scenariuszy zasobów / zasobów niemagazynowanych
 
-Postępuj zgodnie z instrukcjami w temacie [Ustanowienie nowego środowiska](resource-provision-new-environment.md), aby zakończyć wdrażanie. Skorzystaj z typu wdrożenia: [wersja demonstracyjna](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) w celu zapoznania się z funkcjami. 
+Postępuj zgodnie z wskazówkami w artykule [Ustanowienie nowego środowiska](resource-provision-new-environment.md) w celu ukończenia wdrażania. Skorzystaj z typu wdrożenia: [wersja demonstracyjna](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) w celu zapoznania się z funkcjami. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Zainstaluj konfigurację CDS i dane konfiguracyjne
 
-Zainstaluj konfigurację CDS i dane konfiguracyjne, tak jak to opisano w temacie [Konfiguracja i stosowanie danych konfiguracyjnych w usłudze Common Data Service](resource-apply-pro-setup-config-data.md).
+Zainstaluj dane instalacyjne i konfiguracyjne CDS zgodnie z opisem w artykule [Konfigurowanie i stosowanie danych konfiguracji w aplikacji Common Data Service](resource-apply-pro-setup-config-data.md).
 Wykonaj ten krok dopiero po wdrożeniu środowiska pokazowego aplikacji Finance i przygotowaniu danych do pokazu.
 
 

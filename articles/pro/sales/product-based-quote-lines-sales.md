@@ -1,17 +1,17 @@
 ---
 title: Omówienie wierszy oferty opartej na produkcie - wersja uproszczona
-description: Ten temat zawiera informacje dotyczące pracy z wierszami ofert opartymi na produktach.
+description: W tym artykule przedstawiono informacje na temat pracy z pozycjami ofertami opartymi na produkcie.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6d86bf3ed81dbb69912d0694909aa5448a958666
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: db0700e789202a8fdd0ef3b49959421ac54fb9ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914323"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>Omówienie wierszy oferty opartej na produkcie - wersja uproszczona
 

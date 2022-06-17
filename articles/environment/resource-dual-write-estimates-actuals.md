@@ -1,24 +1,24 @@
 ---
 title: Szacowania projektu i integracja wartości rzeczywistych
-description: Ten temat zawiera informacje na temat integracji podwójnego zapisu w Project Operations dla oszacowań i danych rzeczywistych projektu.
+description: W tym artykule przedstawiono informacje dotyczące integracji podwójnego zapisu w aplikacji Project Operations na potrzeby szacowanych i rzeczywistych wartości projektu.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577203"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914599"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Szacowania projektu i integracja wartości rzeczywistych
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Ten temat zawiera informacje na temat integracji podwójnego zapisu w Project Operations dla oszacowań i danych rzeczywistych projektu.
+W tym artykule przedstawiono informacje dotyczące integracji podwójnego zapisu w aplikacji Project Operations na potrzeby szacowanych i rzeczywistych wartości projektu.
 
 ## <a name="project-estimates"></a>Szacowania projektu
 

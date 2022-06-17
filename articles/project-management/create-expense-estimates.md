@@ -1,17 +1,17 @@
 ---
 title: Szacowania finansowe dotyczące wydatków w projektach
-description: W tym temacie zamieszczono informacje dotyczące definiowania lub szacowania kosztów opartych na projektach.
+description: W tym artykule przedstawiono informacje na temat definiowania lub szacowania wydatków opartych na projekcie.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c14dc31d666d0e0d026cf9cddfa1e78dee40f717
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5a29244a65dd88d3ba0f8333a63627bb0c068273
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589486"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925715"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>Szacowania finansowe dotyczące wydatków w projektach
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_

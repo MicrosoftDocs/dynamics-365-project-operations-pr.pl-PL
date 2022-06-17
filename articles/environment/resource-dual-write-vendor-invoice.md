@@ -1,18 +1,18 @@
 ---
 title: Integracja faktury od dostawcy
-description: Ten temat zawiera informacje o integracji faktur od dostawcy w Project Operations.
+description: W tym artykule przedstawiono informacje na temat integracji faktur dla dostawcy w aplikacji Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591188"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912069"
 ---
 # <a name="vendor-invoice-integration"></a>Integracja faktury od dostawcy
 
@@ -21,7 +21,7 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 Zamówienia związane z projektem w Dynamics 365 Project Operations można rejestrować, przechodząc do **Rozrachunki z dostawcami** > **Faktury** > **Oczekujące faktury od dostawców** i używając dokumentu oczekującej faktury sprzedawcy. Aby uzyskać więcej informacji, zobacz [jak zakupić materiały niebędące na stanie magazynowym za pomocą oczekującej faktury dostawcy](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Przed użyciem funkcji opisanych w tym temacie należy przejrzeć i zastosować wymagane konfiguracje. Aby uzyskać więcej informacji, zobacz [jak włączyć obsługę materiałów niebędących na stanie magazynowym i oczekujących na faktury dostawcy](../procurement/configure-materials-nonstocked.md).
+> Przed użyciem funkcji opisanych w tym artykule należy przejrzeć i zastosować wymagane konfiguracje. Aby uzyskać więcej informacji, zobacz [jak włączyć obsługę materiałów niebędących na stanie magazynowym i oczekujących na faktury dostawcy](../procurement/configure-materials-nonstocked.md).
 
 W Project Operations wiersze raportu dotyczące faktur dostawcy są publikowane przy użyciu specjalnych reguł publikowania:
 

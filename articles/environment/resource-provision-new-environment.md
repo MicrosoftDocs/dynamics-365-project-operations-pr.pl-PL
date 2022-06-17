@@ -1,18 +1,18 @@
 ---
 title: Ustanowienie nowego środowiska
-description: W tym temacie zamieszczono informacje dotyczące tworzenia nowego środowiska w Project Operations.
+description: W tym artykule zamieszczono informacje dotyczące sposobu ustanawiania nowego środowiska aplikacji Project Operations.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594867"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931619"
 ---
 # <a name="provision-a-new-environment"></a>Ustanowienie nowego środowiska
 
@@ -20,7 +20,7 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 
 
-Ten temat zawiera informacje o sposobach ustanawiania nowego środowiska aplikacji Dynamics 365 Project Operations dla scenariuszy opartych na zasobach/braku zapasów.
+W tym artykule zawarto informacje na temat ustanawiania nowego środowiska Dynamics 365 Project Operations na potrzeby scenariuszy zasobów/scenariuszy nieopartych na zaopatrzeniu.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Włączanie zautomatyzowanego ustanawiania Project Operations w ramach projektu LCS
 

@@ -1,21 +1,21 @@
 ---
 title: Tworzenie konta dla subskrypcji w wersji zapoznawczej — wersja uproszczona
-description: W tym temacie zamieszczono informacje dotyczące sposobu subskrypcji programu Project Operations w wersji okrojonej— od oferty do faktury pro forma.
+description: W tym artykule podano informacje o tym, jak subskrybować i wdrożyć uproszczone wdrożenie aplikacji Project Operations — od okazji do faktury pro forma.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588013"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921269"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Tworzenie konta dla subskrypcji w wersji zapoznawczej — wersja uproszczona 
 
-Ten temat wyjaśnia, jak subskrybować ofertę wersji próbnej i przeprowadzić uproszczone wdrożenie aplikacji Dynamics 365 Project Operations — od transakcji do faktury proforma.
+W tym artykule wyjaśniono, jak subskrybować ofertę w wersji próbnej i wdrożyć uproszczone wdrożenie aplikacji Dynamics 365 Project Operations — od okazji do faktury pro forma.
 
 > [!NOTE]
 > Ten proces będzie się zmieniać w nadchodzących wersjach Project Operations.
@@ -50,7 +50,7 @@ Przed rozpoczęciem pracy należy się upewnić, że użytkownik jest zalogowany
 
 ## <a name="create-a-new-dataverse-environment"></a>Utwórz nowe środowisko Dataverse
 
-1. Aprowizuj nowe środowisko wdrożenia usługi Project Operations Dataverse dzięki instrukcjom w temacie [Model wdrożenia usługi Dataverse](lite-deployment.md). Podczas wybierania typu środowiska należy pamiętać o użyciu **wersji próbnej (opartej na subskrypcji)**.
+1. Ustanów nowe środowisko wdrażania usługi Project Operations Dataverse zgodnie z instrukcjami podanymi w artykule [Model wdrożenia usługi Dataverse](lite-deployment.md). Podczas wybierania typu środowiska należy pamiętać o użyciu **wersji próbnej (opartej na subskrypcji)**.
 
   ![Nowe środowisko.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Przed rozpoczęciem pracy należy się upewnić, że użytkownik jest zalogowany
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Zainstaluj konfigurację CDS i dane wersji demonstracyjnej
 
-Zainstaluj konfigurację CDS i skonfiguruj dane demonstracyjne, wykonując poniższe instrukcje opisane w temacie [zastosowanie konfiguracji demonstracyjnej i danych konfiguracyjnych](lite-apply-demo-setup-config-data.md).
+Zainstaluj konfigurację usługi CDS i skonfiguruj dane pokazu zgodnie z instrukcjami podanymi w artykule [Zastosowanie pokazowej konfiguracji i danych konfiguracyjnych](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

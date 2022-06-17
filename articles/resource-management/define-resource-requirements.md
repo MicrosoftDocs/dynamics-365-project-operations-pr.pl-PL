@@ -1,17 +1,17 @@
 ---
 title: Definiowanie wymagań zasobów
-description: W tym temacie zamieszczono informacje określające informację wymagania zasobów.
+description: W tym artykule podano informacje na temat definiowania informacji o wymaganiach dotyczących zasobów.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 6f1b69269203a9b05dbda9d3ac8d9fbb57d917c5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0ea0b883b764478f381312d9fb9c323a1563b22a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924949"
 ---
 # <a name="define-resource-requirements"></a>Definiowanie wymagań zasobów
 

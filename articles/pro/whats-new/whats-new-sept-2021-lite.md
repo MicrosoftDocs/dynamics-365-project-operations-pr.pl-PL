@@ -1,24 +1,24 @@
 ---
 title: Co nowego we wrześniu 2021 r. — Project Operations — wersja uproszczona
-description: To temat zawiera informacje o aktualizacjach jakości dostępnych w wydaniu Project Operations — wersja uproszczona we wrześniu 2021 r.
+description: Ten artykuł zawiera informacje o aktualizacjach jakości dostępnych w wydaniu Project Operations — wersja uproszczona we wrześniu 2021 r.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f84d19df59e9f726d6ee456ff6064ad24529b577
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 275b2630588497f867e7ba886c458fa738778187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931297"
 ---
 # <a name="whats-new-september-2021---project-operations-lite-deployment"></a>Co nowego we wrześniu 2021 r. — Project Operations — wersja uproszczona
 
 _Zastosowane do: Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
+Ten artykuł dotyczy następujących składników i wersji oprogramowania Dynamics 365 Project Operations:
 
   - Project Operations w środowisku Microsoft Dataverse w wersji 4.14.0.99
 

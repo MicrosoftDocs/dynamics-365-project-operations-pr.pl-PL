@@ -1,17 +1,17 @@
 ---
 title: Definiowanie ról
-description: W tym temacie zamieszczono link do informacji dotyczących sposobu konfigurowania kategorii zasobów możliwych do zarezerwowania.
+description: Ten artykuł zawiera link do informacji na temat sposobu konfigurowania kategorii zasobów możliwych do zarezerwowania.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 4e8c965a1a977ba9c92d80f61b73ccab98635ec4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 87884fab51159744b1ebb287c34fb0414c8fd6da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924903"
 ---
 # <a name="define-roles"></a>Definiowanie ról
 

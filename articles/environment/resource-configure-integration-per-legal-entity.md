@@ -1,23 +1,23 @@
 ---
 title: Konfigurowanie integracji aplikacji Project Operations według firm
-description: W tym temacie zamieszczono informacje dotyczące ustawienia integracji danych dotyczących podmiotu prawnego w Project Operations.
+description: W tym artykule przedstawiono informacje dotyczące konfigurowania integracji według firmy w aplikacji Project Operations.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585851"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914691"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurowanie integracji aplikacji Project Operations według firm 
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Ta temat przeprowadzi Cię przez kroki wymagane do skonfigurowania rozwiązania Dynamics 365 Project Operations dla firmy.
+W tym artykule opisano kroki wymagane do skonfigurowania aplikacji Dynamics 365 Project Operations według firmy.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Włącz funkcję kluczy w Dynamics 365 Finance
 

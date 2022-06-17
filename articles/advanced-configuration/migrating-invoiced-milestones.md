@@ -1,17 +1,17 @@
 ---
 title: Migrowanie w pełni zafakturowanych punktów kontrolnych rozliczania przy najechańczym
-description: W temat wyjaśniono sposób migrowania punktów kontrolnych rozliczania o stałej cenie, które zostały zafakturowane klientowi w celu otwarcia kontraktów projektów przed datą rozpoczęcia.
+description: W tym artykule wyjaśniono sposób migrowania punktów kontrolnych rozliczania o stałej cenie, które zostały zafakturowane dla klienta w celu otwarcia kontraktów projektów przed datą rozpoczęcia.
 author: sigitac
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ccdba864a68521024b2c479c12cf5cea616c5bbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576283"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912253"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Migrowanie w pełni zafakturowanych punktów kontrolnych rozliczania przy najechańczym
 

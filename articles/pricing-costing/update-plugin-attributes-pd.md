@@ -1,33 +1,33 @@
 ---
 title: Aktualizowanie atrybutów dodatków plug-in przy użyciu nowych wymiarów kalkulacji cen
-description: W tym temacie zamieszczono informacje dotyczące sposobu aktualizowania atrybutów dodatków plug-in o wymiary kalkulacji cen.
+description: W tym artykule podano informacje dotyczące sposobu aktualizowania atrybutów dodatków plug-in o wymiary cen.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575041"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920027"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Aktualizowanie atrybutów dodatków plug-in przy użyciu nowych wymiarów kalkulacji cen
 
-W tym temacie zamieszczono informacje dotyczące sposobu aktualizowania atrybutów dodatków plug-in o wymiary kalkulacji cen.
+W tym artykule podano informacje dotyczące sposobu aktualizowania atrybutów dodatków plug-in o wymiary cen.
 
 > [!NOTE]
-> Ta temat ma zastosowanie wyłącznie do funkcji ofert i kontraktów w aplikacji Dynamics 365 Project Operations.
+> Ten artykuł dotyczy jedynie funkcji ofert i kontraktów w aplikacji Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Wymagania wstępne
-Przed wykonaniem czynności opisanych w tym temacie należy wykonać procedury opisane w następujących tematach:
+Przed zakończeniem czynności opisanych w tym artykule należy wykonać procedury opisane w następujących artykułach:
 
   - [Tworzenie niestandardowych pól i encji](create-custom-fields-entities-pricing-dimensions.md) 
   - [Dodawanie pól niestandardowych do ustawień cen i encji transakcyjnych ](add-custom-fields-price-setup-transactional-entities.md)
   - [Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen](set-up-custom-fields-pricing-dimensions.md). 
   
-Jeśli tych procedur jeszcze nie wykonano, wykonaj je, a następnie wróć do tego tematu.
+Jeśli tych procedur jeszcze nie wykonano, wykonaj je, a następnie wróć do tego artykułu.
 
 ## <a name="register-a-plug-in"></a>Rejestrowanie dodatku plug-in
 W przypadku tworzenia szczegółów wiersza oferty na stronie **Wiersz oferty** dla wiersza oferty projektu system tworzy dwa wiersze szacowania. Jeden wiersz to szacowanie po stronie kosztów, a drugi wiersz — po stronie sprzedaży. To samo dzieje się dla pozycji kontraktu projektu.

@@ -1,6 +1,6 @@
 ---
 title: Nowości i zmiany w programie Project Service Automation w wersji 3
-description: Niniejszy temat zawiera informacje dotyczące nowości i zmian w programie Project Service Automation w wersji 3.
+description: W tym artykule przedstawiono informacje na temat nowości i zmian w programie Project Service Automation w wersji 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581665"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926605"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Nowości i zmiany w programie Project Service Automation w wersji 3
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581665"
 
 
 
-W tym temat zamieszczono informacje dotyczące zmian w interfejsie użytkownika (UI), funkcji i terminologii w programie Project Service Automation między wersją 2 lub wersją 1 i wersją 3.
+W tym artykule zamieszczono informacje dotyczące zmian w interfejsie użytkownika (UI), funkcji i terminologii w programie Project Service Automation (PSA) między wersją 2 lub wersją 1 i wersją 3.
 
 ## <a name="project-scheduling"></a>Harmonogram projektu
 Zmieniono nazwę harmonogramu projektu, który w poprzednich wersjach programu był znany jako Struktura podziału pracy (SPP), na Harmonogram i teraz jest on dostępny po kliknięciu karty **Harmonogram**. 
@@ -150,7 +150,7 @@ W sytuacjach, gdy istnieją przypisania zadań dla zasobu, ale nie ma rezerwacji
 W tej sekcji zamieszczono informacje dotyczące zmian czasu, wydatków i zatwierdzania w wersji 3 rozwiązania Project Service Automation. W ramach rozwiązania Dynamics 365 Project Service Automation funkcja **Wpis czasu** została odświeżona w celu wykorzystania struktury ujednoliconego interfejsu. Dzięki temu można dostarczać spójny, jednolity interfejs użytkownika, który jest łatwy w obsłudze i zapewnia dobra widoczność na wszystkich ekranach bez względu na ich wielkość. 
 
 ### <a name="landing-page"></a>Strona docelowa
-Nierozszerzalny niestandardowy wpis czasu został wycofany w wersji 3. Zamiast tego wprowadzono rozszerzalne i dostępne funkcje siatki natywnej. Aby uzyskać dostęp do funkcji wpisu czasu, należy skorzystać z mapy witryny znajdującej się po lewej stronie. Wprowadzenie tej zmiany spowoduje, że użytkownik nie będzie mógł wprowadzić jednorazowo czasu dla jednego tygodnia. Zamiast tego konieczne będzie utworzenie wpisu czasu dla każdego dnia w siatce. Po utworzeniu kilku wpisów czasu użytkownicy mogą tworzyć zbiorczo wpisy czasu, korzystając z funkcji **Kopiuj** objaśnionej szerzej w dalszej części tego tematu. 
+Nierozszerzalny niestandardowy wpis czasu został wycofany w wersji 3. Zamiast tego wprowadzono rozszerzalne i dostępne funkcje siatki natywnej. Aby uzyskać dostęp do funkcji wpisu czasu, należy skorzystać z mapy witryny znajdującej się po lewej stronie. Wprowadzenie tej zmiany spowoduje, że użytkownik nie będzie mógł wprowadzić jednorazowo czasu dla jednego tygodnia. Zamiast tego konieczne będzie utworzenie wpisu czasu dla każdego dnia w siatce. Po utworzeniu kilku wpisów czasu użytkownicy mogą tworzyć zbiorczo wpisy czasu, korzystając z funkcji **Kopiuj** objaśnionej szerzej w dalszej części tego artykułu. 
 
 ![Strona docelowa wpisu czasu.](media/time-entry-landing-page-07.png)
  

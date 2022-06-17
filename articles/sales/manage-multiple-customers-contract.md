@@ -1,21 +1,21 @@
 ---
 title: Zarządzanie wieloma klientami w kontraktach projektu
-description: Ten temat zawiera informacje o sposobach zarządzania wieloma klientami w kontraktach dotyczących projektu.
+description: W tym artykule przedstawiono informacje na temat sposobu zarządzania wieloma klientami w kontrakcie projektu.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928353"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Zarządzanie wieloma klientami w kontraktach projektu
 
-Ten temat zawiera informacje o sposobach zarządzania wieloma klientami w kontraktach dotyczących projektu. Kontraktu projektu można użyć, jeśli trzeba zawrzeć umowę kontraktową dotyczącą wielu klientów w celu finansowania transakcji. Na stronie **Kontrakt projektu** na karcie **Podsumowanie** znajdują się informacje dotyczące podstawowego klienta transakcji. Innych klientów uczestniczących w transakcji można dodać do karty **Klienci**.
+W tym artykule przedstawiono informacje na temat sposobu zarządzania wieloma klientami w kontrakcie projektu. Kontraktu projektu można użyć, jeśli trzeba zawrzeć umowę kontraktową dotyczącą wielu klientów w celu finansowania transakcji. Na stronie **Kontrakt projektu** na karcie **Podsumowanie** znajdują się informacje dotyczące podstawowego klienta transakcji. Innych klientów uczestniczących w transakcji można dodać do karty **Klienci**.
 
 Wszyscy klienci kontraktu na karcie **Klienci** kontraktu projektu są domyślnie ustawiani jako klienci pozycji kontraktu we wszystkich nowych pozycjach kontraktu tworzonych na podstawie kontraktu dotyczącego projektu. Żadne istniejące pozycje kontraktu oparte na projektach nie dziedziczą rekordów nowych klientów kontraktu, które zostaną utworzone później.
 

@@ -1,23 +1,23 @@
 ---
 title: Dodaj subskrypcję Azure do projektu LCS
-description: W tym temat zamieszczono informacje dotyczące sposobu łączenia subskrypcji usługi Azure z projektem LCS.
+description: W tym artykule przedstawiono informacje na temat łączenia subskrypcji platformy Azure z projektem rozwiązania LCS.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912161"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Dodaj subskrypcję Azure do projektu LCS
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Środowiska hostowane w chmurze muszą zostać wdrożone za pomocą istniejącej subskrypcji platformy Azure. W tym temacie zamieszczono informacje dotyczące sposobu łączenia istniejącej subskrypcji usługi Azure z projektem LCS. 
+Środowiska hostowane w chmurze muszą zostać wdrożone za pomocą istniejącej subskrypcji platformy Azure. W tym artykule wyjaśniono, jak połączyć istniejącą subskrypcję platformy Azure z projektem rozwiązania LCS. 
 
 ## <a name="grant-admin-consent"></a>Wyrażanie zgody administratora
 
@@ -59,7 +59,7 @@ Autoryzacja jest teraz ukończona.
 2. Wprowadź identyfikator subskrypcji platformy Azure. Identyfikator subskrypcji platformy Azure można znaleźć w [portalu Azure](https://ms.portal.azure.com/), w obszarze **Ustawienia** w lewej dolnej części ekranu.
 3. W polu **Konfiguruj, aby korzystać z Azure Resource Manager** wybierz opcję **Tak**.
 4. Upewnij się, że domena dzierżawy subskrypcji Azure usługi AAD pasuje do używanej przez użytkownika domeny subskrypcji platformy Azure i wybierz opcję **Dalej**.
-5. Na ekranie **Konfiguracji Microsoft Azure** wybierz pozycję **Dalej**, aby potwierdzić. Jeśli na tym ekranie zostanie wyświetlony komunikat o błędzie, powróć do sekcji [Umożliw dostęp Dynamics Deployment Services do Twojej subskrypcji Azure](#provide) w tym temacie i upewnij się, że zostały zakończone wszystkie opisane czynności.
+5. Na ekranie **Konfiguracji Microsoft Azure** wybierz pozycję **Dalej**, aby potwierdzić. Jeśli na tym ekranie wystąpi błąd, wróć do sekcji [Przydzielanie dostępu usług Dynamics Deployment Services do subskrypcji platformy Azure](#provide) w tym artykule i upewnij się, że wszystkie kroki zostały ukończone.
 6. Pobierz Azure Management Certificate do folderu lokalnego na komputerze. Poproś administratora Azure o przesłanie certyfikatu do Azure Management Portal, wybierając subskrypcję i przechodząc do **Ustawienia** > **Certyfikaty zarządzania**. Ten certyfikat umożliwia usługom LCS komunikację z platformą Azure w imieniu użytkownika. Jeśli użytkownik ma dostęp do subskrypcji, można pominąć ten krok.
 7. Wybierz **Dalej**.
 8. Wybierz obszar Azure, którego wdrożenie ma zostać wdrożone, i wybierz centrum danych, które znajduje się w pobliżu miejsca, w którym zamierzasz używać tego systemu.

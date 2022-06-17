@@ -1,24 +1,24 @@
 ---
 title: Usunięte lub przestarzałe funkcje w aplikacji Dynamics 365 Project Operations
-description: W tym temacie opisano funkcje, które zostały usunięte lub są przeznaczone do usunięcia z aplikacji Dynamics 365 Project Operations.
+description: W tym artykule opisano funkcje, które zostały usunięte lub są przeznaczone do usunięcia z aplikacji Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921499"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Usunięte lub przestarzałe funkcje w aplikacji Dynamics 365 Project Operations
 
 _**Ma zastosowanie do:** Project Operations dla scenariuszy opartych na zasobach / braku zapasów, wdrożenie w wersji uproszczonej - zajmuj się fakturowaniem proforma i Project Operations dla scenariuszy magazynowych / opartych na produkcji_
 
-W tym temacie opisano funkcje, które zostały usunięte lub są przeznaczone do usunięcia z aplikacji Dynamics 365 Project Operations.
+W tym artykule opisano funkcje, które zostały usunięte lub są przeznaczone do usunięcia z aplikacji Dynamics 365 Project Operations.
 
 - *Usunięta* funkcja nie jest już dostępna w produkcie.
 - *Przestarzała* funkcja nie znajduje się w aktywnym planowaniu i może zostać usunięta w przyszłej aktualizacji.

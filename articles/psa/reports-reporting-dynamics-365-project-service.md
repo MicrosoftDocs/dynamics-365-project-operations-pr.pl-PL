@@ -1,6 +1,6 @@
 ---
 title: Strona główna raportowania
-description: Ten temat zawiera informacje o raportowaniu w programie Dynamics 365 Project Service Automation.
+description: Ten artykuł zawiera informacje o raportowaniu w programie Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595971"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921683"
 ---
 # <a name="reporting-home-page"></a>Strona główna raportowania
 
@@ -47,7 +47,7 @@ Wspólnie usługi Microsoft Power BI i Dynamics 365 umożliwiają zaawansowaną 
 
 
 ## <a name="additional-resources"></a>Dodatkowe zasoby
-Więcej informacji na temat sprawozdawczości w programie PSA można znaleźć w następujących tematach:
+Więcej informacji na temat sprawozdawczości w programie PSA można znaleźć w następujących artykułach:
 
 - [Praca z modelem danych usługi Project Service](reports-working-project-service-data-model.md)
 - [Pulpity nawigacyjne](reports-dashboards.md)

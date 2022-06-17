@@ -1,24 +1,24 @@
 ---
 title: Co nowego w czerwcu 2021 r. — Project Operations dla scenariuszy obejmujących zasoby/nieobejmujących magazynowania
-description: To temat zawiera informacje o istotnych aktualizacjach dostępnych w wydaniu aplikacji Project Operations z czerwca 2021 r. dla scenariuszy obejmujących zasoby/nieobejmujących magazynowania.
+description: Ten artykuł zawiera informacje o aktualizacjach jakości dostępnych w wydaniu Project Operations w czerwcu 2021 r. dla scenariuszy opartych na zasobach/nieopartych na zaopatrzeniu.
 author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600801"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910597"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co nowego w czerwcu 2021 r. — Project Operations dla scenariuszy obejmujących zasoby/nieobejmujących magazynowania
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
+Ten artykuł dotyczy następujących składników i wersji oprogramowania Dynamics 365 Project Operations:
 
 - Aplikacja Project Operations w środowisku usługi Dynamics 365 Dataverse w wersji 4.11.0.156 lub 4.11.0.164.
 - Zarządzanie projektami i księgowymi w środowiskach aplikacji finansowe i operacyjne wersja 10.0.19.

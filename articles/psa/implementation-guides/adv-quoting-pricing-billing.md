@@ -1,6 +1,6 @@
 ---
 title: Zaawansowane funkcje sporządzania ofert, kalkulacji cen i rozliczania
-description: Ten temat zawiera informacje o funkcjach sporządzania ofert, kalkulacji cen i rozliczania w programie Project Service Automation.
+description: Ten artykuł zawiera informacje o funkcjach sporządzania ofert, kalkulacji cen i rozliczania w programie Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579365"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921821"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Rozszerzony przewodnik dotyczący sporządzania ofert, kalkulacji cen i fakturowania
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579365"
 
 Możliwość znalezienia odpowiednich zasobów we właściwym czasie, zarezerwowania tych zasobów do projektów oraz maksymalnego wykorzystania zasobów pomaga organizacjom osiągnąć cele w zakresie przychodów i zadowolenia klientów. 
 
-Łącze do pliku PDF, które było wcześniej w tym temacie, zostało usunięte, a zawartość przeniesiono do następujących tematów:
+Link do pliku PDF, który był wcześniej w tym artykule, został usunięte, a zawartość przeniesiono do następujących artykułów:
 
 - [Sporządzanie ofert, kalkulacja cen i rozliczanie](../quote-bill-price.md)
 - [Procesy sprzedaży](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Możliwość znalezienia odpowiednich zasobów we właściwym czasie, zarezerwow
 - [Rejestrowanie wartości rzeczywistych](../advanced-actuals.md)
 
 > [!NOTE]
-> Ten temat zostanie usunięty w przyszłej aktualizacji dokumentacji. 
+> Ten artykuł zostanie usunięty w przyszłej aktualizacji dokumentacji. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

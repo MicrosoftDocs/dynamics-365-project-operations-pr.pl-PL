@@ -1,18 +1,18 @@
 ---
 title: Używaj kategorii zaopatrzenia z zamówieniami zakupu projektu i oczekującymi fakturami od dostawców
-description: W tym temacie opisano sposób konfigurowania kategorii zaopatrzenia, których można używać z zamówieniami zakupu projektu i oczekującymi fakturami od dostawców.
+description: W tym artykule opisano sposób konfigurowania kategorii zaopatrzenia, których można używać z zamówieniami zakupu projektu i oczekującymi fakturami od dostawców.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613293"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927433"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Używaj kategorii zaopatrzenia z zamówieniami zakupu projektu i oczekującymi fakturami od dostawców
 
@@ -47,7 +47,7 @@ Wykonaj te kroki, aby zamapować kategorie projektu na kategorie kategorii temat
 
 1. Wybierz kolejno opcje **Zaopatrzenie i sourcing \> Kategorie zaopatrzenia**.
 1. Wybierz **Edytuj hierarchię kategorii**.
-1. Wybierz żądany węzeł hierarchii kategorii, a następnie na karcie **Przypisywanie kategorii projektu** skojarz węzeł z kategorią projektu z kategorią **Czas**, **Koszt** lub Projekt elementu (czyli kategoria **Domyślny-godzina** lub **Domyślny-koszt**).
+1. Wybierz żądany węzeł hierarchii kategorii, a następnie na karcie **Przypisywanie kategorii projektu** skojarz węzeł z kategorią projektu z kategorią **Czas**, **Wydatek** lub **Projekt pozycji** (czyli kategoria **Domyślny-czas** lub **Domyślny-wydatek**).
 1. Wybierz pozycję **Zapisz**.
 1. Zamyknij stronę.
 

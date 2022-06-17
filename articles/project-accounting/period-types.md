@@ -1,23 +1,23 @@
 ---
 title: Typy okresów
-description: Ten temat zawiera informacje dotyczące sposobów konfigurowania typów okresów na potrzeby szacowania przychodów.
+description: W tym artykule przedstawiono informacje na temat sposobu konfigurowania typów okresów na potrzeby szacowania przychodów.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bbf2dcb4758611aa9d0591ddfec42869f4438c0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580469"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930975"
 ---
 # <a name="period-types"></a>Typy okresów
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Typ okresu określa, jak często szacowany jest przychód w projekcie. Ten temat zawiera informacje dotyczące sposobów konfigurowania typów okresów na potrzeby szacowania przychodów. 
+Typ okresu określa, jak często szacowany jest przychód w projekcie. W tym artykule przedstawiono informacje na temat sposobu konfigurowania typów okresów na potrzeby szacowania przychodów. 
 
 ## <a name="create-and-work-with-period-types"></a>Tworzenie typów okresów i praca z nimi
 Aby utworzyć typy okresów i pracować z nimi, wykonaj następujące czynności:

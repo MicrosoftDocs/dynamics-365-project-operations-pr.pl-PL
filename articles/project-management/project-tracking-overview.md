@@ -1,23 +1,23 @@
 ---
 title: Śledzenie nakładu pracy projektu
-description: Ten temat zawiera informacje dotyczące śledzenia nakładu pracy i postępu pracy w ramach projektu.
+description: W tym artykule zamieszczono informacje dotyczące śledzenia prac projektowych i postępu pracy.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593809"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929273"
 ---
 # <a name="project-effort-tracking"></a>Śledzenie nakładu pracy projektu
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Konieczność śledzenia postępu w harmonogramie zależy od branży. Niektóre branże są śledzone na niższym poziomie szczegółowości, podczas gdy inne branże śledzone są na wyższym poziomie. W tym temat pokazano, jak planować w celu spełnienia wymagań organizacji.
+Konieczność śledzenia postępu w harmonogramie zależy od branży. Niektóre branże są śledzone na niższym poziomie szczegółowości, podczas gdy inne branże śledzone są na wyższym poziomie. W tym artykule pokazano, jak planować w celu spełnienia wymagań organizacji.
 
 ## <a name="effort-tracking-view"></a>Widok Śledzenie nakładu pracy
 

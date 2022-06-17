@@ -1,6 +1,6 @@
 ---
 title: Strona główna zarządzania zasobami
-description: W tym temacie zamieszczono informacje dotyczące zarządzania zasobami.
+description: W tym artykule zamieszczono informacje dotyczące zarządzania zasobami.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578767"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913265"
 ---
 # <a name="resource-management-home-page"></a>Strona główna zarządzania zasobami
 
@@ -31,7 +31,7 @@ ms.locfileid: "8578767"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Zasoby stanowią najważniejszy zasób organizacji usługowej. Możliwość znalezienia i zarezerwowania odpowiednich zasobów we właściwym czasie oraz ich maksymalnego wykorzystania pomaga organizacji osiągnąć cele w zakresie przychodów i zadowolenia klientów. Poniższe tematy koncentrują się na funkcjach zarządzania zasobami dostępnych w programie Dynamics 365 Project Service Automation:
+Zasoby stanowią najważniejszy zasób organizacji usługowej. Możliwość znalezienia i zarezerwowania odpowiednich zasobów we właściwym czasie oraz ich maksymalnego wykorzystania pomaga organizacji osiągnąć cele w zakresie przychodów i zadowolenia klientów. Poniższe artykuły koncentrują się na funkcjach zarządzania zasobami dostępnych w programie Dynamics 365 Project Service Automation:
 
 - [Zarządzanie zasobami](manage-resources.md)
 - [Najważniejsze pojęcia](reports-key-concepts.md)

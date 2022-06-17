@@ -1,6 +1,6 @@
 ---
 title: Szacowanie sprzedaży i kosztów projektu, gdy zasób z możliwością rezerwowania pełni wiele ról w projekcie
-description: Ten temat zawiera informacje o tym, jak wymiary wyceny mogą służyć do obsługi cen i kalkulacji kosztów dla zasobu, który wypełnia wiele ról w projekcie.
+description: W tym artykule przedstawiono informacje na temat sposobu wykorzystania rozmiarów kalkulacji cen do obsługi kalkulacji cen i kosztów zasobu, który pełni wiele ról w projekcie.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f8b84de740a3d610e49acea8fa13885b977b440c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5adaa7b83aae69c15aa268e723417172f1b56f42
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590727"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916163"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Szacowanie sprzedaży i kosztów projektu, gdy zasób z możliwością rezerwowania pełni wiele ról w projekcie 
 

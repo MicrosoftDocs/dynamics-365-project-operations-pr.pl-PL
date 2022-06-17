@@ -1,18 +1,18 @@
 ---
 title: Kupuj materiały lub kategorie zaopatrzenia, których nie ma w magazynie, korzystając z oczekującej faktury od dostawcy
-description: W tym temacie wyjaśniono, jak rejestrować oczekujące faktury od dostawcy.
+description: W tym artykule wyjaśniono sposób rejestrowania oczekujących faktur od dostawcy.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612670"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922005"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Kupuj materiały lub kategorie zaopatrzenia, których nie ma w magazynie, korzystając z oczekującej faktury od dostawcy
 
@@ -23,7 +23,7 @@ W związku z tym, że firma nabywa materiały niezabezpieczone lub kategorie, kt
 Na przykład firma Contoso Robotics US wykonuje projekt odnowienia sprzętu i potrzebuje licencji na oprogramowanie. Te licencje można uzyskać od innych dostawców.  Korzystając z Dynamics 365 Finance, pracownik działu rozrachunków z dostawcami rejestruje oczekujący dokument faktury od dostawcy i przypisuje koszty licencji bezpośrednio do projektu odnowienia sprzętu. 
 
 > [!IMPORTANT]
-> Przed użyciem funkcji opisanych w tym temacie należy przejrzeć i zastosować wymagane konfiguracje. Aby uzyskać więcej informacji, zobacz [włączanie materiałów niezabędowych](configure-materials-nonstocked.md) i [oczekujących faktur od dostawcy oraz używanie kategorii materiałów i kategorii materiałów, które oczekują na dostawcy, w przypadku zamówień zakupu projektu i oczekujących faktur od dostawcy](configure-procurement-categories.md)
+> Przed użyciem funkcji opisanych w tym artykule należy przejrzeć i zastosować wymagane konfiguracje. Aby uzyskać więcej informacji, zobacz [włączanie materiałów niezabędowych](configure-materials-nonstocked.md) i [oczekujących faktur od dostawcy oraz używanie kategorii materiałów i kategorii materiałów, które oczekują na dostawcy, w przypadku zamówień zakupu projektu i oczekujących faktur od dostawcy](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Publikowanie oczekującej faktury związanej z projektem 
 

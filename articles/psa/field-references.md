@@ -1,6 +1,6 @@
 ---
 title: Dodawanie pól niestandardowych do ustawień cen i encji transakcyjnych
-description: W tym temacie znajdują się informacje o dodawaniu pól niestandardowych do encji konfiguracji cen i transakcji.
+description: W tym artykule znajdują się informacje o dodawaniu pól niestandardowych do encji konfiguracji cen i transakcji.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b666d1767306b9833fba36c6ed2c59a633c5fdf0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596937"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920487"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Dodawanie pól niestandardowych do ustawień cen i encji transakcyjnych 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-W tym temat założono, że wykonano procedury opisane w temacie [Tworzenie niestandardowych pól i encji](create-custom-fields-entities.md). Jeśli tych procedur jeszcze nie wykonano, wróć, wykonaj je, a następnie wróć do tego tematu. 
+W tym artykule założono, że wykonano procedury opisane w artykule [Tworzenie niestandardowych pól i encji](create-custom-fields-entities.md). Jeśli tych procedur jeszcze nie wykonano, wróć, wykonaj je, a następnie wróć do tego artykułu. 
 
-W tym temacie procedury pokazują, jak dodawać do encji i do elementów interfejsu użytkownika wymagane odwołania do pól niestandardowych, np. formularze i widoki.
+W tym artykule procedury pokazują, jak dodawać do encji i do elementów interfejsu użytkownika wymagane odwołania do pól niestandardowych, np. formularze i widoki.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Dodawanie pól wymiarów niestandardowej kalkulacji cen 
 Po utworzeniu niestandardowych pól i encji kolejnym krokiem jest ustawienie w konfiguracji cen i encji transakcyjnych wszelkich niestandardowych encji lub zestawów opcji przez utworzenie pól referencyjnych. W zależności od tego, czy lista wymiarów kalkulacji cen zawiera zestaw opcji wymiarów lub wymiarów encji lub jedno i drugie, należy wykonać tylko kroki opisane w sekcji **Niestandardowe wymiary kalkulacji cen oparte na zestawie opcji** lub **Niestandardowe wymiary kalkulacji cen oparte na encji** lub jedno i drugie, odpowiednio.

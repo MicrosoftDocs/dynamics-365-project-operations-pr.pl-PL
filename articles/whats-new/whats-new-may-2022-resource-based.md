@@ -1,24 +1,24 @@
 ---
 title: Nowości z maja 2022 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
-description: Ten temat zawiera informacje o aktualizacjach jakości, które są dostępne w wydaniu z maja 2022 r. wdrożenia Microsoft Dynamics 365 Project Operations dla scenariuszy opartych na zasobach/niemagazynowanych.
+description: Ten artykuł zawiera informacje o aktualizacjach jakości, które są dostępne w wydaniu z maja 2022 r. wdrożenia Microsoft Dynamics 365 Project Operations dla scenariuszy opartych na zasobach/niemagazynowanych.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d3ac63f0d33d36cc5b6d4cea3ab8167e5974cfe6
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: beb75fc4b721d52cddbdaf2d20194218cefced5e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710025"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921407"
 ---
 # <a name="whats-new-may-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nowości z maja 2022 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Ten temat dotyczy następujących składników i wersji oprogramowania Microsoft Dynamics 365 Project Operations:
+Ten artykuł dotyczy następujących składników i wersji oprogramowania Microsoft Dynamics 365 Project Operations:
 
 - Project Operations w środowisku Dataverse w wersji 4.42.0.70
 - Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.26

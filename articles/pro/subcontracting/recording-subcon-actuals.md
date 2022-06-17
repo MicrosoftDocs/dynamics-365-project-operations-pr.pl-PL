@@ -1,17 +1,17 @@
 ---
 title: Rejestrowanie czasu, wydatków i użycia materiałów w przypadku składników podwykonawców
-description: W tym temacie wyjaśniono, w jaki sposób czas, koszty i materiały zarejestrowane w projektach z poszczególnych składników podumowy są śledzone w aplikacji Microsoft Dynamics 365 Project Operations.
+description: W tym artykule wyjaśniono, w jaki sposób czas, koszty i materiały zarejestrowane w projektach z poszczególnych składników podumowy są śledzone w aplikacji Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599237"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927663"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Rejestrowanie czasu, wydatków i użycia materiałów dla projektów w przypadku składników podwykonawców
 
@@ -19,7 +19,7 @@ ms.locfileid: "8599237"
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-W tym temacie wyjaśniono, w jaki sposób czas, koszty i materiały zarejestrowane w projektach z poszczególnych składników podumowy są śledzone w aplikacji Microsoft Dynamics 365 Project Operations.
+W tym artykule wyjaśniono, w jaki sposób czas, koszty i materiały zarejestrowane w projektach z poszczególnych składników podumowy są śledzone w aplikacji Microsoft Dynamics 365 Project Operations.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>Wycena czasu podwykonawców w ramach projektów
 W aplikacji Project Operations pracownicy kontraktowi mogą rejestrować czas w projektach w podobny sposób jak pracownicy. Podczas wprowadzania czasu w projektach i/lub zadaniach projektów pracownik kontraktowy może wybrać określoną podumowę i pozycję podumowy.

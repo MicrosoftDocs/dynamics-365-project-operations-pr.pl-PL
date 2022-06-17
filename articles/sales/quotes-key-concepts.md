@@ -1,6 +1,6 @@
 ---
 title: Najważniejsze koncepcje — oferty cenowe
-description: W tym temacie zamieszczono informacje na temat wycen i ofert sprzedaży, które są dostępne w Project operations.
+description: W tym artykule przedstawiono informacje na temat ofert i ofert sprzedaży dostępnych w aplikacji Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579947"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912529"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Pojęcia unikalne dla ofert opartych na Projekcie
 
@@ -35,7 +35,7 @@ W rozwiązaniu Dynamics 365 Project Operations istnieją dwa typy ofert, projekt
 - **Pola i koncepcje**: Oferta sprzedaży nie zawiera żadnych pól i koncepcji zawartych w ofercie projektu. Pola obejmują **jednostkę kontraktującą**, **menedżera klienta** oraz **Imię i nazwisko kontaktu u płatnika**.  
 - **Typ**: Oferty sprzedaży i oferty projektu są również identyfikowane za pośrednictwem pola opartego na zestawie opcji pod nazwą **Typ**. W przypadku oferty sprzedaży w tym polu jest określana wartość **na podstawie towaru**. W przypadku oferty projektu jest to wartość **na podstawie pracy**.
 
-Temat ten jest ukierunkowany na szczegółowe informacje o ofertach projektów.
+Ten artykuł jest ukierunkowany na szczegółowe informacje o ofertach projektów.
 
 Oferta projektu w programie Project Operations może zawierać wiele pozycji lub wierszy oferty. W rzeczywistości oferta projektu zawiera dwie siatki dla pozycji w wierszu. Jedna siatka jest oparta na wierszach opartych na projekcie, które umożliwiają szczegółowe oszacowanie. Druga siatka dotyczy wierszy opartych na produktach, które używają jednej ceny jednostkowej i podejścia opartego na ilościach.
 

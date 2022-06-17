@@ -1,6 +1,6 @@
 ---
 title: Pulpity nawigacyjne
-description: W tym temacie zamieszczono informacje dotyczące pulpitów nawigacyjnych raportowania dostępnych w programie Dynamics 365 Project Service Automation.
+description: W tym artykule zamieszczono informacje dotyczące pulpitów nawigacyjnych raportowania dostępnych w programie Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2474318dd720550d08d30945e534afba3cb86a64
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7aebeb412defbe373325c4229773969de8af3d82
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919015"
 ---
 # <a name="dashboards"></a>Pulpity nawigacyjne
 

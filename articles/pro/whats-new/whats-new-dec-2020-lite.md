@@ -1,24 +1,24 @@
 ---
 title: Co nowego w grudniu 2020 r. — Wdrażanie w wersji uproszczonej Project Operations — od okazji do faktury pro forma
-description: Ten temat zawiera informacje o aktualizacjach dotyczących jakości dostępnych w uproszczonym wdrożeniu Project Operations Lite z grudnia 2020 r. — od okazji do faktury proforma.
+description: Ten artykuł zawiera informacje o aktualizacjach jakości dostępnych w wydaniu Project Operations — wersja uproszczona w grudniu 2020 r. — od oferty do faktury pro forma.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924075"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Co nowego w grudniu 2020 r. — Wdrażanie w wersji uproszczonej Project Operations — od okazji do faktury pro forma
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
+Ten artykuł dotyczy następujących składników i wersji oprogramowania Dynamics 365 Project Operations:
 
   - Project Operations w środowisku Dataverse w wersji 4.5.0.134 
 

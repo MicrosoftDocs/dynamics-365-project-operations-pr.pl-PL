@@ -1,6 +1,6 @@
 ---
 title: Nowości i zmiany w aplikacji Project Service Automation, wydanie 14, wer. 3
-description: W tym temacie przedstawiono informacje na temat nowości w aktualizacji usługi Project Service Automation, wydanie 14, wer. 3.
+description: W tym artykule przedstawiono informacje na temat nowości w wydaniu aktualizacji programu Project Service Automation 14 V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8504ac5a0ce7254baee9139e4407e712c758540d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e8e5132f970e3ec5742842175c118faf98a7b079
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594316"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926559"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Project Service Automation, wydanie 14, wer. 3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8594316"
 
 Mamy przyjemność przedstawić najnowszą aktualizację dotyczącą aplikacji Dynamics 365 Project Service Automation (PSA). To wydanie obejmuje znaczną poprawę jakości, wydajności i użyteczności. To wydanie jest zgodne z systemem Dynamics 365 9.x. Aby zaktualizować do tej wersji, odwiedź Centrum administracyjne programu Dynamics 365 online i przejdź na stronę rozwiązań, aby zainstalować aktualizację. By uzyskać więcej informacji, zobacz [Instalowanie, aktualizowanie lub usuwanie preferowanego rozwiązania](/power-platform/admin/install-remove-preferred-solution).
 
-W tym temacie przedstawiono funkcje i poprawki, które są nowe lub zostały zmienione w programie PSA, wer. 3, aktualizacja 14. Numer tej kompilacji to 3.10.4.21 i jest on dostępny w następującym harmonogramie:
+W tym artykule przedstawiono funkcje i poprawki, które są nowe lub zostały zmienione w programie PSA V3, wydanie aktualizacji 14. Numer tej kompilacji to 3.10.4.21 i jest on dostępny w następującym harmonogramie:
 
 - **Powszechne udostępnienie (samoaktualizacja):** styczeń 2020
 - **Automatyczna aktualizacja:** luty 2020

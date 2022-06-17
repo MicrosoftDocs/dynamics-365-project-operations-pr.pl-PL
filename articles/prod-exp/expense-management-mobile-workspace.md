@@ -1,6 +1,6 @@
 ---
 title: Mobilny obszar roboczy zarządzania wydatkami
-description: Ten temat zawiera informacje o mobilnym obszarze roboczym Zarządzanie wydatkami. Ten obszar roboczy umożliwia zapisywanie i przesyłanie paragonów, dzięki czemu mogą być dołączone do raportu o wydatkach w późniejszym terminie. Użytkownicy mogą również szybko tworzyć wiersze wydatków, korzystając z dołączonego paragonu i tworząc raporty dotyczące wydatków i zarządzając nimi.
+description: Ten artykuł zawiera informacje o mobilnym obszarze roboczym Zarządzanie wydatkami. Ten obszar roboczy umożliwia zapisywanie i przesyłanie paragonów, dzięki czemu mogą być dołączone do raportu o wydatkach w późniejszym terminie. Użytkownicy mogą również szybko tworzyć wiersze wydatków, korzystając z dołączonego paragonu i tworząc raporty dotyczące wydatków i zarządzając nimi.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920901"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobilny obszar roboczy zarządzania wydatkami
 
-Ten temat zawiera informacje o mobilnym obszarze roboczym **Zarządzanie wydatkami**. Ten obszar roboczy umożliwia zapisywanie i przesyłanie paragonów, dzięki czemu mogą być dołączone do raportu o wydatkach w późniejszym terminie. Użytkownicy mogą również szybko tworzyć wiersze wydatków, korzystając z dołączonego paragonu i tworząc raporty dotyczące wydatków i zarządzając nimi. Ponadto osoby zatwierdzające mogą korzystać z obszaru roboczego **Zarządzania wydatkami** w celu wyświetlania przydzielonych im raportów z wydatków i zatwierdzania lub odrzucania tych raportów z wydatków.
+Ten artykuł zawiera informacje o mobilnym obszarze roboczym **Zarządzanie wydatkami**. Ten obszar roboczy umożliwia zapisywanie i przesyłanie paragonów, dzięki czemu mogą być dołączone do raportu o wydatkach w późniejszym terminie. Użytkownicy mogą również szybko tworzyć wiersze wydatków, korzystając z dołączonego paragonu i tworząc raporty dotyczące wydatków i zarządzając nimi. Ponadto osoby zatwierdzające mogą korzystać z obszaru roboczego **Zarządzania wydatkami** w celu wyświetlania przydzielonych im raportów z wydatków i zatwierdzania lub odrzucania tych raportów z wydatków.
 
 
 Ten mobilny obszar roboczy jest przeznaczony do użytku z aplikacją mobilną Dynamics 365 Unified Ops.

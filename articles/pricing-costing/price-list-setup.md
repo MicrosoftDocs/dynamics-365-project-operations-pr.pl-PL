@@ -1,17 +1,17 @@
 ---
 title: Konfigurowanie cenników
-description: Ten temat zawiera informacje na temat konfiguracji cenników kosztów i sprzedaży.
+description: W tym artykule podano informacje dotyczące konfigurowania cenników dla kosztów i sprzedaży.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 77809f63230530e2e6553b76e56d37249b060ab9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6d96f4a5a8d97e86bbd00413e21f69255a48c5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584747"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917681"
 ---
 # <a name="set-up-price-lists"></a>Konfigurowanie cenników
 

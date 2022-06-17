@@ -1,26 +1,26 @@
 ---
 title: Używanie zasobu możliwego do zarezerwowania jako wymiaru kalkulacji cen
-description: Ten temat zawiera informacje na temat sposobu używania zasobu możliwego do zarezerwowania jako wymiaru kalkulacji cen.
+description: Ten artykuł zawiera informacje na temat używania zasobu możliwego do zarezerwowania jako wymiaru kalkulacji cen.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598640"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914829"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Używanie zasobu możliwego do zarezerwowania jako wymiaru kalkulacji cen
 
  _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_ 
 
-Ten temat zawiera informacje na temat sposobu używania zasobu możliwego do zarezerwowania jako wymiaru kalkulacji cen. Jeśli strategia kalkulacji cen została skonfigurowana tak, że każdy zasób z możliwością rezerwacji musi mieć określoną cenę lub stawkę kosztów, można użyć zasobu z możliwością rezerwacji jako wymiaru kalkulacji cen.
+Ten artykuł zawiera informacje na temat używania zasobu możliwego do zarezerwowania jako wymiaru kalkulacji cen. Jeśli strategia kalkulacji cen została skonfigurowana tak, że każdy zasób z możliwością rezerwacji musi mieć określoną cenę lub stawkę kosztów, można użyć zasobu z możliwością rezerwacji jako wymiaru kalkulacji cen.
 
 ## <a name="prerequisites"></a>Wymagania wstępne
-Przed wykonaniem procedur z tego tematu musisz mieć nowe rozwiązanie do obsługi wymiarów kalkulacji cen dla organizacji. Jeśli jeszcze tego nie zrobiono, zobacz [Tworzenie pól i encji niestandardowych](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Przed zakończeniem procedur określonych w tym artykule należy uzyskać nowe rozwiązanie dotyczące rozmiarów kalkulacji cen dla organizacji. Jeśli jeszcze tego nie zrobiono, zobacz [Tworzenie pól i encji niestandardowych](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Dodawanie pola zasobu możliwego do zarezerwowania do formularzy i widoków
 Aby pole **zasobu możliwego do zarezerwowania** było widoczne w rozwiązaniu obsługującym wymiarami kalkulacji cen, należy dodać pole do wszystkich formularzy i widoków jako encję.

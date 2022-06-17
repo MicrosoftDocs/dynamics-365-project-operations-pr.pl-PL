@@ -1,6 +1,6 @@
 ---
 title: Dlaczego nie mogę usunąć rekordów z encji Wartości rzeczywiste?
-description: W tym temacie zamieszczono informacje dotyczące przyczyny niemożności usunięcia rekordów z encji Wartości rzeczywiste.
+description: W tym artykule zamieszczono informacje dotyczące przyczyny niemożności usunięcia rekordów z encji Wartości rzeczywiste.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ff2c951905324d5d05722f399057c03d22f1a1c9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bd446961432a8f18895db45699d7a731d55235b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925593"
 ---
 # <a name="why-cant-i-delete-records-from-the-actuals-entity"></a>Dlaczego nie mogę usunąć rekordów z encji Wartości rzeczywiste?
 

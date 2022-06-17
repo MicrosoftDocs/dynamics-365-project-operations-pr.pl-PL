@@ -1,17 +1,17 @@
 ---
 title: Używanie kategorii transakcji jako wymiaru kalkulacji cen
-description: Ten temat zawiera informacje na temat sposobu używania pola kategorii transakcji jako wymiaru kalkulacji cen.
+description: Ten artykuł zawiera informacje na temat używania pola kategorii transakcji jako wymiaru kalkulacji cen.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911711"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Używanie kategorii transakcji jako wymiaru kalkulacji cen
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591141"
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
 
-W tym temacie wyjaśniono, jak używać pola **Kategoria transakcji** jako wymiaru kalkulacji cen. 
+W tym artykule wyjaśniono, jak używać pola **Kategoria transakcji** w roli wymiaru kalkulacji cen. 
 
 ## <a name="prerequisites"></a>Wymagania wstępne
-Przed wykonaniem procedur z tego tematu musisz mieć nowe rozwiązanie do obsługi wymiarów kalkulacji cen dla organizacji. Jeśli jeszcze tego nie zrobiono, zobacz [Tworzenie pól i encji niestandardowych jako wymiarów kalkulacji cen](create-custom-fields-entities-pricing-dimensions.md).
+Przed zakończeniem procedur określonych w tym artykule należy uzyskać nowe rozwiązanie dotyczące rozmiarów kalkulacji cen dla organizacji. Jeśli jeszcze tego nie zrobiono, zobacz [Tworzenie pól i encji niestandardowych jako wymiarów kalkulacji cen](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Dodawanie pola Kategoria transakcji do formularzy i widoków
 Aby pole **kategorii transakcji** było widoczne w rozwiązaniu obsługującym wymiarami kalkulacji cen, należy dodać pole do wszystkich formularzy i widoków jako encję.

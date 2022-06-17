@@ -1,18 +1,18 @@
 ---
 title: Przegląd wymiarów kalkulacji cen
-description: Ten temat zawiera informacje o wymiarach kalkulacji cen w aplikacji Dynamics 365 Project Operations.
+description: Ten artykuł zawiera informacje na temat wymiarów kalkulacji cen w aplikacji Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579273"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918049"
 ---
 # <a name="pricing-dimensions-overview"></a>Przegląd wymiarów kalkulacji cen
 
@@ -34,7 +34,7 @@ Aplikacja Dynamics 365 Project Operations oferuje wbudowany domyślny zestaw wym
 
 ![Zrzut ekranu z parametrami usługi Project Service z wyróżnioną opcją „Ma zastosowanie do sprzedaży”.](media/PS-OOB-parameters.png)
 
-Jeśli trzeba określić ceny lub koszty zasobów przy użyciu dodatkowych atrybutów, można utworzyć niestandardowe pola, encje i wymiary. Aby uzyskać więcej informacji, zobacz następujące tematy. 
+Jeśli trzeba określić ceny lub koszty zasobów przy użyciu dodatkowych atrybutów, można utworzyć niestandardowe pola, encje i wymiary. Aby uzyskać więcej informacji, zobacz następujące artykuły. 
   
   > [!NOTE]
   > Procedury muszą być wykonane w kolejności, w jakiej są umieszczone na liście.

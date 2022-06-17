@@ -1,6 +1,6 @@
 ---
 title: Jednostki i grupy jednostek
-description: W tym temacie przedstawiono informacje dotyczące sposobu tworzenia jednostek i grup jednostek w rozwiązaniu Dynamics 365 Project Operations.
+description: W tym artykule zawarto informacje na temat tworzenia jednostek i grup jednostek w aplikacji Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578445"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921453"
 ---
 # <a name="units-and-unit-groups"></a>Jednostki i grupy jednostek
 
@@ -28,7 +28,7 @@ _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i 
 
 Jednostki to ilości lub wielkości, w jakich sprzedajesz swoje produkty lub usługi. Na przykład jeśli sprzedajesz zaopatrzenie ogrodnicze, możesz sprzedawać nasiona w paczkach, pudełkach oraz na paletach. Grupa jednostek jest zbiorem tych różnych jednostek.
 
-Aby wykonać czynności opisane w tym temacie należy się upewnić, że użytkownik został przypisany do roli administratora systemu lub menedżer ds. sprzedaży, lub że posiada równoważne uprawnienia.
+Aby wykonać kroki opisane w tym artykule, upewnij się, że przypisano Cię do roli Administrator systemu lub Menedżer aplikacji Sales Professional albo że masz równoważne uprawnienia.
 
 ## <a name="create-a-unit-group"></a>Tworzenie grupy jednostek
 

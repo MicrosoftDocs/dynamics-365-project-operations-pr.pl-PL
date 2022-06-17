@@ -1,6 +1,6 @@
 ---
 title: Zagadnienia dotyczące uaktualniania struktury podziału pracy
-description: W tym temacie zamieszczono informacje dotyczące uaktualniania struktury podziału pracy w programie Project Service Automation z wersji 2.x do 3.x.
+description: W tym artykule zamieszczono informacje dotyczące uaktualniania struktury podziału pracy w programie Project Service Automation z wersji 2.x do 3.x.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599743"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913127"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Zagadnienia dotyczące uaktualniania struktury podziału pracy
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-W tym temacie zamieszczono informacje dotyczące uaktualniania struktury podziału pracy w programie Project Service Automation z wersji 2.x do 3.x. Ten temat określa dobrą kondycję projektu w rozwiązaniu Project Service Automation (PSA), która jest niezbędna do pomyślnego uaktualnienia. Są tu również informacje o typowych sytuacjach blokowania, które spowodują niepowodzenie uaktualnienia. Aby uzyskać więcej informacji na temat definiowania zadań w projektach i ich funkcjach w harmonogramie projektu, zobacz [Harmonogramy projektów](project-creating.md).
+W tym artykule zamieszczono informacje dotyczące uaktualniania struktury podziału pracy w programie Project Service Automation z wersji 2.x do 3.x. Ten artykuł określa dobrą kondycję projektu w rozwiązaniu Project Service Automation (PSA), która jest niezbędna do pomyślnego uaktualnienia. Są tu również informacje o typowych sytuacjach blokowania, które spowodują niepowodzenie uaktualnienia. Aby uzyskać więcej informacji na temat definiowania zadań w projektach i ich funkcjach w harmonogramie projektu, zobacz [Harmonogramy projektów](project-creating.md).
 
 ## <a name="key-entities"></a>Kluczowe encje
 Dokładna struktura podziału pracy, do której już załadowano zasoby, musi mieć następujące encje:

@@ -1,6 +1,6 @@
 ---
 title: Mobilna aplikacja wydatków
-description: Ten temat zawiera informacje o mobilnym obszarze roboczym Zarządzanie wydatkami.
+description: Ten artykuł zawiera informacje o mobilnym obszarze roboczym Zarządzanie wydatkami.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930239"
 ---
 # <a name="mobile-expense-app"></a>Mobilna aplikacja wydatków
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Ten temat zawiera informacje o mobilnym obszarze roboczym **Zarządzanie wydatkami**. Ten obszar roboczy umożliwia zapisywanie i przesyłanie paragonów, dzięki czemu mogą być dołączone do raportu o wydatkach w późniejszym terminie. Użytkownicy mogą również szybko tworzyć wiersze wydatków, korzystając z dołączonego paragonu i tworząc raporty dotyczące wydatków i zarządzając nimi. Ponadto osoby zatwierdzające mogą korzystać z obszaru roboczego **Zarządzania wydatkami** w celu wyświetlania przydzielonych im raportów z wydatków i zatwierdzania lub odrzucania tych raportów z wydatków.
+Ten artykuł zawiera informacje o mobilnym obszarze roboczym **Zarządzanie wydatkami**. Ten obszar roboczy umożliwia zapisywanie i przesyłanie paragonów, dzięki czemu mogą być dołączone do raportu o wydatkach w późniejszym terminie. Użytkownicy mogą również szybko tworzyć wiersze wydatków, korzystając z dołączonego paragonu i tworząc raporty dotyczące wydatków i zarządzając nimi. Ponadto osoby zatwierdzające mogą korzystać z obszaru roboczego **Zarządzania wydatkami** w celu wyświetlania przydzielonych im raportów z wydatków i zatwierdzania lub odrzucania tych raportów z wydatków.
 
 Ten mobilny obszar roboczy jest przeznaczony do użytku z aplikacją mobilną Dynamics 365 Unified Ops.
 

@@ -1,6 +1,6 @@
 ---
 title: Metody alokacji zarezerwowania w Project Service Automation
-description: Ten temat zawiera informacje na temat różnych sposobów rezerwowania alokacji.
+description: Ten artykuł zawiera informacje na temat różnych sposobów rezerwowania alokacji.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590129"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929181"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Metody alokacji zarezerwowania w Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Niezależnie, czy dodajesz członka zespołu bezpośrednio do projektu na karcie **Zespół**, czy rezerwujesz zasób dla projektu lub wymaganie z tablicy harmonogramu, istnieje kilka metod rezerwacji przydziału, które mogą zostać użyte. W tym temacie wyjaśniono, jak działa każda z tych metod, i które z tych metod mogą spowodować nałożenie się rezerwacji zasobów.
+Niezależnie, czy dodajesz członka zespołu bezpośrednio do projektu na karcie **Zespół**, czy rezerwujesz zasób dla projektu lub wymaganie z tablicy harmonogramu, istnieje kilka metod rezerwacji przydziału, które mogą zostać użyte. W tym artykule wyjaśniono, jak działa każda z tych metod, i które z tych metod mogą spowodować nałożenie się rezerwacji zasobów.
 
 ## <a name="full-capacity"></a>Pełna dyspozycyjność 
 Metoda Pełna dyspozycyjność rezerwuje pełną dyspozycyjność zasobu dla określonych dat Od/Do. Na przykład jeśli zasób ma kalendarz skonfigurowany dla pracy osiem godzin dziennie, pięć dni w tygodniu, ustawienie dat rozpoczęcia i zakończenia, które obejmują pięć dni roboczych, zarezerwuje zasób na 40 godzin. Rezerwacja odbywa się bez wzięcia pod uwagę pozostałej dyspozycyjności zasobu. Jeśli zasób jest już zarezerwowany w tym samym okresie dla innych projektów, 40 godzin zostanie zarezerwowane jako dodatkowe godziny, potencjalnie prowadząc do nakładania się rezerwacji.

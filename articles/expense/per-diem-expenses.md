@@ -1,6 +1,6 @@
 ---
 title: Wydatki na diety
-description: Ten temat zawiera informacje o tym, jak pracować z kosztami diet.
+description: Ten artykuł zawiera informacje o tym, jak pracować z kosztami diet.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596063"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923201"
 ---
 # <a name="per-diem-expenses"></a>Wydatki na diety
 
 > [!IMPORTANT] 
-> Funkcjonalność opisana w tym temacie jest dostępna dla wybranych użytkowników jako część wydania przedpremierowego.
+> Funkcjonalność opisana w tym artykule jest dostępna dla wybranych użytkowników jako część wydania przedpremierowego.
 
 Dodatek za każdy dzień to stały, wstępnie wstępnie przesąiony codzienne wydatki, które firma płaci pracownikom za pracę (hotele), koszty poniesione przez pracowników w czasie podróży służbowej. Firma płaci za ten koszt pracownikom zamiast płacić za faktyczne koszty podróży. Pracownicy mogą używać swoich **poświadczeń/** innych danych na potrzeby konserwacji w celu odpowiedzialności, obsługi pokoju, konserwacji lub oczyszczania podczas ważnych spotkań biznesowych. Cena jednostkowa może się różnić, w zależności od tego, czy pracodawca zdecyduje się na łączny koszt rezerwacji i rezerwacji, czy tylko na koszt rezerwacji i rezerwacji.
 

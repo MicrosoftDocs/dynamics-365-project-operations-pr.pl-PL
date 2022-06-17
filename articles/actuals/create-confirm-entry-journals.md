@@ -1,6 +1,6 @@
 ---
 title: Tworzenie i potwierdzanie dzienników wpisów
-description: To temat zawiera informacje na temat tworzenia i potwierdzenia wpisów w Microsoft Dynamics 365 Project Operations.
+description: Ten temat zawiera informacje na temat tworzenia i potwierdzenia wpisów w Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cb768337bc197895a837670f93b99b132c97437
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 138dccd72607d6515eeeffb066fa485f83eabbec
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584241"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912345"
 ---
 # <a name="create-and-confirm-entry-journals"></a>Tworzenie i potwierdzanie dzienników wpisów
 

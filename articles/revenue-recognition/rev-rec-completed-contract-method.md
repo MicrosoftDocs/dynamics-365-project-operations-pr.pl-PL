@@ -1,23 +1,23 @@
 ---
 title: Zarządzanie szacowaniami przychodów
-description: Ten temat zawiera informacje dotyczące pracy z szacowaniami przychodów dla projektów.
+description: W tym artykule przedstawiono informacje na temat sposobu pracy z szacowania przychodów dla projektów.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 051535ce8dd4997a923b1511d242638361076979
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595879"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928491"
 ---
 # <a name="manage-revenue-estimates"></a>Zarządzanie szacowaniami przychodów
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Możesz tworzyć, obliczać, księgować, cofać lub eliminować szacowania przychodów. Można to zrobić ręcznie lub za pomocą procesu okresowego. Ten temat zawiera informacje dotyczące pracy z szacowaniami przychodów dla projektów.
+Możesz tworzyć, obliczać, księgować, cofać lub eliminować szacowania przychodów. Można to zrobić ręcznie lub za pomocą procesu okresowego. W tym artykule przedstawiono informacje na temat sposobu pracy z szacowania przychodów dla projektów.
 
 ### <a name="manage-revenue-estimates-manually"></a>Ręczne zarządzanie szacowaniami przychodów
 

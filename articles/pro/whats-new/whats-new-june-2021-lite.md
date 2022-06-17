@@ -1,24 +1,24 @@
 ---
 title: Co nowego w czerwcu 2021 r. — wdrażanie wersji uproszczonej aplikacji Project Operations
-description: To temat zawiera informacje o istotnych aktualizacjach dostępnych w wydaniu aplikacji wdrożenia wersji uproszczonej aplikacji Project Operations z czerwca 2021 r.
+description: Ten artykuł zawiera informacje o aktualizacjach jakości dostępnych w wydaniu Project Operations — wersja uproszczona w czerwcu 2021 r.
 author: sigitac
 ms.date: 06/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06ea83152e4f601ef842a0f8d975c16c2be95612
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 16fffb06ebb72ac25982374bff27a015eccfae1b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913955"
 ---
 # <a name="whats-new-june-2021---project-operations-lite-deployment"></a>Co nowego w czerwcu 2021 r. — wdrażanie wersji uproszczonej aplikacji Project Operations
 
 _Zastosowane do: Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
+Ten artykuł dotyczy następujących składników i wersji oprogramowania Dynamics 365 Project Operations:
 
   - Project Operations w środowisku Dataverse w wersji 4.11.0.156 lub 4.11.0.164.
 

@@ -1,6 +1,6 @@
 ---
 title: Używanie pola istniejącego w programie Project Service jako wymiaru kalkulacji cen
-description: W tym temacie zamieszczono informacje na temat używania istniejących pól programu Project Service jako wymiarów kalkulacji cen.
+description: W tym artykule zamieszczono informacje na temat używania istniejących pól programu Project Service jako wymiarów kalkulacji cen.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3d8251b4516b4598c9c92779c59b9609d8113ac9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: abc3a3a2b61ea6f8dd34d82bf91546f8f7552a61
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580147"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925225"
 ---
 # <a name="use-an-existing-field-in-project-service-as-a-pricing-dimension"></a>Używanie pola istniejącego w programie Project Service jako wymiaru kalkulacji cen
 

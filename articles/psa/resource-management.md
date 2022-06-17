@@ -1,6 +1,6 @@
 ---
 title: Strona główna pozyskiwania zasobów do projektów
-description: W tym temacie zamieszczono informacje o funkcjach zarządzania zasobami w programie Project Service Automation (PSA) dostępnym w ramach rozwiązania Dynamics 365.
+description: W tym artykule zamieszczono informacje o funkcjach zarządzania zasobami w programie Project Service Automation (PSA) dostępnym w ramach rozwiązania Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599835"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925271"
 ---
 # <a name="resourcing-projects-home-page"></a>Strona główna pozyskiwania zasobów do projektów
 
@@ -46,7 +46,7 @@ Zasoby stanowią najważniejszy zasób organizacji usługowej. Możliwość znal
 - Prowadzenie repozytorium umiejętności i biegłości.
 
 
-W programie PSA projekt można obsadzić zespołem złożonym z zasobów ogólnych lub nazwanych. Istnieją różne metody dodawania i przypisywania członków zespołu oraz zarządzania ich rezerwacjami i przypisaniami. Aby uzyskać więcej informacji, zobacz następujące tematy:
+W programie PSA projekt można obsadzić zespołem złożonym z zasobów ogólnych lub nazwanych. Istnieją różne metody dodawania i przypisywania członków zespołu oraz zarządzania ich rezerwacjami i przypisaniami. Aby uzyskać więcej informacji, zobacz następujące artykuły:
 
 - [Rezerwowanie nazwanych zasobów możliwych do zarezerwowania dla zespołu projektu i przypisywanie im zadań](assign-named-bookable-resource.md)
 - [Przypisywanie ogólnego zasobu możliwego do zarezerwowania do zadania i generowanie wymagań zasobów](assign-generic-bookable-resource.md)

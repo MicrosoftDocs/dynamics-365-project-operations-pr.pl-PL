@@ -1,25 +1,25 @@
 ---
 title: Używanie interfejsów API harmonogramu projektu z Power Automate
-description: To temat przykładowy przepływ, który korzysta z interfejsów programowania aplikacji planowania projektu (API).
+description: Ten artykuł zawiera przykładowy przepływ, który korzysta z interfejsów programowania aplikacji planowania projektu (API).
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597719"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916347"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Używanie interfejsów API harmonogramu projektu z Power Automate
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-W temat opisano przepływ przykładowy, który pokazuje, jak utworzyć pełny plan projektu przy użyciu Microsoft Power Automate, jak utworzyć zestaw operacji i jak zaktualizować encję. W tym przykładzie pokazano, jak utworzyć projekt, członka zespołu projektu, zestawy operacji, zadania projektu i przypisania zasobów. W temat wyjaśniono także sposób aktualizowania encji i wykonywania zestawu operacji.
+W tym artykule opisano przepływ przykładowy, który pokazuje, jak utworzyć pełny plan projektu przy użyciu Microsoft Power Automate, jak utworzyć zestaw operacji i jak zaktualizować encję. W tym przykładzie pokazano, jak utworzyć projekt, członka zespołu projektu, zestawy operacji, zadania projektu i przypisania zasobów. W artykule wyjaśniono także sposób aktualizowania encji i wykonywania zestawu operacji.
 
-Oto pełna lista kroków udokumentowanych w przepływie przykładowym tego temat:
+Oto pełna lista kroków udokumentowanych w przepływie przykładowym w tym artykule:
 
 1. [Tworzenie wyzwalacza usługi PowerApps](#1)
 2. [Utwórz projekt](#2)
@@ -40,7 +40,7 @@ Oto pełna lista kroków udokumentowanych w przepływie przykładowym tego temat
 
 ## <a name="assumptions"></a>Założenia
 
-W temat założono, że użytkownik ma podstawową wiedzę o platformie Dataverse, przepływach w chmurze i interfejsie API planowania aplikacji projektu. Więcej informacji znajduje się w dalszej sekcji [Odwołania](#references) w tym temacie.
+W artykule założono, że użytkownik ma podstawową wiedzę o platformie Dataverse, przepływach w chmurze i interfejsie API planowania aplikacji projektu. Więcej informacji znajduje się w dalszym obszarze [Odwołania](#references) w tym artykule.
 
 ## <a name="create-a-flow"></a>Utwórz przepływ
 
@@ -65,7 +65,7 @@ Wykonaj następujące kroki, aby [utworzyć przepływ obsługujący rozwiązania
 1. Na stronie **Rozwiązania** wybierz utworzone rozwiązanie, a następnie wybierz opcję **Nowy**.
 2. W lewym okienku wybierz pozycję **Przepływy w chmurze** \> **Automatyzacja** \> **Przepływ w chmurze** \> **Błyskawiczne**.
 3. W polu **Nazwa przepływu** wprowadź przepływ **demonstracyjny interfejsu API planowania**.
-4. Z listy **wybierz sposób wyzwalania tej listy przepływu** wybierz pozycję **Power Apps**. Podczas tworzenia wyzwalania Power Apps logika należy do autora. W tym temat do testowania pozostaw puste parametry wejściowe.
+4. Z listy **wybierz sposób wyzwalania tej listy przepływu** wybierz pozycję **Power Apps**. Podczas tworzenia wyzwalania Power Apps logika należy do autora. W tym artykule pozostaw puste parametry wejściowe na potrzeby testowania.
 5. Wybierz pozycję **Utwórz**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Krok 2. Tworzenie projektu

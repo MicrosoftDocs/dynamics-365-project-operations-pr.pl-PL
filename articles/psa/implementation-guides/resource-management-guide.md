@@ -1,6 +1,6 @@
 ---
 title: Przewodnik menedżera zasobów
-description: W tym temacie zamieszczono łącza do informacji zarządzaniu zasobami w programie Project Service Automation
+description: W tym artykule zamieszczono linki do informacji zarządzaniu zasobami w programie Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595465"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910811"
 ---
 # <a name="resource-management-guide"></a>Przewodnik menedżera zasobów
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595465"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Łącze do pliku PDF, które było wcześniej w tym temacie, zostało usunięte, a zawartość przeniesiono do następujących tematów:
+Link do pliku PDF, który był wcześniej w tym artykule, został usunięte, a zawartość przeniesiono do następujących artykułów:
 
 - [Strona główna zarządzania zasobami](../resource-management-home-page.md)
 - [Najważniejsze pojęcia](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ ms.locfileid: "8595465"
 - [Zarządzanie zasobami — często zadawane pytania](../resource-management-faq.md)
 
 > [!NOTE]
-> Ten temat zostanie usunięty w przyszłej aktualizacji dokumentacji. 
+> Ten artykuł zostanie usunięty w przyszłej aktualizacji dokumentacji. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

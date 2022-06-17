@@ -1,22 +1,22 @@
 ---
 title: Integracja faktury projektu
-description: Ten temat zawiera informacje na temat integracji funkcji podwójnego zapisu w programie Project Operations na potrzeby fakturowania klientów.
+description: W tym artykule przedstawiono informacje dotyczące integracji podwójnego zapisu w aplikacji Project Operations na potrzeby fakturowania klientów.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581251"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912115"
 ---
 # <a name="project-invoice-integration"></a>Integracja faktury projektu
 
-Ten temat zawiera informacje na temat integracji funkcji podwójnego zapisu w programie Project Operations na potrzeby fakturowania klientów.
+W tym artykule przedstawiono informacje dotyczące integracji podwójnego zapisu w aplikacji Project Operations na potrzeby fakturowania klientów.
 
 W programie Project Operations menedżer projektu zarządza zaległościami w rozliczaniu projektu i tworzy fakturę proforma dla klienta w Microsoft Dataverse. Na podstawie tej faktury proforma klient, pracownik biurowy lub klient projektu tworzy fakturę dostępną dla klienta. Integracja typu podwujny zapis zapewnia synchronizację danych z faktury proforma z aplikacjami finansowymi i operacyjnymi. Po zaksięgowaniu faktury dla klienta system aktualizuje odpowiednie wartości rzeczywiste księgowania dla projektu w Dataverse. Następująca ilustracja przedstawia koncepcję na wysokim poziomie — omówienie tej integracji.
 

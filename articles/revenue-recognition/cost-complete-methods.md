@@ -1,23 +1,23 @@
 ---
 title: Metody dotyczące kosztów wykonania
-description: Ten temat zawiera informacje o metodach używanych do obliczania kosztu wykonania projektu.
+description: W tym artykule przedstawiono informacje na temat metod obliczania kosztu w celu ukończenia projektu.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 39c10673afd04ad7d4a94a01211c2f9d335a02c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601675"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920303"
 ---
 # <a name="cost-to-complete-methods"></a>Metody dotyczące kosztów wykonania
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Ten temat zawiera informacje o metodach używanych do obliczania kosztu wykonania projektu. Istnieje wiele metod, których można użyć do obliczenia kosztu wykonania projektu. 
+W tym artykule przedstawiono informacje na temat metod obliczania kosztu w celu ukończenia projektu. Istnieje wiele metod, których można użyć do obliczenia kosztu wykonania projektu. 
 
 Podczas tworzenia szacowania dla projektu, na stronie **Tworzenie szacowania** w polu **Metoda kosztu wykonania** można wybrać jedną z następujących metod obliczania kosztów wykonania.
 

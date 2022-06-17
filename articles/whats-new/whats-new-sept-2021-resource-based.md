@@ -1,24 +1,24 @@
 ---
 title: Co nowego, wrzesień 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
-description: To temat zawiera informacje o aktualizacjach jakości dostępnych w wydaniu Project Operations we wrześniu 2021 r. dla scenariuszy opartych na zasobach/nieopartych na zaopatrzeniu.
+description: Ten artykuł zawiera informacje o aktualizacjach jakości dostępnych w wydaniu Project Operations we wrześniu 2021 r. dla scenariuszy opartych na zasobach/nieopartych na zaopatrzeniu.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c7f764b3e8ee3775167ee57b4f034e383899aea3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582907"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923385"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co nowego, wrzesień 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
 
 *Dotyczy: Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu*
 
-Ten temat dotyczy następujących składników i wersji aplikacji Dynamics 365 Project Operations:
+Ten artykuł dotyczy następujących składników i wersji oprogramowania Dynamics 365 Project Operations:
 
    - Project Operations w środowisku Microsoft Dataverse w wersji 4.14.0.99.
    - Zarządzanie projektami i księgowość w środowisku Dynamics 365 Finance w wersji 10.0.20.

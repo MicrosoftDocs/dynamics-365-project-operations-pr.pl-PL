@@ -1,6 +1,6 @@
 ---
 title: Używanie tablicy harmonogramu do rezerwowania zasobów projektu
-description: W tym temacie zamieszczono informacje dotyczące rezerwowania zasobów.
+description: W tym artykule zamieszczono informacje dotyczące rezerwowania zasobów.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 01b6b5f5c688ee4e1a1f0da52b39532d06e5362a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2c2b1c122992e2fab971d0da3638f25c6c3fcc21
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593579"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913449"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Używanie tablicy harmonogramu do rezerwowania zasobów projektu
 

@@ -1,6 +1,6 @@
 ---
 title: Przewodnik po raportowaniu
-description: Ten temat zawiera łącza do informacji o raportowaniu.
+description: Ten artykuł zawiera linki do informacji o raportowaniu.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1039f38e0a3ced13d824e10d88cd502f546b96fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: acd9b885c17ae0ca05780242a4c8d3837f814f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919199"
 ---
 # <a name="reporting-guide"></a>Przewodnik po raportowaniu
 
@@ -32,14 +32,14 @@ ms.locfileid: "8577571"
 
 Metody i technologie raportowania w tej aplikacji mogą pomóc w określeniu kondycji projektów oraz konieczności podjęcia działań naprawczych. 
 
-Łącze do pliku PDF, które było wcześniej w tym temacie, zostało usunięte, a zawartość przeniesiono do następujących tematów:
+Link do pliku PDF, który był wcześniej w tym artykule, został usunięte, a zawartość przeniesiono do następujących artykułów:
 
 - [Strona główna raportowania](../reports-reporting-dynamics-365-project-service.md)
 - [Pulpity nawigacyjne](../reports-dashboards.md)
 - [Praca z modelem danych rozwiązania Project Service Automation](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Ten temat zostanie usunięty w przyszłej aktualizacji dokumentacji. 
+> Ten artykuł zostanie usunięty w przyszłej aktualizacji dokumentacji. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

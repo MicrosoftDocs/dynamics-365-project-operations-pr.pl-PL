@@ -1,24 +1,24 @@
 ---
 title: Edytuj rezerwacje
-description: Ten temat zawiera informacje na temat aktualizowania i zmieniania rezerwacji.
+description: W tym artykule przedstawiono informacje dotyczące aktualizowania i zmieniania rezerwacji.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594361"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915243"
 ---
 # <a name="edit-bookings"></a>Edytuj rezerwacje
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
 
-W przypadku wystąpienia zmian w projekcie, które wymagają aktualizacji istniejących rezerwacji, istnieje kilka sposobów ich wprowadzenia. Ten temat zawiera informacje na temat aktualizowania i zmieniania rezerwacji.
+W przypadku wystąpienia zmian w projekcie, które wymagają aktualizacji istniejących rezerwacji, istnieje kilka sposobów ich wprowadzenia. W tym artykule zawarto informacje dotyczące aktualizowania i zmieniania rezerwacji.
 
 ## <a name="resource-reconciliation"></a>Uzgadnianie zasobów
 

@@ -1,17 +1,17 @@
 ---
 title: Szacowanie wiersza oferty opartej na projekcie
-description: W tym temacie zamieszczono informacje dotyczące sposobu tworzenia oszacowania dla wiersza oferty opartej na projekcie.
+description: W tym artykule przedstawiono informacje na temat sposobu tworzenia szacowanej wartości wiersza oferty opartej na projekcie.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a29cf20fe95ee5bfb189defded4f06aadb75a841
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598363"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914369"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Szacowanie wiersza oferty opartej na projekcie
 

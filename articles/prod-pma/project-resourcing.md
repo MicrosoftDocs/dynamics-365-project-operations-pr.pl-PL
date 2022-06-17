@@ -1,6 +1,6 @@
 ---
 title: Strona główna pozyskiwania zasobów do projektów
-description: Ten temat zawiera informacje o pozyskiwaniu zasobów do projektów.
+description: Ten artykuł zawiera informacje o pozyskiwaniu zasobów dla projektów.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924029"
 ---
 # <a name="project-resourcing-home-page"></a>Strona główna pozyskiwania zasobów do projektów
 
 [!include [banner](../includes/banner.md)]
 
-Ten temat zawiera informacje o pozyskiwaniu zasobów do projektów.
+Ten artykuł zawiera informacje o pozyskiwaniu zasobów dla projektów.
 
 Jednym ze sposobów na menedżerowie projektów i menedżerowie zasobów na etapie planowania projektów jest alokacja zasobów, gdzie muszą określić i zarezerwować poprawny zasób, aby pozostały do pracy nad projektem. W Dynamics 365 Finance funkcje organizowania zasobów projektów umożliwiają zdefiniowanie ról traktowanych jako zasoby tymczasowe, które można zarezerwować dla określonego projektu lub części projektu. Menedżerowie projektów tego typu i menedżerowie zasobów mogą wykonać następujące zadania:
 
@@ -41,7 +41,7 @@ Jednym ze sposobów na menedżerowie projektów i menedżerowie zasobów na etap
 
 W miarę postępu planowania projektów planowane zasoby mogą zostać zamienione na zasoby personelu. Menedżer projektu może również wycofać i zaktualizować zastrzeżenia, które można pozyskać na etapie projektu.
 
-Poniższe tematy zawierają informacje o zadaniach, które należy wykonać podczas pracy związanej z pozyskaniem zasobów do projektów.
+Poniższe artykuły zawierają informacje dotyczące zadań, które należy wykonać podczas pozyskiwania projektów.
 
 - [Skonfiguruj zasoby projektu](set-up-project-resources.md)
 - [Zarządzaj kwalifikacjami zasobów](manage-resource-competencies.md)

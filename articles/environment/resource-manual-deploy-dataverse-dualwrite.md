@@ -1,25 +1,25 @@
 ---
 title: Ręczne wdrażanie aplikacji Project Operations usługi Dataverse z obsługą podwójnego zapisu
-description: W tym temacie opisano sposób ręcznego wdrażania aplikacji Project Operations Dataverse, która obsługuje podwójny zapis.
+description: W tym artykule wyjaśniono sposób ręcznego wdrażania aplikacji Project Operations Dataverse w taki sposób, aby umożliwiała podwójny zapis.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591233"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912023"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Ręczne wdrażanie aplikacji Project Operations usługi Dataverse z obsługą podwójnego zapisu
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-W tym temacie opisano sposób ręcznego wdrażania aplikacji Microsoft Dynamics 365 Project Operations w usłudze Microsoft Dataverse, co ma umożliwić obsługę podwójnego zapisu. Aplikacja Project Operations wykrywa konfigurację środowiska i dodaje dodatkową obsługę podwójnego zapisu, jeśli zostaną spełnione wymagania wstępne.
+W tym artykule wyjaśniono sposób ręcznego wdrażania aplikacji Microsoft Dynamics 365 Project Operations w usłudze Microsoft Dataverse w taki sposób, aby umożliwiała podwójny zapis. Aplikacja Project Operations wykrywa konfigurację środowiska i dodaje dodatkową obsługę podwójnego zapisu, jeśli zostaną spełnione wymagania wstępne.
 
-Podczas wdrażania w ramach usług Microsoft Dynamics Lifecycle Services (LCS), jeśli wykonano instrukcje z tego tematu, można pominąć wdrożenie integracji platformy Microsoft Power Platform (wcześniej znanej jako środowisko Common Data Service).
+Podczas wdrażania usług Microsoft Dynamics Lifecycle Services (LCS), jeśli instrukcje zostały zgodnie z instrukcjami podanymi w tym artykule, można pominąć wdrożenie integracji platformy Microsoft Power Platform (wcześniej nazywanej środowiskiem Common Data Service).
 
 Proces wdrażania aplikacji Project Operations w usłudze Dataverse w celu włączenia podwójnego zapisu ma cztery podstawowe kroki:
 

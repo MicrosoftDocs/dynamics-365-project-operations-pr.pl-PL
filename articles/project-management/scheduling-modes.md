@@ -1,17 +1,17 @@
 ---
 title: Tryby planowania
-description: Ten temat zawiera informacje o trybach planowania.
+description: Ten artykuł zawiera informacje o trybach planowania.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588427"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923661"
 ---
 # <a name="scheduling-modes"></a>Tryby planowania
 
@@ -38,7 +38,7 @@ Podczas definiowania trybu planowania projektu jest ustawiana jedna z tych warto
 | Zadanie — stały nakład pracy    | Czas trwania jest ponownie przeliczany. | Jednostki są ponownie przeliczane.    | Czas trwania jest ponownie przeliczany. |
 | Zadanie — stały czas trwania  | Nakład pracy jest ponownie przeliczany.   | Nakład pracy jest ponownie przeliczany.    | Jednostki są ponownie przeliczane.   |
 
-Aby uzyskać więcej informacji dotyczących konsekwencji danego trybu, zobacz temat [Zmiana typu zadania w celu dokładniejszego planowania](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). W tym temacie termin **Praca** jest używany zamiast terminu **Nakład pracy**.
+Aby uzyskać więcej informacji dotyczących konsekwencji danego trybu, zobacz temat [Zmiana typu zadania w celu dokładniejszego planowania](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). W artykule termin **Praca** jest używany zamiast terminu **Nakład**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Zmienianie trybu planowania organizacji
 

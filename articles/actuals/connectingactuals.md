@@ -1,17 +1,17 @@
 ---
 title: Połączenia transakcji — łączenie wartości rzeczywistych różnych typów transakcji
-description: W temat wyjaśniono, w jaki sposób połączenie transakcji jest używane do łączenia wartości rzeczywistych różnych typów w celu śledzenia rentowności, backlogu fakturowania i rozliczania w stosunku do niezliczeniu przychodów.
+description: W tym artykule wyjaśniono, w jaki sposób połączenie transakcji jest używane do łączenia wartości rzeczywistych różnych typów w celu śledzenia rentowności, zaległości fakturowania i rozliczania w stosunku do niezliczeniu przychodów.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e8d75a69e27619e6a21f0fe61e2c656e94017b0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19a78336099f54c5d6b36a963a90b9fd77e3d0af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580791"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926099"
 ---
 # <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Połączenia transakcji — łączenie wartości rzeczywistych różnych typów transakcji
 

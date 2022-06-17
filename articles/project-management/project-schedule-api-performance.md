@@ -1,28 +1,28 @@
 ---
 title: Wydajność interfejsu API harmonogramu projektu
-description: Ten temat zawiera informacje o testach porównawczych wydajności interfejsów API harmonogramu projektu i identyfikuje najlepsze rozwiązania dotyczące optymalnego użycia.
+description: Ten artykuł zawiera informacje o testach porównawczych wydajności interfejsów API harmonogramu projektu i identyfikuje najlepsze rozwiązania dotyczące optymalnego użycia.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593855"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911195"
 ---
 # <a name="project-schedule-api-performance"></a>Wydajność interfejsu API harmonogramu projektu
 
 _**Dotyczy**: Project Operations dla scenariuszy opartych na zasobach/nieopartych na zaopatrzeniu, wdrażanie w wersji uproszczonej — od okazji do faktury pro forma, Project for the Web_
 
-Ten temat zawiera informacje o testach porównawczych wydajności interfejsów programowania aplikacji (API) harmonogramu projektu i identyfikuje najlepsze rozwiązania dotyczące optymalizacji użycia.
+Ten artykuł zawiera informacje o testach porównawczych wydajności interfejsów programowania aplikacji (API) harmonogramu projektu i identyfikuje najlepsze rozwiązania dotyczące optymalizacji użycia.
 
 ## <a name="project-scheduling-service"></a>Usługa planowania projektów
 Usługa planowania projektów to usługa wielodostępna działająca na platformie Microsoft Azure. Został zaprojektowany, aby poprawić interakcję, zapewniając szybkie i płynne działanie podczas pracy użytkowników nad projektami. Udoskonalenie to osiąga się poprzez akceptowanie wniosków o zmianę, przetwarzanie ich, a następnie natychmiastowe zwracanie wyniku. Usługa asynchronicznie utrzymuje się w Dataverse i nie blokuje użytkownikom wykonywania innych operacji.
 
-Interfejsy API harmonogramu projektów opierają się na usłudze planowania projektów do uruchamiania żądań, które są opisane bardziej szczegółowo w dalszych sekcjach tego tematu.
+Interfejsy API harmonogramu projektów opierają się na usłudze planowania projektów do uruchamiania żądań, które są opisane bardziej szczegółowo w dalszych sekcjach tego artykułu.
 
 Interfejsy API harmonogramu projektu są przeznaczone do pracy z następującymi jednostkami struktury podziału pracy (WBS):
 

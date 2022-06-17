@@ -1,17 +1,17 @@
 ---
 title: Wdrożenie aplikacji Project Operations — wersja uproszczona
-description: W tym temacie zamieszczono informacje dotyczące sposobu instalowania programu Project Operations lite deployment — od oferty do faktury pro forma.
+description: W tym artykule podano informacje o tym, jak zainstalować uproszczone wdrożenie aplikacji Project Operations — od okazji do faktury pro forma.
 author: stsporen
 ms.date: 02/28/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: e33506504665f2e7ef7ad48469082f9f64a2a44b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 86293b725e86db3d4b8bdaf5810b16b7c670e8a3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580745"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930331"
 ---
 # <a name="deploy-project-operations---lite"></a>Wdrożenie aplikacji Project Operations — wersja uproszczona
 
