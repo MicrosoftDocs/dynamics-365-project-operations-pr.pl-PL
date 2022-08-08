@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922879"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028899"
 ---
 # <a name="project-mobile-applications-overview"></a>Omówienie aplikacji mobilnych projektu
 
@@ -33,11 +33,11 @@ Aplikacja mobilna Dynamics 365 Project Timesheet umożliwia użytkownikom przesy
 
 ## <a name="project-time-entry-workspace"></a>Obszar roboczy wpisu czasu projektu
 
-Obszar roboczy wpisu czasu projektu umożliwia użytkownikom wprowadzanie i zapisywanie czasu w projekcie. Nie umożliwia jednak użytkownikom przesyłania ani zatwierdzania grafików projektów. Może być używany tylko do wprowadzania czasu. Ten mobilny obszar roboczy jest przeznaczony do użytku wraz z aplikacją mobilną Finance and Operations.
+Obszar roboczy wpisu czasu projektu umożliwia użytkownikom wprowadzanie i zapisywanie czasu w projekcie. Nie umożliwia jednak użytkownikom przesyłania ani zatwierdzania grafików projektów. Może być używany tylko do wprowadzania czasu. Ten mobilny obszar roboczy jest przeznaczony do użytku wraz z aplikacją mobilną finansową lub operacyjną.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Moje karty czasu pracy/karty czasu do przeglądu
 
-Moje karty czasu pracy (Optymalizacja dla urządzeń mobilnych) i kart czasu pracy do przeglądu (Optymalizacja na potrzeby urządzeń na telefon komórkowy) tworzą rozwiązanie, które pozwala pracownikom tworzyć, przesyłać i zatwierdzać karty czasu pracy projektu na urządzeniu mobilnym. Pracownicy mogą uzyskiwać dostęp do funkcji Finance za pośrednictwem adresu URL aplikacji. Rozwiązanie to nie wymaga aplikacji mobilnej Finance and Operations.
+Moje karty czasu pracy (Optymalizacja dla urządzeń mobilnych) i kart czasu pracy do przeglądu (Optymalizacja na potrzeby urządzeń na telefon komórkowy) tworzą rozwiązanie, które pozwala pracownikom tworzyć, przesyłać i zatwierdzać karty czasu pracy projektu na urządzeniu mobilnym. Pracownicy mogą uzyskiwać dostęp do funkcji Finance za pośrednictwem adresu URL aplikacji. Rozwiązanie to nie wymaga aplikacji mobilnej finansowej ani operacyjnej.
 
 ## <a name="for-more-information"></a>Aby uzyskać więcej informacji
 

@@ -2,24 +2,24 @@
 title: Rozwiązywanie problemów z pracą w siatce Zadanie
 description: Ten artykuł zawiera informacje dotyczące rozwiązywania problemów podczas pracy z siatką zadań.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911057"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188245"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Rozwiązywanie problemów z pracą w siatce Zadanie 
 
 
 _**Dotyczy**: Project Operations dla scenariuszy opartych na zasobach/nieopartych na zaopatrzeniu, wdrażanie w wersji uproszczonej — od okazji do faktury pro forma, Project for the Web_
 
-Siatka Zadanie obsługiwana przez rozwiązanie Dynamics 365 Project Operations jest hostowaną ramką iframe w programie Microsoft Dataverse. W wyniku tego zastosowania, aby uwierzytelnianie i autoryzacja działały poprawnie, muszą zostać spełnione określone wymagania. Ten artykuł opisuje typowe problemy, które mogą mieć wpływ na możliwość renderowania siatki lub zarządzania zadaniami w strukturze podziału pracy (WBS).
+Siatka Zadanie używana przez rozwiązanie Dynamics 365 Project Operations jest hostowaną ramką iframe w programie Microsoft Dataverse. W wyniku tego zastosowania, aby uwierzytelnianie i autoryzacja działały poprawnie, muszą zostać spełnione określone wymagania. Ten artykuł opisuje typowe problemy, które mogą mieć wpływ na możliwość renderowania siatki lub zarządzania zadaniami w strukturze podziału pracy (WBS).
 
 Do typowych problemów należą:
 
@@ -72,7 +72,10 @@ Project Operations wymaga, aby parametr projektu odwoływał się do punktu koń
 4. Usuń pole ze strony **Parametry projektu**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Rozwiązanie problemu 3: Zaloguj się w witrynie project.microsoft.com
-W przeglądarce Microsoft Edge otwórz nową kartę, przejdź do okna project.microsoft.com i zaloguj się, używając roli użytkownika, za pomocą funkcji uzyskiwania dostępu do Project Operations.
+
+W przeglądarce otwórz nową kartę, przejdź do okna project.microsoft.com i zaloguj się, używając roli użytkownika, za pomocą funkcji uzyskiwania dostępu do Project Operations. Ważne jest, aby tylko jeden użytkownik był zalogowany do produktu firmy Microsoft w przeglądarce. Komunikat o błędzie „login.microsoftonline.com odmówił połączenia” najczęściej występuje, gdy zalogowanych jest więcej niż jeden użytkownik, jak pokazano na poniższej ilustracji.
+
+![Wybierz stronę logowania do konta, na której jest zalogowanych dwóch użytkowników.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problem: projekt nie zostanie załadowany, a interfejs użytkownika zatrzymał się na ładowaniu
 

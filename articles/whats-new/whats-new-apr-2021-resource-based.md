@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912437"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029267"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nowości z kwietnia 2021 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
 
@@ -48,7 +48,7 @@ Następująca lista zawiera mapowania podwójnego zapisu, które zostały zmodyf
 | Integracja w Project Operations encji eksportu faktury dostawcy projektu (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nowa mapa tabeli umożliwiająca synchronizację nagłówków faktur dostawców z aplikacji finansowych i operacyjnych do Dataverse. |
 | Integracja w Project Operations encji eksportu wiersza faktury dostawcy projektu (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nowa mapa tabeli umożliwiająca synchronizację wierszy faktur dostawców z aplikacji finansowych i operacyjnych do Dataverse. |
 
-Zawsze uruchamiaj najnowszą wersję mapy w swoim środowisku i włączaj wszystkie powiązane mapy tabelaryczne podczas aktualizacji rozwiązania Project Operations Dataverse i wersji rozwiązania Finance and Operations. Niektóre funkcje i możliwości mogą nie działać poprawnie, jeśli najnowsza wersja mapy nie zostanie aktywowana. Aktywną wersję mapy można zobaczyć w kolumnie **Wersja** na stronie **Zapis podwójny**. Aby uaktywnić nową wersję mapy, należy wybrać **Wersję mapowania tabeli**, a następnie zapisać wybraną wersję po wybraniu najnowszej wersji. Jeśli dostosowałeś niestandardową mapę tabeli, będziesz trzeba ponownie zastosować zmiany. Więcej informacji: [Zarządzanie cyklem życia aplikacji](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Zawsze uruchamiaj najnowszą wersję mapy w swoim środowisku i włączaj wszystkie powiązane mapy tabelaryczne podczas aktualizacji rozwiązania Project Operations Dataverse i wersji aplikacji finansowych i operacyjnych. Niektóre funkcje i możliwości mogą nie działać poprawnie, jeśli najnowsza wersja mapy nie zostanie aktywowana. Aktywną wersję mapy można zobaczyć w kolumnie **Wersja** na stronie **Zapis podwójny**. Aby uaktywnić nową wersję mapy, należy wybrać **Wersję mapowania tabeli**, a następnie zapisać wybraną wersję po wybraniu najnowszej wersji. Jeśli dostosowałeś niestandardową mapę tabeli, będziesz trzeba ponownie zastosować zmiany. Więcej informacji: [Zarządzanie cyklem życia aplikacji](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Jeśli wystąpi problem z uruchomieniem mapy, postępuj zgodnie z instrukcjami w sekcji [Problem brakujących kolumn tabeli na mapach](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) w przewodniku rozwiązywania problemów związanych z podwójnym zapisem.
 

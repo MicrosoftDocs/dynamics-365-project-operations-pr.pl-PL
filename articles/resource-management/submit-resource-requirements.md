@@ -6,12 +6,12 @@ ms.date: 10/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 583524ccf33f2dc42ee6beba7e00cc5fd74819d4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1e09d92de310dbe09e53ae134e5bb195fd64178f
+ms.sourcegitcommit: 341192e1e45eb42d6b18a8370ac2e1100c4a4ca4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598685"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9137194"
 ---
 # <a name="submit-a-resource-request"></a>Przesyłanie żądania zasobów
 
@@ -24,7 +24,11 @@ Wygenerowane wymaganie zasobu można przesłać jako żądanie zasobu. Żądanie
 
 Stan żądania o ogólnego członka zespołu zmieni się na **"Przesłano**.
 
-Gdy żądanie zostanie zrealizowane, ogólny zasób zostanie zastąpiony nazwanym zasobem, jeśli menedżer zasobów zrealizował żądanie poprzez zarezerwowanie nazwanego zasobu. W przeciwnym razie, jeśli menedżer zaproponuje nazwany zasób, zasób ogólny pozostanie w zespole, a stan żądania zmieni się na **Wymaga przeglądu**, jeśli menedżer zasobów zaproponował nazwany zasób.
+Odbiorca żądania zasobu może albo częściowo wypełnić żądanie przy użyciu jednego lub więcej zasobów, albo całkowicie spełnić żądanie zasobu.
+
+Po spełnieniu żądania co najmniej jeden nazwany zasób zostanie dodany do projektu jako członkowie zespołu projektowego. Jeśli wymóg dotyczący zasobu jest spełniony przez jeden zasób, ogólny członek zespołu powiązany z żądaniem zasobu jest usuwany. 
+
+Gdy odbiorca żądania zasobów zaproponuje zasoby i jest gotowy, aby kierownik projektu mógł przejrzeć zaproponowane zasoby, powinien zaktualizować stan żądania zasobów na **Wymaga przeglądu**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

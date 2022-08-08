@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930147"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064291"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Konfigurowanie przebiegu używającego warstw współczynnika przebiegu
 
@@ -50,5 +50,15 @@ Funkcja **Obliczanie kwoty kilometrowej dla wielu poziomów kilometrowych z tą 
 
 Po włączeniu funkcji należy zresetować poziomy milowe, aby prawidłowo odzwierciedlały wartość pola **Ilość**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Włącz obliczanie sumy łącznych wartości rok obrachunkowy danych
+
+Funkcja **Obliczanie sum przebiegu według roku obrachunkowego** umożliwia nowe ustawienie w parametrach zarządzania wydatkami, które umożliwia obliczanie sum przebiegu według roku obrachunkowego zamiast roku kalendarzowego. Wykonaj następujące kroki, aby włączyć tę funkcję.
+
+1. Wybierz kolejno pozycje **Obszary robocze** > **Zarządzanie funkcjami**.
+1. Na liście znajdź i wybierz **Obliczanie sum przebiegu według roku obrachunkowego**, a następnie wybierz **Włącz teraz**.
+1. Przejdź do **Zarządzanie wydatkami** > **Konfiguracja** > **Ogólne** > **Parametry zarządzania wydatkami**.
+1. Na stronie **Parametry zarządzania wydatkami** znajdź i włącz opcję **Użyj roku podatkowego do sumy przebiegu**.
+
+Po włączeniu opcji **Użyj roku obrachunkowego do sum przebiegu** sumy przebiegu są obliczane według roku obrachunkowego.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

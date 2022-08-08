@@ -2,16 +2,16 @@
 title: Wersje map podwójnego zapisu aplikacji Project Operations
 description: W tym artykule przedstawiono listę map podwójnego zapisu wymaganych dla aplikacji Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959447"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112442"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Wersje map podwójnego zapisu aplikacji Project Operations
 
@@ -30,7 +30,7 @@ Następujące mapy są wymaganymi warunkami wstępnymi dla rozwiązania Project 
 | Klienci V3 (accounts) | Nie jest wymagane do inicjowania obsługi. |
 | Vendors V2 (msdyn_vendors) | Nie jest wymagane do inicjowania obsługi. |
 
-1. Z listy map wybierz mapowanie Księga **(msdyn\_ledgers)** ze wszystkimi wymaganiami wstępnymi i zaznacz pole wyboru **Synchronizacja początkowa**. W polu **Główny dla początkowej synchronizacji** wybierz **aplikacje finansowe i operacyjne** zarówno dla mapy księgowej, jak i wszystkich wstępnie wstępnych map. Wybierz **Uruchom**.
+1. Z listy map wybierz mapowanie Księga **(msdyn\_ledgers)** ze wszystkimi wymaganiami wstępnymi i zaznacz pole wyboru **Synchronizacja początkowa**. W polu **Główny dla początkowej synchronizacji** wybierz **Aplikacje finansowe i operacyjne** zarówno dla mapy księgowej, jak i wszystkich wstępnie wstępnych map. Wybierz **Uruchom**.
 
 ![Synchronizacja mapowania księgi.](media/DW6.png)
 
@@ -46,7 +46,7 @@ Następujące mapy są wymaganymi warunkami wstępnymi dla rozwiązania Project 
 | Nagłówki kontraktów projektów (sales orders) | 1.0.0.1 | Nie jest wymagane do inicjowania obsługi. ||
 | Pozycje kontraktu w projekcie (salesorderdetails) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. ||
 | Źródło danych projektu (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Nie jest wymagane do inicjowania obsługi. ||
-| Tabela integracji Project Operations dla szacowania materiałów (msdyn\_estimatelines) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. ||
+| Tabela integracji projektu dla szacowania materiałów (msdyn\_estimatelines) | 1.0.0.0 | Nie jest wymagane do inicjowania obsługi. ||
 | Propozycje faktury projektu V2 (invoices) | 1.0.0.3 | Nie jest wymagane do inicjowania obsługi. ||
 | Wartości rzeczywiste integracji Project Operations (msdyn_actuals) | 1.0.0.14 | Nie jest wymagane do inicjowania obsługi. ||
 | Punkty kontrolne pozycji kontraktu integracji rozwiązania Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Nie jest wymagane do inicjowania obsługi. ||

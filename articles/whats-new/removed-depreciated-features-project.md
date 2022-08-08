@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0fbaed028db11d8fb1551d304a40543faf35b0d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921499"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028342"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Usunięte lub przestarzałe funkcje w aplikacji Dynamics 365 Project Operations
 

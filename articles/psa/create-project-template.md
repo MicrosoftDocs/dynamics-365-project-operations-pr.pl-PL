@@ -4,7 +4,7 @@ description: Tworzenie szablonu projektu w Project Service
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599007"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177439"
 ---
 # <a name="create-a-project-template-project-service"></a>Utwórz szablon projektu (Project Service)
 
@@ -40,7 +40,14 @@ Szablony projektu pozwalają Ci zaoszczędzić czas, jeśli Twoja firma regularn
 - **Szacowania projektu**: Szacowania projektu w szablonach działają tak samo, jak w projektach, z takim wyjątkiem, że cenniki za domyślne koszty i ceny sprzedaży są zawsze domyślnym kosztem i cenami sprzedaży zdefiniowanymi w parametrach [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Reszta funkcji jest taka sama, jak w projekcie.  
   
 - **Tworzenie zespołu projektu**: Podczas tworzenia zespołu projektu dla szablonu projektu, nie można dokonać rezerwacji nazwanego zasobu w szablonie. Można użyć **Generuj zespół projektu** w strukturze podziału pracy, aby wygenerować zestaw zasobów rodzajowych. Można również określić wymagane umiejętności i poziomy biegłości dla zasobów rodzajowych. Nie można zastąpić zasobu rodzajowego zasobem możliwym do zarezerwowania w szablonach projektu.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Tworzenie szablonu projektu na podstawie istniejącego projektu
+Możesz utworzyć szablon projektu z projektu na następujące sposoby:
+
+- **Struktura podziału pracy**: Struktura podziału pracy w szablonie pochodzącym z projektu skopiuje wszystkie zadania i zależności. Tworzone przydziały będą oparte na ogólnych członkach zespołu, którzy są dodawani do zespołu projektowego podczas tworzenia szablonu projektu.
+- **Kosztorysy projektu**: Po utworzeniu szablonu projektu na podstawie istniejącego projektu oszacowania z projektu źródłowego są kopiowane do szablonu projektu.
+- **Członkowie zespołu projektu**: Gdy szablon jest tworzony na podstawie istniejącego projektu, wszyscy nazwani członkowie zespołu są zastępowani ogólnym zasobem organizacji. Wszystkie nazwy pozycji i role są zachowywane.
+
 ## <a name="create-a-project-from-a-template"></a>Utwórz projekt na podstawie szablonu  
  Oto różne sposoby, w jakie można tworzyć projekt na podstawie szablonu:  
   

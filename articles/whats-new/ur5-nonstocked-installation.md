@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912483"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030048"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Aktualizowanie Project Operations w środowisku Finance
 
@@ -119,7 +119,7 @@ W ramach aktualizacji UR5 są wymagane następujące aktualizacje uprawnień zab
 4. Na stronie **Wersja mapowania tabeli** można zastosować nową wersję mapowania do każdej z trzech encji.
 5. Na stronie **Podwójny zapis** wybierz opcję Uruchom, aby ponownie uruchomić mapowania.
 6. Z listy map wybierz mapowanie **Księga (msdyn_ledgers)** ze wszystkimi wymaganiami wstępnymi i zaznacz pole wyboru **Synchronizacja początkowa**. 
-7. W polu **Główny dla początkowej synchronizacji** wybierz **aplikacje finansowe i operacyjne**, a następnie wybierz opcję **Uruchom**.
+7. W polu **Główny dla początkowej synchronizacji** wybierz **Aplikacje finansowe i operacyjne**, a następnie wybierz opcję **Uruchom**.
  
  ![Synchronizacja mapowania księgi.](media/DW6.png)
  

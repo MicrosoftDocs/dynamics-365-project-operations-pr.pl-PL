@@ -2,7 +2,7 @@
 title: Aplikacja mobilna grafik projektu
 description: Ten artykuł zawiera informacje o aplikacji mobilnej Microsoft Dynamics 365 Project Timesheet. Aplikacja mobilna Project Timesheet umożliwia użytkownikom przesyłanie i zatwierdzanie kart czasu pracy dla projektów na ich urządzeniu przenośnym.
 author: abruer
-ms.date: 04/08/2019
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 730ed36841d07df60e8a8f343126209f0edcc593
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923983"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110988"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplikacja mobilna grafik projektu
 
@@ -28,7 +28,7 @@ ms.locfileid: "8923983"
 
 ## <a name="overview"></a>Omówienie
 
-Aplikacja mobilna Microsoft Dynamics 365 Project Timesheet umożliwia użytkownikom przesyłanie i zatwierdzanie kart czasu pracy dla projektów na ich urządzeniu przenośnym (iPhone lub Android). Ta aplikacja udostępnia funkcję karty czasu pracy znajdującą się w obszarach zarządzania projektem i księgowania systemu Dynamics 365 Finance, poprawiając wydajność i efektywność, a także umożliwiając punktualne wprowadzanie i zatwierdzanie kart czasu pracy.
+Aplikacja mobilna Microsoft Dynamics 365 Project Timesheet umożliwia użytkownikom przesyłanie i zatwierdzanie kart czasu pracy dla projektów na ich urządzeniu przenośnym (iPhone lub Android). Tej aplikacja mobilna zapewnia dostęp do funkcji karty czasu pracy w obszarze zarządzania projektami i księgowania w Dynamics 365 Finance. Zwiększa ona wydajność i efektywność użytkowników oraz ułatwia wprowadzanie i zatwierdzanie grafików projektów.
 
 ## <a name="download-and-install-the-mobile-app"></a>Pobierz i zainstaluj aplikację mobilną
 
@@ -38,6 +38,19 @@ Pobierz i zainstaluj aplikację mobilną Microsoft Dynamics 365 Project Timeshee
 
 W Finance musi być włączona aplikacja mobilna Project Timesheet. Aby włączyć tę funkcję, przejdź do **Parametry Zarządzanie projektami i księgowanie \> Grafik** i wybierz parametr **Włącz Microsoft Dynamics 365 Project Timesheet**.
 
+### <a name="resolve-sign-in-issues"></a>Rozwiązywanie problemów z logowaniem
+
+**Problem:** Podczas logowania do aplikacji mobilnej Project Timesheet użytkownicy otrzymują komunikat o błędzie informujący, że „nie mogą uzyskać dostępu do aplikacji '2bc50526-cdc3-4e36-a970-c284c34cbd6e' w tej dzierżawie”.
+
+**Problem:** Podczas logowania do aplikacji mobilnej Project Timesheet użytkownicy otrzymują błąd podobny do jednego z następujących przykładów:
+
+- „AADSTS50020: Konto użytkownika „[nazwa użytkownika]” od dostawcy tożsamości „https://sts.windows.net/[identyfikator aplikacji]” nie istnieje w dzierżawie „[identyfikator dzierżawy]” i nie może uzyskać dostępu do aplikacji „[aplikacja id]” w tym najemcy”.
+- "Wybrane konto użytkownika nie istnieje w dzierżawie" [identyfikator dzierżawy]" i nie może uzyskać dostępu do aplikacji "[identyfikator aplikacji]" w tej dzierżawie."
+
+**Wyjaśnienie:** Te problemy są powodowane przez zmianę w Azure Active Directory (Azure AD) z maja 2022 r. i powiązaną z użytkownikami zewnętrznymi. Ponieważ ta zmiana nie została wprowadzona w aplikacjach finansowych i operacyjnych, może mieć wpływ na klientów korzystających z dowolnej wersji platformy lub aplikacji.
+
+**Poprawka:** Wszyscy użytkownicy zewnętrzni muszą zostać zaproszeni do dzierżawy za pośrednictwem usługi Azure AD. Aby uzyskać więcej informacji, zobacz [Zapraszanie użytkowników korzystających ze współpracy B2B z Azure Active Directory](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
+
 ## <a name="sign-in-to-the-app"></a>Zaloguj się do aplikacji
 
 1.  Uruchom aplikację na swoim urządzeniu mobilnym.
@@ -46,7 +59,7 @@ W Finance musi być włączona aplikacja mobilna Project Timesheet. Aby włączy
 
 3.  Po pierwszym zalogowaniu się jest wyświetlany monit o podanie nazwy użytkownika i hasła. Wprowadź poświadczenia.
 
-4.  Użytkownik zostanie zalogowany w firmie domyślnej.
+4. Użytkownik zostanie zalogowany w firmie domyślnej.
 
 ## <a name="submit-a-project-timesheet"></a>Przesyłanie grafiku projektu
 

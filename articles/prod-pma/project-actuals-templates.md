@@ -1,5 +1,5 @@
 ---
-title: Synchronizowanie wartości rzeczywistych bezpośrednio z programu Project Service Automation do arkusza integracji projektu w celu zaksięgowania w obszarze Finance and Operations
+title: Synchronizowanie wartości rzeczywistych bezpośrednio z programu Project Service Automation do arkusza integracji projektu w celu zaksięgowania w obszarze aplikacji finansowych i operacyjnych
 description: W tym artykule omówiono szablony i podstawowe zadania, które są używane do synchronizowania wartości rzeczywistych projektu bezpośrednio z Microsoft Dynamics 365 Project Service Automation do aplikacji do obsługi finansów i operacji.
 author: Yowelle
 ms.date: 07/20/2018
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 34a0a0f7277777895077d221cd95e8d962d2a902
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929503"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028991"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronizowanie wartości rzeczywistych bezpośrednio z programu Project Service Automation do arkusza integracji projektu w celu zaksięgowania w obszarze Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronizowanie wartości rzeczywistych bezpośrednio z programu Project Service Automation do arkusza integracji projektu w celu zaksięgowania w obszarze aplikacji finansowych i operacyjnych
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,7 +41,7 @@ Rozwiązanie do integracji Project Service Automation to Finance wykorzystuje fu
 
 Na poniższej ilustracji przedstawiono sposób synchronizowania danych między Project Service Automation a Finance.
 
-[![Przepływ danych w integracji programu Project Service Automation z programem Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Przepływ danych w integracji programu Project Service Automation z aplikacjami finansowymi i operacyjnymi.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Aktualne dane projektowe z Project Service Automation
 

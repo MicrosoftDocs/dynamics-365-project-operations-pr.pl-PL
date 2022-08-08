@@ -1,5 +1,5 @@
 ---
-title: Synchronizowanie szacunków projektu bezpośrednio z programu Project Service Automation do Finance and Operations
+title: Synchronizowanie szacunków projektu bezpośrednio z programu Project Service Automation do aplikacji finansowych i operacyjnych
 description: Ten artykuł zawiera opis szablonów i podstawowych zadań, które są używane do synchronizowania szacunków czasu projektu i szacunków wydatków projektów bezpośrednio między Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: fb39a377a51b09f04564b4fe8527e34f0ea12682
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a71a2a7ca0c9179ddd5667364d8b5c9e413b917
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920855"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029818"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizowanie szacunków projektu bezpośrednio z programu Project Service Automation do Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronizowanie szacunków projektu bezpośrednio z programu Project Service Automation do aplikacji finansowych i operacyjnych
 
 [!include[banner](../includes/banner.md)]
 

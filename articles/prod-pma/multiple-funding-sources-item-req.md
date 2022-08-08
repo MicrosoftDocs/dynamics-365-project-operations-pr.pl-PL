@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931205"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028501"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Wymagania dotyczące pozycji dla umów projektowych z wieloma źródłami finansowania
 
@@ -33,7 +33,7 @@ Firma Contoso wygrała umowę na odnowienie sprzętu z dwoma swoimi klientami: A
 
 ### <a name="prerequisites"></a>Wymagania wstępne
 
-- Microsoft Dynamics 365 Finance and Operations **wersja 10.0.27 lub nowsza** jest wymagana do korzystania z wymagań dotyczących pozycji, które mają wiele kont faktur.
+- Microsoft Dynamics 365 Finance **wersja 10.0.27 lub nowsza** jest wymagana do korzystania z wymagań dotyczących pozycji, które mają wiele kont faktur.
 - Administrator systemu musi włączyć funkcję **Zezwalaj na wymagania dotyczące pozycji z wieloma źródłami finansowania dla scenariuszy Project Operations opartych na zapasach/produkcji** w obszarze roboczym **Zarządzanie funkcjami**.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>Konfigurowanie reguł domyślnych dla konta faktury

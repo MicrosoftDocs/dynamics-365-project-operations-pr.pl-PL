@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 793b1a01f3bf692bb9f4c2d9abad9a44b110544a
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924673"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029910"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Stosowanie danych demonstracyjnych do środowiska hostowanego w chmurze rozwiązania Finance
 
@@ -76,7 +76,7 @@ Wykonanie tej czynności może potrwać do kilku minut. Powinien zostać wyświe
 
 18. Zamknij sesję pulpitu zdalnego i na stronie **Szczegóły środowiska** LCS zaloguj się w celu potwierdzenia, że wszystko działa zgodnie z oczekiwaniami.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Aplikacje finansowe i operacyjne.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

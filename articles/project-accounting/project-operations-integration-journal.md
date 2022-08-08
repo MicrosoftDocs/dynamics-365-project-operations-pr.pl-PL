@@ -2,16 +2,16 @@
 title: Arkusz integracji w aplikacji Project Operations
 description: W tym artykule przedstawiono informacje na temat pracy z arkuszem integracji w aplikacji Project Operations.
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923891"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106288"
 ---
 # <a name="integration-journal-in-project-operations"></a>Arkusz integracji w aplikacji Project Operations
 
@@ -50,9 +50,21 @@ W wierszach arkusza integracji Project Operations można aktualizować tylko nas
 - **Grupa podatku fakturowania** i **Grupa podatku towaru do rozliczania**
 - **Wymiary finansowe** (przy użyciu akcji **Rozdziel kwoty**)
 
-Wiersze arkusza integracji można usunąć, jednak wszelkie niewysłane wiersze zostaną ponownie wstawione do arkusza po ponownym uruchomieniu okresowego procesu **Importowania z przemieszczania**.
+Wiersze dziennika integracji można usunąć. Jednak wszelkie niewysłane wiersze zostaną ponownie wstawione do arkusza po ponownym uruchomieniu okresowego procesu **Importowania z przemieszczania**.
+
+### <a name="post-the-project-operations-integration-journal"></a>Opublikuj dziennik integracji Project Operations
 
 Podczas księgowania arkusza integracji tworzona jest księga podrzędna projektu i transakcje księgi głównej. Są one używane w przeliczeniu na podrzędne fakturowanie klientów, rozpoznawaniu przychodów i raportowaniu finansowym.
 
+Wybraną integrację Project Operations można opublikować przy użyciu funkcji **Opublikuj** na stronie integracji z Project Operations. Wszystkie dzienniki można księgować automatycznie, uruchamiając proces w **Okresy** > **Integracja Project Operations** > **Dziennik integracji Project Operations księgowania**.
+
+Publikowanie może być wykonywane interakcyjnie lub w partii. Należy pamiętać, że wszystkie arkusze z ponad 100 wierszami będą automatycznie publikowane w partii. Aby uzyskać lepszą wydajność, gdy arkusze zawierające wiele wierszy są księgowane w partii, włącz **Dziennik integracji księgowania Project Operations z wieloma zadaniami wsadowymi** w obszarze roboczym **Zarządzanie funkcjami**. 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Przenoszenie wszystkich wierszy z błędami wpisów do nowego
+
+> [!NOTE]
+> Aby skorzystać z tej funkcji, włącz funkcję **Przenieś wszystkie wiersze z błędami księgowania do nowego dziennika integracji Project Operations** w obszarze roboczym **Zarządzanie funkcjami**.
+
+Podczas publikowania w integracji Project Operations system sprawdza poprawność każdego wiersza w systemie. System księguje wszystkie wiersze, w których nie ma błędów i tworzy nowy dziennik dla wszystkich wierszy, w których występują błędy księgowania. Aby przejrzeć dzienniki, w których księgowane są wiersze błędów, przejdź do **Zarządzanie projektami i księgowość** > **Dzienniki** > **Dziennik integracji Project Operations** i przefiltruj dzienniki za pomocą pola **Oryginalny dziennik**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

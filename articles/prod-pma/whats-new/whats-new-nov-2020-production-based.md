@@ -6,12 +6,12 @@ ms.date: 10/15/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 67f71aa045dc3c9dd513462709db79436c971b7b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8f19f8476ed2b7958f0ba90d135bda483d05c923
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911242"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028240"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Co nowego w listopadzie 2020 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
 
@@ -23,7 +23,7 @@ Aby uzyskać informacje na temat poprawek zawartych w tej aktualizacji, zaloguj 
 
 ## <a name="regulatory-updates"></a>Aktualizacje dotyczące regulacji
 
-Aby uzyskać informacje na temat aktualizacji przepisów prawnych dotyczących aplikacji finansowe i operacyjne usługi Dynamics 365, zobacz [Aktualizacje prawne](/dynamics365/finance/localizations/regulatory-updates). Można również zalogować się w LCS i wyświetlić planowane aktualizacje ustawodawcze, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
+Aby uzyskać informacje na temat aktualizacji przepisów prawnych dotyczących aplikacji finansowych i operacyjnych usługi Dynamics 365, zobacz [Aktualizacje prawne](/dynamics365/finance/localizations/regulatory-updates). Można również zalogować się w LCS i wyświetlić planowane aktualizacje ustawodawcze, korzystając z narzędzia do wyszukiwania problemów. Funkcja wyszukiwanie problemów umożliwia wyszukiwanie według kraju, typu funkcji oraz wydania.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

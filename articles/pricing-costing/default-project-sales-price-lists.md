@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917727"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036424"
 ---
 # <a name="default-price-lists"></a>Cenniki domyślne
 
@@ -25,7 +25,7 @@ Każda oferta projektu i umowa w rozwiązaniu Dynamics 365 Project Operations za
 System ukończy następujący proces w celu określenia, które cenniki są obowiązujące w ofercie:
 
 1. System wyszukuje cenniki dołączone do cenników danego konta. 
-2. Jeśli do rekordu klienta są dołączone cenniki projektu, system wyszukuje w zestawie ceny sprzedaży dołączone do parametrów projektu pasujących do waluty oferty projektu.
+2. Jeśli do rekordu klienta nie są dołączone cenniki projektu, system wyszukuje w zestawie ceny sprzedaży dołączone do parametrów projektu pasujących do waluty oferty projektu.
 3. Następnie system sprawdza datę wejścia w życie cenników odpowiadającą zakresowi dat oferty projektu. Sprawdza datę utworzenia oferty.
 4. Jeśli istnieje wiele cenników, które są wiążące dla oferty projektu, wszystkie cenniki dla oferty projektu są domyślne.
 5. Jeśli brak obowiązujących cenników w ofercie projektu, nie ma żadnych domyślnych cenników projektu dla oferty. W ofercie projektu zostanie wyświetlone ostrzeżenie. Wiadomość ta zawiera informację, że z powodu braku dołączonych cenników projektu, szacunkowa i rzeczywista praca nad projektem i koszty nie będą wyceniane.

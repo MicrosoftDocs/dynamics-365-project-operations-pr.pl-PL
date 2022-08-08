@@ -6,16 +6,16 @@ ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6902d22c7bd4b422466c924ee6473146b036caa5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: af89996fcaca9823d32e84e10ce6d29ead4f3d6d
+ms.sourcegitcommit: 95dacb0e74fa8970f56fdb1cbaa915d3fbec6e0f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929963"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023626"
 ---
 # <a name="manage-project-price-lists-on-project-quotes"></a>Zarządzanie cennikami projektu w ofertach projektu 
 
-_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
+_**Ma zastosowanie do:** Wdrożenie uproszczone - zajmuje się fakturowaniem proforma, Project Operations dla scenariuszy opartych na zasobach / braku zapasów_
 
 Oferty projektów są zaprojektowane w taki sposób, aby obsługiwały cenniki sprzedaży z wieloma efektywnymi datami. W programie Dynamics 365 Project Operations dodawana jest nowa encja skojarzona o nazwie **Cenniki projektu**. Ta encja ma relację 1-do-wielu z ofertą projektu.
 
