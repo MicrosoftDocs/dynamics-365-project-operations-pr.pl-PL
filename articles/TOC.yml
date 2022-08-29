@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Co nowego
       items:
-        - name: Lipiec 2022 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Sierpień 2022 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Archiwizuj
           items:
+            - name: Lipiec 2022 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: Czerwiec 2022 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Maj 2022 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
@@ -256,7 +258,7 @@
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Dodawanie pól niestandardowych do ustawień cen i encji transakcyjnych
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: 'Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen '
+                - name: Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
                 - name: Aktualizowanie atrybutów dodatków plug-in w celu dołączenia nowych wymiarów kalkulacji cen
                   href: pricing-costing/update-plugin-attributes-pd.md
@@ -384,6 +386,42 @@
           items:
             - name: Omówienie wykorzystania zasobów
               href: resource-management/resource-utilization-overview.md
+    - name: Zarządzanie podumowami
+      items:
+        - name: Zarządzanie podumowami w rozwiązaniu Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Kluczowe pojęcia związane z podwykonawstwem
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Zarządzanie dostawcami i cennikami projektów
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: 'Podwykonawcy jako zasoby, które można zarezerwować'
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Szczegóły nagłówka dla podumów
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Wiersze podumowy dla czasu
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Wiersze podumowy dla kategorii wydatków
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Wiersze podumowy dla produktów
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Zasoby wiersza podwykonawcy
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Punkty kontrolne wiersza podwykonawcy
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Podwykonawstwo — członkowie zespołu projektu
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Opcje podwykonawstwa dla członków zespołu projektu
+          href: pro/subcontracting/subcon-options.md
+        - name: Szacowanie kosztów przypisań zasobów w ramach podwykonawstwa
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Konfigurowanie tablicy harmonogramu do wyświetlania dyspozycyjności pracowników kontraktowych i podwykonawców
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Osadzanie projektu na podstawie dyspozycyjności pracowników kontraktowych i podwykonawców
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Rejestrowanie czasu, wydatków i użycia materiałów w przypadku składników podwykonawców'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Przejścia stanu podumowy
+          href: pro/subcontracting/subcon-states.md
     - name: Czas
       items:
         - name: Omówienie czasu
@@ -580,6 +618,8 @@
       items:
         - name: Migrowanie w pełni zafakturowanych punktów kontrolnych rozliczania podczas przełączania
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Synchronizowanie stanu projektu w celu zablokowania możliwości wprowadzania zmian do zamkniętych projektów
+          href: advanced-configuration/sync-project-status.md
     - name: Uaktualnienie
       items:
         - name: Uwagi dotyczące uaktualniania nowoczesnych zatwierdzeń
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Co nowego
       items:
-        - name: Co nowego w lipcu 2022 r. — wdrażanie wersji uproszczonej
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Co nowego w sierpniu 2022 r. — wdrażanie wersji uproszczonej
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Archiwizuj
           items:
+            - name: Co nowego w lipcu 2022 r. — wdrażanie wersji uproszczonej
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Co nowego w czerwcu 2022 r. — wdrażanie wersji uproszczonej
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: "Co nowego w drugim wydaniu aktualizacji na 2021\_r. z wczesnym dostępem — wdrażanie wersji uproszczonej"
@@ -826,7 +868,7 @@
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Dodawanie pól niestandardowych do ustawień cen i encji transakcyjnych
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: 'Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen '
+                - name: Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
                 - name: Aktualizowanie atrybutów dodatków plug-in w celu dołączenia nowych wymiarów kalkulacji cen
                   href: pricing-costing/update-plugin-attributes-pd.md
@@ -1526,7 +1568,7 @@
               href: psa/create-custom-fields-entities.md
             - name: Dodawanie pól niestandardowych do ustawień cen i encji transakcyjnych
               href: psa/field-references.md
-            - name: 'Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen '
+            - name: Konfigurowanie pól niestandardowych jako wymiarów kalkulacji cen
               href: psa/set-up-pricing-dimensions.md
             - name: Aktualizowanie atrybutów dodatków plug-in w celu dołączenia nowych wymiarów kalkulacji cen
               href: psa/update-plug-in-attributes.md
