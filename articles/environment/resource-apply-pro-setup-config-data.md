@@ -1,17 +1,17 @@
 ---
-title: Skonfiguruj i zastosuj dane konfiguracyjne w usłudze Common Data Service
+title: Skonfiguruj i zastosuj dane konfiguracyjne w usłudze Microsoft Dataverse
 description: W tym artykule przedstawiono informacje na temat konfigurowania i stosowania danych konfiguracji w aplikacji Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928031"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230265"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Skonfiguruj i zastosuj dane konfiguracyjne w usłudze Common Data Service 
 
@@ -21,10 +21,10 @@ _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na 
 
 ## <a name="prerequisites"></a>Wymagania wstępne
 
-Przed rozpoczęciem konfigurowania danych w ramach Common Data Service (CDS) należy spełnić następujące warunki wstępne:
+Przed rozpoczęciem konfigurowania danych w ramach Microsoft Dataverse należy spełnić następujące warunki wstępne:
 
-1.  Zaimprowizuj środowisko CDS i środowisko Finanse usługi Dynamics 365 Finance na przykład dla Project Operations.
-2.  Informacje prawne dotyczące encji z usługi Dynamics 365 Finance są udostępniane w środowisku CDS. Oznacza to, że **Firma** z CDS zawiera następujące rekordy firm:
+1.  Zaimprowizuj środowisko Dataverse i środowisko Finanse usługi Dynamics 365 Finance na przykład dla Project Operations.
+2.  Informacje prawne dotyczące encji z usługi Dynamics 365 Finance są udostępniane w środowisku Dataverse. Oznacza to, że encja **Firma** z Dataverse zawiera następujące rekordy firm:
   - THPM
   - USPM
   - GBPM

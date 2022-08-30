@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929227"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230329"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Używanie interfejsów API harmonogramu projektu do wykonywania operacji na encji planowania
 
@@ -45,9 +45,9 @@ Poniżej przedstawiono listę bieżących interfejsów API harmonogramu projektu
 - **msdyn_CreateProjectV1**: tego interfejsu API można używać do tworzenia projektu. Domyślne i domyślne rozmiary projektu są tworzone natychmiast.
 - **msdyn_CreateTeamMemberV1**: tego interfejsu API można używać do tworzenia członka zespołu projektu. Rekord członka zespołu jest tworzony natychmiast.
 - **msdyn_CreateOperationSetV1**: ten interfejs API może być używany do planowania kilku żądań, które muszą zostać wykonane w ramach transakcji.
-- **msdyn_PSSCreateV1**: tego interfejsu API można używać do tworzenia encji. Encją może być dowolna z encji planowania projektów, które obsługują operację tworzenia.
-- **msdyn_PSSUpdateV1**: tego interfejsu API można używać do aktualizacji encji. Encją może być dowolna z encji planowania projektów, które obsługują operację aktualizowania.
-- **msdyn_PSSDeleteV1**: tego interfejsu API można używać do usuwania encji. Encją może być dowolna z encji planowania projektów, które obsługują operację usuwania.
+- **msdyn_PssCreateV1**: tego interfejsu API można używać do tworzenia encji. Encją może być dowolna z encji planowania projektów, które obsługują operację tworzenia.
+- **msdyn_PssUpdateV1**: tego interfejsu API można używać do aktualizacji encji. Encją może być dowolna z encji planowania projektów, które obsługują operację aktualizowania.
+- **msdyn_PssDeleteV1**: tego interfejsu API można używać do usuwania encji. Encją może być dowolna z encji planowania projektów, które obsługują operację usuwania.
 - **msdyn_ExecuteOperationSetV1**: ten interfejs API jest używany do wykonywania wszystkich operacji w ramach danego zestawu operacji.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Używanie interfejsów API harmonogramu projektu z zestawem OperationSet

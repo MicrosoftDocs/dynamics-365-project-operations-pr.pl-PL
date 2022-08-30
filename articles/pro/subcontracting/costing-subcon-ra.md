@@ -6,16 +6,14 @@ ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 40603c1d2dfdd49909d9a4bf5085f43201e8f6bd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932355"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262073"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Szacowanie kosztów przypisań zasobów w ramach podwykonawstwa
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
@@ -42,7 +40,7 @@ W przypadku utworzenia członka zespołu ogólnego z listy rozwijanej **Przypisa
 Korzystając z karty Zespół w projekcie, można utworzyć ogólnego lub nazwanego członka zespołu. Podczas tworzenia członka zespołu można wybrać podumowę i wiersz podumowy. Po utworzeniu członka zespołu należy przypisać go do zadania przy użyciu listy rozwijanej **Przypisane zasoby** dla zadania. 
 
 ## <a name="updating-estimates"></a>Aktualizowanie szacowań
-Po przypisaniu członków zespołu projektowego do zadań należy przejść do karty **Szacowania** w projekcie i wybrać opcję **Aktualizuj ceny**, aby zagwarantować, że wskaźniki kosztów przypisań zasobów podwykonawców są aktualizowane na podstawie cennika zakupu dołączonego do podumowy. Szacowanie nie są generowane dla nieprzypisanych zadań w aplikacji Microsoft Dynamics 365 Project Operations. W wyniku należy utworzyć przypisania zadań do różnych zadań związanych z ceną i kosztami projektów. 
+Po przypisaniu członków zespołu projektowego do zadań musisz przejść do karty **Szacowania** w projekcie i wybrać opcję **Aktualizuj ceny**, aby zagwarantować, że wskaźniki kosztów przypisań zasobów podwykonawców są aktualizowane na podstawie cennika zakupu dołączonego do podumowy. Szacowanie nie są generowane dla nieprzypisanych zadań w aplikacji Microsoft Dynamics 365 Project Operations. W wyniku należy utworzyć przypisania zadań do różnych zadań związanych z ceną i kosztami projektów. 
 
 > [UWAGA!] Członkowie zespołu projektowego, którzy mają **Typ pracownika** ustawiony na **Pracownik kontraktowy**, ale nie mają odwołania podumowy, są oznaczani jako **Nieprawidłowy** w siatce **Członkowie zespołu projektowego**. Jeśli któryś z członków zespołu projektowego ma ten stan, otwórz rekord członka zespołu projektowego i ręcznie zaktualizuj pola podumowy i wiersza podumowy, aby szacowanie kosztu finansowego dokładnie odzwierciedlało koszt podwykonawcy na karcie **Szacowania**. 
 
