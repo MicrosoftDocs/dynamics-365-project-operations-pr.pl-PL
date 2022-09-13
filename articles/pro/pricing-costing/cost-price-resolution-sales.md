@@ -1,45 +1,85 @@
 ---
-title: Rozwiązywanie kosztów własnych w oszacowaniach i wartościach rzeczywistych projektu
-description: W tym artykule przedstawiono informacje na temat sposobu rozwiązywania problemów z kosztami własnymi w przypadku wartości szacowanych i rzeczywistych projektu.
+title: Określanie stawek kosztów dla oszacowań i wartości rzeczywistych projektu
+description: W tym artykule przedstawiono informacje na temat sposobu określania stawek kosztów w przypadku wartości szacowanych i rzeczywistych projektu.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917543"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410169"
 ---
-# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Rozwiązywanie kosztów własnych w oszacowaniach i wartościach rzeczywistych projektu 
+# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Określanie stawek kosztów dla oszacowań i wartości rzeczywistych projektu
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-W celu rozpoznania cennika i listy kosztów własnych na potrzeby oszacowań i wartości rzeczywistych,, system używa informacji zawartych w polach **Data**, **Waluta** i **Jednostka kontraktująca** z powiązanego projektu. Po rozpoznaniu listy kosztów aplikacja rozpoznaje stawkę kosztów.
+W celu określenia listy kosztów własnych i stawek kosztów w kontekstach oszacowań i wartości rzeczywistych, platforma używa informacji zawartych w polach **Data**, **Waluta** i **Jednostka kontraktująca** z powiązanego projektu.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Rozpoznawanie stawek kosztów w wartościach rzeczywistych i oszacowaniach dla wiersza Czas
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Określanie stawek kosztów w kontekstach wartości szacowanych i rzeczywistych dla wiersza Czas
 
-Szacowane wiersze dla wartości Czas odnoszą się do oferty i pozycji kontraktu oraz do przydziałów zasobów w projekcie.
+Kontekst szacowania dla wiersza **Czas** odnosi się do następujących elementów:
 
-Po rozpoznaniu cennika kosztów pola **Rola** i **Jednostka ponownego zakupu** w wierszu szacowania czasu są dopasowane do wierszy cen roli w cenniku. To dopasowanie zakłada, że używasz standardowych wymiarów cenowych dla kosztów pracy. Jeśli system został skonfigurowany w taki sposób, aby odpowiadał polom **Rola** i **Jednostka zasobów** lub odpowiadał także tym polom, w celu pobrania pasującego cennika ról zostanie wykorzystana inna kombinacja. Jeśli aplikacja znajdzie wiersz ceny roli, który ma stawkę kosztu dla połączenia **Rola** oraz **Jednostką zamawiająca**, to będzie domyślna stawka kosztu. Jeśli aplikacja nie może dopasować pól **Rola** i **Jednostka zamawiająca**, program pobiera pasujące wiersze z rolą, ale ustawiane są wartości null **Jednostki zamawiającej**. Po dopasowaniu odpowiedniego rekordu ceny roli, stawka kosztu pobierana jest domyślnie z tego rekordu. 
+- Szczegóły wierszy ofert dla elementu **Czas**.
+- Szczegóły pozycji kontraktu dla elementu **Czas**.
+- Przypisania zasobu do projektu.
+
+Kontekst wartości rzeczywistych dla wiersza **Czas** odnosi się do następujących elementów:
+
+- Wprowadzanie i poprawianie wpisów w arkuszu dla elementu **Czas**.
+- Wpisy w arkuszy utworzone podczas przesyłania wpisów czasu.
+
+Po określeniu listy kosztów własnych platforma wykonuje poniższe kroki, aby wprowadzić domyślną stawkę kosztu.
+
+1. Platforma dopasowuje kombinację pól **Rola** i **Jednostka zasobów** w kontekście wartości szacowanych lub rzeczywistych z wiersza **Czas** względem wierszy cen dla roli w cenniku. To dopasowanie zakłada, że używasz standardowych wymiarów cenowych dla kosztów pracy. Jeśli platforma została skonfigurowana w taki sposób, aby dopasowywała pole inne niż **Rola** i **Jednostka zasobów**, w celu pobrania pasującego wiersza ceny roli zostanie wykorzystana inna kombinacja.
+1. Jeśli platforma znajdzie wiersz ceny roli, który ma stawkę kosztu dla kombinacji pól **Rola** i **Jednostka zasobów**, ta stawka kosztów będzie używana jako domyślna stawka kosztów.
+1. Jeśli platforma nie może dopasować wartości pól **Rola**, **Jednostka zasobów**, pobiera wiersze ceny dla roli, które mają pasujące wartości dla pola **Rola** oraz wartości null dla pola **Jednostka zasobów**. Gdy platforma ma pasujący rekord ceny, stawka kosztu z tego rekordu będzie używana jako domyślna stawka kosztu.
 
 > [!NOTE]
-> W przypadku skonfigurowania innej prioretyzacji **Roli** i **Jednostki zamawiającej** lub jeśli istnieją inne wymiary mające wyższy priorytet, to zachowanie odpowiednio się zmieni. System pobiera rekordy cen ról wraz z wartościami odpowiadającymi poszczególnym wartościom wymiarów kalkulacji cen w kolejności według priorytetu. Wiersze, które mają wartości null dla tych wymiarów są ostatnie.
+> W przypadku skonfigurowania innej prioretyzacji pól **Rola** i **Jednostka zasobów** lub jeśli istnieją inne wymiary mające wyższy priorytet, poprzednie zachowanie odpowiednio się zmieni. Platforma pobiera rekordy cen ról o wartościach, które pasują do każdej wartości wymiaru cen w kolejności priorytetów. Wiersze o wartościach null dla tych wymiarów są ostatnie.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Rozpoznawanie stawek kosztów w wartościach rzeczywistych i oszacowaniach dla wiersza Wydatek
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Określanie stawek kosztów w wartościach rzeczywistych i oszacowaniach dla wiersza Wydatek
 
-Szacowane wiersze dla wartości Wydatek odnoszą się do oferty i pozycji kontraktu dla wydatku oraz do wierszy oszacowania wydatku w projekcie.
+Kontekst szacowania dla wiersza **Wydatek** odnosi się do następujących elementów:
 
-Po rozwiązanie cennika kosztów system używa kombinacji pól **Kategoria** i **Jednostka** w wierszu szacowania wydatku w celu dopasowania do wierszy **Ceny kategorii** na cenniku rozwiązanym. Jeśli system znajdzie wiersz ceny kategorii, który ma stawkę kosztu dla połączenia pól **Kategoria** oraz **Jednostką zasobów**, to będzie to domyślna stawka kosztu. Jeśli system nie może dopasować wartości **Kategoria** i **Jednostka** lub jeśli jest w stanie znaleźć pasującą linią cen kategorii, ale metoda kalkulacji cen nie to **Cena jednostkowa**, koszt jest domyślny do zera(0).
+- Szczegóły wierszy ofert dla elementu **Wydatek**.
+- Szczegóły pozycji kontraktu dla elementu **Wydatek**.
+- Szacowania wydatków w projekcie.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Rozwiązywanie problemów z kosztami w wierszach rzeczywistych i szacowanych dla materiałów
+Rzeczywisty kontekst dla wiersza **Wydatek** odnosi się do następujących elementów:
 
-Wiersze szacowania materiałów odwołują się do szczegółów oferty i wiersza kontraktu dla materiałów i wierszy szacowania materiałów w projekcie.
+- Wprowadzanie i poprawianie wpisów w arkuszu dla elementu **Wydatek**.
+- Wpisy w arkuszy utworzone podczas przesyłania wpisów wydatków.
 
-Po ustaleniu cennika kosztów system wykorzystuje kombinację pól **Produkt** i **Jednostka** w wierszu szacowania, aby oszacować materiał w celu dopasowania do wiersze **Pozycje cennika** na ustalonym cenniku. Jeśli system znajdzie wiersz cen produktu z cennikem dla kombinacji pól **Produkt** i **Jednostka**, koszt własny jest domyślny. Jeśli system nie może dopasować wartości **Produkt** i **Jednostka** lub jeśli jest w stanie znaleźć pasującą pozycję pozycji cennika, ale metoda kalkulacji cen jest oparta na kosztach normatywnych lub koszcie bieżącym i żaden nie jest zdefiniowany dla produktu, koszt jednostkowy jest domyślnie równy zeru.
+Po określeniu listy kosztów własnych platforma wykonuje poniższe kroki, aby wprowadzić domyślną stawkę kosztu.
 
+1. Platforma dopasowuje kombinację pól **Kategoria** i **Jednostka** w kontekście wartości szacowanych lub rzeczywistych z wiersza **Wydatek** względem wierszy kategorii w cenniku.
+1. Jeśli platforma znajdzie wiersz ceny kategorii, który ma stawkę kosztu dla połączenia pól **Kategoria** i **Jednostka**, ta stawka kosztu będzie używana jako domyślna.
+1. Jeśli platforma nie może dopasować wartości **Kategoria** i **Jednostka**, cena jest domyślnie ustawiona na **0** (zero).
+1. W kontekście szacowania jeśli platforma nie może dopasować wiersza ceny kategorii, ale metoda cen jest inna niż **Cena jednostkowa**, stawka kosztu jest domyślnie ustawiana na **0** (zero).
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Określanie stawek kosztów w wierszach rzeczywistych i szacowanych dla elementu Materiały
+
+Kontekst szacowania dla wiersza **Materiały** odnosi się do następujących elementów:
+
+- Szczegóły wierszy ofert dla elementu **Materiały**.
+- Szczegóły pozycji kontraktu dla elementu **Materiały**.
+- Szacowania materiałów w projekcie.
+
+Rzeczywisty kontekst dla wiersza **Materiały** odnosi się do następujących elementów:
+
+- Wprowadzanie i poprawianie wpisów w arkuszu dla elementu **Materiały**.
+- Wpisy w arkuszy utworzone podczas przesyłania dziennika użycia materiałów.
+
+Po określeniu listy kosztów własnych platforma wykonuje poniższe kroki, aby wprowadzić domyślną stawkę kosztu.
+
+1. Platforma używa kombinacji pól **Produkt** i **Jednostka** w kontekście wartości szacowanych lub rzeczywistych z wiersza **Materiały** względem wierszy pozycji cennika w cenniku.
+1. Jeśli platforma znajdzie wiersz pozycji cennika, który ma stawkę kosztu dla połączenia pól **Produkt** i **Jednostka**, ta stawka kosztu będzie używana jako domyślna.
+1. Jeśli platforma nie może dopasować wartości **Produkt** i **Jednostka**, koszt jednostki jest domyślnie ustawiany na **0** (zero).
+1. W kontekście szacowania lub wartości rzeczywistych jeśli platforma nie może dopasować wiersza pozycji cennika, ale metoda cen jest inna niż **Kwota w walucie**, koszt jednostki jest domyślnie ustawiany na **0**. Dzieje się tak, ponieważ aplikacja Project Operations obsługuje tylko metodę cen **Kwota w walucie** dla materiałów używanych w projekcie.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

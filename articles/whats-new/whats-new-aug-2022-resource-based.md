@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348025"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403870"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co nowego w sierpniu 2022 r. — Project Operations dla scenariuszy obejmujących zasoby/nieobejmujących magazynowania
 
@@ -38,6 +38,11 @@ Jeśli wystąpi problem z uruchomieniem mapy, postępuj zgodnie z instrukcjami w
 | Obszar funkcji | Numer referencyjny | Aktualizacja dotycząca jakości |
 | --- | --- | --- |
 |   Zarządzanie szansami sprzedaży | 2762089 | Obsługa błędów podczas zamykania kontraktu jako utraconego, jeśli funkcja automatycznego zapisywania jest wyłączona w organizacji.|
+|Planowanie i śledzenie projektu | 2767841 | Aktualizacje telemetrii, encja projektu, tworzenie lub aktualizowanie scenariuszy.|
+|Rozliczenia i ceny | 2771072 | Obsługa wyjątków w odwołaniach o wartości null w przypadku zwycięskiej oferty.|
+|Rozliczenia i ceny | 2844181 |Niepowodzenie pobierania identyfikatora korelacji i blokowania tworzenia faktury.|
+|Rozliczenia i ceny | 2852836 | Brak międzyfirmowych wartości rzeczywistych dla wydatków międzyfirmowych utworzonych i zatwierdzonych w CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Zarządzanie projektami i księgowanie w Finance
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 56692661a08cd6676e68f9715a976000cdba3fba
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: 82812f0b7f172bf7386057b5684ff5ade67a6a22
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183927"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9404011"
 ---
 # <a name="whats-new-july-2022---project-operations-lite-deployment"></a>Co nowego w lipcu 2022 r. — wdrażanie wersji uproszczonej aplikacji Project Operations
 
@@ -34,3 +34,9 @@ Ten artykuł dotyczy następujących składników i wersji oprogramowania Micros
 | Rozliczenia i ceny | 2675880 | Zapobiegaj łączeniu projektu z wierszem umowy, który nie jest oparty na pracy. |
 | Rozliczenia i ceny | 2664396 | Jeśli cennik ofertowy zostanie zapisany bez wyceny, musi wystąpić błąd informujący, że oferta nie może być pusta. |
 | Rozliczenia i ceny | 2184019 | Karta **Rozliczenia na zadaniach** nie powinna być wyświetlana w przypadku projektów, które nie mają kontraktu ani kontraktu dotyczącego zapasów. |
+| Czas i wydatek | 2754459 | Gdy cykliczny przepływ planowania w chmurze jest nieaktywny, wyświetl baner i pomiń przetwarzanie asynchroniczne. |
+| Rozliczenia i ceny | 2724391 | Zły wyjątek jest zgłaszany, gdy reguła rozliczania podziału kontraktu projektu nie zawiera wartości klienta. |
+| Rozliczenia i ceny | 2708638 | Podczas przeszukiwania siatki w obszarach Użycie materiałów i Zatwierdzenia użycia materiałów nie znaleziono rekordu.|
+| Rozliczenia i ceny | 2686977 | Zapobieganie weryfikacji wiersza faktury podczas tworzenia faktury. |
+| Rozliczenia i ceny | 2683032 | Kopiowanie odpłatnych ról i kategorii nie jest skalowalne powyżej 5000 rekordów.|
+| Rozliczenia i ceny | 2673363 | Opcja Zużycie kosztów (%) w projekcie nie działa prawidłowo, jeśli istnieją szacowania oraz wartości rzeczywiste nakładów i wydatków dla projektu. |
