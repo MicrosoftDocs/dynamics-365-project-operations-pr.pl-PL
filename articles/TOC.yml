@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Zastępowanie cenników sprzedaży projektu
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Konfigurowanie zastępowania daty wejścia w życie dla określonych cen w cenniku
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Określanie kosztów własnych dla oszacowań i wartości rzeczywistych
               href: pricing-costing/cost-price-resolution.md
             - name: Określanie kosztów sprzedaży dla oszacowań i wartości rzeczywistych
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Zamawianie towarów i usług dla projektów przy użyciu zamówień zakupu projektów
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Faktury od dostawcy za podumowy w usłudze Dataverse
+          items:
+            - name: Tworzenie faktur od dostawcy
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Weryfikacja faktur od dostawcy przy użyciu zatwierdzonych wartości rzeczywistych
+              href: pro/subcontracting/VI-Verification.md
+            - name: Potwierdzenie faktur od dostawcy projektu
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Przechowywanie dostawców
           items:
             - name: Omówienie przechowywania dostawców
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Zastępowanie cenników sprzedaży projektu
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Konfigurowanie zastępowania daty wejścia w życie dla określonych cen w cenniku
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Określanie kosztów własnych w oszacowaniach i wartościach rzeczywistych projektu
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Określanie kosztów sprzedaży dla oszacowań i wartości rzeczywistych projektu
@@ -1050,7 +1062,7 @@
           href: pro/subcontracting/vi-line-milestone.md
         - name: Wiersze faktury od dostawcy dla kategorii wydatków
           href: pro/subcontracting/vi-line-expense.md
-        - name: Weryfikacja faktur od dostawców przy użyciu zatwierdzonych wartości rzeczywistych
+        - name: Weryfikacja faktur od dostawcy przy użyciu zatwierdzonych wartości rzeczywistych
           href: pro/subcontracting/VI-Verification.md
         - name: Anulowanie faktury od dostawcy projektu
           href: pro/subcontracting/cancel-vi.md
