@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410169"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475245"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Określanie stawek kosztów dla oszacowań i wartości rzeczywistych projektu
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-W celu określenia listy kosztów własnych i stawek kosztów w kontekstach oszacowań i wartości rzeczywistych, platforma używa informacji zawartych w polach **Data**, **Waluta** i **Jednostka kontraktująca** z powiązanego projektu.
+Aby określić koszt w wartościach szacunkowych i wartościach rzeczywistych w aplikacji Microsoft Dynamics 365 Project Operations, platforma najpierw używa daty i waluty w przychodzącym kontekście szacowania lub wartości rzeczywistych do określania listy kosztów własnych. W szczególności w kontekście wartości rzeczywistych platforma używa pola **Data transakcji** do określenia obowiązującego cennika. Wartość **daty transakcji** przychodzącego szacowania lub wartości rzeczywistej jest porównywana z wartościami **Effective Start (independent)** i **Effective End (Timezone independent)** w cenniku. Po określeniu listy kosztów system określa stawkę kosztów. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Określanie stawek kosztów w kontekstach wartości szacowanych i rzeczywistych dla wiersza Czas
 

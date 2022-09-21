@@ -1,68 +1,95 @@
 ---
-title: Rozwiązywanie kosztów sprzedaży dla oszacowań i wartości rzeczywistych
-description: W tym artykule przedstawiono informacje na temat sposobu rozwiązywania problemów ze stawkami sprzedaży dla wartości szacowanych i rzeczywistych.
+title: Określanie kosztów sprzedaży dla oszacowań i wartości rzeczywistych projektu
+description: W tym artykule przedstawiono informacje na temat sposobu określania cen sprzedaży w przypadku wartości szacowanych i rzeczywistych projektu.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee750b93a5be7be09ed76942c7c235f8c811e8bb
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0b95c651983230cbf340f2c06089a287b2c8a10
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911839"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475383"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Rozwiązywanie kosztów sprzedaży dla oszacowań i wartości rzeczywistych
+#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Określanie kosztów sprzedaży dla oszacowań i wartości rzeczywistych projektu
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Gdy ceny sprzedaży w wartościach szacunkowych i wartościach rzeczywistych są rozwiązywane w programie Dynamics 365 Project Operations, platforma najpierw używa daty i waluty powiązanej oferty projektu lub kontraktu w celu rozwiązania cennika sprzedaży. Po rozwiązaniu cennika w systemie jest w nim rozpoznawana cena sprzedaży lub stawka rozliczana.
+Aby określić ceny sprzedaży w wartościach szacunkowych i wartościach rzeczywistych w aplikacji Microsoft Dynamics 365 Project Operations, platforma najpierw używa daty i waluty w przychodzącym kontekście szacowania lub wartości rzeczywistych do określania cennika sprzedaży. W szczególności w kontekście wartości rzeczywistych platforma używa pola **Data transakcji** do określenia obowiązującego cennika. Wartość **daty transakcji** przychodzącego szacowania lub wartości rzeczywistej jest porównywana z wartościami **Effective Start (independent)** i **Effective End (Timezone independent)** w cenniku. Po określeniu cennika sprzedaży platforma definiuje stawkę sprzedaży lub rozliczania.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Rozwiązywanie stawek kosztów w wartościach rzeczywistych i oszacowaniach dla wiersza czas
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Określanie stawek sprzedaży w wartościach rzeczywistych i oszacowaniach dla wiersza Czas
 
-W Project Operations są używane wiersze szacowania czasu w celu określenia wiersza oferty i szczegółów pozycji kontraktu na czas oraz przydziałów zasobów w projekcie.
+Kontekst szacowania dla wiersza **Czas** odnosi się do następujących elementów:
 
-Po rozwiązaniu cennika na potrzeby sprzedaży system wykonuje poniższe kroki, aby ustawić stawkę rozliczeń.
+- Szczegóły wierszy ofert dla elementu **Czas**.
+- Szczegóły pozycji kontraktu dla elementu **Czas**.
+- Przypisania zasobu do projektu.
 
-1. System korzysta z pól **Rola**, **Firma zasobów** oraz **Jednostka zasobów** z wiersza szacowania dla czasu, w celu dopasowania do wierszy rozwiązanego cennika ról. To dopasowanie zakłada, że używasz przygotowanych wymiarów kalkulacji dla stawek rozliczeń. Jeśli system został skonfigurowany w taki sposób, aby odpowiadał innym polom niż **Rola**, **Firma zasobów** i **Jednostka zasobów**, to nastąpi połączenie, które będzie pobierało pasującą cena kategorii roli.
-2. Jeśli aplikacja znajdzie wiersz ceny roli, który ma stawkę kosztu dla połączenia **Rola**, **Firma zasobów** oraz **Jednostką zasobów**, to będzie to domyślna stawka kosztu.
-3. Jeśli aplikacja nie może dopasować wartości pól **Rola**, **Firma zasobów** i **Jednostka zasobów**, program pobiera pasujące wiersze z rolą, ale ustawiane są wartości null **Jednostki zasobów**. Gdy system znajdzie pasujący rekord ceny, będzie domyślnie określać stawkę z rekordu. To dopasowanie zakłada konfigurację wstępną dla względnego priorytetu **Roli** vs **Jednostki zasobów** jako wymiaru ceny sprzedaży.
+Kontekst wartości rzeczywistych dla wiersza **Czas** odnosi się do następujących elementów:
+
+- Wprowadzanie i poprawianie wpisów w arkuszu dla elementu **Czas**.
+- Wpisy w arkuszy utworzone podczas przesyłania wpisów czasu.
+- Szczegóły wiersza faktury dla elementu **Czas**. 
+
+Po określeniu cennika na potrzeby sprzedaży platforma wykonuje poniższe kroki, aby wprowadzić domyślną stawkę rozliczania.
+
+1. Platforma dopasowuje kombinację pól **Rola**, **Firma zasobów** i **Jednostka zasobów** w kontekście wartości szacowanych lub rzeczywistych z wiersza **Czas** względem wierszy cen dla roli w cenniku. To dopasowanie zakłada, że używasz gotowych wymiarów cen dla stawek rozliczania. Jeśli system został skonfigurowany w taki sposób, aby odpowiadał innym polom niż **Rola**, **Firma zasobów** i **Jednostka zasobów**, to nastąpi połączenie, które będzie pobierało pasującą cena kategorii roli.
+1. Jeśli aplikacja znajdzie wiersz ceny roli, który ma stawkę kosztu dla połączenia **Rola**, **Firma zasobów** oraz **Jednostką zasobów**, to będzie to domyślna stawka rozliczeniowa.
 
 > [!NOTE]
-> W przypadku konfiguracji innej prioretyzacji **Roli**, **Firmy zasobów** i **Jednostki zasobów** lub jeśli istnieją inne wymiary mające wyższy priorytet, to zachowanie odpowiednio się zmieni. System pobiera rekordy cen ról wraz z wartościami odpowiadającymi poszczególnym wartościom wymiarów kalkulacji cen w kolejności według priorytetu. Wiersze, które mają wartości null dla tych wymiarów są ostatnie.
+> W przypadku skonfigurowania innej prioretyzacji **Roli**, **Firmy zasobów** i **Jednostki zasobów** lub jeśli istnieją inne wymiary mające wyższy priorytet, to zachowanie cen odpowiednio się zmieni. Platforma pobiera rekordy cen ról o wartościach, które pasują do każdej wartości wymiaru cen w kolejności priorytetów. Wiersze o wartościach null dla tych wymiarów są ostatnie.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Rozwiązywanie stawek kosztów w wartościach rzeczywistych i oszacowaniach dla wydatku
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Określanie stawek sprzedaży w wartościach rzeczywistych i oszacowaniach dla wiersza Wydatek
 
-W Project Operations są używane wiersze szacowania wydatków w celu określenia wiersza oferty i szczegółów pozycji kontraktu na wydatki oraz wierszy oszacowania wydatków w projekcie.
+Kontekst szacowania dla wiersza **Wydatek** odnosi się do następujących elementów:
 
-Po rozwiązaniu cennika na potrzeby sprzedaży system wykonuje poniższe kroki, aby ustawić cenę jednostkową sprzedaży.
+- Szczegóły wierszy ofert dla elementu **Wydatek**.
+- Szczegóły pozycji kontraktu dla elementu **Wydatek**.
+- Wiersze szacowań wydatków w projekcie.
 
-1. System korzysta z połączenia pól **Kategoria** oraz **Jednostka** z wiersza szacowania dla wydatku, w celu dopasowania do wiersza ceny kategorii w rozwiązanym cenniku.
-2. Jeśli system znajdzie wiersz ceny kategorii, który ma stawkę sprzedaży dla połączenia pól **Kategoria** oraz **Jednostką zasobów**, wtedy będzie to domyślna stawka sprzedaży.
-3. Jeśli system znajdzie pasujący wiersz cena kategorii, może użyć metody kalkulacji cen do domyślnego podania ceny sprzedaży. W poniższej tabeli podano domyślne zachowanie cen kosztów w Project Operations.
+Rzeczywisty kontekst dla wiersza **Wydatek** odnosi się do następujących elementów:
+
+- Wprowadzanie i poprawianie wpisów w arkuszu dla elementu **Wydatek**.
+- Wpisy w arkuszy utworzone podczas przesyłania wpisów wydatków.
+- Szczegóły wiersza faktury dla elementu **Wydatek**. 
+
+Po określeniu cennika na potrzeby sprzedaży platforma wykonuje poniższe kroki, aby wprowadzić domyślną cenę jednostkową sprzedaży.
+
+1. Platforma dopasowuje kombinację pól **Kategoria** oraz **Jednostka** z wiersza szacowania dla wiersza **Wydatek** w celu dopasowania do wiersza ceny kategorii w cenniku.
+1. Jeśli platforma znajdzie wiersz ceny kategorii, który ma stawkę sprzedaży dla połączenia pól **Kategoria** i **Jednostka**, ta stawka sprzedaży będzie używana jako domyślna.
+1. Jeśli platforma znajdzie pasujący wiersz cena kategorii, może użyć metody cen do wprowadzenia domyślnej ceny sprzedaży. W poniższej tabeli podano domyślne zachowanie cen dla wydatków w aplikacji Project Operations.
 
     | Kontekst | Metoda kalkulacji cen | Cena domyślna |
     | --- | --- | --- |
-    | Szacowanie | Cena jednostkowa | Na podstawie wiersza cena kategorii |
-    | &nbsp; | Po kosztach | 0.00 |
-    | &nbsp; | Narzut na koszt | 0.00 |
-    | Rzeczywiste | Cena jednostkowa | Na podstawie wiersza cena kategorii |
-    | &nbsp; | Po kosztach | Na podstawie wartości rzeczywistych powiązanych z kosztem |
-    | &nbsp; | Narzut na koszt | Stosując narzut zdefiniowany w wierszu kategoria cena na stawce kosztu jednostkowego dla pokrewnego kosztu |
+    | Szacowanie | Cena jednostkowa | Na podstawie wiersza cena kategorii. |
+    |        | Po kosztach | 0.00 |
+    |        | Narzut na koszt | 0.00 |
+    | Rzeczywiste | Cena jednostkowa | Na podstawie wiersza cena kategorii. |
+    |        | Po kosztach | Na podstawie wartości rzeczywistych powiązanych z kosztem. |
+    |        | Narzut na koszt | Narzut zdefiniowany w wierszu kategorii cena jest stosowany do stawki kosztu jednostkowego dla wartości rzeczywistej pokrewnego kosztu. |
 
-4. Jeśli system nie jest w stanie dopasować wartości pól **Kategorii** oraz **Jednostki**, domyślna stawka sprzedaży wynosi zero (0).
+1. Jeśli platforma nie może dopasować wartości **Kategoria** i **Jednostka**, stawka sprzedaży jest domyślnie ustawiona na **0** (zero).
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Rozwiązywanie problemów z cenami sprzedaży w wierszach rzeczywistych i szacowanych dla materiałów
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Określanie stawek sprzedaży w wierszach rzeczywistych i szacowanych dla wiersza Materiały
 
-W Project Operations wiersze szacowania dla materiału są używane do oznaczania szczegółów pozycji oferty i pozycji kontraktu dla materiałów oraz wierszy szacowania materiałów w projekcie.
+Kontekst szacowania dla wiersza **Materiały** odnosi się do następujących elementów:
 
-Po rozwiązaniu cennika na potrzeby sprzedaży system wykonuje poniższe kroki, aby ustawić cenę jednostkową sprzedaży.
+- Szczegóły wierszy ofert dla elementu **Materiały**.
+- Szczegóły pozycji kontraktu dla elementu **Materiały**.
+- Wiersze szacowań materiałów w projekcie.
 
-1. W systemie jest używana kombinacja pól **Produkt** i **Jednostka** w wierszu szacowania dla materiałów w celu dopasowania do pozycji cennika w cenniku, który został rozwiązany.
-2. Jeśli system znajdzie wiersz pozycji cennika, który ma stawkę sprzedaży dla kombinacji pól **Produkt** i **Jednostka** oraz metodę wyceny to **Kwota w walucie**, używana jest cena sprzedaży określona w wierszu cennika.
-3. Jeśli wartości **Produkt** i **Jednostka** nie są dopasowane koszt sprzedaży jest domyślnie równy zeru.
+Rzeczywisty kontekst dla wiersza **Materiały** odnosi się do następujących elementów:
 
+- Wprowadzanie i poprawianie wpisów w arkuszu dla elementu **Materiały**.
+- Wpisy w arkuszy utworzone podczas przesyłania dziennika użycia materiałów.
+- Szczegóły wiersza faktury dla elementu **Materiały**. 
 
+Po określeniu cennika na potrzeby sprzedaży platforma wykonuje poniższe kroki, aby wprowadzić domyślną cenę jednostkową sprzedaży.
+
+1. Platforma dopasowuje kombinację pól **Produkt** i **Jednostka** w wierszu szacowania dla wiersza **Materiały** w celu dopasowania do wierszy pozycji cennika w cenniku.
+1. Jeśli platforma znajdzie wiersz pozycji cennika, który ma stawkę sprzedaży dla kombinacji pól **Produkt** i **Jednostka**, a metoda cen to **Kwota w walucie**, używana jest cena sprzedaży określona w wierszu cennika. 
+1. Jeśli wartości pól **Produkt** i **Jednostka** nie są zgodne lub jeśli metoda cen jest inna niż **Kwota w walucie**, stawka sprzedązy jest domyślnie ustawiana na **0** (zero). Dzieje się tak, ponieważ aplikacja Project Operations obsługuje tylko metodę cen **Kwota w walucie** dla materiałów używanych w projekcie.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,18 +6,18 @@ ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410132"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475198"
 ---
 # <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Określanie cen sprzedaży dla szacowań i wartości rzeczywistych projektu
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-Aby określić ceny sprzedaży w wartościach szacunkowych i wartościach rzeczywistych w aplikacji Microsoft Dynamics 365 Project Operations, platforma najpierw używa daty i waluty w przychodzącym kontekście szacowania lub wartości rzeczywistych do określania cennika sprzedaży. W szczególności w kontekście wartości rzeczywistych platforma używa pola **Data transakcji** do określenia obowiązującego cennika. Po określeniu cennika sprzedaży platforma definiuje stawkę sprzedaży lub rozliczania.
+Aby określić ceny sprzedaży w wartościach szacunkowych i wartościach rzeczywistych w aplikacji Microsoft Dynamics 365 Project Operations, platforma najpierw używa daty i waluty w przychodzącym kontekście szacowania lub wartości rzeczywistych do określania cennika sprzedaży. W szczególności w kontekście wartości rzeczywistych platforma używa pola **Data transakcji** do określenia obowiązującego cennika. Wartość **daty transakcji** przychodzącego szacowania lub wartości rzeczywistej jest porównywana z wartościami **Effective Start (independent)** i **Effective End (Timezone independent)** w cenniku. Po określeniu cennika sprzedaży platforma definiuje stawkę sprzedaży lub rozliczania.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Określanie stawek sprzedaży w wartościach rzeczywistych i oszacowaniach dla wiersza Czas
 

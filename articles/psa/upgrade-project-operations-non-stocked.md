@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230282"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446049"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Uaktualnianie rozwiązania Project Service Automation do Project Operations
 
@@ -29,7 +29,7 @@ Z przyjemnością ogłaszamy rozpoczęcie pierwszej z trzech faz uaktualnienia z
 
 Program dostarczania uaktualnienia zostanie podzielony na trzy fazy.
 
-| Dostarczanie uaktualnienia | Faza 1 (styczeń 2022 r.) | Faza 2 (kwiecień 2022 r) | Faza 3  |
+| Dostarczanie uaktualnienia | Faza 1 (styczeń 2022 r.) | Faza 2 (listopad 2022 r.) | Faza 3 (kwiecień 2023 r)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Brak zależności od struktury podziału pracy (WBS) dla projektów | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | SPP w ramach obsługiwanych obecnie limitów aplikacji Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ Program dostarczania uaktualnienia zostanie podzielony na trzy fazy.
 
 W ramach procesu uaktualniania do mapy witryny dodano dzienniki uaktualnienia, aby administratorzy mogli łatwiej diagnozować błędy. Oprócz nowego interfejsu zostaną dodane nowe reguły walidacji, które zapewnią integralność danych po uaktualnieniu. Do procesu uaktualniania zostaną dodane następujące walidacje.
 
-| Walidacje | Faza 1 (styczeń 2022 r.) | Faza 2 (kwiecień 2022 r) | Faza 3  |
+| Walidacje | Faza 1 (styczeń 2022 r.) | Faza 2 (listopad 2022 r.) | Faza 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | SPP zostanie sprawdzona pod kątem typowych naruszeń integralności danych (na przykład przypisania zasobów skojarzone z tym samym zadaniem nadrzędnym, ale które mają różne projekty nadrzędne). | | :heavy_check_mark: | :heavy_check_mark: |
 | SPP zostanie sprawdzona pod kątem [znanych limitów rozwiązania Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |

@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925363"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459940"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Zmiany funkcji od Project Service Automation do Project Operations
 
 Uaktualnienie z wersji Dynamics 365 Project Service Automation do Dynamics 365 Project Operations Lite zostanie dostarczone na trzech etapach. Ten artykuł zawiera informacje na temat głównych zmian, których można się spodziewać po zakończeniu uaktualniania.
 
-| Dostarczanie uaktualnienia | Faza 1 <br>(Styczeń 2022) | Faza 2 <br>(Kwiecień 2022) | Faza 3  |
+| Dostarczanie uaktualnienia | Faza 1 <br>(Styczeń 2022) | Faza 2 <br>(Listopad 2022) | Faza 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Brak zależności od struktury podziału pracy (WBS) dla projektów. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS jest uwzględniony w aktualnie obsługiwanych limitach Project Operations. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
