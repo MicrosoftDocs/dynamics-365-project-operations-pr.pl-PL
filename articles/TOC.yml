@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: Odwołanie uprzednio zatwierdzonych wpisów
           href: approvals/recall-cancel.md
+        - name: Zabezpieczenia i zatwierdzenia
+          href: approvals/approvals-security.md
         - name: Uwagi dotyczące deweloperów
           items:
             - name: Uwagi dotyczące deweloperów na temat zatwierdzeń
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Konfigurowanie przechowywania dostawców
               href: procurement/set-up-vendor-retention.md
+            - name: Płatność po uiszczonej opłacie
+              href: procurement/Pay-when-paid.md
     - name: Fakturowanie
       items:
         - name: Omówienie przetwarzania faktur
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: Odwołanie uprzednio zatwierdzonych wpisów
           href: approvals/recall-cancel.md
+        - name: Zabezpieczenia i zatwierdzenia
+          href: approvals/approvals-security.md
         - name: Uwagi dotyczące deweloperów
           items:
             - name: Uwagi dotyczące deweloperów na temat zatwierdzeń
