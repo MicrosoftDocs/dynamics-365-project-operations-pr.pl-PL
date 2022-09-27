@@ -2,20 +2,20 @@
 title: Wiersze podumowy dla czasu
 description: W tym artykule wyjaśniono, jak rejestrować wiersze podwykonawców dla czasu i rejestrować zakup czasu od dostawców.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262103"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522246"
 ---
 # <a name="subcontract-lines-for-time"></a>Wiersze podumowy dla czasu
 
-_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
+_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
 Podumowa w aplikacji Dynamics 365 Project Operations może mieć pozycję podumowy dla czasu. Wiersze podumowy dla czasu umożliwiają menedżerowi projektu zakup czasu zasobu dostawcy na potrzeby zadań związanych z projektem i wymagań dotyczących zasobów.
 

@@ -2,20 +2,20 @@
 title: Rejestrowanie czasu, wydatków i użycia materiałów w przypadku składników podwykonawców
 description: W tym artykule wyjaśniono, w jaki sposób czas, koszty i materiały zarejestrowane w projektach z poszczególnych składników podumowy są śledzone w aplikacji Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 89fbbfcd1535660e92d0cc80beb91029331e990f
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b82c14412cfb0405040902a2329c3b6692422d89
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261150"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522527"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Rejestrowanie czasu, wydatków i użycia materiałów dla projektów w przypadku składników podwykonawców
 
-_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
+_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
 W tym artykule wyjaśniono, w jaki sposób czas, koszty i materiały zarejestrowane w projektach z poszczególnych składników podumowy są śledzone w aplikacji Microsoft Dynamics 365 Project Operations.
 

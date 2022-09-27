@@ -2,20 +2,20 @@
 title: Wiersze podumowy dla produktów
 description: W tym artykule wyjaśniono, jak rejestrować wiersze podwykonawców dla produktów i używać różnych pól do rekordów zakupów produktów od dostawców.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262136"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522856"
 ---
 # <a name="subcontract-lines-for-products"></a>Wiersze podumowy dla produktów
 
-_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
+_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
 Podumowa w aplikacji Dynamics 365 Project Operations może mieć pozycję podumowy dla produktów. Te wiersze umożliwiają menedżerowi projektu zakup produktów od dostawców, a następnie używanie ich w zadaniach projektów.
 

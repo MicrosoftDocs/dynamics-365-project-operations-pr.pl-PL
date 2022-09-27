@@ -2,16 +2,16 @@
 title: Arkusz integracji w aplikacji Project Operations
 description: W tym artykule przedstawiono informacje na temat pracy z arkuszem integracji w aplikacji Project Operations.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106288"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541091"
 ---
 # <a name="integration-journal-in-project-operations"></a>Arkusz integracji w aplikacji Project Operations
 
@@ -65,6 +65,12 @@ Publikowanie może być wykonywane interakcyjnie lub w partii. Należy pamięta�
 > [!NOTE]
 > Aby skorzystać z tej funkcji, włącz funkcję **Przenieś wszystkie wiersze z błędami księgowania do nowego dziennika integracji Project Operations** w obszarze roboczym **Zarządzanie funkcjami**.
 
-Podczas publikowania w integracji Project Operations system sprawdza poprawność każdego wiersza w systemie. System księguje wszystkie wiersze, w których nie ma błędów i tworzy nowy dziennik dla wszystkich wierszy, w których występują błędy księgowania. Aby przejrzeć dzienniki, w których księgowane są wiersze błędów, przejdź do **Zarządzanie projektami i księgowość** > **Dzienniki** > **Dziennik integracji Project Operations** i przefiltruj dzienniki za pomocą pola **Oryginalny dziennik**.
+Ta funkcja pomaga poprawić jakość korzystania z dziennika integracyjnego Project Operations. Po włączeniu tej funkcji problemy związane z czasem podwójnego zapisu i ustawieniami nie będą już uniemożliwiać wysyłania ważnych dzienników. Podczas publikowania w integracji Project Operations system sprawdza poprawność każdego wiersza w systemie. Zapisuje wszystkie wiersze, które nie mają błędów, i tworzy nowy dziennik dla wszystkich wierszy, które mają błędy w zapisie.
+
+Aby przejrzeć dzienniki, które mają wiersz błędu księgowania, przejdź do **Zarządzanie projektem i księgowość** \> **Dzienniki** \> **Dziennik integracji Project Operations** i przefiltruj listę dzienników za pomocą pola **Dziennik pierwotny**. Poniższa ilustracja przedstawia przykład, w którym dzienniki na stronie **Dziennik integracji Project Operations** zostały przefiltrowane w ten sposób.
+
+![Oryginalny dziennik widoczny na stronie dziennika integracji Project Operations.](./media/transferLines-originalJournal.png)
+
+Jeśli do księgowania dziennika integracji skonfigurowano okresowe zadanie wsadowe, zostanie podjęta ponowna próba księgowania, a dzienniki zostaną zaksięgowane, jeśli problem czasowy został naprawiony. Wszelkie pozostałe dzienniki należy zbadać ręcznie, przeglądając dzienniki i podejmując wymagane działania.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

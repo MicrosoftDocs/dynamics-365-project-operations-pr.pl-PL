@@ -2,20 +2,20 @@
 title: Szacowanie kosztów przypisań zasobów w ramach podwykonawstwa
 description: W tym artykule objaśniono, jak aplikacja Microsoft Dynamics 365 Project Operations oblicza szacowanie kosztów przypisań zasobów w ramach podwykonawstwa.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262073"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522669"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Szacowanie kosztów przypisań zasobów w ramach podwykonawstwa
 
-_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
+_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
 Przypisania zadań członków zespołu projektowego w ramach podwykonawstwa są wyceniane przy użyciu cennika **Zakup** dołączonego do podumowy w pokrewnym rekordzie członka zespołu. Jest to inny sposób niż w przypadku przypisań zasobów pracowników, gdzie przypisania zadań z zasobów pracowników są wyceniane przy użyciu cennika **Koszt** dołączonego do jednostki kontraktowania projektu. 
 

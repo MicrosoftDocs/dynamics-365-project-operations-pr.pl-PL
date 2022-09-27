@@ -2,20 +2,20 @@
 title: Punkty kontrolne wiersza podumowy
 description: W tym artykule opisano sposób tworzenia i obsługi harmonogramu faktur opartego na punktach kontrolnych dla podwykonawcy z dostawcą.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261807"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522478"
 ---
 # <a name="subcontract-line-milestones"></a>Punkty kontrolne wiersza podumowy
 
-_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
+_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
 W aplikacji Dynamics 365 Project Operations wiersz umowy z metody rozliczania o stałej cenie może określać harmonogram faktur oparty na punktach kontrolnych dla dostawcy.
 

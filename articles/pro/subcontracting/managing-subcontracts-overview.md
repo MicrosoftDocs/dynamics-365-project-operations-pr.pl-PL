@@ -2,21 +2,21 @@
 title: Zarządzanie podumowami w rozwiązaniu Project Operations
 description: W tym artykule przedstawiono omówienie całego procesu zarządzania podwykonawcami, zwykle w organizacjach opartych na projektach.
 author: rumant
-ms.date: 08/02/2021
+ms.date: 09/14/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 783ab1b642bb8cfe2fb3b977a95c8064f33a7994
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b2e4518f77b2099f9818ea56623be9efb20b01f4
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261221"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522339"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Zarządzanie podumowami w rozwiązaniu Project Operations
 
 
-_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
+_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
 W tym artykule przedstawiono omówienie całego procesu zarządzania podwykonawcami w organizacjach opartych na projektach. Podwykonawcy usług zwykle działają zgodnie z przepływem procesów biznesowych, który przedstawiono na poniższym diagramie.
 

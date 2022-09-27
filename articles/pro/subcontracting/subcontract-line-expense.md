@@ -2,20 +2,20 @@
 title: Pozycje podumowy dla kategorii wydatków
 description: W tym artykule wyjaśniono, jak rejestrować wiersze podwykonawców dla wydatków i używać różnych pól do rejestrowania zakupu czasu od dostawców.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: ba1241ce40b7c5b488e278e8f1b8e9f352f45dc8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261854"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522621"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Pozycje podumowy dla kategorii wydatków
 
-_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
+_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
 Podumowa w aplikacji Dynamics 365 Project Operations może mieć wiersz dla kategorii podatków. Wiersze podumowy dla kategorii wydatków umożliwiają menedżerowi projektu zakup kategorii usług lub produktów od dostawców, za które opłaty można naliczać w ramach projektu.
 

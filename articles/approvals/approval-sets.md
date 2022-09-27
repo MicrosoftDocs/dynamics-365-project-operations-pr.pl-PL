@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918095"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524930"
 ---
 # <a name="approval-sets"></a>Zestawy zatwierdzenia
 
@@ -45,14 +45,9 @@ Wybranie opcji **Ponów próbę** dodaje wartość do licznika prób zestawu zat
 ## <a name="configure-approval-sets"></a>Konfiguracja zestawów zatwierdzeń
 
 ### <a name="enable-the-approval-sets-feature"></a>Włączanie funkcji Zestawów zatwierdzających
-Przed włączeniem funkcji Zestawy zatwierdzeń należy sprawdzić, czy nie są aktualnie przetwarzane żadne zatwierdzenia.
+Przed włączeniem funkcji Zestawy zatwierdzeń należy sprawdzić, czy nie są aktualnie przetwarzane żadne zatwierdzenia. Po włączeniu tej funkcji nie można jej wyłączyć.
 
 - Przejdź na stronę **Parametry projektu** i wybierz **Kontrola właściwości** > **Włącz nowe zatwierdzenia**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>Wyłączanie funkcji Zestawów zatwierdzających
-Przed wyłączeniem funkcji Zestawy zatwierdzeń należy sprawdzić, czy nie są aktualnie przetwarzane żadne zatwierdzenia.
-
-- Przejdź na stronę **Parametry projektu** i wybierz **Kontrola właściwości** > **Wyłącz nowe zatwierdzenia**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>Konfiguracja progu asynchronicznego 
 Podczas tworzenia zestawów zatwierdzeń przetwarzanie przechodzi na drugi plan, gdy wybrana liczba rekordów do zatwierdzenia przekroczy wskazany próg. Użyj pola **Próg asynchroniczności**, aby ustalić, czy przetwarzanie zatwierdzeń ma się odbywać synchronicznie czy asynchronicznie. Wybierz jedną z poniższych wartości:

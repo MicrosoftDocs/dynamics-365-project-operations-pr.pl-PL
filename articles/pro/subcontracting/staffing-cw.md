@@ -2,20 +2,20 @@
 title: Obsadzanie projektu na podstawie dyspozycyjności pracowników kontraktowych i podwykonawców
 description: W tym artykule wyjaśniono, w jaki sposób wymagania projektów można spełniać przy użyciu dyspozycyjności pracowników kontraktowych lub podwykonawców w aplikacji Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261268"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522449"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Obsadzanie projektu na podstawie dyspozycyjności pracowników kontraktowych i podwykonawców
 
-_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
+_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
 Ogólni członkowi zespołu projektu mogą być obsadzani przez pracowników lub pracowników kontraktowych. Podczas obsadzania projektu pracownikami kontraktowymi można ograniczyć opcje obsadzania do określonych pracowników kontraktowych przypisanych do pozycji podumowy. 
 

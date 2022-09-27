@@ -2,20 +2,20 @@
 title: Zasoby wiersza podumowy
 description: W tym artykule wyjaśniono sposób określania dedykowanych zasobów dostarczanych przez dostawcę na określony czas z konkretną pozycją podumowy.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d440201fde26e835b407db0b8ee1de8d663311a0
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 04e3e5ee70c50068304a8a6c8f7e93df48ed7e85
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261478"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522386"
 ---
 # <a name="subcontract-line-resources"></a>Zasoby wiersza podumowy
 
-_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
+_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
 W aplikacji Dynamics 365 Project Operations dostawca może określić zasoby wykorzystywane do dostarczania zakupionej wydajności zasobów w wierszu podumowy na pewien czas.
 
