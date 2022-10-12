@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Co nowego
       items:
-        - name: Sierpień 2022 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: Wrzesień 2022 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: Archiwizuj
           items:
+            - name: Sierpień 2022 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Lipiec 2022 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: Czerwiec 2022 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
@@ -668,10 +670,12 @@
           href: environment/security-model.md
     - name: Co nowego
       items:
-        - name: Co nowego w sierpniu 2022 r. — wdrażanie wersji uproszczonej
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: Co nowego we wrześniu 2022 r. — wdrażanie wersji uproszczonej
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: Archiwizuj
           items:
+            - name: Co nowego w sierpniu 2022 r. — wdrażanie wersji uproszczonej
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Co nowego w lipcu 2022 r. — wdrażanie wersji uproszczonej
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Co nowego w czerwcu 2022 r. — wdrażanie wersji uproszczonej
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Co nowego
       items:
-        - name: Co nowego w lipcu 2022 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Co nowego we wrześniu 2022 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: Archiwizuj
           items:
+            - name: Co nowego w lipcu 2022 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Co nowego w czerwcu 2022 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: Co nowego w październiku 2021 r. — Project Operations dla scenariuszy obejmujących magazynowanie/zlecenia produkcyjne
@@ -1436,6 +1442,10 @@
       items:
         - name: Harmonogram wydań aktualizacji dla rozwiązania Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 47, V3'
+          href: psa/whats-new-ur-47.md
+        - name: 'Nowości i zmiany w wydaniu aktualizacji 45, V3'
+          href: psa/whats-new-ur-45.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 44, V3'
           href: psa/whats-new-ur-44.md
         - name: 'Nowości i zmiany w wydaniu aktualizacji 43, V3'

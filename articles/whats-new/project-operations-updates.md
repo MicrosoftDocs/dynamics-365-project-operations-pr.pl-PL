@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409952"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9622034"
 ---
 # <a name="project-operations-updates"></a>Aktualizacje aplikacji Project Operations
 
@@ -47,24 +47,24 @@ Aktualizacje dotyczące Project Operations w środowisku Dataverse są dostępne
 | Stacja | Region | Aktualny numer wersji | Automatyczne aktualizacje w przypadku wdrożenia Lite | Automatyczne aktualizacje w przypadku wdrożenia zawierającego zasoby lub nie zawierającego zapasów | Następny numer wersji | Następna wersja ogólnie dostępna |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stacja 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pierwsze wydanie         |  4.45.0.53      | Zakończony           | Zakończony            | Do ustalenia                 | 09 Wrzesień 2022      |
+|   &nbsp;  | Pierwsze wydanie         |  4.46.0.60      | Zakończony           | Zakończony            | Do ustalenia                 | 07 października 2022      |
 | Stacja 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ameryka Południowa         |  4.45.0.53      | Zakończony           | Zakończony            | Do ustalenia                 | 09 Wrzesień 2022       |
-|   &nbsp;  | Kanada                |  4.45.0.53      | Zakończony           | Zakończony            | Do ustalenia                 | 09 Wrzesień 2022       |
-|   &nbsp;  | Indie                 |  4.45.0.53      | Zakończony           | Zakończony            | Do ustalenia                 | 09 Wrzesień 2022       |
-|   &nbsp;  | Francja                |  4.45.0.53      | Zakończony           | Zakończony            | Do ustalenia                 | 09 Wrzesień 2022       |
-|   &nbsp;  | Republika Południowej Afryki          |  4.45.0.53      | Zakończony           | Zakończony            | Do ustalenia                 | 09 Wrzesień 2022       |
-|   &nbsp;  | Szwajcaria           |  4.45.0.53      | Zakończony           | Zakończony            | Do ustalenia                 | 09 Wrzesień 2022       |
+|   &nbsp;  | Ameryka Południowa         |  4.46.0.60      | Zakończony           | Zakończony            | Do ustalenia                 | 14 października 2022       |
+|   &nbsp;  | Kanada                |  4.46.0.60      | Zakończony           | Zakończony            | Do ustalenia                 | 14 października 2022       |
+|   &nbsp;  | Indie                 |  4.46.0.60      | Zakończony           | Zakończony            | Do ustalenia                 | 14 października 2022       |
+|   &nbsp;  | Francja                |  4.46.0.60      | Zakończony           | Zakończony            | Do ustalenia                 | 14 października 2022       |
+|   &nbsp;  | Republika Południowej Afryki          |  4.46.0.60      | Zakończony           | Zakończony            | Do ustalenia                 | 14 października 2022       |
+|   &nbsp;  | Szwajcaria           |  4.46.0.60      | Zakończony           | Zakończony            | Do ustalenia                 | 14 października 2022       |
 | Stacja 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonia                 |  4.45.0.53      | Zakończony      | Zakończony       | Do ustalenia                 | 09 Wrzesień 2022       |
-|   &nbsp;  | Azja i Pacyfik          |  4.45.0.53      | Zakończony      | Zakończony       | Do ustalenia                 | 09 Wrzesień 2022       |
-|   &nbsp;  | Wielka Brytania         |  4.45.0.53      | Zakończony      | Zakończony       | Do ustalenia                 | 09 Wrzesień 2022       |
-|   &nbsp;  | Oceania               |  4.45.0.53      | Zakończony      | Zakończony       | Do ustalenia                 | 09 Wrzesień 2022       |
-|   &nbsp;  | Zjednoczone Emiraty Arabskie  |  4.45.0.53      | Zakończony      | Zakończony       | Do ustalenia                 | 09 Wrzesień 2022       |
+|   &nbsp;  | Japonia                 |  4.46.0.60      | Zakończony      | Zakończony       | Do ustalenia                 | 21 października 2022       |
+|   &nbsp;  | Azja i Pacyfik          |  4.46.0.60      | Zakończony      | Zakończony       | Do ustalenia                 | 21 października 2022       |
+|   &nbsp;  | Wielka Brytania         |  4.46.0.60      | Zakończony      | Zakończony       | Do ustalenia                 | 21 października 2022       |
+|   &nbsp;  | Oceania               |  4.46.0.60      | Zakończony      | Zakończony       | Do ustalenia                 | 21 października 2022       |
+|   &nbsp;  | Zjednoczone Emiraty Arabskie  |  4.46.0.60      | Zakończony      | Zakończony       | Do ustalenia                 | 21 października 2022       |
 | Stacja 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.45.0.53      | Zakończony           | Zakończony            | Do ustalenia           | 16 Wrzesień 2022       |
+|   &nbsp;  | Europa                |  4.46.0.60      | Zakończony           | Zakończony            | Do ustalenia           | 28 października 2022       |
 | Stacja 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ameryka Północna         |  4.45.0.53      | Zakończony           | Zakończony            | Do ustalenia           | 16 Wrzesień 2022       |
+|   &nbsp;  | Ameryka Północna         |  4.46.0.60      | Zakończony           | Zakończony            | Do ustalenia           | 04 listopada, 2022 roku       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Harmonogram wydawania aplikacji do zarządzania projektami i księgowości w środowisku aplikacji finansowych i operacyjnych
 
