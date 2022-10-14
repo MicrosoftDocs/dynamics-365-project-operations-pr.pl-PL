@@ -1534,6 +1534,14 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Nowości i zmiany w programie Project Service Automation V3
           href: psa/whats-new-changed-v3.md
+    - name: Uaktualnianie rozwiązania Project Service Automation (uproszczona wersja aplikacji Project Operations 4.x)
+      items:
+        - name: Uaktualnianie rozwiązania Project Service Automation do Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Zmiany funkcji z rozwiązania Project Service Automation do Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: Proces konwersji planowania rozwiązania Project Service Automation do Project Operations
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: Planowanie wdrożenia (wersja aplikacji 3.x)
       items:
         - name: Instalacja przykładowych danych
