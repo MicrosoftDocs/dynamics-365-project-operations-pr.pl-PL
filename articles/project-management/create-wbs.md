@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932079"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655202"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Tworzenie struktury podziału pracy (SPP)
 
@@ -112,6 +112,18 @@ Pole **Kategoria** zawiera wartości wskazujące szerszy typ pracy, do której m
 Harmonogram w Project Operations może służyć do tworzenia relacji poprzedników między zadaniami. Pole **Poprzednik** używa co najmniej jednej wartości do wskazania zadań, od których zależy zadanie. Podczas przypisywania wartości poprzednika do zadania, zadanie może się rozpocząć po zakończeniu wszystkich zadań poprzedników. Z powodu zależności planowana data rozpoczęcia zadania jest ustawiana na dzień, w którym wykonane zostaną zadania poprzednika.
 
 Tryb zadania nie ma wpływu na aktualizacje wprowadzane do dat rozpoczęcia i zakończenia zadań poprzednika/zależnych.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Informacje na temat wpływu czasu trwania, kalendarzy zasobów i kalendarzy projektów na zadania
+Czas trwania zadania jest definiowany jako liczba godzin pracy między datą rozpoczęcia i godziną zakończenia dla daty zakończenia zadania.   Rozwiązanie Project for the Web definiuje jednostki czasu trwania miary w następujący sposób:
+
+| **Miara czasu trwania** | **Ilość**|
+|----------------------------------------------------|----------------------|
+| Godziny na dzień | 8 |
+| Godziny na tydzień |  40 |
+| Dni na miesiąc |  20 |
+
+Nieprzypisane zadania są zaplanowane przy użyciu kalendarza projektu. Jednak po początkowym przypisaniu zasobu harmonogram zadania jest aktualizowany na podstawie kalendarza zasobu. Dalsze zmiany zadania, które ma przypisanie, będą regulowane przez [tryb planowania](scheduling-modes.md) projektu. Aby dowiedzieć się więcej o wpływie kalendarzy na zadania, zobacz temat [Kalendarze zasobów w rozwiązaniu Project for the Web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) i [Godziny rozpoczęcia zadania i Twoje projekty!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Skróty klawiaturowe i ułatwienia dostępu
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621278"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634819"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Co nowego, wrzesień 2022 r. — Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu
 
@@ -35,6 +35,7 @@ Ten artykuł dotyczy następujących składników i wersji oprogramowania Micros
 | Zarządzanie wydatkami | **Możliwość wpisu odpowiedzialności za koszty w walucie dostawcy**<br>Ta funkcja umożliwia księgowanie raportów z wydatków w walucie dostawcy za gotówkowe formy płatności. | [Możliwość wpisu odpowiedzialności za koszty w walucie dostawcy](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | Zaopatrzenie projektu | **Płatności dla sprzedawców w momencie zapłaty**<br>Ta funkcja umożliwia korzystanie z funkcji Zapłać po uiszczeniu zapłaty (PWP) w środowiskach niemagazynowych Project Operations. Umożliwia zablokowanie/zachowanie płatności od dostawcy na podstawie warunków przechowywania do momentu otrzymania płatności od klienta. | [Płatności dla sprzedawców w momencie zapłaty](/dynamics365/project-operations/procurement/pay-when-paid) |
 | Zaopatrzenie projektu | **Zapotrzebowania zakupu dla projektu**<br>Ta funkcja umożliwia użytkownikom tworzenie zamówień zakupu powiązanych z projektami w encji prawnej, dla których funkcja Project Operations w Dynamics 365 Customer Engagement jest włączona. Zamówień zakupu projektu można użyć do zapisu materiałów niemagazynowych, które nie są przechowane przez osobę działu zasobów projektu. Zamówienia zakupu projektu nie są synchronizowane z usługą Dataverse. Jednak można użyć encji wirtualnej, aby znaleźć w wierszach zamówień projektu w Dataverse dla informacji zarządzania projektem. Koszt faktury od dostawcy związany z projektem jest zintegrowany z encją Wartości rzeczywiste projektu w programie Dataverse. Księgowanie projektu jest rejestrowane w księdze podrzędnej projektu za pomocą arkusza integracji Project Operations. | |
+|Planowanie i śledzenie projektu|**Używanie interfejsów API harmonogramu projektu do wykonywania operacji na encji planowania** </br> </br>Interfejs API edytowania rozkładu przypisania zasobów umożliwia deweloperom programowe określenie nakładu pracy osoby przypisanej do zadania dla obsługiwanego zakresu dat w celu bardziej szczegółowego planowania nakładów pracy w poszczególnych fazach.|[Używanie interfejsów API harmonogramu projektu do wykonywania operacji na encji planowania](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations — mapy podwójnego zapisu — aktualizacje
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621295"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634866"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>Co nowego we wrześniu 2022 r. — Project Operations — wersja uproszczona
 
@@ -30,6 +30,7 @@ Ten artykuł dotyczy następujących składników i wersji oprogramowania Micros
 | Rozliczenia i ceny | **Domyślne ceny niezależne od strefy czasowej**<br>W programie Project Operations we wszystkich wartościach rzeczywistych projektu wprowadzono pojęcie daty strefy czasowej. Nowe pole o wartościach **Data transakcji** jest teraz dostępne w wierszach i wartościach rzeczywistych i będzie używane do przechowywania daty wystąpienia transakcji, ale bez konwertowania tej daty na Uniwersalny czas koordynowany. Ta data będzie używana w procesach, takich jak domyślne ceny i tworzenie faktury. | <p>[Określanie stawek kosztów dla oszacowań i wartości rzeczywistych projektu](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[Określanie kosztów sprzedaży dla oszacowań i wartości rzeczywistych projektu](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | Rozliczenia i ceny | **Zastępowanie cen z datą wejścia w życie w Project Operations**<br>Zastąpienia ceny z datą wejścia w życie stanowi sposób zastępowania lub zmieniania określonych cen w cenniku. | [Zastąpienia ceny z datą wejścia w życie](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | Czas i wydatek | **Globalna osoba zatwierdzająca**<br>Funkcja ta włącza niezależnych dostawców oprogramowania (ISV) i scentralizowane zatwierdzanie, niezależnie od stanu członków projektu lub zespołu w projekcie. | [Zabezpieczenia i zatwierdzenia](/dynamics365/project-operations/approvals/approvals-security) |
+|Planowanie i śledzenie projektu|**Używanie interfejsów API harmonogramu projektu do wykonywania operacji na encji planowania** </br> </br>Interfejs API edytowania rozkładu przypisania zasobów umożliwia deweloperom programowe określenie nakładu pracy osoby przypisanej do zadania dla obsługiwanego zakresu dat w celu bardziej szczegółowego planowania nakładów pracy w poszczególnych fazach.|[Używanie interfejsów API harmonogramu projektu do wykonywania operacji na encji planowania](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>Aktualizacje dotyczące jakości
 
