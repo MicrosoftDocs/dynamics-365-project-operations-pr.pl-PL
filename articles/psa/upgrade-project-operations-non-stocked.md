@@ -3,7 +3,7 @@ title: Uaktualnianie rozwiązania Project Service Automation do Project Operatio
 description: Ten artykuł zawiera omówienie procesu uaktualniania z aplikacji Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/13/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
-ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
+ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
+ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9446049"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9686989"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Uaktualnianie rozwiązania Project Service Automation do Project Operations
 
-Z przyjemnością ogłaszamy rozpoczęcie pierwszej z trzech faz uaktualnienia z aplikacji Microsoft Dynamics 365 Project Service Automation do Dynamics 365 Project Operations. Ten artykuł zawiera przegląd procesu dla klientów, którzy chcą rozpocząć tę ekscytującą podróż. Przyszłe artykuły będą zawierać zagadnienia dla deweloperów i szczegółowe informacje na temat ulepszeń funkcji. Będą nie tylko zawierać wskazówki pomocne przy przygotowywaniu do uaktualnienia do wersji Project Operations, ale także wyjaśnienia, czego można się spodziewać po uaktualnieniu.
+Z przyjemnością ogłaszamy rozpoczęcie drugiej z trzech faz uaktualnienia z aplikacji Microsoft Dynamics 365 Project Service Automation do Microsoft Dynamics 365 Project Operations. Ten artykuł zawiera przegląd procesu dla klientów, którzy chcą rozpocząć tę ekscytującą podróż. 
 
 Program dostarczania uaktualnienia zostanie podzielony na trzy fazy.
 
@@ -46,24 +46,31 @@ W ramach procesu uaktualniania do mapy witryny dodano dzienniki uaktualnienia, a
 | SPP zostanie sprawdzona pod kątem znanych limitów rozwiązania Project Desktop Client. | |  | :heavy_check_mark: |
 | Możliwe do rezerwacji zasoby i kalendarze projektów będą sprawdzane pod kątem typowych wyjątków polegających na niezgodności z regułami kalendarza. | | :heavy_check_mark: | :heavy_check_mark: |
 
-W fazie 2. projekty klientów, którzy uaktualnią aplikację do wersji Project Operations, zostaną uaktualnione do środowiska tylko do odczytu na potrzeby planowania projektów. W tym środowisku tylko do odczytu pełna SPP będzie widoczna w siatce śledzenia. Aby edytować SPP, menedżerowie projektów mogą wybrać pozycję **Konwertuj** na głównej stronie **Projekty**. Proces w tle zaktualizuje projekt w taki sposób, aby go obsługiwał nowe funkcje planowania projektów z rozwiązania Project for the Web. Ta faza jest odpowiednia dla klientów, którzy mają projekty mieszczące się w znanych limitach rozwiązania [Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+W fazie 2. projekty klientów, którzy uaktualnią aplikację do wersji Project Operations, zostaną uaktualnione do środowiska tylko do odczytu na potrzeby planowania projektów. W tym środowisku tylko do odczytu pełna SPP będzie widoczna w siatce śledzenia. Aby edytować SPP, menedżerowie projektów mogą wybrać pozycję [**Konwertuj**](/PSA-Upgrade-Project-Conversion.md) na głównej stronie projektu. Proces w tle zaktualizuje projekt w taki sposób, aby go obsługiwał nowe funkcje planowania projektów z rozwiązania Project for the Web. Ta faza jest odpowiednia dla klientów, którzy mają projekty mieszczące się w znanych limitach rozwiązania [Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
 W fazie 3. zostanie dodana obsługa rozwiązania Project Desktop Client z korzyścią dla klientów, którzy chcą nadal edytować swoje projekty z tej aplikacji. Jednak jeśli istniejące projekty zostaną przekonwertowane na nowe środowisko Project for the Web, dostęp do dodatku będzie wyłączony dla każdego przekonwertowanego projektu.
 
 ## <a name="prerequisites"></a>Wymagania wstępne
 
-Aby zakwalifikować się do 1. fazy uaktualnienia, klient musi spełniać następujące kryteria:
+Aby zakwalifikować się do 1. fazy uaktualnienia, musisz spełniać następujące kryteria:
 
 - Środowisko docelowe nie może zawierać żadnych rekordów w encji **msdyn_projecttask**.
-- Prawidłowe licencje aplikacji Project Operations muszą być przypisane do wszystkich aktywnych użytkowników klienta. 
-- Klient musi zweryfikować procesu uaktualniania w co najmniej jednym środowisku nieprodukcyjnym, w którym znajduje się reprezentatywny zestaw danych dopasowany do danych produkcyjnych.
-- Środowisko docelowe należy zaktualizować do wersji Project Service Automation Update Release 41 (3.10.62.162) lub nowszej.
+- Prawidłowe licencje aplikacji Project Operations muszą być przypisane do wszystkich aktywnych użytkowników. 
+- Musisz zweryfikować procesu uaktualniania w co najmniej jednym środowisku nieprodukcyjnym, w którym znajduje się reprezentatywny zestaw danych dopasowany do środowiska produkcyjnego.
+- Środowisko docelowe należy zaktualizować do wersji Project Service Automation Update Release 37 (V3.10.58.120) lub nowszej.
 
-Wymagania wstępne dla faz 2. i 3. będą aktualizowane w miarę zbliżania się dat ogólnej dostępności.
+Aby zakwalifikować się do 2. fazy uaktualnienia, musisz spełniać następujące kryteria:
+
+- Prawidłowe licencje aplikacji Project Operations muszą być przypisane do wszystkich aktywnych użytkowników. 
+- Musisz zweryfikować procesu uaktualniania w co najmniej jednym środowisku nieprodukcyjnym, w którym znajduje się reprezentatywny zestaw danych dopasowany do środowiska produkcyjnego.
+- Środowisko docelowe należy zaktualizować do wersji Project Service Automation Update Release 37 (V3.10.58.120) lub nowszej.
+- Środowiska zawierające zadania (msdyn_projecttask) są obsługiwane tylko wtedy, gdy łączna liczba zadań na projekt wynosi 500 lub mniej.
+
+Wymagania wstępne dla 3. fazy będą aktualizowane w miarę zbliżania się dat ogólnej dostępności.
 
 ## <a name="licensing"></a>Licencjonowanie
 
-Jeśli masz aktywne licencje aplikacji Project Service Automation, możesz zainstalować i stosować aplikację Project Operations, która oferuje wszystkie funkcje aplikacji Project Service Automation i inne. W ten sposób można przetestować możliwości aplikacji Project Operations, nadal używając aplikacji Project Service Automation w środowisku produkcyjnym. Po wygaśnięciu licencji rozwiązania Project Service Automation musisz przejść do aplikacji Project Operations. Planując to przejście, trzeba pamiętać o tym, że licencja aplikacji Project Operations nie obejmuje licencji aplikacji Project Service Automation.
+Jeśli masz aktywne licencje aplikacji Project Service Automation, możesz zainstalować i stosować aplikację Project Operations, która oferuje wszystkie funkcje aplikacji Project Service Automation i inne. W ten sposób można przetestować możliwości aplikacji Project Operations w oddzielnym środowisku, nadal używając aplikacji Project Service Automation w produkcji. Po wygaśnięciu licencji rozwiązania Project Service Automation musisz przejść do aplikacji Project Operations. Planując to przejście, trzeba pamiętać o tym, że licencja aplikacji Project Operations nie obejmuje licencji aplikacji Project Service Automation.
 
 ## <a name="testing-and-refactoring-customizations"></a>Testowanie i refaktoryzowanie dostosowań
 
@@ -87,14 +94,23 @@ Po zaktualizowaniu dostosowań w celu czystego zaimportowania aplikacji Project 
 
     Po zakończeniu uaktualniania środowisko powinno pokazywać zainstalowaną aplikację Project Operations oraz brak zainstalowanej aplikacji Project Service Automation.
 
-    > [!NOTE]
-    > W zależności od ilości danych w środowisku uaktualnienie może zająć kilka godzin. Podstawowy zespół zarządzający uaktualnieniem powinien odpowiednio zaplanować i uruchomić uaktualnienie poza godzinami pracy. W niektórych przypadkach, jeśli ilość danych jest duża, uaktualnienie należy przeprowadzić w weekend. Decyzja o planowaniu powinna być oparta na wynikach testowania w środowiskach na niższym poziomie.
+    W zależności od ilości danych w środowisku uaktualnienie może zająć kilka godzin. Podstawowy zespół zarządzający uaktualnieniem powinien odpowiednio zaplanować i uruchomić uaktualnienie poza godzinami pracy. W niektórych przypadkach, jeśli ilość danych jest duża, uaktualnienie należy przeprowadzić w weekend. Decyzja o planowaniu powinna być oparta na wynikach testowania w środowiskach na niższym poziomie.
 
 3. Uaktualnij odpowiednio rozwiązania niestandardowe. W tym momencie należy wdrożyć wszystkie zmiany wprowadzone w dostosowaniach w sekcji [Testowanie i refaktoryzowanie dostosowań](#testing-and-refactoring-customizations) tego artykułu.
 4. Przejdź do pozycji **Ustawienia** \> **Rozwiązania** i wybierz opcję odinstalowania rozwiązania **Przestarzałe składniki aplikacji Project Operations**.
 
     To rozwiązanie jest rozwiązaniem tymczasowym, które zawiera istniejący model danych i składniki obecne podczas uaktualnienia. Usunięcie tego rozwiązania powoduje usunięcie wszystkich pól i składników, które nie są już używane. Pozwala to uprościć interfejs oraz ułatwić integrację i stosowanie rozszerzeń.
     
+### <a name="upgrade-to-project-operations-lite"></a>Uaktualnienie do aplikacji Project Operations w wersji uproszczonej
+
+Poniższe kroki opisują proces uaktualniania i skojarzone rejestrowanie błędów:
+
+1. **Sprawdzanie wersji oprogramowania PSA:** aby zainstalować Project Operations, trzeba mieć wersję v3.10.58.120 lub nowszą.
+1. **Wstępne sprawdzanie poprawności:** gdy administrator inicjuje uaktualnienie, system uruchamia operację wstępnego sprawdzania poprawności dla każdego obiektu, który jest podstawowym elementem rozwiązania Project Operations. Ten krok weryfikuje, czy wszystkie odwołania do wszystkich encji są prawidłowe, co gwarantuje, że dane dotyczące SPP znajdują się w opublikowanym zakresie ograniczeń programu Project for the Web.
+1. **Uaktualnianie metadanych:** po pomyślnej wstępnej weryfikacji system inicjuje zmiany schematu i tworzy przestarzałe rozwiązanie składników. To przestarzałe rozwiązanie można usunąć po zakończeniu wszystkich wymaganych refaktoryzowań dostosowywań. Ten krok stanowi część procesu uaktualniania i może potrwać do czterech godzin.
+1. **Uaktualnienie danych:** po zakończeniu wszystkich wymaganych zmian schematu w kroku uaktualniania metadanych dane są migrowane do nowego schematu i wszystkie wymagane zmiany domyślne i ponowne obliczanie jest wykonywane.
+1. **Aktualizacja aparatu harmonogramu projektów:** po pomyślnym uaktualnieniu danych karta **Harmonogram** na stronie głównej zostanie ponownie oznaczona **Zadania**. Gdy użytkownik wybierze tę kartę po uaktualnieniu, należy przejść do siatki śledzenia, aby wyświetlić wersję SPP tylko do odczytu. Aby edytować SPP, muszą rozpocząć proces [konwersji harmonogramu](/PSA-Upgrade-Project-Conversion.md). Wszystkie projekty bez wstępnie istniejącego SPP mogą bezpośrednio korzystać z nowych funkcji planowania bez konieczności konwersji.
+ 
 ### <a name="validate-common-scenarios"></a>Sprawdź poprawność typowych scenariuszy
 
 Po zweryfikowaniu określonych dostosowań zaleca się przejrzenie procesów biznesowych obsługiwanych w aplikacjach. Te procesy biznesowe obejmują między innymi tworzenie encji sprzedaży, takich jak oferty i kontrakty, oraz tworzenie projektów takich jak WBS i zatwierdzenie wartości rzeczywistych.
@@ -107,7 +123,7 @@ W tej sekcji przedstawiono podsumowanie głównych zmian, których można międz
 
 Funkcje planowania projektów w aplikacji Project Operations nie są już zależne od kombinacji logiki po stronie klienta i logiki po stronie serwera. W zamian aplikacja Project Operations używa rozwiązania Project for the Web jako aparatu planowania. Ta zmiana funkcji planowania umożliwia korzystanie z kilku nowych funkcji, takich jak widoki Tablica i Gantt, planowanie na podstawie zasobów, [pozycje listy kontrolnej zadań](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c) i tryby planowania projektów. Nowe funkcje planowania są również obsługiwane przez bogaty zestaw nowych [interfejsów programowania aplikacji (API)](../project-management/schedule-api-preview.md). Te interfejsy API mają zagwarantować, że żadna programowa operacja tworzenia, aktualizowania lub usuwania encji w SPP nie uszkodzi pól obliczanych w harmonogramie.
 
-## <a name="billing-and-pricing"></a>Rozliczenia i ceny
+### <a name="billing-and-pricing"></a>Rozliczenia i ceny
 
 W ramach ciągłych inwestycji w aplikację Project Operations w obszarach rozliczeń i cen jest dostępnych kilka nowych funkcji. Oto kilka przykładów:
 
@@ -116,6 +132,10 @@ W ramach ciągłych inwestycji w aplikację Project Operations w obszarach rozli
 - [Kontrakty oparte na zaliczkach i zatrzymaniach](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [Kontraktowanie nieprzekraczalnego stanu i weryfikacji](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - Rozliczenia oparte na zadaniach
+
+### <a name="resource-management"></a>Zarządzanie zasobami
+
+Project Operations zapewnia opcjonalną pomoc techniczną dla tablicy Universal Resource Scheduling (URS) oraz asystenta planowania. To nowe doświadczenie stanie się obowiązkowe w kwietniu 2023 r.
 
 ## <a name="frequently-asked-questions"></a>Często zadawane pytania
 
@@ -136,5 +156,4 @@ Przed udostępnienie narzędzi do uaktualniania można zainstalować aplikację 
 - Ustanowienie nowego środowiska.
 - Wdrożenie aplikacji Project Operations oddzielnie w dowolnej organizacji sprzedaży, w której nie ma aplikacji Project Service Automation.
 
-> [!NOTE]
-> Jeśli aplikacja Project Service Automation została zainstalowana w organizacji, ale nie jest używana, można ją odinstalować. Po całkowitym usunięciu aplikacji Project Service Automation aplikację Project Operations można zainstalować w tej samej organizacji.
+Jeśli aplikacja Project Service Automation została zainstalowana w organizacji, ale nie jest używana, można ją odinstalować. Po całkowitym usunięciu aplikacji Project Service Automation aplikację Project Operations można zainstalować w tej samej organizacji.
