@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Jak dostosować przepływ procesów biznesowych Etapy projektu?
               href: psa/FAQ-customize-bpf.md
-            - name: Zagadnienia dotyczące uaktualniania struktury podziału pracy
-              href: psa/upgrade-considerations-tasks.md
         - name: Oficjalne dokumenty
           href: psa/white-papers.md
         - name: Przewodnik administratora
