@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525368"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709411"
 ---
 # <a name="security-and-approvals"></a>Zabezpieczenia i zatwierdzenia
 
@@ -33,6 +33,6 @@ Aby zatwierdzić wpisy niebędące projektami, musisz być przełożonym osoby z
 > [!NOTE]
 > Funkcja [Zestawy zatwierdzeń](approval-sets.md) musi być włączona, zanim będziesz mógł korzystać z funkcji Administratora projektu.
 
-Rola bezpieczeństwa **Zatwierdzający projekt administrator** pozwala użytkownikom na omijanie zasad i umożliwia zatwierdzanie wpisów we wszystkich projektach. Przypisanie tej roli ominie logikę walidacji, która wymaga członkostwa w zespole i oznaczenia jako zatwierdzającego. Trzeba mieć również dostęp do odpowiednich encji pokrewnych, takich jak **Projekt**. Ten dostęp może przypisać ktoś, kto ma rolę **Menedżer projektu**.
+Rola bezpieczeństwa **Zatwierdzający projekt administrator** pozwala użytkownikom na omijanie zasad i umożliwia zatwierdzanie wpisów we wszystkich projektach. Przypisanie tej roli ominie logikę walidacji, która wymaga członkostwa w zespole i oznaczenia jako zatwierdzającego. Trzeba mieć dostęp do odpowiednich tabel pokrewnych, takich jak **Projekt**, za pośrednictwem przypisanych ról zabezpieczeń.
 
 Kontekst użytkownika SYSTEM omija walidację w taki sam sposób, jak rola bezpieczeństwa Administrator zatwierdzający projekt.

@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686989"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709458"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Uaktualnianie rozwiązania Project Service Automation do Project Operations
 
@@ -70,7 +70,7 @@ Wymagania wstępne dla 3. fazy będą aktualizowane w miarę zbliżania się dat
 
 ## <a name="licensing"></a>Licencjonowanie
 
-Jeśli masz aktywne licencje aplikacji Project Service Automation, możesz zainstalować i stosować aplikację Project Operations, która oferuje wszystkie funkcje aplikacji Project Service Automation i inne. W ten sposób można przetestować możliwości aplikacji Project Operations w oddzielnym środowisku, nadal używając aplikacji Project Service Automation w produkcji. Po wygaśnięciu licencji rozwiązania Project Service Automation musisz przejść do aplikacji Project Operations. Planując to przejście, trzeba pamiętać o tym, że licencja aplikacji Project Operations nie obejmuje licencji aplikacji Project Service Automation.
+Jeśli masz aktywne licencje aplikacji Project Service Automation, możesz zainstalować i stosować aplikację Project Operations, która oferuje wszystkie funkcje aplikacji Project Service Automation i inne. W ten sposób można przetestować możliwości aplikacji Project Operations, nadal używając aplikacji Project Service Automation w środowisku produkcyjnym. Po wygaśnięciu licencji rozwiązania Project Service Automation musisz przejść do aplikacji Project Operations. Planując to przejście, trzeba pamiętać o tym, że licencja aplikacji Project Operations nie obejmuje licencji aplikacji Project Service Automation. Klienci, którzy mają scenariusze, w których wdrożyli Project Service Automation i muszą nadal używać lub zwiększać swoje licencje na PSA podczas planowania przejścia do Project Operations, mogą poprosić o tymczasowe licencje PSA na podstawie zakupionych licencji Project Operations. Jedna licencja Project Service Automation będzie wystawiana dla jednej licencji Project Operations. Tymczasowe licencje usługi PSA można zamówić, korzystając z tego łącza: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Testowanie i refaktoryzowanie dostosowań
 
