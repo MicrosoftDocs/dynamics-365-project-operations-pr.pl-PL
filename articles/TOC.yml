@@ -286,7 +286,9 @@
           href: project-management/define-project-calendars.md
         - name: Tryby planowania
           href: project-management/scheduling-modes.md
-        - name: Aktualizowanie projektu
+        - name: Planowanie zewnętrzne
+          href: project-management/external-scheduling.md
+        - name: Aktualizacja projektu
           href: project-management/update-project.md
         - name: Kopiowanie projektu
           href: project-management/copy-project.md
@@ -914,7 +916,9 @@
           href: project-management/define-project-calendars.md
         - name: Tryby planowania
           hreF: project-management/scheduling-modes.md
-        - name: Aktualizowanie projektu
+        - name: Planowanie zewnętrzne
+          href: project-management/external-scheduling.md
+        - name: Aktualizacja projektu
           href: project-management/update-project.md
         - name: Kopiowanie projektu
           href: project-management/copy-project.md
