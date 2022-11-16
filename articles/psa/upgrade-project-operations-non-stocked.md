@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709458"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736680"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Uaktualnianie rozwiązania Project Service Automation do Project Operations
 
@@ -97,7 +97,7 @@ Po zaktualizowaniu dostosowań w celu czystego zaimportowania aplikacji Project 
     W zależności od ilości danych w środowisku uaktualnienie może zająć kilka godzin. Podstawowy zespół zarządzający uaktualnieniem powinien odpowiednio zaplanować i uruchomić uaktualnienie poza godzinami pracy. W niektórych przypadkach, jeśli ilość danych jest duża, uaktualnienie należy przeprowadzić w weekend. Decyzja o planowaniu powinna być oparta na wynikach testowania w środowiskach na niższym poziomie.
 
 3. Uaktualnij odpowiednio rozwiązania niestandardowe. W tym momencie należy wdrożyć wszystkie zmiany wprowadzone w dostosowaniach w sekcji [Testowanie i refaktoryzowanie dostosowań](#testing-and-refactoring-customizations) tego artykułu.
-4. Przejdź do pozycji **Ustawienia** \> **Rozwiązania** i wybierz opcję odinstalowania rozwiązania **Przestarzałe składniki aplikacji Project Operations**.
+4. Przejdź do **make.powerapps.com**, wybierz środowisko z listy rozwijanej w prawym górnym rogu portalu, wybierz pozycję **Rozwiązania** z lewego menu, wybierz rozwiązanie **Przestarzałe składniki aplikacji Project Operations**, a następnie pozycję **Odinstaluj**.
 
     To rozwiązanie jest rozwiązaniem tymczasowym, które zawiera istniejący model danych i składniki obecne podczas uaktualnienia. Usunięcie tego rozwiązania powoduje usunięcie wszystkich pól i składników, które nie są już używane. Pozwala to uprościć interfejs oraz ułatwić integrację i stosowanie rozszerzeń.
     
