@@ -1,19 +1,19 @@
 ---
-title: Omówienie wierszy oferty opartej na projekcie
+title: Omówienie wierszy oferty projektu
 description: W tym artykule przedstawiono informacje na temat używania pozycji kontraktu opartych na projekcie podczas pracy z projektem.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 90c5affa25b113476e43f0bbbadd5c9615f9c05c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e6a67b5c37508085c9ec3d8385eaa6828536de00
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934471"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825672"
 ---
-# <a name="project-based-quote-lines-overview"></a>Omówienie wierszy oferty opartej na projekcie 
+# <a name="project-quote-lines-overview"></a>Omówienie wierszy oferty projektu 
 
 _**Ma zastosowanie do:** Wdrożenie uproszczone - zajmuje się fakturowaniem proforma, Project Operations dla scenariuszy opartych na zasobach / braku zapasów_
 

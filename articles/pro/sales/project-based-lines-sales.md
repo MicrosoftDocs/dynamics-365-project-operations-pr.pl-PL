@@ -1,29 +1,29 @@
 ---
-title: Wiesze szansy sprzedaży opartej na projekcie - wersja uproszczona
+title: Wiersze szansy sprzedaży projektu
 description: W tym artykule przedstawiono informacje na temat wierszy szans sprzedaży opartych na projekcie. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b5a8fc32ca903d7da2e090137bed358b364902a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e4f67bd9b7d51559e2942e9005b8f5f9187b1f78
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914277"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824969"
 ---
-# <a name="project-based-opportunity-lines---lite"></a>Wiesze szansy sprzedaży opartej na projekcie - wersja uproszczona
+# <a name="project-opportunity-lines"></a>Wiersze szansy sprzedaży projektu 
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-Wiersze szans sprzedaży opartych na projekcie są dostępne tylko dla szans sprzedaży opartych na projektach. Szansa sprzedaży oparta na projekcie z polem **Typ** ustawionym na wartość **Oparte na pracy**.
+Wiersze szans sprzedaży projektu są dostępne tylko dla szans sprzedaży opartych na projektach. Szansa sprzedaży oparta na projekcie z polem **Typ** ustawionym na wartość **Oparte na pracy**.
 
-Wiersze szans sprzedaży opartych na projektach są wierszami pozycji, które będą dostarczane do klienta za pomocą projektu. Projekty nie mogą być jednak powiązane z wierszem szansy sprzedaży opartym na projekcie. Projekty mogą być powiązane z pozycjami wiersza na etapie **Oferty** i dalszym, ponieważ zazwyczaj szansa sprzedaży znajduje się na wczesnym etapie cyklu życia transakcji. Określenie liczby projektów, które zostaną użyte do dostarczenia pracy dla klienta, jest decyzją podejmowaną później w fazie sprzedaży. Fazy szansy sprzedaży można użyć w celu zidentyfikowania odrębnych składników dostawy dla klienta. Decyzje dotyczące rzeczywistej liczby projektów służących do dostarczania tych składników mogą zostać opóźnione do momentu otrzymania dodatkowych informacji o samej pracy do wykonania.
+Wiersze szans sprzedaży projektu są wierszami pozycji, które będą dostarczane do klienta za pomocą projektu. Projekty nie mogą być jednak powiązane z wierszem szansy sprzedaży opartym na projekcie. Projekty mogą być powiązane z pozycjami wiersza na etapie **Oferty** i dalszym, ponieważ zazwyczaj szansa sprzedaży znajduje się na wczesnym etapie cyklu życia transakcji. Określenie liczby projektów, które zostaną użyte do dostarczenia pracy dla klienta, jest decyzją podejmowaną później w fazie sprzedaży. Fazy szansy sprzedaży można użyć w celu zidentyfikowania odrębnych składników dostawy dla klienta. Decyzje dotyczące rzeczywistej liczby projektów służących do dostarczania tych składników mogą zostać opóźnione do momentu otrzymania dodatkowych informacji o samej pracy do wykonania.
 
-Poniżej wymieniono pola w wierszu szansy sprzedaży opartej na projekcie:
+Poniżej wymieniono pola w wierszu szansy sprzedaży projektu:
 
-| **Pole** | **Lokalizacja** | **Opis** | **Wpływ zmian w dalszych etapach** |
+| **Pole** | **Location** | **opis** | **Wpływ zmian w dalszych etapach** |
 | --- | --- | --- | --- |
 | Typ produktu | Karta Ogólne (ukryta) | W obszarze możesz wybrać jedną z następujących opcji:</br>- Usługa oparta na projekcie (dostępna tylko wtedy, gdy jest zainstalowane rozwiązanie Dynamics 365 Project Operations)</br>- Produkt (dostępne tylko wtedy, gdy jest zainstalowane Project Operations i Dynamics 365 Sales) | Wartość tego pola jest ustawiona na **Usługę opartą na projekcie** podczas tworzenia wiersza szansy sprzedaży opartej na projekcie z poziomu siatki wierszy opartych na projekcie w sekcji szansy sprzedaży. <br> Zmiana lub zastąpienie tej wartości spowoduje, że w wierszach opartych na projekcie nie zostaną włączone funkcje projektu. |
 | Szansa sprzedaży | Karta Ogólne | To pole jest w trybie do odczytu i zawiera odwołanie do rekordu szansy sprzedaży nadrzędnej, do którego należy ten element wiersza. | To pole nie ma wpływu na dalsze etapy. |

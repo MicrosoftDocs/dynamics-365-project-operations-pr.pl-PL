@@ -1,21 +1,21 @@
 ---
-title: Szacowanie wiersza oferty opartej na projekcie
-description: W tym artykule przedstawiono informacje na temat sposobu tworzenia szacowanej wartości wiersza oferty opartej na projekcie.
+title: Szacowanie wiersza oferty projektu
+description: W tym artykule przedstawiono informacje na temat sposobu tworzenia szacowanej wartości wiersza oferty dotyczącej projektu.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914369"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826001"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Szacowanie wiersza oferty opartej na projekcie
+# <a name="estimate-a-project-quote-line"></a>Szacowanie wiersza oferty projektu
 
-_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
+_**Ma zastosowanie do:** Wdrożenie uproszczone - zajmuje się fakturowaniem proforma, Project Operations dla scenariuszy opartych na zasobach / braku zapasów_
 
 Wiersz oferty opartej na projekcie zawiera szczegółowe informacje pomocne przy szacowaniu kosztów i potencjalnego przychodu związanych z pracą mającą na celu dostarczenie danego wiersza oferty.
 
@@ -24,7 +24,7 @@ Aby oszacować wiersz oferty opartej na projekcie, w wierszu oferty opartej na p
 - Ręczne tworzenie oszacowania bezpośrednio w wierszu oferty przy użyciu szczegółów wiersza oferty. 
 - Utworzenie projektu i planu projektu, a następnie skojarzenie projektu i zadań w projekcie z wierszem oferty. Proces importowania oszacowań z planu projektu na wiersz oferty na podstawie podanych informacji zostanie włączony.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Tworzenie szacowań bezpośrednio na wierszu oferty opartej na projekcie
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Tworzenie szacowań bezpośrednio na wierszu oferty projektu
 
 Aby utworzyć oszacowanie w wierszu oferty opartej na projekcie, wybierz kartę **Szczegóły wiersza oferty**. Utworzony w ten sposób wiersz będzie sumować wartość cytowaną dla danego wiersza oferty. 
 
@@ -68,8 +68,7 @@ Waluta w wierszu szczegółów oferty dotyczącym kosztu zmienia się z wartośc
 
 Obliczenia rentowności konwertują kwotę w wierszu oferty szczegółów dotyczących kosztów i sprzedaży na walutę podstawową środowiska, aby raportować ogólną obliczoną marżę oferty.
 
-> [!Uwaga
-> > Błędy zaokrąglania walut i zmienione marginesy mogą nastąpić z powodu braku aktualnych kursów wymiany. Obliczenia te należy stosować tylko w przypadku umów dotyczących projektów, ponieważ są one przybliżone i nie służą do rzeczywistych sprawozdań ustawowych lub innych, które wymagają większej precyzji zaokrąglania i świadomości skuteczności dat dla kursów wymiany.
+> [!UWAGA Błędy zaokrąglania walut i zmienione marginesy mogą nastąpić z powodu braku aktualnych kursów wymiany. Obliczenia te należy stosować tylko w przypadku umów dotyczących projektów, ponieważ są one przybliżone i nie służą do rzeczywistych sprawozdań ustawowych lub innych, które wymagają większej precyzji zaokrąglania i świadomości skuteczności dat dla kursów wymiany.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,23 +1,23 @@
 ---
-title: Mapowanie projektów i zadań do pozycji kontraktu opartego na projekcie - wersja uproszczona
+title: Mapowanie projektów i zadań do pozycji kontraktu projektu
 description: W tym artykule podano informacje na temat dodawania projektów i zadań do pozycji kontraktu oraz ich usuwania.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932539"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825072"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mapowanie projektów i zadań do wiersza kontraktu opartego na projekcie 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Mapowanie projektów i zadań do pozycji kontraktu projektu 
 
 _**Ma zastosowanie do:** Wdrożenie uproszczone - zajmuje się fakturowaniem proforma, Project Operations dla scenariuszy opartych na zasobach / braku zapasów_
 
-W pozycjach kontraktu opartych na projektach można zmapować określone zadania projektu do pozycji kontraktu.
+W pozycjach kontraktu projektu można zamapować określone zadania projektu do pozycji kontraktu.
 
 Kiedy poszczególne zadania są mapowane na pozycje kontraktu, opcje metody fakturowania, opłaty, inne niż przekroczenia, a klienci zdefiniowani w pozycji kontraktu będą miały zastosowanie wyłącznie do tych zadań specjalnych.
 
@@ -25,7 +25,7 @@ Jeśli istnieje scenariusz, w którym jedna faza projektu, na przykład faza pro
 
 Wszystkie pozostałe fazy struktury podziału prac projektu (SPP) można skojarzyć z pozycją kontraktu czasowego i na podstawie materiału.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Przypisanie pozycji kontraktu do zadań projektu
+## <a name="associate-tasks-to-project-contract-lines"></a>Przypisanie zadań do pozycji kontraktu projektu
 
 Zadania można kojarzyć z pozycjami kontraktu na karcie **Zadania płatne** na stronie **Pozycja kontraktu** lub na karcie **Rozliczanie zadań** na stronie **Projekt**.
 

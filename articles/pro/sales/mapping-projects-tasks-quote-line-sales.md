@@ -1,23 +1,23 @@
 ---
-title: Mapowanie projektów i zadań do wiersza oferty opartej na projekcie
-description: W tym artykule podano informacje na temat sposobu mapowania projektów i zadań do wiersza zadania opartego na projekcie.
+title: Mapowanie projektów i zadań do wierszy oferty projektu
+description: W tym artykule podano informacje na temat sposobu mapowania projektów i zadań do wierszy oferty projektu.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917175"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824360"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapowanie projektów i zadań do wiersza oferty opartej na projekcie
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Mapowanie projektów i zadań do wierszy oferty projektu
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-W wierszach oferty opartej na projektach można zamapować określone zadania projektu, które są już skojarzone z wierszem oferty.
+W wierszach oferty projektu można zamapować określone zadania projektu, które są już skojarzone z wierszem oferty.
 
 W przypadku mapowania zadań na wiersz oferty poniższe pozycje, które zdefiniowano w wierszu oferty, będą miały zastosowanie tylko do tych zadań:
 

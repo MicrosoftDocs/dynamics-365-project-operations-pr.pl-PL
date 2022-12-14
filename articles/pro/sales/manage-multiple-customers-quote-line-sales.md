@@ -1,23 +1,23 @@
 ---
-title: Zarządzanie wieloma klientami w wiersza oferty opartej na projekcie - wersja uproszczona
-description: W tym artykule opisano sposób zarządzania wieloma klientami w wierszach oferty opartej na projekcie.
+title: Zarządzanie wieloma klientami w wiersza oferty projektu
+description: W tym artykule opisano sposób zarządzania wieloma klientami w wierszach oferty projektu.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927801"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824452"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Zarządzanie wieloma klientami w wiersza oferty opartej na projekcie - wersja uproszczona
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Zarządzanie wieloma klientami w wiersza oferty projektu
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-Wiersze oferty oparte na projekcie obsługują scenariusze, w których każdy wiersz oferty zawiera listę klientów, którzy za niego płacą. Ta lista klientów w wierszu oferty opartej na projekcie może być identyczna z listą klientów z oferty. Można również zmienić listę klientów, aby się różniła. Po wykorzystaniu oferty projektu lista klientów w wierszu oferty opartej na projekcie jest kopiowana do odpowiedniego wiersza kontraktu opartego na projekcie w celu utworzenia ostatecznego kontraktu dotyczącego projektu. Klienci z oferty opartej na projekcie są kopiowani do kontraktu dotyczącego projektu.
+Wiersze oferty projektu obsługują scenariusze, w których każdy wiersz oferty zawiera listę klientów, którzy za niego płacą. Ta lista klientów w wierszu oferty opartej na projekcie może być identyczna z listą klientów z oferty. Można również zmienić listę klientów, aby się różniła. Po wykorzystaniu oferty projektu lista klientów w wierszu oferty opartej na projekcie jest kopiowana do odpowiedniego wiersza kontraktu opartego na projekcie w celu utworzenia ostatecznego kontraktu dotyczącego projektu. Klienci z oferty opartej na projekcie są kopiowani do kontraktu dotyczącego projektu.
 
 Po zafakturowaniu ostatecznego kontraktu dotyczącego projektu lista klientów w pozycji kontraktu opartej na projekcie ma priorytet nad listą w kontrakcie projektu. Lista klientów w kontrakcie dotyczącym projektu jest używana tylko w przypadku wartości domyślnych w nowych pozycjach kontraktu projektu.
 

@@ -1,21 +1,21 @@
 ---
 title: Wycena wierszy oferty opartej na produkcie
 description: W tym artykule przedstawiono informacje na temat stosowania kosztu własnego do wiersza oferty opartej na produktach.
-author: ruhercul
+author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: ruhercul
-ms.openlocfilehash: 23eb3d29081769347d62098534a9863fd28fa90c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.author: rumant
+ms.openlocfilehash: a8b3569ff217f6fc62606dae4292be14f9d3358c
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932585"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825625"
 ---
 # <a name="costing-product-based-quote-lines"></a>Wycena wierszy oferty opartej na produkcie
 
-_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
+_**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
 
 Wiersze oferty opartej na produkcie w rozwiązaniu Dynamics 365 Project Operations mają również pole **Koszt własny**. To pole jest używane do śledzenia kosztu własnego produktu w wierszu oferty oraz na potrzeby obliczeń opłacalności na niższych poziomach.

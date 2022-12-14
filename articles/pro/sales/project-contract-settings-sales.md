@@ -1,17 +1,17 @@
 ---
-title: Ustawienia kontraktu projektu - wersja uproszczona
-description: W tym artykule przedstawiono informacje o polach, które mają wpływ na pozycje kontraktu, oraz informacje dotyczące kontraktu sumowane dla wszystkich pozycji.
+title: Szczegóły nagłówka dla kontraktów projektu
+description: W tym artykule przedstawiono informacje pół i informacji oraz kontraktach projektu w aplikacji Project Operations.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f648113f54257e2c303cb2729e282d70f818d838
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917083"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824922"
 ---
 # <a name="header-details-for-project-contracts"></a>Szczegóły nagłówka dla kontraktów projektu
 

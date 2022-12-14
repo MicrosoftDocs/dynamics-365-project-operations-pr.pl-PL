@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911655"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826095"
 ---
 # <a name="manage-project-quotes"></a>Zarządzanie ofertami projektu
 
@@ -23,7 +23,7 @@ W rozwiązaniu Dynamics 365 Project Operations wyceny projektów są zaprojektow
   - Szczegóły pozycji oferty umożliwiające identyfikację i ocenę pracy każdej części składowej wysokiego poziomu lub pozycji oferty. Harmonogram lub szacunki dat i aspekty finansowe prac są powiązane z tą linią oferty.
   - Modele i składniki dla instytucji zamawiających są ustawiane dla każdego wiersza oferty. Dzięki tej konfiguracji można oszacować rozprzestrzenianie przychodów, wydatków i zyskowności dla każdego wiersza oferty i całej oferty.
 
-## <a name="view-all-project-based-quotes"></a>Zobacz wszystkie oferty oparte na projektach
+## <a name="view-all-project-quotes"></a>Wyświetl wszystkie oferty projektu
 
 Listę wszystkich ofert projektów można zobaczyć na stronie listy **Oferty**. 
 

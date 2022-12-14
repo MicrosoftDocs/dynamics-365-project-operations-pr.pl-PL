@@ -1,31 +1,29 @@
 ---
-title: Zarządzaj potencjalnymi klientami
+title: Zarządzanie potencjalnymi klientami opartymi na projektach
 description: W tym artykule przedstawiono informacje na temat zarządzania potencjalnymi klientami opartymi na projekcie.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920211"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825813"
 ---
-# <a name="manage-leads"></a>Zarządzaj potencjalnymi klientami
+# <a name="manage-project-based-leads"></a>Zarządzanie potencjalnymi klientami opartymi na projektach
 
 _**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
 Potencjalni klienci oparci na projekcie mogą być zarządzani i kwalifikowani w Project Operations. Proces zarządzania potencjalnymi klientami obejmuje tworzenie potencjalnych klientów i kwalifikowanie ich. 
 
-## <a name="project-sales-leads"></a>Potencjalni klienci projektu
-
 W sekcji **Sprzedaż** w lewym okienku nawigacji otwórz stronę listy **Potencjalni klienci**, aby wyświetlić listę wszystkich rekordów potencjalnych klientów w systemie. Lista wyświetlanych potencjalnych klientów jest oparta na pracach i innych typach potencjalnych klientów, których można utworzyć w przypadku, gdy użytkownik ma także dostęp do Dynamics 365 Sales i Dynamics 365 Field Service.
 
 Można utworzyć widok filtrowany, aby wyświetlić tylko potencjalnych klientów opartych na projektach, tworząc filtr dla wartości **Typu**. Można na przykład wybrać opcję, aby byli wyświetlani tylko potencjalni klienci w danym miejscu.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Utwórz nowego potencjalnego klienta dla transakcji opartej na projekcie
+## <a name="create-a-new-project-based-lead"></a>Tworzenie nowego potencjalnego klienta opartego na projekcie 
 
 Zakwalifikowanie potencjalnego klienta opartego na projekcie powoduje utworzenie szansy sprzedaży i konta. Szansa sprzedaży oparta na projekcie jest punktem początkowym wykonywania działań dotyczących sprzedaży w fazie szansy sprzedaży. Szanse sprzedaży na podstawie projektu są unikatowe, wymagane do sprzedaży pracy nad projektem. Dostępne są następujące możliwości:
 

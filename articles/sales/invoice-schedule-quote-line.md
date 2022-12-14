@@ -1,27 +1,27 @@
 ---
-title: Harmonogramy fakturowania w wierszach oferty opartej na projekcie
+title: Harmonogramy fakturowania w wierszach oferty projektu
 description: W tym artykule przedstawiono informacje na temat tworzenia harmonogramów i punktów kontrolnych faktur dla wierszy oferty.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918325"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825767"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Harmonogramy fakturowania w wierszach oferty opartej na projekcie
+# <a name="invoice-schedules-on-project-quote-lines"></a>Harmonogramy fakturowania w wierszach oferty projektu
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 
-Pozycja oferty opartej na projekcie daje możliwość wyrażenia planu fakturowania. Ta funkcja jest opcjonalna podczas fazy oferty, ponieważ aplikacja nie obsługuje fakturowania projektu, jeśli jest on powiązany z wierszem oferty. Fakturowanie jest dozwolone tylko po wykorzystaniu oferty. Podczas fazy oferty jedyny wpływ zmian w dalszych etapach związany z tworzeniem harmonogramu fakturowania polega na tym, że harmonogram faktury jest kopiowany do pozycji kontraktu opartej na projekcie. Jeśli nie utworzysz harmonogramu fakturowania podczas fazy oferty, będzie można wykonać tę czynność w pozycji kontraktu opartej na projekcie.
+Pozycja oferty projektu daje możliwość wyrażenia planu fakturowania. Ta funkcja jest opcjonalna podczas fazy oferty, ponieważ aplikacja nie obsługuje fakturowania projektu, jeśli jest on powiązany z wierszem oferty. Fakturowanie jest dozwolone tylko po wykorzystaniu oferty. Podczas fazy oferty jedyny wpływ zmian w dalszych etapach związany z tworzeniem harmonogramu fakturowania polega na tym, że harmonogram faktury jest kopiowany do pozycji kontraktu opartej na projekcie. Jeśli nie utworzysz harmonogramu fakturowania podczas fazy oferty, będzie można wykonać tę czynność w pozycji kontraktu opartej na projekcie.
 
 Generalnie harmonogramy fakturowania umożliwiają automatyczne tworzenie projektów faktur dla pozycji kontraktu opartego na projektach. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Tworzenie harmonogramu fakturowania typu czas i materiały dla wiersza oferty opartej na projekcie
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Tworzenie harmonogramu fakturowania typu czas i materiały dla wiersza oferty projektu
 
 Kiedy metoda fakturowania w wierszu oferty opartej na projekcie to czas i materiały, system generuje harmonogram fakturowania opartego na datach. Aby automatycznie wygenerować harmonogram faktur zależnych od dat, należy wykonać następujące kroki.
 
@@ -36,7 +36,7 @@ Kiedy metoda fakturowania w wierszu oferty opartej na projekcie to czas i materi
     - **Ostateczny termin transakcji** jest ustawiany na dzień wcześniej niż **Data przebiegu fakturowania**.
     - **Stan przebiegu** jest automatycznie ustawiany jako **Nie uruchomiony**. Kiedy zadanie automatycznego tworzenia faktury jest uruchamiane na określoną datę rozpoczęcia fakturowania, spowoduje to zaktualizowanie tego pola na wartość **Przebieg pomyślny** albo **Przebieg nieudany**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Tworzenie harmonogramu fakturowania o stałej cenie dla wiersza oferty opartej na projekcie
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Tworzenie harmonogramu fakturowania o stałej cenie dla wiersza oferty projektu
 
 Kiedy wiersz oferty opartej na projekcie ma **Stałą** metodę fakturowania, system tworzy harmonogram faktur według typu punktu kontrolnego. Wykonaj poniższe kroki, aby automatycznie wygenerować harmonogram dla ustalonych zestawów punktów kontrolnych, które są równo dystrybuowane za dany okres kalendarzowy.
 

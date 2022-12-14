@@ -1,17 +1,17 @@
 ---
-title: Oferty - Kluczowe pojęcia - wersja uproszczona
+title: Pojęcia unikalne dla ofert Projektu
 description: W tym artykule przedstawiono informacje na temat używania ofert projektów w aplikacji Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916991"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825907"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Pojęcia unikalne dla ofert Projektu
 
@@ -82,9 +82,13 @@ Harmonogramy fakturowania są specyficzne dla każdego wiersza oferty i są rów
 
 Oferty Project Operations są oparte na ofertach Dynamics 365 Sales. Należy jednak pamiętać o pewnych zasadniczych różnicach funkcjonalnych:
 
-- Działania **Popraw** i **Aktywuj** nie są obsługiwane.
+
 - Oferty Project Operations są dwoma różnymi typami wierszy. Jedna dla projektów, a drugi produktów.
 - Oferty Project Operations mają własne elementy formularzy i UI, reguły biznesowe, logikę biznesową w dodatkach plug-in oraz skrypty po stronie klienta, które sprawiają, że różnią się od ofert Sales.
+- Oferty sprzedaży umożliwiają dołączanie wielu zamówień do oferty sprzedaży. W Project Operations do oferty projektu można dołączyć tylko jeden kontrakt dotyczący projektu.
+- Po wygraniu oferty sprzedaży pozostała szansa sprzedaży może pozostać otwarta. Po wygraniu oferty projektu pokrewna szansa sprzedaży jest zamykana.
+- Oferta sprzedaży nie zawiera żadnych pól i koncepcji zawartych w ofercie projektu. Pola obejmują **jednostkę kontraktującą**, **menedżera klienta** oraz **Imię i nazwisko kontaktu u płatnika**.  
+- **Typ**: Oferty sprzedaży i oferty projektu są również identyfikowane za pośrednictwem pola opartego na zestawie opcji pod nazwą **Typ**. W przypadku oferty sprzedaży w tym polu jest określana wartość **na podstawie towaru**. W przypadku oferty projektu jest to wartość **na podstawie pracy**.
 
 Z tych powodów nie jest zalecane korzystanie z oferty Sales i Project Operations wymiennie.
 

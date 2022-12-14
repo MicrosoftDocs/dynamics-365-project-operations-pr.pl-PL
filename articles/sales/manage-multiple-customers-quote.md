@@ -1,23 +1,23 @@
 ---
-title: Zarządzanie wieloma klientami w ofercie projektu
+title: Zarządzanie wieloma klientami w wierszu oferty projektu
 description: W tym artykule przedstawiono informacje na temat pracy z ofertami obejmującymi wielu klientów, którzy będą finansować projekt.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928215"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825162"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Zarządzanie wieloma klientami w ofercie projektu
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Zarządzanie wieloma klientami w wierszu oferty projektu
 
-_**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
+_**Zastosowane do:** Project Operations dla zasobów/scenariuszy nieopartych na zaopatrzeniu_
 
-Oferty projektów obsługują scenariusz polegający na tym, że dana oferta obejmuje wielu klientów, którzy będą finansować transakcję. Na karcie **Podsumowanie** oferty znajduje się pole **Potencjalni klienci**, które identyfikuje podstawowego klienta transakcji. Innych klientów w ramach transakcji można skonfigurować na karcie **Klienci** w ofercie projektu.
+Oferty oparte na projekcie obsługują scenariusz polegający na tym, że dana oferta obejmuje wielu klientów, którzy będą finansować transakcję. Na karcie **Podsumowanie** oferty znajduje się pole **Potencjalni klienci**, które identyfikuje podstawowego klienta transakcji. Innych klientów w ramach transakcji można skonfigurować na karcie **Klienci** w ofercie projektu.
 
 Wszyscy klienci oferty na karcie **Klienci** w ofercie projektu domyślnie stają się klientami wiersza oferty dla wszystkich **nowych** wierszy oferty opartej na projekcie tworzonych dla oferty projektu. Żadne istniejące wiersze oferty opartej na projekcie nie odziedziczą nowych rekordów klientów oferty utworzonych po ich utworzeniu.
 

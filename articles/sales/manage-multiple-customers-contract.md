@@ -1,19 +1,19 @@
 ---
-title: Zarządzanie wieloma klientami w kontraktach projektu
-description: W tym artykule przedstawiono informacje na temat sposobu zarządzania wieloma klientami w kontrakcie projektu.
+title: Zarządzanie wieloma klientami w pozycjach kontraktu projektu
+description: W tym artykule przedstawiono informacje na temat sposobu zarządzania wieloma klientami w kontrakcie opartym na projekcie.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1aae178830d7b671c33295ca6d2910ee4be2f8dd
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928353"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825392"
 ---
-# <a name="manage-multiple-customers-on-project-contracts"></a>Zarządzanie wieloma klientami w kontraktach projektu
+# <a name="manage-multiple-customers-on-project-based-contracts"></a>Zarządzanie wieloma klientami w pozycjach kontraktu projektu
 
 W tym artykule przedstawiono informacje na temat sposobu zarządzania wieloma klientami w kontrakcie projektu. Kontraktu projektu można użyć, jeśli trzeba zawrzeć umowę kontraktową dotyczącą wielu klientów w celu finansowania transakcji. Na stronie **Kontrakt projektu** na karcie **Podsumowanie** znajdują się informacje dotyczące podstawowego klienta transakcji. Innych klientów uczestniczących w transakcji można dodać do karty **Klienci**.
 

@@ -1,19 +1,19 @@
 ---
-title: Kopiowanie ofert opartych na projekcie
-description: W tym artykule przedstawiono informacje na temat sposobu kopiowania ofert opartych na projekcie w aplikacji Project Operations.
+title: Kopiowanie ofert projektu
+description: W tym artykule przedstawiono informacje na temat sposobu kopiowania ofert opartych projektu w aplikacji Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6c3b964d89d6d24ae5d32dd9e5e79fcd1e90c19d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4f865a4c8a541d6a9c92c5f58a4ed2ed32891eb0
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914921"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825320"
 ---
-# <a name="copy-project-based-quotes"></a>Kopiowanie ofert opartych na projekcie
+# <a name="copy-project-quotes"></a>Kopiowanie ofert projektu
 
 _**Ma zastosowanie do:** Project Operations dotyczące scenariuszy z zasobami i zasobami niemagazynowanymi, lekkiego wdrażania — od transakcji do fakturowania proforma_
 

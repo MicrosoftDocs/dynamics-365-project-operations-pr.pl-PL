@@ -1,23 +1,23 @@
 ---
-title: Konfigurowanie odpłatnych składników pozycji kontraktu opartego na projekcie
+title: Konfigurowanie odpłatnych składników w pozycji kontraktu projektu
 description: W tym artykule przedstawiono informacje na temat dodawania składników odpłatnych do pozycji kontraktu w aplikacji Project Operations.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0e4118e8e56d45ef75f53d828e267a8a9c1c903a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 33296c93964cc88499e7a98d499b99463e59d62a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922971"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825578"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfigurowanie odpłatnych składników pozycji kontraktu opartego na projekcie
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Konfigurowanie odpłatnych składników w pozycji kontraktu projektu
 
 _**Ma zastosowanie do:** Wdrożenie uproszczone - zajmuje się fakturowaniem proforma, Project Operations dla scenariuszy opartych na zasobach / braku zapasów_
 
-Pozycja kontraktu oparta na projekcie zawiera składniki typu *dołączane* i *odpłatne*.
+Pozycja kontraktu projektu zawiera składniki typu *dołączane* i *odpłatne*.
 
 Dołączone składniki to składniki, które:
 

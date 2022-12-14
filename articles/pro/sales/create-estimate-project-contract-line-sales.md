@@ -1,32 +1,32 @@
 ---
-title: Szacowanie pozycji kontraktu opartego na projekcie - wersja uproszczona
+title: Szacowanie pozycji kontraktu projektu
 description: W tym artykule przedstawiono informacje na temat szacowania pozycji kontraktu opartych na projekcie.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914415"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824781"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Szacowanie pozycji kontraktu opartego na projekcie - wersja uproszczona
+# <a name="estimate-a-project-contract-line"></a>Szacowanie pozycji kontraktu projektu
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
-W Dynamics 365 Project Operations pozycja kontraktu oparta na projektach zawiera szczegółowe informacje pomocne w oszacowaniu kosztu i potencjalnego przychodu pozostałej pracy związanej z pozycjami kontraktu.
+W Dynamics 365 Project Operations wiersz pozycji kontraktu projektu zawiera szczegółowe informacje pomocne w oszacowaniu kosztu i potencjalnego przychodu pozostałej pracy związanej z pozycjami kontraktu.
 
-Aby oszacować pozycje kontraktu oparte na projektach, przejdź do karty **Szczegóły pozycji kontraktu** w **Pozycji kontraktu** projektu.  Istnieją dwa sposoby tworzenia oszacowania w pozycji kontraktu opartym na projekcie:
+Aby oszacować pozycje kontraktu projektu, przejdź do karty **Szczegóły pozycji kontraktu** w **Pozycji kontraktu** projektu.  Istnieją dwa sposoby tworzenia oszacowania w pozycji kontraktu opartym na projekcie:
 
    - Aby utworzyć szacowaną bezpośrednio w pozycji kontraktu, należy ręcznie dodać szczegóły pozycji kontraktu.
    - Utworzenie projektu i planu projektu, a następnie skojarzenie projektu i zadań z pozycją kontraktu projektu. Umożliwia to proces importowania oszacowania planu projektu do pozycji kontraktu na podstawie składników zawartych w pozycji kontraktu.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Tworzenie oszacowania bezpośrednio w pozycji kontraktu opartego na projekcie
 
-Aby utworzyć szacowanie bezpośrednio na podstawie wiersza kontraktu opartego na projekcie, wykonaj następujące kroki:
+Aby utworzyć szacowanie bezpośrednio w wierszu umowy dotyczącej projektu, wykonaj następujące kroki:
 
 1. Przejdź do pozycji kontraktu i wybierz kartę **Szczegóły pozycji kontraktu** . Wiersze utworzone na tej karcie są sumowane i wyświetlane jako **Wartość kontraktu** dla danej **Pozycji kontraktu**. 
 2. W podsiatce **Szczegóły pozycji kontraktu** wybierz pozycję **Nowe szczegóły pozycji kontraktu**. Zostanie otwarty suwak szybkiego tworzenia. Na stronie **Szczegóły wiersza kontraktu** są dostępne następujące pola.

@@ -1,5 +1,5 @@
 ---
-title: Zamknięcie oferty - wersja uproszczona
+title: Zamykanie ofert projektu
 description: W tym artykule przedstawiono informacje na temat zamykania oferty w aplikacji Project Operations.
 author: rumant
 ms.date: 10/01/2020
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4335fa5467640af840c0f68a648c9b8a6864d834
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pl-PL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916945"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826189"
 ---
-# <a name="close-a-quote---lite"></a>Zamknięcie oferty - wersja uproszczona
+# <a name="close-project-quotes"></a>Zamykanie ofert projektu
 
 _**Zastosowane w:** Wdrażanie uproszczone — od okazji do faktury pro forma_
 
@@ -30,7 +30,7 @@ Jeśli oferta jest powiązana z szansą sprzedaży, wszystkie inne oferty projek
 
 Jeśli istnieją jakiekolwiek wartości rzeczywiste dotyczące czasu w projekcie, gdy jest on nadal dołączony do projektu wyceny, rejestrowany jest tylko koszt czasu lub wydatków. Po zamknięciu oferty jako wykorzystanej aplikacja przeliczy koszty odwracając starsze koszty w wartościach rzeczywistych i tworząc nowe wartości rzeczywiste kosztów. Aplikacja będzie przetwarzać te same koszty według metody rozliczania w skojarzonej pozycji kontraktu projektu. Jeśli wartości rzeczywiste kosztu odnoszą się do wiersza kontraktu dotyczącego czasu i materiałów, odpowiednie niezafakturowane wartości rzeczywiste sprzedaży są tworzone na czas zamknięcia oferty i utworzenia umowy dotyczącej projektu. Jeśli wartości rzeczywiste kosztu odnoszą się do wiersza umowy o stałej cenie, aplikacja przestanie ponownie przetwarzać wartości rzeczywiste kosztów, które są oparte na regułach rozliczenia podziału dla klientów objętych umową dotyczącą projektu.
 
-## <a name="closing-a-quote-as-lost"></a>Zamykanie oferty jako utraconej:
+## <a name="closing-a-quote-as-lost"></a>Zamykanie oferty jako utraconej
 
 Kiedy zamkniesz wycenę projektu jako Utracone, stan jest ustawiony na Zamknięty, a przyczyna statusu to Utracone. Zamknięcie oferty powoduje, że projekt przejdzie w tryb tylko do odczytu. Ponieważ nie można ponownie otworzyć zamkniętej oferty, przed zamknięciem oferty zostanie wyświetlone okno dialogowe potwierdzenia zmian.
 
