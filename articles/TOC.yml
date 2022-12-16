@@ -846,7 +846,7 @@
               items:
                 - name: Kontrakty oparte na zaliczkach i zatrzymaniach
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Konfigurowanie harmonogramu zatrzymywaniaKonfigurowanie harmonogramu zatrzymywania
+                - name: Konfigurowanie harmonogramu zatrzymywania
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Tworzenie przedpłaty ad hoc w kontrakcie projektu
                   href: pro/sales/create-ad-hoc-advance-sales.md
